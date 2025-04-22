@@ -1,4 +1,6 @@
-export const subServices = [
+import { SubService } from "../interfaces&types/services";
+
+export const subServices: SubService[] = [
   // Wellness Programs
   {
     id: "personalized-wellness",
@@ -6,6 +8,8 @@ export const subServices = [
     title: "Personalized Wellness Journey",
     description:
       "Custom 8-week holistic program integrating nutrition, fitness, and mindfulness.",
+    introduction:
+      "A comprehensive lifestyle transformation plan tailored to your body, habits, and goals.",
     tiers: [
       { tier: "basic", description: "Initial assessment + Weekly plans" },
       { tier: "growth", description: "Includes bi-weekly coaching calls" },
@@ -22,6 +26,8 @@ export const subServices = [
     title: "Hormonal Balance Protocol",
     description:
       "Balance key hormones through natural interventions, lab insights, and lifestyle shifts.",
+    introduction:
+      "A targeted approach to understanding and correcting hormonal imbalances using natural and science-backed methods.",
     tiers: [
       {
         tier: "basic",
