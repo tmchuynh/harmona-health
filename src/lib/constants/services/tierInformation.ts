@@ -1,4 +1,4 @@
-import { ServiceTierInformation } from "../interfaces&types/services";
+import { ServiceTierInformation } from "@/lib/interfaces&types/services";
 
 export const serviceTierInformation: ServiceTierInformation[] = [
   {

@@ -1,4 +1,4 @@
-import { SubService } from "../interfaces&types/services";
+import { SubService } from "@/lib/interfaces&types/services";
 
 export const subServices: SubService[] = [
   // Wellness Programs

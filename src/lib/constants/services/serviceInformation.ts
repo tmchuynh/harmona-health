@@ -1,4 +1,4 @@
-import { SubServiceInformation } from "../interfaces&types/services";
+import { SubServiceInformation } from "@/lib/interfaces&types/services";
 
 export const subServiceInformation: SubServiceInformation[] = [
   {
