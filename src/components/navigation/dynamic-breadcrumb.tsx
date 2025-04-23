@@ -7,87 +7,206 @@ import {
   clipString,
   compareStringWordCount,
 } from "@/lib/utils/format";
+import { generateRandomString } from "@/lib/utils/sort";
 import {
-  Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
-  BreadcrumbList,
+  BreadcrumbSeparator,
 } from "@/ui/breadcrumb";
-
 import { usePathname } from "next/navigation";
-import { JSX } from "react";
+import { JSX, useMemo } from "react";
+import { FaLeaf } from "react-icons/fa";
 
-const formatSegment = (segment: string): string => {
-  const label = capitalize(segment);
-  return compareStringWordCount(label, 4) ? label : clipString(label, 15);
-};
-
-export default function DynamicBreadcrumb(): JSX.Element {
-  const pathname = usePathname();
+export default function DynamicBreadcrumb(): JSX.Element | null {
   const isSmallScreen = useSmallScreen();
   const isMediumScreen = useMediumScreen();
+  const pathname = usePathname();
 
-  const pathSegments = pathname.split("/").filter(Boolean);
+  const pathSegments = useMemo(
+    () =>
+      pathname
+        .split("/")
+        .filter(Boolean)
+        .map((segment) => decodeURIComponent(segment)),
+    [pathname]
+  );
 
-  const breadcrumbs = pathSegments.map((segment, index) => {
-    const href = "/" + pathSegments.slice(0, index + 1).join("/");
-    const isLast = index === pathSegments.length - 1;
-    const label = formatSegment(segment);
+  // Detect if this is a 404 page based on known structure
+  const isNotFoundPage = pathSegments.includes("not-found");
 
-    return (
-      <BreadcrumbItem key={href}>
-        {isLast ? (
-          <span>{label}</span>
-        ) : (
+  const capitalizedSegments = useMemo(
+    () =>
+      pathSegments.map((segment, index) =>
+        index === pathSegments.length - 1 && isNotFoundPage
+          ? "Not Found"
+          : capitalize(segment)
+      ),
+    [pathSegments, isNotFoundPage]
+  );
+
+  const breadcrumbItems = useMemo(() => {
+    if (pathname === "/") return null;
+
+    const items: JSX.Element[] = [];
+
+    const renderItem = (
+      href: string,
+      segment: string,
+      index: number,
+      isLast: boolean
+    ) => {
+      const content =
+        compareStringWordCount(segment, 3) && !isLast
+          ? clipString(segment, 15)
+          : segment;
+
+      const r = generateRandomString(5);
+
+      console.log(
+        `href: ${href}, segment: ${segment}, index: ${index}, isLast: ${isLast}, r: ${r}`
+      );
+
+      return (
+        <BreadcrumbItem
+          key={`${href}-${segment}-${index}-${isLast}=${r}`}
+          className="mx-1"
+        >
           <BreadcrumbLink
             href={href}
-            className="text-blue-500 hover:underline transition"
+            className="py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
           >
-            {label}
+            {content}
           </BreadcrumbLink>
-        )}
-      </BreadcrumbItem>
-    );
-  });
+        </BreadcrumbItem>
+      );
+    };
 
-  let visibleBreadcrumbs: JSX.Element[] = [];
+    if (isSmallScreen) {
+      items.push(
+        <BreadcrumbItem key="dots" className="-mx-1">
+          <span className="rounded-md">...</span>
+        </BreadcrumbItem>
+      );
 
-  if (isSmallScreen) {
-    if (breadcrumbs.length) {
-      visibleBreadcrumbs = [breadcrumbs[breadcrumbs.length - 1]];
+      const currentHref = `/${pathSegments.join("/")}`;
+      const currentSegment = capitalizedSegments[pathSegments.length - 1];
+
+      items.push(
+        <BreadcrumbSeparator
+          key={`sep-${currentHref}`}
+          className="ml-1 dark:text-fancy"
+        >
+          <FaLeaf />
+        </BreadcrumbSeparator>
+      );
+
+      items.push(
+        renderItem(currentHref, currentSegment, pathSegments.length - 1, true)
+      );
+    } else if (isMediumScreen && !isSmallScreen) {
+      items.push(
+        <BreadcrumbItem key="home" className="mx-1">
+          <BreadcrumbLink
+            href="/"
+            className="px-1 py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
+          >
+            Home
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+      );
+
+      if (pathSegments.length > 2) {
+        const href = `/${pathSegments.slice(0, 2).join("/")}`;
+        const segment = capitalizedSegments[1];
+
+        items.push(
+          <BreadcrumbSeparator key="sep-2" className="ml-1 dark:text-fancy">
+            <FaLeaf />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(renderItem(href, segment, 1, false));
+      } else if (pathSegments.length > 1) {
+        const href = `/${pathSegments.join("/")}`;
+        const lastSegment = capitalizedSegments[capitalizedSegments.length - 1];
+
+        items.push(
+          <BreadcrumbSeparator key="sep-last" className="ml-1 dark:text-fancy">
+            <FaLeaf />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          renderItem(href, lastSegment, pathSegments.length - 1, true)
+        );
+      }
+
+      if (pathSegments.length > 0) {
+        const href = `/${pathSegments.join("/")}`;
+        const lastSegment = capitalizedSegments[capitalizedSegments.length - 1];
+        items.push(
+          <BreadcrumbSeparator key="sep-1" className="ml-1 dark:text-fancy">
+            <FaLeaf />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          renderItem(href, lastSegment, pathSegments.length - 1, true)
+        );
+      }
+    } else {
+      items.push(
+        <BreadcrumbItem key="home" className="mx-1">
+          <BreadcrumbLink
+            href="/"
+            className="px-1 py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
+          >
+            Home
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+      );
+
+      pathSegments.forEach((_, index) => {
+        const href = `/${pathSegments.slice(0, index + 1).join("/")}`;
+        const segment = capitalizedSegments[index];
+
+        items.push(
+          <BreadcrumbSeparator
+            key={`sep-${href}`}
+            className="mx-4 dark:text-fancy"
+          >
+            <FaLeaf />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          renderItem(href, segment, index, index === pathSegments.length - 1)
+        );
+      });
     }
-  } else if (isMediumScreen) {
-    const lastTwo = breadcrumbs.slice(-2);
-    visibleBreadcrumbs = [
-      <BreadcrumbItem key="home">
-        <BreadcrumbLink
-          href="/"
-          className="text-blue-500 hover:underline transition"
-        >
-          Home
-        </BreadcrumbLink>
-      </BreadcrumbItem>,
-      ...lastTwo,
-    ];
-  } else {
-    visibleBreadcrumbs = [
-      <BreadcrumbItem key="home">
-        <BreadcrumbLink
-          href="/"
-          className="text-blue-500 hover:underline transition"
-        >
-          Home
-        </BreadcrumbLink>
-      </BreadcrumbItem>,
-      ...breadcrumbs,
-    ];
-  }
+
+    return items;
+  }, [
+    pathname,
+    pathSegments,
+    capitalizedSegments,
+    isSmallScreen,
+    isMediumScreen,
+    isNotFoundPage,
+  ]);
+
+  if (!breadcrumbItems) return null;
 
   return (
-    <Breadcrumb className="px-4 py-2 w-full">
-      <BreadcrumbList className="bg-gray-50 shadow-sm px-4 py-2 rounded-lg">
-        {visibleBreadcrumbs}
-      </BreadcrumbList>
-    </Breadcrumb>
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+      <nav
+        aria-label="Breadcrumb"
+        className="flex flex-row items-center gap-2 w-full text-xs lg:text-sm"
+      >
+        <ul className="flex flex-row items-center gap-2 px-4 font-[FiraSans]">
+          {breadcrumbItems}
+        </ul>
+      </nav>
+    </div>
   );
 }
