@@ -3,6 +3,7 @@
 import { ThemeProvider } from "next-themes";
 import { JSX, ReactNode } from "react";
 import { NotFoundProvider } from "./context/NotFoundContext";
+import { ThemeProvider as MasterialTheme } from "@material-tailwind/react";
 
 /**
  * Providers component that wraps its children with a ThemeProvider.
@@ -15,7 +16,9 @@ import { NotFoundProvider } from "./context/NotFoundContext";
 export function Providers({ children }: { children: ReactNode }): JSX.Element {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
-      <NotFoundProvider>{children}</NotFoundProvider>
+      <MasterialTheme>
+        <NotFoundProvider>{children}</NotFoundProvider>
+      </MasterialTheme>
     </ThemeProvider>
   );
 }
