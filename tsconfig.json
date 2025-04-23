@@ -23,10 +23,9 @@
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@ui/*": ["src/components/ui/*"],
+      "@ui/*": ["src/ui/*"],
       "@lib/*": ["src/lib/*"],
       "@utils/*": ["src/lib/utils/*"],
-      "@ui-screens/*": ["src/lib/utils/screens/*"],
       "@context/*": ["src/context/*"],
       "@constants/*": ["src/lib/constants/*"],
       "@hooks/*": ["src/hooks/*"]
