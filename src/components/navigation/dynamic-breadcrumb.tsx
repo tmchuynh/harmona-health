@@ -12,7 +12,7 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbSeparator,
-} from "@/ui/breadcrumb";
+} from "@/components/ui/breadcrumb";
 import { usePathname } from "next/navigation";
 import { JSX, useMemo } from "react";
 import { FaLeaf } from "react-icons/fa";
