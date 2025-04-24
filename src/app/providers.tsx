@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "next-themes";
 import { JSX, ReactNode } from "react";
-import { NotFoundProvider } from "./context/NotFoundContext";
+import { NotFoundProvider } from "../context/NotFoundContext";
 import { CurrencyProvider } from "@/context/currencyContext";
 
 /**
