@@ -163,9 +163,13 @@ export function GalleryWithTab() {
           </TabsTrigger>
         ))}
       </TabsList>
-      <TabsContent className="gap-4 grid grid-cols-1">
+      <div className="gap-4 grid grid-cols-1">
         {data.map(({ value, images }) => (
-          <div className="gap-4 grid grid-cols-2 md:grid-cols-3" key={value}>
+          <TabsContent
+            value={value}
+            className="gap-4 grid grid-cols-2 md:grid-cols-3"
+            key={value}
+          >
             {images?.map(({ imageLink }, index) => (
               <div key={index}>
                 <img
@@ -175,9 +179,9 @@ export function GalleryWithTab() {
                 />
               </div>
             ))}
-          </div>
+          </TabsContent>
         ))}
-      </TabsContent>
+      </div>
     </Tabs>
   );
 }
