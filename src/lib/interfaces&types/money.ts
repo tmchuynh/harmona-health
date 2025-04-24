@@ -22,3 +22,73 @@ export interface CountryTaxInfo {
   deMinimisVAT: number; // De minimis threshold for VAT/GST in USD
   hasImportFees: boolean; // Whether the country applies additional import processing fees
 }
+
+export type CurrencyCode = string;
+
+export type Currency = {
+  code: CurrencyCode;
+  name: string;
+  rate: number;
+};
+
+export interface CurrencyContextType {
+  selectedCurrency: Currency;
+  setSelectedCurrency: (currency: Currency) => void;
+  currency: Currency;
+  setCurrency: (currency: Currency) => void;
+  calculateImportFee: (value: number, countryCode: string) => number;
+  getImportTaxBreakdown: (
+    subtotal: number,
+    country: string
+  ) => {
+    duty: number;
+    vat: number;
+    total: number;
+    subtotal: number;
+    grandTotal: number;
+  };
+  calculateImportTaxes: (
+    subtotal: number,
+    country: string
+  ) => {
+    dutyAmount: number;
+    vatAmount: number;
+    totalImportCharges: number;
+    appliedDuty: boolean;
+    appliedVAT: boolean;
+  };
+
+  // Currency conversion
+  convertAmount: (
+    amount: number,
+    fromCurrency: string,
+    toCurrency: string
+  ) => number;
+  formatCurrency: (amount: number, currencyCode: string) => string;
+
+  // Currency rates management
+  updateExchangeRate: (currencyCode: string, newRate: number) => void;
+  getExchangeRate: (currencyCode: string) => number;
+
+  // Currency validation
+  isCurrencySupported: (currencyCode: string) => boolean;
+  getAvailableCurrencies: () => Currency[];
+
+  // Currency info
+  getCurrencySymbol: (currencyCode: string) => string;
+  getCurrencyName: (currencyCode: string) => string;
+
+  getTaxInfoByCountryCode: (countryCode: string) => CountryTaxInfo | undefined;
+  getTaxInfoByCountryName: (countryName: string) => CountryTaxInfo | undefined;
+  getTaxInfoByCurrencyCode: (
+    currencyCode: string
+  ) => CountryTaxInfo | undefined;
+  getTaxInfoByCurrencyName: (
+    currencyName: string
+  ) => CountryTaxInfo | undefined;
+  getTaxInfoByCurrency: (currency: Currency) => CountryTaxInfo | undefined;
+  getTaxInfoByCountry: (country: string) => CountryTaxInfo | undefined;
+
+  // Last updated timestamp
+  lastRatesUpdate: Date | null;
+}
