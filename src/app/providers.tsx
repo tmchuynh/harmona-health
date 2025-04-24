@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { JSX, ReactNode } from "react";
 import { NotFoundProvider } from "../context/NotFoundContext";
 import { CurrencyProvider } from "@/context/currencyContext";
+import { CartProvider } from "@/context/cartContext";
 
 /**
  * Providers component that wraps its children with a ThemeProvider.
@@ -17,7 +18,9 @@ export function Providers({ children }: { children: ReactNode }): JSX.Element {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
       <CurrencyProvider>
-        <NotFoundProvider>{children}</NotFoundProvider>
+        <CartProvider>
+          <NotFoundProvider>{children}</NotFoundProvider>
+        </CartProvider>
       </CurrencyProvider>
     </ThemeProvider>
   );
