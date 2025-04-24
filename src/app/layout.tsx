@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="relative flex flex-col min-h-screen">
         <Providers>
-          <main className="flex-grow pb-12 md:pb-0">
+          <main className="flex-grow md:pb-0">
             <FlyoutMenu />
             <DynamicBreadcrumb />
             {children}
