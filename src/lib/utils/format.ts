@@ -23,10 +23,10 @@ export function clipString(text: string, maxLength: number): string {
  *
  * @example
  * ```typescript
- * // Returns true as the string has 5 words
+ * 
  * compareStringWordCount("This is a simple example", 5);
  *
- * // Returns false as the string has 5 words
+ * 
  * compareStringWordCount("This is a simple example", 4);
  * ```
  */
@@ -107,11 +107,11 @@ export function setSlug(title: string): string {
  * @returns A formatted string with proper title case capitalization and spaces between words
  *
  * @example
- * formatItemName("the_quick_brown_fox") // Returns "The Quick Brown Fox"
- * formatItemName("a_tale_of_two_cities") // Returns "A Tale of Two Cities"
+ * formatItemName("the_quick_brown_fox") 
+ * formatItemName("a_tale_of_two_cities") 
  */
 export const formatItemName = (itemName: string) => {
-  // List of words to not capitalize
+  
   const exceptions = [
     "and",
     "or",
@@ -131,14 +131,13 @@ export const formatItemName = (itemName: string) => {
   ];
 
   return itemName
-    .split("_") // Split the item name by underscores
+    .split("_")
     .map((word, index) => {
-      // Capitalize the first word, or any word that's not an exception
       if (index === 0 || !exceptions.includes(word.toLowerCase())) {
         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
       }
-      // Keep the word in lowercase if it's in the exceptions list
+
       return word.toLowerCase();
     })
-    .join(" "); // Join the words back into a string
+    .join(" "); 
 };
