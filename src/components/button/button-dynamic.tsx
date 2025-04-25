@@ -43,7 +43,7 @@ export default function DynamicButton({
       variant={variant}
       onClick={onClick}
       className={cn(
-        "mt-2 group gap-0 flex w-full mx-auto font-[Cormorant] uppercase",
+        "mt-2 group gap-0 flex w-fit shadow-md cursor-pointer font-bold font-[Nunito] uppercase",
         {
           "inline w-fit p-0 m-0": variant === "link",
         },
@@ -51,13 +51,17 @@ export default function DynamicButton({
       )}
     >
       {Icon && (
-        <span className={cn("inline-block px-4", iconClassName)}>
+        <span
+          className={cn("inline-block px-4 text-background", iconClassName)}
+        >
           <Icon className="w-4 h-4" />
         </span>
       )}
       <span className="px-3">{children}</span>
       {Icon && variant !== "link" && (
-        <span className={cn("inline-block px-4", iconClassName)}>
+        <span
+          className={cn("inline-block px-4 text-background", iconClassName)}
+        >
           <Icon className="w-4 h-4" />
         </span>
       )}
