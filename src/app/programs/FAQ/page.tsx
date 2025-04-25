@@ -1,17 +1,28 @@
-import React from "react";
+import DynamicButton from "@/components/button/button-dynamic";
+import { FAQ } from "@/lib/constants/services/frequently-asked-questions";
+
 export default function Page() {
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
-      <h5>Blank blank blank blank</h5>
-      <h1>Blank</h1>
-
-      <p>
-        Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
-        sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute voluptate
-        sunt sint elit qui aute ea non eiusmod labore. Ea voluptate ex ullamco
-        qui aliqua qui minim voluptate ut incididunt nostrud. Cillum elit minim
-        cupidatat officia.
-      </p>
+    <div className="mx-auto py-8 xl:py-24 w-11/12">
+      <div className="lg:gap-8 lg:grid lg:grid-cols-12">
+        <div className="lg:col-span-5">
+          <h2>Frequently asked questions</h2>
+          <p className="mt-4 text-base/7 text-pretty">
+            Can’t find the answer you’re looking for? Reach out to our team.
+            <DynamicButton href="/contact">customer support</DynamicButton>
+          </p>
+        </div>
+        <div className="lg:col-span-7 mt-10 lg:mt-0">
+          <dl className="space-y-10">
+            {FAQ.map((faq) => (
+              <div key={faq.question}>
+                <dt className="font-semibold text-base/7">{faq.question}</dt>
+                <dd className="mt-2 text-base/7">{faq.answer}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
     </div>
   );
 }
