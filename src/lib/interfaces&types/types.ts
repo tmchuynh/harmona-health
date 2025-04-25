@@ -21,6 +21,7 @@ export type DynamicButtonProps = {
     | "disabled";
   text: string;
   icon?: IconType;
+  hoverIcon?: IconType;
   onClick?: () => void;
   href?: string;
   className?: string;
