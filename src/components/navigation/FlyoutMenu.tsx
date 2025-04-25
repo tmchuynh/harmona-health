@@ -23,6 +23,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { useState } from "react";
+import { ThemeToggle } from "../button/ThemeToggle";
 
 export default function FlyoutMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,7 +58,7 @@ export default function FlyoutMenu() {
         </div>
         <PopoverGroup className="lg:flex lg:gap-x-12 hidden">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6">
+            <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
               Programs
               <ChevronDownIcon
                 aria-hidden="true"
@@ -121,7 +122,7 @@ export default function FlyoutMenu() {
           ))}
 
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6">
+            <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
               Resources
               <ChevronDownIcon
                 aria-hidden="true"
@@ -175,9 +176,7 @@ export default function FlyoutMenu() {
           </Popover>
         </PopoverGroup>
         <div className="lg:flex lg:flex-1 lg:justify-end hidden">
-          <a href="#" className="font-semibold text-sm/6">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <ThemeToggle />
         </div>
       </nav>
       <Dialog
@@ -186,7 +185,7 @@ export default function FlyoutMenu() {
         className="lg:hidden"
       >
         <div className="z-10 fixed inset-0" />
-        <DialogPanel className="right-0 z-10 fixed inset-y-0 px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
+        <DialogPanel className="right-0 z-10 fixed inset-y-0 bg-background px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
           <div className="flex justify-between items-center">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -212,14 +211,35 @@ export default function FlyoutMenu() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex justify-between items-center py-2 pr-3.5 pl-3 rounded-lg w-full font-semibold text-base/7">
-                    Product
+                    Programs
                     <ChevronDownIcon
                       aria-hidden="true"
                       className="flex-none size-5 group-data-open:rotate-180"
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="space-y-2 mt-2">
-                    {[...mainPages, ...callsToAction, ...singlePage].map(
+                    {[...mainPages, ...callsToAction].map((item) => (
+                      <DisclosureButton
+                        key={item.name}
+                        as="a"
+                        href={item.href}
+                        className="block py-2 pr-3 pl-6 rounded-lg font-semibold text-sm/7"
+                      >
+                        {item.name}
+                      </DisclosureButton>
+                    ))}
+                  </DisclosurePanel>
+                </Disclosure>
+                <Disclosure as="div" className="-mx-3">
+                  <DisclosureButton className="group flex justify-between items-center py-2 pr-3.5 pl-3 rounded-lg w-full font-semibold text-base/7">
+                    Resources
+                    <ChevronDownIcon
+                      aria-hidden="true"
+                      className="flex-none size-5 group-data-open:rotate-180"
+                    />
+                  </DisclosureButton>
+                  <DisclosurePanel className="space-y-2 mt-2">
+                    {[...seccondaryPages, ...callsToActionSecondary].map(
                       (item) => (
                         <DisclosureButton
                           key={item.name}
@@ -233,34 +253,18 @@ export default function FlyoutMenu() {
                     )}
                   </DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
-                  className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
-                >
-                  Company
-                </a>
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="block -mx-3 px-3 py-2.5 rounded-lg font-semibold text-base/7"
-                >
-                  Log in
-                </a>
+                {singlePage.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
+                  >
+                    {item.name}
+                  </a>
+                ))}
               </div>
             </div>
+            <ThemeToggle />
           </div>
         </DialogPanel>
       </Dialog>

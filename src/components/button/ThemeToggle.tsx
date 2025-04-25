@@ -1,8 +1,8 @@
 "use client";
-import { Toggle } from "@radix-ui/react-toggle";
 import { useTheme } from "next-themes";
 import { JSX, useEffect, useState } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
+import { Toggle } from "../ui/toggle";
 
 /**
  * A component that provides a theme toggle button to switch between light and dark modes.
@@ -44,7 +44,7 @@ export const ThemeToggle = (): JSX.Element | null => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <div className="top-[50%] z-50 sticky mx-4 w-fit">
+    <div className="flex items-center lg:mx-4">
       <p className="sr-only">Toggle theme</p>
       <Toggle
         aria-label="Toggle theme"
