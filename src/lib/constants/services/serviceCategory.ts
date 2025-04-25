@@ -6,8 +6,9 @@ import {
   GiOfficeChair,
   GiWeightLiftingUp,
 } from "react-icons/gi";
+import { ServiceCategory } from "@/lib/interfaces&types/services";
 
-export const serviceCategories = [
+export const serviceCategories: ServiceCategory[] = [
   {
     id: "wellness-programs",
     title: "Wellness Programs",
