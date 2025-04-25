@@ -33,3 +33,24 @@ export function generateRandomString(length: number): string {
   }
   return result;
 }
+
+/**
+ * Shuffles the elements of an array using the Fisher-Yates (Knuth) shuffle algorithm.
+ * This function creates a copy of the original array, so the input array is not modified.
+ * 
+ * @template T - The type of elements in the array
+ * @param {T[]} array - The array to shuffle
+ * @returns {T[]} A new array with the same elements in a random order
+ * 
+ * @example
+ * // Returns a shuffled copy of the array
+ * const shuffled = shuffleArray([1, 2, 3, 4, 5]);
+ */
+export function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]; // Create a copy of the array to avoid mutating the original
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const randomIndex = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[i]]; // Swap elements
+  }
+  return shuffled;
+}
