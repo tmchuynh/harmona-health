@@ -1,31 +1,10 @@
 "use client";
-
+import { DynamicButtonProps } from "@/lib/interfaces&types/types";
 import { cn } from "@/lib/utils";
+import { shuffleArray } from "@/lib/utils/sort";
+import { icons } from "lucide-react";
 import React, { JSX, useEffect, useState } from "react";
 import { Button } from "../ui/button";
-import { DynamicButtonProps } from "@/lib/interfaces&types/types";
-import { FaLeaf } from "react-icons/fa";
-import {
-  GiChestnutLeaf,
-  GiMonsteraLeaf,
-  GiVineLeaf,
-  GiYinYang,
-} from "react-icons/gi";
-import { RiLeafFill } from "react-icons/ri";
-import { ImLeaf } from "react-icons/im";
-import { PiFlowerLotusDuotone } from "react-icons/pi";
-import { shuffleArray } from "@/lib/utils/sort";
-
-const icons = [
-  FaLeaf,
-  GiMonsteraLeaf,
-  GiVineLeaf,
-  ImLeaf,
-  RiLeafFill,
-  GiChestnutLeaf,
-  PiFlowerLotusDuotone,
-  GiYinYang,
-];
 
 /**
  * A dynamic button component that can display different icons on hover.
@@ -76,7 +55,7 @@ export default function DynamicButton({
   useEffect(() => {
     // Assign fallback icons if not provided
     if (!icon) {
-      let shuffled = [...icons].sort(() => 0.5 - Math.random());
+      let shuffled = Object.values(icons).sort(() => 0.5 - Math.random());
 
       // Use Date.now() and Math.random() to select the first icon
       const now = Date.now();
@@ -84,7 +63,9 @@ export default function DynamicButton({
         (now + Math.floor(Math.random() * shuffled.length)) % shuffled.length;
       const first = shuffled[index];
 
-      shuffled = shuffleArray(icons).filter((ic) => ic !== first);
+      shuffled = shuffleArray(Object.values(icons)).filter(
+        (ic) => ic !== first
+      );
       const second =
         hoverIcon || shuffled[Math.floor(Math.random() * shuffled.length)];
 
@@ -93,7 +74,8 @@ export default function DynamicButton({
     } else {
       setInitialIcon(() => icon);
       setAlternateIcon(
-        () => hoverIcon || icons.find((ic) => ic !== icon) || icon
+        () =>
+          hoverIcon || Object.values(icons).find((ic) => ic !== icon) || icon
       );
     }
   }, [icon, hoverIcon]);
