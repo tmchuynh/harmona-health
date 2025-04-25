@@ -8,22 +8,88 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { icons } from "@/lib/constants/constants";
 import { data } from "@/lib/constants/services/images";
 import { subServiceInformation } from "@/lib/constants/services/serviceInformation";
 import { subServices } from "@/lib/constants/services/services";
 import { serviceTierInformation } from "@/lib/constants/services/tierInformation";
-import { cn } from "@/lib/utils";
+import { cn, getRandomIndex } from "@/lib/utils";
 import { convertMinutesToHoursAndMinutes } from "@/lib/utils/convert";
 import { capitalize, formatCurrency } from "@/lib/utils/format";
+import { IconDisplay } from "@/lib/utils/IconDisplay";
+import { shuffleArray } from "@/lib/utils/sort";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import { FaCheckDouble } from "react-icons/fa";
+import { JSX, useEffect, useState } from "react";
+import { FaCheckDouble, FaLeaf } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
+import { PiFlowerLotusFill } from "react-icons/pi";
+
 export default function Page() {
   const segments = usePathname().split("/");
   const serviceId = segments[segments.length - 1];
 
   const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [icon, setIcon] = useState<JSX.Element>(<FaLeaf />);
+  const [secondIcon, setSecondIcon] = useState<JSX.Element>(
+    <PiFlowerLotusFill />
+  );
+
+  useEffect(() => {
+    // Check if an icon is already stored in sessionStorage
+    const storedMainIconName = sessionStorage.getItem("mainIcon");
+    const storedSecondIconName = sessionStorage.getItem("sectionIcon");
+
+    // Shuffle and select a random icon
+    let shuffledArray = shuffleArray(icons);
+    let index = getRandomIndex(shuffledArray);
+
+    if (storedMainIconName) {
+      // Find the icon by its name and set it
+      const IconComponent = icons.find(
+        (icon) => icon.name === storedMainIconName
+      );
+      if (IconComponent) {
+        setIcon(<IconComponent className="mx-auto text-lg text-primary" />);
+      }
+    } else {
+      const MainIcon = shuffledArray[index];
+
+      if (typeof MainIcon === "function") {
+        // Store the icon's name in sessionStorage
+        sessionStorage.setItem("mainIcon", MainIcon.name);
+
+        // Set the icon
+        setIcon(<MainIcon className="mx-auto text-lg text-primary" />);
+      } else {
+        console.error("Invalid icon selected:", MainIcon);
+      }
+    }
+
+    if (storedSecondIconName) {
+      // Find the icon by its name and set it
+      const IconComponent = icons.find(
+        (icon) => icon.name === storedSecondIconName
+      );
+      if (IconComponent) {
+        setIcon(<IconComponent className="mx-auto text-lg text-primary" />);
+      }
+    } else {
+      shuffledArray = shuffleArray(icons);
+      index = getRandomIndex(shuffledArray);
+      const SecondIcon = shuffledArray[index];
+      setSecondIcon(<SecondIcon className="mx-auto text-lg text-primary" />);
+
+      if (typeof SecondIcon === "function") {
+        // Store the icon's name in sessionStorage
+        sessionStorage.setItem("sectionIcon", SecondIcon.name);
+
+        // Set the icon
+        setIcon(<SecondIcon className="mx-auto text-lg text-primary" />);
+      } else {
+        console.error("Invalid icon selected:", SecondIcon);
+      }
+    }
+  }, []);
 
   useEffect(() => {
     // Check screen size on the client side
@@ -71,18 +137,28 @@ export default function Page() {
           <h5>{information.introduction}</h5>
 
           <div>
-            {information.benefits.map((benefit, index) => (
-              <p key={index} className="mb-1">
-                {benefit}
-              </p>
-            ))}
+            <h3>Program Benefits</h3>
+            <ul>
+              {information.benefits.map((benefit, index) => (
+                <li key={index} className="flex items-center mb-1">
+                  <IconDisplay Icon={secondIcon} />
+                  {benefit}
+                </li>
+              ))}
+            </ul>
           </div>
           <section className="gap-5 grid grid-cols-1 lg:grid-cols-3 py-5">
             <div>
               <h3>Key Points</h3>
               <ul>
                 {information.keypoints.map((keypoint, index) => (
-                  <li key={`${keypoint}-${index}`}>{keypoint}</li>
+                  <li
+                    key={`${keypoint}-${index}`}
+                    className="flex items-center"
+                  >
+                    <IconDisplay Icon={icon} />
+                    {keypoint}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -90,7 +166,10 @@ export default function Page() {
               <h3>Program Outcomes</h3>
               <ul>
                 {information.outcomes.map((outcome, index) => (
-                  <li key={`${outcome}-${index}`}>{outcome}</li>
+                  <li key={`${outcome}-${index}`} className="flex items-center">
+                    <IconDisplay Icon={icon} />
+                    {outcome}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -98,7 +177,11 @@ export default function Page() {
               <h3>Program Goals</h3>
               <ul>
                 {information.goals.map((goal, index) => (
-                  <li key={`${goal}-${index}`}>{goal}</li>
+                  <li key={`${goal}-${index}`} className="flex items-center">
+                    {" "}
+                    <IconDisplay Icon={icon} />
+                    {goal}
+                  </li>
                 ))}
               </ul>
             </div>
