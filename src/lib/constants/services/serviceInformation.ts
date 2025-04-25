@@ -4,7 +4,7 @@ export const subServiceInformation: SubServiceInformation[] = [
   {
     subServiceId: "personalized-wellness",
     introduction:
-      "A custom 8-week holistic program designed to align your nutrition, fitness, and mindfulness practices with your unique needs and lifestyle.",
+      "Step into a transformative experience with a personalized program that seamlessly blends your nutrition, fitness, and mindfulness practices, perfectly aligned with your unique lifestyle and needs. This isn't just a plan—it's your journey, thoughtfully crafted to elevate your well-being, boost your energy, and empower you to not only meet but exceed your goals. Every step you take is designed to unlock your full potential, helping you thrive in every aspect of life!",
     keypoints: [
       "Fully personalized 8-week plan",
       "Integrates nutrition, fitness, and mindfulness",
@@ -21,16 +21,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term lifestyle transformation",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Receive a fully customized 8-week wellness plan designed specifically for your lifestyle, personal goals, and individual preferences, ensuring that every recommendation aligns with your unique needs and daily routine.",
+      "Achieve a sustainable and personalized balance between nutrition, physical fitness, and mindfulness practices, promoting a well-rounded and integrative approach to overall well-being.",
+      "Develop lasting, health-focused habits that are easy to maintain and contribute to long-term physical vitality, emotional resilience, and improved quality of life.",
+      "Gain access to optional professional support, including coaching and therapy services, to help you stay accountable, overcome obstacles, and receive expert guidance throughout your journey.",
+      "Experience noticeable improvements in your physical health, enhanced mental clarity, reduced stress levels, and greater emotional stability through consistent, aligned efforts across multiple wellness dimensions.",
     ],
     image: "/images/services/personalized-wellness.jpg",
   },
   {
     subServiceId: "hormonal-balance",
     introduction:
-      "A targeted approach to understanding and correcting hormonal imbalances using natural and science-backed methods.",
+      "Unlock the power of a truly transformative approach to balancing your hormones! Experience a tailored journey using natural, science-backed methods that not only restore harmony but also enhance your vitality. Imagine feeling more energized, centered, and in tune with your body—empowering you to optimize your health from the inside out and embrace each day with a renewed sense of balance and well-being. It's time to take control and thrive!",
     keypoints: [
       "Hormone symptom questionnaire",
       "Lab test analysis and insights",
@@ -47,16 +49,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term hormonal health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Identify and effectively address hormonal imbalances through comprehensive, personalized assessments and targeted wellness plans tailored to your unique physiology and health history.",
+      "Alleviate common symptoms of hormonal imbalance—such as chronic fatigue, mood instability, irregular cycles, and unexplained weight fluctuations—by targeting root causes rather than just surface-level effects.",
+      "Receive expert, evidence-based guidance on sustainable lifestyle adjustments, including tailored nutritional strategies, sleep hygiene, physical activity, and stress reduction techniques to support hormonal regulation.",
+      "Benefit from detailed lab test analysis with professional insights that provide a deeper understanding of your hormonal health, enabling data-driven decisions for long-term improvement.",
+      "Work toward achieving lasting hormonal stability and resilience, leading to enhanced energy levels, emotional balance, metabolic efficiency, and improved overall well-being.",
     ],
     image: "/images/services/hormonal-balance.jpg",
   },
   {
     subServiceId: "sleep-coaching",
     introduction:
-      "Improve your sleep hygiene, reset your circadian rhythm, and optimize your nightly routine.",
+      "Revolutionize your sleep and wake up feeling truly refreshed! Transform your nighttime routine by enhancing your sleep hygiene, resetting your circadian rhythm, and fine-tuning the habits that set the stage for deep, restorative rest. Say goodbye to sleepless nights and hello to the rejuvenating sleep you’ve been dreaming of—wake up energized, refreshed, and ready to conquer the day!",
     keypoints: [
       "Sleep assessment and recommendations",
       "Personalized sleep tracking",
@@ -73,16 +77,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term sleep health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Enhance your sleep quality and daytime energy by following a personalized, science-backed strategy tailored to your lifestyle.",
+      "Master techniques to reset your circadian rhythm and establish consistent nightly routines that support deep, restorative sleep.",
+      "Monitor your sleep patterns using tracking tools and receive customized, data-driven insights to help you make meaningful improvements.",
+      "Incorporate advanced sleep devices, such as wearables and blue light filters, to optimize your sleep environment and hygiene.",
+      "Enjoy sharper mental clarity, improved focus, and better overall health as a direct result of consistently improved sleep habits.",
     ],
     image: "/images/services/sleep-coaching.jpg",
   },
   {
     subServiceId: "detox-reset",
     introduction:
-      "A 14-day cleanse focusing on gut health, inflammation reduction, and habit building.",
+      "Reinvigorate your body with a transformative cleanse that goes beyond the basics! Nourish your gut, reduce inflammation, and cultivate lasting, healthy habits that will bring balance to every aspect of your life. This is your chance to reset, rejuvenate, and restore—unlock a healthier, more vibrant version of yourself from the inside out!",
     keypoints: [
       "Cleanse guide and meal recommendations",
       "1-on-1 detox coaching",
@@ -99,16 +105,17 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall health and vitality",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Promote gut healing and reduce inflammation through clean eating, targeted supplements, and hydration protocols.",
+      "Follow a comprehensive cleanse guide that includes meal plans, approved food lists, and preparation tips for optimal success.",
+      "Stay motivated and on track with daily check-ins and support from a dedicated detox coach who monitors your progress.",
+      "Lay the foundation for sustainable healthy eating habits that continue to support your vitality and wellness beyond the cleanse.",
     ],
     image: "/images/services/detox-reset.jpg",
   },
   {
     subServiceId: "meal-planning",
     introduction:
-      "Structured meal plans based on your lifestyle, health goals, and preferences.",
+      "Indulge in personalized meal plans tailored to your unique lifestyle, health goals, and taste preferences, making healthy eating both effortless and delightful. Say goodbye to the stress of meal planning and hello to a vibrant, flavorful journey where every bite fuels your body and satisfies your cravings.",
     keypoints: [
       "Custom meal plans",
       "Monthly check-ins",
@@ -125,16 +132,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance nutritional intake",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Take the guesswork out of healthy eating with meal plans tailored to your goals, dietary needs, and daily routines.",
+      "Maintain better dietary consistency and meet your nutritional targets with expert-curated meals and ongoing guidance.",
+      "Reduce the stress of food preparation and save time with organized meal schedules, complete with grocery shopping lists.",
+      "Receive live support and custom recipes that match your taste preferences, cultural background, and lifestyle.",
+      "Bridge the gap between your current eating habits and long-term wellness goals through structured and mindful nutrition.",
     ],
     image: "/images/services/meal-planning.jpg",
   },
   {
     subServiceId: "digestive-health",
     introduction:
-      "Heal your gut and restore digestive balance through food, habits, and targeted supplements.",
+      "Revitalize your digestive health and achieve true balance with a holistic approach that blends nourishing foods, mindful habits, and powerful, targeted supplements. Reclaim your well-being from the inside out and enjoy a smoother, more comfortable digestive journey every day.",
     keypoints: [
       "Digestive guide and food sensitivity overview",
       "Weekly food journal reviews",
@@ -151,15 +160,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term digestive health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Rebalance your digestive system and support microbiome health with a personalized plan grounded in functional nutrition.",
+      "Identify food sensitivities, imbalances, and triggers through professional analysis and targeted dietary adjustments.",
+      "Benefit from weekly reviews of your food journal, including feedback and expert advice to optimize digestion and reduce symptoms.",
+      "Access advanced lab testing and recommended supplements specifically chosen to restore gut function and improve resilience.",
+      "Alleviate digestive discomfort and boost overall health with a clearer understanding of your body’s unique digestive needs.",
     ],
     image: "/images/services/digestive-health.jpg",
   },
   {
     subServiceId: "supplement-guidance",
-    introduction: "Recommendations based on lab work, goals, and diet gaps.",
+    introduction:
+      "Unlock the power of personalized wellness with recommendations uniquely tailored to your lab results, health goals, and any nutritional gaps in your diet. Experience a comprehensive, science-driven approach that not only fills the gaps but optimizes your entire well-being. With every step designed specifically for you, feel empowered to take control of your health and thrive like never before!",
     keypoints: [
       "Initial consultation and plan",
       "Follow-up and retesting",
@@ -176,16 +188,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Receive a customized supplement protocol based on lab data, personal health history, and your wellness objectives.",
+      "Address nutrient deficiencies and support optimal health through strategic, evidence-based supplementation.",
+      "Participate in follow-up sessions to assess supplement effectiveness, adjust dosages, and fine-tune your plan for lasting results.",
+      "Access exclusive discounts on premium-quality supplements to make your wellness journey more affordable and consistent.",
+      "Experience enhanced energy, immunity, and vitality through a supplement plan that works in harmony with your overall lifestyle.",
     ],
     image: "/images/services/supplement-guidance.jpg",
   },
   {
     subServiceId: "online-fitness-coaching",
     introduction:
-      "Train from anywhere with tailored workout plans and virtual check-ins.",
+      "Reach your fitness goals no matter where you are with custom-tailored workout plans and virtual check-ins that keep you motivated and accountable. Whether you're at home, traveling, or on the go, stay on track with personalized guidance and support every step of the way. Experience the flexibility and convenience of training anytime, anywhere, while achieving lasting results!",
     keypoints: [
       "Workout templates and monthly check-ins",
       "Weekly video sessions",
@@ -202,16 +216,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall physical well-being",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Follow customized workout plans designed around your schedule, current fitness level, and specific health goals.",
+      "Build consistency and improve physical performance through expert guidance and structured training protocols.",
+      "Stay accountable and motivated with daily check-ins and personalized feedback to help you overcome obstacles.",
+      "Join weekly one-on-one video sessions to track your progress, refine your technique, and celebrate your achievements.",
+      "Develop the strength, endurance, and mindset needed to reach and maintain your long-term fitness aspirations.",
     ],
     image: "/images/services/online-fitness-coaching.jpg",
   },
   {
     subServiceId: "mobility-recovery",
     introduction:
-      "Reduce soreness, improve range of motion, and enhance body mechanics.",
+      "Say goodbye to soreness and hello to a more flexible, mobile body! Our targeted techniques are designed to relieve discomfort, enhance your flexibility, and optimize your body's movement patterns. Improve your range of motion and boost your overall mechanics, so you can move with ease, feel great, and perform at your best every day. It's time to unlock your body's full potential!",
     keypoints: [
       "Self-guided stretching protocols",
       "Video assessments and mobility classes",
@@ -228,16 +244,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote long-term physical health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Improve joint range of motion, flexibility, and overall body movement with a tailored mobility program.",
+      "Relieve muscle soreness, reduce tension, and address chronic aches with strategic recovery protocols.",
+      "Get personalized video assessments and mobility classes focused on your problem areas and movement goals.",
+      "Develop daily recovery habits that prevent injury, promote healing, and support long-term physical performance.",
+      "Enhance body mechanics and postural alignment to move more efficiently and avoid future strain or discomfort.",
     ],
     image: "/images/services/mobility-recovery.jpg",
   },
   {
     subServiceId: "metabolic-optimization",
     introduction:
-      "Optimize your metabolism using data, diet, and movement strategies tailored to your physiology.",
+      "Unlock the full potential of your metabolism with a personalized approach that blends data, diet, and movement strategies tailored specifically to your unique physiology. Through customized habits and targeted strategies, we'll help you optimize your metabolism for lasting energy, improved wellness, and sustainable health. Transform your body's metabolic health and create a foundation for lifelong vitality and well-being.",
     keypoints: [
       "Macro guidance and metabolic habits",
       "Wearable device sync",
@@ -254,16 +272,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance long-term metabolic health",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Achieve optimal metabolic performance by implementing strategies that are customized to your unique physiology and health data.",
+      "Regulate your energy levels more effectively, reducing fatigue and ensuring you maintain stable energy throughout the day.",
+      "Receive expert guidance on macro nutrient breakdowns and develop sustainable metabolic habits tailored to your specific health goals.",
+      "Integrate cutting-edge wearable technology and continuous glucose monitoring into your routine to track real-time data and make informed adjustments.",
+      "Experience lasting improvements in your metabolic well-being, promoting better long-term health, vitality, and physical performance.",
     ],
     image: "/images/services/metabolic-optimization.jpg",
   },
   {
     subServiceId: "group-classes",
     introduction:
-      "Fun, engaging group workouts that build strength and community.",
+      "Step into a vibrant community with fun, dynamic group workouts that elevate your strength and foster connections. These high-energy sessions are designed to challenge your limits, keep you motivated, and support your fitness journey with structured, engaging routines. Whether you're pushing yourself to new heights or simply enjoying the camaraderie, you'll find both strength and inspiration in every workout!",
     keypoints: [
       "Access to weekly classes",
       "Priority registration and recordings",
@@ -280,16 +300,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall well-being",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Participate in motivating and challenging group workouts that build strength, improve endurance, and foster a strong sense of community.",
+      "Stay committed to your fitness goals with access to weekly live classes and priority registration, ensuring you never miss a session.",
+      "Benefit from unlimited access to class recordings, so you can work out on your schedule, with personalized guidance available when needed.",
+      "Enhance your physical fitness and consistency through structured, varied group activities that challenge you to push your boundaries.",
+      "Connect with like-minded individuals in a supportive group environment that encourages accountability and growth.",
     ],
     image: "/images/services/group-classes.jpg",
   },
   {
     subServiceId: "guided-meditation",
     introduction:
-      "Reduce stress, improve focus, and find calm with structured meditation sessions.",
+      "Discover a path to tranquility, clarity, and emotional balance with guided meditation sessions designed to reduce stress, sharpen focus, and cultivate mindfulness. These transformative practices will empower you to maintain a deep sense of inner peace, even amidst the chaos of daily life. Embrace the stillness and watch as you unlock your true potential to navigate every moment with calm and clarity.",
     keypoints: [
       "Pre-recorded meditations and app access",
       "Live weekly sessions and mindfulness journal",
@@ -306,16 +328,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Build consistent meditation habits",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Reduce stress and boost your focus through guided meditation sessions that help center your mind and calm your emotions.",
+      "Develop a consistent meditation routine with daily challenges and expert support to ensure lasting habits and progress.",
+      "Access a variety of pre-recorded meditations and mindfulness tools to fit into your busy schedule and enhance your practice.",
+      "Join live weekly meditation sessions that offer deeper guidance and foster a sense of connection through shared experience.",
+      "Achieve emotional balance and relaxation through a consistent practice that strengthens your resilience and mental clarity.",
     ],
     image: "/images/services/guided-meditation.jpg",
   },
   {
     subServiceId: "neuroplasticity",
     introduction:
-      "Rewire thought patterns, boost cognitive flexibility, and enhance learning speed.",
+      "Unleash the full potential of your brain with cutting-edge exercises crafted to rewire thought patterns, boost cognitive flexibility, and supercharge your learning capacity. Using powerful neuroplasticity techniques, you'll enhance memory, sharpen mental performance, and elevate your ability to adapt to new challenges. Transform the way you think, learn, and grow—unlock your mind’s limitless possibilities today.",
     keypoints: [
       "Daily brain training exercises",
       "Weekly assessments and mental performance tracking",
@@ -332,16 +356,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote long-term mental agility",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Boost cognitive flexibility and enhance your ability to adapt to new information through scientifically-designed brain training exercises.",
+      "Rewire unproductive thought patterns and improve mental performance with personalized neurocoaching tailored to your cognitive goals.",
+      "Track your progress with weekly assessments, ensuring consistent mental development and better learning retention.",
+      "Leverage cognitive technology tools to enhance your focus, memory, and brain adaptability for long-term mental clarity.",
+      "Achieve sustained cognitive improvements that elevate learning speed, mental agility, and memory retention.",
     ],
     image: "/images/services/neuroplasticity.jpg",
   },
   {
     subServiceId: "therapy-sessions",
     introduction:
-      "Professional therapy tailored to your emotional and mental health needs.",
+      "Experience the transformative power of personalized therapy, crafted to support your unique emotional and mental health needs. These sessions are tailored to guide you through life’s challenges, helping you build resilience, cultivate emotional strength, and unlock a path toward lasting well-being. With expert support and understanding, you’ll gain the tools to thrive and embrace life’s journey with confidence and clarity.",
     keypoints: [
       "One 50-min session per month",
       "Bi-weekly sessions with progress tracking",
@@ -358,9 +384,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote long-term emotional well-being",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Receive professional therapy tailored to your unique emotional and mental health needs, ensuring a personalized approach.",
+      "Build greater emotional resilience with expert guidance that helps you develop effective coping strategies for life's challenges.",
+      "Participate in bi-weekly or weekly sessions to track your progress consistently, adjusting strategies as needed to maximize your growth.",
+      "Gain access to a crisis support line for immediate help, ensuring you're never without the support you need during critical moments.",
+      "Achieve better mental health outcomes, emotional balance, and overall well-being through a sustained therapeutic relationship.",
     ],
     image: "/images/services/therapy-sessions.jpg",
   },
@@ -384,16 +412,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Build sustainable mental health practices",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Address perfectionism, overthinking, and self-pressure with targeted strategies.",
+      "Reduce anxiety and stress through mindfulness and journaling practices.",
+      "Build sustainable mental health habits with 1-on-1 coaching and support.",
+      "Improve emotional regulation and self-awareness for greater confidence.",
+      "Achieve long-term emotional balance and resilience.",
     ],
     image: "/images/services/high-functioning-anxiety.jpg",
   },
   {
     subServiceId: "adhd-lifestyle",
     introduction:
-      "This service is designed to align your daily life with the natural tendencies of an ADHD brain, using structured yet flexible routines.",
+      "Designed specifically for your unique brain chemistry, this program empowers you to align your daily life with the natural tendencies of ADHD. With a perfect blend of structure and flexibility, it supports your focus, productivity, and emotional balance. Experience a seamless routine that caters to your strengths, helps you overcome challenges, and boosts your overall well-being, all while embracing the fluidity of your mind.",
     keypoints: [
       "Designed for neurodivergent brains",
       "Focus on executive function and habit loops",
@@ -410,17 +440,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Build intrinsic motivation using personal strengths",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Align your daily life with the natural tendencies of an ADHD brain.",
+      "Improve task management and productivity with structured routines.",
+      "Reduce overwhelm and procrastination through executive function strategies.",
+      "Build intrinsic motivation using your personal strengths and preferences.",
+      "Achieve greater self-compassion and consistency in daily activities.",
     ],
     image: "/images/services/adhd-lifestyle.jpg",
   },
-
   {
     subServiceId: "trauma-informed-regulation",
     introduction:
-      "Build emotional resilience and restore safety in the nervous system through grounding practices.",
+      "Reclaim your sense of safety and emotional balance with transformative grounding practices designed to heal, soothe, and regulate your nervous system. This program empowers you to build lasting resilience, helping you navigate stress with confidence and ease. By reconnecting with your body and mind, you'll unlock a deeper sense of calm, emotional strength, and stability to face life's challenges with greater peace.",
     keypoints: [
       "Nervous system reset toolkit and breathing exercises",
       "Weekly guided sessions and trauma-informed journaling",
@@ -437,9 +468,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Build long-term resilience",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Restore emotional safety and resilience through trauma-informed practices.",
+      "Reduce trauma-related symptoms with grounding exercises and somatic coaching.",
+      "Develop long-term emotional regulation skills for improved well-being.",
+      "Participate in weekly guided sessions and personalized journaling activities.",
+      "Achieve greater emotional balance and stability through nervous system support.",
     ],
     image: "/images/services/trauma-informed-regulation.jpg",
   },
@@ -463,16 +496,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall emotional well-being",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Strengthen empathy, communication, and emotional mastery through training.",
+      "Improve interpersonal relationships with enhanced emotional awareness.",
+      "Develop better emotional regulation skills for personal and professional growth.",
+      "Participate in EQ assessments and bi-weekly coaching sessions.",
+      "Achieve long-term improvements in emotional well-being and relationship skills.",
     ],
     image: "/images/services/emotional-intelligence.jpg",
   },
   {
     subServiceId: "team-workshops",
     introduction:
-      "Interactive workshops on stress management, nutrition, and productivity.",
+      "Immerse your team in dynamic, interactive workshops designed to equip them with powerful, actionable tools for managing stress, optimizing nutrition, and supercharging productivity. These engaging sessions foster collaboration, improve overall well-being, and provide practical strategies that can be immediately applied to boost both individual performance and team synergy. Watch your team thrive as they gain the knowledge and support needed to perform at their best in every aspect of their work and life.",
     keypoints: [
       "1 virtual session",
       "Monthly series and wellness toolkit",
@@ -489,16 +524,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance workplace productivity",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Enhance team productivity and collaboration through interactive workshops.",
+      "Support employee well-being with stress management and wellness strategies.",
+      "Promote workplace health and satisfaction with custom training programs.",
+      "Participate in monthly series and access a comprehensive wellness toolkit.",
+      "Achieve better workplace morale and retention through targeted initiatives.",
     ],
     image: "/images/services/team-workshops.jpg",
   },
   {
     subServiceId: "burnout-prevention",
     introduction:
-      "Reduce employee stress and increase retention with structured wellness strategies.",
+      "Transform your workplace into a thriving, stress-free environment with tailored wellness strategies that combat workplace stress, enhance employee well-being, and boost retention. These personalized approaches are designed to create a healthier, more engaged workforce, fostering a culture of support, balance, and productivity. Empower your team to manage stress, improve their mental and physical health, and build long-term satisfaction, resulting in a more motivated, loyal, and high-performing workforce.",
     keypoints: [
       "Company-wide burnout assessment and resources",
       "Monthly workshops and manager training",
@@ -515,15 +552,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance workplace satisfaction",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Reduce employee burnout and improve workplace morale with structured strategies.",
+      "Support managers and teams with training on stress management techniques.",
+      "Develop custom wellness plans to address specific organizational needs.",
+      "Access HR reporting dashboards for tracking employee well-being metrics.",
+      "Enhance employee retention and satisfaction through proactive wellness initiatives.",
     ],
     image: "/images/services/burnout-prevention.jpg",
   },
   {
     subServiceId: "executive-coaching",
-    introduction: "Elite-level wellness support for leadership teams.",
+    introduction:
+      "Experience exclusive, high-performance wellness support designed specifically for leadership teams, empowering executives to excel in both their personal and professional lives. This tailored program focuses on optimizing mental clarity, resilience, and overall well-being, ensuring leaders have the energy, focus, and balance needed to lead effectively. With personalized coaching, health assessments, and concierge-level support, you’ll unlock your full potential, enhance decision-making, and drive long-term success while maintaining a sustainable work-life harmony.",
     keypoints: [
       "Quarterly health assessments",
       "Monthly coaching and goal planning",
@@ -540,16 +580,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance executive productivity",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Receive elite-level wellness support tailored to leadership teams.",
+      "Improve executive performance and productivity with personalized coaching.",
+      "Achieve sustainable work-life balance through structured goal planning.",
+      "Participate in quarterly health assessments and monthly coaching sessions.",
+      "Enhance leadership well-being and long-term success with concierge support.",
     ],
     image: "/images/services/executive-coaching.jpg",
   },
   {
     subServiceId: "tech-balance",
     introduction:
-      "Improve mental clarity, posture, and productivity by reprogramming your digital environment.",
+      "Revamp your digital environment to unlock heightened mental clarity, improved posture, and maximum productivity. This personalized program guides you in optimizing your workspace and digital habits, creating a harmonious and efficient setting that reduces distractions and enhances focus. Say goodbye to tech overload and hello to a streamlined, balanced work life where every tool, habit, and routine is designed to help you thrive.",
     keypoints: [
       "Digital detox templates and notification control guide",
       "Device usage audit and ergonomic workstation checklist",
@@ -566,16 +608,18 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall well-being",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Reduce digital fatigue and improve focus with healthy tech habits.",
+      "Optimize your digital environment with ergonomic and notification control strategies.",
+      "Track progress with weekly coaching and personalized digital wellness plans.",
+      "Enhance productivity and mental clarity through structured interventions.",
+      "Achieve long-term improvements in posture, focus, and overall well-being.",
     ],
     image: "/images/services/tech-balance.jpg",
   },
   {
     subServiceId: "travel-recovery",
     introduction:
-      "Enhance performance while traveling with circadian syncing, hydration strategies, and targeted recovery.",
+      "Supercharge your travel experience with a personalized approach to circadian syncing, hydration strategies, and targeted recovery techniques, designed to keep you feeling energized and performing at your best no matter where you are. Whether you're crossing time zones or conquering back-to-back meetings, this program equips you with the tools to optimize your body’s rhythm, recover faster, and stay at the top of your game throughout your journey.",
     keypoints: [
       "Pre-flight and post-flight guides and hydration protocol",
       "Personalized travel recovery supplements and stretch sequences",
@@ -592,9 +636,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance overall travel experience",
     ],
     benefits: [
-      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
-      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
-      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+      "Reduce travel fatigue and improve recovery with targeted strategies.",
+      "Optimize performance during travel with hydration and circadian syncing plans.",
+      "Receive personalized travel recovery supplements and stretch sequences.",
+      "Develop global timezone syncing strategies for seamless adaptation.",
+      "Enhance overall travel experience and well-being with expert guidance.",
     ],
     image: "/images/services/travel-recovery.jpg",
   },
