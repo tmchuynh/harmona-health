@@ -21,6 +21,7 @@ import {
 } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function FlyoutMenu() {
@@ -35,10 +36,12 @@ export default function FlyoutMenu() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
+            <Image
               alt=""
               src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
               className="w-auto h-8"
+              width={32}
+              height={32}
             />
           </a>
         </div>
@@ -187,10 +190,12 @@ export default function FlyoutMenu() {
           <div className="flex justify-between items-center">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                 className="w-auto h-8"
+                width={32}
+                height={32}
               />
             </a>
             <button

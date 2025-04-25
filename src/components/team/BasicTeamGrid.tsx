@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const people = [
   {
     name: "Michael Foster",
@@ -27,10 +29,12 @@ export default function BasicTeamGrid() {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <img
+              <Image
                 alt=""
                 src={person.imageUrl}
                 className="mx-auto rounded-full size-24"
+                width={96}
+                height={96}
               />
               <h3 className="mt-6 font-semibold text-base/7 tracking-tight">
                 {person.name}

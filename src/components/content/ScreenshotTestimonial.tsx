@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ScreenshotTestimonial() {
   return (
     <div className="py-24 sm:py-32 overflow-hidden">
@@ -34,7 +36,7 @@ export default function ScreenshotTestimonial() {
                   </p>
                 </blockquote>
                 <figcaption className="flex gap-x-4 mt-6 text-sm/6">
-                  <img
+                  <Image
                     alt=""
                     src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     className="flex-none rounded-full size-6"
@@ -47,7 +49,7 @@ export default function ScreenshotTestimonial() {
               </figure>
             </div>
           </div>
-          <img
+          <Image
             alt="Product screenshot"
             src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
             width={2432}

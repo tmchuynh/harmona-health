@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const people = [
   {
     name: "Leslie Alexander",
@@ -30,10 +32,12 @@ export default function StaffSelection() {
               key={person.name}
               className="flex sm:flex-row flex-col gap-10 py-12 first:pt-0 last:pb-0"
             >
-              <img
+              <Image
                 alt=""
                 src={person.imageUrl}
                 className="flex-none rounded-2xl w-52 aspect-4/5 object-cover"
+                width={560}
+                height={373}
               />
               <div className="flex-auto max-w-xl">
                 <h3 className="font-semibold text-lg/8 tracking-tight">

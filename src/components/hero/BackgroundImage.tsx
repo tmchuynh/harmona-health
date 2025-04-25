@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -24,10 +25,12 @@ export default function BackgroundImage() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                 className="w-auto h-8"
+                width={32}
+                height={32}
               />
             </a>
           </div>
@@ -68,7 +71,7 @@ export default function BackgroundImage() {
             <div className="flex justify-between items-center">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
+                <Image
                   alt=""
                   src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                   className="w-auto h-8"
@@ -111,7 +114,7 @@ export default function BackgroundImage() {
       </header>
 
       <div className="relative pt-14 overflow-hidden isolate">
-        <img
+        <Image
           alt=""
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
           className="-z-10 absolute inset-0 size-full object-cover"

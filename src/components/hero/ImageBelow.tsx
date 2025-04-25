@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -24,10 +25,12 @@ export default function ImageBelow() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                 className="w-auto h-8"
+                width={32}
+                height={32}
               />
             </a>
           </div>
@@ -68,10 +71,12 @@ export default function ImageBelow() {
             <div className="flex justify-between items-center">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
+                <Image
                   alt=""
                   src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                   className="w-auto h-8"
+                  width={32}
+                  height={32}
                 />
               </a>
               <button
@@ -147,7 +152,7 @@ export default function ImageBelow() {
             </div>
             <div className="mt-16 sm:mt-24 flow-root">
               <div className="-m-2 lg:-m-4 p-2 lg:p-4 rounded-xl lg:rounded-2xl ring-1 ring-gray-900/10 ring-inset">
-                <img
+                <Image
                   alt="App screenshot"
                   src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
                   width={2432}

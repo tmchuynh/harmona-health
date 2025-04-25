@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const people = [
   {
     name: "Emma Dorsey",
@@ -30,10 +32,12 @@ export default function FeaturedTeamMembers() {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <img
+              <Image
                 alt=""
                 src={person.imageUrl}
                 className="rounded-2xl w-full aspect-3/2 object-cover"
+                width={560}
+                height={373}
               />
               <h3 className="mt-6 font-semibold text-lg/8">{person.name}</h3>
               <p className="text-base/7">{person.role}</p>

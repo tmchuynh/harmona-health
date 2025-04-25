@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TileImages() {
   return (
     <div className="py-32 overflow-hidden">
@@ -28,32 +30,40 @@ export default function TileImages() {
           </div>
           <div className="flex flex-wrap justify-end items-start gap-6 sm:gap-8 lg:contents">
             <div className="flex-auto lg:flex-none lg:ml-auto w-0 lg:w-auto lg:self-end">
-              <img
+              <Image
                 alt=""
                 src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
                 className="rounded-2xl w-[37rem] max-w-none aspect-7/5 object-cover"
+                width={1152}
+                height={842}
               />
             </div>
             <div className="lg:flex lg:justify-end lg:items-start lg:gap-x-8 lg:col-span-2 lg:col-end-2 lg:ml-auto lg:w-[37rem] contents">
               <div className="flex flex-none justify-end order-first w-64 lg:w-auto self-end">
-                <img
+                <Image
                   alt=""
                   src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                   className="flex-none rounded-2xl w-[24rem] max-w-none aspect-4/3 object-cover"
+                  width={768}
+                  height={604}
                 />
               </div>
               <div className="flex flex-auto lg:flex-none justify-end w-96 lg:w-auto">
-                <img
+                <Image
                   alt=""
                   src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
                   className="flex-none rounded-2xl w-[37rem] max-w-none aspect-7/5 object-cover"
+                  width={1152}
+                  height={842}
                 />
               </div>
               <div className="sm:block sm:flex-auto lg:flex-none hidden sm:w-0 lg:w-auto">
-                <img
+                <Image
                   alt=""
                   src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                   className="rounded-2xl w-[24rem] max-w-none aspect-4/3 object-cover"
+                  width={768}
+                  height={604}
                 />
               </div>
             </div>
