@@ -1,24 +1,24 @@
 import { IconType } from "react-icons";
 
 export interface ServiceCategory {
-  id: string; // Unique identifier for the category
-  title: string; // Display title
-  icon: IconType; // Icon component name from react-icons
-  description: string; // Short description for this category
+  id: string;
+  title: string;
+  icon: IconType;
+  description: string;
 }
 
 export interface Tier {
-  tier: "basic" | "growth" | "scale"; // Tier level
-  description: string; // Description of what’s included
+  tier: "basic" | "growth" | "scale";
+  description: string;
 }
 
 export interface Service {
-  id: string; // Unique identifier for the sub-service
-  categoryId: string; // Links this service to a category via ID
-  title: string; // Display title of the service
-  description: string; // Description of the service
+  id: string;
+  categoryId: string;
+  title: string;
+  description: string;
   introduction?: string;
-  tiers: Tier[]; // Array of tiered offerings
+  tiers: Tier[];
 }
 
 export interface ServiceInformation {
@@ -35,9 +35,9 @@ export interface ServiceTierInformation {
   subServiceId: string;
   tier: "basic" | "growth" | "scale";
   introduction: string;
-  price: number; // price per session
-  durationOfSession: number; // e.g., '60 minutes'
-  sessions: number; // total number of sessions
+  price: number;
+  durationOfSession: number;
+  sessions: number;
   sessionsPerWeek: number;
   totalSessions: number;
   totalPrice: number;
