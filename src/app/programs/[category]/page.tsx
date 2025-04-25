@@ -1,6 +1,7 @@
 "use client";
 
 import DynamicButton from "@/components/button/button-dynamic";
+import ProgramCard from "@/components/card/ProgramCard";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 import { subServices } from "@/lib/constants/services/services";
@@ -50,43 +51,12 @@ export default function Page() {
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredServices.map((service, index) => {
           return (
-            <Card
-              key={`${service.id}-${index}`}
-              className="group flex flex-col justify-between h-full min-h-[20rem] cursor-pointer"
-              onClick={() =>
-                router.push(`/programs/${categoryId}/${service.id}`)
-              }
-            >
-              <CardContent>
-                <h2 className="underline-offset-4 group-hover:underline decoration-1">
-                  {service.title}
-                </h2>
-                <p>{service.description}</p>
-              </CardContent>
-              <CardFooter>
-                {service.title === "Executive Health Coaching" ? (
-                  <DynamicButton
-                    icon={RiVipCrownFill}
-                    hoverIcon={RiVipCrownLine}
-                  >
-                    Explore This Program
-                  </DynamicButton>
-                ) : service.title === "Tech-Life Balance Training" ? (
-                  <DynamicButton
-                    icon={RiComputerFill}
-                    hoverIcon={RiComputerLine}
-                  >
-                    Explore This Program
-                  </DynamicButton>
-                ) : service.title === "Employee Burnout Prevention" ? (
-                  <DynamicButton icon={RiFireFill} hoverIcon={RiFireLine}>
-                    Explore This Program
-                  </DynamicButton>
-                ) : (
-                  <DynamicButton>Explore This Program</DynamicButton>
-                )}
-              </CardFooter>
-            </Card>
+            <ProgramCard
+              service={service}
+              categoryId={categoryId}
+              index={index}
+              key={index}
+            />
           );
         })}
       </div>
