@@ -56,7 +56,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       isLast: boolean
     ) => {
       const content =
-        compareStringWordCount(segment, 4) && isLast
+        !compareStringWordCount(segment, 4) && isLast
           ? clipString(segment, 15)
           : segment;
 
