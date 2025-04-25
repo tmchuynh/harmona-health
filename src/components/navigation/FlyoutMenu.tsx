@@ -32,7 +32,7 @@ export default function FlyoutMenu() {
     <header className="bg-background">
       <nav
         aria-label="Global"
-        className="top-0 fixed flex justify-between items-center bg-background shadow-sm mx-auto lg:px-8 p-6 border-b w-full"
+        className="top-0 fixed flex justify-between items-center bg-background shadow-sm mx-auto lg:px-8 p-6 border-b w-full font-[Poppins]"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -86,7 +86,7 @@ export default function FlyoutMenu() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </a>
-                      <p className="mt-1">{item.description}</p>
+                      <p className="mt-1 font-[Nunito]">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -96,7 +96,7 @@ export default function FlyoutMenu() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-semibold text-sm/6"
+                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-[IBMPlexSans] font-semibold text-sm/6"
                   >
                     {item.icon && (
                       <item.icon
@@ -150,7 +150,7 @@ export default function FlyoutMenu() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </a>
-                      <p className="mt-1">{item.description}</p>
+                      <p className="mt-1 font-[Nunito]">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -160,7 +160,7 @@ export default function FlyoutMenu() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-semibold text-sm/6"
+                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-[IBMPlexSans] font-semibold text-sm/6"
                   >
                     {item.icon && (
                       <item.icon
@@ -209,7 +209,7 @@ export default function FlyoutMenu() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+                <Disclosure as="div" className="-mx-3 font-[Poppins]">
                   <DisclosureButton className="group flex justify-between items-center py-2 pr-3.5 pl-3 rounded-lg w-full font-semibold text-base/7">
                     Programs
                     <ChevronDownIcon
@@ -223,14 +223,14 @@ export default function FlyoutMenu() {
                         key={item.name}
                         as="a"
                         href={item.href}
-                        className="block py-2 pr-3 pl-6 rounded-lg font-semibold text-sm/7"
+                        className="block py-2 pr-3 pl-6 rounded-lg font-[Nunito] font-semibold text-sm/7"
                       >
                         {item.name}
                       </DisclosureButton>
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <Disclosure as="div" className="-mx-3">
+                <Disclosure as="div" className="-mx-3 font-[Poppins]">
                   <DisclosureButton className="group flex justify-between items-center py-2 pr-3.5 pl-3 rounded-lg w-full font-semibold text-base/7">
                     Resources
                     <ChevronDownIcon
@@ -245,7 +245,7 @@ export default function FlyoutMenu() {
                           key={item.name}
                           as="a"
                           href={item.href}
-                          className="block py-2 pr-3 pl-6 rounded-lg font-semibold text-sm/7"
+                          className="block py-2 pr-3 pl-6 rounded-lg font-[Nunito] font-semibold text-sm/7"
                         >
                           {item.name}
                         </DisclosureButton>
@@ -257,7 +257,7 @@ export default function FlyoutMenu() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
+                    className="block -mx-3 px-3 py-2 rounded-lg font-[Poppins] font-semibold text-base/7"
                   >
                     {item.name}
                   </a>
