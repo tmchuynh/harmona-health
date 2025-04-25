@@ -1,0 +1,32 @@
+import { IconType } from "react-icons";
+
+export interface ResourceCategory {
+  title: string;
+  introduction: string;
+  description: string;
+  image: string;
+  icon: IconType;
+}
+
+export interface Resource {
+  id: string;
+  title: string;
+  description: string;
+  href: string;
+  image: string;
+  similarResources: string[];
+}
+
+export interface ResourceInformation {
+  keypoints: string[];
+  benefits: string[];
+  price: number;
+  priceExplanation: string;
+  description: string;
+}
+
+export interface CategoryQuestion {
+  id: string;
+  question: string;
+  answer: string;
+}
