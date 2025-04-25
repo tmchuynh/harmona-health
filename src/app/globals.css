@@ -179,7 +179,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-[BarlowCondensed];
+    @apply bg-background text-foreground font-[BarlowCondensed] cursor-default;
   }
 
   h1 {
