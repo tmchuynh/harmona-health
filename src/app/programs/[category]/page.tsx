@@ -7,6 +7,16 @@ import { subServices } from "@/lib/constants/services/services";
 import { capitalize } from "@/lib/utils/format";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
+import {
+  RiComputerFill,
+  RiComputerLine,
+  RiFireFill,
+  RiFireLine,
+  RiVipCrownFill,
+  RiVipCrownLine,
+} from "react-icons/ri";
+
+
 export default function Page() {
   const segments = usePathname().split("/");
   const router = useRouter();
@@ -54,7 +64,27 @@ export default function Page() {
                 <p>{service.description}</p>
               </CardContent>
               <CardFooter>
-                <DynamicButton>Explore This Program</DynamicButton>
+                {service.title === "Executive Health Coaching" ? (
+                  <DynamicButton
+                    icon={RiVipCrownFill}
+                    hoverIcon={RiVipCrownLine}
+                  >
+                    Explore This Program
+                  </DynamicButton>
+                ) : service.title === "Tech-Life Balance Training" ? (
+                  <DynamicButton
+                    icon={RiComputerFill}
+                    hoverIcon={RiComputerLine}
+                  >
+                    Explore This Program
+                  </DynamicButton>
+                ) : service.title === "Employee Burnout Prevention" ? (
+                  <DynamicButton icon={RiFireFill} hoverIcon={RiFireLine}>
+                    Explore This Program
+                  </DynamicButton>
+                ) : (
+                  <DynamicButton>Explore This Program</DynamicButton>
+                )}
               </CardFooter>
             </Card>
           );
