@@ -26,6 +26,7 @@ export interface SubServiceInformation {
   outcomes: string[];
   goals: string[];
   image: string;
+  benefits: string[];
 }
 
 export interface ServiceTierInformation {

@@ -20,6 +20,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Enhance mind-body awareness",
       "Support long-term lifestyle transformation",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/personalized-wellness.jpg",
   },
   {
@@ -40,6 +45,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Identify and address hormonal imbalances",
       "Implement sustainable lifestyle changes",
       "Support long-term hormonal health",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/hormonal-balance.jpg",
   },
@@ -62,6 +72,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Optimize circadian rhythm",
       "Support long-term sleep health",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/sleep-coaching.jpg",
   },
   {
@@ -82,6 +97,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support detoxification processes",
       "Build sustainable dietary habits",
       "Enhance overall health and vitality",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/detox-reset.jpg",
   },
@@ -104,6 +124,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term dietary habits",
       "Enhance nutritional intake",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/meal-planning.jpg",
   },
   {
@@ -125,6 +150,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Implement gut-friendly habits",
       "Support long-term digestive health",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/digestive-health.jpg",
   },
   {
@@ -144,6 +174,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Provide personalized supplement guidance",
       "Support nutritional gaps",
       "Enhance overall health",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/supplement-guidance.jpg",
   },
@@ -166,6 +201,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support long-term fitness goals",
       "Enhance overall physical well-being",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/online-fitness-coaching.jpg",
   },
   {
@@ -186,6 +226,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support physical recovery",
       "Enhance mobility and flexibility",
       "Promote long-term physical health",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/mobility-recovery.jpg",
   },
@@ -208,6 +253,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Provide personalized metabolic strategies",
       "Enhance long-term metabolic health",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/metabolic-optimization.jpg",
   },
   {
@@ -228,6 +278,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Provide engaging group fitness options",
       "Support physical health goals",
       "Enhance overall well-being",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/group-classes.jpg",
   },
@@ -250,6 +305,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support mental well-being",
       "Build consistent meditation habits",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/guided-meditation.jpg",
   },
   {
@@ -270,6 +330,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support neuroplasticity and brain health",
       "Enhance cognitive abilities",
       "Promote long-term mental agility",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/neuroplasticity.jpg",
   },
@@ -292,6 +357,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Address emotional and mental health challenges",
       "Promote long-term emotional well-being",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/therapy-sessions.jpg",
   },
   {
@@ -313,6 +383,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote emotional balance and resilience",
       "Build sustainable mental health practices",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/high-functioning-anxiety.jpg",
   },
   {
@@ -333,6 +408,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support ADHD-friendly organization systems",
       "Establish sustainable routines",
       "Build intrinsic motivation using personal strengths",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/adhd-lifestyle.jpg",
   },
@@ -356,6 +436,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote emotional safety and grounding",
       "Build long-term resilience",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/trauma-informed-regulation.jpg",
   },
   {
@@ -376,6 +461,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote emotional awareness and mastery",
       "Support relationship-building skills",
       "Enhance overall emotional well-being",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/emotional-intelligence.jpg",
   },
@@ -398,6 +488,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote team collaboration and health",
       "Enhance workplace productivity",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/team-workshops.jpg",
   },
   {
@@ -419,6 +514,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Promote stress management strategies",
       "Enhance workplace satisfaction",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/burnout-prevention.jpg",
   },
   {
@@ -438,6 +538,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support leadership health and wellness",
       "Promote sustainable performance",
       "Enhance executive productivity",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/executive-coaching.jpg",
   },
@@ -460,6 +565,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support digital wellness",
       "Enhance overall well-being",
     ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
+    ],
     image: "/images/services/tech-balance.jpg",
   },
   {
@@ -480,6 +590,11 @@ export const subServiceInformation: SubServiceInformation[] = [
       "Support frequent travelers",
       "Promote travel recovery strategies",
       "Enhance overall travel experience",
+    ],
+    benefits: [
+      "Ullamco officia duis minim aliqua aute cillum minim irure cupidatat aliqua. Sit proident occaecat ipsum commodo ea nulla deserunt commodo. Nisi mollit proident excepteur proident do ullamco adipisicing nisi do amet mollit qui.",
+      "Elit id exercitation enim sunt consequat irure ex adipisicing. Laboris ex mollit commodo sit eiusmod et sit ullamco culpa consequat ipsum irure laboris. Id cupidatat Lorem est tempor fugiat amet sint non amet ut aliqua qui excepteur eu. Officia cillum consectetur ipsum adipisicing. Dolor Lorem eu exercitation occaecat velit sit. Incididunt cupidatat veniam voluptate nostrud culpa ullamco aute ad ipsum incididunt ad minim dolor. Non ut mollit ut nulla eiusmod ex dolor reprehenderit aliqua consectetur mollit elit dolor labore.",
+      "Nostrud occaecat aliqua nulla velit sint dolor id nisi. Aliquip sint non nulla deserunt veniam eu et et qui nulla nulla amet. Duis ex dolore culpa cupidatat tempor eiusmod. Sit cupidatat id proident ad sunt minim velit mollit adipisicing esse tempor.",
     ],
     image: "/images/services/travel-recovery.jpg",
   },
