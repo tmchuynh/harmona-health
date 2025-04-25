@@ -1,4 +1,5 @@
 "use client";
+import { QuadGallery } from "@/components/images/QuadGridImages";
 import {
   Table,
   TableBody,
@@ -7,21 +8,21 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { IoCloseSharp } from "react-icons/io5";
-
+import { data } from "@/lib/constants/services/images";
 import { subServiceInformation } from "@/lib/constants/services/serviceInformation";
 import { subServices } from "@/lib/constants/services/services";
 import { serviceTierInformation } from "@/lib/constants/services/tierInformation";
 import { cn } from "@/lib/utils";
+import { convertMinutesToHoursAndMinutes } from "@/lib/utils/convert";
 import { capitalize, formatCurrency } from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
-import { FaCheckDouble, FaXRay } from "react-icons/fa";
-import { convertMinutesToHoursAndMinutes } from "@/lib/utils/convert";
-import { QuadGallery } from "@/components/images/QuadGridImages";
-import { data } from "@/lib/constants/services/images";
+import { FaCheckDouble } from "react-icons/fa";
+import { IoCloseSharp } from "react-icons/io5";
 export default function Page() {
   const segments = usePathname().split("/");
   const serviceId = segments[segments.length - 1];
+
+  const isLargeScreen = window.innerWidth > 1024;
 
   const information = subServiceInformation.find(
     (info) => info.subServiceId === serviceId
@@ -91,89 +92,95 @@ export default function Page() {
             </section>
           </div>
 
-          <section>
-            {filteredTiers.map((tier, index) => (
-              <div
-                key={`${tier.tier}-${index}`}
-                className={cn("flex flex-col gap-2 py-5 xl:pr-5  xl:w-1/2", {
-                  "border-b-2": index !== filteredTiers.length - 1,
-                })}
-              >
-                <div className="flex justify-between gap-4">
-                  <h2>{capitalize(tier.tier)} Tier</h2>
-                  <p>{formatCurrency(tier.price)}/session</p>
-                </div>
-                <p>{service.description}</p>
+          <div className="items-center lg:items-start xl:items-center gap-5 grid grid-cols-1 md:grid-cols-2">
+            <section>
+              {filteredTiers.map((tier, index) => (
+                <div
+                  key={`${tier.tier}-${index}`}
+                  className={cn("flex flex-col gap-2 py-5", {
+                    "border-b-2": index !== filteredTiers.length - 1,
+                  })}
+                >
+                  <div className="flex justify-between gap-4">
+                    <h2>{capitalize(tier.tier)} Tier</h2>
+                    <p>{formatCurrency(tier.price)}/session</p>
+                  </div>
+                  <p>{service.description}</p>
 
-                <div>
-                  <h5 className="mb-3 underline underline-offset-2">
-                    What’s Included
-                  </h5>
-                  <ul>
-                    <li>
-                      <strong>Sessions:</strong> {tier.sessions}
-                    </li>
-                    <li>
-                      <strong>Duration: </strong>
-                      {convertMinutesToHoursAndMinutes(tier.durationOfSession)}
-                    </li>
-                    <li>
-                      <strong>Sessions Per Week:</strong> {tier.sessionsPerWeek}
-                    </li>
-                    <li>
-                      <strong>Total Sessions:</strong> {tier.totalSessions}
-                    </li>
-                    <li>
-                      <strong>Total Price:</strong>{" "}
-                      {formatCurrency(tier.price * tier.totalSessions)}
-                    </li>
-                  </ul>
-                </div>
-                {tier.blackOutDays && (
-                  <>
+                  <div>
                     <h5 className="mb-3 underline underline-offset-2">
-                      Black Out Dates
+                      What’s Included
                     </h5>
-                    <Table>
-                      <TableHeader>
-                        <TableRow className="flex justify-around text-center">
-                          <TableHead>S</TableHead>
-                          <TableHead>M</TableHead>
-                          <TableHead>T</TableHead>
-                          <TableHead>W</TableHead>
-                          <TableHead>TH</TableHead>
-                          <TableHead>F</TableHead>
-                          <TableHead>S</TableHead>
-                        </TableRow>
-                      </TableHeader>
-                      <TableBody>
-                        <TableRow className="flex justify-around text-center">
-                          {days.map((dayName, dayIndex) => (
-                            <TableCell key={dayIndex}>
-                              {tier.blackOutDays?.includes(dayName) ? (
-                                <IoCloseSharp
-                                  size={20}
-                                  className="text-red-500"
-                                />
-                              ) : (
-                                <FaCheckDouble
-                                  className="text-green-500"
-                                  size={20}
-                                />
-                              )}
-                            </TableCell>
-                          ))}
-                        </TableRow>
-                      </TableBody>
-                    </Table>
-                  </>
-                )}
-              </div>
-            ))}
-          </section>
-          <section>
-            <QuadGallery data={data} />
-          </section>
+                    <ul>
+                      <li>
+                        <strong>Sessions:</strong> {tier.sessions}
+                      </li>
+                      <li>
+                        <strong>Duration: </strong>
+                        {convertMinutesToHoursAndMinutes(
+                          tier.durationOfSession
+                        )}
+                      </li>
+                      <li>
+                        <strong>Sessions Per Week:</strong>{" "}
+                        {tier.sessionsPerWeek}
+                      </li>
+                      <li>
+                        <strong>Total Sessions:</strong> {tier.totalSessions}
+                      </li>
+                      <li>
+                        <strong>Total Price:</strong>{" "}
+                        {formatCurrency(tier.price * tier.totalSessions)}
+                      </li>
+                    </ul>
+                  </div>
+                  {tier.blackOutDays && (
+                    <>
+                      <h5 className="mb-3 underline underline-offset-2">
+                        Black Out Dates
+                      </h5>
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="flex justify-around text-center">
+                            <TableHead>S</TableHead>
+                            <TableHead>M</TableHead>
+                            <TableHead>T</TableHead>
+                            <TableHead>W</TableHead>
+                            <TableHead>TH</TableHead>
+                            <TableHead>F</TableHead>
+                            <TableHead>S</TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow className="flex justify-around text-center">
+                            {days.map((dayName, dayIndex) => (
+                              <TableCell key={dayIndex}>
+                                {tier.blackOutDays?.includes(dayName) ? (
+                                  <IoCloseSharp
+                                    size={20}
+                                    className="text-red-500"
+                                  />
+                                ) : (
+                                  <FaCheckDouble
+                                    className="text-green-500"
+                                    size={20}
+                                  />
+                                )}
+                              </TableCell>
+                            ))}
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </>
+                  )}
+                </div>
+              ))}
+            </section>
+            <section className="xl:gap-2 grid grid-cols-1 py-2">
+              <QuadGallery data={data} />
+              {isLargeScreen && <QuadGallery data={data} />}
+            </section>
+          </div>
         </article>
       ) : null}
     </>
