@@ -16,13 +16,32 @@ import { cn } from "@/lib/utils";
 import { convertMinutesToHoursAndMinutes } from "@/lib/utils/convert";
 import { capitalize, formatCurrency } from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { FaCheckDouble } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 export default function Page() {
   const segments = usePathname().split("/");
   const serviceId = segments[segments.length - 1];
 
-  const isLargeScreen = window.innerWidth > 1024;
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    // Check screen size on the client side
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1024);
+    };
+
+    // Set initial value
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const information = subServiceInformation.find(
     (info) => info.subServiceId === serviceId
