@@ -1,4 +1,4 @@
-import { SubService } from "@/lib/interfaces&types/services";
+import { Service } from "@/lib/interfaces&types/services";
 import { useRouter } from "next/navigation";
 import {
   RiVipCrownFill,
@@ -16,7 +16,7 @@ export default function ProgramCard({
   categoryId,
   index,
 }: {
-  service: SubService;
+  service: Service;
   categoryId: string;
   index: number;
 }) {

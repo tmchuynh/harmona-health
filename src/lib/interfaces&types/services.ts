@@ -7,21 +7,21 @@ export interface ServiceCategory {
   description: string; // Short description for this category
 }
 
-export interface SubServiceTier {
+export interface Tier {
   tier: "basic" | "growth" | "scale"; // Tier level
   description: string; // Description of what’s included
 }
 
-export interface SubService {
+export interface Service {
   id: string; // Unique identifier for the sub-service
   categoryId: string; // Links this service to a category via ID
   title: string; // Display title of the service
   description: string; // Description of the service
   introduction?: string;
-  tiers: SubServiceTier[]; // Array of tiered offerings
+  tiers: Tier[]; // Array of tiered offerings
 }
 
-export interface SubServiceInformation {
+export interface ServiceInformation {
   subServiceId: string;
   introduction: string;
   keypoints: string[];

@@ -1,6 +1,6 @@
-import { SubServiceInformation } from "@/lib/interfaces&types/services";
+import { ServiceInformation } from "@/lib/interfaces&types/services";
 
-export const subServiceInformation: SubServiceInformation[] = [
+export const subServiceInformation: ServiceInformation[] = [
   {
     subServiceId: "personalized-wellness",
     introduction:
