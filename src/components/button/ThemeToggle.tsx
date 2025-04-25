@@ -44,12 +44,12 @@ export const ThemeToggle = (): JSX.Element | null => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <div className="flex items-center mx-4">
+    <div className="top-[50%] z-50 sticky mx-4 w-fit">
       <p className="sr-only">Toggle theme</p>
       <Toggle
         aria-label="Toggle theme"
         onClick={toggleTheme}
-        className="flex justify-center items-center hover:bg-tertiary hover:text-tertiary-foreground"
+        className="flex justify-center items-center bg-tertiary p-3 rounded-lg"
       >
         {currentTheme === "dark" ? (
           <>
