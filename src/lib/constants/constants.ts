@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import { FaLeaf } from "react-icons/fa";
 import {
   GiMonsteraLeaf,
@@ -33,7 +34,7 @@ import {
   RiLeafFill,
 } from "react-icons/ri";
 
-export const icons = [
+export const icons: IconType[] = [
   PiFlowerLotusFill,
   GiLindenLeaf,
   RiBlueskyFill,
@@ -66,4 +67,4 @@ export const icons = [
   RiBardLine,
   ImHeart,
   GiSunCloud,
-];
+].filter((icon) => typeof icon === "function");
