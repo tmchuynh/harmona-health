@@ -15,7 +15,7 @@ export default function BackgroundImage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-gray-900">
+    <div className="">
       <header className="top-0 z-50 absolute inset-x-0">
         <nav
           aria-label="Global"
@@ -35,7 +35,7 @@ export default function BackgroundImage() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              className="inline-flex justify-center items-center -m-2.5 p-2.5 rounded-md text-gray-400"
+              className="inline-flex justify-center items-center -m-2.5 p-2.5 rounded-md"
             >
               <span className="sr-only">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="size-6" />
@@ -46,14 +46,14 @@ export default function BackgroundImage() {
               <a
                 key={item.name}
                 href={item.href}
-                className="font-semibold text-sm/6 text-white"
+                className="font-semibold text-sm/6"
               >
                 {item.name}
               </a>
             ))}
           </div>
           <div className="lg:flex lg:flex-1 lg:justify-end hidden">
-            <a href="#" className="font-semibold text-sm/6 text-white">
+            <a href="#" className="font-semibold text-sm/6">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -64,7 +64,7 @@ export default function BackgroundImage() {
           className="lg:hidden"
         >
           <div className="z-50 fixed inset-0" />
-          <DialogPanel className="right-0 z-50 fixed inset-y-0 bg-gray-900 px-6 py-6 sm:ring-1 sm:ring-white/10 w-full sm:max-w-sm overflow-y-auto">
+          <DialogPanel className="right-0 z-50 fixed inset-y-0 px-6 py-6 sm:ring-1 sm:ring-white/10 w-full sm:max-w-sm overflow-y-auto">
             <div className="flex justify-between items-center">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
@@ -77,7 +77,7 @@ export default function BackgroundImage() {
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
-                className="-m-2.5 p-2.5 rounded-md text-gray-400"
+                className="-m-2.5 p-2.5 rounded-md"
               >
                 <span className="sr-only">Close menu</span>
                 <XMarkIcon aria-hidden="true" className="size-6" />
@@ -90,7 +90,7 @@ export default function BackgroundImage() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block hover:bg-gray-800 -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7 text-white"
+                      className="block -mx-3 px-3 py-2 rounded-lg font-semibold text-base/7"
                     >
                       {item.name}
                     </a>
@@ -99,7 +99,7 @@ export default function BackgroundImage() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="block hover:bg-gray-800 -mx-3 px-3 py-2.5 rounded-lg font-semibold text-base/7 text-white"
+                    className="block -mx-3 px-3 py-2.5 rounded-lg font-semibold text-base/7"
                   >
                     Log in
                   </a>
@@ -131,30 +131,30 @@ export default function BackgroundImage() {
         <div className="mx-auto px-6 lg:px-8 max-w-7xl">
           <div className="mx-auto py-32 sm:py-48 lg:py-56 max-w-2xl">
             <div className="sm:flex sm:justify-center hidden sm:mb-8">
-              <div className="relative px-3 py-1 rounded-full ring-1 ring-white/10 hover:ring-white/20 text-gray-400 text-sm/6">
+              <div className="relative px-3 py-1 rounded-full ring-1 ring-white/10 hover:ring-white/20 text-sm/6">
                 Announcing our next round of funding.{" "}
-                <a href="#" className="font-semibold text-white">
+                <a href="#" className="font-semibold">
                   <span aria-hidden="true" className="absolute inset-0" />
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
             </div>
             <div className="text-center">
-              <h1 className="font-semibold text-5xl text-balance text-white sm:text-7xl tracking-tight">
+              <h1 className="font-semibold text-5xl text-balance sm:text-7xl tracking-tight">
                 Data to enrich your online business
               </h1>
-              <p className="mt-8 font-medium text-gray-400 text-lg text-pretty sm:text-xl/8">
+              <p className="mt-8 font-medium text-lg text-pretty sm:text-xl/8">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
               </p>
               <div className="flex justify-center items-center gap-x-6 mt-10">
                 <a
                   href="#"
-                  className="bg-indigo-500 hover:bg-indigo-400 shadow-xs px-3.5 py-2.5 rounded-md font-semibold text-sm text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  className="shadow-xs px-3.5 py-2.5 rounded-md font-semibold text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
                   Get started
                 </a>
-                <a href="#" className="font-semibold text-sm/6 text-white">
+                <a href="#" className="font-semibold text-sm/6">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
