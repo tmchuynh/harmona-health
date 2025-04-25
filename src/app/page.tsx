@@ -13,6 +13,7 @@ import {
   CalendarDaysIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const primaryFeatures = [
   {
@@ -102,10 +103,12 @@ export default function Example() {
           </div>
           <div className="lg:flex mx-auto px-6 lg:px-8 lg:py-40 pt-10 pb-24 sm:pb-32 max-w-7xl">
             <div className="mx-auto lg:mx-0 lg:pt-8 max-w-2xl shrink-0">
-              <img
+              <Image
                 alt="Your Company"
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                 className="h-11"
+                width={32}
+                height={32}
               />
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
@@ -132,7 +135,7 @@ export default function Example() {
             </div>
             <div className="flex lg:flex-none mx-auto mt-16 sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 xl:ml-32 max-w-2xl lg:max-w-none">
               <div className="flex-none max-w-3xl sm:max-w-5xl lg:max-w-none">
-                <img
+                <Image
                   alt="App screenshot"
                   src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
                   width={2432}
@@ -201,7 +204,7 @@ export default function Example() {
           </div>
           <div className="relative pt-16 overflow-hidden">
             <div className="mx-auto px-6 lg:px-8 max-w-7xl">
-              <img
+              <Image
                 alt="App screenshot"
                 src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
                 width={2432}

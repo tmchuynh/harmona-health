@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import Image from "next/image";
 
 export default function StickyScreenshot() {
   return (
@@ -57,10 +58,12 @@ export default function StickyScreenshot() {
           </div>
         </div>
         <div className="lg:top-4 lg:sticky lg:col-start-2 lg:row-span-2 lg:row-start-1 -mt-12 -ml-12 p-12 lg:overflow-hidden">
-          <img
+          <Image
             alt=""
             src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
             className="shadow-xl rounded-xl ring-1 ring-gray-400/10 w-[48rem] sm:w-[57rem] max-w-none"
+            width={2432}
+            height={1442}
           />
         </div>
         <div className="lg:gap-x-8 lg:grid lg:grid-cols-2 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:px-8 lg:w-full lg:max-w-7xl">

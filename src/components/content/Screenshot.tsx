@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import Image from "next/image";
 
 const features = [
   {
@@ -59,7 +60,7 @@ export default function Screenshot() {
               </dl>
             </div>
           </div>
-          <img
+          <Image
             alt="Product screenshot"
             src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
             width={2432}
