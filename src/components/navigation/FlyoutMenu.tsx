@@ -32,7 +32,7 @@ export default function FlyoutMenu() {
     <header className="bg-background">
       <nav
         aria-label="Global"
-        className="flex justify-between items-center mx-auto lg:px-8 p-6 max-w-7xl"
+        className="top-0 fixed flex justify-between items-center bg-background shadow-sm mx-auto lg:px-8 p-6 border-b w-full"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
