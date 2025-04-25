@@ -1,7 +1,7 @@
 "use client";
 import { DynamicButtonProps } from "@/lib/interfaces&types/types";
 import { cn } from "@/lib/utils";
-import { shuffleArray } from "@/lib/utils/sort";
+import { shuffleArray, simpleShuffleArray } from "@/lib/utils/sort";
 import { icons } from "lucide-react";
 import React, { JSX, useEffect, useState } from "react";
 import { Button } from "../ui/button";
@@ -55,7 +55,7 @@ export default function DynamicButton({
   useEffect(() => {
     // Assign fallback icons if not provided
     if (!icon) {
-      let shuffled = Object.values(icons).sort(() => 0.5 - Math.random());
+      let shuffled = simpleShuffleArray(Object.values(icons));
 
       // Use Date.now() and Math.random() to select the first icon
       const now = Date.now();

@@ -54,3 +54,26 @@ export function shuffleArray<T>(array: T[]): T[] {
   }
   return shuffled;
 }
+
+/**
+ * Shuffles the elements of an array in a simple random manner.
+ * 
+ * @remarks
+ * This function uses a simple but not statistically perfect shuffling algorithm
+ * by using `Math.random() - 0.5` as a comparison function for sort.
+ * For cryptographically secure shuffling, consider using a more robust algorithm.
+ * 
+ * @param array - The array to shuffle
+ * @returns A new array with the elements randomly shuffled
+ * @typeParam T - The type of elements in the array
+ * 
+ * @example
+ * ```typescript
+ * const numbers = [1, 2, 3, 4, 5];
+ * const shuffled = simpleShuffleArray(numbers);
+ * console.log(shuffled); // [3, 1, 5, 2, 4] (random order)
+ * ```
+ */
+export function simpleShuffleArray<T>(array: T[]): T[] {
+  return array.sort(() => Math.random() - 0.5);
+}
