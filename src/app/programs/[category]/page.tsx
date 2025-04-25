@@ -1,22 +1,33 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
+import DynamicButton from "@/components/button/button-dynamic";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 import { subServices } from "@/lib/constants/services/services";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { capitalize } from "@/lib/utils/format";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 export default function Page() {
   const segments = usePathname().split("/");
+  const router = useRouter();
   const categoryId = segments[segments.length - 1];
   const filteredServices = subServices.filter((service) =>
     serviceCategories.some(() => categoryId === service.categoryId)
   );
 
+  const category = serviceCategories.find(
+    (category) => category.id === categoryId
+  );
+
+  if (!category) {
+    return <div>Category not found</div>;
+  }
+
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
-      <h1>Blank</h1>
-      <h5>Blank blank blank blank</h5>
+      <category.icon className="mb-2 w-10 lg:w-15 2xl:w-20 h-10 lg:h-15 2xl:h-20 text-tertiary" />
+      <h1>{capitalize(categoryId)}</h1>
+      <h5>{category.description}</h5>
 
       <p className="pb-8">
         Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
@@ -29,18 +40,23 @@ export default function Page() {
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredServices.map((service, index) => {
           return (
-            <Link
+            <Card
               key={`${service.id}-${index}`}
-              href={`/programs/${categoryId}/${service.id}`}
+              className="group flex flex-col justify-between h-full min-h-[20rem] cursor-pointer"
+              onClick={() =>
+                router.push(`/programs/${categoryId}/${service.id}`)
+              }
             >
-              <Card>
-                <CardContent>
-                  <h2>{service.title}</h2>
-                  <p>{service.introduction}</p>
-                  <p>{service.description}</p>
-                </CardContent>
-              </Card>
-            </Link>
+              <CardContent>
+                <h2 className="underline-offset-4 group-hover:underline decoration-1">
+                  {service.title}
+                </h2>
+                <p>{service.description}</p>
+              </CardContent>
+              <CardFooter>
+                <DynamicButton>Explore This Program</DynamicButton>
+              </CardFooter>
+            </Card>
           );
         })}
       </div>

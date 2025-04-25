@@ -48,49 +48,42 @@ export default function Page() {
     <>
       {service && information ? (
         <article className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
-          <h1>Blank</h1>
-          <h5>Blank blank blank blank</h5>
+          <h1>{service.title}</h1>
+          <h5>{information.introduction}</h5>
 
-          <p className="pb-8">
-            Ipsum excepteur dolore id velit adipisicing magna quis in commodo
-            sint sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute
-            voluptate sunt sint elit qui aute ea non eiusmod labore. Ea
-            voluptate ex ullamco qui aliqua qui minim voluptate ut incididunt
-            nostrud. Cillum elit minim cupidatat officia.
-          </p>
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 pb-3">
-            <div>
-              <h2>{service.title}</h2>
-              <p>{information.introduction}</p>
-              <p>{service.description}</p>
-            </div>
-            <section className="gap-5 grid grid-cols-1 lg:grid-cols-2">
-              <div>
-                <h3>Key Points</h3>
-                <ul>
-                  {information.keypoints.map((keypoint, index) => (
-                    <li key={`${keypoint}-${index}`}>{keypoint}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3>Program Outcomes</h3>
-                <ul>
-                  {information.outcomes.map((outcome, index) => (
-                    <li key={`${outcome}-${index}`}>{outcome}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3>Program Goals</h3>
-                <ul>
-                  {information.goals.map((goal, index) => (
-                    <li key={`${goal}-${index}`}>{goal}</li>
-                  ))}
-                </ul>
-              </div>
-            </section>
+          <div>
+            {information.benefits.map((benefit, index) => (
+              <p key={index} className="mb-1">
+                {benefit}
+              </p>
+            ))}
           </div>
+          <section className="gap-5 grid grid-cols-1 lg:grid-cols-3 py-5">
+            <div>
+              <h3>Key Points</h3>
+              <ul>
+                {information.keypoints.map((keypoint, index) => (
+                  <li key={`${keypoint}-${index}`}>{keypoint}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3>Program Outcomes</h3>
+              <ul>
+                {information.outcomes.map((outcome, index) => (
+                  <li key={`${outcome}-${index}`}>{outcome}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3>Program Goals</h3>
+              <ul>
+                {information.goals.map((goal, index) => (
+                  <li key={`${goal}-${index}`}>{goal}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
 
           <div className="items-center lg:items-start xl:items-center gap-5 grid grid-cols-1 md:grid-cols-2">
             <section>
