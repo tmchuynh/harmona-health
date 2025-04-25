@@ -1,5 +1,8 @@
+"use client";
+
 import DynamicButton from "@/components/button/button-dynamic";
 import { FAQ } from "@/lib/constants/services/frequently-asked-questions";
+import { RiTelegram2Fill, RiTelegram2Line } from "react-icons/ri";
 
 export default function Page() {
   return (
@@ -9,7 +12,13 @@ export default function Page() {
           <h2>Frequently asked questions</h2>
           <p className="mt-4 text-base/7 text-pretty">
             Can’t find the answer you’re looking for? Reach out to our team.
-            <DynamicButton href="/contact">customer support</DynamicButton>
+            <DynamicButton
+              icon={RiTelegram2Line}
+              hoverIcon={RiTelegram2Fill}
+              href="/contact"
+            >
+              customer support
+            </DynamicButton>
           </p>
         </div>
         <div className="lg:col-span-7 mt-10 lg:mt-0">
