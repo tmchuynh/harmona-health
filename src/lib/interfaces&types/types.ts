@@ -21,6 +21,7 @@ export type DynamicButtonProps = {
   text: string;
   icon?: IconType;
   onClick?: () => void;
+  href?: string;
   className?: string;
   iconClassName?: string;
 };

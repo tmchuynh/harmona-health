@@ -33,6 +33,7 @@ export default function DynamicButton({
   children,
   icon: Icon = FaLeaf,
   onClick,
+  href,
   className,
   iconClassName,
 }: Omit<DynamicButtonProps, "text"> & {
@@ -57,7 +58,9 @@ export default function DynamicButton({
           <Icon className="w-4 h-4" />
         </span>
       )}
-      <span className="px-3">{children}</span>
+      <a href={href} className="px-3">
+        {children}
+      </a>
       {Icon && variant !== "link" && (
         <span
           className={cn("inline-block px-4 text-background", iconClassName)}
