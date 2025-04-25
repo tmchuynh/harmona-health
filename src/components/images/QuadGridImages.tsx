@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function QuadGallery({ data }: { data: { imageLink: string }[] }) {
   return (
-    <div className="gap-2 grid grid-cols-2">
+    <div className="gap-2 grid lg:grid-cols-2 lg:mt-3 xl:mt-0">
       {data.map(({ imageLink }, index) => (
         <div key={index}>
           <Image
