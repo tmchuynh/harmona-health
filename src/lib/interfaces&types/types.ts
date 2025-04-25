@@ -1,3 +1,4 @@
+import { JSX } from "react";
 import { IconType } from "react-icons/lib";
 
 export type NotFoundContextType = {
@@ -32,3 +33,15 @@ export type NavigationMenu = {
   href: string;
   icon?: IconType;
 };
+
+export interface ListDetail {
+  title?: string;
+  description?: string | JSX.Element;
+  list?: ListDetail[];
+}
+
+export interface CTA extends ListDetail {
+  intro: string;
+  button: string;
+  afterButtonText?: string;
+}

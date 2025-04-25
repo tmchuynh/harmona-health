@@ -16,6 +16,9 @@ import { cn } from "@/lib/utils";
 import { capitalize, formatCurrency } from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
 import { FaCheckDouble, FaXRay } from "react-icons/fa";
+import { convertMinutesToHoursAndMinutes } from "@/lib/utils/convert";
+import { QuadGallery } from "@/components/images/QuadGridImages";
+import { data } from "@/lib/constants/services/images";
 export default function Page() {
   const segments = usePathname().split("/");
   const serviceId = segments[segments.length - 1];
@@ -98,9 +101,34 @@ export default function Page() {
               >
                 <div className="flex justify-between gap-4">
                   <h2>{capitalize(tier.tier)} Tier</h2>
-                  <p>{formatCurrency(tier.price)}</p>
+                  <p>{formatCurrency(tier.price)}/session</p>
                 </div>
                 <p>{service.description}</p>
+
+                <div>
+                  <h5 className="mb-3 underline underline-offset-2">
+                    What’s Included
+                  </h5>
+                  <ul>
+                    <li>
+                      <strong>Sessions:</strong> {tier.sessions}
+                    </li>
+                    <li>
+                      <strong>Duration: </strong>
+                      {convertMinutesToHoursAndMinutes(tier.durationOfSession)}
+                    </li>
+                    <li>
+                      <strong>Sessions Per Week:</strong> {tier.sessionsPerWeek}
+                    </li>
+                    <li>
+                      <strong>Total Sessions:</strong> {tier.totalSessions}
+                    </li>
+                    <li>
+                      <strong>Total Price:</strong>{" "}
+                      {formatCurrency(tier.price * tier.totalSessions)}
+                    </li>
+                  </ul>
+                </div>
                 {tier.blackOutDays && (
                   <>
                     <h5 className="mb-3 underline underline-offset-2">
@@ -142,6 +170,9 @@ export default function Page() {
                 )}
               </div>
             ))}
+          </section>
+          <section>
+            <QuadGallery data={data} />
           </section>
         </article>
       ) : null}
