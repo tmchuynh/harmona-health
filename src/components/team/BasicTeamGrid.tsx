@@ -10,13 +10,13 @@ const people = [
 
 export default function BasicTeamGrid() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto px-6 lg:px-8 max-w-7xl">
         <div className="mx-auto lg:mx-0 max-w-2xl">
-          <h2 className="font-semibold text-4xl text-gray-900 text-pretty sm:text-5xl tracking-tight">
+          <h2 className="font-semibold text-4xl text-pretty sm:text-5xl tracking-tight">
             Our team
           </h2>
-          <p className="mt-6 text-gray-600 text-lg/8">
+          <p className="mt-6 text-lg/8">
             We’re a dynamic group of individuals who are passionate about what
             we do and dedicated to delivering the best results for our clients.
           </p>
@@ -32,10 +32,10 @@ export default function BasicTeamGrid() {
                 src={person.imageUrl}
                 className="mx-auto rounded-full size-24"
               />
-              <h3 className="mt-6 font-semibold text-base/7 text-gray-900 tracking-tight">
+              <h3 className="mt-6 font-semibold text-base/7 tracking-tight">
                 {person.name}
               </h3>
-              <p className="text-gray-600 text-sm/6">{person.role}</p>
+              <p className="text-sm/6">{person.role}</p>
             </li>
           ))}
         </ul>

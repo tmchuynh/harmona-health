@@ -119,15 +119,15 @@ const sections: Section[] = [
 
 export default function TierComparisonTable() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto px-6 lg:px-8 max-w-7xl">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="font-semibold text-base/7 text-indigo-600">Pricing</h2>
-          <p className="mt-2 font-semibold text-5xl text-balance text-gray-900 sm:text-6xl tracking-tight">
+          <p className="mt-2 font-semibold text-5xl text-balance sm:text-6xl tracking-tight">
             Pricing that grows with you
           </p>
         </div>
-        <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-gray-600 text-lg text-pretty sm:text-xl/8">
+        <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-lg text-pretty sm:text-xl/8">
           Choose an affordable plan that’s packed with the best features for
           engaging your audience, creating customer loyalty, and driving sales.
         </p>
@@ -139,18 +139,15 @@ export default function TierComparisonTable() {
               key={tier.id}
               className={cn(
                 tier.mostPopular
-                  ? "rounded-xl bg-gray-400/5 ring-1 ring-gray-200 ring-inset"
+                  ? "rounded-xl  ring-1 ring-gray-200 ring-inset"
                   : "",
                 "p-8"
               )}
             >
-              <h3
-                id={tier.id}
-                className="font-semibold text-gray-900 text-sm/6"
-              >
+              <h3 id={tier.id} className="font-semibold text-sm/6">
                 {tier.name}
               </h3>
-              <p className="flex items-baseline gap-x-1 mt-2 text-gray-900">
+              <p className="flex items-baseline gap-x-1 mt-2">
                 <span className="font-semibold text-4xl">
                   {tier.priceMonthly}
                 </span>
@@ -161,17 +158,14 @@ export default function TierComparisonTable() {
                 aria-describedby={tier.id}
                 className={cn(
                   tier.mostPopular
-                    ? "bg-indigo-600 text-white hover:bg-indigo-500"
+                    ? "  "
                     : "text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300",
                   "mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 )}
               >
                 Buy plan
               </a>
-              <ul
-                role="list"
-                className="space-y-4 mt-10 text-gray-900 text-sm/6"
-              >
+              <ul role="list" className="space-y-4 mt-10 text-sm/6">
                 {sections.map((section) => (
                   <li key={section.name}>
                     <ul role="list" className="space-y-4">
@@ -185,7 +179,7 @@ export default function TierComparisonTable() {
                             <span>
                               {feature.name}{" "}
                               {typeof feature.tiers[tier.name] === "string" ? (
-                                <span className="text-gray-500 text-sm/6">
+                                <span className="text-sm/6">
                                   ({feature.tiers[tier.name]})
                                 </span>
                               ) : null}
@@ -215,7 +209,7 @@ export default function TierComparisonTable() {
                   aria-hidden="true"
                   className="flex px-4 w-1/4"
                 >
-                  <div className="bg-gray-400/5 border-gray-900/10 border-x border-t rounded-t-xl w-full" />
+                  <div className="border-gray-900/10 border-x border-t rounded-t-xl w-full" />
                 </div>
               </div>
             ) : null}
@@ -236,9 +230,7 @@ export default function TierComparisonTable() {
                       scope="col"
                       className="px-6 xl:px-8 pt-6 xl:pt-8"
                     >
-                      <div className="font-semibold text-gray-900 text-sm/7">
-                        {tier.name}
-                      </div>
+                      <div className="font-semibold text-sm/7">{tier.name}</div>
                     </th>
                   ))}
                 </tr>
@@ -250,7 +242,7 @@ export default function TierComparisonTable() {
                   </th>
                   {tiers.map((tier) => (
                     <td key={tier.id} className="px-6 xl:px-8 pt-2">
-                      <div className="flex items-baseline gap-x-1 text-gray-900">
+                      <div className="flex items-baseline gap-x-1">
                         <span className="font-semibold text-4xl">
                           {tier.priceMonthly}
                         </span>
@@ -260,7 +252,7 @@ export default function TierComparisonTable() {
                         href={tier.href}
                         className={cn(
                           tier.mostPopular
-                            ? "bg-indigo-600 text-white hover:bg-indigo-500"
+                            ? "  "
                             : "text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300",
                           "mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         )}
@@ -278,26 +270,23 @@ export default function TierComparisonTable() {
                         colSpan={4}
                         className={cn(
                           sectionIdx === 0 ? "pt-8" : "pt-16",
-                          "pb-4 text-sm/6 font-semibold text-gray-900"
+                          "pb-4 text-sm/6 font-semibold "
                         )}
                       >
                         {section.name}
-                        <div className="absolute inset-x-8 bg-gray-900/10 mt-4 h-px" />
+                        <div className="absolute inset-x-8 mt-4 h-px" />
                       </th>
                     </tr>
                     {section.features.map((feature) => (
                       <tr key={feature.name}>
-                        <th
-                          scope="row"
-                          className="py-4 font-normal text-gray-900 text-sm/6"
-                        >
+                        <th scope="row" className="py-4 font-normal text-sm/6">
                           {feature.name}
-                          <div className="absolute inset-x-8 bg-gray-900/5 mt-4 h-px" />
+                          <div className="absolute inset-x-8 mt-4 h-px" />
                         </th>
                         {tiers.map((tier) => (
                           <td key={tier.id} className="px-6 xl:px-8 py-4">
                             {typeof feature.tiers[tier.name] === "string" ? (
-                              <div className="text-center text-gray-500 text-sm/6">
+                              <div className="text-center text-sm/6">
                                 {feature.tiers[tier.name]}
                               </div>
                             ) : (
@@ -310,7 +299,7 @@ export default function TierComparisonTable() {
                                 ) : (
                                   <MinusIcon
                                     aria-hidden="true"
-                                    className="mx-auto text-gray-400 size-5"
+                                    className="mx-auto size-5"
                                   />
                                 )}
 

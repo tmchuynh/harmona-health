@@ -157,13 +157,13 @@ export default function ThreeTierComparison() {
 
   return (
     <div className="overflow-hidden isolate">
-      <div className="bg-gray-900 pt-24 sm:pt-32 pb-16 lg:pb-0 flow-root">
+      <div className="pt-24 sm:pt-32 pb-16 lg:pb-0 flow-root">
         <div className="mx-auto px-6 lg:px-8 max-w-7xl">
           <div className="relative z-10">
-            <h2 className="mx-auto max-w-4xl font-semibold text-5xl text-balance text-center text-white sm:text-6xl tracking-tight">
+            <h2 className="mx-auto max-w-4xl font-semibold text-5xl text-balance text-center sm:text-6xl tracking-tight">
               Pricing that grows with you
             </h2>
-            <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-gray-400 text-lg text-pretty sm:text-xl/8">
+            <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-lg text-pretty sm:text-xl/8">
               Choose an affordable plan that’s packed with the best features for
               engaging your audience, creating customer loyalty, and driving
               sales.
@@ -173,7 +173,7 @@ export default function ThreeTierComparison() {
                 <RadioGroup
                   value={frequency}
                   onChange={setFrequency}
-                  className="gap-x-1 grid grid-cols-2 bg-white/5 p-1 rounded-full font-semibold text-center text-white text-xs/5"
+                  className="gap-x-1 grid grid-cols-2 p-1 rounded-full font-semibold text-center text-xs/5"
                 >
                   {frequencies.map((option) => (
                     <Radio
@@ -210,15 +210,15 @@ export default function ThreeTierComparison() {
             </svg>
             <div
               aria-hidden="true"
-              className="lg:block lg:top-4 lg:bottom-0 lg:absolute lg:inset-x-px hidden lg:bg-gray-800/80 lg:rounded-t-2xl lg:ring-1 lg:ring-white/10"
+              className="lg:block lg:top-4 lg:bottom-0 lg:absolute lg:inset-x-px hidden lg:rounded-t-2xl lg:ring-1 lg:ring-white/10"
             />
             {tiers.map((tier) => (
               <div
                 key={tier.id}
                 className={cn(
                   tier.featured
-                    ? "z-10 bg-white shadow-xl ring-1 ring-gray-900/10"
-                    : "bg-gray-800/80 ring-1 ring-white/10 lg:bg-transparent lg:pb-14 lg:ring-0",
+                    ? "z-10  shadow-xl ring-1 ring-gray-900/10"
+                    : " ring-1 ring-white/10 lg:bg-transparent lg:pb-14 lg:ring-0",
                   "relative rounded-2xl"
                 )}
               >
@@ -226,7 +226,7 @@ export default function ThreeTierComparison() {
                   <h3
                     id={tier.id}
                     className={cn(
-                      tier.featured ? "text-gray-900" : "text-white",
+                      tier.featured ? "" : "",
                       "text-sm/6 font-semibold"
                     )}
                   >
@@ -236,24 +236,16 @@ export default function ThreeTierComparison() {
                     <div className="flex items-center gap-x-4 mt-2">
                       <p
                         className={cn(
-                          tier.featured ? "text-gray-900" : "text-white",
+                          tier.featured ? "" : "",
                           "text-4xl font-semibold tracking-tight"
                         )}
                       >
                         {tier.price[frequency.value]}
                       </p>
                       <div className="text-sm">
+                        <p className={tier.featured ? "" : ""}>USD</p>
                         <p
-                          className={
-                            tier.featured ? "text-gray-900" : "text-white"
-                          }
-                        >
-                          USD
-                        </p>
-                        <p
-                          className={
-                            tier.featured ? "text-gray-500" : "text-gray-400"
-                          }
+                          className={tier.featured ? "" : ""}
                         >{`Billed ${frequency.value}`}</p>
                       </div>
                     </div>
@@ -262,9 +254,9 @@ export default function ThreeTierComparison() {
                       aria-describedby={tier.id}
                       className={cn(
                         tier.featured
-                          ? "bg-indigo-600 shadow-xs hover:bg-indigo-500 focus-visible:outline-indigo-600"
-                          : "bg-white/10 hover:bg-white/20 focus-visible:outline-white",
-                        "rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2"
+                          ? " shadow-xs  focus-visible:outline-indigo-600"
+                          : "  focus-visible:outline-white",
+                        "rounded-md px-3 py-2 text-center text-sm/6 font-semibold  focus-visible:outline-2 focus-visible:outline-offset-2"
                       )}
                     >
                       Buy this plan
@@ -275,8 +267,8 @@ export default function ThreeTierComparison() {
                       role="list"
                       className={cn(
                         tier.featured
-                          ? "divide-gray-900/5 border-gray-900/5 text-gray-600"
-                          : "divide-white/5 border-white/5 text-white",
+                          ? "divide-gray-900/5 border-gray-900/5 "
+                          : "divide-white/5 border-white/5 ",
                         "-my-2 divide-y border-t text-sm/6 lg:border-t-0"
                       )}
                     >
@@ -285,9 +277,7 @@ export default function ThreeTierComparison() {
                           <CheckIcon
                             aria-hidden="true"
                             className={cn(
-                              tier.featured
-                                ? "text-indigo-600"
-                                : "text-gray-500",
+                              tier.featured ? "text-indigo-600" : "",
                               "h-6 w-5 flex-none"
                             )}
                           />
@@ -302,7 +292,7 @@ export default function ThreeTierComparison() {
           </div>
         </div>
       </div>
-      <div className="relative bg-gray-50 lg:pt-14">
+      <div className="relative lg:pt-14">
         <div className="mx-auto px-6 lg:px-8 py-24 sm:py-32 max-w-7xl">
           {/* Feature comparison (up to lg) */}
           <section
@@ -326,28 +316,26 @@ export default function ThreeTierComparison() {
                   >
                     <h3
                       className={cn(
-                        tier.featured ? "text-indigo-600" : "text-gray-900",
+                        tier.featured ? "text-indigo-600" : "",
                         "text-sm/6 font-semibold"
                       )}
                     >
                       {tier.name}
                     </h3>
-                    <p className="mt-1 text-gray-600 text-sm/6">
-                      {tier.description}
-                    </p>
+                    <p className="mt-1 text-sm/6">{tier.description}</p>
                   </div>
 
                   <div className="space-y-10 mt-10">
                     {sections.map((section) => (
                       <div key={section.name}>
-                        <h4 className="font-semibold text-gray-900 text-sm/6">
+                        <h4 className="font-semibold text-sm/6">
                           {section.name}
                         </h4>
                         <div className="relative mt-6">
                           {/* Fake card background */}
                           <div
                             aria-hidden="true"
-                            className="sm:block right-0 absolute inset-y-0 hidden bg-white shadow-xs rounded-lg w-1/2"
+                            className="sm:block right-0 absolute inset-y-0 hidden shadow-xs rounded-lg w-1/2"
                           />
 
                           <div
@@ -355,7 +343,7 @@ export default function ThreeTierComparison() {
                               tier.featured
                                 ? "ring-2 ring-indigo-600"
                                 : "ring-1 ring-gray-900/10",
-                              "relative rounded-lg bg-white shadow-xs sm:rounded-none sm:bg-transparent sm:shadow-none sm:ring-0"
+                              "relative rounded-lg  shadow-xs sm:rounded-none sm:bg-transparent sm:shadow-none sm:ring-0"
                             )}
                           >
                             <dl className="divide-y divide-gray-200 text-sm/6">
@@ -364,9 +352,7 @@ export default function ThreeTierComparison() {
                                   key={feature.name}
                                   className="flex justify-between items-center sm:grid sm:grid-cols-2 px-4 sm:px-0 py-3"
                                 >
-                                  <dt className="pr-4 text-gray-600">
-                                    {feature.name}
-                                  </dt>
+                                  <dt className="pr-4">{feature.name}</dt>
                                   <dd className="flex justify-end sm:justify-center items-center sm:px-4">
                                     {typeof feature.tiers[tier.name] ===
                                     "string" ? (
@@ -374,7 +360,7 @@ export default function ThreeTierComparison() {
                                         className={
                                           tier.featured
                                             ? "font-semibold text-indigo-600"
-                                            : "text-gray-900"
+                                            : ""
                                         }
                                       >
                                         {feature.tiers[tier.name]}
@@ -389,7 +375,7 @@ export default function ThreeTierComparison() {
                                         ) : (
                                           <XMarkIcon
                                             aria-hidden="true"
-                                            className="mx-auto text-gray-400 size-5"
+                                            className="mx-auto size-5"
                                           />
                                         )}
 
@@ -447,15 +433,13 @@ export default function ThreeTierComparison() {
                   >
                     <p
                       className={cn(
-                        tier.featured ? "text-indigo-600" : "text-gray-900",
+                        tier.featured ? "text-indigo-600" : "",
                         "text-sm/6 font-semibold"
                       )}
                     >
                       {tier.name}
                     </p>
-                    <p className="mt-1 text-gray-600 text-sm/6">
-                      {tier.description}
-                    </p>
+                    <p className="mt-1 text-sm/6">{tier.description}</p>
                   </div>
                 </div>
               ))}
@@ -464,18 +448,16 @@ export default function ThreeTierComparison() {
             <div className="space-y-16 -mt-6">
               {sections.map((section) => (
                 <div key={section.name}>
-                  <h3 className="font-semibold text-gray-900 text-sm/6">
-                    {section.name}
-                  </h3>
+                  <h3 className="font-semibold text-sm/6">{section.name}</h3>
                   <div className="relative -mx-8 mt-10">
                     {/* Fake card backgrounds */}
                     <div
                       aria-hidden="true"
                       className="before:block absolute inset-x-8 inset-y-0 gap-x-8 grid grid-cols-4"
                     >
-                      <div className="bg-white shadow-xs rounded-lg size-full" />
-                      <div className="bg-white shadow-xs rounded-lg size-full" />
-                      <div className="bg-white shadow-xs rounded-lg size-full" />
+                      <div className="shadow-xs rounded-lg size-full" />
+                      <div className="shadow-xs rounded-lg size-full" />
+                      <div className="shadow-xs rounded-lg size-full" />
                     </div>
 
                     <table className="relative border-separate border-spacing-x-8 w-full">
@@ -496,11 +478,11 @@ export default function ThreeTierComparison() {
                           <tr key={feature.name}>
                             <th
                               scope="row"
-                              className="py-3 pr-4 w-1/4 font-normal text-gray-900 text-left text-sm/6"
+                              className="py-3 pr-4 w-1/4 font-normal text-left text-sm/6"
                             >
                               {feature.name}
                               {featureIdx !== section.features.length - 1 ? (
-                                <div className="absolute inset-x-8 bg-gray-200 mt-3 h-px" />
+                                <div className="absolute inset-x-8 mt-3 h-px" />
                               ) : null}
                             </th>
                             {tiers.map((tier) => (
@@ -515,7 +497,7 @@ export default function ThreeTierComparison() {
                                       className={cn(
                                         tier.featured
                                           ? "font-semibold text-indigo-600"
-                                          : "text-gray-900",
+                                          : "",
                                         "text-sm/6"
                                       )}
                                     >
@@ -531,7 +513,7 @@ export default function ThreeTierComparison() {
                                       ) : (
                                         <XMarkIcon
                                           aria-hidden="true"
-                                          className="mx-auto text-gray-400 size-5"
+                                          className="mx-auto size-5"
                                         />
                                       )}
 

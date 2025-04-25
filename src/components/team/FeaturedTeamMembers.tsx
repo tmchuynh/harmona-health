@@ -13,13 +13,13 @@ const people = [
 
 export default function FeaturedTeamMembers() {
   return (
-    <div className="bg-white py-24 md:py-32 lg:py-40">
+    <div className="py-24 md:py-32 lg:py-40">
       <div className="gap-20 grid grid-cols-1 xl:grid-cols-3 mx-auto px-6 lg:px-8 max-w-7xl">
         <div className="mx-auto lg:mx-0 max-w-2xl">
-          <h2 className="font-semibold text-4xl text-gray-900 text-pretty sm:text-5xl tracking-tight">
+          <h2 className="font-semibold text-4xl text-pretty sm:text-5xl tracking-tight">
             Our team
           </h2>
-          <p className="mt-6 text-gray-600 text-lg/8">
+          <p className="mt-6 text-lg/8">
             We’re a dynamic group of individuals who are passionate about what
             we do and dedicated to delivering the best results for our clients.
           </p>
@@ -35,17 +35,12 @@ export default function FeaturedTeamMembers() {
                 src={person.imageUrl}
                 className="rounded-2xl w-full aspect-3/2 object-cover"
               />
-              <h3 className="mt-6 font-semibold text-gray-900 text-lg/8">
-                {person.name}
-              </h3>
-              <p className="text-base/7 text-gray-600">{person.role}</p>
-              <p className="mt-4 text-base/7 text-gray-600">{person.bio}</p>
+              <h3 className="mt-6 font-semibold text-lg/8">{person.name}</h3>
+              <p className="text-base/7">{person.role}</p>
+              <p className="mt-4 text-base/7">{person.bio}</p>
               <ul role="list" className="flex gap-x-6 mt-6">
                 <li>
-                  <a
-                    href={person.xUrl}
-                    className="text-gray-400 hover:text-gray-500"
-                  >
+                  <a href={person.xUrl} className="">
                     <span className="sr-only">X</span>
                     <svg
                       fill="currentColor"
@@ -58,10 +53,7 @@ export default function FeaturedTeamMembers() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href={person.linkedinUrl}
-                    className="text-gray-400 hover:text-gray-500"
-                  >
+                  <a href={person.linkedinUrl} className="">
                     <span className="sr-only">LinkedIn</span>
                     <svg
                       fill="currentColor"

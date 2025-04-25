@@ -64,15 +64,15 @@ export default function SimpleThreeTier() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto px-6 lg:px-8 max-w-7xl">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="font-semibold text-base/7 text-indigo-600">Pricing</h2>
-          <p className="mt-2 font-semibold text-5xl text-balance text-gray-900 sm:text-6xl tracking-tight">
+          <p className="mt-2 font-semibold text-5xl text-balance sm:text-6xl tracking-tight">
             Pricing that grows with you
           </p>
         </div>
-        <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-gray-600 text-lg text-pretty sm:text-xl/8">
+        <p className="mx-auto mt-6 max-w-2xl font-medium text-center text-lg text-pretty sm:text-xl/8">
           Choose an affordable plan that’s packed with the best features for
           engaging your audience, creating customer loyalty, and driving sales.
         </p>
@@ -87,7 +87,7 @@ export default function SimpleThreeTier() {
                 <Radio
                   key={option.value}
                   value={option}
-                  className="data-checked:bg-indigo-600 px-2.5 py-1 rounded-full text-gray-500 data-checked:text-white cursor-pointer"
+                  className="px-2.5 py-1 rounded-full cursor-pointer data-checked: data-checked:"
                 >
                   {option.label}
                 </Radio>
@@ -100,31 +100,26 @@ export default function SimpleThreeTier() {
             <div
               key={tier.id}
               className={cn(
-                tier.featured ? "bg-gray-900 ring-gray-900" : "ring-gray-200",
+                tier.featured ? " ring-gray-900" : "ring-gray-200",
                 "rounded-3xl p-8 ring-1 xl:p-10"
               )}
             >
               <h3
                 id={tier.id}
                 className={cn(
-                  tier.featured ? "text-white" : "text-gray-900",
+                  tier.featured ? "" : "",
                   "text-lg/8 font-semibold"
                 )}
               >
                 {tier.name}
               </h3>
-              <p
-                className={cn(
-                  tier.featured ? "text-gray-300" : "text-gray-600",
-                  "mt-4 text-sm/6"
-                )}
-              >
+              <p className={cn(tier.featured ? "" : "", "mt-4 text-sm/6")}>
                 {tier.description}
               </p>
               <p className="flex items-baseline gap-x-1 mt-6">
                 <span
                   className={cn(
-                    tier.featured ? "text-white" : "text-gray-900",
+                    tier.featured ? "" : "",
                     "text-4xl font-semibold tracking-tight"
                   )}
                 >
@@ -135,7 +130,7 @@ export default function SimpleThreeTier() {
                 {typeof tier.price !== "string" ? (
                   <span
                     className={cn(
-                      tier.featured ? "text-gray-300" : "text-gray-600",
+                      tier.featured ? "" : "",
                       "text-sm/6 font-semibold"
                     )}
                   >
@@ -148,8 +143,8 @@ export default function SimpleThreeTier() {
                 aria-describedby={tier.id}
                 className={cn(
                   tier.featured
-                    ? "bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white"
-                    : "bg-indigo-600 text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-indigo-600",
+                    ? "   focus-visible:outline-white"
+                    : "  shadow-xs  focus-visible:outline-indigo-600",
                   "mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2"
                 )}
               >
@@ -158,7 +153,7 @@ export default function SimpleThreeTier() {
               <ul
                 role="list"
                 className={cn(
-                  tier.featured ? "text-gray-300" : "text-gray-600",
+                  tier.featured ? "" : "",
                   "mt-8 space-y-3 text-sm/6 xl:mt-10"
                 )}
               >
@@ -167,7 +162,7 @@ export default function SimpleThreeTier() {
                     <CheckIcon
                       aria-hidden="true"
                       className={cn(
-                        tier.featured ? "text-white" : "text-indigo-600",
+                        tier.featured ? "" : "text-indigo-600",
                         "h-6 w-5 flex-none"
                       )}
                     />

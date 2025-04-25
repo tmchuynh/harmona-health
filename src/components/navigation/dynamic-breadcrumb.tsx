@@ -56,7 +56,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       isLast: boolean
     ) => {
       const content =
-        compareStringWordCount(segment, 3) && !isLast
+        compareStringWordCount(segment, 4) && isLast
           ? clipString(segment, 15)
           : segment;
 
@@ -65,6 +65,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       console.log(
         `href: ${href}, segment: ${segment}, index: ${index}, isLast: ${isLast}, r: ${r}`
       );
+
+      console.log("content: ", content);
 
       return (
         <BreadcrumbItem

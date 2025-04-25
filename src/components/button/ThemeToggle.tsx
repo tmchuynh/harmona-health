@@ -49,7 +49,7 @@ export const ThemeToggle = (): JSX.Element | null => {
       <Toggle
         aria-label="Toggle theme"
         onClick={toggleTheme}
-        className="flex justify-center items-center bg-tertiary p-3 rounded-lg"
+        className="group flex justify-center items-center bg-secondary hover:bg-fancy p-3 rounded-lg text-secondary-foreground hover:text-fancy-foreground cursor-pointer"
       >
         {currentTheme === "dark" ? (
           <>

@@ -26,22 +26,17 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white">
+    <footer className="">
       <div className="mx-auto px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-32 pb-8 max-w-7xl">
         <div className="xl:gap-8 xl:grid xl:grid-cols-3">
           <div className="gap-8 grid grid-cols-2 xl:col-span-2">
             <div className="md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3 className="font-semibold text-gray-900 text-sm/6">
-                  Solutions
-                </h3>
+                <h3 className="font-semibold text-sm/6">Solutions</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 text-sm/6 hover:text-gray-900"
-                      >
+                      <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
                       </a>
                     </li>
@@ -49,16 +44,11 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold text-gray-900 text-sm/6">
-                  Support
-                </h3>
+                <h3 className="font-semibold text-sm/6">Support</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 text-sm/6 hover:text-gray-900"
-                      >
+                      <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
                       </a>
                     </li>
@@ -68,16 +58,11 @@ export default function Footer() {
             </div>
             <div className="md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3 className="font-semibold text-gray-900 text-sm/6">
-                  Company
-                </h3>
+                <h3 className="font-semibold text-sm/6">Company</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 text-sm/6 hover:text-gray-900"
-                      >
+                      <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
                       </a>
                     </li>
@@ -85,14 +70,11 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold text-gray-900 text-sm/6">Legal</h3>
+                <h3 className="font-semibold text-sm/6">Legal</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 text-sm/6 hover:text-gray-900"
-                      >
+                      <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
                       </a>
                     </li>
@@ -102,10 +84,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-10 xl:mt-0">
-            <h3 className="font-semibold text-gray-900 text-sm/6">
+            <h3 className="font-semibold text-sm/6">
               Subscribe to our newsletter
             </h3>
-            <p className="mt-2 text-gray-600 text-sm/6">
+            <p className="mt-2 text-sm/6">
               The latest news, articles, and resources, sent to your inbox
               weekly.
             </p>
@@ -120,12 +102,12 @@ export default function Footer() {
                 required
                 placeholder="Enter your email"
                 autoComplete="email"
-                className="bg-white px-3 py-1.5 rounded-md w-full sm:w-64 xl:w-full min-w-0 text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                className="px-3 py-1.5 rounded-md w-full sm:w-64 xl:w-full min-w-0 text-base sm:text-sm/6 placeholder: outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
               />
               <div className="mt-4 sm:mt-0 sm:ml-4 sm:shrink-0">
                 <button
                   type="submit"
-                  className="flex justify-center items-center bg-indigo-600 hover:bg-indigo-500 shadow-xs px-3 py-2 rounded-md w-full font-semibold text-sm text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="flex justify-center items-center shadow-xs px-3 py-2 rounded-md w-full font-semibold text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Subscribe
                 </button>
