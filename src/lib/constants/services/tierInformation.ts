@@ -12,6 +12,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 8,
     totalPrice: 299,
+    blackOutDays: ["Monday", "Tuesday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "personalized-wellness",
@@ -24,6 +25,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 2,
     totalSessions: 16,
     totalPrice: 499,
+    blackOutDays: ["Monday", "Wednesday", "Sunday", "Friday"],
   },
   {
     subServiceId: "personalized-wellness",
@@ -36,6 +38,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 2,
     totalSessions: 24,
     totalPrice: 899,
+    blackOutDays: ["Monday", "Sunday", "Friday"],
   },
 
   // Hormonal Balance
@@ -50,6 +53,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 199,
+    blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "hormonal-balance",
@@ -62,6 +66,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 399,
+    blackOutDays: ["Monday", "Tuesday", "Friday"],
   },
   {
     subServiceId: "hormonal-balance",
@@ -74,6 +79,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 8,
     totalPrice: 699,
+    blackOutDays: ["Saturday", "Sunday"],
   },
 
   // Sleep Coaching
@@ -88,6 +94,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 149,
+    blackOutDays: ["Monday", "Wednesday", "Friday"],
   },
   {
     subServiceId: "sleep-coaching",
@@ -100,6 +107,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 299,
+    blackOutDays: ["Monday", "Friday"],
   },
   {
     subServiceId: "sleep-coaching",
@@ -126,6 +134,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 99,
+    blackOutDays: ["Tuesday", "Thursday", "Sunday", "Friday"],
   },
   {
     subServiceId: "detox-reset",
@@ -138,6 +147,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 199,
+    blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
     subServiceId: "detox-reset",
@@ -163,6 +173,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 1,
     totalPrice: 49,
+    blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     subServiceId: "meal-planning",
@@ -175,6 +186,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 149,
+    blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
     subServiceId: "meal-planning",
@@ -201,6 +213,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 199,
+    blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
     subServiceId: "digestive-health",
@@ -213,6 +226,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 399,
+    blackOutDays: ["Tuesday"],
   },
   {
     subServiceId: "digestive-health",
@@ -239,6 +253,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 1,
     totalPrice: 99,
+    blackOutDays: ["Tuesday", "Wednesday", "Thursday"],
   },
   {
     subServiceId: "supplement-guidance",
@@ -251,6 +266,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 199,
+    blackOutDays: ["Tuesday", "Wednesday"],
   },
   {
     subServiceId: "supplement-guidance",
@@ -276,6 +292,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 1,
     totalPrice: 149,
+    blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "online-fitness-coaching",
@@ -287,6 +304,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 299,
+    blackOutDays: ["Thursday", "Friday"],
   },
   {
     subServiceId: "online-fitness-coaching",
@@ -311,6 +329,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 99,
+    blackOutDays: ["Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "mobility-recovery",
@@ -322,6 +341,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 199,
+    blackOutDays: ["Saturday", "Sunday"],
   },
   {
     subServiceId: "mobility-recovery",
@@ -346,6 +366,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 199,
+    blackOutDays: ["Wednesday", "Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "metabolic-optimization",
@@ -358,6 +379,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 399,
+    blackOutDays: ["Wednesday", "Thursday", "Friday"],
   },
   {
     subServiceId: "metabolic-optimization",
@@ -383,6 +405,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 49,
+    blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     subServiceId: "group-classes",
@@ -394,6 +417,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 99,
+    blackOutDays: ["Thursday", "Saturday", "Friday"],
   },
   {
     subServiceId: "group-classes",
@@ -491,6 +515,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 1,
     totalPrice: 149,
+    blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
     subServiceId: "therapy-sessions",
@@ -502,6 +527,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 299,
+    blackOutDays: ["Tuesday", "Thursday"],
   },
   {
     subServiceId: "therapy-sessions",
@@ -562,6 +588,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 99,
+    blackOutDays: ["Wednesday", "Thursday"],
   },
   {
     subServiceId: "adhd-lifestyle",
@@ -573,6 +600,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 199,
+    blackOutDays: ["Wednesday"],
   },
   {
     subServiceId: "adhd-lifestyle",
@@ -598,6 +626,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 99,
+    blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "trauma-informed-regulation",
@@ -609,6 +638,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 199,
+    blackOutDays: ["Thursday", "Sunday", "Friday"],
   },
   {
     subServiceId: "trauma-informed-regulation",
@@ -633,6 +663,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 99,
+    blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "emotional-intelligence",
@@ -644,6 +675,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 6,
     totalPrice: 199,
+    blackOutDays: ["Sunday", "Friday"],
   },
   {
     subServiceId: "emotional-intelligence",
@@ -739,6 +771,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 1,
     totalPrice: 999,
+    blackOutDays: ["Monday", "Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     subServiceId: "executive-coaching",
@@ -750,6 +783,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 2999,
+    blackOutDays: ["Monday", "Thursday", "Saturday"],
   },
   {
     subServiceId: "executive-coaching",
@@ -774,6 +808,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 199,
+    blackOutDays: ["Monday", "Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     subServiceId: "tech-balance",
@@ -785,6 +820,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 399,
+    blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     subServiceId: "tech-balance",
@@ -809,6 +845,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 2,
     totalPrice: 299,
+    blackOutDays: ["Tuesday", "Wednesday", "Sunday", "Friday"],
   },
   {
     subServiceId: "travel-recovery",
@@ -821,6 +858,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessionsPerWeek: 1,
     totalSessions: 4,
     totalPrice: 599,
+    blackOutDays: ["Tuesday", "Thursday", "Saturday"],
   },
   {
     subServiceId: "travel-recovery",
