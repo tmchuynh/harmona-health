@@ -12,7 +12,7 @@ export const mainPages: NavigationMenu[] = [
   {
     name: "Sucess Stories",
     description: "Connect with third-party tools",
-    href: "/programs/success-stories",
+    href: "/programs/start-your-journey/success-stories",
     icon: SquaresPlusIcon,
   },
   {
@@ -25,6 +25,12 @@ export const mainPages: NavigationMenu[] = [
     name: "Digital Products",
     description: "Connect with third-party tools",
     href: "/wellness-library/digital-products",
+    icon: SquaresPlusIcon,
+  },
+  {
+    name: "Start",
+    description: "Connect with third-party tools",
+    href: "/programs/start-your-journey",
     icon: SquaresPlusIcon,
   },
 ];
