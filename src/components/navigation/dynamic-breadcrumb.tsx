@@ -62,12 +62,6 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
 
       const r = generateRandomString(5);
 
-      console.log(
-        `href: ${href}, segment: ${segment}, index: ${index}, isLast: ${isLast}, r: ${r}`
-      );
-
-      console.log("content: ", content);
-
       return (
         <BreadcrumbItem
           key={`${href}-${segment}-${index}-${isLast}=${r}`}
