@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Radio, RadioGroup } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/20/solid";
+import { cn } from "@/lib/utils";
 
 const frequencies = [
   { value: "monthly" as const, label: "Monthly", priceSuffix: "/month" },
@@ -59,10 +60,6 @@ const tiers = [
   },
 ];
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export default function SimpleThreeTier() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
@@ -102,14 +99,14 @@ export default function SimpleThreeTier() {
           {tiers.map((tier) => (
             <div
               key={tier.id}
-              className={classNames(
+              className={cn(
                 tier.featured ? "bg-gray-900 ring-gray-900" : "ring-gray-200",
                 "rounded-3xl p-8 ring-1 xl:p-10"
               )}
             >
               <h3
                 id={tier.id}
-                className={classNames(
+                className={cn(
                   tier.featured ? "text-white" : "text-gray-900",
                   "text-lg/8 font-semibold"
                 )}
@@ -117,7 +114,7 @@ export default function SimpleThreeTier() {
                 {tier.name}
               </h3>
               <p
-                className={classNames(
+                className={cn(
                   tier.featured ? "text-gray-300" : "text-gray-600",
                   "mt-4 text-sm/6"
                 )}
@@ -126,7 +123,7 @@ export default function SimpleThreeTier() {
               </p>
               <p className="flex items-baseline gap-x-1 mt-6">
                 <span
-                  className={classNames(
+                  className={cn(
                     tier.featured ? "text-white" : "text-gray-900",
                     "text-4xl font-semibold tracking-tight"
                   )}
@@ -137,7 +134,7 @@ export default function SimpleThreeTier() {
                 </span>
                 {typeof tier.price !== "string" ? (
                   <span
-                    className={classNames(
+                    className={cn(
                       tier.featured ? "text-gray-300" : "text-gray-600",
                       "text-sm/6 font-semibold"
                     )}
@@ -149,7 +146,7 @@ export default function SimpleThreeTier() {
               <a
                 href={tier.href}
                 aria-describedby={tier.id}
-                className={classNames(
+                className={cn(
                   tier.featured
                     ? "bg-white/10 text-white hover:bg-white/20 focus-visible:outline-white"
                     : "bg-indigo-600 text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-indigo-600",
@@ -160,7 +157,7 @@ export default function SimpleThreeTier() {
               </a>
               <ul
                 role="list"
-                className={classNames(
+                className={cn(
                   tier.featured ? "text-gray-300" : "text-gray-600",
                   "mt-8 space-y-3 text-sm/6 xl:mt-10"
                 )}
@@ -169,7 +166,7 @@ export default function SimpleThreeTier() {
                   <li key={feature} className="flex gap-x-3">
                     <CheckIcon
                       aria-hidden="true"
-                      className={classNames(
+                      className={cn(
                         tier.featured ? "text-white" : "text-indigo-600",
                         "h-6 w-5 flex-none"
                       )}

@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { CheckIcon, MinusIcon } from "@heroicons/react/20/solid";
+import { cn } from "@/lib/utils";
 
 type TierName = "Starter" | "Growth" | "Scale";
 
@@ -116,11 +117,7 @@ const sections: Section[] = [
   },
 ];
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default function Example() {
+export default function TierComparisonTable() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto px-6 lg:px-8 max-w-7xl">
@@ -140,7 +137,7 @@ export default function Example() {
           {tiers.map((tier) => (
             <section
               key={tier.id}
-              className={classNames(
+              className={cn(
                 tier.mostPopular
                   ? "rounded-xl bg-gray-400/5 ring-1 ring-gray-200 ring-inset"
                   : "",
@@ -162,7 +159,7 @@ export default function Example() {
               <a
                 href={tier.href}
                 aria-describedby={tier.id}
-                className={classNames(
+                className={cn(
                   tier.mostPopular
                     ? "bg-indigo-600 text-white hover:bg-indigo-500"
                     : "text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300",
@@ -261,7 +258,7 @@ export default function Example() {
                       </div>
                       <a
                         href={tier.href}
-                        className={classNames(
+                        className={cn(
                           tier.mostPopular
                             ? "bg-indigo-600 text-white hover:bg-indigo-500"
                             : "text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300",
@@ -279,7 +276,7 @@ export default function Example() {
                       <th
                         scope="colgroup"
                         colSpan={4}
-                        className={classNames(
+                        className={cn(
                           sectionIdx === 0 ? "pt-8" : "pt-16",
                           "pb-4 text-sm/6 font-semibold text-gray-900"
                         )}

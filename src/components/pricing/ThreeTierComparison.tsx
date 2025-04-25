@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Radio, RadioGroup } from "@headlessui/react";
 import { CheckIcon, XMarkIcon } from "@heroicons/react/20/solid";
+import { cn } from "@/lib/utils";
 
 type TierName = "Starter" | "Growth" | "Scale";
 
@@ -151,11 +152,7 @@ const sections: Section[] = [
   },
 ];
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default function Example() {
+export default function ThreeTierComparison() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
   return (
@@ -218,7 +215,7 @@ export default function Example() {
             {tiers.map((tier) => (
               <div
                 key={tier.id}
-                className={classNames(
+                className={cn(
                   tier.featured
                     ? "z-10 bg-white shadow-xl ring-1 ring-gray-900/10"
                     : "bg-gray-800/80 ring-1 ring-white/10 lg:bg-transparent lg:pb-14 lg:ring-0",
@@ -228,7 +225,7 @@ export default function Example() {
                 <div className="p-8 xl:p-10 lg:pt-12 xl:pt-14">
                   <h3
                     id={tier.id}
-                    className={classNames(
+                    className={cn(
                       tier.featured ? "text-gray-900" : "text-white",
                       "text-sm/6 font-semibold"
                     )}
@@ -238,7 +235,7 @@ export default function Example() {
                   <div className="flex sm:flex-row flex-col lg:flex-col sm:justify-between sm:items-end lg:items-stretch gap-6">
                     <div className="flex items-center gap-x-4 mt-2">
                       <p
-                        className={classNames(
+                        className={cn(
                           tier.featured ? "text-gray-900" : "text-white",
                           "text-4xl font-semibold tracking-tight"
                         )}
@@ -263,7 +260,7 @@ export default function Example() {
                     <a
                       href={tier.href}
                       aria-describedby={tier.id}
-                      className={classNames(
+                      className={cn(
                         tier.featured
                           ? "bg-indigo-600 shadow-xs hover:bg-indigo-500 focus-visible:outline-indigo-600"
                           : "bg-white/10 hover:bg-white/20 focus-visible:outline-white",
@@ -276,7 +273,7 @@ export default function Example() {
                   <div className="mt-8 sm:mt-10 flow-root">
                     <ul
                       role="list"
-                      className={classNames(
+                      className={cn(
                         tier.featured
                           ? "divide-gray-900/5 border-gray-900/5 text-gray-600"
                           : "divide-white/5 border-white/5 text-white",
@@ -287,7 +284,7 @@ export default function Example() {
                         <li key={mainFeature} className="flex gap-x-3 py-2">
                           <CheckIcon
                             aria-hidden="true"
-                            className={classNames(
+                            className={cn(
                               tier.featured
                                 ? "text-indigo-600"
                                 : "text-gray-500",
@@ -320,7 +317,7 @@ export default function Example() {
               {tiers.map((tier) => (
                 <div key={tier.id} className="border-gray-900/10 border-t">
                   <div
-                    className={classNames(
+                    className={cn(
                       tier.featured
                         ? "border-indigo-600"
                         : "border-transparent",
@@ -328,7 +325,7 @@ export default function Example() {
                     )}
                   >
                     <h3
-                      className={classNames(
+                      className={cn(
                         tier.featured ? "text-indigo-600" : "text-gray-900",
                         "text-sm/6 font-semibold"
                       )}
@@ -354,7 +351,7 @@ export default function Example() {
                           />
 
                           <div
-                            className={classNames(
+                            className={cn(
                               tier.featured
                                 ? "ring-2 ring-indigo-600"
                                 : "ring-1 ring-gray-900/10",
@@ -412,7 +409,7 @@ export default function Example() {
                           {/* Fake card border */}
                           <div
                             aria-hidden="true"
-                            className={classNames(
+                            className={cn(
                               tier.featured
                                 ? "ring-2 ring-indigo-600"
                                 : "ring-1 ring-gray-900/10",
@@ -441,7 +438,7 @@ export default function Example() {
               {tiers.map((tier) => (
                 <div key={tier.id} aria-hidden="true" className="-mt-px">
                   <div
-                    className={classNames(
+                    className={cn(
                       tier.featured
                         ? "border-indigo-600"
                         : "border-transparent",
@@ -449,7 +446,7 @@ export default function Example() {
                     )}
                   >
                     <p
-                      className={classNames(
+                      className={cn(
                         tier.featured ? "text-indigo-600" : "text-gray-900",
                         "text-sm/6 font-semibold"
                       )}
@@ -515,7 +512,7 @@ export default function Example() {
                                   {typeof feature.tiers[tier.name] ===
                                   "string" ? (
                                     <span
-                                      className={classNames(
+                                      className={cn(
                                         tier.featured
                                           ? "font-semibold text-indigo-600"
                                           : "text-gray-900",
@@ -561,7 +558,7 @@ export default function Example() {
                       {tiers.map((tier) => (
                         <div
                           key={tier.id}
-                          className={classNames(
+                          className={cn(
                             tier.featured
                               ? "ring-2 ring-indigo-600"
                               : "ring-1 ring-gray-900/10",
