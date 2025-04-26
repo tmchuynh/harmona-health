@@ -2,7 +2,7 @@ import { Resource } from "@/lib/interfaces&types/resources";
 
 export const toolkit: Resource[] = [
   {
-    id: "cognitive-behavioral-therapy-exercises",
+    id: "cognitiveBehavioralTherapyTools",
     title: "Cognitive Behavioral Therapy (CBT) Exercises",
     description:
       "Short, structured exercises aimed at identifying and challenging negative thought patterns, promoting positive thinking, and building healthier coping mechanisms.",
@@ -12,7 +12,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "breathing-techniques",
+    id: "breathingTechniquesTools",
     title: "Breathing Techniques",
     description:
       "Specific exercises like diaphragmatic breathing, box breathing, and 4-7-8 breathing, designed to calm the nervous system and alleviate stress or anxiety.",
@@ -22,7 +22,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "progressive-muscle-relaxation-guides",
+    id: "progressiveMuscleRelaxationTools",
     title: "Progressive Muscle Relaxation (PMR) Guides",
     description:
       "Step-by-step instructions for relaxing each muscle group in the body, which can help reduce physical tension and promote a sense of calm.",
@@ -32,7 +32,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "affirmation-cards",
+    id: "affirmationCardsTools",
     title: "Affirmation Cards",
     description:
       "A set of positive affirmations that users can refer to daily, promoting self-compassion, self-worth, and emotional resilience.",
@@ -42,17 +42,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "mood-tracking-templates",
-    title: "Mood Tracking Templates",
-    description:
-      "Simple tools for tracking daily moods and emotions, helping users identify patterns and triggers, and monitor progress over time.",
-    subtitle: "Track and Understand Your Emotional Patterns",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mood-tracking-templates",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "visualization-exercises",
+    id: "visualizationExercisesTools",
     title: "Visualization Exercises",
     description:
       "Guided imagery techniques for creating calming mental scenarios or achieving specific goals, improving mental clarity and emotional regulation.",
@@ -62,7 +52,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "behavioral-activation-worksheets",
+    id: "behavioralActivationTools",
     title: "Behavioral Activation Worksheets",
     description:
       "Tools to help users engage in activities that bring joy or fulfillment, counteracting feelings of depression or stagnation by taking small, positive actions.",
@@ -72,7 +62,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "mindfulness-practices",
+    id: "mindfulnessTools",
     title: "Mindfulness Practices",
     description:
       "A collection of mindfulness exercises like body scans, mindful walking, and sensory awareness activities that promote being present in the moment and reduce anxiety.",
@@ -83,28 +73,17 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "self-compassion-practices",
+    id: "selfCompassionTools",
     title: "Self-Compassion Practices",
     description:
-      "Exercises to help individuals practice kindness toward themselves, especially during moments of struggle or self-criticism, fostering a healthier self-relationship.",
+      "Exercises to foster self-kindness, gratitude, and emotional awareness. Includes tools for tracking moods, reflecting on gratitude, and shifting focus from negativity.",
     subtitle: "Nurture Your Well-Being with Self-Kindness and Compassion",
     href: "/wellness-library/digital-resources/mental-health-toolkit/self-compassion-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "gratitude-journaling-templates",
-    title: "Gratitude Journaling Templates",
-    description:
-      "Guided templates encouraging users to reflect on and document things they are grateful for, helping to shift focus away from negative thoughts and build a positive mindset.",
-    subtitle:
-      "Daily Gratitude Practices for Shifting Focus and Cultivating Positivity",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/gratitude-journaling-templates",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "resilience-toolkit",
+    id: "resilienceTools",
     title: "Resilience Toolkit",
     description:
       "Building Resilience: Strategies and Tools for Overcoming Life's Challenges",
@@ -114,17 +93,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "stress-management-toolkit",
-    title: "Stress Management Toolkit",
-    description:
-      "Effective Strategies and Tools for Managing Stress in Daily Life",
-    subtitle: "Stress Management Toolkit",
-    href: "/wellness-library/digital-resources/stress-management-toolkit",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "self-care-toolkit",
+    id: "selfCareTools",
     title: "Self-Care Toolkit",
     description:
       "Essential Tools and Strategies for Prioritizing Your Well-Being",
@@ -134,7 +103,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "anxiety-toolkit",
+    id: "anxietyTools",
     title: "Anxiety Toolkit",
     description:
       "Comprehensive Tools and Strategies for Managing Anxiety and Stress",
@@ -144,7 +113,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "depression-toolkit",
+    id: "depressionTools",
     title: "Depression Toolkit",
     description:
       "Comprehensive Tools and Strategies for Managing Depression and Low Mood",
@@ -154,7 +123,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "trauma-toolkit",
+    id: "traumaTools",
     title: "Trauma Toolkit",
     description:
       "Comprehensive Tools and Strategies for Healing from Trauma and PTSD",
@@ -164,7 +133,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "grief-toolkit",
+    id: "griefTools",
     title: "Grief Toolkit",
     description:
       "Comprehensive Tools and Strategies for Coping with Grief and Loss",
@@ -174,7 +143,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "anger-management-toolkit",
+    id: "angerManagementTools",
     title: "Anger Management Toolkit",
     description:
       "Comprehensive Tools and Strategies for Managing Anger and Frustration",
@@ -184,17 +153,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "relationship-toolkit",
-    title: "Relationship Toolkit",
-    description:
-      "Comprehensive Tools and Strategies for Building Healthy Relationships",
-    subtitle: "Relationship Toolkit",
-    href: "/wellness-library/digital-resources/relationship-toolkit",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "work-life-balance-toolkit",
+    id: "workLifeBalanceTools",
     title: "Work-Life Balance Toolkit",
     description:
       "Comprehensive Tools and Strategies for Achieving Work-Life Balance",
@@ -204,7 +163,7 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "communication-toolkit",
+    id: "communicationTools",
     title: "Communication Toolkit",
     description:
       "Comprehensive Tools and Strategies for Practicing Mindful Communication",
@@ -214,12 +173,52 @@ export const toolkit: Resource[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "leadership-toolkit",
+    id: "leadershipTools",
     title: "Leadership Toolkit",
     description:
       "Comprehensive Tools and Strategies for Practicing Mindful Leadership",
     subtitle: "Mindful Leadership Toolkit",
     href: "/wellness-library/digital-resources/mindful-leadership-toolkit",
+    image:
+      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+  },
+  {
+    id: "nutritionTools",
+    title: "Nutrition Toolkit",
+    description:
+      "Comprehensive Tools and Strategies for Practicing Mindful Nutrition",
+    subtitle: "Mindful Nutrition Toolkit",
+    href: "/wellness-library/digital-resources/mindful-nutrition-toolkit",
+    image:
+      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+  },
+  {
+    id: "sleepOptimizationTools",
+    title: "Sleep Optimization Toolkit",
+    description:
+      "Comprehensive Tools and Strategies for Practicing Mindful Sleep Optimization",
+    subtitle: "Mindful Sleep Optimization Toolkit",
+    href: "/wellness-library/digital-resources/mindful-sleep-optimization-toolkit",
+    image:
+      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+  },
+  {
+    id: "journalingTools",
+    title: "Journaling Toolkit",
+    description:
+      "Comprehensive Tools and Strategies for Practicing Mindful Journaling",
+    subtitle: "Mindful Journaling Toolkit",
+    href: "/wellness-library/digital-resources/mindful-journaling-toolkit",
+    image:
+      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+  },
+  {
+    id: "checklistsAndPlannersTools",
+    title: "Checklists, Worksheets, and Planners",
+    description:
+      "A variety of checklists, worksheets, and planners designed to help users set goals, track progress, and manage daily tasks effectively.",
+    subtitle: "Organizational Tools for Daily Life and Goal Setting",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-worksheets-planners",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
