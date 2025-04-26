@@ -23,7 +23,7 @@ export default function Page() {
             Your Wellness Journey
           </h5>
 
-          <p className="my-2 md:my-4 lg:my-6">
+          <p className="my-8 md:my-4 lg:my-6">
             Welcome to our Frequently Asked Questions (FAQ) page, where we’ve
             compiled answers to common queries about our resources, services,
             and wellness programs. Whether you’re looking for more details about

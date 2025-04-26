@@ -8,7 +8,7 @@ export default function Page() {
         Strategies from Experts
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Take part in live, expert-led events that are carefully designed to
         support and enhance your mental well-being. Our interactive webinars,
         group workshops, and immersive virtual retreats are focused on building

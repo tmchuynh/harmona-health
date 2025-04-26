@@ -28,7 +28,7 @@ export default function Page() {
         Emotional, and Physical Well-Being
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Welcome to the Wellness Library — your comprehensive hub for resources
         designed to support mental, emotional, and physical well-being. Whether
         you are seeking practical tools for daily mental health care, in-depth

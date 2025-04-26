@@ -11,7 +11,7 @@ export default function Page() {
         Focus, and Strengthen Resilience
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Unlock the power of therapeutic techniques with our comprehensive Mental
         Health Toolkit, specifically designed to support your mental well-being.
         Curated by licensed therapists and neuropsychologists, this toolkit

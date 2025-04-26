@@ -29,7 +29,7 @@ export default function Page() {
         Health Terms
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Empower your health journey with our extensive Wellness Dictionary, your
         go-to resource for understanding the language of holistic health. In
         this comprehensive guide, you’ll find over 500 entries defining the
