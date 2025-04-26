@@ -4,6 +4,14 @@ import DynamicButton from "@/components/button/button-dynamic";
 import { FAQ } from "@/lib/constants/services/frequently-asked-questions";
 import { RiTelegram2Fill, RiTelegram2Line } from "react-icons/ri";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { cn } from "@/lib/utils";
+
 export default function Page() {
   return (
     <div className="mx-auto py-8 xl:py-24 w-11/12">
@@ -22,14 +30,22 @@ export default function Page() {
           </p>
         </div>
         <div className="lg:col-span-7 mt-10 lg:mt-0">
-          <dl className="space-y-10">
-            {FAQ.map((faq) => (
-              <div key={faq.question}>
-                <dt className="font-semibold text-base/7">{faq.question}</dt>
-                <dd className="mt-2 text-base/7">{faq.answer}</dd>
-              </div>
+          <Accordion type="single" collapsible>
+            {FAQ.map((faq, index) => (
+              <AccordionItem
+                value={faq.question}
+                className={cn("w-full", {
+                  "border-b my-2": index !== FAQ.length - 1,
+                })}
+                key={faq.question}
+              >
+                <AccordionTrigger>
+                  <h3>{faq.question}</h3>
+                </AccordionTrigger>
+                <AccordionContent>{faq.answer}</AccordionContent>
+              </AccordionItem>
             ))}
-          </dl>
+          </Accordion>
         </div>
       </div>
     </div>
