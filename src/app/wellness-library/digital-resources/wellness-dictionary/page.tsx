@@ -24,14 +24,22 @@ export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
       <h1>Wellness Dictionary</h1>
-      <h5>Blank blank blank blank</h5>
+      <h5>
+        Your Guide to Holistic Health: Clear Definitions and Insights on 500+
+        Health Terms
+      </h5>
 
-      <p>
-        Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
-        sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute voluptate
-        sunt sint elit qui aute ea non eiusmod labore. Ea voluptate ex ullamco
-        qui aliqua qui minim voluptate ut incididunt nostrud. Cillum elit minim
-        cupidatat officia.
+      <p className="my-2 md:my-4 lg:my-6">
+        Empower your health journey with our extensive Wellness Dictionary, your
+        go-to resource for understanding the language of holistic health. In
+        this comprehensive guide, you’ll find over 500 entries defining the
+        essential terms, acronyms, and methodologies commonly used in wellness
+        and alternative medicine. From adapters and biofeedback to circadian
+        rhythm and functional foods, each entry provides clear explanations,
+        practical usage examples, and helpful links to further deepen your
+        knowledge. This resource is designed to help you navigate the
+        complexities of health and wellness with confidence, offering you the
+        tools to make informed decisions for your well-being.
       </p>
 
       <div className="flex flex-col gap-4 py-6">
