@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import DynamicButton from "../button/button-dynamic";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
-export default function CategoryCard({
+export default function ProgramCategoryCard({
   category,
   index,
 }: {

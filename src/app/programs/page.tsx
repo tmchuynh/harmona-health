@@ -1,5 +1,5 @@
 "use client";
-import CategoryCard from "@/components/card/CategoryCard";
+import CategoryCard from "@/components/card/ProgramCategoryCard";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 export default function Page() {
   return (
