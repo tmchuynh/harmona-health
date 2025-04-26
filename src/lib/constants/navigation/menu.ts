@@ -22,10 +22,10 @@ export const mainPages: NavigationMenu[] = [
     icon: SquaresPlusIcon,
   },
   {
-    name: "Digital Products",
-    description: "Connect with third-party tools",
-    href: "/wellness-library/digital-products",
-    icon: SquaresPlusIcon,
+    name: "Wellness Library",
+    description: "Get a better understanding of your traffic",
+    href: "/wellness-library",
+    icon: ChartPieIcon,
   },
   {
     name: "Start",
@@ -37,10 +37,10 @@ export const mainPages: NavigationMenu[] = [
 
 export const seccondaryPages: NavigationMenu[] = [
   {
-    name: "Wellness Library",
-    description: "Get a better understanding of your traffic",
-    href: "/wellness-library",
-    icon: ChartPieIcon,
+    name: "Digital Products",
+    description: "Connect with third-party tools",
+    href: "/wellness-library/digital-products",
+    icon: SquaresPlusIcon,
   },
   {
     name: "Wellness Articles",
