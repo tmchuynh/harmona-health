@@ -1,3 +1,5 @@
+import { Resource, ResourceInformation } from "../interfaces&types/resources";
+import { mentalHealthResources } from "../resources/resource";
 import { resourceInformation } from "../resources/resourceInformation";
 
 /**
@@ -73,7 +75,6 @@ export function shuffleArray<T>(array: T[]): T[] {
  * ```typescript
  * const numbers = [1, 2, 3, 4, 5];
  * const shuffled = simpleShuffleArray(numbers);
- * console.log(shuffled); // [3, 1, 5, 2, 4] (random order)
  * ```
  */
 export function simpleShuffleArray<T>(array: T[]): T[] {
@@ -86,6 +87,19 @@ export function simpleShuffleArray<T>(array: T[]): T[] {
  * @param resourceId - The unique identifier of the resource to retrieve information for
  * @returns The resource information object corresponding to the ID, or null if not found
  */
-export function getResourceInformationById(resourceId: string) {
-  return resourceInformation[resourceId] || null;
+export function getResourceInformationById(
+  resourceId: string
+): ResourceInformation {
+  return resourceInformation[resourceId];
+}
+
+/**
+ * Get resources by category ID.
+ * @param categoryId - The ID of the category to filter by.
+ * @returns An array of resources that belong to the specified category.
+ */
+export function getResourcesByCategoryId(categoryId: string): Resource[] {
+  return mentalHealthResources.filter(
+    (resource) => resource.category === categoryId
+  );
 }

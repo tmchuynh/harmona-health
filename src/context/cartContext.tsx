@@ -306,9 +306,6 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
    *
    * @example
    * const item = itemExistsInCart("Product Name");
-   * if (item) {
-   *   console.log("Item found in cart:", item);
-   * }
    */
   const itemExistsInCart = (name: string): CartItem | undefined => {
     return cartItems.find((item) => item.name === name);

@@ -16,7 +16,6 @@ export function cn(...inputs: ClassValue[]) {
  * @example
  * const numbers = [10, 20, 30, 40];
  * const randomIndex = getRandomIndex(numbers);
- * console.log(randomIndex); // e.g., 2
  */
 export function getRandomIndex<T>(array: T[]): number {
   if (array.length === 0) {

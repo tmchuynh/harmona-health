@@ -19,7 +19,7 @@ export const resourceCategory: ResourceCategory[] = [
       "Connect with trained professionals and volunteers who listen with empathy, provide immediate emotional support, and guide you through critical times. These hotlines are safe, confidential, and always open—because no one should ever feel alone when it matters most.",
   },
   {
-    id: "mental-health-education",
+    id: "mental-health-education-self-help",
     title: "Mental Health Education & Self-Help",
     icon: GiMeal,
     introduction:
