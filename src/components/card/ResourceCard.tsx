@@ -77,7 +77,7 @@ export default function ResourceCard({
           height={240}
         />
       </div>
-      <div className="group relative h-full">
+      <div className="group relative h-full cursor-pointer">
         <h3>
           <a
             href={resource.href}

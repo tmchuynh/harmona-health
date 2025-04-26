@@ -87,7 +87,7 @@ export const callsToAction: NavigationMenu[] = [
 export const callsToActionSecondary: NavigationMenu[] = [
   {
     name: "Accessibility Statement",
-    href: "/about/accessibillity-statement",
+    href: "/about/accessibility-statement",
     icon: AccessibilityIcon,
   },
   {

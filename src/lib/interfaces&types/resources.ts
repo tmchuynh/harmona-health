@@ -51,3 +51,10 @@ export interface Article {
   image: string;
   introduction: string;
 }
+
+export interface Tool {
+  id: string;
+  title: string;
+  description: string;
+  href: string;
+}

@@ -10,7 +10,7 @@ export default function ArticleCard({ article }: { article: Article }) {
   return (
     <div
       key={article.id}
-      className="group flex flex-col justify-between h-full"
+      className="group flex flex-col justify-between h-full cursor-pointer"
     >
       <div>
         <Image
