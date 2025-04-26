@@ -1,14 +1,16 @@
+import SelfAssessmentCard from "@/components/card/SelfAssessmentCard";
+import { selfAssessmentTools } from "@/lib/resources/toolkits/selfassessments";
 import React from "react";
 export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
-      <h1>Mental Health Toolkit</h1>
+      <h1>Self Assessments</h1>
       <h5>
         Personalized Health Insights: Evaluate Your Wellness and Receive
         Actionable Feedback
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Take control of your health and wellness with our personalized digital
         self-assessments, which provide immediate, insightful feedback on your
         current health status. Whether you're interested in evaluating your
@@ -21,6 +23,15 @@ export default function Page() {
         your well-being and take actionable steps toward a healthier, more
         balanced life.
       </p>
+
+      <div className="gap-10 grid grid-cols-1 md:grid-cols-2 my-2 md:my-4 lg:my-8 xl:my-12">
+        {selfAssessmentTools.map((tool, index) => (
+          <SelfAssessmentCard
+            key={`${tool.title}-${index}`}
+            assessment={tool}
+          />
+        ))}
+      </div>
     </div>
   );
 }
