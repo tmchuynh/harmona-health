@@ -1527,3 +1527,45 @@ export const mentalHealthResources: Resource[] = [
     category: "online-therapy-therapy-networks",
   },
 ];
+
+
+export const resource: Resource[] = [
+  {
+    title: "Health Articles",
+    href: "/wellness-library/health-articles",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
+    subtitle: "Mar 10, 2020",
+  },
+  {
+    title: "Events & Workshops for Mental Health",
+    href: "/wellness-library/events-and-workshops",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
+    subtitle: "Mar 10, 2020",
+  },
+  {
+    title: "Self Assessments",
+    href: "/wellness-library/digital-products/self-assessments",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
+    subtitle: "Mar 10, 2020",
+  },
+];
+
+export const featuredResource: Resource[] = [
+  {
+    title: "Mental Health Toolkit",
+    href: "/wellness-library/digital-products/meantal-health-toolkit",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
+    subtitle: "Mar 10, 2020",
+  },
+  {
+    title: "Wellness Dictionary",
+    href: "/wellness-library/digital-products/wellness-dictionary",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
+    subtitle: "Mar 10, 2020",
+  },
+];

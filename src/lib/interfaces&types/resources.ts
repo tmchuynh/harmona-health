@@ -10,13 +10,14 @@ export interface ResourceCategory {
 }
 
 export interface Resource {
-  id: string;
+  id?: string;
   title: string;
   description: string;
+  subtitle?: string;
   href: string;
-  image: string;
-  similarResources: string[];
-  category: ResourceCategory["id"];
+  image?: string;
+  similarResources?: string[];
+  category?: ResourceCategory["id"];
 }
 
 export interface ResourceInformation {
