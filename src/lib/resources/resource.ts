@@ -1534,22 +1534,25 @@ export const resource: Resource[] = [
     title: "Health Articles",
     href: "/wellness-library/health-articles",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
-    subtitle: "Mar 10, 2020",
+      "Dive into our comprehensive library of health articles covering everything from balanced nutrition and gut health to stress management and sleep optimization. Each piece is researched and referenced, offering practical tips, meal plans, and expert interviews to help you implement lasting lifestyle changes.",
+    subtitle:
+      "Your go-to resource for evidence-based wellness knowledge and lifestyle insights.",
   },
   {
     title: "Events & Workshops for Mental Health",
     href: "/wellness-library/events-and-workshops",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
-    subtitle: "Mar 10, 2020",
+      "Participate in expert-led live webinars, interactive group workshops, and immersive virtual retreats designed to boost resilience and emotional well-being. Topics include mindfulness techniques, nervous system regulation, trauma-informed care, and community support exercises—complete with downloadable workbooks and follow-up materials.",
+    subtitle:
+      "Interactive workshops and expert-led sessions to support your mental well-being.",
   },
   {
     title: "Self Assessments",
     href: "/wellness-library/digital-products/self-assessments",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
-    subtitle: "Mar 10, 2020",
+      "Evaluate your current health status with our suite of digital self-assessments: stress resilience quizzes, sleep quality trackers, hormonal balance checklists, and cognitive performance tests. Receive instant, personalized feedback and recommendations to guide your next steps.",
+    subtitle:
+      "Gain clarity through self-guided wellness evaluations and personalized insights.",
   },
 ];
 
@@ -1558,14 +1561,16 @@ export const featuredResource: Resource[] = [
     title: "Mental Health Toolkit",
     href: "/wellness-library/digital-products/meantal-health-toolkit",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
-    subtitle: "Mar 10, 2020",
+      "Access a curated toolkit of guided meditations, grounding exercises, journaling prompts, and cognitive reframing worksheets—developed by licensed therapists and neuropsychologists. Use these tools daily to reduce anxiety, improve focus, and strengthen emotional regulation.",
+    subtitle:
+      "Practical tools to support your mental clarity, emotional balance, and stress resilience.",
   },
   {
     title: "Wellness Dictionary",
     href: "/wellness-library/digital-products/wellness-dictionary",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.",
-    subtitle: "Mar 10, 2020",
+      "Navigate the complex world of holistic health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
+    subtitle:
+      "Demystifying the language of wellness with clear, concise definitions you can trust.",
   },
 ];
