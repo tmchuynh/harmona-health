@@ -3,8 +3,9 @@ import { IconType } from "react-icons";
 export interface ServiceCategory {
   id: string;
   title: string;
+  subtitle: string;
   icon: IconType;
-  introduction?: string[];
+  introduction: string[];
   description: string;
 }
 
@@ -18,7 +19,7 @@ export interface Service {
   categoryId: string;
   title: string;
   description: string;
-  introduction?: string;
+  introduction: string;
   tiers: Tier[];
 }
 
