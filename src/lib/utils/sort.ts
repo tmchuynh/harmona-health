@@ -103,3 +103,34 @@ export function getResourcesByCategoryId(categoryId: string): Resource[] {
     (resource) => resource.category === categoryId
   );
 }
+
+
+/**
+ * Sorts an array of strings alphabetically in ascending order.
+ *
+ * @param array - The array of strings to sort
+ * @returns A new array sorted alphabetically
+ *
+ * @example
+ * const names = ["Charlie", "Alice", "Bob"];
+ * const sortedNames = sortAlphabetically(names);
+ * // Output: ["Alice", "Bob", "Charlie"]
+ */
+export function sortAlphabetically(array: string[]): string[] {
+  return [...array].sort((a, b) => a.localeCompare(b));
+}
+
+/**
+ * Sorts an array of strings by the length of the strings in ascending order.
+ *
+ * @param array - The array of strings to sort
+ * @returns A new array sorted by string length
+ *
+ * @example
+ * const words = ["apple", "cat", "banana"];
+ * const sortedWords = sortByLength(words);
+ * // Output: ["cat", "apple", "banana"]
+ */
+export function sortByLength(array: string[]): string[] {
+  return [...array].sort((a, b) => a.length - b.length);
+}
