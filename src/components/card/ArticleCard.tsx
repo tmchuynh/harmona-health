@@ -1,0 +1,41 @@
+"use client";
+
+import { Article } from "@/lib/interfaces&types/resources";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import DynamicButton from "../button/button-dynamic";
+
+export default function ArticleCard({ article }: { article: Article }) {
+  const router = useRouter();
+  return (
+    <div
+      key={article.id}
+      className="group flex flex-col justify-between h-full"
+    >
+      <div>
+        <Image
+          alt=""
+          src={article.image}
+          className="rounded-2xl w-full aspect-3/2 object-cover"
+          width={800}
+          height={900}
+        />
+      </div>
+      <div className="flex flex-col justify-between h-full min-h-[20em] md:min-h-[16em] lg:min-h-[20em] xl:min-h-[15em]">
+        <div>
+          <h3
+            onClick={() =>
+              router.push(`/wellness-library/health-articles/${article.title}`)
+            }
+            className="mt-3 underline-offset-2 group-hover:underline"
+          >
+            {article.title}
+          </h3>
+          <h5>{article.subtitle}</h5>
+          <p>{article.description}</p>
+        </div>
+        <DynamicButton>Read This Article</DynamicButton>
+      </div>
+    </div>
+  );
+}
