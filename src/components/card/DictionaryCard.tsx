@@ -13,9 +13,10 @@ interface Meaning {
 }
 
 export default function DictionaryCard({ word }: { word: string }) {
-  const [headword, setHeadword] = useState<string | null>(null); // New state for headword
+  const [headword, setHeadword] = useState<string | null>(null);
   const [phonetic, setPhonetic] = useState<string | null>(null);
   const [meanings, setMeanings] = useState<Meaning[] | null>(null);
+  const [origin, setOrigin] = useState<string | null>(null); // New state for origin
   const [synonyms, setSynonyms] = useState<string[]>([]);
   const [antonyms, setAntonyms] = useState<string[]>([]);
   const [relatedWords, setRelatedWords] = useState<string[]>([]);
@@ -35,7 +36,7 @@ export default function DictionaryCard({ word }: { word: string }) {
 
         // Extract data from the combined API response
         const dictionaryData = data.dictionary[0];
-        setHeadword(dictionaryData?.hwi?.hw || "No headword available"); // Store headword
+        setHeadword(dictionaryData?.hwi?.hw || "No headword available");
         setPhonetic(
           dictionaryData?.hwi?.prs?.[0]?.mw || "No phonetic available"
         );
@@ -49,6 +50,9 @@ export default function DictionaryCard({ word }: { word: string }) {
               }))
             ),
           })) || []
+        );
+        setOrigin(
+          dictionaryData?.et?.[0]?.[1] || "No origin available" // Extract origin
         );
         setSynonyms(data.synonyms || []);
         setAntonyms(data.antonyms || []);
@@ -79,6 +83,9 @@ export default function DictionaryCard({ word }: { word: string }) {
             </p>
             <p>
               <strong>Phonetic:</strong> {phonetic}
+            </p>
+            <p>
+              <strong>Origin:</strong> {origin}
             </p>
             <div>
               <strong>Meanings:</strong>
