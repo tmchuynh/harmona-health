@@ -7,7 +7,7 @@ export const toolkit: Resource[] = [
     description:
       "Short, structured exercises aimed at identifying and challenging negative thought patterns, promoting positive thinking, and building healthier coping mechanisms.",
     subtitle: "Tools for Reframing Thoughts and Building Healthy Coping Skills",
-    href: "/wellness-library/mental-health-toolkit/cbt-exercises",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/cbt-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -17,7 +17,7 @@ export const toolkit: Resource[] = [
     description:
       "Specific exercises like diaphragmatic breathing, box breathing, and 4-7-8 breathing, designed to calm the nervous system and alleviate stress or anxiety.",
     subtitle: "Breathing Exercises for Stress Relief and Relaxation",
-    href: "/wellness-library/mental-health-toolkit/breathing-techniques",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/breathing-techniques",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -27,7 +27,7 @@ export const toolkit: Resource[] = [
     description:
       "Step-by-step instructions for relaxing each muscle group in the body, which can help reduce physical tension and promote a sense of calm.",
     subtitle: "Relaxation Techniques to Release Physical Tension",
-    href: "/wellness-library/mental-health-toolkit/pmr-guides",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/pmr-guides",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -37,7 +37,7 @@ export const toolkit: Resource[] = [
     description:
       "A set of positive affirmations that users can refer to daily, promoting self-compassion, self-worth, and emotional resilience.",
     subtitle: "Daily Affirmations for Building Self-Compassion and Strength",
-    href: "/wellness-library/mental-health-toolkit/affirmation-cards",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/affirmation-cards",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -47,7 +47,7 @@ export const toolkit: Resource[] = [
     description:
       "Simple tools for tracking daily moods and emotions, helping users identify patterns and triggers, and monitor progress over time.",
     subtitle: "Track and Understand Your Emotional Patterns",
-    href: "/wellness-library/mental-health-toolkit/mood-tracking-templates",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/mood-tracking-templates",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -57,7 +57,7 @@ export const toolkit: Resource[] = [
     description:
       "Guided imagery techniques for creating calming mental scenarios or achieving specific goals, improving mental clarity and emotional regulation.",
     subtitle: "Mental Imagery for Calm and Goal Achievement",
-    href: "/wellness-library/mental-health-toolkit/visualization-exercises",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/visualization-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -67,7 +67,7 @@ export const toolkit: Resource[] = [
     description:
       "Tools to help users engage in activities that bring joy or fulfillment, counteracting feelings of depression or stagnation by taking small, positive actions.",
     subtitle: "Engage in Positive Activities to Lift Mood and Build Resilience",
-    href: "/wellness-library/mental-health-toolkit/behavioral-activation-worksheets",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/behavioral-activation-worksheets",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -78,7 +78,7 @@ export const toolkit: Resource[] = [
       "A collection of mindfulness exercises like body scans, mindful walking, and sensory awareness activities that promote being present in the moment and reduce anxiety.",
     subtitle:
       "Mindfulness Techniques for Reducing Anxiety and Increasing Focus",
-    href: "/wellness-library/mental-health-toolkit/mindfulness-practices",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/mindfulness-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -88,7 +88,7 @@ export const toolkit: Resource[] = [
     description:
       "Exercises to help individuals practice kindness toward themselves, especially during moments of struggle or self-criticism, fostering a healthier self-relationship.",
     subtitle: "Nurture Your Well-Being with Self-Kindness and Compassion",
-    href: "/wellness-library/mental-health-toolkit/self-compassion-practices",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/self-compassion-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -99,7 +99,7 @@ export const toolkit: Resource[] = [
       "Guided templates encouraging users to reflect on and document things they are grateful for, helping to shift focus away from negative thoughts and build a positive mindset.",
     subtitle:
       "Daily Gratitude Practices for Shifting Focus and Cultivating Positivity",
-    href: "/wellness-library/mental-health-toolkit/gratitude-journaling-templates",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/gratitude-journaling-templates",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
