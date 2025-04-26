@@ -1696,7 +1696,7 @@ export const resource: Resource[] = [
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
   },
   {
-    id: "wellness-library/digital-products",
+    id: "wellness-library/digital-resources",
     title: "Events & Workshops for Mental Health",
     href: "/wellness-library/events-and-workshops",
     description:
@@ -1707,9 +1707,9 @@ export const resource: Resource[] = [
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
   },
   {
-    id: "wellness-library/digital-products/self-assessments",
+    id: "wellness-library/digital-resources/self-assessments",
     title: "Self Assessments",
-    href: "/wellness-library/digital-products/self-assessments",
+    href: "/wellness-library/digital-resources/self-assessments",
     description:
       "Evaluate your current health status with our suite of digital self-assessments: stress resilience quizzes, sleep quality trackers, hormonal balance checklists, and cognitive performance tests. Receive instant, personalized feedback and recommendations to guide your next steps.",
     subtitle:
@@ -1721,9 +1721,9 @@ export const resource: Resource[] = [
 
 export const featuredResource: Resource[] = [
   {
-    id: "wellness-library/digital-products/mental-health-toolkit",
+    id: "wellness-library/digital-resources/mental-health-toolkit",
     title: "Mental Health Toolkit",
-    href: "/wellness-library/digital-products/meantal-health-toolkit",
+    href: "/wellness-library/digital-resources/mental-health-toolkit",
     description:
       "Access a curated toolkit of guided meditations, grounding exercises, journaling prompts, and cognitive reframing worksheets—developed by licensed therapists and neuropsychologists. Use these tools daily to reduce anxiety, improve focus, and strengthen emotional regulation.",
     subtitle:
@@ -1732,13 +1732,24 @@ export const featuredResource: Resource[] = [
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
   },
   {
-    id: "wellness-library/digital-products/wellness-dictionary",
+    id: "wellness-library/digital-resources/wellness-dictionary",
     title: "Wellness Dictionary",
-    href: "/wellness-library/digital-products/wellness-dictionary",
+    href: "/wellness-library/digital-resources/wellness-dictionary",
     description:
       "Navigate the complex world of holistic health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
     subtitle:
       "Demystifying the language of wellness with clear, concise definitions you can trust.",
+    image:
+      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+  },
+  {
+    id: "wellness-library/digital-resources",
+    title: "Digital Resources for Mental Health",
+    href: "/wellness-library/digital-resources",
+    description:
+      "Access a comprehensive set of tools designed to support your mental health journey. Our Mental Health Toolkit includes guided meditations, grounding exercises, cognitive reframing worksheets, and more—developed by licensed therapists to help you manage stress, improve focus, and build emotional resilience.",
+    subtitle:
+      "Practical tools for emotional well-being and mental clarity, designed to help you thrive.",
     image:
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
   },

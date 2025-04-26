@@ -52,9 +52,9 @@ export const mainPages: NavigationMenu[] = [
 
 export const seccondaryPages: NavigationMenu[] = [
   {
-    name: "Digital Products",
+    name: "Digital Resources",
     description: "Access downloadable tools, assessments, and templates.",
-    href: "/wellness-library/digital-products",
+    href: "/wellness-library/digital-resources",
     icon: LayersIcon,
   },
   {
@@ -66,7 +66,7 @@ export const seccondaryPages: NavigationMenu[] = [
   {
     name: "Mental Health Toolkit",
     description: "Empower your mind with practical emotional health resources.",
-    href: "/wellness-library/digital-products/meantal-health-toolkit",
+    href: "/wellness-library/digital-resources/mental-health-toolkit",
     icon: BrainIcon,
   },
 ];
@@ -79,7 +79,7 @@ export const callsToAction: NavigationMenu[] = [
   },
   {
     name: "Self Assessments",
-    href: "/wellness-library/digital-products/self-assessments",
+    href: "/wellness-library/digital-resources/self-assessments",
     icon: ClipboardCheckIcon,
   },
 ];
@@ -92,7 +92,7 @@ export const callsToActionSecondary: NavigationMenu[] = [
   },
   {
     name: "Wellness Dictionary",
-    href: "/wellness-library/digital-products/wellness-dictionary",
+    href: "/wellness-library/digital-resources/wellness-dictionary",
     icon: BookTextIcon,
   },
 ];

@@ -20,7 +20,7 @@ export default function DictionaryCard({ word }: { word: string }) {
     async function fetchDefinition() {
       try {
         const response = await fetch(
-          `/api/wellness-library/digital-products/wellness-dictionary?word=${word}`
+          `/api/wellness-library/digital-resources/wellness-dictionary?word=${word}`
         );
 
         if (!response.ok) {
