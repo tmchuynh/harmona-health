@@ -1,3 +1,5 @@
+import ArticleCard from "@/components/card/ArticleCard";
+import { articles } from "@/lib/resources/articles/articles";
 import React from "react";
 export default function Page() {
   return (
@@ -8,7 +10,7 @@ export default function Page() {
         Better Sleep, and More
       </h5>
 
-      <p className="my-2 md:my-4 lg:my-6">
+      <p className="my-8 md:my-4 lg:my-6">
         Stay informed and inspired with our expansive library of research-backed
         health articles. Covering a wide array of topics—from balanced nutrition
         and gut health to stress management and sleep optimization—our articles
@@ -20,6 +22,12 @@ export default function Page() {
         your health, featuring meal plans, expert interviews, and proven
         strategies for living a healthier, more balanced life.
       </p>
+
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-4 lg:my-8 xl:my-12">
+        {articles.map((post) => (
+          <ArticleCard article={post} key={post.id} />
+        ))}
+      </div>
     </div>
   );
 }
