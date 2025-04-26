@@ -12,7 +12,7 @@ export const subServices: Service[] = [
       "A comprehensive lifestyle transformation plan tailored to your body, habits, and goals. This program integrates personalized nutrition, fitness routines, and mindful living strategies to create lasting change. You will receive structured guidance and support to align your lifestyle with your highest health potential.",
     tiers: [
       { tier: "basic", description: "Initial assessment + Weekly plans" },
-      { tier: "growth", description: "Includes bi-weekly coaching calls" },
+      { tier: "growth", description: "Includes coaching calls twice a week" },
       {
         tier: "scale",
         description:
