@@ -1,5 +1,5 @@
 "use client";
-import CategoryCard from "@/components/card/ProgramCategoryCard";
+import ProgramCategoryCard from "@/components/card/ProgramCategoryCard";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 export default function Page() {
   return (
@@ -9,7 +9,7 @@ export default function Page() {
 
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {serviceCategories.map((category, index) => (
-          <CategoryCard
+          <ProgramCategoryCard
             category={category}
             index={index}
             key={`${category.id}-${index}`}
