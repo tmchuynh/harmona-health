@@ -36,15 +36,15 @@ export const tabData = [
       },
       {
         imageLink:
-          "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://images.unsplash.com/photo-1620064916958-605375619af8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
     ],
   },
@@ -96,15 +96,15 @@ export const tabData = [
       },
       {
         imageLink:
-          "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://images.unsplash.com/photo-1620064916958-605375619af8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
     ],
   },
@@ -144,15 +144,15 @@ export const tabData = [
     images: [
       {
         imageLink:
-          "https://demos.creative-tim.com/material-kit-pro/assets/img/examples/blog5.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://material-taillwind-pro-ct-tailwind-team.vercel.app/img/content2.jpg",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
-          "https://images.unsplash.com/photo-1620064916958-605375619af8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
+          "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
       },
       {
         imageLink:
