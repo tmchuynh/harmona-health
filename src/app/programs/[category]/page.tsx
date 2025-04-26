@@ -3,11 +3,10 @@ import ProgramCard from "@/components/card/ProgramCard";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 import { subServices } from "@/lib/constants/services/services";
 import { capitalize } from "@/lib/utils/format";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function Page() {
   const segments = usePathname().split("/");
-  const router = useRouter();
   const categoryId = segments[segments.length - 1];
   const filteredServices = subServices.filter((service) =>
     serviceCategories.some(() => categoryId === service.categoryId)
