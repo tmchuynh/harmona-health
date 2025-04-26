@@ -2,15 +2,23 @@ import React from "react";
 export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
-      <h5>Blank blank blank blank</h5>
-      <h1>Blank</h1>
+      <h1>Events & Workshops for Mental Health</h1>
+      <h5>
+        Live Workshops & Webinars: Build Resilience and Learn Mental Health
+        Strategies from Experts
+      </h5>
 
-      <p>
-        Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
-        sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute voluptate
-        sunt sint elit qui aute ea non eiusmod labore. Ea voluptate ex ullamco
-        qui aliqua qui minim voluptate ut incididunt nostrud. Cillum elit minim
-        cupidatat officia.
+      <p className="my-2 md:my-4 lg:my-6">
+        Take part in live, expert-led events that are carefully designed to
+        support and enhance your mental well-being. Our interactive webinars,
+        group workshops, and immersive virtual retreats are focused on building
+        resilience and promoting emotional health. Topics range from mindfulness
+        techniques and nervous system regulation to trauma-informed care and
+        community support exercises. These events are hosted by mental health
+        professionals and provide you with tools you can use to improve your
+        daily life. In addition, each event comes with downloadable workbooks
+        and follow-up materials to ensure you can continue your personal growth
+        long after the session ends.
       </p>
     </div>
   );

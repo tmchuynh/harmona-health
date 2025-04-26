@@ -21,8 +21,25 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="mx-auto py-12 md:py-24 w-11/12">
-      <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 lg:grid-cols-2 mx-auto px-6 lg:px-8 max-w-7xl">
+    <div className="mx-auto py-12 md:py-20 w-11/12">
+      <h1>Wellness Library</h1>
+      <h5>
+        Empowering Your Journey to Health: Expert Resources for Mental,
+        Emotional, and Physical Well-Being
+      </h5>
+
+      <p className="my-2 md:my-4 lg:my-6">
+        Welcome to the Wellness Library — your comprehensive hub for resources
+        designed to support mental, emotional, and physical well-being. Whether
+        you are seeking practical tools for daily mental health care, in-depth
+        health education, or opportunities for personal growth, our curated
+        collections are here to empower you. Explore therapist-developed
+        toolkits, an expansive wellness dictionary, research-backed health
+        articles, expert-led events, and insightful self-assessments—all
+        thoughtfully created to help you build resilience, foster balance, and
+        take actionable steps toward a healthier, more vibrant life.
+      </p>
+      <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 lg:grid-cols-2 mx-auto">
         <div className="flex flex-col gap-y-8 lg:gap-y-12">
           {featuredResource.map((featuredResource, index) => (
             <Link href={featuredResource.href} key={index} className="group">
