@@ -191,11 +191,11 @@
   }
 
   h3 {
-    @apply text-xl 2xl:text-lg text-tertiary font-[Cormorant] font-semibold;
+    @apply text-xl 2xl:text-2xl text-tertiary font-[Cormorant] font-semibold;
   }
 
   h4 {
-    @apply text-lg xl:text-xl text-accent font-[Nunito] font-bold;
+    @apply text-lg xl:text-xl text-accent underline underline-offset-2 font-[Nunito] font-bold;
   }
   h5 {
     @apply text-base md:text-sm mb-9 text-fancy font-[IBMPlexSans] font-bold;
