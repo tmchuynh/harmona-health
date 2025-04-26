@@ -134,7 +134,8 @@ export default function Page() {
       {service && information ? (
         <article className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
           <h1>{service.title}</h1>
-          <p>{information.introduction}</p>
+
+          <p className="my-2 md:my-4 lg:my-6">{information.introduction}</p>
 
           <div>
             <h3>Program Benefits</h3>
@@ -200,7 +201,9 @@ export default function Page() {
                     <h2>{capitalize(tier.tier)} Tier</h2>
                     <p>{formatCurrency(tier.price)}/session</p>
                   </div>
-                  <p>{service.description}</p>
+                  {tier.tier === service.tiers[index].tier && (
+                    <p>{service.tiers[index].description}</p>
+                  )}
 
                   <div>
                     <h5 className="mb-3 underline underline-offset-2">
