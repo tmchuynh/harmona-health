@@ -6,11 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../ui/card";
-
-interface Meaning {
-  partOfSpeech: string;
-  definitions: { definition: string; example?: string }[];
-}
+import { Meaning } from "@/lib/interfaces&types/dictionary";
 
 export default function DictionaryCard({ word }: { word: string }) {
   const [headword, setHeadword] = useState<string | null>(null);
@@ -84,9 +80,7 @@ export default function DictionaryCard({ word }: { word: string }) {
             <p>
               <strong>Phonetic:</strong> {phonetic}
             </p>
-            <p>
-              <strong>Origin:</strong> {origin}
-            </p>
+
             <div>
               <strong>Meanings:</strong>
               {meanings.map((meaning, index) => (
@@ -136,7 +130,11 @@ export default function DictionaryCard({ word }: { word: string }) {
           <p>Loading...</p>
         )}
       </CardContent>
-      <CardFooter></CardFooter>
+      <CardFooter>
+        <p>
+          <strong>Origin:</strong> {origin}
+        </p>
+      </CardFooter>
     </Card>
   );
 }
