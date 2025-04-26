@@ -33,3 +33,21 @@ export interface CategoryQuestion {
   question: string;
   answer: string;
 }
+
+export interface Toolkit {
+  id: string;
+  title: string;
+  introduction: string;
+  description: string;
+  warningText: string;
+  href: string;
+}
+
+export interface Article {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  introduction: string;
+}
