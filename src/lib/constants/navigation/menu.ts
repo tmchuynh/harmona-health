@@ -1,58 +1,73 @@
 import { NavigationMenu } from "@/lib/interfaces&types/types";
-import { SquaresPlusIcon } from "@heroicons/react/24/outline";
-import { ChartPieIcon, PhoneIcon, PlayCircleIcon } from "lucide-react";
+import {
+  BookOpenIcon,
+  PuzzlePieceIcon,
+  UserGroupIcon,
+} from "@heroicons/react/24/outline";
+import {
+  HeartPulseIcon,
+  LayersIcon,
+  BrainIcon,
+  FileTextIcon,
+  HandshakeIcon,
+  ClipboardCheckIcon,
+  AccessibilityIcon,
+  BookTextIcon,
+} from "lucide-react";
 
 export const mainPages: NavigationMenu[] = [
   {
     name: "Programs",
-    description: "Get a better understanding of your traffic",
+    description:
+      "Explore our complete wellness protocols tailored to your goals.",
     href: "/programs",
-    icon: ChartPieIcon,
+    icon: HeartPulseIcon,
   },
   {
-    name: "Sucess Stories",
-    description: "Connect with third-party tools",
+    name: "Success Stories",
+    description: "Read inspiring testimonials from real clients.",
     href: "/programs/start-your-journey/success-stories",
-    icon: SquaresPlusIcon,
+    icon: UserGroupIcon,
   },
   {
     name: "FAQs",
-    description: "Connect with third-party tools",
+    description: "Get answers to our most commonly asked questions.",
     href: "/programs/FAQ",
-    icon: SquaresPlusIcon,
+    icon: ClipboardCheckIcon,
   },
   {
     name: "Wellness Library",
-    description: "Get a better understanding of your traffic",
+    description:
+      "Browse expert content, tools, and guides for optimal well-being.",
     href: "/wellness-library",
-    icon: ChartPieIcon,
+    icon: BookOpenIcon,
   },
   {
-    name: "Start",
-    description: "Connect with third-party tools",
+    name: "Start Your Journey Today",
+    description: "Begin your personalized path toward vibrant health.",
     href: "/programs/start-your-journey",
-    icon: SquaresPlusIcon,
+    icon: PuzzlePieceIcon,
   },
 ];
 
 export const seccondaryPages: NavigationMenu[] = [
   {
     name: "Digital Products",
-    description: "Connect with third-party tools",
+    description: "Access downloadable tools, assessments, and templates.",
     href: "/wellness-library/digital-products",
-    icon: SquaresPlusIcon,
+    icon: LayersIcon,
   },
   {
-    name: "Wellness Articles",
-    description: "Get a better understanding of your traffic",
-    href: "/wellness-library/articles",
-    icon: ChartPieIcon,
+    name: "Health Articles",
+    description: "Explore educational content written by our experts.",
+    href: "/wellness-library/health-articles",
+    icon: FileTextIcon,
   },
   {
-    name: "Health Toolkit",
-    description: "Connect with third-party tools",
-    href: "/wellness-library/digital-products/health-toolkit",
-    icon: SquaresPlusIcon,
+    name: "Mental Health Toolkit",
+    description: "Empower your mind with practical emotional health resources.",
+    href: "/wellness-library/digital-products/meantal-health-toolkit",
+    icon: BrainIcon,
   },
 ];
 
@@ -60,12 +75,12 @@ export const callsToAction: NavigationMenu[] = [
   {
     name: "Affiliates & Partnerships",
     href: "/about/affiliates-and-partnerships",
-    icon: PlayCircleIcon,
+    icon: HandshakeIcon,
   },
   {
-    name: "Assessments",
-    href: "/wellness-library/digital-products/assessments",
-    icon: PhoneIcon,
+    name: "Self Assessments",
+    href: "/wellness-library/digital-products/self-assessments",
+    icon: ClipboardCheckIcon,
   },
 ];
 
@@ -73,12 +88,12 @@ export const callsToActionSecondary: NavigationMenu[] = [
   {
     name: "Accessibility Statement",
     href: "/about/accessibillity-statement",
-    icon: PlayCircleIcon,
+    icon: AccessibilityIcon,
   },
   {
     name: "Wellness Dictionary",
     href: "/wellness-library/digital-products/wellness-dictionary",
-    icon: PhoneIcon,
+    icon: BookTextIcon,
   },
 ];
 
