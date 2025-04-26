@@ -29,6 +29,9 @@ const imageHosts = [
 ];
 
 const nextConfig: NextConfig = {
+  middleware: {
+    matcher: ["/api/wellness-library/digital-products/wellness-dictionary"],
+  },
   images: {
     remotePatterns: imageHosts.map((hostname) => ({
       protocol: "https",

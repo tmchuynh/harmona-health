@@ -60,56 +60,23 @@ export const capitalize = (str: string) => {
 };
 
 /**
- * Formats a given date string into the format 'YYYY-MM-DD'.
- *
- * @param dateString - The date string to format.
- * @returns The formatted date string in 'YYYY-MM-DD' format.
- * @throws Will throw an error if the provided date string is invalid.
+ * Cleans a text string by removing specific formatting.
+ * 
+ * @param input - The string to be cleaned
+ * @returns The cleaned string with all {} markup removed and whitespace collapsed
+ * 
+ * @example
+ * // Returns "Hello World"
+ * cleanText("Hello {bold}World{/bold}  ");
  */
-export const formatDate = (dateString: string): string => {
-  const date = new Date(dateString);
-  if (isNaN(date.getTime())) {
-    throw new Error(`Invalid date string: ${dateString}`);
-  }
-  const year = date.getFullYear();
-  const month = (date.getMonth() + 1).toString().padStart(2, "0");
-  const day = date.getDate().toString().padStart(2, "0");
-
-  return `${year}-${month}-${day}`;
-};
-
-/**
- * Converts a given title string into a URL-friendly slug.
- *
- * The function performs the following transformations:
- * - Converts the string to lowercase.
- * - Removes all non-alphanumeric characters except spaces and hyphens.
- * - Replaces spaces and consecutive hyphens with a single hyphen.
- *
- * @param title - The title string to be converted into a slug.
- * @returns The URL-friendly slug.
- */
-export function setSlug(title: string): string {
-  const slug = title
-    .toLowerCase()
-    .replace(/[^a-zA-Z0-9\s-]/g, "")
-    .replace(/[\s-]+/g, "-");
-  return slug;
+export function cleanText(input: string): string {
+  return input
+    .replace(/\{.*?\}/g, "") // remove all {} markup
+    .replace(/\s+/g, " ") // collapse whitespace
+    .trim();
 }
 
 
-/**
- * Formats an item name by converting underscore-separated words into a properly capitalized string.
- * Follows title case rules where certain common words (articles, conjunctions, prepositions) remain lowercase
- * unless they appear at the start of the string.
- *
- * @param itemName - The string to format, with words separated by underscores
- * @returns A formatted string with proper title case capitalization and spaces between words
- *
- * @example
- * formatItemName("the_quick_brown_fox") 
- * formatItemName("a_tale_of_two_cities") 
- */
 export const formatItemName = (itemName: string) => {
   
   const exceptions = [

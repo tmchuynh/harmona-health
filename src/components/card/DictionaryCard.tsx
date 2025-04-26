@@ -7,8 +7,11 @@ import {
   CardTitle,
 } from "../ui/card";
 import { Meaning } from "@/lib/interfaces&types/dictionary";
+import { capitalize, cleanText } from "@/lib/utils/format";
 
 export default function DictionaryCard({ word }: { word: string }) {
+  const [loading, setLoading] = useState(true);
+
   const [headword, setHeadword] = useState<string | null>(null);
   const [phonetic, setPhonetic] = useState<string | null>(null);
   const [meanings, setMeanings] = useState<Meaning[] | null>(null);
@@ -23,8 +26,11 @@ export default function DictionaryCard({ word }: { word: string }) {
     async function fetchDefinition() {
       try {
         const response = await fetch(
-          `/api/wellness-library/digital-products/wellness-dictionary?word=${word}`
+          `/api/wellness-library/digital-products/wellness-dictionary?word=${capitalize(
+            word
+          )}`
         );
+
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
@@ -36,17 +42,42 @@ export default function DictionaryCard({ word }: { word: string }) {
         setPhonetic(
           dictionaryData?.hwi?.prs?.[0]?.mw || "No phonetic available"
         );
-        setMeanings(
+
+        // Format definitions
+        const formattedMeanings =
           dictionaryData?.def?.map((def: any) => ({
             partOfSpeech: dictionaryData.fl,
             definitions: def.sseq.flatMap((seq: any) =>
-              seq[0][1]?.dt?.map((dt: any) => ({
-                definition: dt[1],
-                example: dt[2]?.vis?.[0]?.t || null,
-              }))
+              seq[0][1]?.dt?.map((dt: any) => {
+                let definition = dt[1];
+                let example = null;
+
+                // Clean up definition text
+                if (typeof definition === "string") {
+                  definition = definition
+                    .replace(/{bc}/g, ": ")
+                    .replace(/{it}/g, "<i>")
+                    .replace(/{\/it}/g, "</i>")
+                    .replace(/{wi}/g, "<b>")
+                    .replace(/{\/wi}/g, "</b>");
+                }
+
+                // Extract examples
+                if (Array.isArray(dt[1]) && dt[1][0]?.vis) {
+                  example = dt[1][0].vis[0]?.t;
+                } else if (dt[0] === "vis" && Array.isArray(dt[1])) {
+                  example = dt[1][0]?.t;
+                }
+
+                return {
+                  definition: definition || "No definition available",
+                  example: example || null,
+                };
+              })
             ),
-          })) || []
-        );
+          })) || [];
+
+        setMeanings(formattedMeanings);
         setOrigin(
           dictionaryData?.et?.[0]?.[1] || "No origin available" // Extract origin
         );
@@ -62,7 +93,13 @@ export default function DictionaryCard({ word }: { word: string }) {
     }
 
     fetchDefinition();
+
+    setLoading(false);
   }, [word]);
+
+  if (loading) {
+    return <></>;
+  }
 
   return (
     <Card>
@@ -89,13 +126,24 @@ export default function DictionaryCard({ word }: { word: string }) {
                     <em>{meaning.partOfSpeech}</em>
                   </p>
                   <ul>
-                    {meaning.definitions.map((definition, defIndex) => (
+                    {meaning?.definitions.map((definition, defIndex) => (
                       <li key={defIndex}>
-                        {definition.definition}
-                        {definition.example && (
+                        {/* Render the cleaned definition */}
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: definition?.definition,
+                          }}
+                        />
+                        {/* Render the example if available */}
+                        {definition?.example && (
                           <p>
                             <small>
-                              <strong>Example:</strong> {definition.example}
+                              <strong>Example:</strong>{" "}
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: definition?.example,
+                                }}
+                              />
                             </small>
                           </p>
                         )}

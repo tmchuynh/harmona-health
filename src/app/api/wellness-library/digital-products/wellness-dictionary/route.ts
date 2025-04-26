@@ -1,45 +1,44 @@
-import { NextApiRequest, NextApiResponse } from "next";
+// app/api/wellness-library/digital-products/wellness-dictionary/route.ts
+import { NextResponse } from "next/server";
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  if (req.method !== "GET") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
+export async function GET(req: Request) {
+  const { searchParams } = new URL(req.url);
+  const word = searchParams.get("word");
 
-  const { word } = req.query;
-
-  if (!word || typeof word !== "string") {
-    return res
-      .status(400)
-      .json({ error: "Word is required and must be a string" });
+  if (!word) {
+    return NextResponse.json({ error: "Word is required" }, { status: 400 });
   }
 
   const dictionaryApiKey = process.env.DICTIONARY;
   const thesaurusApiKey = process.env.THESAURUS;
 
+  if (!dictionaryApiKey || !thesaurusApiKey) {
+    return NextResponse.json({ error: "Missing API keys" }, { status: 500 });
+  }
+
   try {
-    // Fetch data from the Collegiate Dictionary API
-    const dictionaryResponse = await fetch(
+    const dictionaryRes = await fetch(
       `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${dictionaryApiKey}`
     );
-    if (!dictionaryResponse.ok) {
-      return res
-        .status(dictionaryResponse.status)
-        .json({ error: "Failed to fetch dictionary data" });
-    }
-    const dictionaryData = await dictionaryResponse.json();
 
-    // Fetch data from the Thesaurus API
-    const thesaurusResponse = await fetch(
+    if (!dictionaryRes.ok) {
+      return NextResponse.json(
+        { error: "Failed to fetch dictionary data" },
+        { status: dictionaryRes.status }
+      );
+    }
+
+    const dictionaryData = await dictionaryRes.json();
+
+    const thesaurusRes = await fetch(
       `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${word}?key=${thesaurusApiKey}`
     );
+
     let synonyms: string[] = [];
     let antonyms: string[] = [];
 
-    if (thesaurusResponse.ok) {
-      const thesaurusData = await thesaurusResponse.json();
+    if (thesaurusRes.ok) {
+      const thesaurusData = await thesaurusRes.json();
       if (Array.isArray(thesaurusData) && thesaurusData.length > 0) {
         const firstEntry = thesaurusData[0];
         synonyms = firstEntry.meta?.syns?.[0] || [];
@@ -47,15 +46,15 @@ export default async function handler(
       }
     }
 
-    // Combine data from both APIs
-    const combinedData = {
+    return NextResponse.json({
       dictionary: dictionaryData,
       synonyms,
       antonyms,
-    };
-
-    return res.status(200).json(combinedData);
-  } catch (error) {
-    return res.status(500).json({ error: "Internal server error" });
+    });
+  } catch (err) {
+    return NextResponse.json(
+      { error: "Internal server error" },
+      { status: 500 }
+    );
   }
 }

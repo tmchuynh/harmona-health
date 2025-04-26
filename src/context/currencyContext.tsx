@@ -384,7 +384,6 @@ export const CurrencyProvider = ({
       hasImportFees: false,
     };
 
-    console.log("taxInfo", taxInfo);
 
     // Find the country tax info
     return taxInfo;
