@@ -1,22 +1,9 @@
 "use client";
-
-import DynamicButton from "@/components/button/button-dynamic";
 import ProgramCard from "@/components/card/ProgramCard";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 import { subServices } from "@/lib/constants/services/services";
 import { capitalize } from "@/lib/utils/format";
 import { usePathname, useRouter } from "next/navigation";
-import React from "react";
-import {
-  RiComputerFill,
-  RiComputerLine,
-  RiFireFill,
-  RiFireLine,
-  RiVipCrownFill,
-  RiVipCrownLine,
-} from "react-icons/ri";
-
 
 export default function Page() {
   const segments = usePathname().split("/");
@@ -29,7 +16,6 @@ export default function Page() {
   const category = serviceCategories.find(
     (category) => category.id === categoryId
   );
-
   if (!category) {
     return <div>Category not found</div>;
   }

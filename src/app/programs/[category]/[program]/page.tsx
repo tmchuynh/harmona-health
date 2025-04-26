@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/table";
 import { icons } from "@/lib/constants/constants";
 import { data } from "@/lib/constants/services/images";
-import { subServiceInformation } from "@/lib/constants/services/serviceInformation";
+import { serviceInformation } from "@/lib/constants/services/serviceInformation";
 import { subServices } from "@/lib/constants/services/services";
 import { serviceTierInformation } from "@/lib/constants/services/tierInformation";
 import { cn, getRandomIndex } from "@/lib/utils";
@@ -109,14 +109,14 @@ export default function Page() {
     };
   }, []);
 
-  const information = subServiceInformation.find(
-    (info) => info.subServiceId === serviceId
+  const information = serviceInformation.find(
+    (info) => info.serviceId === serviceId
   );
 
   const service = subServices.find((service) => service.id === serviceId);
 
   const filteredTiers = serviceTierInformation.filter(
-    (tier) => serviceId === tier.subServiceId
+    (tier) => serviceId === tier.serviceId
   );
 
   const days = [

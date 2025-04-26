@@ -4,6 +4,7 @@ export interface ServiceCategory {
   id: string;
   title: string;
   icon: IconType;
+  introduction?: string[];
   description: string;
 }
 
@@ -22,7 +23,7 @@ export interface Service {
 }
 
 export interface ServiceInformation {
-  subServiceId: string;
+  serviceId: string;
   introduction: string;
   keypoints: string[];
   outcomes: string[];
@@ -32,7 +33,7 @@ export interface ServiceInformation {
 }
 
 export interface ServiceTierInformation {
-  subServiceId: string;
+  serviceId: string;
   tier: "basic" | "growth" | "scale";
   introduction: string;
   price: number;

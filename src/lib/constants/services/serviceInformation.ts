@@ -1,8 +1,8 @@
 import { ServiceInformation } from "@/lib/interfaces&types/services";
 
-export const subServiceInformation: ServiceInformation[] = [
+export const serviceInformation: ServiceInformation[] = [
   {
-    subServiceId: "personalized-wellness",
+    serviceId: "personalized-wellness",
     introduction:
       "Step into a transformative experience with a personalized program that seamlessly blends your nutrition, fitness, and mindfulness practices, perfectly aligned with your unique lifestyle and needs. This isn't just a plan—it's your journey, thoughtfully crafted to elevate your well-being, boost your energy, and empower you to not only meet but exceed your goals. Every step you take is designed to unlock your full potential, helping you thrive in every aspect of life!",
     keypoints: [
@@ -30,7 +30,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/personalized-wellness.jpg",
   },
   {
-    subServiceId: "hormonal-balance",
+    serviceId: "hormonal-balance",
     introduction:
       "Unlock the power of a truly transformative approach to balancing your hormones! Experience a tailored journey using natural, science-backed methods that not only restore harmony but also enhance your vitality. Imagine feeling more energized, centered, and in tune with your body—empowering you to optimize your health from the inside out and embrace each day with a renewed sense of balance and well-being. It's time to take control and thrive!",
     keypoints: [
@@ -58,7 +58,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/hormonal-balance.jpg",
   },
   {
-    subServiceId: "sleep-coaching",
+    serviceId: "sleep-coaching",
     introduction:
       "Revolutionize your sleep and wake up feeling truly refreshed! Transform your nighttime routine by enhancing your sleep hygiene, resetting your circadian rhythm, and fine-tuning the habits that set the stage for deep, restorative rest. Say goodbye to sleepless nights and hello to the rejuvenating sleep you’ve been dreaming of—wake up energized, refreshed, and ready to conquer the day!",
     keypoints: [
@@ -86,7 +86,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/sleep-coaching.jpg",
   },
   {
-    subServiceId: "detox-reset",
+    serviceId: "detox-reset",
     introduction:
       "Reinvigorate your body with a transformative cleanse that goes beyond the basics! Nourish your gut, reduce inflammation, and cultivate lasting, healthy habits that will bring balance to every aspect of your life. This is your chance to reset, rejuvenate, and restore—unlock a healthier, more vibrant version of yourself from the inside out!",
     keypoints: [
@@ -113,7 +113,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/detox-reset.jpg",
   },
   {
-    subServiceId: "meal-planning",
+    serviceId: "meal-planning",
     introduction:
       "Indulge in personalized meal plans tailored to your unique lifestyle, health goals, and taste preferences, making healthy eating both effortless and delightful. Say goodbye to the stress of meal planning and hello to a vibrant, flavorful journey where every bite fuels your body and satisfies your cravings.",
     keypoints: [
@@ -141,7 +141,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/meal-planning.jpg",
   },
   {
-    subServiceId: "digestive-health",
+    serviceId: "digestive-health",
     introduction:
       "Revitalize your digestive health and achieve true balance with a holistic approach that blends nourishing foods, mindful habits, and powerful, targeted supplements. Reclaim your well-being from the inside out and enjoy a smoother, more comfortable digestive journey every day.",
     keypoints: [
@@ -169,7 +169,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/digestive-health.jpg",
   },
   {
-    subServiceId: "supplement-guidance",
+    serviceId: "supplement-guidance",
     introduction:
       "Unlock the power of personalized wellness with recommendations uniquely tailored to your lab results, health goals, and any nutritional gaps in your diet. Experience a comprehensive, science-driven approach that not only fills the gaps but optimizes your entire well-being. With every step designed specifically for you, feel empowered to take control of your health and thrive like never before!",
     keypoints: [
@@ -197,7 +197,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/supplement-guidance.jpg",
   },
   {
-    subServiceId: "online-fitness-coaching",
+    serviceId: "online-fitness-coaching",
     introduction:
       "Reach your fitness goals no matter where you are with custom-tailored workout plans and virtual check-ins that keep you motivated and accountable. Whether you're at home, traveling, or on the go, stay on track with personalized guidance and support every step of the way. Experience the flexibility and convenience of training anytime, anywhere, while achieving lasting results!",
     keypoints: [
@@ -225,7 +225,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/online-fitness-coaching.jpg",
   },
   {
-    subServiceId: "mobility-recovery",
+    serviceId: "mobility-recovery",
     introduction:
       "Say goodbye to soreness and hello to a more flexible, mobile body! Our targeted techniques are designed to relieve discomfort, enhance your flexibility, and optimize your body's movement patterns. Improve your range of motion and boost your overall mechanics, so you can move with ease, feel great, and perform at your best every day. It's time to unlock your body's full potential!",
     keypoints: [
@@ -253,7 +253,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/mobility-recovery.jpg",
   },
   {
-    subServiceId: "metabolic-optimization",
+    serviceId: "metabolic-optimization",
     introduction:
       "Unlock the full potential of your metabolism with a personalized approach that blends data, diet, and movement strategies tailored specifically to your unique physiology. Through customized habits and targeted strategies, we'll help you optimize your metabolism for lasting energy, improved wellness, and sustainable health. Transform your body's metabolic health and create a foundation for lifelong vitality and well-being.",
     keypoints: [
@@ -281,7 +281,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/metabolic-optimization.jpg",
   },
   {
-    subServiceId: "group-classes",
+    serviceId: "group-classes",
     introduction:
       "Step into a vibrant community with fun, dynamic group workouts that elevate your strength and foster connections. These high-energy sessions are designed to challenge your limits, keep you motivated, and support your fitness journey with structured, engaging routines. Whether you're pushing yourself to new heights or simply enjoying the camaraderie, you'll find both strength and inspiration in every workout!",
     keypoints: [
@@ -309,7 +309,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/group-classes.jpg",
   },
   {
-    subServiceId: "guided-meditation",
+    serviceId: "guided-meditation",
     introduction:
       "Discover a path to tranquility, clarity, and emotional balance with guided meditation sessions designed to reduce stress, sharpen focus, and cultivate mindfulness. These transformative practices will empower you to maintain a deep sense of inner peace, even amidst the chaos of daily life. Embrace the stillness and watch as you unlock your true potential to navigate every moment with calm and clarity.",
     keypoints: [
@@ -337,7 +337,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/guided-meditation.jpg",
   },
   {
-    subServiceId: "neuroplasticity",
+    serviceId: "neuroplasticity",
     introduction:
       "Unleash the full potential of your brain with cutting-edge exercises crafted to rewire thought patterns, boost cognitive flexibility, and supercharge your learning capacity. Using powerful neuroplasticity techniques, you'll enhance memory, sharpen mental performance, and elevate your ability to adapt to new challenges. Transform the way you think, learn, and grow—unlock your mind’s limitless possibilities today.",
     keypoints: [
@@ -365,7 +365,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/neuroplasticity.jpg",
   },
   {
-    subServiceId: "therapy-sessions",
+    serviceId: "therapy-sessions",
     introduction:
       "Experience the transformative power of personalized therapy, crafted to support your unique emotional and mental health needs. These sessions are tailored to guide you through life’s challenges, helping you build resilience, cultivate emotional strength, and unlock a path toward lasting well-being. With expert support and understanding, you’ll gain the tools to thrive and embrace life’s journey with confidence and clarity.",
     keypoints: [
@@ -393,7 +393,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/therapy-sessions.jpg",
   },
   {
-    subServiceId: "high-functioning-anxiety",
+    serviceId: "high-functioning-anxiety",
     introduction:
       "Address perfectionism, overthinking, and self-pressure with targeted mental strategies.",
     keypoints: [
@@ -421,7 +421,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/high-functioning-anxiety.jpg",
   },
   {
-    subServiceId: "adhd-lifestyle",
+    serviceId: "adhd-lifestyle",
     introduction:
       "Designed specifically for your unique brain chemistry, this program empowers you to align your daily life with the natural tendencies of ADHD. With a perfect blend of structure and flexibility, it supports your focus, productivity, and emotional balance. Experience a seamless routine that caters to your strengths, helps you overcome challenges, and boosts your overall well-being, all while embracing the fluidity of your mind.",
     keypoints: [
@@ -449,7 +449,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/adhd-lifestyle.jpg",
   },
   {
-    subServiceId: "trauma-informed-regulation",
+    serviceId: "trauma-informed-regulation",
     introduction:
       "Reclaim your sense of safety and emotional balance with transformative grounding practices designed to heal, soothe, and regulate your nervous system. This program empowers you to build lasting resilience, helping you navigate stress with confidence and ease. By reconnecting with your body and mind, you'll unlock a deeper sense of calm, emotional strength, and stability to face life's challenges with greater peace.",
     keypoints: [
@@ -477,7 +477,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/trauma-informed-regulation.jpg",
   },
   {
-    subServiceId: "emotional-intelligence",
+    serviceId: "emotional-intelligence",
     introduction:
       "Strengthen empathy, communication, and emotional mastery through conscious awareness training.",
     keypoints: [
@@ -505,7 +505,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/emotional-intelligence.jpg",
   },
   {
-    subServiceId: "team-workshops",
+    serviceId: "team-workshops",
     introduction:
       "Immerse your team in dynamic, interactive workshops designed to equip them with powerful, actionable tools for managing stress, optimizing nutrition, and supercharging productivity. These engaging sessions foster collaboration, improve overall well-being, and provide practical strategies that can be immediately applied to boost both individual performance and team synergy. Watch your team thrive as they gain the knowledge and support needed to perform at their best in every aspect of their work and life.",
     keypoints: [
@@ -533,7 +533,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/team-workshops.jpg",
   },
   {
-    subServiceId: "burnout-prevention",
+    serviceId: "burnout-prevention",
     introduction:
       "Transform your workplace into a thriving, stress-free environment with tailored wellness strategies that combat workplace stress, enhance employee well-being, and boost retention. These personalized approaches are designed to create a healthier, more engaged workforce, fostering a culture of support, balance, and productivity. Empower your team to manage stress, improve their mental and physical health, and build long-term satisfaction, resulting in a more motivated, loyal, and high-performing workforce.",
     keypoints: [
@@ -561,7 +561,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/burnout-prevention.jpg",
   },
   {
-    subServiceId: "executive-coaching",
+    serviceId: "executive-coaching",
     introduction:
       "Experience exclusive, high-performance wellness support designed specifically for leadership teams, empowering executives to excel in both their personal and professional lives. This tailored program focuses on optimizing mental clarity, resilience, and overall well-being, ensuring leaders have the energy, focus, and balance needed to lead effectively. With personalized coaching, health assessments, and concierge-level support, you’ll unlock your full potential, enhance decision-making, and drive long-term success while maintaining a sustainable work-life harmony.",
     keypoints: [
@@ -589,7 +589,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/executive-coaching.jpg",
   },
   {
-    subServiceId: "tech-balance",
+    serviceId: "tech-balance",
     introduction:
       "Revamp your digital environment to unlock heightened mental clarity, improved posture, and maximum productivity. This personalized program guides you in optimizing your workspace and digital habits, creating a harmonious and efficient setting that reduces distractions and enhances focus. Say goodbye to tech overload and hello to a streamlined, balanced work life where every tool, habit, and routine is designed to help you thrive.",
     keypoints: [
@@ -617,7 +617,7 @@ export const subServiceInformation: ServiceInformation[] = [
     image: "/images/services/tech-balance.jpg",
   },
   {
-    subServiceId: "travel-recovery",
+    serviceId: "travel-recovery",
     introduction:
       "Supercharge your travel experience with a personalized approach to circadian syncing, hydration strategies, and targeted recovery techniques, designed to keep you feeling energized and performing at your best no matter where you are. Whether you're crossing time zones or conquering back-to-back meetings, this program equips you with the tools to optimize your body’s rhythm, recover faster, and stay at the top of your game throughout your journey.",
     keypoints: [
