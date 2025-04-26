@@ -31,7 +31,7 @@ export default function ProgramCard({
         <h2 className="underline-offset-4 group-hover:underline decoration-1">
           {service.title}
         </h2>
-        <p>{service.description}</p>
+        <p>{service.introduction}</p>
       </CardContent>
       <CardFooter>
         {service.title === "Executive Health Coaching" ? (

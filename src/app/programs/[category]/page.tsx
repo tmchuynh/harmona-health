@@ -24,15 +24,15 @@ export default function Page() {
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
       <category.icon className="mb-2 w-10 lg:w-15 2xl:w-20 h-10 lg:h-15 2xl:h-20 text-tertiary" />
       <h1>{capitalize(categoryId)}</h1>
-      <h5>{category.description}</h5>
+      <h5>{category.subtitle}</h5>
 
-      <p className="pb-8">
-        Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
-        sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute voluptate
-        sunt sint elit qui aute ea non eiusmod labore. Ea voluptate ex ullamco
-        qui aliqua qui minim voluptate ut incididunt nostrud. Cillum elit minim
-        cupidatat officia.
-      </p>
+      <div className="my-2 md:my-4 lg:my-6">
+        {category.introduction.map((intro, index) => (
+          <p key={index} className="py-1">
+            {intro}
+          </p>
+        ))}
+      </div>
 
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredServices.map((service, index) => {
