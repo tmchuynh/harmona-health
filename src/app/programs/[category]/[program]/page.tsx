@@ -134,7 +134,7 @@ export default function Page() {
       {service && information ? (
         <article className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
           <h1>{service.title}</h1>
-          <h5>{information.introduction}</h5>
+          <p>{information.introduction}</p>
 
           <div>
             <h3>Program Benefits</h3>
