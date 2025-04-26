@@ -12,6 +12,7 @@ export const serviceCategories: ServiceCategory[] = [
   {
     id: "wellness-programs",
     title: "Wellness Programs",
+    subtitle: "Holistic programs tailored to balance mind, body, and spirit.",
     icon: PiFlowerLotusFill,
     introduction: [
       "Our Wellness Programs are crafted to bring harmony to the mind, body, and spirit through a blend of holistic practices rooted in modern science and traditional healing methods. These programs incorporate evidence-based techniques such as mindful movement, personalized nutrition, functional medicine, breathwork, meditation, and lifestyle coaching to provide a comprehensive system of support.",
@@ -19,33 +20,39 @@ export const serviceCategories: ServiceCategory[] = [
       "Embark on a personalized journey that nurtures your physical vitality, emotional balance, and mental clarity. With the guidance of dedicated experts, you'll experience a transformative shift toward balance, vitality, and self-empowerment. Our mission is to help you cultivate sustainable habits that foster long-term health, inner peace, and a truly fulfilling lifestyle.",
     ],
     description:
-      "Holistic programs tailored to balance mind, body, and spirit.",
+      "Our Wellness Programs integrate modern science with traditional healing to create a holistic path toward balance and vitality. Each program is personalized to address stress, burnout, emotional resilience, and physical health through sustainable lifestyle interventions. Experience a full-spectrum transformation of mind, body, and spirit, guided by evidence-based practices and expert support.",
   },
   {
     id: "nutrition-coaching",
     title: "Nutrition Coaching",
+    subtitle: "Personalized meal planning and dietary guidance.",
     icon: GiMeal,
     introduction: [
       "Our Nutrition Coaching services take a personalized approach to transforming your diet and lifestyle, grounded in the principles of functional nutrition. We collaborate with you to evaluate your current eating habits, identify areas for improvement, and create a tailored plan that aligns with your unique goals and preferences. These programs emphasize whole, nutrient-rich foods, intuitive eating, blood sugar balance, gut health, and mindful consumption.",
       "Our expert coaches design practical and enjoyable strategies that fit seamlessly into your lifestyle. We understand that nutrition is not a one-size-fits-all solution, so whether you're managing a chronic condition, aiming to boost your energy, support hormonal health, or achieve athletic milestones, your plan is customized to meet your specific needs.",
       "To make healthy living simple and sustainable, we provide actionable tools such as meal prep guides, shopping lists, and supplement recommendations. Our mission goes beyond improving your diet — we aim to inspire a deeper connection with your body and foster a healthier relationship with food. Learn how to nourish yourself with confidence and intention, building habits that support long-term health and vitality.",
     ],
-    description: "Personalized meal planning and dietary guidance.",
+    description:
+      "Our Nutrition Coaching programs deliver personalized strategies rooted in functional nutrition and intuitive eating principles. We help you optimize your diet, improve gut health, and establish sustainable habits that align with your lifestyle and health goals. Through actionable guidance and expert support, you'll build a positive, lasting relationship with food.",
   },
   {
     id: "fitness-training",
     title: "Fitness Training",
+    subtitle: "One-on-one and group training for all fitness levels.",
     icon: GiWeightLiftingUp,
     introduction: [
       "Our Fitness Training services go beyond traditional workout plans, offering a comprehensive approach to physical empowerment, resilience, and overall well-being. We provide personalized one-on-one training, small group sessions, and specialized programs tailored to your unique fitness level and goals. Whether you're just starting your fitness journey or striving for elite performance, we help you build strength, improve endurance, and achieve your physical fitness aspirations in a supportive and motivating environment.",
       "Each training program is carefully designed to prioritize proper form, reduce the risk of injury, and deliver long-term improvements in strength and mobility. Our approach combines strength training, cardiovascular conditioning, flexibility exercises, core stabilization, and recovery techniques into a dynamic system that adapts to your evolving needs. We focus on functional strength, endurance, mobility, and injury prevention, empowering you to move with confidence and freedom.",
       "Every training plan is customized to align with your personal fitness journey, ensuring consistent progress, sustained motivation, and long-term success. With expert coaching and a positive, encouraging atmosphere, you'll not only see physical transformations but also experience enhanced mental clarity, improved self-confidence, and a renewed passion for movement. Our philosophy is simple: fitness should be accessible, sustainable, and deeply rewarding for everyone, regardless of their starting point or goals.",
     ],
-    description: "One-on-one and group training for all fitness levels.",
+    description:
+      "Our Fitness Training programs offer personalized one-on-one and group coaching designed to build strength, endurance, and confidence. We prioritize functional movement, injury prevention, and sustainable progress to support your unique fitness journey. Whether you're a beginner or seasoned athlete, we empower you to move better, feel stronger, and thrive.",
   },
   {
     id: "mental-health",
     title: "Mental Health Support",
+    subtitle:
+      "Guided practices and licensed therapy sessions for emotional wellness.",
     icon: GiMeditation,
     introduction: [
       "Our Mental Health Support services are founded on the belief that emotional well-being is essential to every aspect of life. We provide a wide range of services, including mindfulness-based stress reduction (MBSR), cognitive behavioral therapy (CBT), guided meditation, trauma-informed care, and resilience coaching. Our compassionate approach acknowledges the uniqueness of each individual's journey, offering a safe and supportive space where you feel seen, heard, and valued.",
@@ -53,11 +60,13 @@ export const serviceCategories: ServiceCategory[] = [
       "Our goal is to guide you toward healing and balance, recognizing that the path to well-being is not always linear. We walk alongside you as you cultivate emotional intelligence, inner peace, and a renewed connection to your inner strength. Ultimately, we aim to help you thrive mentally and emotionally, enabling you to live a life filled with joy, presence, and purpose.",
     ],
     description:
-      "Guided practices and licensed therapy sessions for emotional wellness.",
+      "Our Mental Health Support services offer therapy, mindfulness practices, and emotional resilience coaching in a compassionate and personalized environment. We equip you with coping strategies, stress management tools, and guidance to foster sustainable emotional well-being. Our goal is to help you cultivate balance, self-awareness, and lasting mental health.",
   },
   {
     id: "corporate-wellness",
     title: "Corporate Wellness",
+    subtitle:
+      "Health solutions for teams and organizations to foster productivity and well-being.",
     icon: GiOfficeChair,
     introduction: [
       "Our Corporate Wellness solutions are thoughtfully designed to help organizations prioritize the well-being of their teams, recognizing that a healthy workplace fosters greater productivity, creativity, and resilience. We offer dynamic, results-oriented wellness programs that include stress management workshops, mental health resources, mindfulness training, leadership resilience coaching, fitness programs, ergonomic assessments, and customized wellness challenges. By cultivating a culture of well-being, we empower businesses to create healthier, more engaged workplaces where employees can thrive.",
@@ -65,6 +74,6 @@ export const serviceCategories: ServiceCategory[] = [
       "We work closely with leadership teams to align wellness initiatives with organizational goals, creating a lasting impact that benefits the entire company. Investing in your team's health is more than just a perk — it's a transformative strategy for long-term success and innovation. By fostering healthier workplaces, we help businesses boost morale, reduce burnout, and achieve sustainable growth.",
     ],
     description:
-      "Health solutions for teams and organizations to foster productivity and well-being.",
+      "Our Corporate Wellness programs help organizations create healthier, more engaged teams through dynamic, results-driven initiatives. From stress management and mental health resources to ergonomic training and leadership coaching, we tailor wellness strategies to organizational needs. Our goal is to foster thriving workplaces that drive sustained success, innovation, and employee well-being.",
   },
 ];
