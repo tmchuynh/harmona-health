@@ -1,5 +1,5 @@
 import ToolkitCard from "@/components/card/ToolkitCard";
-import { toolkit } from "@/lib/resources/toolkits/tookit";
+import { toolkit } from "@/lib/resources/toolkits/toolkit";
 import { cn } from "@/lib/utils";
 import React from "react";
 export default function Page() {
@@ -25,16 +25,9 @@ export default function Page() {
         life.
       </p>
 
-      <div className="flex flex-col gap-4 mx-auto w-2/3">
+      <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
         {toolkit.map((item, index) => (
-          <ToolkitCard
-            toolkit={item}
-            key={index}
-            index={index}
-            className={cn("", {
-              "border-b pb-8 pt-3": index !== toolkit.length - 1,
-            })}
-          />
+          <ToolkitCard toolkit={item} key={index} />
         ))}
       </div>
     </div>
