@@ -1,6 +1,7 @@
 import { IconType } from "react-icons";
 
 export interface ResourceCategory {
+  id: string;
   title: string;
   introduction: string;
   description: string;
@@ -15,6 +16,7 @@ export interface Resource {
   href: string;
   image: string;
   similarResources: string[];
+  category: ResourceCategory["id"];
 }
 
 export interface ResourceInformation {
