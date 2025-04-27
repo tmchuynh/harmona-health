@@ -69,7 +69,7 @@ export default function Page() {
         <h2>Affiliate Companies</h2>
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-2">
           {affiliateCompanies.map((company, index) => (
-            <div key={index} className="flex flex-col justify-between">
+            <div key={index} className="group flex flex-col h-full">
               <div className="flex">
                 <Image
                   src={company.logo}
@@ -79,16 +79,20 @@ export default function Page() {
                   height={200}
                 />
               </div>
-              <h3>{company.name}</h3>
-              <p>{company.description}</p>
-              <DynamicButton
-                href={company.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                variant="accent"
-              >
-                Visit Website
-              </DynamicButton>
+              <div className="flex flex-col justify-between h-full">
+                <div>
+                  <h3>{company.name}</h3>
+                  <p>{company.description}</p>
+                </div>
+                <a
+                  href={company.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline-offset-2 group-hover:underline"
+                >
+                  Visit Website
+                </a>
+              </div>
             </div>
           ))}
         </div>
@@ -99,7 +103,7 @@ export default function Page() {
         <h2>Partnership Companies</h2>
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-2">
           {partnershipCompanies.map((company, index) => (
-            <div key={index} className="flex flex-col justify-between">
+            <div key={index} className="group flex flex-col h-full">
               <div className="flex">
                 <Image
                   src={company.logo}
@@ -109,20 +113,24 @@ export default function Page() {
                   height={200}
                 />
               </div>
-              <h3>{company.name}</h3>
-              <p>{company.description}</p>
-              <p>
-                <strong>Partnership Details:</strong>{" "}
-                {company.partnershipDetails}
-              </p>
-              <DynamicButton
-                href={company.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                variant="accent"
-              >
-                Visit Website
-              </DynamicButton>
+              <div className="flex flex-col justify-between h-full">
+                <div>
+                  <h3>{company.name}</h3>
+                  <p>{company.description}</p>
+                  <p className="text-pretty">
+                    <strong>Partnership Details:</strong>{" "}
+                    {company.partnershipDetails}
+                  </p>
+                </div>
+                <a
+                  href={company.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline-offset-2 group-hover:underline"
+                >
+                  Visit Website
+                </a>
+              </div>
             </div>
           ))}
         </div>
