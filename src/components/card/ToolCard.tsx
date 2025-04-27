@@ -1,6 +1,7 @@
 import { Tool } from "@/lib/interfaces&types/resources";
 import DynamicButton from "../button/button-dynamic";
 import { FaLeaf } from "react-icons/fa";
+import { formatToURL, toKebabCase } from "@/lib/utils/format";
 
 export default function ToolCard({ tool }: { tool: Tool }) {
   return (
@@ -19,7 +20,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               icon={FaLeaf}
               hoverIcon={FaLeaf}
               className="w-full"
-              href={tool.href}
+              href={`/wellness-library/digital-resources/mental-health-toolkit/${toKebabCase(
+                tool.categoryId
+              )}/${formatToURL(tool.title)}`}
             >
               View
             </DynamicButton>
