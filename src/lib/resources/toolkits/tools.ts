@@ -131,7 +131,7 @@ const nutritionTools: Tool[] = [
   },
 ];
 
-const resilienceTools: Tool[] = [
+const resilienceToolkit: Tool[] = [
   {
     id: "resilience-tool-1",
     categoryId: "resilience-toolkit",
@@ -156,9 +156,65 @@ const resilienceTools: Tool[] = [
       "A tracker to monitor the development of resilience skills over time.",
     href: "/tools/resilience-skills-tracker",
   },
+  {
+    id: "resilience-tool-6",
+    categoryId: "resilience-toolkit",
+    title: "Adversity Reflection Journal",
+    description:
+      "A guided journal that prompts users to reflect on past challenges and identify key lessons learned to strengthen future resilience.",
+    href: "/tools/adversity-reflection-journal",
+  },
+  {
+    id: "resilience-tool-7",
+    categoryId: "resilience-toolkit",
+    title: "Optimism Booster Worksheets",
+    description:
+      "Worksheets designed to shift mindset towards optimism, helping users build a more resilient and positive outlook.",
+    href: "/tools/optimism-booster-worksheets",
+  },
+  {
+    id: "resilience-tool-8",
+    categoryId: "resilience-toolkit",
+    title: "Emotional Regulation Techniques",
+    description:
+      "A toolkit of practices and strategies to improve emotional regulation under stress, enhancing resilience.",
+    href: "/tools/emotional-regulation-techniques",
+  },
+  {
+    id: "resilience-tool-9",
+    categoryId: "resilience-toolkit",
+    title: "Problem-Solving Framework",
+    description:
+      "A structured approach to solving problems effectively and reducing stress when facing obstacles.",
+    href: "/tools/problem-solving-framework",
+  },
+  {
+    id: "resilience-tool-10",
+    categoryId: "resilience-toolkit",
+    title: "Daily Resilience Practices Checklist",
+    description:
+      "A daily checklist of simple, actionable practices to boost resilience and maintain emotional strength over time.",
+    href: "/tools/daily-resilience-practices-checklist",
+  },
+  {
+    id: "resilience-tool-11",
+    categoryId: "resilience-toolkit",
+    title: "Growth Mindset Builder",
+    description:
+      "A tool to cultivate a growth mindset by reframing challenges as opportunities for personal development.",
+    href: "/tools/growth-mindset-builder",
+  },
+  {
+    id: "resilience-tool-12",
+    categoryId: "resilience-toolkit",
+    title: "Support Network Mapping Tool",
+    description:
+      "A tool to map out your personal and professional support systems, strengthening your resilience through community.",
+    href: "/tools/support-network-mapping-tool",
+  },
 ];
 
-const selfCompassionTools: Tool[] = [
+const selfCompassionAndEsteemPractices: Tool[] = [
   {
     id: "gratitude-tool-2",
     categoryId: "gratitude-journaling-templates",
@@ -166,6 +222,14 @@ const selfCompassionTools: Tool[] = [
     description:
       "A set of prompts to inspire deeper gratitude journaling and reflection.",
     href: "/tools/gratitude-prompts",
+  },
+  {
+    id: "self-care-tool-2",
+    categoryId: "self-care",
+    title: "Boundaries Setting Guide",
+    description:
+      "A guide to help you identify and set healthy boundaries with others to protect your mental and emotional well-being.",
+    href: "/tools/boundaries-setting-guide",
   },
   {
     id: "gratitude-tool-3",
@@ -215,6 +279,38 @@ const selfCompassionTools: Tool[] = [
       "A worksheet to identify and challenge self-critical thoughts, fostering a more compassionate mindset.",
     href: "/tools/overcoming-self-criticism-worksheet",
   },
+  {
+    id: "self-esteem-tool-4",
+    categoryId: "self-esteem-tools",
+    title: "Self-Esteem Building Exercises",
+    description:
+      "A collection of exercises to help you build self-esteem and develop a more positive self-image.",
+    href: "/tools/self-esteem-building-exercises",
+  },
+  {
+    id: "self-esteem-tool-5",
+    categoryId: "self-esteem-tools",
+    title: "Compliments Tracker",
+    description:
+      "A tool to track and reflect on compliments you receive, helping you internalize positive feedback and build self-esteem.",
+    href: "/tools/compliments-tracker",
+  },
+  {
+    id: "self-esteem-tool-7",
+    categoryId: "self-esteem-tools",
+    title: "Self-Compassion and Self-Esteem Balance",
+    description:
+      "A tool to help individuals balance self-compassion and self-esteem practices to create a harmonious sense of self-worth.",
+    href: "/tools/self-compassion-self-esteem-balance",
+  },
+  {
+    id: "self-esteem-tool-8",
+    categoryId: "self-esteem-tools",
+    title: "Confidence Builder",
+    description:
+      "A series of exercises and tips to help boost your confidence and improve self-assurance in various situations.",
+    href: "/tools/confidence-builder",
+  },
 ];
 
 const sleepOptimizationTools: Tool[] = [
@@ -225,6 +321,30 @@ const sleepOptimizationTools: Tool[] = [
     description:
       "Track your sleep patterns over time, logging factors that may influence the quality of your rest. This tool provides insights into improving sleep hygiene and achieving better rest.",
     href: "/tools/sleep-tracker",
+  },
+  {
+    id: "breathing-technique-4",
+    categoryId: "breathing-techniques",
+    title: "Breathing for Sleep",
+    description:
+      "A guide to breathing techniques specifically designed to improve sleep quality and relaxation.",
+    href: "/tools/breathing-for-sleep",
+  },
+  {
+    id: "pmr-tool-3",
+    categoryId: "progressive-muscle-relaxation-guides",
+    title: "PMR for Sleep",
+    description:
+      "A PMR guide tailored to help users unwind and prepare for restful sleep.",
+    href: "/tools/pmr-for-sleep",
+  },
+  {
+    id: "self-care-tool-4",
+    categoryId: "self-care",
+    title: "Sleep Improvement Tracker",
+    description:
+      "A tool to track your sleep habits and provide tips for improving your sleep quality, essential for mental and emotional health.",
+    href: "/tools/sleep-improvement-tracker",
   },
   {
     id: "sleep-optimization-tool-3",
@@ -244,7 +364,7 @@ const sleepOptimizationTools: Tool[] = [
   },
 ];
 
-const mindfulnessTools: Tool[] = [
+const mindfulnessPractices: Tool[] = [
   {
     id: "mindfulness-tool-1",
     categoryId: "mindfulness",
@@ -254,6 +374,14 @@ const mindfulnessTools: Tool[] = [
     href: "/tools/body-scan-meditation",
   },
   {
+    id: "self-esteem-tool-3",
+    categoryId: "self-esteem-tools",
+    title: "Self-Love Meditation",
+    description:
+      "A guided meditation practice designed to cultivate self-love, compassion, and acceptance.",
+    href: "/tools/self-love-meditation",
+  },
+  {
     id: "stress-management-tool-2",
     categoryId: "stress-management",
     title: "Mindfulness Timer",
@@ -261,7 +389,14 @@ const mindfulnessTools: Tool[] = [
       "A timer designed to assist with mindfulness and meditation practices, offering adjustable intervals and soothing sounds. It helps users stay focused and consistent in their mindfulness routines.",
     href: "/tools/mindfulness-timer",
   },
-
+  {
+    id: "self-discovery-tool-7",
+    categoryId: "self-discovery",
+    title: "Emotional Awareness Journal",
+    description:
+      "A journal that helps you track and understand your emotional patterns, providing insights into how your emotions influence your daily life and decisions.",
+    href: "/tools/emotional-awareness-journal",
+  },
   {
     id: "mood-tracking-tool-2",
     categoryId: "mood-tracking-templates",
@@ -302,9 +437,17 @@ const mindfulnessTools: Tool[] = [
       "A set of exercises to enhance sensory awareness and promote mindfulness by focusing on sights, sounds, and textures in the environment.",
     href: "/tools/sensory-awareness-exercises",
   },
+  {
+    id: "self-discovery-tool-8",
+    categoryId: "self-discovery",
+    title: "Mindfulness Meditation",
+    description:
+      "A guided meditation tool designed to help you become more aware of the present moment, reduce stress, and enhance self-awareness.",
+    href: "/tools/mindfulness-meditation",
+  },
 ];
 
-const selfCareTools: Tool[] = [
+const fitnessToolkit: Tool[] = [
   {
     id: "exercise-mental-health-tool-1",
     categoryId: "exercise-mental-health",
@@ -322,14 +465,6 @@ const selfCareTools: Tool[] = [
     href: "/tools/exercise-routine-generator",
   },
   {
-    id: "exercise-mental-health-tool-3",
-    categoryId: "exercise-mental-health",
-    title: "Mood-Boosting Workouts",
-    description:
-      "A collection of workout routines specifically designed to improve mood and reduce anxiety through physical activity.",
-    href: "/tools/mood-boosting-workouts",
-  },
-  {
     id: "exercise-mental-health-tool-4",
     categoryId: "exercise-mental-health",
     title: "Stretching for Relaxation",
@@ -337,9 +472,109 @@ const selfCareTools: Tool[] = [
       "A guide to stretching exercises that promote relaxation and reduce physical tension, supporting mental well-being.",
     href: "/tools/stretching-for-relaxation",
   },
+  {
+    id: "exercise-mental-health-tool-5",
+    categoryId: "exercise-mental-health",
+    title: "Mood-Boosting Workouts",
+    description:
+      "A curated selection of workouts designed to enhance mood, reduce anxiety, and improve emotional resilience through movement.",
+    href: "/tools/mood-boosting-workouts",
+  },
+  {
+    id: "exercise-mental-health-tool-6",
+    categoryId: "exercise-mental-health",
+    title: "Mindful Movement Guide",
+    description:
+      "A guide that combines mindfulness techniques with gentle movement practices to promote mental clarity and reduce stress.",
+    href: "/tools/mindful-movement-guide",
+  },
+  {
+    id: "exercise-mental-health-tool-7",
+    categoryId: "exercise-mental-health",
+    title: "Home Fitness Plan Builder",
+    description:
+      "A customizable plan generator for building effective home workout routines, regardless of equipment availability.",
+    href: "/tools/home-fitness-plan-builder",
+  },
+  {
+    id: "exercise-mental-health-tool-8",
+    categoryId: "exercise-mental-health",
+    title: "Progress Tracker for Strength and Stamina",
+    description:
+      "A detailed tracker to monitor improvements in strength, endurance, and flexibility over time, encouraging sustainable fitness growth.",
+    href: "/tools/progress-tracker-strength-stamina",
+  },
+  {
+    id: "exercise-mental-health-tool-9",
+    categoryId: "exercise-mental-health",
+    title: "Quick Energy Boost Exercises",
+    description:
+      "A set of short, high-energy workout routines to quickly elevate energy levels and sharpen focus during the day.",
+    href: "/tools/quick-energy-boost-exercises",
+  },
 ];
 
-const cognitiveBehavioralTherapyTools: Tool[] = [
+const selfCareAndDiscoveryToolkit: Tool[] = [
+  {
+    id: "exercise-mental-health-tool-3",
+    categoryId: "exercise-mental-health",
+    title: "Mood-Boosting Workouts",
+    description:
+      "A collection of workout routines specifically designed to improve mood and reduce anxiety through physical activity.",
+    href: "/tools/mood-boosting-workouts",
+  },
+
+  {
+    id: "self-discovery-tool-2",
+    categoryId: "self-discovery",
+    title: "Self-Reflection Exercises",
+    description:
+      "A set of exercises designed to help you reflect on your life experiences, strengths, and areas for growth, promoting self-awareness and emotional growth.",
+    href: "/tools/self-reflection-exercises",
+  },
+  {
+    id: "self-discovery-tool-3",
+    categoryId: "self-discovery",
+    title: "Personality Assessment",
+    description:
+      "A tool to assess your personality traits and preferences, helping you gain deeper insights into your behavior and motivations.",
+    href: "/tools/personality-assessment",
+  },
+  {
+    id: "self-discovery-tool-4",
+    categoryId: "self-discovery",
+    title: "Values Clarification",
+    description:
+      "A guided tool to help you identify and understand your core values, leading to a more authentic and fulfilling life.",
+    href: "/tools/values-clarification",
+  },
+  {
+    id: "self-discovery-tool-6",
+    categoryId: "self-discovery",
+    title: "Strengths Finder",
+    description:
+      "A tool to identify your personal strengths, enabling you to leverage them in your personal and professional life for greater success and fulfillment.",
+    href: "/tools/strengths-finder",
+  },
+  {
+    id: "self-discovery-tool-9",
+    categoryId: "self-discovery",
+    title: "Goal Alignment Tracker",
+    description:
+      "A tool to help you align your personal goals with your core values, ensuring that the goals you set are meaningful and fulfilling.",
+    href: "/tools/goal-alignment-tracker",
+  },
+  {
+    id: "self-discovery-tool-10",
+    categoryId: "self-discovery",
+    title: "Life Satisfaction Survey",
+    description:
+      "A comprehensive tool that helps you assess various aspects of your life, such as career, relationships, and personal growth, to identify areas of improvement.",
+    href: "/tools/life-satisfaction-survey",
+  },
+];
+
+const cognitiveBehavioralTherapyExercises: Tool[] = [
   {
     id: "cbt-tool-1",
     categoryId: "cognitive-behavioral-therapy-exercises",
@@ -398,7 +633,7 @@ const cognitiveBehavioralTherapyTools: Tool[] = [
   },
 ];
 
-const breathingTechniquesTools: Tool[] = [
+const breathingTechniques: Tool[] = [
   {
     id: "breathing-technique-1",
     categoryId: "breathing-techniques",
@@ -439,14 +674,7 @@ const breathingTechniquesTools: Tool[] = [
       "A guided exercise to practice the 4-7-8 breathing technique, known for its calming effects.",
     href: "/tools/4-7-8-breathing-exercise",
   },
-  {
-    id: "breathing-technique-4",
-    categoryId: "breathing-techniques",
-    title: "Breathing for Sleep",
-    description:
-      "A guide to breathing techniques specifically designed to improve sleep quality and relaxation.",
-    href: "/tools/breathing-for-sleep",
-  },
+
   {
     id: "breathing-technique-5",
     categoryId: "breathing-techniques",
@@ -457,7 +685,7 @@ const breathingTechniquesTools: Tool[] = [
   },
 ];
 
-const progressiveMuscleRelaxationTools: Tool[] = [
+const progressiveMuscleRelaxationGuides: Tool[] = [
   {
     id: "pmr-tool-1",
     categoryId: "progressive-muscle-relaxation-guides",
@@ -475,14 +703,6 @@ const progressiveMuscleRelaxationTools: Tool[] = [
     href: "/tools/quick-pmr-routine",
   },
   {
-    id: "pmr-tool-3",
-    categoryId: "progressive-muscle-relaxation-guides",
-    title: "PMR for Sleep",
-    description:
-      "A PMR guide tailored to help users unwind and prepare for restful sleep.",
-    href: "/tools/pmr-for-sleep",
-  },
-  {
     id: "stress-management-tool-6",
     categoryId: "stress-management",
     title: "PMR Guide",
@@ -498,9 +718,41 @@ const progressiveMuscleRelaxationTools: Tool[] = [
       "A targeted PMR routine to alleviate tension headaches and neck strain.",
     href: "/tools/pmr-for-tension-headaches",
   },
+  {
+    id: "pmr-tool-5",
+    categoryId: "progressive-muscle-relaxation-guides",
+    title: "PMR for Sleep Preparation",
+    description:
+      "A PMR session designed to promote deep relaxation and prepare the body for restful sleep.",
+    href: "/tools/pmr-for-sleep-preparation",
+  },
+  {
+    id: "pmr-tool-6",
+    categoryId: "progressive-muscle-relaxation-guides",
+    title: "Guided Audio PMR Session",
+    description:
+      "An audio-guided PMR session to help you systematically release tension throughout your body.",
+    href: "/tools/guided-audio-pmr-session",
+  },
+  {
+    id: "pmr-tool-7",
+    categoryId: "progressive-muscle-relaxation-guides",
+    title: "PMR for Anxiety Reduction",
+    description:
+      "A specialized PMR guide focused on reducing physical symptoms of anxiety through deep muscle relaxation.",
+    href: "/tools/pmr-for-anxiety-reduction",
+  },
+  {
+    id: "pmr-tool-8",
+    categoryId: "progressive-muscle-relaxation-guides",
+    title: "Chair-Based PMR Routine",
+    description:
+      "A progressive muscle relaxation routine designed for practice while seated, ideal for workplace or travel use.",
+    href: "/tools/chair-based-pmr-routine",
+  },
 ];
 
-const affirmationCardsTools: Tool[] = [
+const affirmationCards: Tool[] = [
   {
     id: "affirmation-tool-1",
     categoryId: "affirmation-cards",
@@ -541,6 +793,38 @@ const affirmationCardsTools: Tool[] = [
       "A deck of affirmations to start the day with positivity and intention.",
     href: "/tools/morning-affirmation-deck",
   },
+  {
+    id: "affirmation-tool-6",
+    categoryId: "affirmation-cards",
+    title: "Evening Reflection Affirmations",
+    description:
+      "A set of affirmations designed to encourage reflection, relaxation, and emotional closure at the end of the day.",
+    href: "/tools/evening-reflection-affirmations",
+  },
+  {
+    id: "affirmation-tool-7",
+    categoryId: "affirmation-cards",
+    title: "Self-Compassion Affirmations",
+    description:
+      "Affirmations focused on nurturing self-kindness, forgiveness, and emotional resilience.",
+    href: "/tools/self-compassion-affirmations",
+  },
+  {
+    id: "affirmation-tool-8",
+    categoryId: "affirmation-cards",
+    title: "Success Mindset Affirmations",
+    description:
+      "A curated set of affirmations to promote a growth mindset and confidence in achieving goals.",
+    href: "/tools/success-mindset-affirmations",
+  },
+  {
+    id: "affirmation-tool-9",
+    categoryId: "affirmation-cards",
+    title: "Inner Peace Affirmations",
+    description:
+      "Affirmations crafted to cultivate inner peace, emotional balance, and resilience against stress.",
+    href: "/tools/inner-peace-affirmations",
+  },
 ];
 
 const anxietyTools: Tool[] = [
@@ -573,8 +857,40 @@ const anxietyTools: Tool[] = [
     categoryId: "anxiety-toolkit",
     title: "Progressive Relaxation Guide",
     description:
-      "An guide to help users practice progressive relaxation techniques for anxiety relief.",
+      "A guide to help users practice progressive relaxation techniques for anxiety relief.",
     href: "/tools/progressive-relaxation-audio",
+  },
+  {
+    id: "anxiety-tool-5",
+    categoryId: "anxiety-toolkit",
+    title: "Breathing Exercise Timer",
+    description:
+      "A guided timer for paced breathing exercises proven to reduce anxiety and promote relaxation.",
+    href: "/tools/breathing-exercise-timer",
+  },
+  {
+    id: "anxiety-tool-6",
+    categoryId: "anxiety-toolkit",
+    title: "Social Anxiety Preparation Guide",
+    description:
+      "A resource offering strategies to prepare for social situations and manage social anxiety effectively.",
+    href: "/tools/social-anxiety-preparation-guide",
+  },
+  {
+    id: "anxiety-tool-7",
+    categoryId: "anxiety-toolkit",
+    title: "Visualization for Calmness",
+    description:
+      "A guided visualization tool designed to mentally transport users to a peaceful place, easing anxiety symptoms.",
+    href: "/tools/visualization-for-calmness",
+  },
+  {
+    id: "anxiety-tool-8",
+    categoryId: "anxiety-toolkit",
+    title: "Worry Management Worksheets",
+    description:
+      "Printable worksheets that help users challenge and reframe anxious thoughts using cognitive restructuring techniques.",
+    href: "/tools/worry-management-worksheets",
   },
 ];
 
@@ -586,6 +902,22 @@ const depressionTools: Tool[] = [
     description:
       "A planner to help users schedule activities that improve mood and combat feelings of stagnation.",
     href: "/tools/mood-improvement-planner",
+  },
+  {
+    id: "depression-tool-2",
+    categoryId: "depression-toolkit",
+    title: "Behavioral Activation Guide",
+    description:
+      "A step-by-step guide to increase engagement in meaningful activities to counter depressive symptoms.",
+    href: "/tools/behavioral-activation-guide",
+  },
+  {
+    id: "depression-tool-3",
+    categoryId: "depression-toolkit",
+    title: "Self-Compassion Journal",
+    description:
+      "A journal promoting self-compassion practices to foster kindness towards oneself during difficult periods.",
+    href: "/tools/self-compassion-journal",
   },
   {
     id: "depression-tool-4",
@@ -603,36 +935,25 @@ const depressionTools: Tool[] = [
       "A tool to help users identify and connect with their support network during difficult times.",
     href: "/tools/support-network-tracker",
   },
-];
-
-const traumaTools: Tool[] = [
   {
-    id: "trauma-tool-1",
-    categoryId: "trauma-toolkit",
-    title: "Grounding Techniques Guide",
+    id: "depression-tool-6",
+    categoryId: "depression-toolkit",
+    title: "Energy and Motivation Log",
     description:
-      "A guide to grounding techniques that help users stay present and manage trauma-related distress.",
-    href: "/tools/grounding-techniques-guide",
-  },
-  {
-    id: "trauma-tool-3",
-    categoryId: "trauma-toolkit",
-    title: "Safe Space Visualization Exercise",
-    description:
-      "A guided visualization exercise to create a mental safe space for comfort and security.",
-    href: "/tools/safe-space-visualization-exercise",
-  },
-  {
-    id: "trauma-tool-5",
-    categoryId: "trauma-toolkit",
-    title: "Mindfulness for Trauma Workbook",
-    description:
-      "A workbook with mindfulness exercises tailored for trauma recovery.",
-    href: "/tools/mindfulness-for-trauma-workbook",
+      "A daily log designed to track energy levels and motivational changes to help recognize improvement trends.",
+    href: "/tools/energy-and-motivation-log",
   },
 ];
 
 const griefTools: Tool[] = [
+  {
+    id: "grief-tool-1",
+    categoryId: "grief-toolkit",
+    title: "Grief Reflection Journal",
+    description:
+      "A journal to help users process emotions and memories after a significant loss.",
+    href: "/tools/grief-reflection-journal",
+  },
   {
     id: "grief-tool-2",
     categoryId: "grief-toolkit",
@@ -642,6 +963,14 @@ const griefTools: Tool[] = [
     href: "/tools/memory-sharing-template",
   },
   {
+    id: "grief-tool-3",
+    categoryId: "grief-toolkit",
+    title: "Grieving Process Guide",
+    description:
+      "An educational guide that explains common stages of grief and ways to navigate them.",
+    href: "/tools/grieving-process-guide",
+  },
+  {
     id: "grief-tool-4",
     categoryId: "grief-toolkit",
     title: "Coping with Loss Guide",
@@ -649,75 +978,53 @@ const griefTools: Tool[] = [
       "A guide with strategies for coping with the emotional impact of loss.",
     href: "/tools/coping-with-loss-guide",
   },
-];
-
-const angerManagementTools: Tool[] = [
   {
-    id: "anger-tool-1",
-    categoryId: "anger-management-toolkit",
-    title: "Anger Trigger Tracker",
+    id: "grief-tool-5",
+    categoryId: "grief-toolkit",
+    title: "Support System Organizer",
     description:
-      "A tool to help users identify and track triggers that lead to anger.",
-    href: "/tools/anger-trigger-tracker",
+      "A tool to help users map out and connect with their personal support networks during grief.",
+    href: "/tools/support-system-organizer",
   },
   {
-    id: "anger-tool-2",
-    categoryId: "anger-management-toolkit",
-    title: "Calming Techniques for Anger",
+    id: "grief-tool-6",
+    categoryId: "grief-toolkit",
+    title: "Self-Care Checklist for Grieving",
     description:
-      "A guide to calming techniques that help users manage anger effectively.",
-    href: "/tools/calming-techniques-for-anger",
+      "A checklist designed to encourage self-care practices during periods of grief and emotional recovery.",
+    href: "/tools/self-care-checklist-for-grieving",
   },
   {
-    id: "anger-tool-4",
-    categoryId: "anger-management-toolkit",
-    title: "Conflict Resolution Worksheet",
+    id: "grief-tool-7",
+    categoryId: "grief-toolkit",
+    title: "Letter Writing to Lost Loved Ones",
     description:
-      "A worksheet to help users navigate conflicts and resolve them constructively.",
-    href: "/tools/conflict-resolution-worksheet",
+      "A guided letter-writing exercise to help users express feelings, thoughts, and unfinished conversations with those they have lost.",
+    href: "/tools/letter-writing-to-lost-loved-ones",
   },
   {
-    id: "anger-tool-5",
-    categoryId: "anger-management-toolkit",
-    title: "Relaxation Techniques for Anger",
+    id: "grief-tool-8",
+    categoryId: "grief-toolkit",
+    title: "Mindfulness Exercises for Grief",
     description:
-      "A collection of relaxation techniques to help users practice relaxation techniques during moments of anger.",
-    href: "/tools/relaxation-audio-for-anger",
-  },
-];
-
-const workLifeBalanceTools: Tool[] = [
-  {
-    id: "work-life-tool-1",
-    categoryId: "work-life-balance-toolkit",
-    title: "Work-Life Balance Planner",
-    description:
-      "A planner to help users allocate time effectively between work and personal life.",
-    href: "/tools/work-life-balance-planner",
+      "A collection of mindfulness practices to help users stay grounded and manage overwhelming grief-related emotions.",
+    href: "/tools/mindfulness-exercises-for-grief",
   },
   {
-    id: "work-life-tool-3",
-    categoryId: "work-life-balance-toolkit",
-    title: "Time Management Guide",
+    id: "grief-tool-9",
+    categoryId: "grief-toolkit",
+    title: "Commemorative Rituals Guide",
     description:
-      "A guide to effective time management techniques for balancing responsibilities.",
-    href: "/tools/time-management-guide",
+      "A guide offering ideas for personal and family rituals to honor the memory of loved ones.",
+    href: "/tools/commemorative-rituals-guide",
   },
   {
-    id: "work-life-tool-4",
-    categoryId: "work-life-balance-toolkit",
-    title: "Daily Prioritization Worksheet",
+    id: "grief-tool-10",
+    categoryId: "grief-toolkit",
+    title: "Grief Triggers Tracker",
     description:
-      "A worksheet to help users prioritize tasks and focus on what matters most.",
-    href: "/tools/daily-prioritization-worksheet",
-  },
-  {
-    id: "work-life-tool-5",
-    categoryId: "work-life-balance-toolkit",
-    title: "Relaxation Techniques for Work-Life Balance",
-    description:
-      "A guide to relaxation techniques that promote balance and reduce burnout.",
-    href: "/tools/relaxation-techniques-for-work-life-balance",
+      "A tool to help users identify and prepare for grief triggers, such as anniversaries or significant dates.",
+    href: "/tools/grief-triggers-tracker",
   },
 ];
 
@@ -826,7 +1133,7 @@ const leadershipTools: Tool[] = [
     categoryId: "leadership-toolkit",
     title: "Conflict Resolution for Leaders",
     description:
-      "A guide to help leaders navigate and resolve conflicts within their teams.",
+      "A guide to help leaders navigate and resolve conflicts within their teams constructively.",
     href: "/tools/conflict-resolution-for-leaders",
   },
   {
@@ -834,7 +1141,7 @@ const leadershipTools: Tool[] = [
     categoryId: "leadership-toolkit",
     title: "Mindful Leadership Practices",
     description:
-      "A guide to practicing mindfulness in leadership to improve decision-making and team morale.",
+      "A guide to practicing mindfulness in leadership to enhance decision-making and team morale.",
     href: "/tools/mindful-leadership-practices",
   },
   {
@@ -842,12 +1149,52 @@ const leadershipTools: Tool[] = [
     categoryId: "leadership-toolkit",
     title: "Goal Setting for Leaders",
     description:
-      "A tool to help leaders set and achieve goals for their teams and organizations.",
+      "A structured tool to help leaders set, track, and achieve strategic goals for their teams and organizations.",
     href: "/tools/goal-setting-for-leaders",
+  },
+  {
+    id: "leadership-tool-6",
+    categoryId: "leadership-toolkit",
+    title: "Emotional Intelligence for Leaders",
+    description:
+      "A guide to developing emotional intelligence skills to foster empathy, communication, and resilience in leadership.",
+    href: "/tools/emotional-intelligence-for-leaders",
+  },
+  {
+    id: "leadership-tool-7",
+    categoryId: "leadership-toolkit",
+    title: "Vision and Mission Planning Workbook",
+    description:
+      "A workbook to help leaders craft clear vision and mission statements that align and inspire their teams.",
+    href: "/tools/vision-mission-planning-workbook",
+  },
+  {
+    id: "leadership-tool-8",
+    categoryId: "leadership-toolkit",
+    title: "Delegation Strategies Guide",
+    description:
+      "A guide outlining effective delegation strategies to empower team members and optimize productivity.",
+    href: "/tools/delegation-strategies-guide",
+  },
+  {
+    id: "leadership-tool-9",
+    categoryId: "leadership-toolkit",
+    title: "Decision-Making Frameworks",
+    description:
+      "A collection of frameworks to support strategic and effective decision-making for leaders.",
+    href: "/tools/decision-making-frameworks",
+  },
+  {
+    id: "leadership-tool-10",
+    categoryId: "leadership-toolkit",
+    title: "Leader Self-Reflection Journal",
+    description:
+      "A journal with prompts designed to help leaders reflect on their growth, challenges, and leadership journey.",
+    href: "/tools/leader-self-reflection-journal",
   },
 ];
 
-const visualizationExercisesTools: Tool[] = [
+const visualizationExercises: Tool[] = [
   {
     id: "visualization-tool-1",
     categoryId: "visualization-exercises",
@@ -896,9 +1243,170 @@ const visualizationExercisesTools: Tool[] = [
       "A quick visualization exercise to recharge energy and improve focus during the day.",
     href: "/tools/energy-boost-visualization",
   },
+  {
+    id: "visualization-tool-6",
+    categoryId: "visualization-exercises",
+    title: "Self-Compassion Visualization",
+    description:
+      "A visualization exercise to foster self-compassion and reduce self-criticism.",
+    href: "/tools/self-compassion-visualization",
+  },
+  {
+    id: "visualization-tool-7",
+    categoryId: "visualization-exercises",
+    title: "Stress-Free Visualization",
+    description:
+      "A visualization technique that helps users manage anxiety and find peace during stressful situations.",
+    href: "/tools/stress-free-visualization",
+  },
+  {
+    id: "visualization-tool-8",
+    categoryId: "visualization-exercises",
+    title: "Future Visioning Visualization",
+    description:
+      "A tool to help users mentally envision and plan for a positive future with clarity and focus.",
+    href: "/tools/future-visioning-visualization",
+  },
 ];
 
-const behavioralActivationTools: Tool[] = [
+const workLifeBalanceTools: Tool[] = [
+  {
+    id: "work-life-tool-1",
+    categoryId: "work-life-balance-toolkit",
+    title: "Work-Life Balance Planner",
+    description:
+      "A planner to help users allocate time effectively between work and personal life.",
+    href: "/tools/work-life-balance-planner",
+  },
+  {
+    id: "work-life-tool-2",
+    categoryId: "work-life-balance-toolkit",
+    title: "Boundary Setting Worksheet",
+    description:
+      "A worksheet designed to help users establish healthy boundaries between work and home life.",
+    href: "/tools/boundary-setting-worksheet",
+  },
+  {
+    id: "work-life-tool-3",
+    categoryId: "work-life-balance-toolkit",
+    title: "Time Management Guide",
+    description:
+      "A guide to effective time management techniques for balancing responsibilities.",
+    href: "/tools/time-management-guide",
+  },
+  {
+    id: "work-life-tool-4",
+    categoryId: "work-life-balance-toolkit",
+    title: "Daily Prioritization Worksheet",
+    description:
+      "A worksheet to help users prioritize tasks and focus on what matters most.",
+    href: "/tools/daily-prioritization-worksheet",
+  },
+  {
+    id: "work-life-tool-5",
+    categoryId: "work-life-balance-toolkit",
+    title: "Relaxation Techniques for Work-Life Balance",
+    description:
+      "A guide to relaxation techniques that promote balance and reduce burnout.",
+    href: "/tools/relaxation-techniques-for-work-life-balance",
+  },
+];
+
+const angerManagementTools: Tool[] = [
+  {
+    id: "anger-tool-1",
+    categoryId: "anger-management-toolkit",
+    title: "Anger Trigger Tracker",
+    description:
+      "A tool to help users identify and track triggers that lead to anger.",
+    href: "/tools/anger-trigger-tracker",
+  },
+  {
+    id: "anger-tool-2",
+    categoryId: "anger-management-toolkit",
+    title: "Calming Techniques for Anger",
+    description:
+      "A guide to calming techniques that help users manage anger effectively.",
+    href: "/tools/calming-techniques-for-anger",
+  },
+  {
+    id: "anger-tool-3",
+    categoryId: "anger-management-toolkit",
+    title: "Anger Expression Journal",
+    description:
+      "A journal designed to explore the roots of anger and develop healthier expression strategies.",
+    href: "/tools/anger-expression-journal",
+  },
+  {
+    id: "anger-tool-4",
+    categoryId: "anger-management-toolkit",
+    title: "Conflict Resolution Worksheet",
+    description:
+      "A worksheet to help users navigate conflicts and resolve them constructively.",
+    href: "/tools/conflict-resolution-worksheet",
+  },
+  {
+    id: "anger-tool-5",
+    categoryId: "anger-management-toolkit",
+    title: "Relaxation Techniques for Anger",
+    description:
+      "A collection of relaxation methods to help users self-soothe during intense anger episodes.",
+    href: "/tools/relaxation-audio-for-anger",
+  },
+];
+
+const traumaTools: Tool[] = [
+  {
+    id: "trauma-tool-1",
+    categoryId: "trauma-toolkit",
+    title: "Grounding Techniques Guide",
+    description:
+      "A guide to grounding techniques that help users stay present and manage trauma-related distress.",
+    href: "/tools/grounding-techniques-guide",
+  },
+  {
+    id: "trauma-tool-2",
+    categoryId: "trauma-toolkit",
+    title: "Trauma Trigger Tracker",
+    description:
+      "A tool to document and recognize trauma triggers, helping users build personalized coping strategies.",
+    href: "/tools/trauma-trigger-tracker",
+  },
+  {
+    id: "trauma-tool-3",
+    categoryId: "trauma-toolkit",
+    title: "Safe Space Visualization Exercise",
+    description:
+      "A guided visualization exercise to create a mental safe space for comfort and security.",
+    href: "/tools/safe-space-visualization-exercise",
+  },
+  {
+    id: "trauma-tool-4",
+    categoryId: "trauma-toolkit",
+    title: "Emotion Regulation Skills Guide",
+    description:
+      "A practical guide to building emotion regulation skills for trauma recovery and resilience.",
+    href: "/tools/emotion-regulation-skills-guide",
+  },
+  {
+    id: "trauma-tool-5",
+    categoryId: "trauma-toolkit",
+    title: "Mindfulness for Trauma Workbook",
+    description:
+      "A workbook with mindfulness exercises tailored for trauma recovery.",
+    href: "/tools/mindfulness-for-trauma-workbook",
+  },
+  {
+    id: "trauma-tool-6",
+    categoryId: "trauma-toolkit",
+    title: "Self-Soothing Techniques Guide",
+    description:
+      "A collection of self-soothing practices to help calm the nervous system during distressing moments.",
+    href: "/tools/self-soothing-techniques-guide",
+  },
+];
+
+const behavioralActivationWorksheets: Tool[] = [
   {
     id: "behavioral-activation-tool-1",
     categoryId: "behavioral-activation-worksheets",
@@ -939,6 +1447,46 @@ const behavioralActivationTools: Tool[] = [
       "A worksheet to identify and address obstacles that prevent users from engaging in positive activities.",
     href: "/tools/overcoming-barriers-worksheet",
   },
+  {
+    id: "behavioral-activation-tool-6",
+    categoryId: "behavioral-activation-worksheets",
+    title: "Daily Reflection Journal",
+    description:
+      "A journal to help users reflect on their daily activities, identify patterns, and assess how they align with their goals.",
+    href: "/tools/daily-reflection-journal",
+  },
+  {
+    id: "behavioral-activation-tool-7",
+    categoryId: "behavioral-activation-worksheets",
+    title: "Motivation Booster Worksheet",
+    description:
+      "A worksheet designed to increase motivation by helping users explore their reasons for change and the benefits of acting.",
+    href: "/tools/motivation-booster-worksheet",
+  },
+  {
+    id: "behavioral-activation-tool-8",
+    categoryId: "behavioral-activation-worksheets",
+    title: "Activity Enjoyment Scale",
+    description:
+      "A tool to rate the level of enjoyment for each activity and analyze which ones lead to the most positive outcomes.",
+    href: "/tools/activity-enjoyment-scale",
+  },
+  {
+    id: "behavioral-activation-tool-9",
+    categoryId: "behavioral-activation-worksheets",
+    title: "Gratitude and Achievement Journal",
+    description:
+      "A journal to help users recognize and record their daily achievements and moments of gratitude, fostering positive reinforcement.",
+    href: "/tools/gratitude-and-achievement-journal",
+  },
+  {
+    id: "behavioral-activation-tool-10",
+    categoryId: "behavioral-activation-worksheets",
+    title: "Behavioral Experiment Worksheet",
+    description:
+      "A tool that helps users plan and evaluate small experiments to test new behaviors and learn from their experiences.",
+    href: "/tools/behavioral-experiment-worksheet",
+  },
 ];
 
 const journalingTools: Tool[] = [
@@ -949,6 +1497,14 @@ const journalingTools: Tool[] = [
     description:
       "A journaling tool to help users reflect on stress triggers and develop strategies to manage them effectively.",
     href: "/tools/stress-journal",
+  },
+  {
+    id: "self-discovery-tool-1",
+    categoryId: "self-discovery",
+    title: "Journaling Prompts",
+    description:
+      "A collection of thought-provoking journaling prompts to help you explore your emotions, thoughts, and personal values.",
+    href: "/tools/journaling-prompts",
   },
   {
     id: "resilience-tool-3",
@@ -965,6 +1521,14 @@ const journalingTools: Tool[] = [
     description:
       "A guided journal to help users practice self-kindness and compassion during challenging times.",
     href: "/tools/self-kindness-journal",
+  },
+  {
+    id: "self-care-tool-1",
+    categoryId: "self-care",
+    title: "Daily Self-Care Planner",
+    description:
+      "A daily planner to help you organize self-care activities and ensure you're prioritizing your well-being.",
+    href: "/tools/daily-self-care-planner",
   },
   {
     id: "gratitude-tool-1",
@@ -997,6 +1561,14 @@ const journalingTools: Tool[] = [
     description:
       "A simple journal template to log daily moods and emotions, helping users identify patterns over time.",
     href: "/tools/daily-mood-journal",
+  },
+  {
+    id: "self-esteem-tool-1",
+    categoryId: "self-esteem-tools",
+    title: "Self-Esteem Journal",
+    description:
+      "A journal to help you track your self-esteem journey, reflecting on your achievements, challenges, and areas for growth.",
+    href: "/tools/self-esteem-journal",
   },
   {
     id: "mood-tracking-tool-3",
@@ -1145,19 +1717,27 @@ const checklistsAndPlannersTools: Tool[] = [
       "A worksheet to help users analyze setbacks and develop strategies for bouncing back.",
     href: "/tools/overcoming-setbacks-worksheet",
   },
+  {
+    id: "self-esteem-tool-6",
+    categoryId: "self-esteem-tools",
+    title: "Overcoming Negative Self-Talk Worksheet",
+    description:
+      "A worksheet to help identify and challenge negative self-talk patterns, replacing them with empowering and affirming thoughts.",
+    href: "/tools/overcoming-negative-self-talk-worksheet",
+  },
 ];
 
 export const toolsMap = {
-  cognitiveBehavioralTherapyTools: cognitiveBehavioralTherapyTools,
-  breathingTechniquesTools: breathingTechniquesTools,
-  progressiveMuscleRelaxationTools: progressiveMuscleRelaxationTools,
-  affirmationCardsTools: affirmationCardsTools,
-  visualizationExercisesTools: visualizationExercisesTools,
-  behavioralActivationTools: behavioralActivationTools,
-  mindfulnessTools: mindfulnessTools,
-  selfCompassionTools: selfCompassionTools,
-  resilienceTools: resilienceTools,
-  selfCareTools: selfCareTools,
+  cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
+  breathingTechniques: breathingTechniques,
+  progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
+  affirmationCards: affirmationCards,
+  visualizationExercises: visualizationExercises,
+  behavioralActivationWorksheets: behavioralActivationWorksheets,
+  mindfulnessPractices: mindfulnessPractices,
+  selfCompassionAndEsteemPractices: selfCompassionAndEsteemPractices,
+  resilienceToolkit: resilienceToolkit,
+  selfCareAndDiscoveryToolkit: selfCareAndDiscoveryToolkit,
   checklistsAndPlannersTools: checklistsAndPlannersTools,
   journalingTools: journalingTools,
   leadershipTools: leadershipTools,
@@ -1170,4 +1750,5 @@ export const toolsMap = {
   griefTools: griefTools,
   sleepOptimizationTools: sleepOptimizationTools,
   nutritionTools: nutritionTools,
+  fitnessToolkit: fitnessToolkit,
 };
