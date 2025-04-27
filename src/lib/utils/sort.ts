@@ -295,32 +295,7 @@ export function groupAndSortByProperties<T>(
   return sortedGroups.flat();
 }
 
-// // Example 1: Group by "program" and sort by "name"
-// const groupedAndSortedByName = groupAndSortByProperties(
-//   successStories,
-//   "program",
-//   "name",
-//   true
-// );
 
-// // Example 2: Group by "program" and sort by the length of "story"
-// const groupedAndSortedByStoryLength = groupAndSortByProperties(
-//   successStories,
-//   "program",
-//   "story",
-//   true,
-//   true // Enable sorting by length
-// );
-
-// // Example 3: Group by the length of "program" and do not sort within groups
-// const groupedByProgramLength = groupAndSortByProperties(
-//   successStories,
-//   "program",
-//   undefined, // No sortByPropertyKey
-//   true,
-//   false, // Do not sort by length
-//   true // Enable grouping by length
-// );
 
 /**
  * Sorts an array of objects by the length of a specified property.
