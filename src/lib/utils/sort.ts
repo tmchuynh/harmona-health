@@ -169,6 +169,105 @@ export function sortByProperty<T>(
   });
 }
 
+
+/**
+ * Groups and sorts an array of objects by specified properties.
+ *
+ * This function first groups the array elements based on a specified property or the length of that property,
+ * then sorts each group by another property if provided. The final result is a flattened array maintaining 
+ * the grouping and sorting order.
+ *
+ * @template T - The type of elements in the array.
+ * @param {T[]} array - The array to be grouped and sorted.
+ * @param {keyof T} groupByProperty - The property key to group the array by.
+ * @param {keyof T} [sortByPropertyKey] - Optional property key to sort each group by.
+ * @param {boolean} [ascending=true] - Whether to sort in ascending order (true) or descending order (false).
+ * @param {boolean} [sortByLength=false] - Whether to sort by the length of the property value instead of its actual value.
+ * @param {boolean} [groupByLength=false] - Whether to group by the length of the property value instead of its actual value.
+ * @returns {T[]} A new array with elements grouped and sorted according to the specified criteria.
+ *
+ * @example
+ * // Group users by country and sort by name
+ * const sortedUsers = groupAndSortByProperties(users, 'country', 'name', true);
+ *
+ * @example
+ * // Group users by the length of their bio and sort by age in descending order
+ * const sortedUsers = groupAndSortByProperties(users, 'bio', 'age', false, false, true);
+ */
+export function groupAndSortByProperties<T>(
+  array: T[],
+  groupByProperty: keyof T,
+  sortByPropertyKey?: keyof T,
+  ascending: boolean = true,
+  sortByLength: boolean = false,
+  groupByLength: boolean = false
+): T[] {
+  // Group the array by the specified property or by the length of the property
+  const grouped = array.reduce((acc, item) => {
+    const key = groupByLength
+      ? (item[groupByProperty] as unknown as string)?.length || 0
+      : item[groupByProperty] as string | number;
+
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(item);
+    return acc;
+  }, {} as Record<string | number, T[]>);
+
+  // Sort the group keys to ensure the groups are processed in the correct order
+  const sortedKeys = Object.keys(grouped).sort((a, b) => {
+    const numA = parseInt(a, 10);
+    const numB = parseInt(b, 10);
+    return groupByLength ? (ascending ? numA - numB : numB - numA) : a.localeCompare(b);
+  });
+
+  // Sort each group by the specified property or by the length of the property
+  const sortedGroups = sortedKeys.map((key) => {
+    if (sortByLength) {
+      return [...grouped[key]].sort((a, b) => {
+        const lengthA = (a[sortByPropertyKey!] as unknown as string)?.length || 0;
+        const lengthB = (b[sortByPropertyKey!] as unknown as string)?.length || 0;
+        return ascending ? lengthA - lengthB : lengthB - lengthA;
+      });
+    } else if (sortByPropertyKey) {
+      return sortByProperty(grouped[key], sortByPropertyKey, ascending);
+    } else {
+      return grouped[key]; // If no sortByPropertyKey is provided, return the group as is
+    }
+  });
+
+  // Flatten the sorted groups back into a single array
+  return sortedGroups.flat();
+}
+
+// // Example 1: Group by "program" and sort by "name"
+// const groupedAndSortedByName = groupAndSortByProperties(
+//   successStories,
+//   "program",
+//   "name",
+//   true
+// );
+
+// // Example 2: Group by "program" and sort by the length of "story"
+// const groupedAndSortedByStoryLength = groupAndSortByProperties(
+//   successStories,
+//   "program",
+//   "story",
+//   true,
+//   true // Enable sorting by length
+// );
+
+// // Example 3: Group by the length of "program" and do not sort within groups
+// const groupedByProgramLength = groupAndSortByProperties(
+//   successStories,
+//   "program",
+//   undefined, // No sortByPropertyKey
+//   true,
+//   false, // Do not sort by length
+//   true // Enable grouping by length
+// );
+
 /**
  * Sorts an array of objects by the length of a specified property.
  *

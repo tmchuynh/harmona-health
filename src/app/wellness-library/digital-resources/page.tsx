@@ -7,6 +7,7 @@ import { formatUrlToID } from "@/lib/utils/format";
 import {
   getResourceInformationById,
   getResourcesByCategoryId,
+  groupAndSortByProperties,
   sortByProperty,
 } from "@/lib/utils/sort";
 import { FaCircleQuestion } from "react-icons/fa6";
@@ -42,7 +43,14 @@ export default function Page() {
       {/* Categories  */}
       {resourceCategory.map((category, index) => {
         const resources = getResourcesByCategoryId(category.id);
-        const sortedResources = sortByProperty(resources, "title");
+        const groupedAndSorted = groupAndSortByProperties(
+          resources,
+          "title",
+          undefined,
+          false,
+          true,
+          true
+        );
         return (
           <div key={`${category.id}-${index}`} className="mt-16 lg:mt-20">
             <div>
@@ -68,7 +76,7 @@ export default function Page() {
                 <p key={index}>{category.description}</p>
               </div>
               <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
-                {sortedResources.map((resource, index) => {
+                {groupedAndSorted.map((resource, index) => {
                   const resourceInformation = getResourceInformationById(
                     resource.id
                   );
