@@ -827,206 +827,6 @@ const affirmationCards: Tool[] = [
   },
 ];
 
-const anxietyTools: Tool[] = [
-  {
-    id: "anxiety-tool-1",
-    categoryId: "anxietyTools",
-    title: "Anxiety Trigger Tracker",
-    description:
-      "A tool to help users identify and track anxiety triggers, promoting better self-awareness and management.",
-    href: "/tools/anxiety-trigger-tracker",
-  },
-  {
-    id: "anxiety-tool-2",
-    categoryId: "anxietyTools",
-    title: "Calming Techniques Guide",
-    description:
-      "A guide featuring effective techniques like grounding exercises and breathing methods to reduce anxiety.",
-    href: "/tools/calming-techniques-guide",
-  },
-  {
-    id: "anxiety-tool-3",
-    categoryId: "anxietyTools",
-    title: "Anxiety Journal",
-    description:
-      "A journal to document anxious thoughts and explore strategies for managing them.",
-    href: "/tools/anxiety-journal",
-  },
-  {
-    id: "anxiety-tool-4",
-    categoryId: "anxietyTools",
-    title: "Progressive Relaxation Guide",
-    description:
-      "A guide to help users practice progressive relaxation techniques for anxiety relief.",
-    href: "/tools/progressive-relaxation-audio",
-  },
-  {
-    id: "anxiety-tool-5",
-    categoryId: "anxietyTools",
-    title: "Breathing Exercise Timer",
-    description:
-      "A guided timer for paced breathing exercises proven to reduce anxiety and promote relaxation.",
-    href: "/tools/breathing-exercise-timer",
-  },
-  {
-    id: "anxiety-tool-6",
-    categoryId: "anxietyTools",
-    title: "Social Anxiety Preparation Guide",
-    description:
-      "A resource offering strategies to prepare for social situations and manage social anxiety effectively.",
-    href: "/tools/social-anxiety-preparation-guide",
-  },
-  {
-    id: "anxiety-tool-7",
-    categoryId: "anxietyTools",
-    title: "Visualization for Calmness",
-    description:
-      "A guided visualization tool designed to mentally transport users to a peaceful place, easing anxiety symptoms.",
-    href: "/tools/visualization-for-calmness",
-  },
-  {
-    id: "anxiety-tool-8",
-    categoryId: "anxietyTools",
-    title: "Worry Management Worksheets",
-    description:
-      "Printable worksheets that help users challenge and reframe anxious thoughts using cognitive restructuring techniques.",
-    href: "/tools/worry-management-worksheets",
-  },
-];
-
-const depressionTools: Tool[] = [
-  {
-    id: "depression-tool-1",
-    categoryId: "depressionTools",
-    title: "Mood Improvement Planner",
-    description:
-      "A planner to help users schedule activities that improve mood and combat feelings of stagnation.",
-    href: "/tools/mood-improvement-planner",
-  },
-  {
-    id: "depression-tool-2",
-    categoryId: "depressionTools",
-    title: "Behavioral Activation Guide",
-    description:
-      "A step-by-step guide to increase engagement in meaningful activities to counter depressive symptoms.",
-    href: "/tools/behavioral-activation-guide",
-  },
-  {
-    id: "depression-tool-3",
-    categoryId: "depressionTools",
-    title: "Self-Compassion Journal",
-    description:
-      "A journal promoting self-compassion practices to foster kindness towards oneself during difficult periods.",
-    href: "/tools/self-compassion-journal",
-  },
-  {
-    id: "depression-tool-4",
-    categoryId: "depressionTools",
-    title: "Positive Thought Reframing Worksheet",
-    description:
-      "A worksheet to help users identify and reframe negative thought patterns.",
-    href: "/tools/positive-thought-reframing-worksheet",
-  },
-  {
-    id: "depression-tool-5",
-    categoryId: "depressionTools",
-    title: "Support Network Tracker",
-    description:
-      "A tool to help users identify and connect with their support network during difficult times.",
-    href: "/tools/support-network-tracker",
-  },
-  {
-    id: "depression-tool-6",
-    categoryId: "depressionTools",
-    title: "Energy and Motivation Log",
-    description:
-      "A daily log designed to track energy levels and motivational changes to help recognize improvement trends.",
-    href: "/tools/energy-and-motivation-log",
-  },
-];
-
-const griefTools: Tool[] = [
-  {
-    id: "grief-tool-1",
-    categoryId: "griefTools",
-    title: "Grief Reflection Journal",
-    description:
-      "A journal to help users process emotions and memories after a significant loss.",
-    href: "/tools/grief-reflection-journal",
-  },
-  {
-    id: "grief-tool-2",
-    categoryId: "griefTools",
-    title: "Memory Sharing Template",
-    description:
-      "A template to document and share cherished memories of loved ones.",
-    href: "/tools/memory-sharing-template",
-  },
-  {
-    id: "grief-tool-3",
-    categoryId: "griefTools",
-    title: "Grieving Process Guide",
-    description:
-      "An educational guide that explains common stages of grief and ways to navigate them.",
-    href: "/tools/grieving-process-guide",
-  },
-  {
-    id: "grief-tool-4",
-    categoryId: "griefTools",
-    title: "Coping with Loss Guide",
-    description:
-      "A guide with strategies for coping with the emotional impact of loss.",
-    href: "/tools/coping-with-loss-guide",
-  },
-  {
-    id: "grief-tool-5",
-    categoryId: "griefTools",
-    title: "Support System Organizer",
-    description:
-      "A tool to help users map out and connect with their personal support networks during grief.",
-    href: "/tools/support-system-organizer",
-  },
-  {
-    id: "grief-tool-6",
-    categoryId: "griefTools",
-    title: "Self-Care Checklist for Grieving",
-    description:
-      "A checklist designed to encourage self-care practices during periods of grief and emotional recovery.",
-    href: "/tools/self-care-checklist-for-grieving",
-  },
-  {
-    id: "grief-tool-7",
-    categoryId: "griefTools",
-    title: "Letter Writing to Lost Loved Ones",
-    description:
-      "A guided letter-writing exercise to help users express feelings, thoughts, and unfinished conversations with those they have lost.",
-    href: "/tools/letter-writing-to-lost-loved-ones",
-  },
-  {
-    id: "grief-tool-8",
-    categoryId: "griefTools",
-    title: "Mindfulness Exercises for Grief",
-    description:
-      "A collection of mindfulness practices to help users stay grounded and manage overwhelming grief-related emotions.",
-    href: "/tools/mindfulness-exercises-for-grief",
-  },
-  {
-    id: "grief-tool-9",
-    categoryId: "griefTools",
-    title: "Commemorative Rituals Guide",
-    description:
-      "A guide offering ideas for personal and family rituals to honor the memory of loved ones.",
-    href: "/tools/commemorative-rituals-guide",
-  },
-  {
-    id: "grief-tool-10",
-    categoryId: "griefTools",
-    title: "Grief Triggers Tracker",
-    description:
-      "A tool to help users identify and prepare for grief triggers, such as anniversaries or significant dates.",
-    href: "/tools/grief-triggers-tracker",
-  },
-];
 
 const communicationTools: Tool[] = [
   {
@@ -1309,100 +1109,6 @@ const workLifeBalanceTools: Tool[] = [
     description:
       "A guide to relaxation techniques that promote balance and reduce burnout.",
     href: "/tools/relaxation-techniques-for-work-life-balance",
-  },
-];
-
-const angerManagementTools: Tool[] = [
-  {
-    id: "anger-tool-1",
-    categoryId: "angerManagementTools",
-    title: "Anger Trigger Tracker",
-    description:
-      "A tool to help users identify and track triggers that lead to anger.",
-    href: "/tools/anger-trigger-tracker",
-  },
-  {
-    id: "anger-tool-2",
-    categoryId: "angerManagementTools",
-    title: "Calming Techniques for Anger",
-    description:
-      "A guide to calming techniques that help users manage anger effectively.",
-    href: "/tools/calming-techniques-for-anger",
-  },
-  {
-    id: "anger-tool-3",
-    categoryId: "angerManagementTools",
-    title: "Anger Expression Journal",
-    description:
-      "A journal designed to explore the roots of anger and develop healthier expression strategies.",
-    href: "/tools/anger-expression-journal",
-  },
-  {
-    id: "anger-tool-4",
-    categoryId: "angerManagementTools",
-    title: "Conflict Resolution Worksheet",
-    description:
-      "A worksheet to help users navigate conflicts and resolve them constructively.",
-    href: "/tools/conflict-resolution-worksheet",
-  },
-  {
-    id: "anger-tool-5",
-    categoryId: "angerManagementTools",
-    title: "Relaxation Techniques for Anger",
-    description:
-      "A collection of relaxation methods to help users self-soothe during intense anger episodes.",
-    href: "/tools/relaxation-audio-for-anger",
-  },
-];
-
-const traumaTools: Tool[] = [
-  {
-    id: "trauma-tool-1",
-    categoryId: "traumaTools",
-    title: "Grounding Techniques Guide",
-    description:
-      "A guide to grounding techniques that help users stay present and manage trauma-related distress.",
-    href: "/tools/grounding-techniques-guide",
-  },
-  {
-    id: "trauma-tool-2",
-    categoryId: "traumaTools",
-    title: "Trauma Trigger Tracker",
-    description:
-      "A tool to document and recognize trauma triggers, helping users build personalized coping strategies.",
-    href: "/tools/trauma-trigger-tracker",
-  },
-  {
-    id: "trauma-tool-3",
-    categoryId: "traumaTools",
-    title: "Safe Space Visualization Exercise",
-    description:
-      "A guided visualization exercise to create a mental safe space for comfort and security.",
-    href: "/tools/safe-space-visualization-exercise",
-  },
-  {
-    id: "trauma-tool-4",
-    categoryId: "traumaTools",
-    title: "Emotion Regulation Skills Guide",
-    description:
-      "A practical guide to building emotion regulation skills for trauma recovery and resilience.",
-    href: "/tools/emotion-regulation-skills-guide",
-  },
-  {
-    id: "trauma-tool-5",
-    categoryId: "traumaTools",
-    title: "Mindfulness for Trauma Workbook",
-    description:
-      "A workbook with mindfulness exercises tailored for trauma recovery.",
-    href: "/tools/mindfulness-for-trauma-workbook",
-  },
-  {
-    id: "trauma-tool-6",
-    categoryId: "traumaTools",
-    title: "Self-Soothing Techniques Guide",
-    description:
-      "A collection of self-soothing practices to help calm the nervous system during distressing moments.",
-    href: "/tools/self-soothing-techniques-guide",
   },
 ];
 
@@ -1727,6 +1433,289 @@ const checklistsAndPlannersTools: Tool[] = [
   },
 ];
 
+const emotionalRegulationToolkit: Tool[] = [
+  {
+    id: "anger-tool-1",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Anger Trigger Tracker",
+    description:
+      "A tool to help users identify and track triggers that lead to anger.",
+    href: "/tools/anger-trigger-tracker",
+  },
+  {
+    id: "anger-tool-2",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Calming Techniques for Anger",
+    description:
+      "A guide to calming techniques that help users manage anger effectively.",
+    href: "/tools/calming-techniques-for-anger",
+  },
+  {
+    id: "anger-tool-3",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Anger Expression Journal",
+    description:
+      "A journal designed to explore the roots of anger and develop healthier expression strategies.",
+    href: "/tools/anger-expression-journal",
+  },
+  {
+    id: "anger-tool-4",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Conflict Resolution Worksheet",
+    description:
+      "A worksheet to help users navigate conflicts and resolve them constructively.",
+    href: "/tools/conflict-resolution-worksheet",
+  },
+  {
+    id: "anger-tool-5",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Relaxation Techniques for Anger",
+    description:
+      "A collection of relaxation methods to help users self-soothe during intense anger episodes.",
+    href: "/tools/relaxation-audio-for-anger",
+  },
+  {
+    id: "anxiety-tool-1",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Anxiety Trigger Tracker",
+    description:
+      "A tool to help users identify and track anxiety triggers, promoting better self-awareness and management.",
+    href: "/tools/anxiety-trigger-tracker",
+  },
+  {
+    id: "anxiety-tool-2",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Calming Techniques Guide",
+    description:
+      "A guide featuring effective techniques like grounding exercises and breathing methods to reduce anxiety.",
+    href: "/tools/calming-techniques-guide",
+  },
+  {
+    id: "anxiety-tool-3",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Anxiety Journal",
+    description:
+      "A journal to document anxious thoughts and explore strategies for managing them.",
+    href: "/tools/anxiety-journal",
+  },
+  {
+    id: "anxiety-tool-4",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Progressive Relaxation Guide",
+    description:
+      "A guide to help users practice progressive relaxation techniques for anxiety relief.",
+    href: "/tools/progressive-relaxation-audio",
+  },
+  {
+    id: "anxiety-tool-5",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Breathing Exercise Timer",
+    description:
+      "A guided timer for paced breathing exercises proven to reduce anxiety and promote relaxation.",
+    href: "/tools/breathing-exercise-timer",
+  },
+  {
+    id: "anxiety-tool-6",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Social Anxiety Preparation Guide",
+    description:
+      "A resource offering strategies to prepare for social situations and manage social anxiety effectively.",
+    href: "/tools/social-anxiety-preparation-guide",
+  },
+  {
+    id: "anxiety-tool-7",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Visualization for Calmness",
+    description:
+      "A guided visualization tool designed to mentally transport users to a peaceful place, easing anxiety symptoms.",
+    href: "/tools/visualization-for-calmness",
+  },
+  {
+    id: "anxiety-tool-8",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Worry Management Worksheets",
+    description:
+      "Printable worksheets that help users challenge and reframe anxious thoughts using cognitive restructuring techniques.",
+    href: "/tools/worry-management-worksheets",
+  },
+  {
+    id: "depression-tool-1",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Mood Improvement Planner",
+    description:
+      "A planner to help users schedule activities that improve mood and combat feelings of stagnation.",
+    href: "/tools/mood-improvement-planner",
+  },
+  {
+    id: "depression-tool-2",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Behavioral Activation Guide",
+    description:
+      "A step-by-step guide to increase engagement in meaningful activities to counter depressive symptoms.",
+    href: "/tools/behavioral-activation-guide",
+  },
+  {
+    id: "depression-tool-3",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Self-Compassion Journal",
+    description:
+      "A journal promoting self-compassion practices to foster kindness towards oneself during difficult periods.",
+    href: "/tools/self-compassion-journal",
+  },
+  {
+    id: "depression-tool-4",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Positive Thought Reframing Worksheet",
+    description:
+      "A worksheet to help users identify and reframe negative thought patterns.",
+    href: "/tools/positive-thought-reframing-worksheet",
+  },
+  {
+    id: "depression-tool-5",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Support Network Tracker",
+    description:
+      "A tool to help users identify and connect with their support network during difficult times.",
+    href: "/tools/support-network-tracker",
+  },
+  {
+    id: "depression-tool-6",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Energy and Motivation Log",
+    description:
+      "A daily log designed to track energy levels and motivational changes to help recognize improvement trends.",
+    href: "/tools/energy-and-motivation-log",
+  },
+  {
+    id: "grief-tool-1",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Grief Reflection Journal",
+    description:
+      "A journal to help users process emotions and memories after a significant loss.",
+    href: "/tools/grief-reflection-journal",
+  },
+  {
+    id: "grief-tool-2",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Memory Sharing Template",
+    description:
+      "A template to document and share cherished memories of loved ones.",
+    href: "/tools/memory-sharing-template",
+  },
+  {
+    id: "grief-tool-3",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Grieving Process Guide",
+    description:
+      "An educational guide that explains common stages of grief and ways to navigate them.",
+    href: "/tools/grieving-process-guide",
+  },
+  {
+    id: "grief-tool-4",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Coping with Loss Guide",
+    description:
+      "A guide with strategies for coping with the emotional impact of loss.",
+    href: "/tools/coping-with-loss-guide",
+  },
+  {
+    id: "grief-tool-5",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Support System Organizer",
+    description:
+      "A tool to help users map out and connect with their personal support networks during grief.",
+    href: "/tools/support-system-organizer",
+  },
+  {
+    id: "grief-tool-6",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Self-Care Checklist for Grieving",
+    description:
+      "A checklist designed to encourage self-care practices during periods of grief and emotional recovery.",
+    href: "/tools/self-care-checklist-for-grieving",
+  },
+  {
+    id: "grief-tool-7",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Letter Writing to Lost Loved Ones",
+    description:
+      "A guided letter-writing exercise to help users express feelings, thoughts, and unfinished conversations with those they have lost.",
+    href: "/tools/letter-writing-to-lost-loved-ones",
+  },
+  {
+    id: "grief-tool-8",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Mindfulness Exercises for Grief",
+    description:
+      "A collection of mindfulness practices to help users stay grounded and manage overwhelming grief-related emotions.",
+    href: "/tools/mindfulness-exercises-for-grief",
+  },
+  {
+    id: "grief-tool-9",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Commemorative Rituals Guide",
+    description:
+      "A guide offering ideas for personal and family rituals to honor the memory of loved ones.",
+    href: "/tools/commemorative-rituals-guide",
+  },
+  {
+    id: "grief-tool-10",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Grief Triggers Tracker",
+    description:
+      "A tool to help users identify and prepare for grief triggers, such as anniversaries or significant dates.",
+    href: "/tools/grief-triggers-tracker",
+  },
+  {
+    id: "trauma-tool-1",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Grounding Techniques Guide",
+    description:
+      "A guide to grounding techniques that help users stay present and manage trauma-related distress.",
+    href: "/tools/grounding-techniques-guide",
+  },
+  {
+    id: "trauma-tool-2",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Trauma Trigger Tracker",
+    description:
+      "A tool to document and recognize trauma triggers, helping users build personalized coping strategies.",
+    href: "/tools/trauma-trigger-tracker",
+  },
+  {
+    id: "trauma-tool-3",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Safe Space Visualization Exercise",
+    description:
+      "A guided visualization exercise to create a mental safe space for comfort and security.",
+    href: "/tools/safe-space-visualization-exercise",
+  },
+  {
+    id: "trauma-tool-4",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Emotion Regulation Skills Guide",
+    description:
+      "A practical guide to building emotion regulation skills for trauma recovery and resilience.",
+    href: "/tools/emotion-regulation-skills-guide",
+  },
+  {
+    id: "trauma-tool-5",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Mindfulness for Trauma Workbook",
+    description:
+      "A workbook with mindfulness exercises tailored for trauma recovery.",
+    href: "/tools/mindfulness-for-trauma-workbook",
+  },
+  {
+    id: "trauma-tool-6",
+    categoryId: "emotionalRegulationToolkit",
+    title: "Self-Soothing Techniques Guide",
+    description:
+      "A collection of self-soothing practices to help calm the nervous system during distressing moments.",
+    href: "/tools/self-soothing-techniques-guide",
+  },
+];
+
 export const toolsMap = {
   cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
   breathingTechniques: breathingTechniques,
@@ -1743,12 +1732,8 @@ export const toolsMap = {
   leadershipTools: leadershipTools,
   communicationTools: communicationTools,
   workLifeBalanceTools: workLifeBalanceTools,
-  angerManagementTools: angerManagementTools,
-  anxietyTools: anxietyTools,
-  depressionTools: depressionTools,
-  traumaTools: traumaTools,
-  griefTools: griefTools,
   sleepOptimizationTools: sleepOptimizationTools,
   nutritionTools: nutritionTools,
   fitnessToolkit: fitnessToolkit,
+  emotionalRegulationToolkit: emotionalRegulationToolkit,
 };
