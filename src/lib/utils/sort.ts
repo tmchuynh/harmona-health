@@ -399,3 +399,32 @@ export function filterByPropertyComparison<T>(
     return false;
   });
 }
+
+/**
+ * Filters an array of objects based on a date property in the format YYYY-MM-DD.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to filter
+ * @param property - The property containing the date to filter by
+ * @param targetDate - The target date to match in the format YYYY-MM-DD
+ * @returns A new array containing only the objects where the date matches the target date
+ *
+ * @example
+ * const items = [
+ *   { name: "Event A", date: "2025-04-27" },
+ *   { name: "Event B", date: "2025-05-01" },
+ *   { name: "Event C", date: "2025-04-27" }
+ * ];
+ * const filtered = filterByDate(items, "date", "2025-04-27");
+ * // Output: [
+ * //   { name: "Event A", date: "2025-04-27" },
+ * //   { name: "Event C", date: "2025-04-27" }
+ * // ]
+ */
+export function filterByDate<T>(
+  array: T[],
+  property: keyof T,
+  targetDate: string
+): T[] {
+  return array.filter((item) => item[property] === targetDate);
+}
