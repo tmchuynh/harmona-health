@@ -11,9 +11,9 @@ export default function EventsCard({ event }: { event: Events }) {
         <a href={event.href}>{event.category}</a>
       </div>
       <div className="relative">
-        <h3 className="underline-offset-4 group-hover:underline decoration-1">
+        <h4 className="underline-offset-4 group-hover:underline no-underline decoration-1">
           <a href={event.href}>{event.title}</a>
-        </h3>
+        </h4>
         <p>{event.description}</p>
       </div>
     </article>
