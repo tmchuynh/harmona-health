@@ -58,6 +58,6 @@ export interface Tool {
   id: string;
   title: string;
   description: string;
-  href: string;
+  href: string; // NEEDS TO BE REMOVED
   categoryId: string;
 }
