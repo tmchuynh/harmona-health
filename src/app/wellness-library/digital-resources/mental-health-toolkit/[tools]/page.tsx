@@ -1,4 +1,5 @@
 "use client";
+import ToolCard from "@/components/card/ToolCard";
 import { icons } from "@/lib/constants/constants";
 import { Toolkit } from "@/lib/interfaces&types/resources";
 import { toolkit } from "@/lib/resources/toolkits/toolkit";
@@ -24,8 +25,6 @@ export default function Page() {
 
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
-
-  console.log(correspondingTools);
 
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
@@ -56,6 +55,14 @@ export default function Page() {
           </p>
         ))}
       </div>
+
+      {correspondingTools && correspondingTools.length > 0 && (
+        <div className="gap-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-2">
+          {correspondingTools.map((tool, index) => (
+            <ToolCard tool={tool} key={index} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
