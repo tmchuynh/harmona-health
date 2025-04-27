@@ -24,6 +24,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { useState } from "react";
 import { ThemeToggle } from "../button/ThemeToggle";
+import Link from "next/link";
 
 export default function FlyoutMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,6 +58,9 @@ export default function FlyoutMenu() {
           </button>
         </div>
         <PopoverGroup className="lg:flex lg:gap-x-12 hidden">
+          <Link href={"/"} key={"home"} className="font-semibold text-sm/6">
+            Home
+          </Link>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
               Programs
