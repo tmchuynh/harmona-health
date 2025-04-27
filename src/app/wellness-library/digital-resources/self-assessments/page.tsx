@@ -4,7 +4,7 @@ import { sortByProperty } from "@/lib/utils/sort";
 export default function Page() {
   const sortedAssessments = sortByProperty(selfAssessmentTools, "title");
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Self Assessments</h1>
       <h5>
         Personalized Health Insights: Evaluate Your Wellness and Receive

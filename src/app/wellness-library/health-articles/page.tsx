@@ -3,7 +3,7 @@ import { articles } from "@/lib/resources/articles/articles";
 import React from "react";
 export default function Page() {
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Health Articles</h1>
       <h5>
         Evidence-Based Health Insights: Practical Advice for Balanced Nutrition,

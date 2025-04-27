@@ -25,7 +25,7 @@ export default function Page() {
     }
   }
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <div className="mx-auto text-center">
         <h1>
           Unlock Limitless Growth with Expert Resources at Your Fingertips

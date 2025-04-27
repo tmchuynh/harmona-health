@@ -16,7 +16,7 @@ export default function Page({ children }: { children: ReactNode }) {
   );
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>{capitalize(tool)}</h1>
       <h5>{toolInformation?.description}</h5>
 

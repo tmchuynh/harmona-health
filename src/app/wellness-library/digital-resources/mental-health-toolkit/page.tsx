@@ -5,7 +5,7 @@ import React from "react";
 export default function Page() {
   const sortedToolkits = sortByProperty(toolkit, "title");
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Mental Health Toolkit</h1>
       <h5>
         Practical Tools for Daily Emotional Wellness: Reduce Anxiety, Improve

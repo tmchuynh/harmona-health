@@ -3,7 +3,7 @@ import ProgramCategoryCard from "@/components/card/ProgramCategoryCard";
 import { serviceCategories } from "@/lib/constants/services/serviceCategory";
 export default function Page() {
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Health Programs</h1>
       <h5>Explore our complete wellness protocols tailored to your goals</h5>
 

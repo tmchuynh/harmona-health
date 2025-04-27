@@ -22,7 +22,7 @@ export default function Page() {
   );
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Wellness Dictionary</h1>
       <h5>
         Your Guide to Holistic Health: Clear Definitions and Insights on 500+

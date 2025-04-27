@@ -20,7 +20,7 @@ export default function Page() {
   }
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <category.icon className="mb-2 w-10 lg:w-15 2xl:w-20 h-10 lg:h-15 2xl:h-20 text-tertiary" />
       <h1>{capitalize(categoryId)}</h1>
       <h5>{category.subtitle}</h5>

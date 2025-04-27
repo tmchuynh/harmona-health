@@ -1,7 +1,7 @@
 import React from "react";
 export default function Page() {
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
+    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Events & Workshops for Mental Health</h1>
       <h5>
         Live Workshops & Webinars: Build Resilience and Learn Mental Health
