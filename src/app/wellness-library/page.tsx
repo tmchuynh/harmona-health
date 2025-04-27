@@ -50,7 +50,7 @@ export default function Page() {
                 <p className="text-lg lg:text-xl">
                   {featuredResource.description}
                 </p>
-                <MockButton>View This Resource</MockButton>
+                <MockButton variant="outline">View This Resource</MockButton>
               </article>
             </Link>
           ))}
@@ -67,7 +67,7 @@ export default function Page() {
                     {item.title}
                   </h3>
                   <p>{item.description}</p>
-                  <MockButton size="sm" className="text-xs">
+                  <MockButton variant="outline" size="sm" className="text-xs">
                     Read More
                   </MockButton>
                 </div>
