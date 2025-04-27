@@ -91,23 +91,56 @@ export default function Page() {
       </p>
 
       <section className="flex flex-col gap-8">
-        <div>
-          <h2>Events</h2>
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {sortedEvents.map((event, index) => (
-              <EventsCard event={event} key={index} />
-            ))}
+        <section>
+          <div className="flex justify-between items-center">
+            <h2>Events</h2>
+            <div className="flex flex-grow ml-4 border-secondary md:border-t"></div>
           </div>
-        </div>
+          <div className="flex flex-col gap-8">
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-3">
+              {futureEvents.map((event, index) => (
+                <EventsCard event={event} key={index} />
+              ))}
+            </div>
 
-        <div>
-          <h2>Workshops</h2>
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {sortedWorkshops.map((event, index) => (
-              <EventsCard event={event} key={index} />
-            ))}
+            <div>
+              <div className="flex justify-between items-center">
+                <h3>Past Events</h3>
+                <div className="flex-grow ml-4 md:border-t border-dashed"></div>
+              </div>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-3">
+                {pastEvents.map((event, index) => (
+                  <EventsCard event={event} key={index} />
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
+
+        <section>
+          <div className="flex justify-between items-center">
+            <h2>Workshops</h2>
+            <div className="flex flex-grow ml-4 border-secondary md:border-t"></div>
+          </div>
+          <div className="flex flex-col gap-8">
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-3">
+              {futureWorkshops.map((event, index) => (
+                <EventsCard event={event} key={index} />
+              ))}
+            </div>
+            <div>
+              <div className="flex justify-between items-center">
+                <h3> Past Workshops</h3>
+                <div className="flex-grow ml-4 md:border-t border-dashed"></div>
+              </div>
+              <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-3">
+                {pastWorkshops.map((event, index) => (
+                  <EventsCard event={event} key={index} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </div>
   );
