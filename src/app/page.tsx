@@ -26,7 +26,7 @@ export default function Page() {
               <h5>
                 Transform your energy, wellness, and confidence — starting today
               </h5>
-              <p className="py-1">
+              <p>
                 Each day is a new opportunity to rise stronger, live brighter,
                 and move closer to your goals. At Harmona Health, we believe
                 great health doesn’t just happen — it’s created through
@@ -35,7 +35,7 @@ export default function Page() {
                 embrace your full potential, we stand with you every step of the
                 way.
               </p>
-              <p className="py-1">
+              <p>
                 With our holistic programs, we fuel your journey by empowering
                 you to build lasting vitality, clarity, and confidence. True
                 transformation starts within, and we’re here to guide you toward
@@ -44,7 +44,7 @@ export default function Page() {
                 we’re committed to helping you unlock that power, step by bold
                 step.
               </p>
-              <p className="py-1">
+              <p>
                 Create a bold new narrative for your life. Step fully into the
                 wellness journey you were meant to live.
               </p>
