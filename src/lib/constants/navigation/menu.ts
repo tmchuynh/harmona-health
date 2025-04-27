@@ -26,7 +26,7 @@ export const mainPages: NavigationMenu[] = [
   {
     name: "Success Stories",
     description: "Read inspiring testimonials from real clients.",
-    href: "/programs/start-your-journey/success-stories",
+    href: "/about/success-stories",
     icon: UserGroupIcon,
   },
   {
