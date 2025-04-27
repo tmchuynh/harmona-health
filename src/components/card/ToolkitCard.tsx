@@ -1,5 +1,6 @@
 "use client";
 import { Toolkit } from "@/lib/interfaces&types/resources";
+import { formatToURL } from "@/lib/utils/format";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -19,7 +20,13 @@ export default function ToolkitCard({ toolkit }: { toolkit: Toolkit }) {
       )}
       <div className="flex-auto">
         <h3
-          onClick={() => router.push(toolkit.href)}
+          onClick={() =>
+            router.push(
+              `/wellness-library/digital-resources/mental-health-toolkit/${formatToURL(
+                toolkit.title
+              )}`
+            )
+          }
           className="w-3/4 underline-offset-2 group-hover:underline"
         >
           {toolkit.title}
