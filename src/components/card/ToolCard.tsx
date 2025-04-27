@@ -1,34 +1,41 @@
 import { Tool } from "@/lib/interfaces&types/resources";
-import DynamicButton from "../button/button-dynamic";
-import { FaLeaf } from "react-icons/fa";
 import { formatToURL, toKebabCase } from "@/lib/utils/format";
+import Link from "next/link";
+import { FaLeaf } from "react-icons/fa";
+import MockButton from "../button/MockButton";
 
 export default function ToolCard({ tool }: { tool: Tool }) {
   return (
-    <div
-      key={tool.id}
-      className="grid grid-cols-1 shadow-[inset_0_0_2px_1px_#ffffff4d] -m-2 max-lg:mx-auto rounded-[2rem] ring-1 ring-black/5 max-lg:w-full max-lg:max-w-md"
+    <Link
+      href={`/wellness-library/digital-resources/mental-health-toolkit/${toKebabCase(
+        tool.categoryId
+      )}/${formatToURL(tool.title)}`}
+      className="group"
     >
-      <div className="grid grid-cols-1 shadow-black/5 shadow-md p-2 rounded-[2rem]">
-        <div className="flex flex-col justify-between p-10 pb-9 rounded-3xl ring-1">
-          <div>
-            <h3>{tool.title}</h3>
-            <p className="mt-2">{tool.description}</p>
-          </div>
-          <div className="mt-8">
-            <DynamicButton
-              icon={FaLeaf}
-              hoverIcon={FaLeaf}
-              className="w-full"
-              href={`/wellness-library/digital-resources/mental-health-toolkit/${toKebabCase(
-                tool.categoryId
-              )}/${formatToURL(tool.title)}`}
-            >
-              View
-            </DynamicButton>
+      <div
+        key={tool.id}
+        className="grid grid-cols-1 shadow-[inset_0_0_2px_1px_#ffffff4d] -m-2 max-lg:mx-auto rounded-[2rem] ring-1 ring-black/5 max-lg:w-full max-lg:max-w-md"
+      >
+        <div className="grid grid-cols-1 shadow-black/5 shadow-md p-2 rounded-[2rem]">
+          <div className="flex flex-col justify-between p-10 pb-9 rounded-3xl ring-1">
+            <div>
+              <h3 className="underline-offset-4 group-hover:underline decoration-1">
+                {tool.title}
+              </h3>
+              <p className="mt-2">{tool.description}</p>
+            </div>
+            <div className="mt-8">
+              <MockButton
+                icon={FaLeaf}
+                hoverIcon={FaLeaf}
+                className="justify-between w-full"
+              >
+                View
+              </MockButton>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
