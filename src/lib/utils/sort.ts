@@ -356,3 +356,30 @@ export function sortByPropertyLength<T>(
  * const filtered = filterByProperty(items, "age", 25);
  * // Output: [{ name: "Alice", age: 25 }, { name: "Charlie", age: 25 }]
  */
+export function filterByProperty<T>(
+  array: T[],
+  property: keyof T,
+  value: T[keyof T]
+): T[] {
+  return array.filter((item) => item[property] === value);
+}
+
+/**
+ * Filters an array of objects based on a specified property being less than or greater than a value.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to filter
+ * @param property - The property to filter by
+ * @param value - The value to compare against
+ * @param comparison - The comparison type: "lessThan" or "greaterThan"
+ * @returns A new array containing only the objects that satisfy the comparison
+ *
+ * @example
+ * const items = [
+ *   { name: "Alice", age: 25 },
+ *   { name: "Bob", age: 30 },
+ *   { name: "Charlie", age: 20 }
+ * ];
+ * const filtered = filterByPropertyComparison(items, "age", 25, "greaterThan");
+ * // Output: [{ name: "Bob", age: 30 }]
+ */
