@@ -383,3 +383,19 @@ export function filterByProperty<T>(
  * const filtered = filterByPropertyComparison(items, "age", 25, "greaterThan");
  * // Output: [{ name: "Bob", age: 30 }]
  */
+export function filterByPropertyComparison<T>(
+  array: T[],
+  property: keyof T,
+  value: number,
+  comparison: "lessThan" | "greaterThan"
+): T[] {
+  return array.filter((item) => {
+    const propertyValue = item[property] as unknown as number;
+    if (comparison === "lessThan") {
+      return propertyValue < value;
+    } else if (comparison === "greaterThan") {
+      return propertyValue > value;
+    }
+    return false;
+  });
+}
