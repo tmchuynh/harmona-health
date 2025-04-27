@@ -1,12 +1,29 @@
+"use client";
+
 import ResourceCard from "@/components/card/ResourceCard";
+import { Button } from "@/components/ui/button";
 import { resourceCategory } from "@/lib/resources/resourceCategory";
+import { formatUrlToID } from "@/lib/utils/format";
 import {
   getResourceInformationById,
   getResourcesByCategoryId,
   sortByProperty,
 } from "@/lib/utils/sort";
+import { FaCircleQuestion } from "react-icons/fa6";
 
 export default function Page() {
+  async function getVariableById(id: string) {
+    try {
+      const importedModule = await import(`@/lib/resources/questions/${id}`);
+
+      // Access the exported variable (assuming the variable name follows a consistent pattern)
+      const variableName = `${id}Questions`;
+      return importedModule[formatUrlToID(variableName)];
+    } catch (error) {
+      console.error(`Error loading file for id "${id}":`, error);
+      return null;
+    }
+  }
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
       <div className="mx-auto text-center">
@@ -28,22 +45,45 @@ export default function Page() {
         const sortedResources = sortByProperty(resources, "title");
         return (
           <div key={`${category.id}-${index}`} className="mt-16 lg:mt-20">
-            <h2>{category.title}</h2>
-            <p>{category.introduction}</p>
-            <div className="gap-x-8 gap-y-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-0 mt-16 lg:max-w-none">
-              {sortedResources.map((resource, index) => {
-                const resourceInformation = getResourceInformationById(
-                  resource.id
-                );
+            <div>
+              <div>
+                <div className="flex items-center gap-6">
+                  <h2>{category.title}</h2>
+                  <Button
+                    size={"icon"}
+                    variant={"ghost"}
+                    onClick={async () => {
+                      try {
+                        const questions = await getVariableById(category.id);
+                        console.log(questions);
+                      } catch (error) {
+                        console.error("Failed to load questions:", error);
+                      }
+                    }}
+                    className="hover:bg-transparent hover:text-accent"
+                  >
+                    <FaCircleQuestion />
+                  </Button>
+                </div>
+                <p key={index} className="py-1">
+                  {category.description}
+                </p>
+              </div>
+              <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
+                {sortedResources.map((resource, index) => {
+                  const resourceInformation = getResourceInformationById(
+                    resource.id
+                  );
 
-                return (
-                  <ResourceCard
-                    resource={resource}
-                    key={`${resource.id}-${index}`}
-                    information={resourceInformation}
-                  />
-                );
-              })}
+                  return (
+                    <ResourceCard
+                      resource={resource}
+                      key={`${resource.id}-${index}`}
+                      information={resourceInformation}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
         );
