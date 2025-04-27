@@ -112,7 +112,6 @@ export const formatItemName = (itemName: string) => {
 export const formatUrlToID = (url: string) => {
   const string = url
     .replaceAll(/-/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .replace("Toolkit", "Tools");
+    .replace(/\b\w/g, (char) => char.toUpperCase());
   return string.charAt(0).toLowerCase() + string.slice(1).replace(/\s+/g, "");
 };

@@ -134,3 +134,37 @@ export function sortAlphabetically(array: string[]): string[] {
 export function sortByLength(array: string[]): string[] {
   return [...array].sort((a, b) => a.length - b.length);
 }
+
+/**
+ * Sorts an array of objects by a specified property.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to sort
+ * @param property - The property to sort by
+ * @param ascending - Whether to sort in ascending order (default: true)
+ * @returns A new array sorted by the specified property
+ *
+ * @example
+ * const users = [
+ *   { name: "Alice", age: 25 },
+ *   { name: "Bob", age: 30 },
+ *   { name: "Charlie", age: 20 }
+ * ];
+ * const sortedByAge = sortByProperty(users, "age");
+ * // Output: [{ name: "Charlie", age: 20 }, { name: "Alice", age: 25 }, { name: "Bob", age: 30 }]
+ */
+export function sortByProperty<T>(
+  array: T[],
+  property: keyof T,
+  ascending: boolean = true
+): T[] {
+  return [...array].sort((a, b) => {
+    if (a[property] < b[property]) {
+      return ascending ? -1 : 1;
+    }
+    if (a[property] > b[property]) {
+      return ascending ? 1 : -1;
+    }
+    return 0;
+  });
+}
