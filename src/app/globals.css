@@ -204,3 +204,12 @@
     @apply py-1
   }
 }
+
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
