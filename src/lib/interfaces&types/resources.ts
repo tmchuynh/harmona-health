@@ -61,3 +61,36 @@ export interface Tool {
   href: string; // NEEDS TO BE REMOVED
   categoryId: string;
 }
+
+export interface Events {
+  id: string;
+  title: string;
+  description: string;
+  date: string;
+  location: string;
+  image: string;
+  href: string;
+}
+
+export interface Company {
+  name: string;
+  description: string;
+  website: string;
+  logo: string;
+  partnershipDetails?: string;
+}
+
+export interface Staff {
+  name: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+export interface About {
+  name: string;
+  description: string[];
+  icon: string;
+  callToAction?: string;
+  linkText?: string;
+}

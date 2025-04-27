@@ -1,4 +1,6 @@
-export const affiliateCompanies = [
+import { Company } from "@/lib/interfaces&types/resources";
+
+export const affiliateCompanies: Company[] = [
   {
     name: "Healthy Living Co.",
     description:
@@ -36,7 +38,7 @@ export const affiliateCompanies = [
   },
 ];
 
-export const partnershipCompanies = [
+export const partnershipCompanies: Company[] = [
   {
     name: "WellCo Enterprises",
     description:

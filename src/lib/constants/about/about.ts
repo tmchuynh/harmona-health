@@ -1,4 +1,6 @@
-export const commitments = [
+import { About } from "@/lib/interfaces&types/resources";
+
+export const commitments: About[] = [
   {
     name: "Empowerment Through Knowledge",
     description: [
@@ -37,7 +39,7 @@ export const commitments = [
   },
 ];
 
-export const healthPrograms = [
+export const healthPrograms: About[] = [
   {
     name: "Health Programs",
     description: [
@@ -49,6 +51,7 @@ export const healthPrograms = [
     callToAction:
       "Ready to step into your fullest potential? Explore our complete Health Programs.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
   {
     name: "Wellness Programs",
@@ -61,6 +64,7 @@ export const healthPrograms = [
     callToAction:
       "Reimagine what’s possible when your mind, body, and spirit move in harmony.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
   {
     name: "Nutrition Coaching",
@@ -73,6 +77,7 @@ export const healthPrograms = [
     callToAction:
       "Discover the strength that comes from truly nourishing yourself.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
   {
     name: "Fitness Training",
@@ -84,6 +89,7 @@ export const healthPrograms = [
     ],
     callToAction: "Step into your strength and move toward your best self.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
   {
     name: "Mental Health Support",
@@ -96,6 +102,7 @@ export const healthPrograms = [
     callToAction:
       "Strengthen your mind, soothe your spirit, and rediscover your center.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
   {
     name: "Corporate Wellness",
@@ -107,5 +114,6 @@ export const healthPrograms = [
     ],
     callToAction: "Invest in your team's greatest asset: their well-being.",
     linkText: "Explore This Category",
+    icon: "🌿",
   },
 ];

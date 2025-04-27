@@ -1,4 +1,6 @@
-export const teamMembers = [
+import { Staff } from "@/lib/interfaces&types/resources";
+
+export const teamMembers: Staff[] = [
   {
     name: "Dr. Olivia Reynolds",
     title: "Director of Integrative Wellness",
@@ -41,7 +43,7 @@ export const teamMembers = [
   },
 ];
 
-export const supporters = [
+export const supporters: Staff[] = [
   {
     name: "Lily Nguyen",
     title: "Wellness Program Coordinator",
