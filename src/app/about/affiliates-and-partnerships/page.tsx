@@ -85,6 +85,7 @@ export default function Page() {
                 href={company.website}
                 target="_blank"
                 rel="noopener noreferrer"
+                variant="accent"
               >
                 Visit Website
               </DynamicButton>
@@ -118,6 +119,7 @@ export default function Page() {
                 href={company.website}
                 target="_blank"
                 rel="noopener noreferrer"
+                variant="accent"
               >
                 Visit Website
               </DynamicButton>
