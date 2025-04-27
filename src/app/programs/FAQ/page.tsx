@@ -39,6 +39,7 @@ export default function Page() {
               icon={RiTelegram2Line}
               hoverIcon={RiTelegram2Fill}
               href="/contact"
+              variant="tertiary"
             >
               customer support
             </DynamicButton>
