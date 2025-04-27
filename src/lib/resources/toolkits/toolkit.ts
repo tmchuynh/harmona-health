@@ -10,7 +10,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Unlock the Power of Your Mind: Transform Negative Thoughts into Positive Action",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/cbt-exercises",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/cbt-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -23,7 +23,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Breathe Your Way to Calm: Master Simple Techniques to Alleviate Stress and Anxiety",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/breathing-techniques",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/breathing-techniques",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -36,7 +36,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Release the Tension: Achieve Deep Relaxation and Emotional Balance with Simple Techniques",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/pmr-guides",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/pmr-guides",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -49,7 +49,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Empower Your Mind: Daily Affirmations for Building Confidence and Self-Love",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/affirmation-cards",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/affirmation-cards",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -62,7 +62,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Visualize Your Success: Unlock the Power of Mental Imagery for Stress Relief and Personal Growth",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/visualization-exercises",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/visualization-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -75,7 +75,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Break Free from Depression: Take Small Steps Toward a More Fulfilling and Active Life",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/behavioral-activation-worksheets",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/behavioral-activation-worksheets",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -88,7 +88,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Live in the Moment: Harness the Power of Mindfulness to Reduce Stress and Improve Focus",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/mindfulness-practices",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/mindfulness-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -101,7 +101,7 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Embrace Yourself: Cultivate Kindness and Compassion for Lasting Emotional Resilience",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mental-health-toolkit/self-compassion-practices",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/self-compassion-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
