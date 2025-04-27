@@ -1,8 +1,9 @@
 import ToolkitCard from "@/components/card/ToolkitCard";
 import { toolkit } from "@/lib/resources/toolkits/toolkit";
-import { cn } from "@/lib/utils";
+import { sortByProperty } from "@/lib/utils/sort";
 import React from "react";
 export default function Page() {
+  const sortedToolkits = sortByProperty(toolkit, "title");
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
       <h1>Mental Health Toolkit</h1>
@@ -26,7 +27,7 @@ export default function Page() {
       </p>
 
       <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
-        {toolkit.map((item, index) => (
+        {sortedToolkits.map((item, index) => (
           <ToolkitCard toolkit={item} key={index} />
         ))}
       </div>

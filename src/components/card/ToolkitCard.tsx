@@ -25,7 +25,6 @@ export default function ToolkitCard({ toolkit }: { toolkit: Toolkit }) {
           {toolkit.title}
         </h3>
         <h5>{toolkit.subtitle}</h5>
-        <p>{toolkit.description}</p>
       </div>
     </div>
   );
