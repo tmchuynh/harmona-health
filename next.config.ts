@@ -5,6 +5,7 @@ const imageHosts = [
   "www.research.colostate.edu",
   "tailwindcss.com",
   "bremershs.eq.edu.au",
+  "plus.unsplash.com",
 ];
 
 const nextConfig: NextConfig = {
