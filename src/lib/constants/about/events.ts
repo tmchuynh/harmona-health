@@ -6,10 +6,11 @@ export const events: Events[] = [
     title: "Mental Health Awareness Week",
     description:
       "A week-long event dedicated to raising awareness about mental health, featuring expert talks, support groups, and community outreach.",
-    date: "2025-10-10",
+    date: "2025-01-10",
     location: "Los Angeles, CA",
     image: "https://plus.unsplash.com/premium_photo-1682611785720-fcb0b6a299ab",
     href: "/events/mental-health-awareness-week",
+    category: "Awareness & Advocacy",
   },
   {
     id: "event-2",
@@ -20,6 +21,7 @@ export const events: Events[] = [
     location: "New York, NY",
     image: "https://images.unsplash.com/photo-1608308221487-02e61c839fbb",
     href: "/events/global-mental-health-summit",
+    category: "Global Mental Health",
   },
   {
     id: "event-3",
@@ -30,6 +32,7 @@ export const events: Events[] = [
     location: "Chicago, IL",
     image: "https://images.unsplash.com/photo-1610190204871-e144b4f7a6c8",
     href: "/events/youth-mental-health-forum",
+    category: "Youth Mental Health",
   },
   {
     id: "event-4",
@@ -40,6 +43,7 @@ export const events: Events[] = [
     location: "Boston, MA",
     image: "https://images.unsplash.com/photo-1606787131261-c0fa88c3ed47",
     href: "/events/mental-health-in-the-workplace-conference",
+    category: "Workplace Mental Health",
   },
   {
     id: "event-5",
@@ -50,6 +54,7 @@ export const events: Events[] = [
     location: "Global (Virtual Event)",
     image: "https://images.unsplash.com/photo-1603265531371-e5f75a7f8ad9",
     href: "/events/world-mental-health-day-celebration",
+    category: "Awareness & Advocacy",
   },
   {
     id: "event-6",
@@ -60,6 +65,7 @@ export const events: Events[] = [
     location: "San Francisco, CA",
     image: "https://images.unsplash.com/photo-1580138226795-27f7b255d94b",
     href: "/events/mental-health-technology-symposium",
+    category: "Technology & Innovation",
   },
 ];
 
@@ -69,10 +75,11 @@ export const workshops: Events[] = [
     title: "Mindfulness for Stress Reduction",
     description:
       "A hands-on workshop teaching mindfulness techniques to help reduce stress, improve focus, and promote mental well-being.",
-    date: "2025-06-15",
+    date: "2025-01-15",
     location: "Los Angeles, CA",
     image: "https://plus.unsplash.com/premium_photo-1682611821813-e18f32c75cfa",
     href: "/workshops/mindfulness-for-stress-reduction",
+    category: "Stress Management",
   },
   {
     id: "workshop-2",
@@ -83,6 +90,7 @@ export const workshops: Events[] = [
     location: "San Francisco, CA",
     image: "https://images.unsplash.com/photo-1604288230364-f8b402e86e9c",
     href: "/workshops/cbt-basics",
+    category: "Therapy Techniques",
   },
   {
     id: "workshop-3",
@@ -93,6 +101,7 @@ export const workshops: Events[] = [
     location: "Orange, CA",
     image: "https://images.unsplash.com/photo-1608902724795-7f3b957c6b7d",
     href: "/workshops/building-emotional-resilience",
+    category: "Emotional Wellness",
   },
   {
     id: "workshop-4",
@@ -103,6 +112,7 @@ export const workshops: Events[] = [
     location: "New York, NY",
     image: "https://images.unsplash.com/photo-1587456343509-1e5e7ed69b34",
     href: "/workshops/managing-anxiety-with-breathing-techniques",
+    category: "Anxiety Management",
   },
   {
     id: "workshop-5",
@@ -113,6 +123,7 @@ export const workshops: Events[] = [
     location: "Chicago, IL",
     image: "https://images.unsplash.com/photo-1580910542063-24c0f48cc10e",
     href: "/workshops/self-care-strategies-for-mental-health",
+    category: "Self-Care & Wellness",
   },
   {
     id: "workshop-6",
@@ -123,5 +134,6 @@ export const workshops: Events[] = [
     location: "San Diego, CA",
     image: "https://images.unsplash.com/photo-1617983663669-d1e6b0419f1b",
     href: "/workshops/overcoming-negative-thought-patterns",
+    category: "Therapy Techniques",
   },
 ];

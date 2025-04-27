@@ -70,6 +70,7 @@ export interface Events {
   location: string;
   image: string;
   href: string;
+  category: string;
 }
 
 export interface Company {
