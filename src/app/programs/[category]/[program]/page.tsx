@@ -1,4 +1,5 @@
 "use client";
+import DynamicButton from "@/components/button/button-dynamic";
 import { QuadGallery } from "@/components/images/QuadGridImages";
 import {
   Table,
@@ -25,7 +26,9 @@ import { IoCloseSharp } from "react-icons/io5";
 import { PiFlowerLotusFill } from "react-icons/pi";
 
 export default function Page() {
-  const segments = usePathname().split("/");
+  const url = usePathname();
+  console.log("URL", url);
+  const segments = url.split("/");
   const serviceId = segments[segments.length - 1];
 
   const [isLargeScreen, setIsLargeScreen] = useState(false);
@@ -190,6 +193,9 @@ export default function Page() {
 
           <div className="items-center lg:items-start xl:items-center gap-5 grid grid-cols-1 md:grid-cols-2">
             <section>
+              <DynamicButton href={`${url}/pricing`}>
+                View Pricing
+              </DynamicButton>
               {filteredTiers.map((tier, index) => (
                 <div
                   key={`${tier.tier}-${index}`}

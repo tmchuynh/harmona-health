@@ -6,7 +6,7 @@ import { toolkit } from "@/lib/resources/toolkits/toolkit";
 import { toolsMap } from "@/lib/resources/toolkits/tools";
 import { getRandomIndex } from "@/lib/utils";
 import { capitalize, formatUrlToID } from "@/lib/utils/format";
-import { shuffleArray } from "@/lib/utils/sort";
+import { shuffleArray, sortByProperty } from "@/lib/utils/sort";
 import { usePathname } from "next/navigation";
 import { JSX, useEffect, useState } from "react";
 
@@ -25,6 +25,8 @@ export default function Page() {
 
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
+
+  const sortedTools = sortByProperty(correspondingTools, "title");
 
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
@@ -58,7 +60,7 @@ export default function Page() {
 
       {correspondingTools && correspondingTools.length > 0 && (
         <div className="gap-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-2">
-          {correspondingTools.map((tool, index) => (
+          {sortedTools.map((tool, index) => (
             <ToolCard tool={tool} key={index} />
           ))}
         </div>
