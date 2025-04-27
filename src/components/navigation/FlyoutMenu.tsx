@@ -1,10 +1,9 @@
 "use client";
 
 import {
-  callsToAction,
-  callsToActionSecondary,
+  aboutPages,
   mainPages,
-  seccondaryPages,
+  secondaryPages,
   singlePage,
 } from "@/lib/constants/navigation/menu";
 import { NavigationMenu } from "@/lib/interfaces&types/types";
@@ -63,6 +62,42 @@ export default function FlyoutMenu() {
           </Link>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
+              About HH
+              <ChevronDownIcon
+                aria-hidden="true"
+                className="flex-none size-5"
+              />
+            </PopoverButton>
+
+            <PopoverPanel
+              transition
+              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
+            >
+              <div className="p-4">
+                {aboutPages.map((item: NavigationMenu) => (
+                  <div
+                    key={item.name}
+                    className="group relative flex items-center gap-x-6 hover:bg-muted p-4 rounded-lg text-sm/6"
+                  >
+                    {item.icon && (
+                      <div className="flex flex-none justify-center items-center group-hover:bg-accent rounded-lg group-hover:text-accent-foreground size-11">
+                        <item.icon aria-hidden="true" className="size-6" />
+                      </div>
+                    )}
+                    <div className="flex-auto">
+                      <a href={item.href} className="block font-semibold">
+                        {item.name}
+                        <span className="absolute inset-0" />
+                      </a>
+                      <p className="mt-1 font-[Nunito]">{item.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </PopoverPanel>
+          </Popover>
+          <Popover className="relative">
+            <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
               Programs
               <ChevronDownIcon
                 aria-hidden="true"
@@ -95,35 +130,8 @@ export default function FlyoutMenu() {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-2 divide-x divide-gray-900/5">
-                {callsToAction.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-[IBMPlexSans] font-semibold text-sm/6"
-                  >
-                    {item.icon && (
-                      <item.icon
-                        aria-hidden="true"
-                        className="flex-none group-hover:text-secondary size-5"
-                      />
-                    )}
-                    {item.name}
-                  </a>
-                ))}
-              </div>
             </PopoverPanel>
           </Popover>
-
-          {singlePage.map((item) => (
-            <a
-              href={item.href}
-              key={item.name}
-              className="font-semibold text-sm/6"
-            >
-              {item.name}
-            </a>
-          ))}
 
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 font-semibold text-sm/6 cursor-pointer">
@@ -139,7 +147,7 @@ export default function FlyoutMenu() {
               className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
             >
               <div className="p-4">
-                {seccondaryPages.map((item: NavigationMenu) => (
+                {secondaryPages.map((item: NavigationMenu) => (
                   <div
                     key={item.name}
                     className="group relative flex items-center gap-x-6 hover:bg-muted p-4 rounded-lg text-sm/6"
@@ -159,25 +167,17 @@ export default function FlyoutMenu() {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-2 divide-x divide-gray-900/5">
-                {callsToActionSecondary.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="group flex justify-center items-center gap-x-2.5 hover:bg-muted p-3 font-[IBMPlexSans] font-semibold text-sm/6"
-                  >
-                    {item.icon && (
-                      <item.icon
-                        aria-hidden="true"
-                        className="flex-none group-hover:text-secondary size-5"
-                      />
-                    )}
-                    {item.name}
-                  </a>
-                ))}
-              </div>
             </PopoverPanel>
           </Popover>
+          {singlePage.map((item) => (
+            <a
+              href={item.href}
+              key={item.name}
+              className="font-semibold text-sm/6"
+            >
+              {item.name}
+            </a>
+          ))}
         </PopoverGroup>
         <div className="lg:flex lg:flex-1 lg:justify-end hidden">
           <ThemeToggle />
@@ -222,7 +222,7 @@ export default function FlyoutMenu() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="space-y-2 mt-2">
-                    {[...mainPages, ...callsToAction].map((item) => (
+                    {[...mainPages].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
@@ -243,18 +243,16 @@ export default function FlyoutMenu() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="space-y-2 mt-2">
-                    {[...seccondaryPages, ...callsToActionSecondary].map(
-                      (item) => (
-                        <DisclosureButton
-                          key={item.name}
-                          as="a"
-                          href={item.href}
-                          className="block py-2 pr-3 pl-6 rounded-lg font-[Nunito] font-semibold text-sm/7"
-                        >
-                          {item.name}
-                        </DisclosureButton>
-                      )
-                    )}
+                    {[...secondaryPages].map((item) => (
+                      <DisclosureButton
+                        key={item.name}
+                        as="a"
+                        href={item.href}
+                        className="block py-2 pr-3 pl-6 rounded-lg font-[Nunito] font-semibold text-sm/7"
+                      >
+                        {item.name}
+                      </DisclosureButton>
+                    ))}
                   </DisclosurePanel>
                 </Disclosure>
                 {singlePage.map((item) => (

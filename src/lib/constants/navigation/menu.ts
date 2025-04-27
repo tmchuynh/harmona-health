@@ -17,7 +17,7 @@ import {
 
 export const mainPages: NavigationMenu[] = [
   {
-    name: "Programs",
+    name: "Overview",
     description:
       "Explore our complete wellness protocols tailored to your goals.",
     href: "/programs",
@@ -35,13 +35,7 @@ export const mainPages: NavigationMenu[] = [
     href: "/programs/FAQ",
     icon: ClipboardCheckIcon,
   },
-  {
-    name: "Wellness Library",
-    description:
-      "Browse expert content, tools, and guides for optimal well-being.",
-    href: "/wellness-library",
-    icon: BookOpenIcon,
-  },
+
   {
     name: "Start Your Journey Today",
     description: "Begin your personalized path toward vibrant health.",
@@ -50,12 +44,25 @@ export const mainPages: NavigationMenu[] = [
   },
 ];
 
-export const seccondaryPages: NavigationMenu[] = [
+export const secondaryPages: NavigationMenu[] = [
+  {
+    name: "Wellness Library",
+    description:
+      "Browse expert content, tools, and guides for optimal well-being.",
+    href: "/wellness-library",
+    icon: BookOpenIcon,
+  },
   {
     name: "Digital Resources",
     description: "Access downloadable tools, assessments, and templates.",
     href: "/wellness-library/digital-resources",
     icon: LayersIcon,
+  },
+  {
+    name: "Mental Health Toolkit",
+    description: "Empower your mind with practical emotional health resources.",
+    href: "/wellness-library/digital-resources/mental-health-toolkit",
+    icon: BrainIcon,
   },
   {
     name: "Health Articles",
@@ -64,44 +71,41 @@ export const seccondaryPages: NavigationMenu[] = [
     icon: FileTextIcon,
   },
   {
-    name: "Mental Health Toolkit",
-    description: "Empower your mind with practical emotional health resources.",
-    href: "/wellness-library/digital-resources/mental-health-toolkit",
-    icon: BrainIcon,
-  },
-];
-
-export const callsToAction: NavigationMenu[] = [
-  {
-    name: "Affiliates & Partnerships",
-    href: "/about/affiliates-and-partnerships",
-    icon: HandshakeIcon,
+    name: "Wellness Dictionary",
+    href: "/wellness-library/digital-resources/wellness-dictionary",
+    description: "Understand wellness terms and concepts with our glossary.",
+    icon: BookTextIcon,
   },
   {
     name: "Self Assessments",
     href: "/wellness-library/digital-resources/self-assessments",
+    description: "Evaluate your wellness with our self-assessment tools.",
     icon: ClipboardCheckIcon,
   },
 ];
 
-export const callsToActionSecondary: NavigationMenu[] = [
+export const aboutPages: NavigationMenu[] = [
   {
-    name: "Accessibility Statement",
-    href: "/about/accessibility-statement",
-    icon: AccessibilityIcon,
+    name: "Our Story",
+    description: "Learn about our mission and the team behind Harmona Health.",
+    href: "/about",
+    icon: UserGroupIcon,
   },
   {
-    name: "Wellness Dictionary",
-    href: "/wellness-library/digital-resources/wellness-dictionary",
-    icon: BookTextIcon,
+    name: "Affiliates & Partnerships",
+    description: "Explore our affiliate program and partnership opportunities.",
+    href: "/about/affiliates-and-partnerships",
+    icon: HandshakeIcon,
+  },
+  {
+    name: "Accessibility Statement",
+    description: "Learn about our commitment to accessibility and inclusivity.",
+    href: "/about/accessibility-statement",
+    icon: AccessibilityIcon,
   },
 ];
 
 export const singlePage: NavigationMenu[] = [
-  {
-    name: "About",
-    href: "/about",
-  },
   {
     name: "Events and Workshops",
     href: "/wellness-library/events-and-workshops",
