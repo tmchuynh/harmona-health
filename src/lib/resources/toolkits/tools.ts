@@ -1144,3 +1144,16 @@ const checklistsAndPlannersTools = [
     href: "/tools/overcoming-setbacks-worksheet",
   },
 ];
+
+export const toolsMap = {
+  cognitiveBehavioralTherapyTools: cognitiveBehavioralTherapyTools,
+  breathingTechniquesTools: breathingTechniquesTools,
+  progressiveMuscleRelaxationTools: progressiveMuscleRelaxationTools,
+  affirmationCardsTools: affirmationCardsTools,
+  visualizationExercisesTools: visualizationExercisesTools,
+  behavioralActivationTools: behavioralActivationTools,
+  mindfulnessTools: mindfulnessTools,
+  selfCompassionTools: selfCompassionTools,
+  resilienceTools: resilienceTools,
+  selfCareTools: selfCareTools,
+};

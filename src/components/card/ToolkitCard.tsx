@@ -1,20 +1,22 @@
 "use client";
-import { Resource } from "@/lib/interfaces&types/resources";
+import { Toolkit } from "@/lib/interfaces&types/resources";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function ToolkitCard({ toolkit }: { toolkit: Resource }) {
+export default function ToolkitCard({ toolkit }: { toolkit: Toolkit }) {
   const router = useRouter();
   return (
     <div key={toolkit.id} className="group flex flex-col gap-6 cursor-pointer">
-      <Image
-        alt=""
-        src={toolkit.image}
-        className="flex-none rounded-2xl w-52 aspect-4/5 object-cover"
-        width={400}
-        height={500}
-        sizes="(min-width: 1024px) 20vw, (min-width: 640px) 30vw, 50vw"
-      />
+      {toolkit.image && (
+        <Image
+          alt=""
+          src={toolkit.image}
+          className="flex-none rounded-2xl w-52 aspect-4/5 object-cover"
+          width={400}
+          height={500}
+          sizes="(min-width: 1024px) 20vw, (min-width: 640px) 30vw, 50vw"
+        />
+      )}
       <div className="flex-auto">
         <h3
           onClick={() => router.push(toolkit.href)}

@@ -37,10 +37,12 @@ export interface CategoryQuestion {
 export interface Toolkit {
   id: string;
   title: string;
-  introduction: string;
-  description: string;
-  warningText: string;
+  subtitle?: string;
+  introduction?: string;
+  description: string[];
+  warningText?: string;
   href: string;
+  image?: string;
 }
 
 export interface Article {
