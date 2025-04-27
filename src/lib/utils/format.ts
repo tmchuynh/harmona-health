@@ -76,6 +76,24 @@ export function cleanText(input: string): string {
     .trim();
 }
 
+/**
+ * Formats a date string into the format YYYY-MM-DD.
+ *
+ * @param date - The date to format, either as a Date object or a string.
+ * @returns The formatted date string in the format YYYY-MM-DD.
+ *
+ * @example
+ * const formattedDate = formatDate("Sun Apr 27 2025 14:52:59 GMT-0700 (Pacific Daylight Time)");
+ * // Output: "2025-04-27"
+ */
+export function formatDate(date: string | Date): string {
+  const parsedDate = new Date(date);
+  const year = parsedDate.getFullYear();
+  const month = String(parsedDate.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+  const day = String(parsedDate.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
 
 export const formatItemName = (itemName: string) => {
   
