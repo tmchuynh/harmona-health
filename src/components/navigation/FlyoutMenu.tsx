@@ -39,10 +39,10 @@ export default function FlyoutMenu() {
             <span className="sr-only">Your Company</span>
             <Image
               alt=""
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              className="w-auto h-8"
-              width={32}
-              height={32}
+              src="/images/monogram-hq.png"
+              className="w-24 h-auto aspect-video object-cover"
+              width={200}
+              height={100}
             />
           </a>
         </div>
