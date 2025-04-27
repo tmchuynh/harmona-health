@@ -1,7 +1,8 @@
 import SelfAssessmentCard from "@/components/card/SelfAssessmentCard";
 import { selfAssessmentTools } from "@/lib/resources/toolkits/selfassessments";
-import React from "react";
+import { sortByProperty } from "@/lib/utils/sort";
 export default function Page() {
+  const sortedAssessments = sortByProperty(selfAssessmentTools, "title");
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-11/12">
       <h1>Self Assessments</h1>
@@ -25,7 +26,7 @@ export default function Page() {
       </p>
 
       <div className="gap-10 grid grid-cols-1 md:grid-cols-2 my-2 md:my-4 lg:my-8 xl:my-12">
-        {selfAssessmentTools.map((tool, index) => (
+        {sortedAssessments.map((tool, index) => (
           <SelfAssessmentCard
             key={`${tool.title}-${index}`}
             assessment={tool}
