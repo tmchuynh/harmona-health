@@ -168,3 +168,44 @@ export function sortByProperty<T>(
     return 0;
   });
 }
+
+/**
+ * Sorts an array of objects by the length of a specified property.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to sort
+ * @param property - The property whose length will be used for sorting
+ * @param ascending - Whether to sort in ascending order (default: true)
+ * @returns A new array sorted by the length of the specified property
+ *
+ * @example
+ * const items = [
+ *   { name: "Alice", description: "Short" },
+ *   { name: "Bob", description: "A bit longer" },
+ *   { name: "Charlie", description: "The longest description here" }
+ * ];
+ * const sortedByDescriptionLength = sortByPropertyLength(items, "description");
+ * // Output: [
+ * //   { name: "Alice", description: "Short" },
+ * //   { name: "Bob", description: "A bit longer" },
+ * //   { name: "Charlie", description: "The longest description here" }
+ * // ]
+ */
+export function sortByPropertyLength<T>(
+  array: T[],
+  property: keyof T,
+  ascending: boolean = true
+): T[] {
+  return [...array].sort((a, b) => {
+    const lengthA = (a[property] as unknown as string)?.length || 0;
+    const lengthB = (b[property] as unknown as string)?.length || 0;
+
+    if (lengthA < lengthB) {
+      return ascending ? -1 : 1;
+    }
+    if (lengthA > lengthB) {
+      return ascending ? 1 : -1;
+    }
+    return 0;
+  });
+}
