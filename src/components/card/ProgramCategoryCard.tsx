@@ -25,7 +25,7 @@ export default function ProgramCategoryCard({
         <p>{category.description}</p>
       </CardContent>
       <CardFooter>
-        <DynamicButton>Explore This Category</DynamicButton>
+        <DynamicButton variant="tertiary">Explore This Category</DynamicButton>
       </CardFooter>
     </Card>
   );
