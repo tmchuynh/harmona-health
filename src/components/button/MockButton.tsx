@@ -80,7 +80,9 @@ export default function MockButton({
     >
       {ActiveIcon && (
         <span
-          className={cn("inline-block px-4 text-background", iconClassName)}
+          className={cn("inline-block px-4 text-background", iconClassName, {
+            "text-foreground group-hover:text-accent": variant === "outline",
+          })}
         >
           <ActiveIcon className="w-4 h-4 transition-all duration-300 ease-in-out" />
         </span>
@@ -88,7 +90,9 @@ export default function MockButton({
       {children}
       {ActiveIcon && variant !== "link" && (
         <span
-          className={cn("inline-block px-4 text-background", iconClassName)}
+          className={cn("inline-block px-4 text-background", iconClassName, {
+            "text-foreground group-hover:text-accent": variant === "outline",
+          })}
         >
           <ActiveIcon className="w-4 h-4" />
         </span>
