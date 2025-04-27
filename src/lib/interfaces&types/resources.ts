@@ -41,7 +41,7 @@ export interface Toolkit {
   introduction?: string;
   description: string[];
   warningText?: string;
-  href: string;
+  href: string; // NEEDS TO BE REMOVED
   image?: string;
 }
 
