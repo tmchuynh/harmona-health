@@ -91,14 +91,17 @@ export default function DynamicButton({
       className={cn(
         "mt-2 group gap-0 flex w-fit shadow-md cursor-pointer font-bold font-[Nunito] uppercase",
         {
-          "inline w-fit p-0 m-0": variant === "link",
+          "inline w-fit px-0 mx-0 shadow-none": variant === "link",
         },
         className
       )}
     >
-      {ActiveIcon && (
+      {ActiveIcon && variant !== "link" && (
         <span
-          className={cn("inline-block px-4 text-background", iconClassName)}
+          className={cn("inline-block px-4 text-background", iconClassName, {
+            "text-foreground group-hover:text-background":
+              variant === "outline",
+          })}
         >
           <ActiveIcon className="w-4 h-4 transition-all duration-300 ease-in-out" />
         </span>
@@ -108,7 +111,10 @@ export default function DynamicButton({
       </a>
       {ActiveIcon && variant !== "link" && (
         <span
-          className={cn("inline-block px-4 text-background", iconClassName)}
+          className={cn("inline-block px-4 text-background", iconClassName, {
+            "text-foreground group-hover:text-background":
+              variant === "outline",
+          })}
         >
           <ActiveIcon className="w-4 h-4" />
         </span>
