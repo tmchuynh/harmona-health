@@ -200,4 +200,7 @@
   h5 {
     @apply text-xs md:text-sm mb-3 text-fancy font-[IBMPlexSans] font-bold;
   }
+  p {
+    @apply py-1
+  }
 }

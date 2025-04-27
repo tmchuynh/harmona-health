@@ -65,9 +65,7 @@ export default function Page() {
                     <FaCircleQuestion />
                   </Button>
                 </div>
-                <p key={index} className="py-1">
-                  {category.description}
-                </p>
+                <p key={index}>{category.description}</p>
               </div>
               <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
                 {sortedResources.map((resource, index) => {

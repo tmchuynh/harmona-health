@@ -171,11 +171,16 @@ export default function TierComparisonTable() {
                     <ul role="list" className="space-y-4">
                       {section.features.map((feature) =>
                         feature.tiers[tier.name] ? (
-                          <li key={feature.name} className="flex gap-x-3">
-                            <CheckIcon
-                              aria-hidden="true"
-                              className="flex-none w-5 h-6 text-indigo-600"
-                            />
+                          <li
+                            key={feature.name}
+                            className="flex items-start gap-x-3"
+                          >
+                            <div className="flex-shrink-0 mt-1">
+                              <CheckIcon
+                                aria-hidden="true"
+                                className="flex-none w-5 h-6 text-indigo-600"
+                              />
+                            </div>
                             <span>
                               {feature.name}{" "}
                               {typeof feature.tiers[tier.name] === "string" ? (

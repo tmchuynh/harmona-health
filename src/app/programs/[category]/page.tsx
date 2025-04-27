@@ -27,9 +27,7 @@ export default function Page() {
 
       <div className="my-2 md:my-4 lg:my-6">
         {category.introduction.map((intro, index) => (
-          <p key={index} className="py-1">
-            {intro}
-          </p>
+          <p key={index}>{intro}</p>
         ))}
       </div>
 

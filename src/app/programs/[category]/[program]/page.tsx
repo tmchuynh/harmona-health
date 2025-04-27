@@ -144,8 +144,10 @@ export default function Page() {
             <h3>Program Benefits</h3>
             <ul>
               {information.benefits.map((benefit, index) => (
-                <li key={index} className="flex items-center mb-1">
-                  <IconDisplay Icon={secondIcon} />
+                <li key={index} className="flex items-start gap-x-3 mb-1">
+                  <div className="flex-shrink-0 mt-1">
+                    <IconDisplay Icon={secondIcon} />
+                  </div>
                   {benefit}
                 </li>
               ))}
@@ -170,8 +172,13 @@ export default function Page() {
               <h3>Program Outcomes</h3>
               <ul>
                 {information.outcomes.map((outcome, index) => (
-                  <li key={`${outcome}-${index}`} className="flex items-center">
-                    <IconDisplay Icon={icon} />
+                  <li
+                    key={`${outcome}-${index}`}
+                    className="flex items-start gap-x-3"
+                  >
+                    <div className="flex-shrink-0 mt-1">
+                      <IconDisplay Icon={icon} />
+                    </div>
                     {outcome}
                   </li>
                 ))}
@@ -181,9 +188,13 @@ export default function Page() {
               <h3>Program Goals</h3>
               <ul>
                 {information.goals.map((goal, index) => (
-                  <li key={`${goal}-${index}`} className="flex items-center">
-                    {" "}
-                    <IconDisplay Icon={icon} />
+                  <li
+                    key={`${goal}-${index}`}
+                    className="flex items-start gap-x-3"
+                  >
+                    <div className="flex-shrink-0 mt-1">
+                      <IconDisplay Icon={icon} />
+                    </div>
                     {goal}
                   </li>
                 ))}

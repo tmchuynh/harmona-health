@@ -52,9 +52,7 @@ export default function Page() {
 
       <div className="my-8 md:my-4 lg:my-6">
         {toolkitInformation?.description.map((description, index) => (
-          <p key={index} className="py-1">
-            {description}
-          </p>
+          <p key={index}>{description}</p>
         ))}
       </div>
 
