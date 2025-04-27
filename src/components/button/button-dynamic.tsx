@@ -35,6 +35,8 @@ import { icons } from "@/lib/constants/constants";
 export default function DynamicButton({
   variant = "default",
   children,
+  target,
+  rel,
   icon,
   hoverIcon,
   onClick,
@@ -106,7 +108,7 @@ export default function DynamicButton({
           <ActiveIcon className="w-4 h-4 transition-all duration-300 ease-in-out" />
         </span>
       )}
-      <a href={href} className="px-3">
+      <a href={href} target={target} rel={rel} className="px-3">
         {children}
       </a>
       {ActiveIcon && variant !== "link" && (
