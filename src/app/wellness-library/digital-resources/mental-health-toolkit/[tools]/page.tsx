@@ -25,6 +25,8 @@ export default function Page() {
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
 
+  console.log(correspondingTools);
+
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
     const index = getRandomIndex(shuffledIcons);

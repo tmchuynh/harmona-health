@@ -1,4 +1,6 @@
-const nutritionTools = [
+import { Tool } from "@/lib/interfaces&types/resources";
+
+const nutritionTools: Tool[] = [
   {
     id: "balanced-nutrition-tool-1",
     categoryId: "balanced-nutrition",
@@ -129,7 +131,7 @@ const nutritionTools = [
   },
 ];
 
-const resilienceTools = [
+const resilienceTools: Tool[] = [
   {
     id: "resilience-tool-1",
     categoryId: "resilience-toolkit",
@@ -156,7 +158,7 @@ const resilienceTools = [
   },
 ];
 
-const selfCompassionTools = [
+const selfCompassionTools: Tool[] = [
   {
     id: "gratitude-tool-2",
     categoryId: "gratitude-journaling-templates",
@@ -215,7 +217,7 @@ const selfCompassionTools = [
   },
 ];
 
-const sleepOptimizationTools = [
+const sleepOptimizationTools: Tool[] = [
   {
     id: "sleep-optimization-tool-1",
     categoryId: "sleep-optimization",
@@ -242,7 +244,7 @@ const sleepOptimizationTools = [
   },
 ];
 
-const mindfulnessTools = [
+const mindfulnessTools: Tool[] = [
   {
     id: "mindfulness-tool-1",
     categoryId: "mindfulness",
@@ -302,7 +304,7 @@ const mindfulnessTools = [
   },
 ];
 
-const selfCareTools = [
+const selfCareTools: Tool[] = [
   {
     id: "exercise-mental-health-tool-1",
     categoryId: "exercise-mental-health",
@@ -337,7 +339,7 @@ const selfCareTools = [
   },
 ];
 
-const cognitiveBehavioralTherapyTools = [
+const cognitiveBehavioralTherapyTools: Tool[] = [
   {
     id: "cbt-tool-1",
     categoryId: "cognitive-behavioral-therapy-exercises",
@@ -396,7 +398,7 @@ const cognitiveBehavioralTherapyTools = [
   },
 ];
 
-const breathingTechniquesTools = [
+const breathingTechniquesTools: Tool[] = [
   {
     id: "breathing-technique-1",
     categoryId: "breathing-techniques",
@@ -455,7 +457,7 @@ const breathingTechniquesTools = [
   },
 ];
 
-const progressiveMuscleRelaxationTools = [
+const progressiveMuscleRelaxationTools: Tool[] = [
   {
     id: "pmr-tool-1",
     categoryId: "progressive-muscle-relaxation-guides",
@@ -498,7 +500,7 @@ const progressiveMuscleRelaxationTools = [
   },
 ];
 
-const affirmationCardsTools = [
+const affirmationCardsTools: Tool[] = [
   {
     id: "affirmation-tool-1",
     categoryId: "affirmation-cards",
@@ -541,7 +543,7 @@ const affirmationCardsTools = [
   },
 ];
 
-const anxietyTools = [
+const anxietyTools: Tool[] = [
   {
     id: "anxiety-tool-1",
     categoryId: "anxiety-toolkit",
@@ -576,7 +578,7 @@ const anxietyTools = [
   },
 ];
 
-const depressionTools = [
+const depressionTools: Tool[] = [
   {
     id: "depression-tool-1",
     categoryId: "depression-toolkit",
@@ -603,7 +605,7 @@ const depressionTools = [
   },
 ];
 
-const traumaTools = [
+const traumaTools: Tool[] = [
   {
     id: "trauma-tool-1",
     categoryId: "trauma-toolkit",
@@ -630,7 +632,7 @@ const traumaTools = [
   },
 ];
 
-const griefTools = [
+const griefTools: Tool[] = [
   {
     id: "grief-tool-2",
     categoryId: "grief-toolkit",
@@ -649,7 +651,7 @@ const griefTools = [
   },
 ];
 
-const angerManagementTools = [
+const angerManagementTools: Tool[] = [
   {
     id: "anger-tool-1",
     categoryId: "anger-management-toolkit",
@@ -684,7 +686,7 @@ const angerManagementTools = [
   },
 ];
 
-const workLifeBalanceTools = [
+const workLifeBalanceTools: Tool[] = [
   {
     id: "work-life-tool-1",
     categoryId: "work-life-balance-toolkit",
@@ -719,7 +721,7 @@ const workLifeBalanceTools = [
   },
 ];
 
-const communicationTools = [
+const communicationTools: Tool[] = [
   {
     id: "communication-tool-1",
     categoryId: "communication-toolkit",
@@ -802,7 +804,7 @@ const communicationTools = [
   },
 ];
 
-const leadershipTools = [
+const leadershipTools: Tool[] = [
   {
     id: "leadership-tool-1",
     categoryId: "leadership-toolkit",
@@ -845,7 +847,7 @@ const leadershipTools = [
   },
 ];
 
-const visualizationExercisesTools = [
+const visualizationExercisesTools: Tool[] = [
   {
     id: "visualization-tool-1",
     categoryId: "visualization-exercises",
@@ -896,7 +898,7 @@ const visualizationExercisesTools = [
   },
 ];
 
-const behavioralActivationTools = [
+const behavioralActivationTools: Tool[] = [
   {
     id: "behavioral-activation-tool-1",
     categoryId: "behavioral-activation-worksheets",
@@ -939,7 +941,7 @@ const behavioralActivationTools = [
   },
 ];
 
-const journalingTools = [
+const journalingTools: Tool[] = [
   {
     id: "stress-management-tool-4",
     categoryId: "stress-management",
@@ -1062,7 +1064,7 @@ const journalingTools = [
   },
 ];
 
-const checklistsAndPlannersTools = [
+const checklistsAndPlannersTools: Tool[] = [
   {
     id: "stress-management-tool-9",
     categoryId: "stress-management",
@@ -1156,4 +1158,16 @@ export const toolsMap = {
   selfCompassionTools: selfCompassionTools,
   resilienceTools: resilienceTools,
   selfCareTools: selfCareTools,
+  checklistsAndPlannersTools: checklistsAndPlannersTools,
+  journalingTools: journalingTools,
+  leadershipTools: leadershipTools,
+  communicationTools: communicationTools,
+  workLifeBalanceTools: workLifeBalanceTools,
+  angerManagementTools: angerManagementTools,
+  anxietyTools: anxietyTools,
+  depressionTools: depressionTools,
+  traumaTools: traumaTools,
+  griefTools: griefTools,
+  sleepOptimizationTools: sleepOptimizationTools,
+  nutritionTools: nutritionTools,
 };
