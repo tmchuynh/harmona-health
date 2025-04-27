@@ -24,7 +24,7 @@ export default function Page() {
               />
               <h1 className="mt-10">Build a Life You’re Excited to Live</h1>
               <h5>
-                Transform your energy, wellness, and confidence — starting today
+                Empowering You to Live with Clarity, Strength, and Balance
               </h5>
               <p>
                 Each day is a new opportunity to rise stronger, live brighter,
@@ -74,7 +74,7 @@ export default function Page() {
             <div className="md:text-right md:w-4/5 lg:w-2/3 text-pretty">
               <h5>Balanced Health, Powerful Life</h5>
               <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-                Empower Your Health
+                Your Health, Your Way
               </p>
               <p className="mt-6">
                 Your health is your most valuable asset, and at Harmona Health,
@@ -123,9 +123,11 @@ export default function Page() {
         <div className="mx-auto mt-8 md:mt-16 lg:mt-24 w-10/12 md:w-11/12">
           <div className="flex justify-end mx-auto w-full">
             <div className="md:text-right md:w-4/5 lg:w-2/3 text-pretty">
-              <h5>Embrace Lasting Change with Our Holistic Health Programs</h5>
+              <h5>
+                Helping You Unlock Your Full Potential with Our Health Programs
+              </h5>
               <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-                Transform Your Wellness
+                The Harmona Health Difference
               </p>
               <p className="mt-6">
                 At Harmona Health, we believe in the power of transformation.
@@ -163,7 +165,7 @@ export default function Page() {
           <div className="flex mx-auto w-full">
             <div className="md:w-4/5 lg:w-2/3 text-pretty">
               <h5>
-                Achieve Mind-Body Harmony for Lasting Strength and Vitality
+                Supporting You Every Step of the Way to Health and Vitality
               </h5>
               <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
                 Your Path to Wellness
@@ -200,9 +202,12 @@ export default function Page() {
         {/* CTA section */}
         <div className="mx-auto mt-12 md:mt-16 lg:mt-24 w-10/12 md:w-11/12">
           <div className="lg:mx-auto xl:mx-0 lg:w-2/3 lg:text-center xl:text-start">
-            <h5>Cultivate Harmony Between Mind, Body, and Spirit</h5>
+            <h5>
+              A Redefined Approach to Health That Nurtures Your Mind, Body, and
+              Spirit
+            </h5>
             <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-              Achieve True Balance
+              Take the First Step Towards Wellness
             </p>
             <p className="mt-6">
               True balance is the foundation of a thriving life. At Harmona
