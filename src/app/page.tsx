@@ -1,146 +1,67 @@
 import DynamicButton from "@/components/button/button-dynamic";
 import {
-  ArrowPathIcon,
-  ChevronRightIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
-import {
-  BoltIcon,
-  CalendarDaysIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
+  empowerHealthFeatures,
+  supportFeatures,
+  wellnessJourneyStats,
+} from "@/lib/constants/constants";
+import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
-const primaryFeatures = [
-  {
-    name: "Server monitoring",
-    description:
-      "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
-    href: "#",
-    icon: BoltIcon,
-  },
-  {
-    name: "Collaborate",
-    description:
-      "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
-    href: "#",
-    icon: UsersIcon,
-  },
-  {
-    name: "Task scheduling",
-    description:
-      "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
-    href: "#",
-    icon: CalendarDaysIcon,
-  },
-];
-const secondaryFeatures = [
-  {
-    name: "Push to deploy.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "SSL certificates.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Simple queues.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Advanced security.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Powerful API.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: Cog6ToothIcon,
-  },
-  {
-    name: "Database backups.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ",
-    icon: ServerIcon,
-  },
-];
-const stats = [
-  { id: 1, name: "Developers on the platform", value: "8,000+" },
-  { id: 2, name: "Daily requests", value: "900m+" },
-  { id: 3, name: "Uptime guarantee", value: "99.9%" },
-  { id: 4, name: "Projects deployed", value: "12m" },
-];
-
-export default function Example() {
+export default function Page() {
   return (
-    <div className="">
+    <div className="mt-30">
       <main>
         {/* Hero section */}
         <div className="relative overflow-hidden isolate">
-          <div
-            aria-hidden="true"
-            className="top-10 lg:top-[calc(50%-30rem)] left-[calc(50%-4rem)] sm:left-[calc(50%-18rem)] lg:left-48 xl:left-[calc(50%-24rem)] -z-10 absolute blur-3xl transform-gpu"
-          >
-            <div
-              style={{
-                clipPath:
-                  "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
-              }}
-              className="bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20 w-[69.25rem] aspect-1108/632"
-            />
-          </div>
-          <div className="lg:flex mx-auto px-6 lg:px-8 lg:py-40 pt-10 pb-24 sm:pb-32 max-w-7xl">
-            <div className="mx-auto lg:mx-0 lg:pt-8 max-w-2xl shrink-0">
+          <div className="lg:flex mx-auto lg:py-40 pt-10 pb-24 sm:pb-32 max-w-7xl">
+            <div className="mx-auto lg:mx-0 px-8 md:px-0 lg:px-12 lg:pt-8 max-w-2xl shrink-0">
               <Image
-                alt="Your Company"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-11"
-                width={32}
-                height={32}
+                alt="harmona-health"
+                src="/images/harmona-health-high-resolution-logo-transparent.png"
+                className="w-auto h-36 md:h-48 lg:h-72"
+                width={900}
+                height={900}
               />
-              <div className="mt-24 sm:mt-32 lg:mt-16">
-                <a href="#" className="inline-flex space-x-6">
-                  <span className="px-3 py-1 rounded-full ring-1 ring-indigo-500/20 ring-inset font-semibold text-sm/6">
-                    What's new
-                  </span>
-                  <span className="inline-flex items-center space-x-2 font-medium text-sm/6">
-                    <span>Just shipped v1.0</span>
-                    <ChevronRightIcon aria-hidden="true" className="size-5" />
-                  </span>
-                </a>
-              </div>
-              <h1 className="mt-10 font-semibold text-5xl text-pretty sm:text-7xl tracking-tight">
-                Deploy to the cloud with confidence
-              </h1>
-              <p className="mt-8 font-medium text-lg text-pretty sm:text-xl/8">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+              <h1 className="mt-10">Build a Life You’re Excited to Live</h1>
+              <h5>
+                Transform your energy, wellness, and confidence — starting today
+              </h5>
+              <p className="py-1">
+                Each day is a new opportunity to rise stronger, live brighter,
+                and move closer to your goals. At Harmona Health, we believe
+                great health doesn’t just happen — it’s created through
+                intentional choices, expert guidance, and powerful support.
+                Whether you’re looking to ignite your strength, find balance, or
+                embrace your full potential, we stand with you every step of the
+                way.
               </p>
-              <div className="flex items-center gap-x-6 mt-10">
+              <p className="py-1">
+                With our holistic programs, we fuel your journey by empowering
+                you to build lasting vitality, clarity, and confidence. True
+                transformation starts within, and we’re here to guide you toward
+                a future where you lead with purpose, energy, and resilience.
+                You are capable of more than you know, and at Harmona Health,
+                we’re committed to helping you unlock that power, step by bold
+                step.
+              </p>
+              <p className="py-1">
+                Create a bold new narrative for your life. Step fully into the
+                wellness journey you were meant to live.
+              </p>
+              <div className="flex md:flex-row flex-col items-center gap-3 mt-10">
                 <DynamicButton>Get started</DynamicButton>
                 <DynamicButton variant="accent">Learn more</DynamicButton>
               </div>
             </div>
             <div className="flex lg:flex-none mx-auto mt-16 sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 xl:ml-32 max-w-2xl lg:max-w-none">
-              <div className="flex-none max-w-3xl sm:max-w-5xl lg:max-w-none">
+              <div className="flex-none w-full max-w-3xl sm:max-w-5xl lg:max-w-none">
                 <Image
                   alt="App screenshot"
-                  src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
-                  width={2432}
-                  height={1442}
-                  className="shadow-2xl rounded-md ring-1 ring-white/10 w-[76rem]"
+                  src="https://plus.unsplash.com/premium_photo-1675433344518-21eb72dfc7a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fHww"
+                  className="shadow-2xl md:rounded-md w-full lg:w-[36rem] max-h-[12em] md:max-h-[57em] object-center aspect-auto object-cover"
+                  width={1152}
+                  height={842}
+                  priority
                 />
               </div>
             </div>
@@ -148,82 +69,85 @@ export default function Example() {
         </div>
 
         {/* Feature section */}
-        <div className="mx-auto mt-32 sm:mt-56 px-6 lg:px-8 max-w-7xl">
-          <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="font-semibold text-base/7">Deploy faster</h2>
-            <p className="mt-2 font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-              Everything you need to deploy your app
-            </p>
-            <p className="mt-6 text-lg/8">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
-            </p>
+        <div className="mx-auto mt-32 sm:mt-56 w-10/12 md:w-11/12">
+          <div className="flex justify-end mx-auto w-full">
+            <div className="md:text-right md:w-4/5 lg:w-2/3 text-pretty">
+              <h5>Balanced Health, Powerful Life</h5>
+              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
+                Empower Your Health
+              </p>
+              <p className="mt-6">
+                Your health is your most valuable asset, and at Harmona Health,
+                we are committed to helping you unlock its full potential. With
+                our expert guidance and personalized support, you can take
+                charge of your well-being and create a life of vitality and
+                balance. Our tailored wellness programs are designed to meet
+                your unique needs, equipping you with the knowledge, confidence,
+                and tools to make informed decisions about your health. Whether
+                you're looking to enhance your energy, improve your lifestyle,
+                or achieve long-term wellness goals, we are here to guide you
+                every step of the way. At Harmona Health, we believe that a
+                balanced life is a powerful life. Let us help you embrace a
+                healthier, more fulfilling future—because your journey to
+                wellness starts here.
+              </p>
+            </div>
           </div>
-          <div className="mx-auto mt-16 sm:mt-20 lg:mt-24 max-w-2xl lg:max-w-none">
-            <dl className="gap-x-8 gap-y-16 grid grid-cols-1 lg:grid-cols-3 max-w-xl lg:max-w-none">
-              {primaryFeatures.map((feature) => (
-                <div key={feature.name} className="flex flex-col">
-                  <dt className="font-semibold text-base/7">
-                    <div className="flex justify-center items-center mb-6 rounded-lg size-10">
-                      <feature.icon aria-hidden="true" className="size-6" />
-                    </div>
-                    {feature.name}
-                  </dt>
-                  <dd className="flex flex-col flex-auto mt-1 text-base/7">
-                    <p className="flex-auto">{feature.description}</p>
-                    <p className="mt-6">
-                      <a
-                        href={feature.href}
-                        className="font-semibold text-sm/6"
-                      >
-                        Learn more <span aria-hidden="true">→</span>
-                      </a>
-                    </p>
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </div>
+
+          <dl className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 md:py-10 lg:max-w-none">
+            {empowerHealthFeatures.map((feature) => (
+              <div key={feature.name} className="flex flex-col">
+                <dt className="font-semibold text-base/7">
+                  <div className="flex justify-center items-center bg-accent-foreground mb-6 rounded-lg size-10">
+                    <feature.icon
+                      aria-hidden="true"
+                      className="text-accent size-6"
+                    />
+                  </div>
+                  {feature.name}
+                </dt>
+                <dd className="flex flex-col flex-auto mt-1 text-base/7">
+                  <p className="flex-auto">{feature.description}</p>
+                  <p className="mt-6">
+                    <a href={feature.href} className="font-semibold text-sm/6">
+                      Learn more <span aria-hidden="true">→</span>
+                    </a>
+                  </p>
+                </dd>
+              </div>
+            ))}
+          </dl>
         </div>
 
         {/* Feature section */}
-        <div className="mt-32 sm:mt-56">
-          <div className="mx-auto px-6 lg:px-8 max-w-7xl">
-            <div className="mx-auto max-w-2xl sm:text-center">
-              <h2 className="font-semibold text-base/7">Everything you need</h2>
-              <p className="mt-2 font-semibold text-4xl text-pretty sm:text-5xl sm:text-balance tracking-tight">
-                No server? No problem.
+        <div className="mx-auto mt-8 md:mt-16 lg:mt-24 w-10/12 md:w-11/12">
+          <div className="flex justify-end mx-auto w-full">
+            <div className="md:text-right md:w-4/5 lg:w-2/3 text-pretty">
+              <h5>Embrace Lasting Change with Our Holistic Health Programs</h5>
+              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
+                Transform Your Wellness
               </p>
-              <p className="mt-6 text-lg/8">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis.
+              <p className="mt-6">
+                At Harmona Health, we believe in the power of transformation.
+                Our holistic approach to wellness supports lasting changes,
+                helping you elevate every aspect of your health—whether it’s
+                through fitness training, nutrition coaching, or emotional
+                support. Start your journey today and see the difference. When
+                your health is balanced, your life becomes powerful. At Harmona
+                Health, we focus on integrating physical fitness, emotional
+                wellness, and mental clarity to create a holistic approach that
+                helps you achieve long-lasting vitality and strength.
               </p>
             </div>
           </div>
-          <div className="relative pt-16 overflow-hidden">
-            <div className="mx-auto px-6 lg:px-8 max-w-7xl">
-              <Image
-                alt="App screenshot"
-                src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
-                width={2432}
-                height={1442}
-                className="shadow-2xl mb-[-12%] rounded-xl ring-1 ring-white/10"
-              />
-              <div aria-hidden="true" className="relative">
-                <div className="bottom-0 absolute -inset-x-20 bg-linear-to-t from-gray-900 pt-[7%]" />
-              </div>
-            </div>
-          </div>
-          <div className="mx-auto mt-16 sm:mt-20 md:mt-24 px-6 lg:px-8 max-w-7xl">
+          <div className="mx-auto mt-8 md:mt-12 lg:mt-16">
             <dl className="gap-x-6 gap-y-10 lg:gap-x-8 lg:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-0 max-w-2xl lg:max-w-none text-base/7">
-              {secondaryFeatures.map((feature) => (
+              {supportFeatures.map((feature) => (
                 <div key={feature.name} className="relative pl-9">
                   <dt className="inline font-semibold">
                     <feature.icon
                       aria-hidden="true"
-                      className="top-1 left-1 absolute text-indigo-500 size-5"
+                      className="top-1 left-1 absolute text-accent size-5"
                     />
                     {feature.name}
                   </dt>{" "}
@@ -235,23 +159,34 @@ export default function Example() {
         </div>
 
         {/* Stats */}
-        <div className="mx-auto mt-32 sm:mt-56 px-6 lg:px-8 max-w-7xl">
-          <div className="mx-auto lg:mx-0 max-w-2xl lg:max-w-xl">
-            <h2 className="font-semibold text-base/8">Our track record</h2>
-            <p className="mt-2 font-semibold text-4xl text-pretty sm:text-5xl tracking-tight">
-              Trusted by thousands of creators&nbsp;worldwide
-            </p>
-            <p className="mt-6 text-lg/8">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis.
-            </p>
+        <div className="mx-auto mt-12 md:mt-16 lg:mt-24 w-10/12 md:w-11/12">
+          <div className="flex mx-auto w-full">
+            <div className="md:w-4/5 lg:w-2/3 text-pretty">
+              <h5>
+                Achieve Mind-Body Harmony for Lasting Strength and Vitality
+              </h5>
+              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
+                Your Path to Wellness
+              </p>
+              <p className="mt-6">
+                Wellness is a journey, not a destination. At Harmona Health, we
+                guide you every step of the way with a structured approach to
+                health and well-being. From fitness to mental clarity, our
+                programs are designed to help you reach your full potential and
+                live a life of balance and vitality. Everyone’s journey to
+                wellness is different, and that’s why at Harmona Health, we
+                offer personalized programs that are designed specifically for
+                your goals. Whether you're seeking physical fitness, mental
+                clarity, or emotional balance, our services are crafted to fit
+                your lifestyle and support your aspirations.
+              </p>
+            </div>
           </div>
-          <dl className="gap-x-8 gap-y-10 sm:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto lg:mx-0 mt-16 sm:mt-20 max-w-2xl lg:max-w-none">
-            {stats.map((stat) => (
+          <dl className="gap-x-8 gap-y-10 md:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto mt-6 md:mt-8 lg:max-w-none">
+            {wellnessJourneyStats.map((stat) => (
               <div
                 key={stat.id}
-                className="flex flex-col gap-y-3 pl-6 border-white/10 border-l"
+                className="flex flex-col gap-y-3 pl-6 border-l"
               >
                 <dt className="text-sm/6">{stat.name}</dt>
                 <dd className="order-first font-semibold text-3xl tracking-tight">
@@ -263,25 +198,31 @@ export default function Example() {
         </div>
 
         {/* CTA section */}
-        <div className="relative mt-32 sm:mt-56 px-6 lg:px-8 py-32 sm:py-40 isolate">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-semibold text-4xl text-balance sm:text-5xl tracking-tight">
-              Boost your productivity. Start using our app today.
-            </h2>
-            <p className="mx-auto mt-6 max-w-xl text-lg/8">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-              anim id veniam aliqua proident excepteur commodo do ea.
+        <div className="mx-auto mt-12 md:mt-16 lg:mt-24 w-10/12 md:w-11/12">
+          <div className="lg:mx-auto xl:mx-0 lg:w-2/3 lg:text-center xl:text-start">
+            <h5>Cultivate Harmony Between Mind, Body, and Spirit</h5>
+            <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
+              Achieve True Balance
             </p>
-            <div className="flex justify-center items-center gap-x-6 mt-10">
-              <a
-                href="#"
-                className="shadow-xs px-3.5 py-2.5 rounded-md font-semibold text-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
+            <p className="mt-6">
+              True balance is the foundation of a thriving life. At Harmona
+              Health, we focus on integrating physical fitness, mental clarity,
+              and emotional health, helping you achieve lasting wellness. Our
+              personalized programs empower you to achieve harmony between mind,
+              body, and spirit, unlocking your full potential. It’s time to take
+              your well-being to new heights. Our comprehensive and personalized
+              programs focus on every aspect of health—physical, mental, and
+              emotional. Whether you’re looking to enhance fitness or improve
+              mental clarity, Harmona Health is here to guide you every step of
+              the way.
+            </p>
+            <div className="flex justify-center xl:justify-start items-center gap-x-6 mt-10">
+              <DynamicButton variant="accent" href="#">
                 Get started
-              </a>
-              <a href="#" className="font-semibold text-sm/6">
+              </DynamicButton>
+              <DynamicButton variant="outline" href="#">
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </DynamicButton>
             </div>
           </div>
         </div>
