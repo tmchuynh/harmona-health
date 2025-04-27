@@ -1,5 +1,6 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
+import { toolsMap } from "./resources/toolkits/tools";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
