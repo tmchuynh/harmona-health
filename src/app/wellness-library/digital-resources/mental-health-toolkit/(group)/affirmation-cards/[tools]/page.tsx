@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 export default function Page() {
   return (
     <div className="py-2 md:py-4 lg:py-6">
