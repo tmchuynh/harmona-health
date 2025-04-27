@@ -172,7 +172,7 @@ export function sortByProperty<T>(
 
 /**
  * Groups an array of objects by a specified property and optionally sorts each group.
- *
+ * 
  * @template T - The type of elements in the array
  * @param {T[]} array - The array to group and sort
  * @param {keyof T} groupByProperty - The property to group the array by
@@ -185,7 +185,7 @@ export function sortByProperty<T>(
  * @example
  * // Group users by department and sort by name
  * const sortedUsers = groupAndSortByProperties(users, 'department', 'name');
- *
+ * 
  * @example
  * // Group posts by category and sort by date (most recent first)
  * const sortedPosts = groupAndSortByProperties(posts, 'category', 'date', false);
@@ -217,7 +217,7 @@ export function sortByProperty<T>(
  *   true // Enable grouping by length
  * );
  *
- *
+ * 
  * @example
  * // Group messages by sender and sort by message length
  * const sortedMessages = groupAndSortByProperties(messages, 'sender', 'content', true, true);
@@ -427,4 +427,42 @@ export function filterByDate<T>(
   targetDate: string
 ): T[] {
   return array.filter((item) => item[property] === targetDate);
+}
+
+/**
+ * Filters an array of objects based on a date property being less than or greater than a given date.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to filter
+ * @param property - The property containing the date to filter by
+ * @param targetDate - The target date to compare against in the format YYYY-MM-DD
+ * @param comparison - The comparison type: "lessThan" or "greaterThan"
+ * @returns A new array containing only the objects that satisfy the comparison
+ *
+ * @example
+ * const items = [
+ *   { name: "Event A", date: "2025-04-27" },
+ *   { name: "Event B", date: "2025-05-01" },
+ *   { name: "Event C", date: "2025-04-20" }
+ * ];
+ * const filtered = filterByDateComparison(items, "date", "2025-04-25", "lessThan");
+ * // Output: [{ name: "Event C", date: "2025-04-20" }]
+ */
+export function filterByDateComparison<T>(
+  array: T[],
+  property: keyof T,
+  targetDate: string,
+  comparison: "lessThan" | "greaterThan"
+): T[] {
+  return array.filter((item) => {
+    const itemDate = new Date(item[property] as unknown as string);
+    const compareDate = new Date(targetDate);
+
+    if (comparison === "lessThan") {
+      return itemDate < compareDate;
+    } else if (comparison === "greaterThan") {
+      return itemDate > compareDate;
+    }
+    return false;
+  });
 }
