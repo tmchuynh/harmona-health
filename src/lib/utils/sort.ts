@@ -337,3 +337,22 @@ export function sortByPropertyLength<T>(
     return 0;
   });
 }
+
+/**
+ * Filters an array of objects based on a specified property and its value.
+ *
+ * @template T - The type of objects in the array
+ * @param array - The array of objects to filter
+ * @param property - The property to filter by
+ * @param value - The value to match for the specified property
+ * @returns A new array containing only the objects where the property matches the value
+ *
+ * @example
+ * const items = [
+ *   { name: "Alice", age: 25 },
+ *   { name: "Bob", age: 30 },
+ *   { name: "Charlie", age: 25 }
+ * ];
+ * const filtered = filterByProperty(items, "age", 25);
+ * // Output: [{ name: "Alice", age: 25 }, { name: "Charlie", age: 25 }]
+ */
