@@ -88,11 +88,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       const currentSegment = capitalizedSegments[pathSegments.length - 1];
 
       items.push(
-        <BreadcrumbSeparator
-          key={`sep-${currentHref}`}
-          className="ml-1 dark:text-fancy"
-        >
-          <FaLeaf />
+        <BreadcrumbSeparator key={`sep-${currentHref}`} className="ml-1">
+          <FaLeaf className="text-primary" />
         </BreadcrumbSeparator>
       );
 
@@ -116,8 +113,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         const segment = capitalizedSegments[1];
 
         items.push(
-          <BreadcrumbSeparator key="sep-2" className="ml-1 dark:text-fancy">
-            <FaLeaf />
+          <BreadcrumbSeparator key="sep-2" className="ml-1">
+            <FaLeaf className="text-primary" />
           </BreadcrumbSeparator>
         );
 
@@ -127,8 +124,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         const lastSegment = capitalizedSegments[capitalizedSegments.length - 1];
 
         items.push(
-          <BreadcrumbSeparator key="sep-last" className="ml-1 dark:text-fancy">
-            <FaLeaf />
+          <BreadcrumbSeparator key="sep-last" className="ml-1">
+            <FaLeaf className="text-primary" />
           </BreadcrumbSeparator>
         );
 
@@ -141,8 +138,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         const href = `/${pathSegments.join("/")}`;
         const lastSegment = capitalizedSegments[capitalizedSegments.length - 1];
         items.push(
-          <BreadcrumbSeparator key="sep-1" className="ml-1 dark:text-fancy">
-            <FaLeaf />
+          <BreadcrumbSeparator key="sep-1" className="ml-1">
+            <FaLeaf className="text-primary" />
           </BreadcrumbSeparator>
         );
 
@@ -171,7 +168,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
             key={`sep-${href}`}
             className="mx-4 dark:text-fancy"
           >
-            <FaLeaf />
+            <FaLeaf className="text-primary" />
           </BreadcrumbSeparator>
         );
 
