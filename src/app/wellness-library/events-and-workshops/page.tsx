@@ -1,5 +1,74 @@
-import React from "react";
+"use client";
+
+import EventsCard from "@/components/card/EventsCard";
+import { events, workshops } from "@/lib/constants/about/events";
+import { formatDate } from "@/lib/utils/format";
+import {
+  filterByDateComparison,
+  filterByPropertyComparison,
+  groupAndSortByProperties,
+  sortByProperty,
+} from "@/lib/utils/sort";
+import React, { useEffect } from "react";
 export default function Page() {
+  const date = new Date();
+  const formatedDate = formatDate(date);
+
+  const dateString = date.toString();
+  useEffect(() => {
+    console.log(date);
+
+    console.log(formatedDate);
+  }, []);
+  const sortedEvents = groupAndSortByProperties(
+    events,
+    "date",
+    "title",
+    true,
+    false
+  );
+
+  const pastEvents = filterByDateComparison(
+    sortedEvents,
+    "date",
+    dateString,
+    "lessThan"
+  );
+
+  const futureEvents = filterByDateComparison(
+    sortedEvents,
+    "date",
+    dateString,
+    "greaterThan"
+  );
+
+  console.log("pastEvents", pastEvents);
+  console.log("futureEvents", futureEvents);
+
+  const sortedWorkshops = groupAndSortByProperties(
+    workshops,
+    "date",
+    "title",
+    true,
+    false
+  );
+
+  const pastWorkshops = filterByDateComparison(
+    sortedWorkshops,
+    "date",
+    dateString,
+    "lessThan"
+  );
+
+  const futureWorkshops = filterByDateComparison(
+    sortedWorkshops,
+    "date",
+    dateString,
+    "greaterThan"
+  );
+
+  console.log("pastWorkshops", pastWorkshops);
+  console.log("futureWorkshops", futureWorkshops);
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Events & Workshops for Mental Health</h1>
@@ -20,6 +89,26 @@ export default function Page() {
         and follow-up materials to ensure you can continue your personal growth
         long after the session ends.
       </p>
+
+      <section className="flex flex-col gap-8">
+        <div>
+          <h2>Events</h2>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {sortedEvents.map((event, index) => (
+              <EventsCard event={event} key={index} />
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h2>Workshops</h2>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {sortedWorkshops.map((event, index) => (
+              <EventsCard event={event} key={index} />
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
