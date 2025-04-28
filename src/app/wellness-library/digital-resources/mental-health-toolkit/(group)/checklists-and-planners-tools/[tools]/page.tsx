@@ -1,17 +1,74 @@
-import React from "react";
-export default function Page() {
-  return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>Harmona Health's Affiliates and Partnerships</h1>
-      <h5>Blank blank blank blank</h5>
+"use client";
+import { Checkbox } from "@/components/ui/checkbox";
+import { useToolContext } from "@/context/toolContext";
+import { getToolResource } from "@/lib/utils";
+import { capitalize, formatUrlToID } from "@/lib/utils/format";
+import { useState, useEffect } from "react";
 
-      <p>
-        Ipsum excepteur dolore id velit adipisicing magna quis in commodo sint
-        sit nostrud dolor. Eiusmod amet adipisicing consequat ea. Aute voluptate
-        sunt sint elit qui aute ea non eiusmod labore. Ea voluptate ex ullamco
-        qui aliqua qui minim voluptate ut incididunt nostrud. Cillum elit minim
-        cupidatat officia.
-      </p>
+export default function Page() {
+  const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
+  const [checklist, setChecklist] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Await the Promise from getToolResource
+        const data = await getToolResource(toolKit, tool, formatUrlToID(tool));
+        setChecklist(data);
+      } catch (error) {
+        console.error("Failed to load affirmation cards:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [toolKit, toolKitID]);
+
+  console.log("checklist", checklist);
+  console.log("toolInformation", toolInformation);
+  console.log("tool page", formatUrlToID(tool));
+
+  if (!toolInformation) {
+    return <div>Error: Tool information not found.</div>;
+  }
+
+  if (loading) {
+    return <div>Loading affirmation cards...</div>;
+  }
+
+  const handleCheckChange = (item: string, checked: boolean) => {
+    setCheckedItems((prev) => ({
+      ...prev,
+      [item]: checked,
+    }));
+  };
+
+  return (
+    <div className="mx-auto py-2 md:py-4 lg:py-6 w-10/12">
+      <div className="gap-2 md:gap-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+        {checklist.map((item, index) => (
+          <div className="flex items-center space-x-2" key={index}>
+            <Checkbox
+              id={`checkbox-${index}`}
+              checked={checkedItems[item] || false}
+              onCheckedChange={(checked) => handleCheckChange(item, !!checked)}
+            />
+            <label
+              htmlFor={`checkbox-${index}`}
+              className={`peer-disabled:opacity-70 font-medium text-sm leading-none peer-disabled:cursor-not-allowed transition-all duration-200 ${
+                checkedItems[item]
+                  ? "line-through text-gray-400"
+                  : "text-black dark:text-white"
+              }`}
+            >
+              {item}
+            </label>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
