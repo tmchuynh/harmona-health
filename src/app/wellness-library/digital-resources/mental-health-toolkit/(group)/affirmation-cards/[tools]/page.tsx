@@ -43,9 +43,8 @@ export default function Page() {
   }
 
   return (
-    <div className="py-2 md:py-4 lg:py-6">
-      <h2>{toolInformation.description}</h2>
-      <h5>{toolInformation.subtitle}</h5>
+    <div className="pb-2 md:pb-4 lg:pb-6">
+      <h3>{toolInformation.subtitle}</h3>
 
       {toolInformation.introduction.map((intro: string, index: number) => (
         <p key={index}>{intro}</p>
