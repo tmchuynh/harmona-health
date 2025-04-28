@@ -23,3 +23,33 @@ export function getRandomIndex<T>(array: T[]): number {
   }
   return Math.floor(Math.random() * array.length);
 }
+
+
+/**
+ * Dynamically imports and returns a specific tool resource from a toolkit.
+ * 
+ * @param toolKit - The name of the toolkit containing the desired tool resource
+ * @param toolKitID - The identifier of the specific tool resource to load
+ * @returns A Promise that resolves to the requested tool resource, or null if loading fails
+ * 
+ * @example
+ * // Load a specific meditation exercise from the meditation toolkit
+ * const meditationExercise = await getToolResource('meditation', 'deepBreathing');
+ * 
+ * @throws Will not throw errors directly, but logs errors to the console
+ */
+export async function getToolResource(toolKit: string, tool: string, toolKitID: string) {
+  try {
+    const toolModule = await import(`@/lib/resources/toolkits/tools/${toolKit}/${tool}`);
+     // Return the specific named export that matches toolKitID
+     if (toolModule[toolKitID]) {
+      return toolModule[toolKitID];
+    } else {
+      console.error(`Export named ${toolKitID} not found in module`);
+      return [];
+    }
+  } catch (error) {
+    console.error(`Error loading resource: ${error}`);
+    return [];
+  }
+}
