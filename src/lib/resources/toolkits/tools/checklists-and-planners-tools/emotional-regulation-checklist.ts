@@ -1,4 +1,4 @@
-export const emotionalRegulationChecklist = [
+export const emotionalRegulationChecklist: string[] = [
   "Pause and name your emotion",
   "Use a grounding technique (5-4-3-2-1)",
   "Take 5 deep breaths",

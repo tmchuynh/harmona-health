@@ -1,4 +1,6 @@
-export const mindfulnessPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const mindfulnessPrompts: JournalPrompts[] = [
   {
     prompt:
       "What am I feeling in this moment? How can I acknowledge and accept these emotions without judgment?",

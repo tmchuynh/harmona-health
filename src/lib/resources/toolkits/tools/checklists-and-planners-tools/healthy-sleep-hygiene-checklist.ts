@@ -1,4 +1,4 @@
-export const healthySleepHygieneChecklist = [
+export const healthySleepHygieneChecklist: string[] = [
   "Stick to a consistent sleep schedule",
   "Dim the lights an hour before bedtime",
   "Visualize a peaceful place",

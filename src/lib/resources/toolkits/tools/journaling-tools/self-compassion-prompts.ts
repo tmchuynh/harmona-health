@@ -1,4 +1,6 @@
-export const selfCompassionPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const selfCompassionPrompts: JournalPrompts[] = [
   {
     prompt: "What is one way I can be kinder to myself today?",
     ideas: [

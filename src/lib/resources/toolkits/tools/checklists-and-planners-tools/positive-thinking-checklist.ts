@@ -1,4 +1,4 @@
-export const positiveThinkingChecklist = [
+export const positiveThinkingChecklist: string[] = [
   "Write three positive affirmations",
   "List five things you are grateful for",
   "Celebrate a small success",

@@ -1,4 +1,6 @@
-export const dailyJournalingPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const dailyJournalingPrompts: JournalPrompts[] = [
   {
     prompt: "What does my ideal day look like?",
     ideas: [

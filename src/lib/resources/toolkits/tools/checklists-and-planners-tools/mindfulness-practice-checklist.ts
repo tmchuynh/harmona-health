@@ -1,4 +1,4 @@
-export const mindfulnessPracticeChecklist = [
+export const mindfulnessPracticeChecklist: string[] = [
   "Do a 5-minute body scan meditation",
   "Eat a meal mindfully",
   "Journal a stream of consciousness for 5 minutes",

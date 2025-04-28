@@ -1,4 +1,4 @@
-export const socialConnectionChecklist = [
+export const socialConnectionChecklist: string[] = [
   "Text or call a friend today",
   "Send a supportive message to someone",
   "Schedule a coffee date or meet-up",

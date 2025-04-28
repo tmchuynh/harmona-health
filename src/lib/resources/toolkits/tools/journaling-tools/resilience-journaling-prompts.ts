@@ -1,4 +1,6 @@
-export const resilienceJournalingPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const resilienceJournalingPrompts: JournalPrompts[] = [
   {
     prompt:
       "What challenges have I overcome in the past that have made me stronger?",

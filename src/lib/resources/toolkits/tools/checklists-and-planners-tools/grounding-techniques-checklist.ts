@@ -1,4 +1,4 @@
-export const groundingTechniquesChecklist = [
+export const groundingTechniquesChecklist: string[] = [
   "Touch different textured objects intentionally (smooth, rough, soft)",
   "Hold a textured object tightly",
   "Press your feet firmly to the floor",

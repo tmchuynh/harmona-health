@@ -1,4 +1,6 @@
-export const goalSettingAndVisionBoardReflectionPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
   {
     prompt: "What are my top three goals for the next year?",
     ideas: [

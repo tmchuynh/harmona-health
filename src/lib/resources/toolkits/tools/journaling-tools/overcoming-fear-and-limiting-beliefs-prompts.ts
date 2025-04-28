@@ -1,4 +1,6 @@
-export const overcomingFearAndLimitingBeliefsPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
   {
     prompt:
       "What is one fear I’ve been avoiding, and what would it look like to face it head-on?",

@@ -1,4 +1,4 @@
-export const dailySelfCareChecklist = [
+export const dailySelfCareChecklist: string[] = [
   "Drink enough water",
   "Eat three balanced meals",
   "Take 10 minutes to stretch",

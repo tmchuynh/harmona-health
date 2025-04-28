@@ -1,4 +1,4 @@
-export const burnoutPreventionChecklist = [
+export const burnoutPreventionChecklist: string[] = [
   "Take regular screen breaks",
   "Set clear work boundaries",
   "Prioritize self-care activities",

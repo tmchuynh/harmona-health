@@ -1,4 +1,6 @@
-export const emotionalHealingPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const emotionalHealingPrompts: JournalPrompts[] = [
   {
     prompt:
       "What emotions am I holding onto right now, and how can I begin to release them?",

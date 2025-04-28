@@ -1,4 +1,6 @@
-export const creativityJournalingPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const creativityJournalingPrompts: JournalPrompts[] = [
   {
     prompt: "Write a letter to your future self.",
     ideas: [

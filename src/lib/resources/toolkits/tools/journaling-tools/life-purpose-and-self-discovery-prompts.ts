@@ -1,4 +1,6 @@
-export const lifePurposeAndSelfDiscoveryPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
   {
     prompt: "What activities or experiences make me feel most alive?",
     ideas: [

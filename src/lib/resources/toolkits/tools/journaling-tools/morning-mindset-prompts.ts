@@ -1,4 +1,6 @@
-export const morningMindsetPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const morningMindsetPrompts: JournalPrompts[] = [
   {
     prompt: "What am I grateful for as I start my day?",
     ideas: [

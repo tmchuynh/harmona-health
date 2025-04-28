@@ -1,4 +1,6 @@
-export const dealingWithStressPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const dealingWithStressPrompts: JournalPrompts[] = [
   {
     prompt:
       "What are the main sources of stress in my life, and how can I address them?",

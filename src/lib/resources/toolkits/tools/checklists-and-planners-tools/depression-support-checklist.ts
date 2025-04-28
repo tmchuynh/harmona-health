@@ -1,4 +1,4 @@
-export const depressionSupportChecklist = [
+export const depressionSupportChecklist: string[] = [
   "Take a shower or bath",
   "Eat a nutritious meal",
   "Talk to a therapist or counselor",

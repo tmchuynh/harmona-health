@@ -1,4 +1,4 @@
-export const anxietyManagementChecklist = [
+export const anxietyManagementChecklist: string[] = [
   "Practice deep breathing exercises",
   "Use grounding techniques (5-4-3-2-1)",
   "Write down your worries",

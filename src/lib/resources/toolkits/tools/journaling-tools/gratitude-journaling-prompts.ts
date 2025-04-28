@@ -1,4 +1,6 @@
-export const gratitudeJournalingPrompts = [
+import { JournalPrompts } from "@/lib/interfaces&types/resources";
+
+export const gratitudeJournalingPrompts: JournalPrompts[] = [
   {
     prompt: "What are three things I am truly grateful for today?",
     ideas: [
