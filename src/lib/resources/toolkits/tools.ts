@@ -1267,92 +1267,84 @@ const journalingTools: Tool[] = [
 ];
 const checklistsAndPlannersTools: Tool[] = [
   {
-    id: "stress-management-tool-9",
+    id: "mental-health-checklist-1",
     categoryId: "checklistsAndPlannersTools",
-    title: "Stress Coping Strategies Checklist",
+    title: "Daily Self-Care Checklist",
     description:
-      "A checklist of evidence-based strategies to help users manage stress effectively.",
-    href: "/tools/stress-coping-strategies-checklist",
+      "A practical checklist to ensure you prioritize your mental, emotional, and physical self-care every day.",
+    href: "/tools/daily-self-care-checklist",
   },
   {
-    id: "work-life-tool-2",
+    id: "mental-health-checklist-2",
     categoryId: "checklistsAndPlannersTools",
-    title: "Stress Management Checklist",
+    title: "Anxiety Management Checklist",
     description:
-      "A checklist of strategies to manage stress and maintain a healthy work-life balance.",
-    href: "/tools/stress-management-checklist",
+      "A focused checklist designed to help manage symptoms of anxiety through actionable coping strategies.",
+    href: "/tools/anxiety-management-checklist",
   },
   {
-    id: "grief-tool-3",
+    id: "mental-health-checklist-3",
     categoryId: "checklistsAndPlannersTools",
-    title: "Grief Support Checklist",
+    title: "Depression Support Checklist",
     description:
-      "A checklist to help users identify and connect with grief support resources.",
-    href: "/tools/grief-support-checklist",
+      "A compassionate checklist offering daily practices and reminders to support mental health during depressive periods.",
+    href: "/tools/depression-support-checklist",
   },
   {
-    id: "trauma-tool-4",
+    id: "mental-health-checklist-4",
     categoryId: "checklistsAndPlannersTools",
-    title: "Trauma Coping Skills Checklist",
+    title: "Mindfulness Practice Checklist",
     description:
-      "A checklist of coping skills to help users manage trauma-related symptoms.",
-    href: "/tools/trauma-coping-skills-checklist",
+      "A step-by-step checklist for incorporating mindfulness into your daily life to reduce stress and improve focus.",
+    href: "/tools/mindfulness-practice-checklist",
   },
   {
-    id: "gut-health-tool-4",
+    id: "mental-health-checklist-5",
     categoryId: "checklistsAndPlannersTools",
-    title: "Elimination Diet Planner",
+    title: "Emotional Regulation Checklist",
     description:
-      "A planner to help users identify food sensitivities by guiding them through an elimination diet process with step-by-step instructions.",
-    href: "/tools/elimination-diet-planner",
+      "A checklist of techniques and habits to help regulate emotions and build resilience in challenging moments.",
+    href: "/tools/emotional-regulation-checklist",
   },
   {
-    id: "anxiety-tool-5",
+    id: "mental-health-checklist-6",
     categoryId: "checklistsAndPlannersTools",
-    title: "Coping Skills Checklist",
+    title: "Healthy Sleep Hygiene Checklist",
     description:
-      "A checklist of evidence-based coping strategies for managing anxiety in daily life.",
-    href: "/tools/coping-skills-checklist",
+      "A practical checklist to help you develop healthy sleep routines that support mental and emotional well-being.",
+    href: "/tools/healthy-sleep-hygiene-checklist",
   },
   {
-    id: "depression-tool-3",
+    id: "mental-health-checklist-7",
     categoryId: "checklistsAndPlannersTools",
-    title: "Self-Care Checklist",
+    title: "Social Connection Checklist",
     description:
-      "A checklist to ensure users are engaging in essential self-care activities to support mental health.",
-    href: "/tools/self-care-checklist",
+      "A checklist designed to strengthen your social support system and improve emotional connectedness.",
+    href: "/tools/social-connection-checklist",
   },
   {
-    id: "balanced-nutrition-tool-7",
+    id: "mental-health-checklist-8",
     categoryId: "checklistsAndPlannersTools",
-    title: "Food Group Checklist",
+    title: "Burnout Prevention Checklist",
     description:
-      "A checklist to ensure users are including all essential food groups in their daily meals for balanced nutrition.",
-    href: "/tools/food-group-checklist",
+      "A checklist to identify burnout symptoms early and incorporate strategies for sustainable self-care and recovery.",
+    href: "/tools/burnout-prevention-checklist",
   },
   {
-    id: "relationship-tool-3",
+    id: "mental-health-checklist-9",
     categoryId: "checklistsAndPlannersTools",
-    title: "Relationship Goals Worksheet",
+    title: "Grounding Techniques Checklist",
     description:
-      "A worksheet to set and track goals for improving relationships.",
-    href: "/tools/relationship-goals-worksheet",
+      "A set of grounding exercises organized into a checklist to help center yourself during anxiety or dissociation episodes.",
+    href: "/tools/grounding-techniques-checklist",
   },
   {
-    id: "resilience-tool-4",
+    id: "mental-health-checklist-10",
     categoryId: "checklistsAndPlannersTools",
-    title: "Overcoming Setbacks Worksheet",
+    title: "Positive Thinking Checklist",
     description:
-      "A worksheet to help users analyze setbacks and develop strategies for bouncing back.",
-    href: "/tools/overcoming-setbacks-worksheet",
-  },
-  {
-    id: "self-esteem-tool-6",
-    categoryId: "checklistsAndPlannersTools",
-    title: "Overcoming Negative Self-Talk Worksheet",
-    description:
-      "A worksheet to help identify and challenge negative self-talk patterns, replacing them with empowering and affirming thoughts.",
-    href: "/tools/overcoming-negative-self-talk-worksheet",
+      "A checklist to foster a positive mindset by incorporating daily affirmations, gratitude, and optimistic habits.",
+    href: "/tools/positive-thinking-checklist",
   },
 ];
 const emotionalRegulationToolkit: Tool[] = [
