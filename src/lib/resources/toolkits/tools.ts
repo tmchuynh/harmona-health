@@ -1169,17 +1169,65 @@ const behavioralActivationWorksheets: Tool[] = [
 ];
 const journalingTools: Tool[] = [
   {
-    id: "stress-management-tool-4",
+    id: "self-discovery-tool-1",
     categoryId: "journalingTools",
-    title: "Stress Journal",
+    title: "Life Purpose and Self-Discovery Prompts",
     description:
-      "A journaling tool to help users reflect on stress triggers and develop strategies to manage them effectively.",
-    href: "/tools/stress-journal",
+      "A collection of prompts to help you explore your inner self, values, and beliefs.",
+    href: "/tools/self-discovery-prompts",
+  },
+  {
+    id: "self-discovery-tool-2",
+    categoryId: "journalingTools",
+    title: "Gratitude Journaling Prompts",
+    description:
+      "Prompts to help you focus on the positive aspects of life and cultivate gratitude.",
+    href: "/tools/gratitude-journaling-prompts",
+  },
+  {
+    id: "self-discovery-tool-3",
+    categoryId: "journalingTools",
+    title: "Goal-Setting and Vision Board Reflection Prompts",
+    description:
+      "Prompts to guide you in setting clear, actionable goals and tracking your progress.",
+    href: "/tools/goal-setting-prompts",
+  },
+  {
+    id: "self-discovery-tool-4",
+    categoryId: "journalingTools",
+    title: "Mindfulness Prompts",
+    description:
+      "Prompts to help you stay present and increase mindfulness in your daily life.",
+    href: "/tools/mindfulness-prompts",
+  },
+  {
+    id: "self-discovery-tool-5",
+    categoryId: "journalingTools",
+    title: "Emotional Healing Prompts",
+    description:
+      "Prompts designed to help you process emotions and heal from difficult experiences.",
+    href: "/tools/emotional-healing-prompts",
+  },
+  {
+    id: "self-discovery-tool-6",
+    categoryId: "journalingTools",
+    title: "Creativity Journaling Prompts",
+    description:
+      "Prompts to ignite your creative energy and explore new ideas and artistic endeavors.",
+    href: "/tools/creativity-journaling-prompts",
+  },
+  {
+    id: "self-discovery-tool-7",
+    categoryId: "journalingTools",
+    title: "Self-Compassion Prompts",
+    description:
+      "Prompts that encourage self-love, acceptance, and kindness towards yourself.",
+    href: "/tools/self-compassion-prompts",
   },
   {
     id: "self-discovery-tool-1",
     categoryId: "journalingTools",
-    title: "Journaling Prompts",
+    title: "Daily Journaling Prompts",
     description:
       "A collection of thought-provoking journaling prompts to help you explore your emotions, thoughts, and personal values.",
     href: "/tools/journaling-prompts",
@@ -1187,130 +1235,34 @@ const journalingTools: Tool[] = [
   {
     id: "resilience-tool-3",
     categoryId: "journalingTools",
-    title: "Resilience Journal",
+    title: "Resilience Journaling Prompts",
     description:
       "A journal to track progress in building resilience and reflect on personal growth.",
     href: "/tools/resilience-journal",
   },
   {
-    id: "self-compassion-tool-1",
+    id: "self-discovery-tool-11",
     categoryId: "journalingTools",
-    title: "Self-Kindness Journal",
+    title: "Morning Mindset Prompts",
     description:
-      "A guided journal to help users practice self-kindness and compassion during challenging times.",
-    href: "/tools/self-kindness-journal",
+      "A collection of prompts to help you start your day with intention, focus, and a positive mindset.",
+    href: "/tools/morning-mindset-prompts",
   },
   {
-    id: "self-care-tool-1",
+    id: "self-discovery-tool-14",
     categoryId: "journalingTools",
-    title: "Daily Self-Care Planner",
+    title: "Overcoming Fear and  Limiting Beliefs Prompts",
     description:
-      "A daily planner to help you organize self-care activities and ensure you're prioritizing your well-being.",
-    href: "/tools/daily-self-care-planner",
+      "Prompts to challenge and rewrite limiting beliefs that may be holding you back and help you understand their roots.",
+    href: "/tools/overcoming-limiting-beliefs-prompts",
   },
   {
-    id: "gratitude-tool-1",
+    id: "self-discovery-tool-19",
     categoryId: "journalingTools",
-    title: "Daily Gratitude Journal",
+    title: "Dealing with Stress Prompts",
     description:
-      "A simple template to help users reflect on and document things they are grateful for each day.",
-    href: "/tools/daily-gratitude-journal",
-  },
-  {
-    id: "gratitude-tool-4",
-    categoryId: "journalingTools",
-    title: "Gratitude and Goals Journal",
-    description:
-      "A journal combining gratitude practices with goal-setting to foster positivity and motivation.",
-    href: "/tools/gratitude-and-goals-journal",
-  },
-  {
-    id: "gratitude-tool-5",
-    categoryId: "journalingTools",
-    title: "Gratitude Reflection Worksheet",
-    description:
-      "A worksheet to reflect on past experiences and identify moments of gratitude.",
-    href: "/tools/gratitude-reflection-worksheet",
-  },
-  {
-    id: "mood-tracking-tool-1",
-    categoryId: "journalingTools",
-    title: "Daily Mood Journal",
-    description:
-      "A simple journal template to log daily moods and emotions, helping users identify patterns over time.",
-    href: "/tools/daily-mood-journal",
-  },
-  {
-    id: "self-esteem-tool-1",
-    categoryId: "journalingTools",
-    title: "Self-Esteem Journal",
-    description:
-      "A journal to help you track your self-esteem journey, reflecting on your achievements, challenges, and areas for growth.",
-    href: "/tools/self-esteem-journal",
-  },
-  {
-    id: "mood-tracking-tool-3",
-    categoryId: "journalingTools",
-    title: "Weekly Mood Overview",
-    description:
-      "A weekly summary template to visualize mood trends and identify recurring emotional patterns.",
-    href: "/tools/weekly-mood-overview",
-  },
-  {
-    id: "mindfulness-tool-2",
-    categoryId: "journalingTools",
-    title: "Gratitude Journal",
-    description:
-      "A daily journaling tool that helps you focus on the positive aspects of your life, improving emotional resilience. It encourages a mindset of gratitude and positivity.",
-    href: "/tools/gratitude-journal",
-  },
-  {
-    id: "cbt-tool-4",
-    categoryId: "journalingTools",
-    title: "Self-Monitoring Log",
-    description:
-      "A log to track thoughts, emotions, and behaviors throughout the day, helping users identify patterns and triggers.",
-    href: "/tools/self-monitoring-log",
-  },
-  {
-    id: "cbt-tool-10",
-    categoryId: "journalingTools",
-    title: "Automatic Thought Journal",
-    description:
-      "A journal to capture automatic thoughts and evaluate their accuracy and impact on emotions and behaviors.",
-    href: "/tools/automatic-thought-journal",
-  },
-  {
-    id: "trauma-tool-2",
-    categoryId: "journalingTools",
-    title: "Trauma Recovery Journal",
-    description:
-      "A journal to help users process and reflect on their trauma recovery journey.",
-    href: "/tools/trauma-recovery-journal",
-  },
-  {
-    id: "grief-tool-1",
-    categoryId: "journalingTools",
-    title: "Grief Journal",
-    description:
-      "A journal to help users process and reflect on their grief journey.",
-    href: "/tools/grief-journal",
-  },
-  {
-    id: "grief-tool-5",
-    categoryId: "journalingTools",
-    title: "Daily Reflection Prompts",
-    description:
-      "Prompts to encourage daily reflection and emotional processing during grief.",
-    href: "/tools/daily-reflection-prompts",
-  },
-  {
-    id: "anger-tool-3",
-    categoryId: "journalingTools",
-    title: "Anger Management Journal",
-    description:
-      "A journal to document anger episodes and explore strategies for managing them.",
-    href: "/tools/anger-management-journal",
+      "Prompts to help you process and manage stress, with a focus on finding solutions and nurturing your peace.",
+    href: "/tools/dealing-with-stress-prompts",
   },
 ];
 const checklistsAndPlannersTools: Tool[] = [
