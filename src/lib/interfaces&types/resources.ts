@@ -58,8 +58,10 @@ export interface Tool {
   id: string;
   title: string;
   description: string;
-  href: string; // NEEDS TO BE REMOVED
+  href?: string; // NEEDS TO BE REMOVED
   categoryId: string;
+  subtitle?: string;
+  introduction?: string[];
 }
 
 export interface Events {
@@ -94,4 +96,11 @@ export interface About {
   icon: string;
   callToAction?: string;
   linkText?: string;
+}
+
+export interface AffirmationCards {
+  title: string;
+  description: string;
+  frontImage?: string;
+  backImage?: string;
 }
