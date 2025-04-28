@@ -104,3 +104,8 @@ export interface AffirmationCards {
   frontImage?: string;
   backImage?: string;
 }
+
+export interface JournalPrompts {
+  prompt: string;
+  ideas: string[];
+}
