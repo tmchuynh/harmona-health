@@ -11,9 +11,11 @@ export default function Layout({ children }: { children: ReactNode }) {
   const toolKit = usePathname().split("/").slice(-2)[0];
 
   const toolKitID = formatUrlToID(toolKit);
-  const toolName = capitalize(tool);
+  const toolName = capitalize(tool).trim();
 
   const correspondingTools = toolsMap[toolKitID as keyof typeof toolsMap];
+
+  console.log("correspondingTools", correspondingTools);
 
   const toolInformation = correspondingTools?.find(
     (toolInfo) => toolInfo.title === toolName
@@ -23,6 +25,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   console.log("toolKit", toolKit);
   console.log("toolKitID", toolKitID);
   console.log("toolName", toolName);
+  console.log("toolInformation from layout", toolInformation);
 
   return (
     <ToolProvider value={{ tool, toolKit, toolKitID, toolInformation }}>
