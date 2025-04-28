@@ -694,7 +694,7 @@ const affirmationCards: Tool[] = [
   {
     id: "affirmation-tool-2",
     categoryId: "affirmationCards",
-    title: "Self-Worth Affirmation Cards",
+    title: "Self Worth Affirmation Cards",
     subtitle:
       "Rediscover Your Value: Affirmations That Strengthen Confidence and Inner Worth",
     description:
@@ -763,7 +763,7 @@ const affirmationCards: Tool[] = [
   {
     id: "affirmation-tool-7",
     categoryId: "affirmationCards",
-    title: "Self-Compassion Affirmations",
+    title: "Self Compassion Affirmations",
     subtitle:
       "Unlock Your Potential: Affirmations for Building Confidence, Focus, and Growth",
     description:
