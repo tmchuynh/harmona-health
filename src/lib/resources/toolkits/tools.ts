@@ -1087,86 +1087,77 @@ const workLifeBalanceTools: Tool[] = [
 ];
 const behavioralActivationActivities: Tool[] = [
   {
-    id: "behavioral-activation-tool-1",
+    id: "health-habits",
     categoryId: "behavioralActivationActivities",
-    title: "Activity Scheduling Template",
+    title: "Healthy Habits",
     description:
-      "A template to help users plan and schedule activities that bring joy and fulfillment, promoting positive behavior changes.",
-    href: "/tools/activity-scheduling-template",
+      "These are activities that support physical and mental well-being. They help you build consistency, reduce stress, and promote overall health.",
   },
   {
-    id: "behavioral-activation-tool-2",
+    id: "social-connection",
     categoryId: "behavioralActivationActivities",
-    title: "Pleasant Activities List",
+    title: "Social Connection",
     description:
-      "A curated list of enjoyable activities to inspire users to engage in actions that improve mood and well-being.",
-    href: "/tools/pleasant-activities-list",
+      "Activities that foster meaningful connections with others. They promote social well-being, build relationships, and reduce feelings of isolation.",
   },
   {
-    id: "behavioral-activation-tool-3",
+    id: "creative-expression",
     categoryId: "behavioralActivationActivities",
-    title: "Behavioral Goals Tracker",
+    title: "Creative Expression",
     description:
-      "A tracker to monitor progress toward behavioral goals, helping users stay motivated and consistent.",
-    href: "/tools/behavioral-goals-tracker",
+      "Activities that allow you to express your thoughts and feelings in artistic ways. This includes journaling, painting, music, and any form of creative output.",
   },
   {
-    id: "behavioral-activation-tool-4",
+    id: "mindfulness-practices",
     categoryId: "behavioralActivationActivities",
-    title: "Values-Based Activity Planner",
+    title: "Mindfulness Practices",
     description:
-      "A planner to align daily activities with personal values, fostering a sense of purpose and fulfillment.",
-    href: "/tools/values-based-activity-planner",
+      "Engaging in activities that promote present-moment awareness and reduce stress, such as meditation, deep breathing, and mindfulness-based exercises.",
   },
   {
-    id: "behavioral-activation-tool-5",
+    id: "physical-activity",
     categoryId: "behavioralActivationActivities",
-    title: "Overcoming Barriers Worksheet",
+    title: "Physical Activity",
     description:
-      "A worksheet to identify and address obstacles that prevent users from engaging in positive activities.",
-    href: "/tools/overcoming-barriers-worksheet",
+      "Exercise routines and activities that promote physical health, increase energy, and improve mood. This includes walking, yoga, strength training, and aerobic exercises.",
   },
   {
-    id: "behavioral-activation-tool-6",
+    id: "self-care",
     categoryId: "behavioralActivationActivities",
-    title: "Daily Reflection Journal",
+    title: "Self-Care",
     description:
-      "A journal to help users reflect on their daily activities, identify patterns, and assess how they align with their goals.",
-    href: "/tools/daily-reflection-journal",
+      "Activities focused on nurturing your mental, emotional, and physical well-being, such as taking relaxing baths, skincare routines, and practicing gratitude.",
   },
   {
-    id: "behavioral-activation-tool-7",
+    id: "cognitive-restructuring",
     categoryId: "behavioralActivationActivities",
-    title: "Motivation Booster Worksheet",
+    title: "Cognitive Restructuring",
     description:
-      "A worksheet designed to increase motivation by helping users explore their reasons for change and the benefits of acting.",
-    href: "/tools/motivation-booster-worksheet",
+      "Techniques that help you identify and challenge negative thought patterns. Activities might include journaling, affirmations, or guided cognitive exercises.",
   },
   {
-    id: "behavioral-activation-tool-8",
+    id: "goal-setting",
     categoryId: "behavioralActivationActivities",
-    title: "Activity Enjoyment Scale",
+    title: "Goal Setting",
     description:
-      "A tool to rate the level of enjoyment for each activity and analyze which ones lead to the most positive outcomes.",
-    href: "/tools/activity-enjoyment-scale",
+      "Activities designed to help you set clear, achievable goals. This can include creating to-do lists, setting SMART goals, and using productivity tools to stay on track.",
   },
   {
-    id: "behavioral-activation-tool-9",
+    id: "time-management",
     categoryId: "behavioralActivationActivities",
-    title: "Gratitude and Achievement Journal",
+    title: "Time Management",
     description:
-      "A journal to help users recognize and record their daily achievements and moments of gratitude, fostering positive reinforcement.",
-    href: "/tools/gratitude-and-achievement-journal",
+      "Activities that enhance your ability to organize and manage time effectively, such as prioritizing tasks, using planners, and breaking large tasks into smaller steps.",
   },
   {
-    id: "behavioral-activation-tool-10",
+    id: "gratitude-practices",
     categoryId: "behavioralActivationActivities",
-    title: "Behavioral Experiment Worksheet",
+    title: "Gratitude Practices",
     description:
-      "A tool that helps users plan and evaluate small experiments to test new behaviors and learn from their experiences.",
-    href: "/tools/behavioral-experiment-worksheet",
+      "Engaging in activities that foster appreciation and positive thinking, such as keeping a gratitude journal or expressing thanks to others.",
   },
 ];
+
 const journalingPrompts: Tool[] = [
   {
     id: "self-discovery-tool-1",
