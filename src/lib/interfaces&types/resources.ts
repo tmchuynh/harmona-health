@@ -109,3 +109,14 @@ export interface JournalPrompts {
   prompt: string;
   ideas: string[];
 }
+export interface BehavioralActivities {
+  title: string;
+  introduction: string;
+  description: string;
+  steps: {
+    step: string;
+    note?: string;
+  }[];
+  conclusion: string;
+  afterThoughts?: string;
+}
