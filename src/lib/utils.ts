@@ -25,24 +25,32 @@ export function getRandomIndex<T>(array: T[]): number {
 }
 
 
+
 /**
- * Dynamically imports and returns a specific tool resource from a toolkit.
+ * Asynchronously loads and retrieves a specific resource from a toolkit module.
  * 
- * @param toolKit - The name of the toolkit containing the desired tool resource
- * @param toolKitID - The identifier of the specific tool resource to load
- * @returns A Promise that resolves to the requested tool resource, or null if loading fails
+ * @param {string} toolKit - The name of the toolkit directory to search in.
+ * @param {string} tool - The name of the tool file within the toolkit directory.
+ * @param {string} toolKitID - The specific named export to retrieve from the module.
+ * @returns {Promise<any>} The requested resource if found, or an empty array if the resource cannot be loaded.
  * 
  * @example
- * // Load a specific meditation exercise from the meditation toolkit
- * const meditationExercise = await getToolResource('meditation', 'deepBreathing');
+ * // Returns the 'anxietyTools' export from the specified module
+ * const resource = await getToolResource('mental', 'anxiety', 'anxietyTools');
  * 
- * @throws Will not throw errors directly, but logs errors to the console
+ * @throws {Error} Logs an error if the module cannot be imported or if the specified export doesn't exist.
  */
-export async function getToolResource(toolKit: string, tool: string, toolKitID: string) {
+export async function getToolResource(
+  toolKit: string,
+  tool: string,
+  toolKitID: string
+): Promise<any> {
   try {
-    const toolModule = await import(`@/lib/resources/toolkits/tools/${toolKit}/${tool}`);
-     // Return the specific named export that matches toolKitID
-     if (toolModule[toolKitID]) {
+    const toolModule = await import(
+      `@/lib/resources/toolkits/tools/${toolKit}/${tool}`
+    );
+    // Return the specific named export that matches toolKitID
+    if (toolModule[toolKitID]) {
       return toolModule[toolKitID];
     } else {
       console.error(`Export named ${toolKitID} not found in module`);
