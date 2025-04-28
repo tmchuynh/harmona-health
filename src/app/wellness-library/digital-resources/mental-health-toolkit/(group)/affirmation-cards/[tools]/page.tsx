@@ -18,8 +18,6 @@ export default function Page() {
   const [cardData, setCardData] = useState<AffirmationCards[][]>([]);
   const [loading, setLoading] = useState(true);
 
-  console.log("Formatted Tool: ", formatUrlToID(tool));
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -35,8 +33,6 @@ export default function Page() {
 
     fetchData();
   }, [toolKit, toolKitID]);
-
-  console.log("Card Data:", cardData);
 
   if (!toolInformation) {
     return <div>Error: Tool information not found.</div>;

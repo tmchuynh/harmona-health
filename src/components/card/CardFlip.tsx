@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Card } from "../ui/card";
+import { getAccessibleColorForImage } from "@/lib/utils/accessibility";
 
 const CardFlip = ({
   title,
@@ -14,10 +15,30 @@ const CardFlip = ({
   backImage: string;
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
+  const [frontTextColor, setFrontTextColor] = useState("#000000");
+  const [backTextColor, setBackTextColor] = useState("#000000");
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
+
+  useEffect(() => {
+    async function determineTextColor() {
+      try {
+        const frontColor = await getAccessibleColorForImage(frontImage);
+        const backColor = await getAccessibleColorForImage(backImage);
+        setFrontTextColor(frontColor);
+        setBackTextColor(backColor);
+      } catch (error) {
+        console.error("Failed to determine text color:", error);
+      }
+    }
+
+    determineTextColor();
+  }, [frontImage, backImage]);
+
+  console.log("frontTextColor", frontTextColor);
+  console.log("backTextColor", backTextColor);
 
   return (
     <div
@@ -30,16 +51,21 @@ const CardFlip = ({
         }`}
       >
         {/* Front Side */}
-        <div className="absolute backface-hidden h-full">
+        <div className="absolute backface-hidden h-full overflow-hidden">
           <Image
             src={frontImage}
             alt={title || "Card Image"}
             width={256}
             height={384}
-            className="rounded-lg h-full object-cover object-center"
+            className="opacity-65 rounded-lg h-full object-cover object-center"
           />
-          <div className="top-[25%] absolute inset-0 mx-auto w-10/12">
-            {title && <h1>{title}</h1>}
+
+          <div className="bottom-[15%] absolute px-3">
+            {title && (
+              <h3 className="hyphens-auto" style={{ color: frontTextColor }}>
+                {title}
+              </h3>
+            )}
           </div>
         </div>
 
@@ -53,7 +79,12 @@ const CardFlip = ({
             className="opacity-25 rounded-lg h-full object-cover object-center"
           />
           <div className="top-[35%] absolute inset-0 mx-auto w-10/12">
-            <p className="font-extrabold text-lg">{description}</p>
+            <p
+              className="font-extrabold text-lg"
+              style={{ color: backTextColor }}
+            >
+              {description}
+            </p>
           </div>
         </div>
       </Card>
