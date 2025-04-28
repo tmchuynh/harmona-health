@@ -6,6 +6,7 @@ const imageHosts = [
   "tailwindcss.com",
   "bremershs.eq.edu.au",
   "plus.unsplash.com",
+  "img.freepik.com",
 ];
 
 const nextConfig: NextConfig = {
