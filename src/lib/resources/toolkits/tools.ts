@@ -1,5 +1,4 @@
 import { Tool } from "@/lib/interfaces&types/resources";
-
 const nutritionTools: Tool[] = [
   {
     id: "balanced-nutrition-tool-1",
@@ -7,7 +6,6 @@ const nutritionTools: Tool[] = [
     title: "Healthy Eating Plate",
     description:
       "An interactive tool that helps users visualize and understand how to balance their meals using a variety of food groups. This tool provides practical guidance on portion sizes and nutrient diversity to support a healthy diet.",
-    href: "/tools/healthy-eating-plate",
   },
   {
     id: "gut-health-tool-1",
@@ -15,7 +13,6 @@ const nutritionTools: Tool[] = [
     title: "Gut Health Tracker",
     description:
       "Track your digestive health by logging symptoms and triggers, helping you identify patterns and improve gut health over time. This tool also provides insights into dietary changes that can support a healthier gut.",
-    href: "/tools/gut-health-tracker",
   },
   {
     id: "gut-health-tool-2",
@@ -23,7 +20,6 @@ const nutritionTools: Tool[] = [
     title: "Probiotic Finder",
     description:
       "A tool to help you find the right probiotic based on your digestive health needs and goals. It includes recommendations for strains that support gut balance and overall wellness.",
-    href: "/tools/probiotic-finder",
   },
   {
     id: "gut-health-tool-3",
@@ -31,7 +27,6 @@ const nutritionTools: Tool[] = [
     title: "Fiber Intake Tracker",
     description:
       "A tool to monitor daily fiber intake and ensure users are meeting recommended levels to support gut health and digestion.",
-    href: "/tools/fiber-intake-tracker",
   },
   {
     id: "gut-health-tool-5",
@@ -39,7 +34,6 @@ const nutritionTools: Tool[] = [
     title: "Prebiotic Food Guide",
     description:
       "A guide to foods rich in prebiotics that support the growth of healthy gut bacteria.",
-    href: "/tools/prebiotic-food-guide",
   },
   {
     id: "gut-health-tool-6",
@@ -47,7 +41,6 @@ const nutritionTools: Tool[] = [
     title: "Digestive Enzyme Guide",
     description:
       "A resource explaining the role of digestive enzymes and how to incorporate them into your diet for better digestion.",
-    href: "/tools/digestive-enzyme-guide",
   },
   {
     id: "gut-health-tool-7",
@@ -55,7 +48,6 @@ const nutritionTools: Tool[] = [
     title: "Gut-Friendly Recipes",
     description:
       "A collection of recipes designed to promote gut health and reduce inflammation.",
-    href: "/tools/gut-friendly-recipes",
   },
   {
     id: "gut-health-tool-8",
@@ -63,7 +55,6 @@ const nutritionTools: Tool[] = [
     title: "Bloating Relief Tips",
     description:
       "A tool offering practical tips and strategies to reduce bloating and improve digestive comfort.",
-    href: "/tools/bloating-relief-tips",
   },
   {
     id: "gut-health-tool-9",
@@ -71,7 +62,6 @@ const nutritionTools: Tool[] = [
     title: "Fermented Food Tracker",
     description:
       "A tracker to help users incorporate fermented foods into their diet for improved gut health.",
-    href: "/tools/fermented-food-tracker",
   },
   {
     id: "balanced-nutrition-tool-2",
@@ -79,7 +69,6 @@ const nutritionTools: Tool[] = [
     title: "Meal Planning Template",
     description:
       "A template that guides users to plan balanced meals throughout the week, ensuring proper portion control and nutrient diversity. It includes tips for meal prep and grocery shopping to make healthy eating easier.",
-    href: "/tools/meal-planning-template",
   },
   {
     id: "balanced-nutrition-tool-3",
@@ -87,7 +76,6 @@ const nutritionTools: Tool[] = [
     title: "Portion Size Guide",
     description:
       "A visual guide to help users understand appropriate portion sizes for different food groups, promoting balanced and mindful eating habits.",
-    href: "/tools/portion-size-guide",
   },
   {
     id: "balanced-nutrition-tool-4",
@@ -95,7 +83,6 @@ const nutritionTools: Tool[] = [
     title: "Nutrient Density Calculator",
     description:
       "A calculator that helps users evaluate the nutrient density of their meals, ensuring they are getting the most nutrition out of their food choices.",
-    href: "/tools/nutrient-density-calculator",
   },
   {
     id: "balanced-nutrition-tool-5",
@@ -103,7 +90,6 @@ const nutritionTools: Tool[] = [
     title: "Hydration Tracker",
     description:
       "A tool to help users monitor their daily water intake and ensure proper hydration for optimal health.",
-    href: "/tools/hydration-tracker",
   },
   {
     id: "balanced-nutrition-tool-6",
@@ -111,7 +97,6 @@ const nutritionTools: Tool[] = [
     title: "Macro Calculator",
     description:
       "A tool to calculate macronutrient needs based on individual health goals, such as weight loss, muscle gain, or maintenance.",
-    href: "/tools/macro-calculator",
   },
   {
     id: "balanced-nutrition-tool-8",
@@ -119,7 +104,6 @@ const nutritionTools: Tool[] = [
     title: "Healthy Snack Ideas",
     description:
       "A resource providing quick and easy snack ideas that are both nutritious and satisfying.",
-    href: "/tools/healthy-snack-ideas",
   },
   {
     id: "balanced-nutrition-tool-9",
@@ -127,10 +111,8 @@ const nutritionTools: Tool[] = [
     title: "Calorie Tracker",
     description:
       "A tool to track daily calorie intake and ensure users are meeting their energy needs without overconsumption.",
-    href: "/tools/calorie-tracker",
   },
 ];
-
 const resilienceToolkit: Tool[] = [
   {
     id: "resilience-tool-1",
@@ -138,7 +120,6 @@ const resilienceToolkit: Tool[] = [
     title: "Resilience Building Plan",
     description:
       "A step-by-step guide to create a personalized plan for building resilience in daily life.",
-    href: "/tools/resilience-building-plan",
   },
   {
     id: "resilience-tool-2",
@@ -146,7 +127,6 @@ const resilienceToolkit: Tool[] = [
     title: "Stress Resilience Exercises",
     description:
       "A set of exercises to help users strengthen their ability to cope with stress and adversity.",
-    href: "/tools/stress-resilience-exercises",
   },
   {
     id: "resilience-tool-5",
@@ -154,7 +134,6 @@ const resilienceToolkit: Tool[] = [
     title: "Resilience Skills Tracker",
     description:
       "A tracker to monitor the development of resilience skills over time.",
-    href: "/tools/resilience-skills-tracker",
   },
   {
     id: "resilience-tool-6",
@@ -162,7 +141,6 @@ const resilienceToolkit: Tool[] = [
     title: "Adversity Reflection Journal",
     description:
       "A guided journal that prompts users to reflect on past challenges and identify key lessons learned to strengthen future resilience.",
-    href: "/tools/adversity-reflection-journal",
   },
   {
     id: "resilience-tool-7",
@@ -170,7 +148,6 @@ const resilienceToolkit: Tool[] = [
     title: "Optimism Booster Worksheets",
     description:
       "Worksheets designed to shift mindset towards optimism, helping users build a more resilient and positive outlook.",
-    href: "/tools/optimism-booster-worksheets",
   },
   {
     id: "resilience-tool-8",
@@ -178,7 +155,6 @@ const resilienceToolkit: Tool[] = [
     title: "Emotional Regulation Techniques",
     description:
       "A toolkit of practices and strategies to improve emotional regulation under stress, enhancing resilience.",
-    href: "/tools/emotional-regulation-techniques",
   },
   {
     id: "resilience-tool-9",
@@ -186,7 +162,6 @@ const resilienceToolkit: Tool[] = [
     title: "Problem-Solving Framework",
     description:
       "A structured approach to solving problems effectively and reducing stress when facing obstacles.",
-    href: "/tools/problem-solving-framework",
   },
   {
     id: "resilience-tool-10",
@@ -194,7 +169,6 @@ const resilienceToolkit: Tool[] = [
     title: "Daily Resilience Practices Checklist",
     description:
       "A daily checklist of simple, actionable practices to boost resilience and maintain emotional strength over time.",
-    href: "/tools/daily-resilience-practices-checklist",
   },
   {
     id: "resilience-tool-11",
@@ -202,7 +176,6 @@ const resilienceToolkit: Tool[] = [
     title: "Growth Mindset Builder",
     description:
       "A tool to cultivate a growth mindset by reframing challenges as opportunities for personal development.",
-    href: "/tools/growth-mindset-builder",
   },
   {
     id: "resilience-tool-12",
@@ -210,10 +183,8 @@ const resilienceToolkit: Tool[] = [
     title: "Support Network Mapping Tool",
     description:
       "A tool to map out your personal and professional support systems, strengthening your resilience through community.",
-    href: "/tools/support-network-mapping-tool",
   },
 ];
-
 const selfCompassionAndEsteemPractices: Tool[] = [
   {
     id: "gratitude-tool-2",
@@ -221,7 +192,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Gratitude Prompts",
     description:
       "A set of prompts to inspire deeper gratitude journaling and reflection.",
-    href: "/tools/gratitude-prompts",
   },
   {
     id: "self-care-tool-2",
@@ -229,7 +199,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Boundaries Setting Guide",
     description:
       "A guide to help you identify and set healthy boundaries with others to protect your mental and emotional well-being.",
-    href: "/tools/boundaries-setting-guide",
   },
   {
     id: "gratitude-tool-3",
@@ -237,7 +206,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Weekly Gratitude Tracker",
     description:
       "A tracker to log weekly gratitude entries and visualize positive patterns.",
-    href: "/tools/weekly-gratitude-tracker",
   },
   {
     id: "cbt-tool-5",
@@ -245,7 +213,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Positive Affirmation Builder",
     description:
       "A tool to create personalized positive affirmations that counteract negative self-talk and build self-esteem.",
-    href: "/tools/positive-affirmation-builder",
   },
   {
     id: "self-compassion-tool-2",
@@ -253,7 +220,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Self-Compassion Meditation",
     description:
       "A guided meditation to foster self-compassion and reduce self-criticism.",
-    href: "/tools/self-compassion-meditation",
   },
   {
     id: "self-compassion-tool-3",
@@ -261,7 +227,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Affirmations for Self-Compassion",
     description:
       "A collection of affirmations to help users build a healthier relationship with themselves.",
-    href: "/tools/affirmations-for-self-compassion",
   },
   {
     id: "self-compassion-tool-4",
@@ -269,7 +234,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Self-Compassion Exercises",
     description:
       "A set of exercises to help users practice self-compassion in daily life.",
-    href: "/tools/self-compassion-exercises",
   },
   {
     id: "self-compassion-tool-5",
@@ -277,7 +241,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Overcoming Self-Criticism Worksheet",
     description:
       "A worksheet to identify and challenge self-critical thoughts, fostering a more compassionate mindset.",
-    href: "/tools/overcoming-self-criticism-worksheet",
   },
   {
     id: "self-esteem-tool-4",
@@ -285,7 +248,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Self-Esteem Building Exercises",
     description:
       "A collection of exercises to help you build self-esteem and develop a more positive self-image.",
-    href: "/tools/self-esteem-building-exercises",
   },
   {
     id: "self-esteem-tool-5",
@@ -293,7 +255,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Compliments Tracker",
     description:
       "A tool to track and reflect on compliments you receive, helping you internalize positive feedback and build self-esteem.",
-    href: "/tools/compliments-tracker",
   },
   {
     id: "self-esteem-tool-7",
@@ -301,7 +262,6 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Self-Compassion and Self-Esteem Balance",
     description:
       "A tool to help individuals balance self-compassion and self-esteem practices to create a harmonious sense of self-worth.",
-    href: "/tools/self-compassion-self-esteem-balance",
   },
   {
     id: "self-esteem-tool-8",
@@ -309,10 +269,8 @@ const selfCompassionAndEsteemPractices: Tool[] = [
     title: "Confidence Builder",
     description:
       "A series of exercises and tips to help boost your confidence and improve self-assurance in various situations.",
-    href: "/tools/confidence-builder",
   },
 ];
-
 const sleepOptimizationTools: Tool[] = [
   {
     id: "sleep-optimization-tool-1",
@@ -320,7 +278,6 @@ const sleepOptimizationTools: Tool[] = [
     title: "Sleep Tracker",
     description:
       "Track your sleep patterns over time, logging factors that may influence the quality of your rest. This tool provides insights into improving sleep hygiene and achieving better rest.",
-    href: "/tools/sleep-tracker",
   },
   {
     id: "breathing-technique-4",
@@ -328,7 +285,6 @@ const sleepOptimizationTools: Tool[] = [
     title: "Breathing for Sleep",
     description:
       "A guide to breathing techniques specifically designed to improve sleep quality and relaxation.",
-    href: "/tools/breathing-for-sleep",
   },
   {
     id: "pmr-tool-3",
@@ -336,7 +292,6 @@ const sleepOptimizationTools: Tool[] = [
     title: "PMR for Sleep",
     description:
       "A PMR guide tailored to help users unwind and prepare for restful sleep.",
-    href: "/tools/pmr-for-sleep",
   },
   {
     id: "self-care-tool-4",
@@ -344,7 +299,6 @@ const sleepOptimizationTools: Tool[] = [
     title: "Sleep Improvement Tracker",
     description:
       "A tool to track your sleep habits and provide tips for improving your sleep quality, essential for mental and emotional health.",
-    href: "/tools/sleep-improvement-tracker",
   },
   {
     id: "sleep-optimization-tool-3",
@@ -352,7 +306,6 @@ const sleepOptimizationTools: Tool[] = [
     title: "Bedtime Routine Planner",
     description:
       "A planner to help users establish a consistent bedtime routine that promotes relaxation and better sleep quality.",
-    href: "/tools/bedtime-routine-planner",
   },
   {
     id: "sleep-optimization-tool-4",
@@ -360,10 +313,8 @@ const sleepOptimizationTools: Tool[] = [
     title: "Circadian Rhythm Guide",
     description:
       "A guide to understanding and optimizing your circadian rhythm for improved sleep and overall health.",
-    href: "/tools/circadian-rhythm-guide",
   },
 ];
-
 const mindfulnessPractices: Tool[] = [
   {
     id: "mindfulness-tool-1",
@@ -371,7 +322,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Body Scan Meditation",
     description:
       "A guided body scan meditation exercise designed to help you connect with your body and relax. This tool promotes awareness and reduces physical tension.",
-    href: "/tools/body-scan-meditation",
   },
   {
     id: "self-esteem-tool-3",
@@ -379,7 +329,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Self-Love Meditation",
     description:
       "A guided meditation practice designed to cultivate self-love, compassion, and acceptance.",
-    href: "/tools/self-love-meditation",
   },
   {
     id: "stress-management-tool-2",
@@ -387,7 +336,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Mindfulness Timer",
     description:
       "A timer designed to assist with mindfulness and meditation practices, offering adjustable intervals and soothing sounds. It helps users stay focused and consistent in their mindfulness routines.",
-    href: "/tools/mindfulness-timer",
   },
   {
     id: "self-discovery-tool-7",
@@ -395,7 +343,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Emotional Awareness Journal",
     description:
       "A journal that helps you track and understand your emotional patterns, providing insights into how your emotions influence your daily life and decisions.",
-    href: "/tools/emotional-awareness-journal",
   },
   {
     id: "mood-tracking-tool-2",
@@ -403,7 +350,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Mood Trigger Tracker",
     description:
       "A tool to track emotional triggers and their impact, helping users better understand and manage their responses.",
-    href: "/tools/mood-trigger-tracker",
   },
   {
     id: "mood-tracking-tool-4",
@@ -411,7 +357,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Mood and Activity Correlation Chart",
     description:
       "A chart to track how daily activities influence mood, helping users make positive lifestyle adjustments.",
-    href: "/tools/mood-activity-correlation-chart",
   },
   {
     id: "mood-tracking-tool-5",
@@ -419,7 +364,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Mood Color Wheel",
     description:
       "A visual tool to help users associate emotions with colors, making mood tracking more intuitive and engaging.",
-    href: "/tools/mood-color-wheel",
   },
   {
     id: "mindfulness-tool-3",
@@ -427,7 +371,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Mindful Walking Guide",
     description:
       "A guide to practicing mindfulness while walking, helping users stay present and reduce stress during daily activities.",
-    href: "/tools/mindful-walking-guide",
   },
   {
     id: "mindfulness-tool-4",
@@ -435,7 +378,6 @@ const mindfulnessPractices: Tool[] = [
     title: "Sensory Awareness Exercises",
     description:
       "A set of exercises to enhance sensory awareness and promote mindfulness by focusing on sights, sounds, and textures in the environment.",
-    href: "/tools/sensory-awareness-exercises",
   },
   {
     id: "self-discovery-tool-8",
@@ -443,10 +385,8 @@ const mindfulnessPractices: Tool[] = [
     title: "Mindfulness Meditation",
     description:
       "A guided meditation tool designed to help you become more aware of the present moment, reduce stress, and enhance self-awareness.",
-    href: "/tools/mindfulness-meditation",
   },
 ];
-
 const fitnessToolkit: Tool[] = [
   {
     id: "exercise-mental-health-tool-1",
@@ -454,7 +394,6 @@ const fitnessToolkit: Tool[] = [
     title: "Fitness Tracker",
     description:
       "A tool to track your physical activity and monitor its effects on your mood and mental well-being. It provides insights into how exercise supports emotional health.",
-    href: "/tools/fitness-tracker",
   },
   {
     id: "exercise-mental-health-tool-2",
@@ -462,7 +401,6 @@ const fitnessToolkit: Tool[] = [
     title: "Exercise Routine Generator",
     description:
       "A tool to help you create a personalized exercise routine based on your mental health goals and physical capacity. It includes recommendations for activities that boost mood and reduce stress.",
-    href: "/tools/exercise-routine-generator",
   },
   {
     id: "exercise-mental-health-tool-4",
@@ -470,7 +408,6 @@ const fitnessToolkit: Tool[] = [
     title: "Stretching for Relaxation",
     description:
       "A guide to stretching exercises that promote relaxation and reduce physical tension, supporting mental well-being.",
-    href: "/tools/stretching-for-relaxation",
   },
   {
     id: "exercise-mental-health-tool-5",
@@ -478,7 +415,6 @@ const fitnessToolkit: Tool[] = [
     title: "Mood-Boosting Workouts",
     description:
       "A curated selection of workouts designed to enhance mood, reduce anxiety, and improve emotional resilience through movement.",
-    href: "/tools/mood-boosting-workouts",
   },
   {
     id: "exercise-mental-health-tool-6",
@@ -486,7 +422,6 @@ const fitnessToolkit: Tool[] = [
     title: "Mindful Movement Guide",
     description:
       "A guide that combines mindfulness techniques with gentle movement practices to promote mental clarity and reduce stress.",
-    href: "/tools/mindful-movement-guide",
   },
   {
     id: "exercise-mental-health-tool-7",
@@ -494,7 +429,6 @@ const fitnessToolkit: Tool[] = [
     title: "Home Fitness Plan Builder",
     description:
       "A customizable plan generator for building effective home workout routines, regardless of equipment availability.",
-    href: "/tools/home-fitness-plan-builder",
   },
   {
     id: "exercise-mental-health-tool-8",
@@ -502,7 +436,6 @@ const fitnessToolkit: Tool[] = [
     title: "Progress Tracker for Strength and Stamina",
     description:
       "A detailed tracker to monitor improvements in strength, endurance, and flexibility over time, encouraging sustainable fitness growth.",
-    href: "/tools/progress-tracker-strength-stamina",
   },
   {
     id: "exercise-mental-health-tool-9",
@@ -510,10 +443,8 @@ const fitnessToolkit: Tool[] = [
     title: "Quick Energy Boost Exercises",
     description:
       "A set of short, high-energy workout routines to quickly elevate energy levels and sharpen focus during the day.",
-    href: "/tools/quick-energy-boost-exercises",
   },
 ];
-
 const selfCareAndDiscoveryToolkit: Tool[] = [
   {
     id: "exercise-mental-health-tool-3",
@@ -523,7 +454,6 @@ const selfCareAndDiscoveryToolkit: Tool[] = [
       "A collection of workout routines specifically designed to improve mood and reduce anxiety through physical activity.",
     href: "/tools/mood-boosting-workouts",
   },
-
   {
     id: "self-discovery-tool-2",
     categoryId: "selfCareAndDiscoveryToolkit",
@@ -573,7 +503,6 @@ const selfCareAndDiscoveryToolkit: Tool[] = [
     href: "/tools/life-satisfaction-survey",
   },
 ];
-
 const cognitiveBehavioralTherapyExercises: Tool[] = [
   {
     id: "cbt-tool-1",
@@ -632,7 +561,6 @@ const cognitiveBehavioralTherapyExercises: Tool[] = [
     href: "/tools/cbt-skills-tracker",
   },
 ];
-
 const breathingTechniques: Tool[] = [
   {
     id: "breathing-technique-1",
@@ -674,7 +602,6 @@ const breathingTechniques: Tool[] = [
       "A guided exercise to practice the 4-7-8 breathing technique, known for its calming effects.",
     href: "/tools/4-7-8-breathing-exercise",
   },
-
   {
     id: "breathing-technique-5",
     categoryId: "breathingTechniques",
@@ -684,7 +611,6 @@ const breathingTechniques: Tool[] = [
     href: "/tools/breathing-for-anxiety-relief",
   },
 ];
-
 const progressiveMuscleRelaxationGuides: Tool[] = [
   {
     id: "pmr-tool-1",
@@ -751,83 +677,134 @@ const progressiveMuscleRelaxationGuides: Tool[] = [
     href: "/tools/chair-based-pmr-routine",
   },
 ];
-
 const affirmationCards: Tool[] = [
   {
     id: "affirmation-tool-1",
     categoryId: "affirmationCards",
-    title: "Daily Affirmation Generator",
+    title: "Daily Affirmation Sets",
+    subtitle:
+      "Fuel Your Day with Positivity: Curated Daily Affirmations for a Motivated Mindset",
     description:
-      "A tool to generate personalized affirmations for daily motivation and positivity.",
-    href: "/tools/daily-affirmation-generator",
+      "Our favorite affirmations grouped into easy to use sets for daily motivation and positivity.",
+    introduction: [
+      "Our Daily Affirmation Sets are thoughtfully grouped collections designed to help you start each day with purpose and positivity. These sets provide motivational statements that encourage emotional strength, resilience, and optimism, making it easier to tackle daily challenges with a confident mindset. Whether you're preparing for a busy workday or simply seeking inner calm, these affirmations offer consistent emotional support. By committing to daily practice, you'll cultivate a more focused, empowered, and optimistic approach to life.",
+      "Each set is carefully curated to meet the evolving emotional needs that arise throughout the week. With a mixture of uplifting, calming, and empowering affirmations, users can choose a card that resonates most with their current situation. Regular use reinforces positive thinking patterns and helps establish a powerful morning ritual. Over time, these daily practices become essential in nurturing emotional resilience and self-belief.",
+    ],
   },
   {
     id: "affirmation-tool-2",
     categoryId: "affirmationCards",
     title: "Self-Worth Affirmation Cards",
+    subtitle:
+      "Rediscover Your Value: Affirmations That Strengthen Confidence and Inner Worth",
     description:
       "A set of affirmations designed to boost self-esteem and self-worth.",
-    href: "/tools/self-worth-affirmation-cards",
+    introduction: [
+      "The Self-Worth Affirmation Cards are designed to remind you of your inherent value and to help foster a strong sense of self-esteem. Each card offers a powerful statement aimed at countering negative self-talk and building emotional resilience. By focusing on your strengths and embracing self-love, you create a healthier internal dialogue that promotes confidence and personal growth. These affirmations encourage you to honor your worth, regardless of external circumstances or judgments.",
+      "Engaging daily with these affirmations helps shift your mindset from self-doubt to self-assurance. As you consistently affirm your value, you strengthen your emotional foundation and develop a more compassionate relationship with yourself. Over time, this practice promotes a deeper sense of authenticity and empowerment. The Self-Worth Affirmation Cards are a valuable tool for anyone seeking to elevate their confidence and nurture self-acceptance.",
+    ],
   },
   {
     id: "affirmation-tool-3",
     categoryId: "affirmationCards",
     title: "Stress Relief Affirmations",
+    subtitle:
+      "Find Your Calm: Affirmations for Managing Stress and Restoring Balance",
     description:
       "A collection of affirmations to help users manage stress and maintain calmness.",
-    href: "/tools/stress-relief-affirmations",
+    introduction: [
+      "The Stress Relief Affirmations are designed to help you navigate life's challenges with a sense of calm and balance. Each affirmation serves as a gentle reminder to release tension and embrace tranquility, allowing you to approach stressful situations with clarity and resilience. By integrating these affirmations into your daily routine, you cultivate a mindset that prioritizes emotional well-being and stress management.",
+      "Regularly practicing these affirmations encourages a shift in perspective, enabling you to respond to stressors with grace and composure. As you affirm your ability to remain calm and centered, you build emotional resilience and develop healthier coping mechanisms. The Stress Relief Affirmations are a powerful tool for anyone seeking to enhance their emotional stability and reduce anxiety in their daily lives.",
+      "These affirmations are ideal for moments of overwhelm, transitions, or even daily check-ins. Regular practice helps reframe stressful thoughts into manageable perspectives, creating a powerful shift in emotional responses. Over time, users report increased feelings of calmness, clarity, and inner strength. Stress Relief Affirmations are an essential companion for anyone seeking sustainable ways to manage tension and enhance overall well-being.",
+    ],
   },
   {
     id: "affirmation-tool-4",
     categoryId: "affirmationCards",
     title: "Gratitude Affirmation Cards",
+    subtitle:
+      "Shift Your Focus: Cultivate Joy and Appreciation Through Daily Gratitude Affirmations",
     description:
       "Affirmations focused on cultivating gratitude and a positive outlook.",
-    href: "/tools/gratitude-affirmation-cards",
+    introduction: [
+      "The Gratitude Affirmation Cards are designed to help you cultivate a mindset of appreciation and positivity. Each card features affirmations that encourage you to recognize and celebrate the abundance in your life, fostering a deeper connection to gratitude. By integrating these affirmations into your daily routine, you can shift your focus from scarcity to abundance, enhancing your emotional well-being.",
+      "Regularly practicing gratitude affirmations helps rewire your brain to notice the positive aspects of life, even amidst challenges. As you express gratitude for the small and big things, you create a ripple effect of positivity that influences your overall outlook. The Gratitude Affirmation Cards are a valuable tool for anyone seeking to enhance their emotional resilience and foster a more appreciative mindset.",
+      "Each card offers a reminder to pause, reflect, and celebrate small and significant moments alike. Practicing gratitude affirmations daily reinforces a sense of contentment and helps counterbalance negative thought patterns. Over time, this consistent practice can lead to a deep, sustainable sense of fulfillment and well-being. Gratitude Affirmation Cards are a powerful tool for anyone seeking to nurture a heart full of appreciation and positivity.",
+    ],
   },
   {
     id: "affirmation-tool-5",
     categoryId: "affirmationCards",
     title: "Morning Affirmation Deck",
+    subtitle:
+      "Start Strong: Energizing Morning Affirmations for a Day Full of Purpose and Joy",
     description:
       "A deck of affirmations to start the day with positivity and intention.",
-    href: "/tools/morning-affirmation-deck",
+    introduction: [
+      "The Morning Affirmation Deck is crafted to help you start each day with purpose and positivity. Each card contains empowering affirmations designed to inspire confidence, embrace opportunities, and approach the day with intention. By incorporating these affirmations into your morning routine, you create a foundation for emotional resilience and personal empowerment, setting the tone for a fulfilling day.",
+      "These cards encourage reflection on your goals, intentions, and inner strength, empowering you to take control of your day from the moment you wake up. This practice shifts your mindset from passively reacting to life’s events to actively creating the life you desire. Regular engagement with these affirmations enhances motivation and emotional vitality, helping you move forward with clarity and purpose.",
+      "Making morning affirmations a part of your daily routine fosters personal growth and success. By aligning your thoughts with your aspirations, you cultivate a proactive mindset that enables you to navigate challenges with focus and confidence. The Morning Affirmation Deck is a powerful tool for anyone seeking to elevate their emotional well-being and start each day with renewed energy and optimism.",
+    ],
   },
   {
     id: "affirmation-tool-6",
     categoryId: "affirmationCards",
     title: "Evening Reflection Affirmations",
+    subtitle:
+      "End Your Day with Grace: Affirmations for Reflection, Peace, and Emotional Closure",
     description:
       "A set of affirmations designed to encourage reflection, relaxation, and emotional closure at the end of the day.",
-    href: "/tools/evening-reflection-affirmations",
+    introduction: [
+      "The Evening Reflection Affirmations are crafted to help you unwind and reflect on the day's events with gratitude and peace. Each card offers affirmations that guide you in recognizing your accomplishments, letting go of any remaining stress, and embracing calmness as you prepare for rest. By incorporating these affirmations into your nightly routine, you create a peaceful ritual that encourages emotional release and promotes relaxation.",
+      "Consistent use of these evening affirmations fosters a mindset of gratitude and self-compassion, allowing you to release the challenges of the day and embrace a state of emotional tranquility. As you affirm your progress and let go of negativity, you create space for emotional healing and renewal. The Evening Reflection Affirmations are a powerful tool for anyone looking to improve their emotional well-being and enjoy a smoother transition into restful sleep.",
+      "Each card serves as a subtle reminder to pause, reflect, and celebrate your day’s achievements. This ritual helps you establish a sense of closure, reducing stress and negativity before bed. Over time, practicing these affirmations can enhance emotional resilience and improve the quality of your sleep. Evening Reflection Affirmations are an invaluable companion for anyone seeking to end their day on a peaceful and restorative note.",
+    ],
   },
   {
     id: "affirmation-tool-7",
     categoryId: "affirmationCards",
     title: "Self-Compassion Affirmations",
+    subtitle:
+      "Unlock Your Potential: Affirmations for Building Confidence, Focus, and Growth",
     description:
       "Affirmations focused on nurturing self-kindness, forgiveness, and emotional resilience.",
-    href: "/tools/self-compassion-affirmations",
+    introduction: [
+      "The Self-Compassion Affirmations are created to help you develop a kinder and more forgiving relationship with yourself. Each card contains affirmations that promote self-acceptance, emotional resilience, and the ability to embrace imperfections. Incorporating these affirmations into your daily routine fosters a supportive environment for personal growth and emotional healing.",
+      "Practicing self-compassion affirmations regularly shifts your mindset from self-criticism to self-kindness. By affirming your worth and embracing your imperfections, you strengthen your emotional foundation and encourage personal growth. The Self-Compassion Affirmations are an invaluable resource for enhancing emotional well-being and building a more compassionate relationship with yourself.",
+      "Each card gently reminds you to approach yourself with kindness and understanding. This practice helps you cultivate self-acceptance and emotional resilience, enabling you to face life's challenges with grace. Over time, consistent use of these affirmations can improve self-esteem and foster a more positive self-image. The Self-Compassion Affirmations are a vital tool for anyone looking to nurture a loving and forgiving relationship with themselves.",
+    ],
   },
   {
     id: "affirmation-tool-8",
     categoryId: "affirmationCards",
     title: "Success Mindset Affirmations",
+    subtitle:
+      "Unlock Your Potential: Affirmations for Building Confidence, Focus, and Growth",
     description:
       "A curated set of affirmations to promote a growth mindset and confidence in achieving goals.",
-    href: "/tools/success-mindset-affirmations",
+    introduction: [
+      "Success Mindset Affirmations are thoughtfully designed to empower you with the confidence, motivation, and resilience needed to achieve your goals. Each affirmation is carefully crafted to help you develop a growth mindset by reinforcing your belief in your ability to learn, adapt, and overcome challenges. These affirmations encourage you to view setbacks not as failures but as opportunities for growth, fueling your determination and perseverance. By incorporating these affirmations into your daily routine, you can build a strong foundation for both personal and professional success.",
+      "These affirmations work by aligning your thoughts with your aspirations, creating a mental environment where success feels natural and achievable. They help you reframe self-doubt into actionable opportunities, pushing you to take bold steps toward your goals. Over time, practicing these affirmations strengthens your self-efficacy, enhances your problem-solving abilities, and fosters an entrepreneurial mindset. Whether you're striving for career advancement, personal growth, or creative pursuits, Success Mindset Affirmations provide the mental clarity and focus needed to unlock your highest potential.",
+      "Each card in this set serves as a powerful reminder of your innate capabilities and the limitless possibilities ahead. These affirmations encourage you to embrace challenges with confidence and view obstacles as stepping stones to greater achievements. By consistently engaging with these affirmations, you can cultivate a proactive mindset that thrives on growth and continuous improvement. This practice not only boosts your self-confidence but also helps you approach life with a sense of purpose and determination.",
+      "Success Mindset Affirmations are more than just words—they are a daily practice that transforms your outlook and empowers you to take control of your journey. By integrating these affirmations into your routine, you create a habit of positive thinking that reinforces your goals and aspirations. Over time, this practice can lead to profound changes in how you approach challenges, celebrate victories, and navigate setbacks. Whether you're looking to overcome self-doubt, achieve ambitious goals, or simply maintain a positive outlook, these affirmations are an invaluable tool for fostering a mindset of growth, achievement, and resilience.",
+      "By using Success Mindset Affirmations, you can create a mental framework that supports long-term success and fulfillment. These affirmations help you stay focused on your goals, even in the face of adversity, and inspire you to take consistent, meaningful action. They remind you that success is not a destination but a journey of continuous learning and growth. With regular practice, these affirmations can help you unlock your full potential, build unshakable confidence, and achieve the life you envision for yourself.",
+    ],
   },
   {
     id: "affirmation-tool-9",
     categoryId: "affirmationCards",
     title: "Inner Peace Affirmations",
+    subtitle:
+      "Anchor in Calm: Affirmations for Emotional Balance, Clarity, and Serenity",
     description:
       "Affirmations crafted to cultivate inner peace, emotional balance, and resilience against stress.",
-    href: "/tools/inner-peace-affirmations",
+    introduction: [
+      "Inner Peace Affirmations are thoughtfully designed to help you foster a calm, centered emotional state, regardless of the external chaos that may surround you. These affirmations are rooted in themes of acceptance, forgiveness, balance, and trust, providing a sanctuary within yourself that is impervious to stress and external pressures. By incorporating these affirmations into your daily routine, you actively create an emotional resilience that empowers you to maintain clarity and composure in the face of life's challenges. This practice encourages you to cultivate a quiet yet powerful strength that keeps you grounded throughout your day, no matter the turbulence.",
+      "These affirmations are particularly helpful during moments of anxiety, stress, or emotional upheaval. When faced with these emotions, the affirmations guide you in reframing negative thoughts into affirmations that restore balance and promote mental clarity. Over time, users report feeling a deep sense of inner peace, along with an enhanced ability to regulate their emotions and reactions. Engaging with Inner Peace Affirmations regularly can help you build an emotional toolkit that enables you to approach life’s challenges with a calm, collected mindset, making it an indispensable resource for those seeking peace amid the storm.",
+      "By practicing Inner Peace Affirmations consistently, you begin to prioritize emotional balance over seeking external validation. These affirmations serve as daily reminders to cultivate a steady, mindful presence that strengthens emotional intelligence and self-regulation. With ongoing practice, you will experience a profound shift towards emotional stability, which nurtures deeper relationships, greater personal joy, and a higher level of resilience. Inner Peace Affirmations are a powerful tool for anyone who wants to live a life marked by emotional harmony, growth, and inner strength.",
+    ],
   },
 ];
-
-
 const communicationTools: Tool[] = [
   {
     id: "communication-tool-1",
@@ -910,7 +887,6 @@ const communicationTools: Tool[] = [
     href: "/tools/assertiveness-training-guide",
   },
 ];
-
 const leadershipTools: Tool[] = [
   {
     id: "leadership-tool-1",
@@ -993,7 +969,6 @@ const leadershipTools: Tool[] = [
     href: "/tools/leader-self-reflection-journal",
   },
 ];
-
 const visualizationExercises: Tool[] = [
   {
     id: "visualization-tool-1",
@@ -1068,7 +1043,6 @@ const visualizationExercises: Tool[] = [
     href: "/tools/future-visioning-visualization",
   },
 ];
-
 const workLifeBalanceTools: Tool[] = [
   {
     id: "work-life-tool-1",
@@ -1111,7 +1085,6 @@ const workLifeBalanceTools: Tool[] = [
     href: "/tools/relaxation-techniques-for-work-life-balance",
   },
 ];
-
 const behavioralActivationWorksheets: Tool[] = [
   {
     id: "behavioral-activation-tool-1",
@@ -1194,7 +1167,6 @@ const behavioralActivationWorksheets: Tool[] = [
     href: "/tools/behavioral-experiment-worksheet",
   },
 ];
-
 const journalingTools: Tool[] = [
   {
     id: "stress-management-tool-4",
@@ -1341,7 +1313,6 @@ const journalingTools: Tool[] = [
     href: "/tools/anger-management-journal",
   },
 ];
-
 const checklistsAndPlannersTools: Tool[] = [
   {
     id: "stress-management-tool-9",
@@ -1432,7 +1403,6 @@ const checklistsAndPlannersTools: Tool[] = [
     href: "/tools/overcoming-negative-self-talk-worksheet",
   },
 ];
-
 const emotionalRegulationToolkit: Tool[] = [
   {
     id: "anger-tool-1",
@@ -1715,7 +1685,6 @@ const emotionalRegulationToolkit: Tool[] = [
     href: "/tools/self-soothing-techniques-guide",
   },
 ];
-
 export const toolsMap = {
   cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
   breathingTechniques: breathingTechniques,
