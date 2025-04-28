@@ -49,7 +49,7 @@ const CardFlip = ({
             height={384}
             className="opacity-25 rounded-lg h-full object-cover object-center"
           />
-          <div className="top-[40%] absolute inset-0 mx-auto w-10/12">
+          <div className="top-[25%] absolute inset-0 mx-auto w-10/12">
             {title && <h2>{title}</h2>}
             <p className="font-extrabold text-lg">{description}</p>
           </div>
