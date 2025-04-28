@@ -42,6 +42,27 @@ export function compareStringWordCount(
   return words.length <= maxWords;
 }
 
+
+/**
+ * Removes the last word from the input string, separated by a space.
+ * 
+ * @param str - The input string from which to remove the last word
+ * @returns The input string with the last word removed, or an empty string if there are no spaces in the input
+ * 
+ * @example
+ * ```ts
+ * sliceOffLastWord("Hello world"); // returns "Hello"
+ * sliceOffLastWord("SingleWord"); // returns ""
+ * ```
+ */
+export function sliceOffLastWord(str: string) {
+  const lastSpaceIndex = str.lastIndexOf(" ");
+  if (lastSpaceIndex === -1) {
+    return ""; // Handle the case where there are no spaces in the string
+  }
+  return str.slice(0, lastSpaceIndex);
+}
+
 /**
  * Formats a number as a currency string.
  *
