@@ -11,6 +11,7 @@ import {
 import { getToolResource } from "@/lib/utils";
 import { AffirmationCards } from "@/lib/interfaces&types/resources";
 import { useEffect, useState } from "react";
+import { formatUrlToID } from "@/lib/utils/format";
 
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
@@ -21,7 +22,7 @@ export default function Page() {
     const fetchData = async () => {
       try {
         // Await the Promise from getToolResource
-        const data = await getToolResource(toolKit, tool, toolKitID);
+        const data = await getToolResource(toolKit, tool, formatUrlToID(tool));
         setCardData(data);
       } catch (error) {
         console.error("Failed to load affirmation cards:", error);
