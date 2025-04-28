@@ -18,6 +18,8 @@ export default function Page() {
   const [cardData, setCardData] = useState<AffirmationCards[][]>([]);
   const [loading, setLoading] = useState(true);
 
+  console.log("Formatted Tool: ", formatUrlToID(tool));
+
   useEffect(() => {
     const fetchData = async () => {
       try {
