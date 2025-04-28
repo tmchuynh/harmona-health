@@ -70,11 +70,11 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "behavioralActivationWorksheets",
-    title: "Behavioral Activation Worksheets",
+    id: "behavioralActivationActivities",
+    title: "Behavioral Activation Activities",
     description: [
-      "Behavioral Activation worksheets are designed to encourage individuals to engage in meaningful activities that help combat feelings of depression or low motivation. These activities are specifically chosen to enhance mood and give individuals a sense of accomplishment. The worksheets prompt individuals to reflect on what activities bring them joy, purpose, or fulfillment, and then help them structure their time around these activities. By engaging in positive behaviors, individuals can break the cycle of inactivity and negative thinking that often accompanies depression.",
-      "Incorporating these worksheets into a routine encourages individuals to start small by engaging in activities that seem manageable, which can lead to an increased sense of accomplishment and emotional well-being. This technique fosters the idea that even small actions can contribute to significant improvements in mood and mental health. As individuals begin to see the benefits of behavioral activation, they can build momentum and tackle larger goals. By consistently practicing these exercises, individuals gain greater control over their mental health and create a more fulfilling, active life.",
+      "Behavioral Activation Activities are designed to encourage individuals to engage in meaningful activities that help combat feelings of depression or low motivation. These activities are specifically chosen to enhance mood and give individuals a sense of accomplishment. The activities prompt individuals to reflect on what activities bring them joy, purpose, or fulfillment, and then help them structure their time around these activities. By engaging in positive behaviors, individuals can break the cycle of inactivity and negative thinking that often accompanies depression.",
+      "Incorporating these activities into a routine encourages individuals to start small by engaging in activities that seem manageable, which can lead to an increased sense of accomplishment and emotional well-being. This technique fosters the idea that even small actions can contribute to significant improvements in mood and mental health. As individuals begin to see the benefits of behavioral activation, they can build momentum and tackle larger goals. By consistently practicing these exercises, individuals gain greater control over their mental health and create a more fulfilling, active life.",
       "Mindfulness practices are designed to help individuals cultivate present-moment awareness and reduce stress. These resources may include guided meditations, breathing exercises, and mindfulness techniques specifically tailored for stress reduction. By using these tools, individuals can learn to focus their attention on the present moment, develop a greater sense of calm, and improve their overall mental health. The goal is to empower individuals to take control of their mindfulness practice and enhance their well-being.",
       "Effective mindfulness is essential for personal growth and emotional well-being. The Mindfulness Practices provide practical strategies for cultivating present-moment awareness and fostering a positive mindset. By incorporating these tools into daily routines, individuals can create a personalized approach to mindfulness that supports their mental health and well-being. The focus is on fostering a sense of clarity and empowerment in the face of challenges.",
     ],
@@ -206,11 +206,11 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "journalingTools",
-    title: "Journaling Tools",
+    id: "journalingPrompts",
+    title: "Journaling Prompts",
     description: [
-      "Journaling tools are designed to help individuals explore their thoughts and feelings through writing. These resources may include guided prompts, gratitude lists, and reflective exercises specifically tailored for journaling. By using these tools, individuals can learn to process their emotions, gain insight into their experiences, and develop a deeper understanding of themselves. The goal is to empower individuals to take control of their mental health through the practice of journaling.",
-      "Journaling is a powerful tool for self-reflection and emotional processing. The Journaling Tools provide practical strategies for enhancing the journaling experience and fostering personal growth. By incorporating these tools into daily writing practices, individuals can create a personalized approach to journaling that supports their mental health and well-being. The focus is on fostering a sense of clarity and empowerment in the face of emotional challenges.",
+      "Journaling prompts are designed to help individuals explore their thoughts and feelings through writing. These resources may include guided prompts, gratitude lists, and reflective exercises specifically tailored for journaling. By using these tools, individuals can learn to process their emotions, gain insight into their experiences, and develop a deeper understanding of themselves. The goal is to empower individuals to take control of their mental health through the practice of journaling.",
+      "Journaling is a powerful tool for self-reflection and emotional processing. The Journaling prompts provide practical strategies for enhancing the journaling experience and fostering personal growth. By incorporating these tools into daily writing practices, individuals can create a personalized approach to journaling that supports their mental health and well-being. The focus is on fostering a sense of clarity and empowerment in the face of emotional challenges.",
     ],
     subtitle:
       "Write Your Way to Clarity: Essential Tools for Self-Reflection and Emotional Processing",
@@ -219,15 +219,15 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "checklistsAndPlannersTools",
-    title: "Checklists and Planners Tools",
+    id: "checklistToolkit",
+    title: "Checklists Toolkit",
     description: [
-      "Checklists and planners tools are designed to help individuals organize their tasks and manage their time effectively. These resources may include daily planners, to-do lists, and goal-setting templates specifically tailored for productivity. By using these tools, individuals can learn to prioritize their responsibilities, set achievable goals, and create a structured approach to their daily lives. The goal is to empower individuals to take control of their time management and improve their overall mental health.",
-      "Effective time management is essential for reducing stress and enhancing productivity. The Checklists and Planners Tools provide practical strategies for organizing tasks and fostering a sense of accomplishment. By incorporating these tools into daily routines, individuals can create a personalized approach to time management that supports their mental health and well-being. The focus is on fostering a sense of control and empowerment in the face of daily responsibilities.",
+      "Checklists are designed to help individuals organize their tasks and manage their time effectively. These resources may include daily planners, to-do lists, and goal-setting templates specifically tailored for productivity. By using these tools, individuals can learn to prioritize their responsibilities, set achievable goals, and create a structured approach to their daily lives. The goal is to empower individuals to take control of their time management and improve their overall mental health.",
+      "Effective time management is essential for reducing stress and enhancing productivity. The Checklists toolkit provide practical strategies for organizing tasks and fostering a sense of accomplishment. By incorporating these tools into daily routines, individuals can create a personalized approach to time management that supports their mental health and well-being. The focus is on fostering a sense of control and empowerment in the face of daily responsibilities.",
     ],
     subtitle:
       "Organize Your Life: Essential Tools for Effective Time Management and Productivity",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-and-planners-tools",
+    href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-toolkit",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },

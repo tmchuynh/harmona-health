@@ -1085,10 +1085,10 @@ const workLifeBalanceTools: Tool[] = [
     href: "/tools/relaxation-techniques-for-work-life-balance",
   },
 ];
-const behavioralActivationWorksheets: Tool[] = [
+const behavioralActivationActivities: Tool[] = [
   {
     id: "behavioral-activation-tool-1",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Activity Scheduling Template",
     description:
       "A template to help users plan and schedule activities that bring joy and fulfillment, promoting positive behavior changes.",
@@ -1096,7 +1096,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-2",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Pleasant Activities List",
     description:
       "A curated list of enjoyable activities to inspire users to engage in actions that improve mood and well-being.",
@@ -1104,7 +1104,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-3",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Behavioral Goals Tracker",
     description:
       "A tracker to monitor progress toward behavioral goals, helping users stay motivated and consistent.",
@@ -1112,7 +1112,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-4",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Values-Based Activity Planner",
     description:
       "A planner to align daily activities with personal values, fostering a sense of purpose and fulfillment.",
@@ -1120,7 +1120,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-5",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Overcoming Barriers Worksheet",
     description:
       "A worksheet to identify and address obstacles that prevent users from engaging in positive activities.",
@@ -1128,7 +1128,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-6",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Daily Reflection Journal",
     description:
       "A journal to help users reflect on their daily activities, identify patterns, and assess how they align with their goals.",
@@ -1136,7 +1136,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-7",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Motivation Booster Worksheet",
     description:
       "A worksheet designed to increase motivation by helping users explore their reasons for change and the benefits of acting.",
@@ -1144,7 +1144,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-8",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Activity Enjoyment Scale",
     description:
       "A tool to rate the level of enjoyment for each activity and analyze which ones lead to the most positive outcomes.",
@@ -1152,7 +1152,7 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-9",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Gratitude and Achievement Journal",
     description:
       "A journal to help users recognize and record their daily achievements and moments of gratitude, fostering positive reinforcement.",
@@ -1160,25 +1160,25 @@ const behavioralActivationWorksheets: Tool[] = [
   },
   {
     id: "behavioral-activation-tool-10",
-    categoryId: "behavioralActivationWorksheets",
+    categoryId: "behavioralActivationActivities",
     title: "Behavioral Experiment Worksheet",
     description:
       "A tool that helps users plan and evaluate small experiments to test new behaviors and learn from their experiences.",
     href: "/tools/behavioral-experiment-worksheet",
   },
 ];
-const journalingTools: Tool[] = [
+const journalingPrompts: Tool[] = [
   {
     id: "self-discovery-tool-1",
-    categoryId: "journalingTools",
-    title: "Life Purpose and Self-Discovery Prompts",
+    categoryId: "journalingPrompts",
+    title: "Life Purpose And Self-Discovery Prompts",
     description:
       "A collection of prompts to help you explore your inner self, values, and beliefs.",
     href: "/tools/self-discovery-prompts",
   },
   {
     id: "self-discovery-tool-2",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Gratitude Journaling Prompts",
     description:
       "Prompts to help you focus on the positive aspects of life and cultivate gratitude.",
@@ -1186,15 +1186,15 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-3",
-    categoryId: "journalingTools",
-    title: "Goal-Setting and Vision Board Reflection Prompts",
+    categoryId: "journalingPrompts",
+    title: "Goal-Setting And Vision Board Reflection Prompts",
     description:
       "Prompts to guide you in setting clear, actionable goals and tracking your progress.",
     href: "/tools/goal-setting-prompts",
   },
   {
     id: "self-discovery-tool-4",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Mindfulness Prompts",
     description:
       "Prompts to help you stay present and increase mindfulness in your daily life.",
@@ -1202,7 +1202,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-5",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Emotional Healing Prompts",
     description:
       "Prompts designed to help you process emotions and heal from difficult experiences.",
@@ -1210,7 +1210,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-6",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Creativity Journaling Prompts",
     description:
       "Prompts to ignite your creative energy and explore new ideas and artistic endeavors.",
@@ -1218,7 +1218,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-7",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Self-Compassion Prompts",
     description:
       "Prompts that encourage self-love, acceptance, and kindness towards yourself.",
@@ -1226,7 +1226,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-1",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Daily Journaling Prompts",
     description:
       "A collection of thought-provoking journaling prompts to help you explore your emotions, thoughts, and personal values.",
@@ -1234,7 +1234,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "resilience-tool-3",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Resilience Journaling Prompts",
     description:
       "A journal to track progress in building resilience and reflect on personal growth.",
@@ -1242,7 +1242,7 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-11",
-    categoryId: "journalingTools",
+    categoryId: "journalingPrompts",
     title: "Morning Mindset Prompts",
     description:
       "A collection of prompts to help you start your day with intention, focus, and a positive mindset.",
@@ -1250,33 +1250,33 @@ const journalingTools: Tool[] = [
   },
   {
     id: "self-discovery-tool-14",
-    categoryId: "journalingTools",
-    title: "Overcoming Fear and  Limiting Beliefs Prompts",
+    categoryId: "journalingPrompts",
+    title: "Overcoming Fear And Limiting Beliefs Prompts",
     description:
       "Prompts to challenge and rewrite limiting beliefs that may be holding you back and help you understand their roots.",
     href: "/tools/overcoming-limiting-beliefs-prompts",
   },
   {
     id: "self-discovery-tool-19",
-    categoryId: "journalingTools",
-    title: "Dealing with Stress Prompts",
+    categoryId: "journalingPrompts",
+    title: "Dealing With Stress Prompts",
     description:
       "Prompts to help you process and manage stress, with a focus on finding solutions and nurturing your peace.",
     href: "/tools/dealing-with-stress-prompts",
   },
 ];
-const checklistsAndPlannersTools: Tool[] = [
+const checklistToolkit: Tool[] = [
   {
     id: "mental-health-checklist-1",
-    categoryId: "checklistsAndPlannersTools",
-    title: "Daily Self-Care Checklist",
+    categoryId: "checklistToolkit",
+    title: "Daily Self Care Checklist",
     description:
       "A practical checklist to ensure you prioritize your mental, emotional, and physical self-care every day.",
     href: "/tools/daily-self-care-checklist",
   },
   {
     id: "mental-health-checklist-2",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Anxiety Management Checklist",
     description:
       "A focused checklist designed to help manage symptoms of anxiety through actionable coping strategies.",
@@ -1284,7 +1284,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-3",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Depression Support Checklist",
     description:
       "A compassionate checklist offering daily practices and reminders to support mental health during depressive periods.",
@@ -1292,7 +1292,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-4",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Mindfulness Practice Checklist",
     description:
       "A step-by-step checklist for incorporating mindfulness into your daily life to reduce stress and improve focus.",
@@ -1300,7 +1300,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-5",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Emotional Regulation Checklist",
     description:
       "A checklist of techniques and habits to help regulate emotions and build resilience in challenging moments.",
@@ -1308,7 +1308,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-6",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Healthy Sleep Hygiene Checklist",
     description:
       "A practical checklist to help you develop healthy sleep routines that support mental and emotional well-being.",
@@ -1316,7 +1316,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-7",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Social Connection Checklist",
     description:
       "A checklist designed to strengthen your social support system and improve emotional connectedness.",
@@ -1324,7 +1324,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-8",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Burnout Prevention Checklist",
     description:
       "A checklist to identify burnout symptoms early and incorporate strategies for sustainable self-care and recovery.",
@@ -1332,7 +1332,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-9",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Grounding Techniques Checklist",
     description:
       "A set of grounding exercises organized into a checklist to help center yourself during anxiety or dissociation episodes.",
@@ -1340,7 +1340,7 @@ const checklistsAndPlannersTools: Tool[] = [
   },
   {
     id: "mental-health-checklist-10",
-    categoryId: "checklistsAndPlannersTools",
+    categoryId: "checklistToolkit",
     title: "Positive Thinking Checklist",
     description:
       "A checklist to foster a positive mindset by incorporating daily affirmations, gratitude, and optimistic habits.",
@@ -1635,13 +1635,13 @@ export const toolsMap = {
   progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
   affirmationCards: affirmationCards,
   visualizationExercises: visualizationExercises,
-  behavioralActivationWorksheets: behavioralActivationWorksheets,
+  behavioralActivationActivities: behavioralActivationActivities,
   mindfulnessPractices: mindfulnessPractices,
   selfCompassionAndEsteemPractices: selfCompassionAndEsteemPractices,
   resilienceToolkit: resilienceToolkit,
   selfCareAndDiscoveryToolkit: selfCareAndDiscoveryToolkit,
-  checklistsAndPlannersTools: checklistsAndPlannersTools,
-  journalingTools: journalingTools,
+  checklistToolkit: checklistToolkit,
+  journalingPrompts: journalingPrompts,
   leadershipTools: leadershipTools,
   communicationTools: communicationTools,
   workLifeBalanceTools: workLifeBalanceTools,
