@@ -848,88 +848,110 @@ const communicationTools: Tool[] = [
     href: "/tools/assertiveness-training-guide",
   },
 ];
+
 const leadershipTools: Tool[] = [
   {
-    id: "leadership-tool-1",
-    categoryId: "leadershipTools",
-    title: "Leadership Skills Assessment",
+    id: "1",
+    title: "Technology",
     description:
-      "A tool to assess and identify areas for improvement in leadership skills.",
-    href: "/tools/leadership-skills-assessment",
+      "The technology industry is centered around the development and application of new technologies to solve complex problems. It encompasses a broad range of sectors, including software, hardware, IT services, and more.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "The technology industry is one of the fastest-growing sectors, continually evolving with innovation. It drives change across all industries, influencing everything from business models to consumer behavior. Successful leadership in tech requires a deep understanding of both emerging trends and operational efficiency.",
+    ],
   },
   {
-    id: "leadership-tool-2",
-    categoryId: "leadershipTools",
-    title: "Team Building Activities",
+    id: "2",
+    title: "Healthcare",
     description:
-      "A set of activities to foster collaboration and strengthen team dynamics.",
-    href: "/tools/team-building-activities",
+      "Healthcare is an essential industry that focuses on maintaining and improving the health of individuals and communities. It includes services like medical care, research, and pharmaceutical production.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "The healthcare industry is essential for the well-being of society, constantly evolving to provide better care. Leaders in this field must navigate regulatory challenges, technological advancements, and the growing demand for accessible care. Effective leadership ensures quality service, efficient operations, and positive health outcomes.",
+    ],
   },
   {
-    id: "leadership-tool-3",
-    categoryId: "leadershipTools",
-    title: "Conflict Resolution for Leaders",
+    id: "3",
+    title: "Finance",
     description:
-      "A guide to help leaders navigate and resolve conflicts within their teams constructively.",
-    href: "/tools/conflict-resolution-for-leaders",
+      "The finance industry deals with the management of money, including banking, investments, insurance, and financial planning. It plays a vital role in the global economy, providing individuals and businesses with the tools to manage their financial resources.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Leaders in finance must stay ahead of economic trends, regulatory changes, and technological innovations that impact investment strategies. This sector is known for its fast-paced environment and need for strategic decision-making. Strong leadership ensures financial stability, growth, and the trust of clients.",
+    ],
   },
   {
-    id: "leadership-tool-4",
-    categoryId: "leadershipTools",
-    title: "Mindful Leadership Practices",
+    id: "4",
+    title: "Education",
     description:
-      "A guide to practicing mindfulness in leadership to enhance decision-making and team morale.",
-    href: "/tools/mindful-leadership-practices",
+      "The education industry is focused on the development and dissemination of knowledge. It includes schools, universities, online education platforms, and professional development organizations.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Education is foundational to personal and societal growth, and leaders in this industry must adapt to new teaching methodologies and digital learning platforms. They also navigate challenges like funding, access to education, and curriculum development. Effective leadership in education fosters learning environments that inspire students and empower educators.",
+    ],
   },
   {
-    id: "leadership-tool-5",
-    categoryId: "leadershipTools",
-    title: "Goal Setting for Leaders",
+    id: "5",
+    title: "Retail",
     description:
-      "A structured tool to help leaders set, track, and achieve strategic goals for their teams and organizations.",
-    href: "/tools/goal-setting-for-leaders",
+      "The retail industry involves the sale of goods and services to consumers, including physical stores, e-commerce, and direct-to-consumer models. This industry is critical for economic growth and the distribution of products.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "The retail industry is driven by consumer behavior, market trends, and logistics efficiency. Leaders in retail must be adept at adapting to changing market demands, supply chain challenges, and technological innovations. Leadership in this industry ensures a seamless customer experience and business profitability.",
+    ],
   },
   {
-    id: "leadership-tool-6",
-    categoryId: "leadershipTools",
-    title: "Emotional Intelligence for Leaders",
+    id: "6",
+    title: "Manufacturing",
     description:
-      "A guide to developing emotional intelligence skills to foster empathy, communication, and resilience in leadership.",
-    href: "/tools/emotional-intelligence-for-leaders",
+      "The manufacturing industry involves the production of goods through industrial processes. This sector spans a wide range of products, from consumer goods to industrial equipment.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Manufacturing is key to the global supply chain, producing the goods that power economies. Leaders in manufacturing must oversee production efficiency, quality control, and workforce management while keeping costs low. Strong leadership ensures that companies stay competitive and innovative in a rapidly evolving market.",
+    ],
   },
   {
-    id: "leadership-tool-7",
-    categoryId: "leadershipTools",
-    title: "Vision and Mission Planning Workbook",
+    id: "7",
+    title: "Hospitality",
     description:
-      "A workbook to help leaders craft clear vision and mission statements that align and inspire their teams.",
-    href: "/tools/vision-mission-planning-workbook",
+      "The hospitality industry focuses on services related to leisure, travel, and accommodation. It includes hotels, resorts, restaurants, and entertainment venues.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Hospitality is about providing exceptional experiences, from dining to lodging. Leaders in this industry must manage diverse teams, customer satisfaction, and operational logistics. Effective leadership in hospitality creates memorable experiences for guests while driving business growth.",
+    ],
   },
   {
-    id: "leadership-tool-8",
-    categoryId: "leadershipTools",
-    title: "Delegation Strategies Guide",
+    id: "8",
+    title: "Energy",
     description:
-      "A guide outlining effective delegation strategies to empower team members and optimize productivity.",
-    href: "/tools/delegation-strategies-guide",
+      "The energy industry involves the production and distribution of energy resources like oil, gas, electricity, and renewable energy. It is essential for powering industries, homes, and economies worldwide.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Energy is a crucial sector for sustaining modern society, with leaders tasked with managing supply, demand, and environmental impacts. They must navigate a complex landscape of regulations, market fluctuations, and technological advancements in energy production. Strong leadership in this industry focuses on sustainability and resource management.",
+    ],
   },
   {
-    id: "leadership-tool-9",
-    categoryId: "leadershipTools",
-    title: "Decision-Making Frameworks",
+    id: "9",
+    title: "Marketing",
     description:
-      "A collection of frameworks to support strategic and effective decision-making for leaders.",
-    href: "/tools/decision-making-frameworks",
+      "The marketing industry focuses on promoting and selling products or services. It encompasses advertising, public relations, market research, and digital marketing.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Marketing is essential for connecting businesses with consumers, driving brand awareness, and generating sales. Leaders in this industry must understand consumer behavior, market trends, and digital platforms. Effective leadership in marketing fosters creativity, innovation, and strategic thinking to achieve business goals.",
+    ],
   },
   {
-    id: "leadership-tool-10",
-    categoryId: "leadershipTools",
-    title: "Leader Self-Reflection Journal",
+    id: "10",
+    title: "Real Estate",
     description:
-      "A journal with prompts designed to help leaders reflect on their growth, challenges, and leadership journey.",
-    href: "/tools/leader-self-reflection-journal",
+      "The real estate industry involves the buying, selling, and leasing of properties. It includes residential, commercial, and industrial real estate sectors.",
+    categoryId: "leadershipTools",
+    introduction: [
+      "Real estate is a dynamic industry that plays a significant role in the economy. Leaders in this field must navigate market fluctuations, regulatory challenges, and consumer preferences. Effective leadership in real estate focuses on building relationships, understanding market trends, and providing exceptional service to clients.",
+    ],
   },
 ];
+
 const visualizationExercises: Tool[] = [
   {
     id: "visualization-tool-1",
@@ -1008,44 +1030,65 @@ const workLifeBalanceTools: Tool[] = [
   {
     id: "work-life-tool-1",
     categoryId: "workLifeBalanceTools",
-    title: "Work-Life Balance Planner",
+    title: "Setting Boundaries",
+    subtitle: "Clear Lines, Strong Self",
     description:
-      "A planner to help users allocate time effectively between work and personal life.",
-    href: "/tools/work-life-balance-planner",
+      "A guide to help users establish healthy boundaries between work and personal life.",
+    href: "/tools/boundary-setting-worksheet",
+    introduction: [
+      "Setting boundaries is essential for maintaining a healthy work-life balance. This guide provides practical strategies to help you establish and communicate your boundaries effectively. By setting clear limits, you can protect your personal time, reduce stress, and enhance your overall well-being.",
+    ],
   },
   {
     id: "work-life-tool-2",
     categoryId: "workLifeBalanceTools",
-    title: "Boundary Setting Worksheet",
+    title: "Time Management",
+    subtitle: "Master Your Minutes",
     description:
-      "A worksheet designed to help users establish healthy boundaries between work and home life.",
-    href: "/tools/boundary-setting-worksheet",
+      "A guide to help users manage their time effectively and prioritize tasks.",
+    href: "/tools/time-management-guide",
+    introduction: [
+      "Effective time management is crucial for achieving a healthy work-life balance. This guide offers practical tips and techniques to help you prioritize tasks, set realistic goals, and make the most of your time. By mastering time management, you can reduce stress and create more space for personal activities.",
+    ],
   },
   {
     id: "work-life-tool-3",
     categoryId: "workLifeBalanceTools",
-    title: "Time Management Guide",
+    title: "Prioritizing Personal Time",
+    subtitle: "Your Time, Your Life",
     description:
-      "A guide to effective time management techniques for balancing responsibilities.",
-    href: "/tools/time-management-guide",
-  },
-  {
-    id: "work-life-tool-4",
-    categoryId: "workLifeBalanceTools",
-    title: "Daily Prioritization Worksheet",
-    description:
-      "A worksheet to help users prioritize tasks and focus on what matters most.",
-    href: "/tools/daily-prioritization-worksheet",
+      "A guide to help users prioritize personal time and self-care in their schedules.",
+    href: "/tools/work-life-balance-planner",
+    introduction: [
+      "Prioritizing personal time is essential for maintaining a healthy work-life balance. This guide provides strategies to help you carve out time for self-care, hobbies, and relaxation. By making personal time a priority, you can recharge and enhance your overall well-being.",
+    ],
   },
   {
     id: "work-life-tool-5",
     categoryId: "workLifeBalanceTools",
-    title: "Relaxation Techniques for Work-Life Balance",
+    title: "Nurture Relationships",
+    subtitle: "Connect, Communicate, Care",
     description:
-      "A guide to relaxation techniques that promote balance and reduce burnout.",
-    href: "/tools/relaxation-techniques-for-work-life-balance",
+      "A guide to help users nurture and maintain healthy relationships in their personal and professional lives.",
+    href: "/tools/nurturing-relationships-guide",
+    introduction: [
+      "Nurturing relationships is vital for emotional well-being and work-life balance. This guide offers practical tips to help you strengthen connections with family, friends, and colleagues. By investing in your relationships, you can create a supportive network that enhances your overall quality of life.",
+    ],
+  },
+  {
+    id: "work-life-tool-6",
+    categoryId: "workLifeBalanceTools",
+    title: "Seek Support",
+    subtitle: "Reach Out, Rejuvenate",
+    description:
+      "A guide to building a support network and seeking help when navigating work-life challenges.",
+    href: "/tools/seeking-support-strategies",
+    introduction: [
+      "Seeking support is essential for managing work-life challenges. This guide provides strategies to help you build a strong support network and seek assistance when needed. By reaching out for help, you can navigate challenges more effectively and enhance your overall well-being.",
+    ],
   },
 ];
+
 const behavioralActivationActivities: Tool[] = [
   {
     id: "health-habits",
