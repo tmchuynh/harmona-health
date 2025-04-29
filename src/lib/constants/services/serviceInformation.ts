@@ -143,7 +143,7 @@ export const serviceInformation: ServiceInformation[] = [
   {
     serviceId: "digestive-health",
     introduction:
-      "Revitalize your digestive health and achieve true balance with a holistic approach that blends nourishing foods, mindful habits, and powerful, targeted supplements. Reclaim your well-being from the inside out and enjoy a smoother, more comfortable digestive journey every day.",
+      "Revitalize your digestive health and achieve true balance with a  interconnected mind-body  approach that blends nourishing foods, mindful habits, and powerful, targeted supplements. Reclaim your well-being from the inside out and enjoy a smoother, more comfortable digestive journey every day.",
     keypoints: [
       "Digestive guide and food sensitivity overview",
       "Weekly food journal reviews",

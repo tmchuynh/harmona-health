@@ -1442,7 +1442,7 @@ export const resourceInformation: Record<string, ResourceInformation> = {
     ],
     benefits: [
       "Raises awareness of the gut's role in mental well-being.",
-      "Encourages holistic approaches to mental health care.",
+      "Encourages mind-body approaches to mental health care.",
       "Provides insights into future mental health treatments.",
     ],
     price: 0.0,
@@ -1697,7 +1697,7 @@ export const resourceInformation: Record<string, ResourceInformation> = {
       "Includes practical exercises for a balanced lifestyle.",
     ],
     benefits: [
-      "Encourages a holistic approach to wellness.",
+      "Encourages a mind-body approach to wellness.",
       "Supports tracking and improving overall health.",
       "Provides tools for creating a sustainable self-care routine.",
     ],

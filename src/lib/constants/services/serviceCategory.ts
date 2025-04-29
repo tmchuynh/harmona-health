@@ -12,15 +12,16 @@ export const serviceCategories: ServiceCategory[] = [
   {
     id: "wellness-programs",
     title: "Wellness Programs",
-    subtitle: "Holistic programs tailored to balance mind, body, and spirit.",
+    subtitle:
+      "All-encompassing programs tailored to balance mind, body, and spirit.",
     icon: PiFlowerLotusFill,
     introduction: [
-      "Our Wellness Programs are crafted to bring harmony to the mind, body, and spirit through a blend of holistic practices rooted in modern science and traditional healing methods. These programs incorporate evidence-based techniques such as mindful movement, personalized nutrition, functional medicine, breathwork, meditation, and lifestyle coaching to provide a comprehensive system of support.",
+      "Our Wellness Programs are crafted to bring harmony to the mind, body, and spirit through a blend of all-inclusive practices rooted in modern science and traditional healing methods. These programs incorporate evidence-based techniques such as mindful movement, personalized nutrition, functional medicine, breathwork, meditation, and lifestyle coaching to provide a comprehensive system of support.",
       "Each program emphasizes sustainable lifestyle changes, natural interventions, and mind-body practices that promote long-term health. Whether you're looking to manage chronic stress, boost your energy, recover from burnout, or build emotional resilience, our tailored programs are designed to meet you exactly where you are on your wellness journey.",
       "Embark on a personalized journey that nurtures your physical vitality, emotional balance, and mental clarity. With the guidance of dedicated experts, you'll experience a transformative shift toward balance, vitality, and self-empowerment. Our mission is to help you cultivate sustainable habits that foster long-term health, inner peace, and a truly fulfilling lifestyle.",
     ],
     description:
-      "Our Wellness Programs integrate modern science with traditional healing to create a holistic path toward balance and vitality. Each program is personalized to address stress, burnout, emotional resilience, and physical health through sustainable lifestyle interventions. Experience a full-spectrum transformation of mind, body, and spirit, guided by evidence-based practices and expert support.",
+      "Our Wellness Programs integrate modern science with traditional healing to create a path toward balance and vitality. Each program is personalized to address stress, burnout, emotional resilience, and physical health through sustainable lifestyle interventions. Experience a full-spectrum transformation of mind, body, and spirit, guided by evidence-based practices and expert support.",
   },
   {
     id: "nutrition-coaching",

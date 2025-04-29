@@ -1736,7 +1736,7 @@ export const featuredResource: Resource[] = [
     title: "Wellness Dictionary",
     href: "/wellness-library/digital-resources/wellness-dictionary",
     description:
-      "Navigate the complex world of holistic health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
+      "Navigate the complex world of multidimensional health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
     subtitle:
       "Demystifying the language of wellness with clear, concise definitions you can trust.",
     image:

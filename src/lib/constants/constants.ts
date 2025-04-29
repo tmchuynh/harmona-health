@@ -128,7 +128,7 @@ export const empowerHealthFeatures = [
   {
     name: "Natural and Holistic Approaches",
     description:
-      "Experience the benefits of holistic wellness protocols that align with your body’s natural rhythm and needs.",
+      "Experience the benefits of all-encompassing wellness protocols that align with your body’s natural rhythm and needs.",
     href: "#",
     icon: FaLeaf,
   },

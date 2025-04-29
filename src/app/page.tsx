@@ -35,7 +35,7 @@ export default function Page() {
                 way.
               </p>
               <p>
-                With our holistic programs, we fuel your journey by empowering
+                With our complete programs, we fuel your journey by empowering
                 you to build lasting vitality, clarity, and confidence. True
                 transformation starts within, and we’re here to guide you toward
                 a future where you lead with purpose, energy, and resilience.
@@ -130,14 +130,14 @@ export default function Page() {
               </p>
               <p className="mt-6">
                 At Harmona Health, we believe in the power of transformation.
-                Our holistic approach to wellness supports lasting changes,
+                Our extensive approach to wellness supports lasting changes,
                 helping you elevate every aspect of your health—whether it’s
                 through fitness training, nutrition coaching, or emotional
                 support. Start your journey today and see the difference. When
                 your health is balanced, your life becomes powerful. At Harmona
                 Health, we focus on integrating physical fitness, emotional
-                wellness, and mental clarity to create a holistic approach that
-                helps you achieve long-lasting vitality and strength.
+                wellness, and mental clarity to create a exhaustive approach
+                that helps you achieve long-lasting vitality and strength.
               </p>
             </div>
           </div>

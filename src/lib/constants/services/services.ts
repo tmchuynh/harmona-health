@@ -7,7 +7,7 @@ export const subServices: Service[] = [
     categoryId: "wellness-programs",
     title: "Personalized Wellness Journey",
     description:
-      "Custom holistic program integrating nutrition, fitness, and mindfulness.",
+      "Custom multidimensional program integrating nutrition, fitness, and mindfulness.",
     introduction:
       "A comprehensive lifestyle transformation plan tailored to your body, habits, and goals. This program integrates personalized nutrition, fitness routines, and mindful living strategies to create lasting change. You will receive structured guidance and support to align your lifestyle with your highest health potential.",
     tiers: [
@@ -277,9 +277,9 @@ export const subServices: Service[] = [
     categoryId: "mental-health-support",
     title: "Emotional Wellness Program",
     description:
-      "Support emotional balance, resilience, and self-awareness with holistic tools and coaching.",
+      "Support emotional balance, resilience, and self-awareness with interconnected tools and coaching.",
     introduction:
-      "Emotional wellness is essential for thriving in both personal and professional life. Our Emotional Wellness Program uses holistic techniques including cognitive strategies, mindfulness, and somatic practices. You will develop resilience, increase emotional intelligence, and enhance your overall well-being with consistent, personalized support.",
+      "Emotional wellness is essential for thriving in both personal and professional life. Our Emotional Wellness Program uses unified techniques including cognitive strategies, mindfulness, and somatic practices. You will develop resilience, increase emotional intelligence, and enhance your overall well-being with consistent, personalized support.",
     tiers: [
       {
         tier: "basic",
@@ -447,7 +447,7 @@ export const subServices: Service[] = [
     categoryId: "corporate-wellness",
     title: "Workplace Wellness Program",
     description:
-      "Empower your team with holistic health workshops, resources, and coaching tailored for the workplace.",
+      "Empower your team with integrative health workshops, resources, and coaching tailored for the workplace.",
     introduction:
       "Investing in employee well-being drives productivity, retention, and workplace culture. Our Workplace Wellness Program delivers workshops, coaching, and resources to promote physical, mental, and emotional health at work. Teams experience enhanced morale, reduced burnout, and higher engagement through targeted initiatives.",
     tiers: [

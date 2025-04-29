@@ -15,14 +15,14 @@ export default function Page() {
         At Harmona Health, we firmly believe that true transformation occurs
         when organizations with a shared vision come together to support and
         empower individuals. Our affiliates and strategic partners play a
-        crucial role in our mission to foster holistic wellness and create
-        lasting change in both individuals and communities. These partnerships
-        allow us to offer a wider array of resources, expert guidance, and
-        innovative solutions, all aimed at enhancing the health and vitality of
-        those we serve. By collaborating with experts in diverse fields, we have
-        been able to build a comprehensive, interconnected wellness ecosystem
-        where all aspects of health—physical, emotional, and mental—are
-        supported and nurtured.
+        crucial role in our mission to foster total wellness and create lasting
+        change in both individuals and communities. These partnerships allow us
+        to offer a wider array of resources, expert guidance, and innovative
+        solutions, all aimed at enhancing the health and vitality of those we
+        serve. By collaborating with experts in diverse fields, we have been
+        able to build a comprehensive, interconnected wellness ecosystem where
+        all aspects of health—physical, emotional, and mental—are supported and
+        nurtured.
       </p>
       <p>
         Our partnerships bring together top-tier professionals across a wide
@@ -49,7 +49,7 @@ export default function Page() {
         community-driven. Together with our partners, we are creating a legacy
         of health, strength, and empowerment that will benefit generations to
         come. As we unite forces for a healthier, stronger future, we invite you
-        to join us in this movement—a movement toward holistic health,
+        to join us in this movement—a movement toward all-encompassing health,
         purposeful living, and a transformative impact on the world. Let’s
         create the future we all deserve, one step at a time.
       </p>

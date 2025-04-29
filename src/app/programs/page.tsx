@@ -9,9 +9,9 @@ export default function Page() {
 
       <p>
         At Harmona Health, we offer a diverse range of services designed to
-        promote holistic well-being and empower individuals and organizations to
-        thrive. From Wellness Programs that harmonize mind, body, and spirit, to
-        Nutrition Coaching that provides personalized dietary guidance, our
+        promote synergistic well-being and empower individuals and organizations
+        to thrive. From Wellness Programs that harmonize mind, body, and spirit,
+        to Nutrition Coaching that provides personalized dietary guidance, our
         services cater to every aspect of health. Whether you're looking to
         enhance physical fitness through Fitness Training, seek emotional
         balance with Mental Health Support, or foster a healthier workplace with

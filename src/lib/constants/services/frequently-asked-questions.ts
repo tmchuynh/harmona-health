@@ -114,7 +114,7 @@ export const FAQ = [
     question:
       "What’s the benefit of working with your team over a traditional clinic?",
     answer:
-      "Our programs blend clinical insights with holistic, client-centered care. We focus on sustainable change, not symptom suppression.",
+      "Our programs blend clinical insights with synergistic, client-centered care. We focus on sustainable change, not symptom suppression.",
     icon: FaLeaf,
   },
   {

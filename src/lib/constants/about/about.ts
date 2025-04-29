@@ -44,7 +44,7 @@ export const healthPrograms: About[] = [
     name: "Health Programs",
     description: [
       "Explore our complete wellness protocols tailored to your goals.",
-      "At Harmona Health, our Health Programs offer a holistic blueprint for thriving. We weave together science-backed methods, compassionate coaching, and sustainable lifestyle practices to help you create real, lasting change.",
+      "At Harmona Health, our Health Programs offer a all-inclusive blueprint for thriving. We weave together science-backed methods, compassionate coaching, and sustainable lifestyle practices to help you create real, lasting change.",
       "Whether you seek physical vitality, emotional resilience, mental clarity, or all of the above, our expert-led protocols are designed to elevate every aspect of your life.",
       "When your health is in harmony, your life becomes powerful — and we are here to help you build that power, one meaningful step at a time.",
     ],
