@@ -137,3 +137,50 @@ export const workshops: Events[] = [
     category: "Therapy Techniques",
   },
 ];
+
+export const images = [
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1679547202671-f9dbbf466db4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uZmVyZW5jZXxlbnwwfDB8MHx8fDA%3D",
+  },
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1733259762527-3d759dfdbd3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxjb25mZXJlbmNlfGVufDB8MHwwfHx8MA%3D%3D",
+  },
+  {
+    imageLink:
+      "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1661497331167-9c1e2b65af21?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk3fHxjb25mZXJlbmNlfGVufDB8MHwwfHx8MA%3D%3D",
+  },
+  {
+    imageLink:
+      "https://images.unsplash.com/photo-1654609160632-7324716196fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxjb25mZXJlbmNlfGVufDB8MHwwfHx8MA%3D%3D",
+  },
+  {
+    imageLink:
+      "https://images.unsplash.com/photo-1603478804503-dc909c7f5ce5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1679547202933-370797093cc9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://images.unsplash.com/photo-1565813086292-604790c8a97b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1683141540201-e7604f2eeceb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+  {
+    imageLink:
+      "https://plus.unsplash.com/premium_photo-1679547203037-6792f7fce8fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGNvbmZlcmVuY2V8ZW58MHwwfDB8fHww",
+  },
+];

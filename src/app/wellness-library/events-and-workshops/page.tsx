@@ -1,15 +1,14 @@
 "use client";
 
 import EventsCard from "@/components/card/EventsCard";
-import { events, workshops } from "@/lib/constants/about/events";
+import { FeaturedImageGallery } from "@/components/images/FeaturedImageGallery";
+import { events, images, workshops } from "@/lib/constants/about/events";
 import { formatDate } from "@/lib/utils/format";
 import {
   filterByDateComparison,
-  filterByPropertyComparison,
   groupAndSortByProperties,
-  sortByProperty,
 } from "@/lib/utils/sort";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 export default function Page() {
   const date = new Date();
   const formatedDate = formatDate(date);
@@ -42,9 +41,6 @@ export default function Page() {
     "greaterThan"
   );
 
-  console.log("pastEvents", pastEvents);
-  console.log("futureEvents", futureEvents);
-
   const sortedWorkshops = groupAndSortByProperties(
     workshops,
     "date",
@@ -67,28 +63,34 @@ export default function Page() {
     "greaterThan"
   );
 
-  console.log("pastWorkshops", pastWorkshops);
-  console.log("futureWorkshops", futureWorkshops);
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>Events & Workshops for Mental Health</h1>
-      <h5>
-        Live Workshops & Webinars: Build Resilience and Learn Mental Health
-        Strategies from Experts
-      </h5>
+      <section className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+        <div className="lg:col-span-3">
+          <h1>Events & Workshops for Mental Health</h1>
+          <h5>
+            Live Workshops & Webinars: Build Resilience and Learn Mental Health
+            Strategies from Experts
+          </h5>
+          <p className="my-8 md:my-4 lg:my-6">
+            Take part in live, expert-led events that are carefully designed to
+            support and enhance your mental well-being. Our interactive
+            webinars, group workshops, and immersive virtual retreats are
+            focused on building resilience and promoting emotional health.
+            Topics range from mindfulness techniques and nervous system
+            regulation to trauma-informed care and community support exercises.
+            These events are hosted by mental health professionals and provide
+            you with tools you can use to improve your daily life. In addition,
+            each event comes with downloadable workbooks and follow-up materials
+            to ensure you can continue your personal growth long after the
+            session ends.
+          </p>
+        </div>
 
-      <p className="my-8 md:my-4 lg:my-6">
-        Take part in live, expert-led events that are carefully designed to
-        support and enhance your mental well-being. Our interactive webinars,
-        group workshops, and immersive virtual retreats are focused on building
-        resilience and promoting emotional health. Topics range from mindfulness
-        techniques and nervous system regulation to trauma-informed care and
-        community support exercises. These events are hosted by mental health
-        professionals and provide you with tools you can use to improve your
-        daily life. In addition, each event comes with downloadable workbooks
-        and follow-up materials to ensure you can continue your personal growth
-        long after the session ends.
-      </p>
+        <section className="md:col-span-1 lg:col-span-2">
+          <FeaturedImageGallery data={images} />
+        </section>
+      </section>
 
       <section className="flex flex-col gap-8">
         <section>
