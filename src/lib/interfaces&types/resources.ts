@@ -112,7 +112,7 @@ export interface JournalPrompts {
 export interface BehavioralActivities {
   title: string;
   introduction: string;
-  description: string;
+  description?: string;
   steps: Step[];
   conclusion: string;
   afterThoughts?: string;
@@ -123,15 +123,11 @@ export type Step = {
   note?: string;
 };
 
-export interface MindfulnessPractices {
+export interface MindfulnessPractices extends BehavioralActivities {
   // CHANGE TO EXTEND BEHAVIORAL ACTIVITIES
-  title: string;
-  introduction: string;
   useCases: string[];
   approximateTime: string;
-  steps: Step[];
   frequency: string;
-  conclusion: string;
 }
 
 export interface WorkLifeBalance {

@@ -8,7 +8,7 @@ const BehavioralActivitiesCard = ({ data }: { data: BehavioralActivities }) => {
 
       <section className="mb-6">
         <p>{data.introduction}</p>
-        <p>{data.description}</p>
+        {data.description && <p>{data.description}</p>}
       </section>
 
       <section className="mb-6">
