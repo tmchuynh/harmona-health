@@ -1,5 +1,4 @@
 "use client";
-import LogoCloud from "@/components/images/LogoCloud";
 import { Button } from "@/components/ui/button";
 import { commitments, timeline } from "@/lib/constants/about/about";
 import { supporters, teamMembers } from "@/lib/constants/about/staff";
@@ -12,7 +11,6 @@ export default function Page() {
   const router = useRouter();
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <LogoCloud />
       <h1>Building Wellness from the Inside Out</h1>
       <h5>
         Harmona Health’s Commitment to Your Strength, Clarity, and Lasting
