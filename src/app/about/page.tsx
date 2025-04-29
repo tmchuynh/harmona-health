@@ -358,26 +358,34 @@ export default function Page() {
         <section>
           <h2>What We Stand For</h2>
           <p></p>
-          <div className="md:gap-10 grid md:grid-cols-2">
+          <div className="md:gap-10 grid lg:grid-cols-2">
             {commitments.map((item, index) => (
               <div
                 key={index}
-                className="shadow-md p-6 rounded-2xl transition duration-300"
+                className="grid grid-cols-1 md:grid-cols-3 bg-card shadow-md rounded-2xl h-full transition duration-300 overflow-hidden"
               >
-                <div className="flex items-center gap-3 mb-4">
-                  {item.icon}
-                  <h3>{item.name}</h3>
+                <div className="md:col-span-2 p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <h3>{item.name}</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    {item.description.map((sentence, idx) => (
+                      <li key={idx} className="flex items-start gap-x-3">
+                        <div className="flex-shrink-0 mt-1">
+                          <IoLeafOutline className="w-4 h-4 text-primary" />
+                        </div>
+                        <span>{sentence}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <ul className="space-y-3">
-                  {item.description.map((sentence, idx) => (
-                    <li key={idx} className="flex items-start gap-x-3">
-                      <div className="flex-shrink-0 mt-1">
-                        <IoLeafOutline className="w-4 h-4 text-primary" />
-                      </div>
-                      <span>{sentence}</span>
-                    </li>
-                  ))}
-                </ul>
+                <Image
+                  alt={item.name}
+                  src={item.href}
+                  className="md:h-full object-center object-cover"
+                  width={700}
+                  height={700}
+                />
               </div>
             ))}
           </div>
@@ -433,39 +441,186 @@ export default function Page() {
             purpose, and unshakable confidence.
           </p>
           <p>Explore how we support you at every stage of your growth:</p>
-          <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-3">
-            {healthPrograms.map((program, idx) => (
-              <div
-                key={idx}
-                className="flex flex-col justify-between shadow-md p-6 rounded-lg transition-all duration-300 dark:outline"
-              >
-                <div>
-                  <h3>{program.name}</h3>
-                  <ul className="space-y-3 my-4">
-                    {program.description.map((sentence, index) => (
-                      <li key={index} className="flex items-start gap-x-3">
-                        <div className="flex-shrink-0 mt-1">
-                          <FaLeaf className="w-4 h-4 text-primary" />
-                        </div>
-                        <span>{sentence}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="flex flex-col items-center">
-                  <p className="my-7 h-[4em]">{program.callToAction}</p>
-                  <div>
-                    {isLargeScreen ? (
-                      <Button onClick={() => router.push("#")}>
-                        {program.linkText}
-                      </Button>
-                    ) : (
-                      <DynamicButton href="#">{program.linkText}</DynamicButton>
-                    )}
-                  </div>
+          <div className="gap-4 grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-2 mt-4 md:mt-9">
+            <div className="relative lg:col-span-3">
+              <div className="absolute inset-px bg-card rounded-lg max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]" />
+              <div className="relative flex flex-col rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] lg:rounded-tl-[calc(2rem+1px)] h-full overflow-hidden">
+                <Image
+                  alt=""
+                  src="https://plus.unsplash.com/premium_photo-1664299353570-8806eb1de970?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VsbG5lc3N8ZW58MHwwfDB8fHww"
+                  className="h-70 object-center object-cover"
+                  width={700}
+                  height={700}
+                />
+                <div className="p-10 pt-4">
+                  <h5>
+                    Awaken your fullest potential through integrated mind-body
+                    wellness.
+                  </h5>
+                  <h3>Comprehensive Wellness Programs</h3>
+                  <p>
+                    Our Wellness Programs weave together modern science, ancient
+                    healing traditions, and evidence-based practices to support
+                    transformation on every level. Through tailored coaching,
+                    mindfulness, and full-scale strategies, you’ll cultivate
+                    lasting resilience, balance, and vibrant energy. We believe
+                    wellness is not a destination, but a dynamic, ongoing
+                    journey — one that reconnects you with your truest,
+                    healthiest self. Embrace a life of deep vitality,
+                    authenticity, and joy.
+                  </p>
+                  <Button
+                    className="mt-3"
+                    onClick={() => router.push("/programs/wellness-programs")}
+                  >
+                    Explore This Category
+                  </Button>
                 </div>
               </div>
-            ))}
+              <div className="absolute inset-px shadow-sm rounded-lg max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem] ring-1 ring-black/5 pointer-events-none" />
+            </div>
+            <div className="relative lg:col-span-3">
+              <div className="absolute inset-px bg-card rounded-lg lg:rounded-tr-[2rem]" />
+              <div className="relative flex flex-col rounded-[calc(var(--radius-lg)+1px)] lg:rounded-tr-[calc(2rem+1px)] h-full overflow-hidden">
+                <Image
+                  alt=""
+                  src="https://images.unsplash.com/photo-1548534143-1779f5b68bab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZW1vdGlvbmFsJTIwd2VsbCUyMGJlaW5nfGVufDB8MHwwfHx8MA%3D%3D"
+                  className="h-70 object-center object-cover"
+                  width={700}
+                  height={700}
+                />
+                <div className="p-10 pt-4">
+                  <h5>
+                    Wellness isn't complete without mental and emotional
+                    balance.
+                  </h5>
+                  <h3>Mental & Emotional Well-Being</h3>
+                  <p>
+                    At Harmona Health, we recognize that true well-being
+                    requires care for the heart and mind, not just the body. Our
+                    programs combine therapy, mindfulness, and resilience
+                    coaching to foster emotional intelligence, stress
+                    management, and personal growth. Whether you're navigating
+                    life transitions or striving for deeper inner peace, our
+                    approach offers personalized support every step of the way.
+                    Heal, grow, and thrive with greater clarity, strength, and
+                    compassion for yourself.
+                  </p>
+                  <Button
+                    className="mt-3"
+                    onClick={() => router.push("/programs/mental-health")}
+                  >
+                    Explore This Category
+                  </Button>
+                </div>
+              </div>
+              <div className="absolute inset-px shadow-sm rounded-lg lg:rounded-tr-[2rem] ring-1 ring-black/5 pointer-events-none" />
+            </div>
+            <div className="relative lg:col-span-2">
+              <div className="absolute inset-px bg-card rounded-lg lg:rounded-bl-[2rem]" />
+              <div className="relative flex flex-col rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)] h-full overflow-hidden">
+                <Image
+                  alt=""
+                  src="https://images.unsplash.com/photo-1562114658-c1889b52410f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG51dHJpdGlvbiUyMGNvYWNoaW5nfGVufDB8MHwwfHx8MA%3D%3D"
+                  className="h-70 object-center object-cover"
+                  width={700}
+                  height={700}
+                />
+                <div className="p-10 pt-4">
+                  <h5>
+                    Redefine your relationship with food and reclaim your
+                    vitality.
+                  </h5>
+                  <h3>Nutrition Coaching</h3>
+                  <p>
+                    Nutrition is more than just eating — it’s about deeply
+                    nourishing your body and spirit. Our Nutrition Coaching goes
+                    beyond meal plans, blending functional nutrition, intuitive
+                    eating, and personalized strategies that honor your unique
+                    body and lifestyle. Through a supportive, empowering
+                    approach, we help you build habits that energize, heal, and
+                    sustain you. True strength begins from the inside out — and
+                    we’re here to guide your journey.
+                  </p>
+                  <Button
+                    className="mt-3"
+                    onClick={() => router.push("/programs/nutrition-coaching")}
+                  >
+                    Explore This Category
+                  </Button>
+                </div>
+              </div>
+              <div className="absolute inset-px shadow-sm rounded-lg lg:rounded-bl-[2rem] ring-1 ring-black/5 pointer-events-none" />
+            </div>
+            <div className="relative lg:col-span-2">
+              <div className="absolute inset-px bg-card rounded-lg" />
+              <div className="relative flex flex-col rounded-[calc(var(--radius-lg)+1px)] h-full overflow-hidden">
+                <Image
+                  alt=""
+                  src="https://plus.unsplash.com/premium_photo-1661281288734-49d3606234c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEZpdG5lc3MlMjBUcmFpbmluZ3xlbnwwfDB8MHx8fDA%3D"
+                  className="h-70 object-center object-cover"
+                  width={700}
+                  height={700}
+                />
+                <div className="p-10 pt-4">
+                  <h5>
+                    Unlock strength, move with purpose, and live with vitality.
+                  </h5>
+                  <h3>Fitness Training</h3>
+                  <p>
+                    Our Fitness Training programs are designed for every stage
+                    of your journey — from beginner to seasoned athlete. With an
+                    emphasis on functional movement, injury prevention, and
+                    real-world strength, we customize training that builds more
+                    than just muscle — it builds confidence, energy, and lasting
+                    results. Every session moves you closer to your highest
+                    potential, empowering you to live actively, vibrantly, and
+                    fully aligned with your goals.
+                  </p>
+                  <Button
+                    className="mt-3"
+                    onClick={() => router.push("/programs/fitness-training")}
+                  >
+                    Explore This Category
+                  </Button>
+                </div>
+              </div>
+              <div className="absolute inset-px shadow-sm rounded-lg ring-1 ring-black/5 pointer-events-none" />
+            </div>
+            <div className="relative lg:col-span-2">
+              <div className="absolute inset-px bg-card rounded-lg max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" />
+              <div className="relative flex flex-col rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)] h-full overflow-hidden">
+                <Image
+                  alt=""
+                  src="https://plus.unsplash.com/premium_photo-1714229505416-4c7726c59dac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q29ycG9yYXRlJTIwV2VsbG5lc3N8ZW58MHwwfDB8fHww"
+                  className="h-70 object-center object-cover"
+                  width={700}
+                  height={700}
+                />
+                <div className="p-10 pt-4">
+                  <h5>Thriving teams start with thriving individuals</h5>
+                  <h3>Corporate Wellness</h3>
+                  <p>
+                    We collaborate with organizations to nurture employee
+                    well-being at every level — physically, mentally, and
+                    emotionally. Our Corporate Wellness initiatives blend stress
+                    reduction, mental health strategies, fitness programs, and
+                    leadership development into a powerful blueprint for
+                    organizational vitality. By creating spaces where well-being
+                    fuels innovation and resilience, we help businesses grow
+                    stronger from the inside out. Investing in people isn't just
+                    good leadership — it’s the foundation of lasting success.
+                  </p>
+                  <Button
+                    className="mt-3"
+                    onClick={() => router.push("/programs/corporate-wellness")}
+                  >
+                    Explore This Category
+                  </Button>
+                </div>
+              </div>
+              <div className="absolute inset-px shadow-sm rounded-lg max-lg:rounded-b-[2rem] lg:rounded-br-[2rem] ring-1 ring-black/5 pointer-events-none" />
+            </div>
           </div>
         </section>
 
