@@ -1,47 +1,14 @@
 "use client";
 import LogoCloud from "@/components/images/LogoCloud";
 import { Button } from "@/components/ui/button";
-import { commitments } from "@/lib/constants/about/about";
+import { commitments, timeline } from "@/lib/constants/about/about";
 import { supporters, teamMembers } from "@/lib/constants/about/staff";
 import { wellnessJourneyStats } from "@/lib/constants/constants";
-import useLargeScreen from "@/lib/screens/useLargeScreen";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { IoLeafOutline } from "react-icons/io5";
 
-const timeline = [
-  {
-    name: "Founded company",
-    description:
-      "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.",
-    date: "Aug 2021",
-    dateTime: "2021-08",
-  },
-  {
-    name: "Secured $65m in funding",
-    description:
-      "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.",
-    date: "Dec 2021",
-    dateTime: "2021-12",
-  },
-  {
-    name: "Released beta",
-    description:
-      "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-    date: "Feb 2022",
-    dateTime: "2022-02",
-  },
-  {
-    name: "Global launch of product",
-    description:
-      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
-    date: "Dec 2022",
-    dateTime: "2022-12",
-  },
-];
-
 export default function Page() {
-  const isLargeScreen = useLargeScreen();
   const router = useRouter();
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
