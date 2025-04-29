@@ -97,3 +97,51 @@ export const timeline = [
     dateTime: "2022-07",
   },
 ];
+
+export const accessibilityStatement = [
+  {
+    title: "Site Structure",
+    description:
+      "We use semantic HTML5 elements to improve screen reader navigation and content organization, ensuring content is easily accessible and understandable for all users.",
+  },
+  {
+    title: "Keyboard Navigation",
+    description:
+      "Our website is fully navigable by keyboard alone, with clear focus indicators and a logical tab order to facilitate smooth navigation for users relying on keyboard access.",
+  },
+  {
+    title: "Contrast and Color",
+    description:
+      "We maintain strong color contrast between foreground text and background elements, ensuring readability for users with visual impairments and promoting accessibility for all.",
+  },
+  {
+    title: "Alt Text for Images",
+    description:
+      "All informative images include descriptive alternative text, and decorative images are appropriately marked, making it easier for screen reader users to navigate the site.",
+  },
+  {
+    title: "Form Accessibility",
+    description:
+      "Forms on our site are designed with proper labels, instructions, and error handling to assist users utilizing assistive technologies, ensuring smooth form interactions.",
+  },
+  {
+    title: "ARIA Landmarks and Roles",
+    description:
+      "Where necessary, we use ARIA (Accessible Rich Internet Applications) attributes to enhance screen reader compatibility and ensure a more inclusive user experience.",
+  },
+  {
+    title: "Video and Multimedia",
+    description:
+      "Our multimedia content includes captions, and transcripts are provided for audio-based materials where applicable, ensuring that content is accessible to users with hearing impairments.",
+  },
+  {
+    title: "Responsiveness",
+    description:
+      "Our website is fully responsive across devices and accommodates different zoom settings without loss of functionality or readability, ensuring accessibility on all screen sizes.",
+  },
+  {
+    title: "Consistent Navigation",
+    description:
+      "We maintain a consistent navigation structure to aid in usability, minimize cognitive load, and ensure users can easily find their way around our site, regardless of device or ability.",
+  },
+];
