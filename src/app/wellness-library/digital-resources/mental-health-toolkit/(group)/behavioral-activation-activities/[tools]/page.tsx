@@ -40,7 +40,7 @@ export default function Page() {
 
       <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
         {toolData.map((activity, index) => (
-          <BehavioralActivitiesCard key={index} activity={activity} />
+          <BehavioralActivitiesCard key={index} data={activity} />
         ))}
       </section>
     </div>
