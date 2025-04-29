@@ -1,14 +1,12 @@
 "use client";
-import DynamicButton from "@/components/button/button-dynamic";
 import LogoCloud from "@/components/images/LogoCloud";
 import { Button } from "@/components/ui/button";
-import { commitments, healthPrograms } from "@/lib/constants/about/about";
+import { commitments } from "@/lib/constants/about/about";
 import { supporters, teamMembers } from "@/lib/constants/about/staff";
 import { wellnessJourneyStats } from "@/lib/constants/constants";
 import useLargeScreen from "@/lib/screens/useLargeScreen";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { FaLeaf } from "react-icons/fa";
 import { IoLeafOutline } from "react-icons/io5";
 
 const timeline = [
