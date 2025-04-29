@@ -28,6 +28,11 @@ export default function Page() {
 
   const sortedTools = sortByProperty(correspondingTools, "title");
 
+  console.log("tool", tool);
+  console.log("toolkitCategory", toolkitCategory);
+  console.log("toolkitInformation", toolkitInformation);
+  console.log("toolID", toolID);
+
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
     const index = getRandomIndex(shuffledIcons);

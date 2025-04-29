@@ -85,7 +85,7 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "selfCompassionAndEsteemPractices",
+    id: "selfCompassionAndSelfEsteemToolkit",
     title: "Self Compassion and Self Esteem Toolkit",
     description: [
       "Self-compassion and self-esteem practices are essential components of personal growth and emotional well-being, helping individuals cultivate a positive mindset and emotional resilience. Both approaches encourage individuals to treat themselves with the same kindness, understanding, and care they would extend to a friend, fostering a deeper connection with themselves. Self-compassion involves recognizing and accepting personal struggles without judgment, responding with warmth and support. Techniques such as reflecting on strengths, embracing imperfections, and reframing negative self-talk into compassionate language help reduce self-criticism and build emotional resilience. This practice creates a mental space where pain can be acknowledged without the added burden of harsh judgment, promoting a sense of gentleness and understanding.",
@@ -219,8 +219,8 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "emotionalRegulationTools",
-    title: "Emotional Regulation Tools",
+    id: "emotionalRegulationToolkit",
+    title: "Emotional Regulation Toolkit",
     description: [
       "Emotional regulation tools are designed to help individuals manage their emotions effectively. These resources may include mindfulness practices, cognitive reframing exercises, and self-care strategies specifically tailored for emotional regulation. By using these tools, individuals can learn to identify their emotional triggers, develop healthy coping mechanisms, and improve their overall mental health. The goal is to empower individuals to take control of their emotions and enhance their well-being.",
       "Effective emotional regulation is essential for maintaining emotional balance and overall health. The Emotional Regulation Tools provide practical strategies for managing emotions in real-time, as well as long-term techniques for building resilience. By incorporating these tools into daily routines, individuals can create a personalized approach to emotional regulation that supports their mental health and well-being. The focus is on fostering a sense of control and empowerment in the face of emotional challenges.",

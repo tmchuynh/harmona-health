@@ -124,7 +124,6 @@ export type Step = {
 };
 
 export interface MindfulnessPractices extends BehavioralActivities {
-  // CHANGE TO EXTEND BEHAVIORAL ACTIVITIES
   useCases: string[];
   approximateTime: string;
   frequency: string;

@@ -25,6 +25,11 @@ export default function Page() {
     fetchData();
   }, [toolKit, toolKitID]);
 
+  console.log("tool", tool);
+  console.log("toolKit", toolKit);
+  console.log("toolKitID", toolKitID);
+  console.log("toolName", toolInformation);
+
   console.log("toolData", toolData);
 
   return (

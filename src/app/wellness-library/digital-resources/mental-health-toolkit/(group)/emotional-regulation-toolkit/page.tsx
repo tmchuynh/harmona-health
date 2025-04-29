@@ -23,8 +23,15 @@ export default function Page() {
 
   const toolID = formatUrlToID(tool);
 
+  console.log("tool", tool);
+  console.log("toolkitCategory", toolkitCategory);
+  console.log("toolkitInformation", toolkitInformation);
+  console.log("toolID", toolID);
+
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
+
+  console.log("correspondingTools", correspondingTools);
 
   const sortedTools = sortByProperty(correspondingTools, "title");
 
@@ -37,7 +44,9 @@ export default function Page() {
   }, []);
 
   useEffect(() => {
-    const toolkitInformation = toolkit.find((toolkit) => toolkit.href === url);
+    const toolkitInformation = toolkit.find(
+      (toolkit) => toolkit.title === capitalize(tool)
+    );
     if (toolkitInformation) {
       setToolkitInformation(toolkitInformation);
     }

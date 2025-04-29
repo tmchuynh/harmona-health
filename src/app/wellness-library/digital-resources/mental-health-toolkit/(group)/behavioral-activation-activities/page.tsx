@@ -37,17 +37,24 @@ export default function Page() {
   }, []);
 
   useEffect(() => {
-    const toolkitInformation = toolkit.find((toolkit) => toolkit.href === url);
+    const toolkitInformation = toolkit.find(
+      (toolkit) => toolkit.title === capitalize(tool)
+    );
     if (toolkitInformation) {
       setToolkitInformation(toolkitInformation);
     }
   }, [toolkitCategory, tool]);
 
+  console.log("toolkitInformation", toolkitInformation);
+  console.log("toolID", toolID);
+  console.log("correspondingTools", correspondingTools);
+  console.log("sortedTools", sortedTools);
+  console.log("tool", tool);
+  console.log("toolkitCategory", toolkitCategory);
+
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>
-        {capitalize(toolkitCategory)}: {capitalize(tool)}
-      </h1>
+      <h1>{capitalize(tool)}</h1>
       <h5>{toolkitInformation?.subtitle}</h5>
 
       <div className="my-8 md:my-4 lg:my-6">

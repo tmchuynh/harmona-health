@@ -185,87 +185,87 @@ const buildingResiliencePractices: Tool[] = [
       "A tool to map out your personal and professional support systems, strengthening your resilience through community.",
   },
 ];
-const selfCompassionAndEsteemToolkit: Tool[] = [
+const selfCompassionAndSelfEsteemToolkit: Tool[] = [
   {
     id: "gratitude-tool-2",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Gratitude Prompts",
     description:
       "A set of prompts to inspire deeper gratitude journaling and reflection.",
   },
   {
     id: "self-care-tool-2",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Boundaries Setting Guide",
     description:
       "A guide to help you identify and set healthy boundaries with others to protect your mental and emotional well-being.",
   },
   {
     id: "gratitude-tool-3",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Weekly Gratitude Tracker",
     description:
       "A tracker to log weekly gratitude entries and visualize positive patterns.",
   },
   {
     id: "cbt-tool-5",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Positive Affirmation Builder",
     description:
       "A tool to create personalized positive affirmations that counteract negative self-talk and build self-esteem.",
   },
   {
     id: "self-compassion-tool-2",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Self-Compassion Meditation",
     description:
       "A guided meditation to foster self-compassion and reduce self-criticism.",
   },
   {
     id: "self-compassion-tool-3",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Affirmations for Self-Compassion",
     description:
       "A collection of affirmations to help users build a healthier relationship with themselves.",
   },
   {
     id: "self-compassion-tool-4",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Self-Compassion Exercises",
     description:
       "A set of exercises to help users practice self-compassion in daily life.",
   },
   {
     id: "self-compassion-tool-5",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Overcoming Self-Criticism Worksheet",
     description:
       "A worksheet to identify and challenge self-critical thoughts, fostering a more compassionate mindset.",
   },
   {
     id: "self-esteem-tool-4",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Self-Esteem Building Exercises",
     description:
       "A collection of exercises to help you build self-esteem and develop a more positive self-image.",
   },
   {
     id: "self-esteem-tool-5",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Compliments Tracker",
     description:
       "A tool to track and reflect on compliments you receive, helping you internalize positive feedback and build self-esteem.",
   },
   {
     id: "self-esteem-tool-7",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Self-Compassion and Self-Esteem Balance",
     description:
       "A tool to help individuals balance self-compassion and self-esteem practices to create a harmonious sense of self-worth.",
   },
   {
     id: "self-esteem-tool-8",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Confidence Builder",
     description:
       "A series of exercises and tips to help boost your confidence and improve self-assurance in various situations.",
@@ -295,7 +295,7 @@ const sleepOptimizationGuides: Tool[] = [
   },
   {
     id: "self-care-tool-4",
-    categoryId: "selfCompassionAndEsteemToolkit",
+    categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Sleep Improvement Tracker",
     description:
       "A tool to track your sleep habits and provide tips for improving your sleep quality, essential for mental and emotional health.",
@@ -517,57 +517,103 @@ const cognitiveBehavioralTherapyExercises: Tool[] = [
   {
     id: "cbt-tool-1",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Thought Record Template",
+    title: "Thought Record Guide",
+    subtitle:
+      "Track and Transform Unhelpful Thoughts with Evidence-Based Reflection",
     description:
-      "A structured template to help users identify and challenge negative thought patterns, replacing them with healthier, more constructive thoughts.",
+      "A structured guide to help users identify and challenge negative thought patterns, replacing them with healthier, more constructive thoughts.",
+    introduction: [
+      "This guide walks you through capturing your thoughts in real-time to better understand your mental habits. You will record the situation, the emotions involved, and the thoughts that automatically surface. The structured format encourages you to question the evidence for and against your thoughts. This process reveals distortions and opens the door to more rational interpretations. Over time, you’ll learn to break the cycle of automatic negative thinking and respond with greater clarity.",
+      "Using this tool consistently builds your capacity for emotional regulation and mental clarity. It’s ideal for those experiencing depression, anxiety, or overwhelming stress. By tracking your thoughts, you bring unconscious patterns to the surface where they can be consciously reshaped. The result is improved self-awareness and more balanced, supportive thinking. This exercise is foundational in any CBT practice and creates lasting change in cognitive behavior.",
+    ],
     href: "/tools/thought-record-template",
   },
   {
     id: "cbt-tool-2",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Cognitive Distortion Worksheet",
+    title: "Cognitive Distortion Guide",
+    subtitle: "Identify and Challenge Distorted Thinking for Mental Clarity",
     description:
-      "A worksheet designed to help users recognize common cognitive distortions and reframe their thinking patterns.",
+      "A guide designed to help users recognize common cognitive distortions and reframe their thinking patterns.",
+    introduction: [
+      "This guide introduces ten of the most common thinking distortions that can shape how we interpret our experiences. You'll learn how patterns like catastrophizing, overgeneralization, and personalization may be affecting your mental state. With each distortion, you’ll find examples and questions to help challenge that type of thinking. Understanding the distortion allows you to step back and consider more helpful alternatives. This guide trains your brain to pause, assess, and respond more intentionally.",
+      "Whether you're struggling with anxiety, low self-worth, or chronic stress, this tool is a helpful companion in building mental resilience. It creates space between stimulus and response, allowing for greater emotional intelligence. You’ll feel empowered to take control of your thoughts, rather than be ruled by them. Repeated use will help you internalize these reframing techniques. Over time, you’ll find yourself naturally adopting more balanced, optimistic perspectives.",
+    ],
     href: "/tools/cognitive-distortion-worksheet",
   },
   {
     id: "cbt-tool-3",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Behavioral Experiment Planner",
+    title: "Behavioral Experiment Guide",
+    subtitle: "Test Your Assumptions and Build Real-World Evidence",
     description:
       "A tool to plan and execute behavioral experiments that test the validity of negative beliefs and assumptions.",
+    introduction: [
+      "Behavioral experiments are powerful ways to test the accuracy of the beliefs that fuel anxiety and self-doubt. This guide teaches you how to design simple, real-life experiments to challenge those assumptions. You’ll define what you believe will happen and then compare it to what actually occurs. This hands-on process creates experiential learning and weakens the grip of distorted thinking. When you see that your fears are often exaggerated, your confidence and resilience grow.",
+      "The tool walks you through identifying a belief, designing a test, and reflecting on outcomes. It’s particularly effective for social anxiety, perfectionism, and avoidance behaviors. With practice, you’ll begin to treat thoughts as hypotheses rather than facts. Each experiment becomes a stepping stone toward flexible, adaptive thinking. This CBT approach encourages curiosity over judgment and helps dismantle limiting narratives.",
+    ],
     href: "/tools/behavioral-experiment-planner",
   },
   {
-    id: "cbt-tool-6",
+    id: "cbt-exercise-5",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Problem-Solving Worksheet",
+    title: "Situational Thought Challenge",
+    subtitle:
+      "Reframe Reactions to Everyday Stressors with Logic and Compassion",
     description:
-      "A step-by-step guide to help users break down challenges and develop actionable solutions.",
-    href: "/tools/problem-solving-worksheet",
+      "A detailed guide explaining a thought provoking challenege in order to help reframe thoughts in response to difficult or stressful situations using structured questioning.",
+    introduction: [
+      "This challenege guides you through a structured response to stressful events by challenging your initial thoughts. It asks key questions like ‘What’s the worst that could happen?’ and ‘Is there another way to view this?’ to interrupt automatic thinking. By slowing down and thinking critically, you make space for more rational and kind interpretations. This process helps reduce emotional reactivity and improve decision-making. Over time, it rewires your response to challenges, building emotional intelligence.",
+      "It’s especially useful for managing anxiety, relationship conflict, or workplace stress. The tool promotes cognitive flexibility and encourages problem-solving instead of rumination. You’ll gain clarity about the situation, your emotions, and your choices. Practicing regularly helps you respond with intentionality rather than impulse. This exercise empowers you to become the observer of your mind—not its victim.",
+    ],
+    href: "/tools/situational-thought-challenge",
   },
   {
     id: "cbt-tool-7",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Graded Exposure Planner",
+    title: "Graded Exposure Guide",
+    subtitle: "Conquer Fears One Step at a Time Through Controlled Exposure",
     description:
-      "A planner to help users gradually face and overcome fears or anxieties through structured exposure exercises.",
+      "A tool to help users gradually face and overcome fears or anxieties through structured exposure exercises.",
+    introduction: [
+      "This tool helps you design a personalized hierarchy of fear-inducing situations to tackle gradually and safely. Exposure is done in steps, starting with mild discomfort and building up to more intense challenges. By facing fears intentionally and repeatedly, anxiety decreases and confidence grows. You’ll also learn calming techniques to support yourself during exposure exercises. This guide provides a clear and empowering framework to approach what you’ve been avoiding.",
+      "Graded exposure is especially useful for phobias, panic, social anxiety, and OCD. The tool helps shift avoidance into action and replaces fear with familiarity. You track progress to see how your responses change over time. Through repeated experience, your brain learns that discomfort is manageable and not dangerous. This tool rewires your nervous system for calm, resilience, and growth.",
+    ],
     href: "/tools/graded-exposure-planner",
   },
   {
     id: "cbt-tool-8",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "Core Belief Worksheet",
+    title: "Core Belief Exercise",
+    subtitle:
+      "Uncover and Transform the Deep-Seated Beliefs Shaping Your World",
     description:
-      "A worksheet to help users identify and challenge deeply held core beliefs that may be contributing to negative thought patterns.",
+      "An exercise to help users identify and challenge deeply held core beliefs that may be contributing to negative thought patterns.",
+    introduction: [
+      "This exercise guides you through identifying the core beliefs that shape how you see yourself, others, and the world. Core beliefs often develop in early life and go unquestioned into adulthood. They drive automatic thoughts and emotional responses without your conscious awareness. By bringing them to light, you can begin to evaluate whether they are accurate or helpful. This process is crucial in shifting the foundation of your self-concept.",
+      "The tool uses a step-by-step approach to trace thoughts back to their underlying belief system. You’ll then learn how to reframe harmful beliefs into balanced, supportive ones. With time, this rewiring leads to a more stable and compassionate inner narrative. It’s especially effective for those struggling with chronic low self-esteem or internalized negativity. Replacing limiting beliefs with empowering ones opens the door to lasting transformation.",
+    ],
     href: "/tools/core-belief-worksheet",
+  },
+  {
+    id: "cbt-exercise-2",
+    categoryId: "cognitiveBehavioralTherapyExercises",
+    title: "Cognitive Distortions Identifier",
+    subtitle: "Recognize and Label Unhelpful Thinking Patterns",
+    description:
+      "A guide that helps you identify common cognitive distortions like catastrophizing, black-and-white thinking, and mind reading.",
+    introduction: [
+      "This exercise introduces you to the most common cognitive distortions that shape unhelpful thought patterns. By learning to recognize distorted thinking, you increase your mental flexibility and self-awareness. The checklist provides clear definitions and examples to help you label your thoughts accurately. Awareness is the first step in changing how you relate to your internal experience. The goal is not to eliminate thoughts but to question and reframe them.",
+      "Regular use of this tool builds your skill in identifying distortions in real time. It can be paired with journaling or reflection exercises for deeper insight. Over time, you’ll notice fewer automatic negative thoughts and more rational, balanced thinking. This is especially helpful for managing anxiety, depression, and low self-esteem. Understanding how your thoughts influence your emotions allows you to regain control over your mental state.",
+    ],
+    href: "/tools/cognitive-distortions-identifier",
   },
   {
     id: "cbt-tool-9",
     categoryId: "cognitiveBehavioralTherapyExercises",
-    title: "CBT Skills Tracker",
+    title: "CBT Skills Walkthrough",
     description:
-      "A tracker to monitor progress in applying CBT techniques and skills in daily life.",
+      "A explaination to go through how to monitor progress in applying CBT techniques and skills in daily life.",
     href: "/tools/cbt-skills-tracker",
   },
 ];
@@ -1639,7 +1685,7 @@ export const toolsMap = {
   nutritionTools: nutritionTools,
   progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
   selfCareAndDiscoveryToolkit: selfCareAndDiscoveryToolkit,
-  selfCompassionAndEsteemToolkit: selfCompassionAndEsteemToolkit,
+  selfCompassionAndSelfEsteemToolkit: selfCompassionAndSelfEsteemToolkit,
   sleepOptimizationGuides: sleepOptimizationGuides,
   visualizationExercises: visualizationExercises,
   workLifeBalanceTools: workLifeBalanceTools,
