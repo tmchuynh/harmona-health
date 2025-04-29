@@ -265,53 +265,60 @@ export default function Page() {
             </div>
             <div className="mx-auto mt-12 md:mt-18 px-8 lg:px-18">
               <div className="mx-auto lg:mx-0 max-w-2xl">
-                <h2>We approach work as a place to make the world better</h2>
+                <h2>
+                  We believe well-being is the foundation of lasting impact
+                </h2>
                 <p className="mt-6 text-base/7">
-                  Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est
-                  euismod lacus. Est non placerat nam arcu. Cras purus nibh
-                  cursus sit eu in id. Integer vel nibh.
+                  At Harmona Health, we see every individual’s wellness journey
+                  as a ripple that extends outward — strengthening families,
+                  workplaces, and communities. Through integrative healing,
+                  personalized coaching, and science-backed strategies, we
+                  empower people to live with resilience, vitality, and purpose.
                 </p>
               </div>
               <div className="flex lg:flex-row flex-col lg:items-end gap-8 mx-auto lg:mx-0 mt-16 lg:mt-20 max-w-2xl lg:max-w-none">
                 <div className="flex sm:flex-row-reverse lg:flex-col flex-col-reverse lg:flex-none justify-between sm:items-end lg:items-start gap-x-16 gap-y-8 bg-tertiary p-8 rounded-2xl sm:w-3/4 lg:w-72 sm:max-w-md lg:max-w-none">
                   <p className="flex-none font-bold text-3xl text-tertiary-foreground tracking-tight">
-                    250k
+                    50,000+
                   </p>
                   <div className="lg:flex-none sm:w-80 lg:w-auto sm:shrink">
                     <p className="font-semibold text-lg text-tertiary-foreground tracking-tight">
-                      Users on the platform
+                      Lives impacted through wellness programs
                     </p>
                     <p className="mt-2 text-base/7 text-tertiary-foreground">
-                      Vel labore deleniti veniam consequuntur sunt nobis.
+                      Through coaching, fitness, nutrition, and emotional health
+                      services, we’ve supported thousands in cultivating
+                      sustainable well-being.
                     </p>
                   </div>
                 </div>
                 <div className="flex sm:flex-row-reverse lg:flex-col flex-col-reverse lg:flex-auto justify-between sm:items-end lg:items-start gap-x-16 gap-y-8 lg:gap-y-44 bg-secondary p-8 rounded-2xl lg:w-full lg:max-w-sm">
                   <p className="flex-none font-bold text-3xl text-secondary-foreground tracking-tight">
-                    $8.9 billion
+                    120+
                   </p>
                   <div className="lg:flex-none sm:w-80 lg:w-auto sm:shrink">
                     <p className="font-semibold text-lg text-secondary-foreground tracking-tight">
-                      We’re proud that our customers have made over $8 billion
-                      in total revenue.
+                      Organizations partnered for Corporate Wellness
                     </p>
                     <p className="mt-2 text-base/7 text-secondary-foreground">
-                      Eu duis porta aliquam ornare. Elementum eget magna
-                      egestas.
+                      From small businesses to enterprise teams, we’ve helped
+                      create healthier, more resilient workplace cultures across
+                      industries.
                     </p>
                   </div>
                 </div>
                 <div className="flex sm:flex-row-reverse lg:flex-col flex-col-reverse lg:flex-auto justify-between sm:items-end lg:items-start gap-x-16 gap-y-8 lg:gap-y-28 bg-accent p-8 rounded-2xl sm:w-11/12 lg:w-full sm:max-w-xl lg:max-w-none">
                   <p className="flex-none font-bold text-3xl text-accent-foreground tracking-tight">
-                    401,093
+                    300,000+
                   </p>
                   <div className="lg:flex-none sm:w-80 lg:w-auto sm:shrink">
                     <p className="font-semibold text-accent-foreground text-lg tracking-tight">
-                      Transactions this year
+                      Wellness coaching sessions delivered
                     </p>
                     <p className="mt-2 text-accent-foreground text-base/7">
-                      Eu duis porta aliquam ornare. Elementum eget magna
-                      egestas. Eu duis porta aliquam ornare.
+                      Across fitness, nutrition, therapy, and resilience
+                      coaching, our personalized approach has transformed
+                      countless lives worldwide.
                     </p>
                   </div>
                 </div>
