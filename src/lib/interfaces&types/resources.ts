@@ -113,10 +113,12 @@ export interface BehavioralActivities {
   title: string;
   introduction: string;
   description: string;
-  steps: {
-    step: string;
-    note?: string;
-  }[];
+  steps: Step[];
   conclusion: string;
   afterThoughts?: string;
 }
+
+export type Step = {
+  step: string;
+  note?: string;
+};
