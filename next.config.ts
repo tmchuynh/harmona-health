@@ -7,6 +7,13 @@ const imageHosts = [
   "bremershs.eq.edu.au",
   "plus.unsplash.com",
   "img.freepik.com",
+  "seeklogo.com",
+  "images.seeklogo.com",
+  "media2.dev.to",
+  "miro.medium.com",
+  "blogger.googleusercontent.com",
+  "logovectordl.com",
+  "cdn.worldvectorlogo.com",
 ];
 
 const nextConfig: NextConfig = {
