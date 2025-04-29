@@ -122,3 +122,13 @@ export type Step = {
   step: string;
   note?: string;
 };
+
+export interface MindfulnessPractices {
+  title: string;
+  introduction: string;
+  useCases: string[];
+  approximateTime: string;
+  steps: Step[];
+  frequency: string;
+  conclusion: string;
+}

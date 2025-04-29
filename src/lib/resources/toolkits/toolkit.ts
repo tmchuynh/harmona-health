@@ -15,19 +15,6 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "breathingTechniques",
-    title: "Breathing Techniques",
-    description: [
-      "Breathing techniques focus on controlling the breath to help reduce stress and anxiety. These exercises, such as diaphragmatic breathing, box breathing, and 4-7-8 breathing, engage the parasympathetic nervous system, promoting relaxation. By concentrating on deep, slow breathing, individuals can activate their body's natural relaxation response and reduce physical symptoms of anxiety, like increased heart rate and shallow breathing. Breathing exercises can be practiced at any time, offering immediate relief during stressful situations or before sleep.",
-      "The power of controlled breathing is well-documented in stress management techniques, as it helps regulate emotions and improve focus. Regular practice of breathing techniques strengthens the body's ability to handle stress effectively and maintain emotional balance. It is a simple yet powerful tool that can be used both in the moment and as part of a longer-term strategy to improve overall mental health. By incorporating breathing exercises into daily routines, individuals can build resilience against daily stressors and create a calming environment.",
-    ],
-    subtitle:
-      "Breathe Your Way to Calm: Master Simple Techniques to Alleviate Stress and Anxiety",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/breathing-techniques",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
     id: "progressiveMuscleRelaxationGuides",
     title: "Progressive Muscle Relaxation Guides",
     description: [

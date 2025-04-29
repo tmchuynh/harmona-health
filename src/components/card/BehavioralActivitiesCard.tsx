@@ -16,7 +16,7 @@ const BehavioralActivitiesCard = ({
       </section>
 
       <section className="mb-6">
-        <h5>Steps</h5>
+        <h3>Steps</h3>
         <ol className="pl-6 list-decimal">
           {activity.steps.map((step, index) => (
             <li key={index} className="mb-4">

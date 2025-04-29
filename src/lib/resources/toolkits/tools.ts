@@ -317,76 +317,86 @@ const sleepOptimizationTools: Tool[] = [
 ];
 const mindfulnessPractices: Tool[] = [
   {
-    id: "mindfulness-tool-1",
-    categoryId: "mindfulnessPractices",
-    title: "Body Scan Meditation",
-    description:
-      "A guided body scan meditation exercise designed to help you connect with your body and relax. This tool promotes awareness and reduces physical tension.",
-  },
-  {
-    id: "self-esteem-tool-3",
-    categoryId: "mindfulnessPractices",
-    title: "Self-Love Meditation",
-    description:
-      "A guided meditation practice designed to cultivate self-love, compassion, and acceptance.",
-  },
-  {
-    id: "stress-management-tool-2",
-    categoryId: "mindfulnessPractices",
-    title: "Mindfulness Timer",
-    description:
-      "A timer designed to assist with mindfulness and meditation practices, offering adjustable intervals and soothing sounds. It helps users stay focused and consistent in their mindfulness routines.",
-  },
-  {
-    id: "self-discovery-tool-7",
-    categoryId: "mindfulnessPractices",
-    title: "Emotional Awareness Journal",
-    description:
-      "A journal that helps you track and understand your emotional patterns, providing insights into how your emotions influence your daily life and decisions.",
-  },
-  {
     id: "mood-tracking-tool-2",
     categoryId: "mindfulnessPractices",
-    title: "Mood Trigger Tracker",
+    title: "Tracking Your Mood Triggers",
+    subtitle: "Understand the cause behind your emotional patterns.",
     description:
-      "A tool to track emotional triggers and their impact, helping users better understand and manage their responses.",
+      "A detailed guide to help you identify and understand your mood triggers, enhancing emotional awareness and mindfulness.",
+    introduction: [
+      "Mood tracking is a mindfulness practice that promotes emotional awareness by helping you notice patterns over time. Every mood you experience is often connected to an external event or internal thought. Recording these connections can give you insight into what influences your mental state. With consistent practice, you begin to observe trends that can guide healthier decision-making.",
+      "Identifying triggers is the first step toward gaining control over your emotional reactions. When you are aware of what provokes negative moods, you can begin to implement strategies to respond differently. This awareness helps build resilience and prevents you from being unconsciously ruled by emotional patterns. Over time, you become more intentional in how you engage with challenging situations.",
+      "This tool encourages non-judgmental observation rather than analysis or overthinking. The goal is to witness your moods with curiosity rather than criticism. In doing so, you develop a healthier relationship with your emotions and thoughts. Self-awareness grows when we allow ourselves to track and acknowledge what’s present without immediately reacting to it.",
+    ],
   },
   {
-    id: "mood-tracking-tool-4",
+    id: "how-to-respond-instead-of-react",
     categoryId: "mindfulnessPractices",
-    title: "Mood and Activity Correlation Chart",
+    title: "Responding Instead Of Reacting",
+    subtitle: "Learn to pause, breathe, and choose a mindful response.",
     description:
-      "A chart to track how daily activities influence mood, helping users make positive lifestyle adjustments.",
+      "A mindfulness-based guide for creating space between stimulus and response during emotionally charged situations.",
+    introduction: [
+      "In moments of high emotion, it's easy to slip into reactive behavior without thinking. Reactivity often stems from habit and emotional conditioning rather than conscious choice. Mindfulness teaches us to insert a pause between stimulus and response. This pause becomes a powerful space where we can choose a wiser path forward.",
+      "Responding mindfully involves awareness, breath control, and reflection. It means noticing when a trigger arises and giving yourself permission to slow down before acting. By grounding yourself through techniques like deep breathing, you can disrupt automatic reactions. This process strengthens your capacity to remain calm under pressure.",
+      "This guide helps you build the skill of self-regulation through consistent practice. With time, the pause becomes natural and allows for more thoughtful interactions. You learn to stay grounded even when others are not. Mindful responding improves relationships and reinforces emotional stability in your daily life.",
+    ],
   },
   {
-    id: "mood-tracking-tool-5",
+    id: "how-to-use-breath-to-anchor-attention",
     categoryId: "mindfulnessPractices",
-    title: "Mood Color Wheel",
+    title: "Using Breath To Anchor Attention",
+    subtitle: "Harness your breath to return to the present moment.",
     description:
-      "A visual tool to help users associate emotions with colors, making mood tracking more intuitive and engaging.",
+      "Techniques for using your breath as a mental anchor, helping reduce rumination and improve present-moment focus.",
+    introduction: [
+      "Your breath is a natural anchor that is always available, wherever you are. When the mind wanders, redirecting focus to your breathing pattern brings you back to the present. This simple act of awareness calms the nervous system and enhances clarity. Even a few conscious breaths can reset your attention in moments of stress.",
+      "Anchoring with the breath is especially helpful during anxious or overwhelming states. It interrupts cycles of overthinking by returning your focus to something stable and rhythmic. You don’t need to change the breath—just notice it. This builds mindfulness through consistent, gentle attention to what is already there.",
+      "Breath anchoring improves with repetition and patience. The more often you return to the breath, the easier it becomes to stay centered during challenges. You may notice thoughts arise, but the breath invites you to release them and return. Over time, this builds resilience, focus, and a sense of internal safety.",
+    ],
   },
   {
-    id: "mindfulness-tool-3",
+    id: "how-to-handle-racing-thoughts",
     categoryId: "mindfulnessPractices",
-    title: "Mindful Walking Guide",
+    title: "Calming A Racing Mind",
+    subtitle:
+      "Techniques to interrupt intrusive or spiraling thought patterns.",
     description:
-      "A guide to practicing mindfulness while walking, helping users stay present and reduce stress during daily activities.",
+      "A practical guide for managing intrusive thoughts using breathing, cognitive reframing, and grounding techniques.",
+    introduction: [
+      "Racing thoughts often occur when your mind is overloaded or anxious. These rapid-fire thoughts can feel overwhelming and difficult to control. Mindfulness helps by slowing down your internal tempo and grounding you in the present. Through awareness and gentle redirection, you learn to manage mental momentum.",
+      "This guide includes methods such as slow breathing, naming your thoughts, and identifying recurring thought loops. These steps help interrupt the cycle of mental overactivity. You’ll discover how to label your thoughts as thoughts—not facts—and gain distance from them. This reduces their emotional charge and helps you regain clarity.",
+      "Calming a racing mind is not about stopping all thoughts but about shifting your relationship to them. With practice, you can observe your thinking without getting caught up in it. This builds emotional regulation and decreases the power of anxiety-driven patterns. Over time, mindfulness transforms how you experience and process stress.",
+    ],
   },
   {
-    id: "mindfulness-tool-4",
+    id: "how-to-do-a-daily-check-in",
     categoryId: "mindfulnessPractices",
-    title: "Sensory Awareness Exercises",
+    title: "Remembering Your Daily Check In",
+    subtitle: "Cultivate emotional awareness with intentional pauses.",
     description:
-      "A set of exercises to enhance sensory awareness and promote mindfulness by focusing on sights, sounds, and textures in the environment.",
+      "A mindful practice for assessing your emotional, mental, and physical state at the start or end of each day.",
+    introduction: [
+      "Daily check-ins help you build consistency in self-awareness. This simple practice allows you to pause and ask: How am I doing right now? You gain insight into your inner world before it escalates into stress or burnout. Over time, these check-ins build emotional intelligence and intentionality.",
+      "You can perform a check-in through journaling, a guided body scan, or a moment of quiet reflection. The key is to approach the process without judgment or pressure to fix anything. Instead, you observe and accept what is currently true for you. This presence allows your mind and body to realign naturally.",
+      "Check-ins are most effective when practiced daily at a consistent time. They can be brief or more in-depth depending on your needs. What matters is showing up for yourself with curiosity and care. These moments create a rhythm of mindfulness that supports your well-being over time.",
+    ],
   },
   {
-    id: "self-discovery-tool-8",
+    id: "how-to-do-a-sensory-reset",
     categoryId: "mindfulnessPractices",
-    title: "Mindfulness Meditation",
+    title: "Doing A Sensory Reset",
+    subtitle: "Reconnect with your body and surroundings during overwhelm.",
     description:
-      "A guided meditation tool designed to help you become more aware of the present moment, reduce stress, and enhance self-awareness.",
+      "A short, guided routine for resetting your sensory awareness when feeling overwhelmed or distracted.",
+    introduction: [
+      "A sensory reset is a mindfulness exercise that grounds you using your five senses. It’s especially useful during sensory overload, anxiety, or mental fatigue. This technique draws your attention away from racing thoughts and toward the present moment. It’s a fast and accessible way to shift your internal state.",
+      "Start by noticing five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste. This structured approach immediately re-engages your brain with your physical environment. You’ll find your thoughts begin to slow and your body softens into awareness. It’s a practical tool for emotional regulation.",
+      "Sensory resets can be practiced anywhere: during a commute, in a meeting, or at home. The more often you practice, the more quickly your nervous system learns to settle. These moments of connection foster resilience, mental clarity, and a sense of grounded calm. They remind you that presence is always available—even in chaos.",
+    ],
   },
 ];
+
 const fitnessToolkit: Tool[] = [
   {
     id: "exercise-mental-health-tool-1",
@@ -561,56 +571,7 @@ const cognitiveBehavioralTherapyExercises: Tool[] = [
     href: "/tools/cbt-skills-tracker",
   },
 ];
-const breathingTechniques: Tool[] = [
-  {
-    id: "breathing-technique-1",
-    categoryId: "breathingTechniques",
-    title: "Diaphragmatic Breathing Guide",
-    description:
-      "A step-by-step guide to mastering diaphragmatic breathing, which helps reduce stress and improve oxygen flow.",
-    href: "/tools/diaphragmatic-breathing-guide",
-  },
-  {
-    id: "stress-management-tool-5",
-    categoryId: "breathingTechniques",
-    title: "Relaxation Music Playlist",
-    description:
-      "A curated playlist of relaxing music to help users unwind and reduce stress.",
-    href: "/tools/relaxation-music-playlist",
-  },
-  {
-    id: "stress-management-tool-3",
-    categoryId: "breathingTechniques",
-    title: "Breathing Exercise Guide",
-    description:
-      "A guide featuring step-by-step instructions for breathing exercises like box breathing and 4-7-8 breathing to reduce stress and promote relaxation.",
-    href: "/tools/breathing-exercise-guide",
-  },
-  {
-    id: "breathing-technique-2",
-    categoryId: "breathingTechniques",
-    title: "Box Breathing Timer",
-    description:
-      "A timer to guide users through box breathing exercises, promoting relaxation and focus.",
-    href: "/tools/box-breathing-timer",
-  },
-  {
-    id: "breathing-technique-3",
-    categoryId: "breathingTechniques",
-    title: "4-7-8 Breathing Exercise",
-    description:
-      "A guided exercise to practice the 4-7-8 breathing technique, known for its calming effects.",
-    href: "/tools/4-7-8-breathing-exercise",
-  },
-  {
-    id: "breathing-technique-5",
-    categoryId: "breathingTechniques",
-    title: "Breathing for Anxiety Relief",
-    description:
-      "A collection of breathing exercises to help manage and reduce anxiety symptoms.",
-    href: "/tools/breathing-for-anxiety-relief",
-  },
-];
+
 const progressiveMuscleRelaxationGuides: Tool[] = [
   {
     id: "pmr-tool-1",
@@ -1622,7 +1583,6 @@ const emotionalRegulationToolkit: Tool[] = [
 ];
 export const toolsMap = {
   cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
-  breathingTechniques: breathingTechniques,
   progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
   affirmationCards: affirmationCards,
   visualizationExercises: visualizationExercises,
