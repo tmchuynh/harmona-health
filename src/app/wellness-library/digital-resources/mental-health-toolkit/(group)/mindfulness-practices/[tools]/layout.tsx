@@ -23,11 +23,6 @@ export default function Layout({ children }: { children: ReactNode }) {
     (toolInfo) => toolInfo.title === toolName
   );
 
-  console.log("tool", tool);
-  console.log("toolKit", toolKit);
-  console.log("toolKitID", toolKitID);
-  console.log("toolName", toolName);
-
   return (
     <ToolProvider value={{ tool, toolKit, toolKitID, toolInformation }}>
       <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
