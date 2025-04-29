@@ -1,13 +1,17 @@
 "use client";
+import ToolLinkCard from "@/components/card/ToolLinkCard";
 import { useToolContext } from "@/context/toolContext";
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import {
+  BehavioralActivities,
+  ToolLinks,
+} from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<BehavioralActivities[]>([]);
+  const [toolData, setToolData] = useState<ToolLinks[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,6 +39,12 @@ export default function Page() {
         toolInformation.introduction.map((intro: string, index: number) => (
           <p key={index}>{intro}</p>
         ))}
+
+      <section className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {toolData.map((activity, index) => (
+          <ToolLinkCard key={index} data={activity} />
+        ))}
+      </section>
     </div>
   );
 }
