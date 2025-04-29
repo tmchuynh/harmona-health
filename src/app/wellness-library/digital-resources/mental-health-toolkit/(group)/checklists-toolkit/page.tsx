@@ -19,12 +19,20 @@ export default function Page() {
   const toolkitCategory = segments[segments.length - 2];
   const [icon, setIcon] = useState<JSX.Element>(<FaLeaf />);
 
+  console.log("tool", tool);
+  console.log("toolkitCategory", toolkitCategory);
+
   const [toolkitInformation, setToolkitInformation] = useState<Toolkit>();
 
   const toolID = formatUrlToID(tool);
 
+  console.log("toolID", toolID);
+  console.log("toolkitInformation", toolkitInformation);
+
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
+
+  console.log("correspondingTools", correspondingTools);
 
   const sortedTools = sortByProperty(correspondingTools, "title");
 

@@ -113,203 +113,203 @@ const nutritionTools: Tool[] = [
       "A tool to track daily calorie intake and ensure users are meeting their energy needs without overconsumption.",
   },
 ];
-const resilienceToolkit: Tool[] = [
+const buildingResiliencePractices: Tool[] = [
   {
     id: "resilience-tool-1",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Resilience Building Plan",
     description:
       "A step-by-step guide to create a personalized plan for building resilience in daily life.",
   },
   {
     id: "resilience-tool-2",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Stress Resilience Exercises",
     description:
       "A set of exercises to help users strengthen their ability to cope with stress and adversity.",
   },
   {
     id: "resilience-tool-5",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Resilience Skills Tracker",
     description:
       "A tracker to monitor the development of resilience skills over time.",
   },
   {
     id: "resilience-tool-6",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Adversity Reflection Journal",
     description:
       "A guided journal that prompts users to reflect on past challenges and identify key lessons learned to strengthen future resilience.",
   },
   {
     id: "resilience-tool-7",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Optimism Booster Worksheets",
     description:
       "Worksheets designed to shift mindset towards optimism, helping users build a more resilient and positive outlook.",
   },
   {
     id: "resilience-tool-8",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Emotional Regulation Techniques",
     description:
       "A toolkit of practices and strategies to improve emotional regulation under stress, enhancing resilience.",
   },
   {
     id: "resilience-tool-9",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Problem-Solving Framework",
     description:
       "A structured approach to solving problems effectively and reducing stress when facing obstacles.",
   },
   {
     id: "resilience-tool-10",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Daily Resilience Practices Checklist",
     description:
       "A daily checklist of simple, actionable practices to boost resilience and maintain emotional strength over time.",
   },
   {
     id: "resilience-tool-11",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Growth Mindset Builder",
     description:
       "A tool to cultivate a growth mindset by reframing challenges as opportunities for personal development.",
   },
   {
     id: "resilience-tool-12",
-    categoryId: "resilienceToolkit",
+    categoryId: "buildingResiliencePractices",
     title: "Support Network Mapping Tool",
     description:
       "A tool to map out your personal and professional support systems, strengthening your resilience through community.",
   },
 ];
-const selfCompassionAndEsteemPractices: Tool[] = [
+const selfCompassionAndEsteemToolkit: Tool[] = [
   {
     id: "gratitude-tool-2",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Gratitude Prompts",
     description:
       "A set of prompts to inspire deeper gratitude journaling and reflection.",
   },
   {
     id: "self-care-tool-2",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Boundaries Setting Guide",
     description:
       "A guide to help you identify and set healthy boundaries with others to protect your mental and emotional well-being.",
   },
   {
     id: "gratitude-tool-3",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Weekly Gratitude Tracker",
     description:
       "A tracker to log weekly gratitude entries and visualize positive patterns.",
   },
   {
     id: "cbt-tool-5",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Positive Affirmation Builder",
     description:
       "A tool to create personalized positive affirmations that counteract negative self-talk and build self-esteem.",
   },
   {
     id: "self-compassion-tool-2",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Self-Compassion Meditation",
     description:
       "A guided meditation to foster self-compassion and reduce self-criticism.",
   },
   {
     id: "self-compassion-tool-3",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Affirmations for Self-Compassion",
     description:
       "A collection of affirmations to help users build a healthier relationship with themselves.",
   },
   {
     id: "self-compassion-tool-4",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Self-Compassion Exercises",
     description:
       "A set of exercises to help users practice self-compassion in daily life.",
   },
   {
     id: "self-compassion-tool-5",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Overcoming Self-Criticism Worksheet",
     description:
       "A worksheet to identify and challenge self-critical thoughts, fostering a more compassionate mindset.",
   },
   {
     id: "self-esteem-tool-4",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Self-Esteem Building Exercises",
     description:
       "A collection of exercises to help you build self-esteem and develop a more positive self-image.",
   },
   {
     id: "self-esteem-tool-5",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Compliments Tracker",
     description:
       "A tool to track and reflect on compliments you receive, helping you internalize positive feedback and build self-esteem.",
   },
   {
     id: "self-esteem-tool-7",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Self-Compassion and Self-Esteem Balance",
     description:
       "A tool to help individuals balance self-compassion and self-esteem practices to create a harmonious sense of self-worth.",
   },
   {
     id: "self-esteem-tool-8",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Confidence Builder",
     description:
       "A series of exercises and tips to help boost your confidence and improve self-assurance in various situations.",
   },
 ];
-const sleepOptimizationTools: Tool[] = [
+const sleepOptimizationGuides: Tool[] = [
   {
     id: "sleep-optimization-tool-1",
-    categoryId: "sleepOptimizationTools",
+    categoryId: "sleepOptimizationGuides",
     title: "Sleep Tracker",
     description:
       "Track your sleep patterns over time, logging factors that may influence the quality of your rest. This tool provides insights into improving sleep hygiene and achieving better rest.",
   },
   {
     id: "breathing-technique-4",
-    categoryId: "sleepOptimizationTools",
+    categoryId: "sleepOptimizationGuides",
     title: "Breathing for Sleep",
     description:
       "A guide to breathing techniques specifically designed to improve sleep quality and relaxation.",
   },
   {
     id: "pmr-tool-3",
-    categoryId: "sleepOptimizationTools",
+    categoryId: "sleepOptimizationGuides",
     title: "PMR for Sleep",
     description:
       "A PMR guide tailored to help users unwind and prepare for restful sleep.",
   },
   {
     id: "self-care-tool-4",
-    categoryId: "selfCompassionAndEsteemPractices",
+    categoryId: "selfCompassionAndEsteemToolkit",
     title: "Sleep Improvement Tracker",
     description:
       "A tool to track your sleep habits and provide tips for improving your sleep quality, essential for mental and emotional health.",
   },
   {
     id: "sleep-optimization-tool-3",
-    categoryId: "sleepOptimizationTools",
+    categoryId: "sleepOptimizationGuides",
     title: "Bedtime Routine Planner",
     description:
       "A planner to help users establish a consistent bedtime routine that promotes relaxation and better sleep quality.",
   },
   {
     id: "sleep-optimization-tool-4",
-    categoryId: "sleepOptimizationTools",
+    categoryId: "sleepOptimizationGuides",
     title: "Circadian Rhythm Guide",
     description:
       "A guide to understanding and optimizing your circadian rhythm for improved sleep and overall health.",
@@ -1260,10 +1260,10 @@ const journalingPrompts: Tool[] = [
     href: "/tools/dealing-with-stress-prompts",
   },
 ];
-const checklistToolkit: Tool[] = [
+const checklistsToolkit: Tool[] = [
   {
     id: "mental-health-checklist-1",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Daily Self Care Checklist",
     description:
       "A practical checklist to ensure you prioritize your mental, emotional, and physical self-care every day.",
@@ -1271,7 +1271,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-2",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Anxiety Management Checklist",
     description:
       "A focused checklist designed to help manage symptoms of anxiety through actionable coping strategies.",
@@ -1279,7 +1279,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-3",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Depression Support Checklist",
     description:
       "A compassionate checklist offering daily practices and reminders to support mental health during depressive periods.",
@@ -1287,7 +1287,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-4",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Mindfulness Practice Checklist",
     description:
       "A step-by-step checklist for incorporating mindfulness into your daily life to reduce stress and improve focus.",
@@ -1295,7 +1295,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-5",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Emotional Regulation Checklist",
     description:
       "A checklist of techniques and habits to help regulate emotions and build resilience in challenging moments.",
@@ -1303,7 +1303,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-6",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Healthy Sleep Hygiene Checklist",
     description:
       "A practical checklist to help you develop healthy sleep routines that support mental and emotional well-being.",
@@ -1311,7 +1311,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-7",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Social Connection Checklist",
     description:
       "A checklist designed to strengthen your social support system and improve emotional connectedness.",
@@ -1319,7 +1319,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-8",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Burnout Prevention Checklist",
     description:
       "A checklist to identify burnout symptoms early and incorporate strategies for sustainable self-care and recovery.",
@@ -1327,7 +1327,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-9",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Grounding Techniques Checklist",
     description:
       "A set of grounding exercises organized into a checklist to help center yourself during anxiety or dissociation episodes.",
@@ -1335,7 +1335,7 @@ const checklistToolkit: Tool[] = [
   },
   {
     id: "mental-health-checklist-10",
-    categoryId: "checklistToolkit",
+    categoryId: "checklistsToolkit",
     title: "Positive Thinking Checklist",
     description:
       "A checklist to foster a positive mindset by incorporating daily affirmations, gratitude, and optimistic habits.",
@@ -1625,22 +1625,22 @@ const emotionalRegulationToolkit: Tool[] = [
   },
 ];
 export const toolsMap = {
-  cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
-  progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
   affirmationCards: affirmationCards,
-  visualizationExercises: visualizationExercises,
   behavioralActivationActivities: behavioralActivationActivities,
-  mindfulnessPractices: mindfulnessPractices,
-  selfCompassionAndEsteemPractices: selfCompassionAndEsteemPractices,
-  resilienceToolkit: resilienceToolkit,
-  selfCareAndDiscoveryToolkit: selfCareAndDiscoveryToolkit,
-  checklistToolkit: checklistToolkit,
+  buildingResiliencePractices: buildingResiliencePractices,
+  checklistsToolkit: checklistsToolkit,
+  cognitiveBehavioralTherapyExercises: cognitiveBehavioralTherapyExercises,
+  communicationTools: communicationTools,
+  emotionalRegulationToolkit: emotionalRegulationToolkit,
+  fitnessToolkit: fitnessToolkit,
   journalingPrompts: journalingPrompts,
   leadershipTools: leadershipTools,
-  communicationTools: communicationTools,
-  workLifeBalanceTools: workLifeBalanceTools,
-  sleepOptimizationTools: sleepOptimizationTools,
+  mindfulnessPractices: mindfulnessPractices,
   nutritionTools: nutritionTools,
-  fitnessToolkit: fitnessToolkit,
-  emotionalRegulationToolkit: emotionalRegulationToolkit,
+  progressiveMuscleRelaxationGuides: progressiveMuscleRelaxationGuides,
+  selfCareAndDiscoveryToolkit: selfCareAndDiscoveryToolkit,
+  selfCompassionAndEsteemToolkit: selfCompassionAndEsteemToolkit,
+  sleepOptimizationGuides: sleepOptimizationGuides,
+  visualizationExercises: visualizationExercises,
+  workLifeBalanceTools: workLifeBalanceTools,
 };

@@ -86,7 +86,7 @@ export const toolkit: Toolkit[] = [
   },
   {
     id: "selfCompassionAndEsteemPractices",
-    title: "Self Compassion and Self Esteem Practices",
+    title: "Self Compassion and Self Esteem Toolkit",
     description: [
       "Self-compassion and self-esteem practices are essential components of personal growth and emotional well-being, helping individuals cultivate a positive mindset and emotional resilience. Both approaches encourage individuals to treat themselves with the same kindness, understanding, and care they would extend to a friend, fostering a deeper connection with themselves. Self-compassion involves recognizing and accepting personal struggles without judgment, responding with warmth and support. Techniques such as reflecting on strengths, embracing imperfections, and reframing negative self-talk into compassionate language help reduce self-criticism and build emotional resilience. This practice creates a mental space where pain can be acknowledged without the added burden of harsh judgment, promoting a sense of gentleness and understanding.",
       "Through self-compassion, individuals can overcome feelings of unworthiness, self-doubt, and shame, approaching challenges with kindness rather than self-criticism. The tools designed to nurture self-compassion, including exercises, guided meditations, and journaling prompts, empower individuals to take control of their mental health journey. These resources help individuals embrace their experiences with compassion, cultivating emotional resilience and improving overall well-being. Over time, practicing self-compassion strengthens one’s sense of self-worth and supports better mental health, particularly in the face of self-doubt.",
@@ -100,8 +100,8 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "resilienceToolkit",
-    title: "Resilience Toolkit",
+    id: "buildingResiliencePractices",
+    title: "Building Resilience Practices",
     description: [
       "The Resilience Toolkit provides a collection of resources designed to strengthen individuals' ability to cope with adversity. It includes techniques for managing stress, maintaining optimism, and developing mental toughness in the face of challenges. Building resilience helps individuals bounce back from setbacks, adapt to difficult circumstances, and stay focused on their goals despite obstacles. These tools aim to help individuals develop a mindset that views challenges as opportunities for growth and learning.",
       "Through the use of the Resilience Toolkit, individuals can foster an internal strength that empowers them to tackle life's difficulties with confidence. Resilience is not about avoiding hardships but rather about equipping oneself with strategies to deal with them effectively. By practicing resilience-building exercises, individuals can cultivate the ability to remain steady and focused even during stressful or uncertain times. This toolkit offers practical steps for improving mental fortitude, helping individuals thrive in both personal and professional areas of their lives.",
@@ -141,11 +141,11 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "sleepOptimizationTools",
-    title: "Sleep Optimization Tools",
+    id: "sleepOptimizationGuides",
+    title: "Sleep Optimization Guides",
     description: [
-      "Sleep optimization tools focus on improving sleep quality and establishing healthy sleep habits. These resources may include sleep diaries, relaxation techniques, and tips for creating a sleep-friendly environment. By understanding the importance of sleep for mental health, individuals can take proactive steps to enhance their sleep patterns. The goal is to promote restorative sleep that supports emotional regulation, cognitive function, and overall well-being.",
-      "Quality sleep is essential for mental health, as it affects mood, energy levels, and cognitive performance. The Sleep Optimization Tools provide practical strategies for improving sleep hygiene and addressing common sleep disturbances. By incorporating these tools into daily routines, individuals can enhance their sleep quality and overall mental health. The focus is on creating a personalized approach to sleep that aligns with individual needs and lifestyles, ultimately leading to better emotional resilience and well-being.",
+      "Sleep optimization guides focus on improving sleep quality and establishing healthy sleep habits. These resources may include sleep diaries, relaxation techniques, and tips for creating a sleep-friendly environment. By understanding the importance of sleep for mental health, individuals can take proactive steps to enhance their sleep patterns. The goal is to promote restorative sleep that supports emotional regulation, cognitive function, and overall well-being.",
+      "Quality sleep is essential for mental health, as it affects mood, energy levels, and cognitive performance. The Sleep Optimization Guides provide practical strategies for improving sleep hygiene and addressing common sleep disturbances. By incorporating these tools into daily routines, individuals can enhance their sleep quality and overall mental health. The focus is on creating a personalized approach to sleep that aligns with individual needs and lifestyles, ultimately leading to better emotional resilience and well-being.",
     ],
     subtitle:
       "Sleep Your Way to Wellness: Essential Tools for Improving Sleep Quality and Mental Health",
@@ -215,19 +215,6 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Organize Your Life: Essential Tools for Effective Time Management and Productivity",
     href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-toolkit",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "stressManagementTools",
-    title: "Stress Management Tools",
-    description: [
-      "Stress management tools are designed to help individuals cope with and reduce stress. These resources may include relaxation techniques, time management strategies, and self-care practices specifically tailored for stress relief. By using these tools, individuals can learn to identify their stressors, develop healthy coping mechanisms, and improve their overall mental health. The goal is to empower individuals to take control of their stress levels and enhance their well-being.",
-      "Effective stress management is essential for maintaining emotional balance and overall health. The Stress Management Tools provide practical strategies for managing stress in real-time, as well as long-term techniques for building resilience. By incorporating these tools into daily routines, individuals can create a personalized approach to stress management that supports their mental health and well-being. The focus is on fostering a sense of control and empowerment in the face of stress.",
-    ],
-    subtitle:
-      "Master Your Stress: Essential Tools for Managing Stress and Enhancing Emotional Resilience",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/stress-management-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
