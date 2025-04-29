@@ -47,6 +47,13 @@ export default function Page() {
   }
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+      {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
+
+      {toolInformation?.introduction &&
+        toolInformation.introduction.map((intro: string, index: number) => (
+          <p key={index}>{intro}</p>
+        ))}
+
       <section className="mx-auto w-full">
         <Carousel
           opts={{

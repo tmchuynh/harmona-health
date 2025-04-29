@@ -48,6 +48,12 @@ export default function Page() {
 
   return (
     <div className="mx-auto py-2 md:py-4 lg:py-6 w-10/12">
+      {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
+
+      {toolInformation?.introduction &&
+        toolInformation.introduction.map((intro: string, index: number) => (
+          <p key={index}>{intro}</p>
+        ))}
       <div className="gap-2 md:gap-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
         {checklist.map((item, index) => (
           <div className="flex items-center space-x-2" key={index}>
