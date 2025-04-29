@@ -124,6 +124,7 @@ export type Step = {
 };
 
 export interface MindfulnessPractices {
+  // CHANGE TO EXTEND BEHAVIORAL ACTIVITIES
   title: string;
   introduction: string;
   useCases: string[];
@@ -131,4 +132,25 @@ export interface MindfulnessPractices {
   steps: Step[];
   frequency: string;
   conclusion: string;
+}
+
+export interface WorkLifeBalance {
+  title: string;
+  introduction: string[];
+  workScenario: string;
+  workScenarioDescription: string;
+  workScenarioImage: string;
+  lifeScenario: string;
+  lifeScenarioDescription: string;
+  lifeScenarioImage: string;
+  reasoning: string;
+  conclusion: string;
+  afterThoughts?: string;
+}
+
+export interface ToolLinks {
+  title: string;
+  description: string;
+  href: string;
+  image: string;
 }
