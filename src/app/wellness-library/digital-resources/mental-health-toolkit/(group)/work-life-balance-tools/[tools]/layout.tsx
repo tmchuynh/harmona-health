@@ -19,6 +19,8 @@ export default function Layout({ children }: { children: ReactNode }) {
     (toolInfo) => toolInfo.title === toolName
   );
 
+  console.log("correspondingTools", correspondingTools);
+
   console.log("tool", tool);
   console.log("toolKit", toolKit);
   console.log("toolKitID", toolKitID);
