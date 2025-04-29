@@ -93,9 +93,9 @@ export interface Staff {
 export interface About {
   name: string;
   description: string[];
-  icon: string;
   callToAction?: string;
   linkText?: string;
+  href: string;
 }
 
 export interface AffirmationCards {
