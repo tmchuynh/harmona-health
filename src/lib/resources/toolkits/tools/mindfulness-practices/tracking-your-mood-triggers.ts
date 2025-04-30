@@ -13,17 +13,39 @@ export const trackingYourMoodTriggers: MindfulnessPractices[] = [
     approximateTime: "5 minutes per entry",
     steps: [
       {
-        step: "At regular intervals, write down how you're feeling emotionally.",
+        step: {
+          description:
+            "Choose a method for logging your mood (e.g., app, journal, spreadsheet).",
+        },
+        note: "Select a method that feels comfortable and easy to use.",
       },
       {
-        step: "Note the context—what were you doing, who were you with, or what thoughts were on your mind?",
+        step: {
+          description:
+            "Set a specific time to log your mood (e.g., morning, midday, evening).",
+        },
+        note: "Consistency is key to effective mood tracking.",
       },
-      { step: "Rate the intensity of the emotion on a scale of 1 to 10." },
       {
-        step: "Reflect on what might have triggered the emotion (e.g., a specific event, thought, or interaction).",
+        step: {
+          description:
+            "Rate your mood on a scale of 1 to 10, with 1 being very low and 10 being very high.",
+        },
+        note: "Be honest and reflective about your emotional state.",
       },
       {
-        step: "Review your logs over time to identify recurring patterns and triggers.",
+        step: {
+          description:
+            "Write a few sentences about what you were doing or thinking when you logged your mood.",
+        },
+        note: "Include any significant events or interactions.",
+      },
+      {
+        step: {
+          description:
+            "Review your mood log regularly to identify patterns and triggers.",
+        },
+        note: "Look for correlations between your mood and specific events.",
       },
     ],
     frequency: "Daily, or as often as you can throughout the day",
@@ -42,19 +64,39 @@ export const trackingYourMoodTriggers: MindfulnessPractices[] = [
     approximateTime: "10–15 minutes per entry",
     steps: [
       {
-        step: "Write down the emotion you're experiencing, including the intensity.",
+        step: {
+          description:
+            "Choose a journal or digital platform to document your mood triggers.",
+        },
+        note: "Select a method that feels comfortable and easy to use.",
       },
       {
-        step: "Describe the situation that triggered the emotion in as much detail as possible.",
+        step: {
+          description:
+            "Record your mood on a scale of 1 to 10, along with the date and time.",
+        },
+        note: "Be honest and reflective about your emotional state.",
       },
       {
-        step: "Identify any physical sensations accompanying the emotion (e.g., tension, rapid heart rate).",
+        step: {
+          description:
+            "Write down the specific trigger(s) that contributed to your mood.",
+        },
+        note: "Include any significant events, thoughts, or interactions.",
       },
       {
-        step: "Reflect on past experiences—have you felt this way before? If so, what triggered it?",
+        step: {
+          description:
+            "Reflect on how you reacted to the trigger and how it made you feel.",
+        },
+        note: "Explore both emotional and physical responses.",
       },
       {
-        step: "Conclude with an action or thought that could help you handle this trigger more effectively in the future.",
+        step: {
+          description:
+            "Consider strategies for managing or reframing the trigger in the future.",
+        },
+        note: "Think about how you can respond differently next time.",
       },
     ],
     frequency: "Daily or after each emotional event",
@@ -73,17 +115,39 @@ export const trackingYourMoodTriggers: MindfulnessPractices[] = [
     approximateTime: "10–20 minutes per week",
     steps: [
       {
-        step: "Create a chart with a column for dates and a column for mood ratings.",
-      },
-      { step: "Rate your mood on a scale of 1 to 10 each day." },
-      {
-        step: "In another column, note key events or situations that may have influenced your mood.",
-      },
-      {
-        step: "Review the chart regularly to identify patterns between events and mood changes.",
+        step: {
+          description:
+            "Create a chart with two axes: one for mood (1–10) and one for events.",
+        },
+        note: "You can use a digital tool or a physical chart.",
       },
       {
-        step: "Use the insights to adjust habits or environments that contribute to negative mood triggers.",
+        step: {
+          description:
+            "Plot your mood on the chart at different times of the day or week.",
+        },
+        note: "Use different colors or symbols for different moods.",
+      },
+      {
+        step: {
+          description:
+            "Record significant events or situations that may have influenced your mood.",
+        },
+        note: "Include both positive and negative events.",
+      },
+      {
+        step: {
+          description:
+            "Review the chart regularly to identify patterns and correlations.",
+        },
+        note: "Look for trends between your mood and specific events.",
+      },
+      {
+        step: {
+          description:
+            "Use insights from the chart to inform your emotional management strategies.",
+        },
+        note: "Consider how you can adjust your environment or responses.",
       },
     ],
     frequency: "Weekly or after significant mood changes",
@@ -101,16 +165,40 @@ export const trackingYourMoodTriggers: MindfulnessPractices[] = [
     ],
     approximateTime: "15–20 minutes",
     steps: [
-      { step: "Find a quiet, comfortable space to sit or lie down." },
-      { step: "Focus on your breath, calming your mind and body." },
       {
-        step: "Bring to mind a specific emotional trigger you’ve experienced recently.",
+        step: {
+          description:
+            "Find a quiet, comfortable space to sit or lie down for meditation.",
+        },
+        note: "Ensure you won't be disturbed during this time.",
       },
       {
-        step: "Notice the thoughts, emotions, and physical sensations associated with the trigger, observing them without judgment.",
+        step: {
+          description:
+            "Close your eyes and take a few deep breaths to center yourself.",
+        },
+        note: "Focus on your breath and let go of distractions.",
       },
       {
-        step: "Gradually release the trigger and return to your breath, bringing your awareness back to the present moment.",
+        step: {
+          description:
+            "Bring to mind a recent emotional trigger or situation that affected you.",
+        },
+        note: "Allow the feelings associated with it to arise without judgment.",
+      },
+      {
+        step: {
+          description:
+            "Observe the sensations, thoughts, and emotions that come up without trying to change them.",
+        },
+        note: "Practice non-judgmental awareness and acceptance.",
+      },
+      {
+        step: {
+          description:
+            "After a few minutes, gently shift your focus back to your breath and the present moment.",
+        },
+        note: "Take a few deep breaths before concluding the meditation.",
       },
     ],
     frequency: "Daily or whenever feeling emotionally triggered",
@@ -129,17 +217,39 @@ export const trackingYourMoodTriggers: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "Set aside a few moments at the end of each day to reflect on your mood.",
-      },
-      { step: "Identify the dominant emotion(s) you felt throughout the day." },
-      {
-        step: "Look back on events and interactions—what might have influenced your mood?",
-      },
-      {
-        step: "Note any changes in your mood over the course of the day and potential triggers.",
+        step: {
+          description:
+            "Set aside a few minutes at the end of the day for reflection.",
+        },
+        note: "Choose a quiet space where you can focus.",
       },
       {
-        step: "Think of strategies to manage similar triggers in the future (e.g., self-care, reframing, boundaries).",
+        step: {
+          description:
+            "Rate your mood on a scale of 1 to 10, with 1 being very low and 10 being very high.",
+        },
+        note: "Be honest and reflective about your emotional state.",
+      },
+      {
+        step: {
+          description:
+            "Write down any significant events or interactions that influenced your mood.",
+        },
+        note: "Include both positive and negative experiences.",
+      },
+      {
+        step: {
+          description:
+            "Reflect on how you responded to those events and how they made you feel.",
+        },
+        note: "Consider both emotional and physical responses.",
+      },
+      {
+        step: {
+          description:
+            "Think about what you can do differently in similar situations in the future.",
+        },
+        note: "Consider strategies for managing your mood proactively.",
       },
     ],
     frequency: "Daily, preferably at the end of the day",
