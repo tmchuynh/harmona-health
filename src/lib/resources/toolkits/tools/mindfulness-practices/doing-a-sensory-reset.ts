@@ -12,15 +12,41 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     ],
     approximateTime: "5–10 minutes",
     steps: [
-      { step: "Hold an ice cube in your hand for 30 seconds to 1 minute." },
       {
-        step: "Afterward, wrap your hands around a warm cup of tea or coffee.",
+        step: {
+          description:
+            "Choose a temperature contrast method (ice pack, warm towel, or hot/cold water).",
+        },
+        note: "Make sure the temperature is safe and comfortable for your skin.",
       },
-      { step: "Alternate between cold and warm sensations with awareness." },
       {
-        step: "Focus entirely on the temperature differences and the sensations in your skin.",
+        step: {
+          description:
+            "Apply the cold object to your wrists, neck, or forehead for 30 seconds.",
+        },
+        note: "Feel the cold sensation and focus on your breath.",
       },
-      { step: "Breathe deeply while experiencing each temperature shift." },
+      {
+        step: {
+          description:
+            "Switch to a warm object (like a warm towel) for another 30 seconds.",
+        },
+        note: "Notice the warmth spreading through your body.",
+      },
+      {
+        step: {
+          description:
+            "Alternate between cold and warm sensations for 2–3 cycles.",
+        },
+        note: "Pay attention to how your body feels with each change.",
+      },
+      {
+        step: {
+          description:
+            "After the last cycle, take a few deep breaths and notice how your mind feels.",
+        },
+        note: "Allow yourself to relax into the sensations.",
+      },
     ],
     frequency: "As needed",
     conclusion:
@@ -38,15 +64,39 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "Choose an intense but pleasant food (mint, citrus, ginger, dark chocolate).",
+        step: {
+          description:
+            "Choose a strong-flavored food (e.g., lemon, ginger, mint, or spicy candy).",
+        },
+        note: "Make sure it's safe for you to consume.",
       },
-      { step: "Place a small amount in your mouth without rushing to chew." },
-      { step: "Focus entirely on the flavor, temperature, and texture." },
       {
-        step: "Notice how your body and mind respond to the taste experience.",
+        step: {
+          description:
+            "Take a small piece and place it on your tongue without chewing.",
+        },
+        note: "Let the flavor wash over your taste buds.",
       },
       {
-        step: "Breathe deeply between bites to integrate the sensory information.",
+        step: {
+          description:
+            "Close your eyes and focus on the sensations of taste and smell.",
+        },
+        note: "Notice the texture and temperature as well.",
+      },
+      {
+        step: {
+          description:
+            "Breathe deeply through your nose while experiencing the flavor.",
+        },
+        note: "Allow the taste to linger in your mouth.",
+      },
+      {
+        step: {
+          description:
+            "After a few moments, chew slowly and savor the experience.",
+        },
+        note: "Reflect on how the flavor makes you feel.",
       },
     ],
     frequency: "As needed",
@@ -64,18 +114,40 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     ],
     approximateTime: "10–20 minutes",
     steps: [
-      { step: "Lie down or sit comfortably." },
       {
-        step: "Place a weighted blanket or heavy pillow across your lap, shoulders, or chest.",
+        step: {
+          description:
+            "Find a weighted object (like a blanket, pillow, or heavy book).",
+        },
+        note: "Ensure it's comfortable and safe to use.",
       },
       {
-        step: "Close your eyes and feel the weight pressing gently against your body.",
+        step: {
+          description:
+            "Lie down or sit comfortably with the object on your lap or chest.",
+        },
+        note: "Feel the weight pressing down gently.",
       },
       {
-        step: "Focus your attention entirely on the sensation of heaviness and pressure.",
+        step: {
+          description:
+            "Close your eyes and take deep breaths, focusing on the sensation of weight.",
+        },
+        note: "Notice how it feels against your body.",
       },
       {
-        step: "Breathe slowly and deeply, letting the pressure ground your thoughts.",
+        step: {
+          description:
+            "Allow yourself to relax into the pressure, letting go of tension.",
+        },
+        note: "If thoughts arise, acknowledge them and return to the sensation.",
+      },
+      {
+        step: {
+          description:
+            "After 10–20 minutes, slowly remove the object and notice how you feel.",
+        },
+        note: "Take a moment to reflect on the experience.",
       },
     ],
     frequency: "As needed, especially during emotional dysregulation",
@@ -94,14 +166,39 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     approximateTime: "5–10 minutes",
     steps: [
       {
-        step: "Choose a textured object (e.g., a stone, fabric, or tree bark).",
+        step: {
+          description:
+            "Choose a small object with interesting textures (e.g., fabric, stone, or plant).",
+        },
+        note: "Make sure it's safe and comfortable to touch.",
       },
       {
-        step: "Run your fingers slowly across the surface, noticing every bump and groove.",
+        step: {
+          description: "Hold the object in your hand and close your eyes.",
+        },
+        note: "Feel the weight and temperature of the object.",
       },
-      { step: "Describe the texture in your mind: rough, smooth, cool, warm." },
-      { step: "Close your eyes to deepen the focus on touch." },
-      { step: "Continue feeling and exploring the texture for a few minutes." },
+      {
+        step: {
+          description:
+            "Run your fingers over the surface, noticing every detail.",
+        },
+        note: "Pay attention to bumps, grooves, and variations.",
+      },
+      {
+        step: {
+          description:
+            "Breathe deeply while exploring the texture with your fingertips.",
+        },
+        note: "Allow yourself to get lost in the sensation.",
+      },
+      {
+        step: {
+          description:
+            "After a few minutes, open your eyes and reflect on how you feel.",
+        },
+        note: "Notice any changes in your mental state.",
+      },
     ],
     frequency: "As needed",
     conclusion:
@@ -119,17 +216,46 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     approximateTime: "5–10 minutes",
     steps: [
       {
-        step: "Begin walking slowly, bringing attention to your breath and posture.",
+        step: {
+          description:
+            "Find a safe space to walk slowly (indoors or outdoors).",
+        },
+        note: "Choose a location that feels comfortable and inviting.",
       },
       {
-        step: "Look around and identify colors, shapes, and movement in your surroundings.",
+        step: {
+          description:
+            "Begin walking slowly, focusing on each step and the sensations in your feet.",
+        },
+        note: "Feel the ground beneath you and the movement of your body.",
       },
       {
-        step: "Notice sounds near and far—birds, traffic, wind, or footsteps.",
+        step: {
+          description:
+            "Engage your senses by noticing colors, sounds, and smells around you.",
+        },
+        note: "Take your time to observe without judgment.",
       },
-      { step: "Feel the texture beneath your feet and the air on your skin." },
       {
-        step: "If thoughts arise, gently return attention to what you are sensing.",
+        step: {
+          description:
+            "Pause occasionally to take deep breaths and absorb the environment.",
+        },
+        note: "Allow yourself to be fully present in the moment.",
+      },
+      {
+        step: {
+          description:
+            "After 5–10 minutes, find a comfortable spot to sit and reflect on the experience.",
+        },
+        note: "Notice any changes in your mental state or emotions.",
+      },
+      {
+        step: {
+          description:
+            "If possible, take a moment to express gratitude for the experience.",
+        },
+        note: "Acknowledge the beauty of your surroundings.",
       },
     ],
     frequency: "Once daily or during transitions",
@@ -148,15 +274,39 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     approximateTime: "5–15 minutes",
     steps: [
       {
-        step: "Find a source of ambient sound (white noise app, rain, ocean, urban sounds).",
+        step: {
+          description:
+            "Find a quiet space where you can listen to ambient sounds (nature, rain, or white noise).",
+        },
+        note: "Use headphones if needed to block out distractions.",
       },
-      { step: "Sit comfortably and listen without judgment or analysis." },
       {
-        step: "Let the sounds move through you without trying to control your focus.",
+        step: {
+          description:
+            "Close your eyes and take a few deep breaths to settle into the moment.",
+        },
+        note: "Allow your body to relax.",
       },
-      { step: "Notice the layers of sounds and the spaces between them." },
       {
-        step: "Breathe naturally and allow yourself to dissolve into the soundscape.",
+        step: {
+          description:
+            "Focus on the ambient sounds, letting them wash over you without judgment.",
+        },
+        note: "Notice how they make you feel in your body.",
+      },
+      {
+        step: {
+          description:
+            "If thoughts arise, acknowledge them and return your focus to the sounds.",
+        },
+        note: "Let go of any need to analyze or control the experience.",
+      },
+      {
+        step: {
+          description:
+            "After 5–15 minutes, slowly open your eyes and take a moment to reflect on how you feel.",
+        },
+        note: "Notice any changes in your mental state or emotions.",
       },
     ],
     frequency: "As needed",
@@ -175,15 +325,39 @@ export const doingASensoryReset: MindfulnessPractices[] = [
     approximateTime: "2–3 minutes",
     steps: [
       {
-        step: "Choose a calming essential oil (e.g., lavender, peppermint, eucalyptus).",
+        step: {
+          description:
+            "Choose an essential oil or scented item (like a scented candle or lotion).",
+        },
+        note: "Make sure it's safe for you to use.",
       },
-      { step: "Place a drop on your palms or a cotton pad." },
-      { step: "Gently inhale through your nose, focusing only on the scent." },
       {
-        step: "Take 3–5 slow breaths while observing how the aroma makes you feel.",
+        step: {
+          description:
+            "Apply a small amount to your wrists or palms, or hold the item close to your nose.",
+        },
+        note: "Avoid direct contact with your skin if you have sensitivities.",
       },
       {
-        step: "Repeat as needed, using a different scent to shift your mood or alertness.",
+        step: {
+          description:
+            "Close your eyes and take a few deep breaths, inhaling the scent deeply.",
+        },
+        note: "Allow the aroma to fill your senses.",
+      },
+      {
+        step: {
+          description:
+            "Focus on the sensations in your body as you breathe in the scent.",
+        },
+        note: "Notice any changes in your mood or mental state.",
+      },
+      {
+        step: {
+          description:
+            "After a few minutes, slowly open your eyes and take a moment to reflect on how you feel.",
+        },
+        note: "Acknowledge any shifts in your awareness.",
       },
     ],
     frequency: "As needed throughout the day",
