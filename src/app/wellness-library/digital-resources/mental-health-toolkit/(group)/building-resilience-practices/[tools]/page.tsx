@@ -25,7 +25,7 @@ export default function Page() {
     fetchData();
   }, [toolKit, toolKitID]);
 
-  console.log("toolData", toolData);
+  // console.log("toolData", toolData);
 
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9">

@@ -50,9 +50,7 @@ export default function Page() {
 
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>
-        {capitalize(toolkitCategory)}: {capitalize(tool)}
-      </h1>
+      <h1>{capitalize(tool)}</h1>
       <h5>{toolkitInformation?.subtitle}</h5>
 
       <div className="my-8 md:my-4 lg:my-6">
