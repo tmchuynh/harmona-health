@@ -12,12 +12,45 @@ export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
     ],
     approximateTime: "2–5 minutes",
     steps: [
-      { step: "Inhale deeply through your nose for a count of 4." },
-      { step: "Hold your breath for a count of 4." },
-      { step: "Exhale slowly through your mouth for a count of 4." },
-      { step: "Hold your breath again for a count of 4." },
       {
-        step: "Repeat the cycle for several rounds, focusing on the sensation of your breath.",
+        step: {
+          description:
+            "Sit comfortably with your back straight and shoulders relaxed.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Inhale deeply through your nose for a count of 4, filling your lungs completely.",
+        },
+        note: "Feel your abdomen expand as you inhale.",
+      },
+      {
+        step: {
+          description:
+            "Hold your breath for a count of 4, allowing the air to settle in your lungs.",
+        },
+        note: "Feel the stillness and calmness in your body.",
+      },
+      {
+        step: {
+          description:
+            "Exhale slowly through your mouth for a count of 4, emptying your lungs completely.",
+        },
+        note: "Feel your abdomen fall as you exhale.",
+      },
+      {
+        step: {
+          description:
+            "Hold your breath again for a count of 4, feeling the stillness.",
+        },
+        note: "This is the pause before the next inhale.",
+      },
+      {
+        step: {
+          description:
+            "Repeat this cycle for several minutes, focusing on the rhythm of your breath.",
+        },
       },
     ],
     frequency: "As needed, or several times a day",
@@ -35,10 +68,39 @@ export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
     ],
     approximateTime: "4–5 minutes",
     steps: [
-      { step: "Inhale deeply through your nose for a count of 4." },
-      { step: "Hold your breath for a count of 7." },
-      { step: "Exhale slowly through your mouth for a count of 8." },
-      { step: "Repeat for 4–5 cycles, focusing on the rhythm of your breath." },
+      {
+        step: {
+          description:
+            "Sit or lie down in a comfortable position with your back straight.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Inhale deeply through your nose for a count of 4, filling your lungs completely.",
+        },
+        note: "Feel your abdomen expand as you inhale.",
+      },
+      {
+        step: {
+          description:
+            "Hold your breath for a count of 7, allowing the air to settle in your lungs.",
+        },
+        note: "Feel the stillness and calmness in your body.",
+      },
+      {
+        step: {
+          description:
+            "Exhale slowly through your mouth for a count of 8, emptying your lungs completely.",
+        },
+        note: "Make a whooshing sound as you exhale.",
+      },
+      {
+        step: {
+          description:
+            "Repeat this cycle for several minutes, focusing on the rhythm of your breath.",
+        },
+      },
     ],
     frequency: "As needed, or before sleep",
     conclusion:
@@ -56,15 +118,42 @@ export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
     approximateTime: "3–5 minutes",
     steps: [
       {
-        step: "Sit or lie down in a comfortable position, keeping your back straight.",
+        step: {
+          description:
+            "Sit or lie down in a comfortable position with your back straight.",
+        },
       },
-      { step: "Place one hand on your chest and the other on your abdomen." },
       {
-        step: "Inhale slowly through your nose, allowing your abdomen to rise while keeping your chest still.",
+        step: {
+          description:
+            "Place one hand on your chest and the other on your abdomen.",
+        },
+        note: "Ensure your shoulders are relaxed and not hunched.",
       },
-      { step: "Exhale slowly through your mouth, letting your abdomen fall." },
       {
-        step: "Repeat for several minutes, focusing on the rise and fall of your belly with each breath.",
+        step: {
+          description:
+            "Inhale deeply through your nose, allowing your abdomen to rise while keeping your chest still.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Exhale slowly through your mouth, feeling your abdomen fall as you release the air.",
+        },
+        note: "Focus on the movement of your abdomen rather than your chest.",
+      },
+      {
+        step: {
+          description:
+            "Continue this pattern for several minutes, focusing on the rise and fall of your abdomen.",
+        },
+      },
+      {
+        step: {
+          description:
+            "If your mind wanders, gently bring your attention back to the breath and the movement of your abdomen.",
+        },
       },
     ],
     frequency: "As needed, or daily to strengthen focus and relaxation",
@@ -82,16 +171,49 @@ export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
     ],
     approximateTime: "5–10 minutes",
     steps: [
-      { step: "Sit in a comfortable position with your spine straight." },
-      { step: "Close your eyes and bring your attention to your breath." },
       {
-        step: "Notice the sensation of the air entering and exiting your nostrils or the rise and fall of your abdomen.",
+        step: {
+          description:
+            "Sit comfortably with your back straight and shoulders relaxed.",
+        },
       },
       {
-        step: "When your mind wanders, gently guide your attention back to the breath without judgment.",
+        step: {
+          description:
+            "Close your eyes or lower your gaze to minimize distractions.",
+        },
       },
       {
-        step: "Continue this for several minutes, staying present with each breath.",
+        step: {
+          description:
+            "Bring your attention to your breath, noticing the natural rhythm of inhalation and exhalation.",
+        },
+        note: "Don’t try to change your breath; simply observe it.",
+      },
+      {
+        step: {
+          description:
+            "If your mind wanders, gently acknowledge the thought and bring your focus back to your breath.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Continue this practice for several minutes, allowing your breath to anchor your attention.",
+        },
+        note: "Feel free to count your breaths if it helps maintain focus.",
+      },
+      {
+        step: {
+          description:
+            "When you’re ready, slowly open your eyes and take a moment to notice how you feel.",
+        },
+      },
+      {
+        step: {
+          description:
+            "If your mind wanders, gently acknowledge the thought and bring your focus back to your breath.",
+        },
       },
     ],
     frequency: "Daily or whenever you need to center yourself",
@@ -110,18 +232,58 @@ export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "Sit comfortably with your spine straight and shoulders relaxed.",
-      },
-      { step: "Use your right thumb to close your right nostril." },
-      { step: "Inhale deeply through your left nostril." },
-      {
-        step: "Close your left nostril with your right ring finger and exhale slowly through your right nostril.",
+        step: {
+          description:
+            "Sit comfortably with your back straight and shoulders relaxed.",
+        },
       },
       {
-        step: "Inhale deeply through your right nostril, then close it and exhale through your left nostril.",
+        step: {
+          description: "Using your right thumb, close your right nostril.",
+        },
       },
       {
-        step: "Repeat for several cycles, focusing on the breath and the alternating nostrils.",
+        step: {
+          description:
+            "Inhale deeply through your left nostril for a count of 4.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Close your left nostril with your right ring finger and release your right nostril.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Exhale slowly through your right nostril for a count of 4.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Inhale deeply through your right nostril for a count of 4.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Close your right nostril with your right thumb and release your left nostril.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Exhale slowly through your left nostril for a count of 4.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Continue this pattern for several minutes, focusing on the rhythm of your breath.",
+        },
+        note: "Make sure to keep your breath smooth and even.",
       },
     ],
     frequency: "As needed, or daily",
