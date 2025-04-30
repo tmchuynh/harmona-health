@@ -31,6 +31,10 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
     [pathname]
   );
 
+  console.log("pathSegments", pathSegments);
+  console.log("path segments length", pathSegments.length);
+  console.log("pathname", pathname);
+
   // Detect if this is a 404 page based on known structure
   const isNotFoundPage = pathSegments.includes("not-found");
 
@@ -56,8 +60,12 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
       isLast: boolean
     ) => {
       const content =
-        !compareStringWordCount(segment, 4) && isLast
-          ? clipString(segment, 15)
+        !compareStringWordCount(segment, 7) && isLast
+          ? isSmallScreen
+            ? `${clipString(segment, 40)}...`
+            : isMediumScreen && !isSmallScreen
+            ? `${clipString(segment, 45)}...`
+            : segment
           : segment;
 
       const r = generateRandomString(5);
@@ -113,7 +121,19 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         const segment = capitalizedSegments[1];
 
         items.push(
-          <BreadcrumbSeparator key="sep-2" className="ml-1">
+          <BreadcrumbSeparator key="sep-2" className="mx-1">
+            <FaLeaf className="text-primary" />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          <BreadcrumbItem key="dots">
+            <span className="rounded-md">...</span>
+          </BreadcrumbItem>
+        );
+
+        items.push(
+          <BreadcrumbSeparator key="sep-3" className="ml-1">
             <FaLeaf className="text-primary" />
           </BreadcrumbSeparator>
         );
@@ -176,6 +196,72 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           renderItem(href, segment, index, index === pathSegments.length - 1)
         );
       });
+
+      if (pathSegments.length > 4) {
+        items.length = 0;
+
+        items.push(
+          <BreadcrumbItem key="home" className="mx-1">
+            <BreadcrumbLink
+              href="/"
+              className="px-1 py-1 rounded-md dark:text-foreground underline-offset-4 hover:underline hover:decoration-secondary"
+            >
+              Home
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+        );
+
+        pathSegments.slice(1, 3).forEach((_, index) => {
+          const href = `/${pathSegments.slice(0, index + 1).join("/")}`;
+          const segment = capitalizedSegments[index];
+
+          items.push(
+            <BreadcrumbSeparator
+              key={`sep-${href}-${index}`}
+              className="mx-4 dark:text-fancy"
+            >
+              <FaLeaf className="text-primary" />
+            </BreadcrumbSeparator>
+          );
+
+          items.push(
+            renderItem(href, segment, index, index === pathSegments.length - 1)
+          );
+        });
+
+        items.push(
+          <BreadcrumbSeparator
+            key={`sep-middle-3`}
+            className="mx-4 dark:text-fancy"
+          >
+            <FaLeaf className="text-primary" />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          <BreadcrumbItem key="dots-2">
+            <span className="rounded-md">...</span>
+          </BreadcrumbItem>
+        );
+
+        items.push(
+          <BreadcrumbSeparator
+            key={`sep-middle-4`}
+            className="mx-4 dark:text-fancy"
+          >
+            <FaLeaf className="text-primary" />
+          </BreadcrumbSeparator>
+        );
+
+        items.push(
+          renderItem(
+            pathname,
+            capitalizedSegments[pathSegments.length - 1],
+            pathSegments.length - 1,
+            true
+          )
+        );
+      }
     }
 
     return items;
