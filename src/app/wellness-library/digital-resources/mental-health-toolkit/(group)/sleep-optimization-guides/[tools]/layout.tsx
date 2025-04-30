@@ -2,7 +2,11 @@
 
 import { ToolProvider } from "@/context/toolContext";
 import { toolsMap } from "@/lib/resources/toolkits/tools";
-import { capitalize, formatUrlToID } from "@/lib/utils/format";
+import {
+  capitalize,
+  formatUrlToID,
+  sliceOffLastWord,
+} from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
 import React, { ReactNode } from "react";
 
@@ -27,7 +31,9 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <ToolProvider value={{ tool, toolKit, toolKitID, toolInformation }}>
       <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-        <h1>{capitalize(tool)}</h1>
+        <h1>
+          {sliceOffLastWord(capitalize(toolKit))}: {capitalize(tool)}
+        </h1>
         <h5>{toolInformation?.description}</h5>
         {children}
       </div>
