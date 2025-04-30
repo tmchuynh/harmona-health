@@ -12,14 +12,39 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     ],
     approximateTime: "10–30 seconds",
     steps: [
-      { step: "Notice the trigger—identify the emotion or sensation arising." },
-      { step: "Pause before reacting, and take three slow, deep breaths." },
-      { step: "Ask yourself: 'What am I feeling right now, and why?'" },
       {
-        step: "Consider the impact of your response—what do you want the outcome to be?",
+        step: {
+          description:
+            "Pause and take a deep breath, allowing yourself to settle into the moment.",
+        },
       },
       {
-        step: "Choose a response that aligns with your values and desired outcome.",
+        step: {
+          description:
+            "Notice your body sensations and emotions without judgment.",
+        },
+        details: [
+          "Are you feeling tense, anxious, or angry?",
+          "What physical sensations are present in your body?",
+          "Where do you feel these sensations?",
+        ],
+      },
+      {
+        step: {
+          description:
+            "Ask yourself: 'What am I feeling? What do I need right now?'",
+        },
+      },
+      {
+        step: {
+          description:
+            "Choose a response that aligns with your values and intentions.",
+        },
+      },
+      {
+        step: {
+          description: "Respond with clarity, calmness, and respect.",
+        },
       },
     ],
     frequency: "As needed during emotionally charged moments",
@@ -37,17 +62,36 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     ],
     approximateTime: "5 seconds",
     steps: [
-      { step: "When triggered, count to five slowly in your head." },
       {
-        step: "Use the time to notice your breath and check in with your emotional state.",
+        step: {
+          description:
+            "When you feel the urge to react, count down from 5 to 1.",
+        },
       },
       {
-        step: "Ask yourself: 'What do I want to communicate, and how can I do it calmly?'",
+        step: {
+          description: "Use the countdown as a cue to pause and breathe.",
+        },
+        note: "This helps you create a mental space.",
       },
       {
-        step: "Choose a response that aligns with your intention rather than reacting impulsively.",
+        step: {
+          description:
+            "Reflect on your feelings and the situation before responding.",
+        },
       },
-      { step: "Respond with calmness, clarity, and respect." },
+      {
+        step: {
+          description:
+            "Choose a response that aligns with your values and intentions.",
+        },
+        note: "Consider the impact of your words and actions.",
+      },
+      {
+        step: {
+          description: "Respond with clarity and mindfulness.",
+        },
+      },
     ],
     frequency: "As needed during high-stress interactions",
     conclusion:
@@ -65,19 +109,37 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     approximateTime: "3–10 minutes",
     steps: [
       {
-        step: "Give the speaker your full attention—turn off distractions and focus on their words.",
+        step: {
+          description:
+            "Set an intention to listen without judgment or interruption.",
+        },
       },
       {
-        step: "Notice any judgments or internal reactions without acting on them.",
+        step: {
+          description: "Focus on the speaker’s words, tone, and body language.",
+        },
+        note: "Be fully present in the moment.",
       },
       {
-        step: "Reflect back what you heard to ensure understanding: 'What I'm hearing is...'",
+        step: {
+          description:
+            "Avoid formulating your response while the other person is speaking.",
+        },
+        details: [
+          "Stay present and engaged in the conversation.",
+          "Practice active listening by nodding or using verbal affirmations.",
+        ],
       },
       {
-        step: "Pause before responding to allow space for your response to be thoughtful.",
+        step: {
+          description: "Reflect back what you heard to ensure understanding.",
+        },
       },
       {
-        step: "Respond mindfully, using 'I' statements to express your feelings or perspective.",
+        step: {
+          description:
+            "Respond thoughtfully, considering the speaker's perspective.",
+        },
       },
     ],
     frequency: "As needed during conversations or conflict",
@@ -96,18 +158,43 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     approximateTime: "5–10 minutes",
     steps: [
       {
-        step: "Identify the situation or trigger that is prompting a negative reaction.",
+        step: {
+          description:
+            "Identify a situation that triggered a strong emotional response.",
+        },
       },
       {
-        step: "Examine the thought pattern associated with the trigger—what are you telling yourself?",
+        step: {
+          description:
+            "Pause and reflect on your initial thoughts and feelings.",
+        },
       },
       {
-        step: "Challenge the validity of the thought—are there alternative interpretations?",
+        step: {
+          description:
+            "Ask yourself: 'What are alternative ways to view this situation?'",
+        },
+        details: [
+          "Consider different perspectives, such as the other person's viewpoint.",
+          "Think about the context and any external factors that may have influenced the situation.",
+          "Reflect on past experiences that may have shaped your reaction.",
+        ],
+        note: "Be open to exploring various interpretations.",
       },
       {
-        step: "Reframe the thought: What could be a more balanced or empowering perspective?",
+        step: {
+          description:
+            "Consider the potential positive outcomes or lessons from the situation.",
+        },
+        note: "Focus on growth and learning opportunities.",
       },
-      { step: "Respond based on the new, reframed perspective." },
+      {
+        step: {
+          description:
+            "Choose a more balanced, constructive perspective to guide your response.",
+        },
+        note: "Use this new perspective to inform your actions and decisions.",
+      },
     ],
     frequency: "As needed during challenging situations or emotional triggers",
     conclusion:
@@ -125,17 +212,35 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     approximateTime: "2–3 minutes",
     steps: [
       {
-        step: "Take a moment to notice what you’re feeling in your body and mind.",
-      },
-      { step: "Label the emotion—e.g., anger, frustration, anxiety, sadness." },
-      {
-        step: "Ask yourself: 'Why am I feeling this emotion? What triggered it?'",
+        step: {
+          description: "Pause and take a deep breath to center yourself.",
+        },
       },
       {
-        step: "Acknowledge the emotion without judgment, and let it exist without reacting.",
+        step: {
+          description:
+            "Identify the emotion you are experiencing (e.g., anger, sadness, frustration).",
+        },
+        note: "Be specific about the emotion.",
       },
       {
-        step: "Choose a thoughtful, measured response based on your understanding of the emotion.",
+        step: {
+          description:
+            "Label the emotion by saying it out loud or writing it down.",
+        },
+        note: "For example, 'I am feeling angry.'",
+      },
+      {
+        step: {
+          description: "Reflect on the situation that triggered this emotion.",
+        },
+        note: "Consider the context and your thoughts about it.",
+      },
+      {
+        step: {
+          description: "Consider how this awareness can inform your response.",
+        },
+        note: "Think about how you want to respond to the situation.",
       },
     ],
     frequency: "As needed when strong emotions arise",
@@ -154,19 +259,36 @@ export const respondingInsteadOfReacting: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "Notice when you’re being hard on yourself or experiencing negative self-talk.",
+        step: {
+          description: "Pause and take a deep breath to center yourself.",
+        },
       },
       {
-        step: "Pause and offer yourself the same kindness you would offer a friend.",
+        step: {
+          description:
+            "Acknowledge the difficult emotion or situation you are facing.",
+        },
+        note: "Be honest with yourself about what you're feeling.",
       },
       {
-        step: "Say to yourself: 'This is a tough moment, but I’m doing my best.'",
+        step: {
+          description:
+            "Offer yourself kind words or phrases (e.g., 'It's okay to feel this way. I am here for you.').",
+        },
+        note: "Use a gentle tone, as if speaking to a friend.",
       },
       {
-        step: "Acknowledge that it's okay to feel challenged and that you are deserving of compassion.",
+        step: {
+          description:
+            "Reflect on how you would respond to a friend in a similar situation.",
+        },
+        note: "Consider what you would say to someone you care about.",
       },
       {
-        step: "Respond with care, taking actions that prioritize your well-being.",
+        step: {
+          description:
+            "Choose a self-compassionate response that aligns with your values.",
+        },
       },
     ],
     frequency:
