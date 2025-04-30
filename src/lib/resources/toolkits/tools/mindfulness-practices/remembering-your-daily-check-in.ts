@@ -12,12 +12,62 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "5–7 minutes",
     steps: [
-      { step: "Sit quietly and take three deep breaths to settle in." },
-      { step: "Ask yourself: 'How do I feel emotionally right now?'" },
-      { step: "Notice any physical sensations—tension, energy, fatigue." },
-      { step: "Observe any dominant thoughts or worries without judgment." },
       {
-        step: "Set a word or intention for the day based on what you observed.",
+        step: {
+          title: "Getting Ready",
+          description:
+            "Find a quiet space and sit comfortably. Close your eyes or lower your gaze.",
+        },
+        note: "It is important for you to be comfortable in this space with no interruptions.",
+      },
+      {
+        step: {
+          title: "Body Scan",
+          description:
+            "Start at your toes and slowly move up to the top of your head. Notice any tension or discomfort.",
+        },
+        details: [
+          "Breathe into any areas of tightness, allowing them to relax.",
+          "Notice how your body feels overall.",
+          "Are you energized, tired, or somewhere in between?",
+        ],
+        note: "Be gentle with yourself. This is not about fixing anything, just noticing.",
+      },
+      {
+        step: {
+          title: "Emotional Check-In",
+          description:
+            "Identify any emotions you’re feeling. Name them without judgment.",
+        },
+        details: [
+          "Are you excited, anxious, calm, or something else?",
+          "Acknowledge these feelings as valid.",
+        ],
+        note: "This is a moment to honor your emotional state.",
+      },
+      {
+        step: {
+          title: "Mental Clarity",
+          description:
+            "Reflect on your mental state. Are you focused, scattered, or overwhelmed?",
+        },
+        details: [
+          "What thoughts are occupying your mind?",
+          "Are there any distractions you need to address?",
+        ],
+        note: "This helps you understand your mental readiness for the day.",
+      },
+      {
+        step: {
+          title: "Set Intentions",
+          description:
+            "Based on your self-scan, set one or two intentions for the day.",
+        },
+        details: [
+          "What do you want to focus on?",
+          "How do you want to feel by the end of the day?",
+        ],
+        note: "Intentions guide your actions and mindset throughout the day.",
       },
     ],
     frequency: "Once daily, in the morning",
@@ -35,13 +85,49 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "3–5 minutes",
     steps: [
-      { step: "Pause and name the dominant emotion you're feeling." },
-      { step: "Rate the intensity of the emotion from 1 to 10." },
-      { step: "Ask yourself what triggered this emotion today, if anything." },
       {
-        step: "Notice how the emotion feels in your body (tightness, warmth, etc.).",
+        step: {
+          title: "Pause and Breathe",
+          description:
+            "Take a few deep breaths to center yourself. Close your eyes if comfortable.",
+        },
+        note: "This helps you tune into your internal state.",
       },
-      { step: "Accept the emotion without trying to change it." },
+      {
+        step: {
+          title: "Identify Emotions",
+          description: "Ask yourself, 'What emotions am I feeling right now?'",
+        },
+        details: [
+          "Name them without judgment.",
+          "Are they positive, negative, or neutral?",
+        ],
+        note: "This is about awareness, not fixing anything.",
+      },
+      {
+        step: {
+          title: "Rate Your Temperature",
+          description:
+            "On a scale of 1 to 10, rate the intensity of your emotions.",
+        },
+        details: [
+          "1 being very low and 10 being very high.",
+          "Notice how this rating feels in your body.",
+        ],
+        note: "This helps you gauge the intensity of your emotional state.",
+      },
+      {
+        step: {
+          title: "Reflect on Triggers",
+          description:
+            "Consider what might have influenced your emotional temperature today.",
+        },
+        details: [
+          "Was it a conversation, an event, or something else?",
+          "How can you respond to these triggers mindfully?",
+        ],
+        note: "This reflection helps you understand your emotional landscape.",
+      },
     ],
     frequency: "Twice daily (morning and evening)",
     conclusion:
@@ -58,13 +144,41 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "2–3 minutes",
     steps: [
-      { step: "Sit quietly and notice your overall sense of physical energy." },
-      { step: "Rate your energy from 1 (empty) to 10 (full charge)." },
-      { step: "Identify anything contributing to low or high energy today." },
       {
-        step: "Decide one small thing you can do to respect your current energy level.",
+        step: {
+          title: "Identify Energy Level",
+          description: "Ask yourself, 'What is my current energy level?'",
+        },
+        details: [
+          "Rate it on a scale of 1 to 10 (1 being very low, 10 being very high).",
+          "Notice how this rating feels in your body.",
+        ],
+        note: "This helps you gauge the intensity of your energy state.",
       },
-      { step: "Adjust your day’s plans accordingly if possible." },
+      {
+        step: {
+          title: "Reflect on Triggers",
+          description:
+            "Consider what might have influenced your energy level today.",
+        },
+        details: [
+          "Was it a conversation, an event, or something else?",
+          "How can you respond to these triggers mindfully?",
+        ],
+        note: "This reflection helps you understand your energy landscape.",
+      },
+      {
+        step: {
+          title: "Plan for the Day",
+          description:
+            "Based on your energy level, plan your tasks accordingly.",
+        },
+        details: [
+          "Prioritize high-energy tasks when you feel energized. Schedule low-energy tasks for when you're feeling drained.",
+          "Consider taking breaks or engaging in restorative activities if your energy is low. This can include stretching, deep breathing, or a short walk.",
+        ],
+        note: "This helps you align activities with your energy levels.",
+      },
     ],
     frequency: "Daily (preferably morning)",
     conclusion:
@@ -81,13 +195,70 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "1–2 minutes",
     steps: [
-      { step: "Think back over your day briefly." },
       {
-        step: "Choose one word that describes your overall emotional experience.",
+        step: {
+          title: "Choose a Word",
+          description:
+            "At the end of the day, choose one word that sums up your mood.",
+        },
+        note: "This can be a positive, negative, or neutral word.",
       },
-      { step: "Say the word aloud or write it down." },
-      { step: "Optional: add a one-sentence explanation." },
-      { step: "Notice any patterns over time if you track this regularly." },
+      {
+        step: {
+          title: "Reflect on the Word",
+          description:
+            "Consider why you chose that word. What events or feelings influenced it?",
+        },
+        details: [
+          "What does it mean to you? How does it make you feel? Why is it important to you?",
+          "This can be a person, an experience, or something simple. Examples: a warm cup of coffee, a supportive friend, or a sunny day.",
+        ],
+        note: "This helps you understand your emotional landscape.",
+      },
+      {
+        step: {
+          title: "Record It",
+          description:
+            "Write down your mood word in a journal or app for tracking.",
+        },
+        note: "This creates a simple record of your emotional trends.",
+      },
+      {
+        step: {
+          title: "Celebrate Your Word",
+          description:
+            "Acknowledge your mood word with a smile or a moment of gratitude.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Repeat Daily",
+          description:
+            "Make this a daily ritual to build emotional awareness over time.",
+        },
+        note: "This helps you track your emotional trends and growth.",
+      },
+      {
+        step: {
+          title: "Reflect Weekly",
+          description:
+            "At the end of the week, review your mood words to identify patterns.",
+        },
+        details: [
+          "What words appeared most often? What emotions were less frequent?",
+          "How did your mood change over the week? What events or situations influenced these changes?",
+        ],
+        note: "This helps you understand your emotional landscape over time.",
+      },
+      {
+        step: {
+          title: "Adjust as Needed",
+          description:
+            "If you notice negative patterns, consider what changes you can make.",
+        },
+        note: "This helps you take proactive steps toward emotional well-being.",
+      },
     ],
     frequency: "Daily (evening)",
     conclusion:
@@ -104,16 +275,48 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "2–5 minutes",
     steps: [
-      { step: "Pause and name three things you’re grateful for today." },
       {
-        step: "Include both big and small things (like a hot shower or a supportive text).",
+        step: {
+          title: "Pause and Breathe",
+          description:
+            "Take a few deep breaths to center yourself. Close your eyes if comfortable.",
+        },
+        note: "This helps you tune into your internal state.",
       },
       {
-        step: "Reflect on how each makes your life easier, better, or richer.",
+        step: {
+          title: "Identify Three Things",
+          description:
+            "List three things you’re grateful for today, big or small.",
+        },
+        note: "These can be people, experiences, or simple pleasures.",
       },
-      { step: "Write them down or say them aloud for greater effect." },
       {
-        step: "Smile gently as you complete the exercise, even if you don't feel like it.",
+        step: {
+          title: "Reflect on Each Item",
+          description:
+            "For each item, take a moment to reflect on why you’re grateful for it.",
+        },
+        details: [
+          "What does it mean to you? How does it make you feel? Why is it important to you?",
+          "This can be a person, an experience, or something simple. Examples: a warm cup of coffee, a supportive friend, or a sunny day.",
+        ],
+        note: "This deepens your appreciation and connection to these items.",
+      },
+      {
+        step: {
+          title: "Record It",
+          description:
+            "Write down your gratitude snapshot in a journal or app.",
+        },
+        note: "This creates a simple record of your gratitude practice.",
+      },
+      {
+        step: {
+          title: "Repeat Daily",
+          description: "Make this a daily ritual to build gratitude over time.",
+        },
+        note: "This helps you track your emotional trends and growth.",
       },
     ],
     frequency: "Daily",
@@ -131,11 +334,56 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "5–10 minutes",
     steps: [
-      { step: "Find a quiet space and take a few deep breaths." },
-      { step: "Ask: 'What emotions did I feel most today?'" },
-      { step: "Reflect on one moment that stood out—positive or difficult." },
-      { step: "Ask: 'What do I want to let go of from today?'" },
-      { step: "Note one thing you're grateful for or one insight you gained." },
+      {
+        step: {
+          title: "Find a Quiet Space",
+          description: "Choose a comfortable, quiet space to sit or lie down.",
+        },
+        note: "This helps you tune into your internal state.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Day",
+          description:
+            "Think about your day. What went well? What challenges did you face?",
+        },
+        note: "This helps you understand your emotional landscape.",
+      },
+      {
+        step: {
+          title: "Identify Emotions",
+          description:
+            "Name any emotions you felt today. Were they positive, negative, or neutral?",
+        },
+        details: [
+          "Acknowledge these feelings as valid. This is about awareness, not fixing anything.",
+          "Are there any patterns you notice? What triggered these emotions? How did you respond?",
+          "What would you do differently? do the same? What did you learn?",
+          "What are you proud of? What are you grateful for?",
+          "What are you holding onto? What are you letting go of?",
+          "What are you ready to release? forgive?",
+          "What are you ready to embrace? accept? acknowledge? respect?",
+          "What are you ready to celebrate? What are you ready to honor?",
+          "What are you ready to cherish? appreciate? treasure? value? love?",
+        ],
+        note: "This is about awareness, not fixing anything.",
+      },
+      {
+        step: {
+          title: "Celebrate Small Wins",
+          description:
+            "Acknowledge any small victories or moments of joy from the day.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Set Intentions for Tomorrow",
+          description:
+            "Based on your reflection, set one or two intentions for tomorrow.",
+        },
+        note: "This helps you align your actions with your goals.",
+      },
     ],
     frequency: "Once daily, in the evening",
     conclusion:
@@ -152,15 +400,63 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     ],
     approximateTime: "5 minutes",
     steps: [
-      { step: "Identify one or two of your top core values." },
       {
-        step: "Ask yourself how today’s actions reflected (or didn’t reflect) those values.",
+        step: {
+          title: "Identify Your Core Values",
+          description:
+            "List your top three to five core values (e.g., honesty, compassion, growth).",
+        },
+        details: [
+          "These are the principles that guide your life.",
+          "Examples: family, health, creativity, or community.",
+          "These can be personal, professional, or relational.",
+        ],
+        note: "These are the principles that guide your life.",
       },
-      { step: "If they didn’t, reflect without self-judgment." },
       {
-        step: "Name one small action you could take tomorrow to live closer to those values.",
+        step: {
+          title: "Reflect on Your Day",
+          description:
+            "Think about your day. Did your actions align with your values?",
+        },
+        note: "This helps you understand your emotional landscape.",
       },
-      { step: "Celebrate any small wins in values alignment today." },
+      {
+        step: {
+          title: "Identify Discrepancies",
+          description: "Were there moments when you acted against your values?",
+        },
+        note: "This is about awareness, not fixing anything.",
+      },
+      {
+        step: {
+          title: "Set Intentions for Tomorrow",
+          description:
+            "Based on your reflection, set one or two intentions for tomorrow.",
+        },
+        details: [
+          "How can you align your actions with your values more closely?",
+          "What small changes can you make?",
+          "These can be personal, professional, or relational.",
+        ],
+        note: "This helps you align your actions with your goals.",
+      },
+      {
+        step: {
+          title: "Celebrate Alignment",
+          description:
+            "Acknowledge any moments when you acted in alignment with your values.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Repeat Daily",
+          description:
+            "Make this a daily ritual to build values alignment over time.",
+        },
+        note: "This helps you track your emotional trends and growth.",
+      },
     ],
     frequency: "Daily or weekly",
     conclusion:
@@ -178,12 +474,45 @@ export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "List two or three small wins from today (e.g., answered difficult email, took a walk).",
+        step: {
+          title: "Identify Micro-Wins",
+          description:
+            "List three small wins from your day, no matter how minor.",
+        },
+        details: [
+          "These can be personal, professional, or relational.",
+          "Examples: completing a task, having a good conversation, or taking a break.",
+        ],
+        note: "These can be personal, professional, or relational.",
       },
-      { step: "Reflect on what helped you achieve these wins." },
-      { step: "Acknowledge your effort, even if the outcome wasn't perfect." },
-      { step: "Smile or say thank you to yourself for trying." },
-      { step: "Repeat daily to train your mind toward progress recognition." },
+      {
+        step: {
+          title: "Reflect on Each Win",
+          description:
+            "For each win, take a moment to reflect on why it matters to you.",
+        },
+        note: "This deepens your appreciation and connection to these wins.",
+      },
+      {
+        step: {
+          title: "Record It",
+          description:
+            "Write down your micro-wins in a journal or app for tracking.",
+        },
+        note: "This creates a simple record of your progress.",
+      },
+      {
+        step: {
+          title: "Celebrate Your Wins",
+          description:
+            "Acknowledge your micro-wins with a smile or a moment of gratitude.",
+        },
+        details: [
+          "This can be a small treat, a moment of self-praise, or simply a smile.",
+          "This reinforces the importance of emotional awareness.",
+        ],
+        note: "This reinforces the importance of emotional awareness.",
+      },
     ],
     frequency: "Daily (evening recommended)",
     conclusion:

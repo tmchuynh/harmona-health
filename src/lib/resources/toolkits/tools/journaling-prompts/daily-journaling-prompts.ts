@@ -11,6 +11,15 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     ],
   },
   {
+    prompt:
+      "Write whatever comes to mind, even if it feels unrelated or disjointed. Allow your subconscious to guide the process.",
+    ideas: [
+      "Once the time is up, read through what you’ve written. Notice any patterns or surprising insights that emerge.",
+      "Free-flow writing, also known as stream of consciousness, is a writing technique where you write continuously without editing or censoring your thoughts.",
+      "Use the content from your free-flow writing as a springboard for further creative exploration—whether in writing, art, or another medium.",
+    ],
+  },
+  {
     prompt: "If I could talk to my younger self, what would I say?",
     ideas: [
       "Write a letter to your younger self with advice and encouragement.",

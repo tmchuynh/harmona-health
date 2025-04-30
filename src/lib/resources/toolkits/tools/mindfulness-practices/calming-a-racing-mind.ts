@@ -12,16 +12,68 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     ],
     approximateTime: "5–10 minutes",
     steps: [
-      { step: "Find a comfortable and quiet place to sit or lie down." },
-      { step: "Close your eyes and take several deep breaths to relax." },
       {
-        step: "Imagine a peaceful scene in as much detail as possible—consider sounds, sights, textures, and smells.",
+        step: {
+          title: "Find a quiet space and close your eyes.",
+          description: "Take a few deep breaths to center yourself.",
+        },
+        details: [
+          "Inhale deeply through your nose, filling your lungs.",
+          "Exhale slowly through your mouth, releasing tension.",
+        ],
+        note: "This helps prepare your mind for visualization.",
       },
       {
-        step: "Fully immerse yourself in the experience, letting the calmness of the scene replace your racing thoughts.",
+        step: {
+          title: "Choose a calming scene to visualize.",
+          description:
+            "It could be a beach, forest, or any place that brings you peace.",
+        },
       },
       {
-        step: "Stay in the visualization for several minutes, gradually noticing how your body and mind begin to relax.",
+        step: {
+          title: "Engage your senses in the visualization.",
+          description:
+            "Imagine the sights, sounds, and smells of your chosen scene.",
+        },
+        details: [
+          "What colors do you see?",
+          "What sounds are present?",
+          "What scents fill the air?",
+        ],
+      },
+      {
+        step: {
+          title: "Allow yourself to immerse in the scene.",
+          description:
+            "Feel the sensations of being in that place, letting go of racing thoughts.",
+        },
+      },
+      {
+        step: {
+          title: "Gradually return to the present moment.",
+          description:
+            "Take a few deep breaths and slowly open your eyes when ready.",
+        },
+        details: [
+          "Notice how you feel after the visualization.",
+          "Reflect on the calmness and clarity you experienced.",
+          "If possible, take a moment to stretch or move your body gently.",
+        ],
+        note: "Take your time to transition back to your surroundings.",
+      },
+      {
+        step: {
+          title: "Reflect on the experience.",
+          description:
+            "Consider how the visualization affected your mental state.",
+        },
+        details: [
+          "Did you feel more relaxed?",
+          "Were you able to let go of racing thoughts?",
+          "How can you incorporate this practice into your routine?",
+        ],
+        note: "Journaling about your experience can enhance the benefits.",
       },
     ],
     frequency: "As needed, or during moments of high stress",
@@ -40,16 +92,58 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     approximateTime: "5 minutes",
     steps: [
       {
-        step: "List any intrusive thoughts, worries, or random to-dos floating around in your mind.",
+        step: {
+          title: "Set aside a quiet moment for reflection.",
+          description:
+            "Find a comfortable space where you can sit or lie down without distractions.",
+        },
+        details: [
+          "Turn off your phone or any notifications.",
+          "Take a few deep breaths to center yourself.",
+        ],
+        note: "This helps create a calm environment for the practice.",
       },
-      { step: "Write them down quickly without editing or filtering." },
       {
-        step: "Decide if any of them need immediate action or can be scheduled.",
+        step: {
+          title: "Visualize your mind as a cluttered space.",
+          description:
+            "Imagine your thoughts as physical objects cluttering your mental space.",
+        },
+        details: [
+          "What thoughts or worries are taking up space?",
+          "Visualize them as items in a room or on a desk.",
+        ],
       },
       {
-        step: "Visualize yourself putting the rest in a 'mental drawer' for later.",
+        step: {
+          title: "Begin the mental sweep.",
+          description:
+            "Mentally 'sweep' away the clutter by acknowledging each thought and letting it go.",
+        },
+        details: [
+          "Imagine each thought being gently swept away, creating space for clarity.",
+          "Use a broom or sweeping motion in your mind to visualize this process.",
+        ],
       },
-      { step: "Breathe deeply, feeling a sense of lightness after clearing." },
+      {
+        step: {
+          title: "Focus on the feeling of clarity and calm.",
+          description:
+            "As you clear the clutter, notice how your mind feels lighter and more focused.",
+        },
+      },
+      {
+        step: {
+          title: "Conclude the practice with gratitude.",
+          description:
+            "Express gratitude for the clarity you've created and the mental space you've opened up.",
+        },
+        details: [
+          "Acknowledge the effort you put into this practice.",
+          "Reflect on how this mental decluttering can positively impact your day.",
+        ],
+        note: "Consider journaling about your experience to reinforce the benefits.",
+      },
     ],
     frequency: "Daily",
     conclusion:
@@ -66,13 +160,67 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     ],
     approximateTime: "2–4 minutes",
     steps: [
-      { step: "Notice and name 5 things you can see around you." },
       {
-        step: "Identify 4 things you can physically feel (e.g., your clothes, a chair, the floor).",
+        step: {
+          description:
+            "Find a quiet space where you can sit or stand comfortably.",
+        },
+        details: [
+          "Take a few deep breaths to center yourself.",
+          "Allow your body to relax and release tension.",
+        ],
+        note: "Focus on your breath as you prepare for the exercise.",
       },
-      { step: "Pay attention to 3 sounds you can hear right now." },
-      { step: "Recognize 2 things you can smell or recall a familiar scent." },
-      { step: "Identify 1 thing you can taste or imagine tasting." },
+      {
+        step: {
+          description:
+            "Begin by identifying five things you can see around you.",
+        },
+        details: [
+          "Look for colors, shapes, or objects that catch your attention.",
+          "Name them out loud or in your mind.",
+        ],
+      },
+      {
+        step: {
+          description:
+            "Next, identify four things you can feel (textures, surfaces).",
+        },
+        details: [
+          "Notice the sensation of your feet on the ground or the fabric of your clothing.",
+          "Acknowledge each sensation as you focus on it.",
+        ],
+      },
+      {
+        step: {
+          description:
+            "Then, identify three things you can hear (sounds in the environment).",
+        },
+        details: [
+          "Listen for distant sounds, like traffic or birds chirping.",
+          "Focus on the quality of each sound.",
+        ],
+      },
+      {
+        step: {
+          description:
+            "Next, identify two things you can smell (scents in the air).",
+        },
+        details: [
+          "If you can't smell anything, think of your favorite scents.",
+          "Imagine the smell of fresh flowers or baked goods.",
+        ],
+      },
+      {
+        step: {
+          description:
+            "Finally, identify one thing you can taste (flavor in your mouth).",
+        },
+        details: [
+          "Notice the taste of your mouth or take a sip of water.",
+          "Focus on the sensation of taste and how it feels.",
+        ],
+      },
     ],
     frequency: "As needed during anxiety or overwhelm",
     conclusion:
@@ -89,18 +237,68 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     ],
     approximateTime: "5–10 minutes",
     steps: [
-      { step: "Grab a piece of paper and a pen or pencil." },
       {
-        step: "Allow your hand to move freely across the paper, making simple shapes, lines, or patterns.",
+        step: {
+          title: "Gather your materials.",
+          description: "You’ll need paper and a pen or pencil.",
+        },
       },
       {
-        step: "Let go of any expectations or rules, and just focus on the motion of your hand and the shapes you create.",
+        step: {
+          title: "Find a comfortable space to doodle.",
+          description:
+            "Choose a quiet spot where you can focus on your doodling without distractions.",
+        },
+        note: "This could be a desk, table, or even a cozy chair.",
       },
       {
-        step: "If your mind starts to race again, refocus on your drawing and let it flow naturally.",
+        step: {
+          title: "Start doodling freely.",
+          description:
+            "Let your hand move without a specific goal or structure. Draw shapes, lines, or patterns that come to mind.",
+        },
+        details: [
+          "Allow your mind to wander as you doodle.",
+          "Don’t worry about the outcome; just enjoy the process.",
+          "Let your creativity flow without judgment.",
+          "You can use colors, patterns, or even words if they come to you.",
+          "Feel free to experiment with different styles and techniques.",
+          "If you feel stuck, try drawing simple shapes or repeating patterns.",
+          "You can also listen to music or a podcast while doodling to enhance the experience.",
+        ],
+        note: "Remember, there are no rules in doodling. It’s all about self-expression and relaxation.",
       },
       {
-        step: "When done, notice how the act of doodling has shifted your mental state.",
+        step: {
+          title: "Take a moment to reflect on your doodle.",
+          description:
+            "After a few minutes, pause and look at what you’ve created.",
+        },
+        details: [
+          "Notice how you feel after doodling.",
+          "Did it help clear your mind?",
+          "What emotions or thoughts came up during the process?",
+        ],
+        note: "You can keep your doodle as a reminder of this creative moment.",
+      },
+      {
+        step: {
+          title: "Conclude the practice.",
+          description:
+            "When you feel ready, set your doodle aside and take a few deep breaths.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on the experience.",
+          description:
+            "Consider how doodling affected your mental state and creativity.",
+        },
+        details: [
+          "Did you feel more relaxed?",
+          "Were you able to let go of racing thoughts?",
+          "How can you incorporate this practice into your routine?",
+        ],
       },
     ],
     frequency: "As needed, or whenever you feel creatively blocked or stressed",
@@ -118,18 +316,49 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     ],
     approximateTime: "15–30 minutes",
     steps: [
-      { step: "Find a quiet outdoor space where you can connect with nature." },
       {
-        step: "Remove your shoes and stand, sit, or lie down on natural surfaces such as grass, dirt, or sand.",
+        step: {
+          title: "A Natural Setting",
+          description:
+            "Find a natural setting, such as a park, beach, or forest.",
+        },
       },
       {
-        step: "Close your eyes and take several deep breaths, feeling the sensations of the earth beneath you.",
+        step: {
+          description:
+            "Choose a comfortable position (sitting, standing, or lying down).",
+        },
       },
       {
-        step: "Focus on the sounds, smells, and sensations of nature, allowing your mind to be drawn into the present moment.",
+        step: {
+          title: "Engage with Nature",
+          description:
+            "Take a moment to notice the sights, sounds, and smells around you.",
+        },
+        details: [
+          "Feel the ground beneath you and connect with the Earth.",
+          "Notice the textures of leaves, grass, or sand.",
+          "Listen to the sounds of nature (birds, wind, water).",
+        ],
       },
       {
-        step: "Stay in this grounding position for several minutes, feeling your thoughts slow and your body relax.",
+        step: {
+          title: "Breathe Deeply",
+          description:
+            "Take deep breaths, inhaling the fresh air and exhaling tension.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on Your Experience",
+          description:
+            "Spend a few moments reflecting on how you feel after connecting with nature.",
+        },
+        details: [
+          "Notice any shifts in your mental state.",
+          "Did you feel more relaxed or centered?",
+          "How did the experience of being in nature affect your thoughts?",
+        ],
       },
     ],
     frequency: "As needed, or regularly to deepen your connection with nature",
@@ -148,19 +377,56 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     approximateTime: "5–10 minutes",
     steps: [
       {
-        step: "Choose an essential oil with a calming fragrance, such as lavender or chamomile.",
+        step: {
+          title: "Choose your essential oil or scent.",
+          description:
+            "Select a calming scent that resonates with you (e.g., lavender, chamomile, or sandalwood).",
+        },
+        details: [
+          "You can use essential oils, scented candles, or incense.",
+          "If using essential oils, consider diluting them with a carrier oil if applying to the skin.",
+        ],
+        note: "Ensure you are not allergic to the chosen scent.",
       },
       {
-        step: "Diffuse the oil in a quiet space or apply it to pulse points (wrists, neck) for a more direct effect.",
+        step: {
+          title: "Create a calming environment.",
+          description:
+            "Find a quiet space where you can relax without distractions.",
+        },
+        details: [
+          "Dim the lights or use soft lighting.",
+          "Sit or lie down comfortably.",
+        ],
       },
       {
-        step: "Close your eyes and take several deep breaths, focusing on the soothing scent.",
+        step: {
+          title: "Inhale the scent deeply.",
+          description:
+            "Take a few deep breaths, inhaling the scent slowly and fully.",
+        },
+        details: [
+          "Notice how the scent makes you feel.",
+          "Allow it to fill your senses and calm your mind.",
+        ],
       },
       {
-        step: "Let your mind relax with each breath, allowing the scent to ground you in the present moment.",
+        step: {
+          title: "Focus on the sensations.",
+          description:
+            "As you breathe in the scent, focus on how it affects your body and mind.",
+        },
+        details: [
+          "Notice any shifts in your mood or mental state.",
+          "Allow yourself to relax into the experience.",
+        ],
       },
       {
-        step: "Enjoy the calm that comes with the sensory experience of aromatherapy.",
+        step: {
+          title: "Conclude the practice.",
+          description:
+            "When you feel ready, take a few deep breaths and slowly open your eyes.",
+        },
       },
     ],
     frequency: "As needed, or regularly for emotional well-being",
@@ -179,19 +445,48 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     approximateTime: "10–20 minutes",
     steps: [
       {
-        step: "Find a quiet spot by a water source, such as a river, lake, or beach.",
+        step: {
+          title: "Find a natural water source.",
+          description:
+            "Choose a location where you can comfortably observe moving water (e.g., a river, lake, or ocean).",
+        },
+        details: [
+          "Ensure you are in a safe and comfortable position.",
+          "If possible, sit or lie down near the water's edge.",
+        ],
+        note: "If you can't access natural water, you can use a video of moving water.",
       },
       {
-        step: "Sit or stand comfortably, focusing on the movement of the water.",
+        step: {
+          title: "Focus on the movement of the water.",
+          description:
+            "Observe the flow, ripples, and reflections of the water.",
+        },
+        details: [
+          "Notice how the light interacts with the water's surface.",
+          "Pay attention to the sounds of the water as it moves.",
+        ],
       },
       {
-        step: "Notice the flow, ripples, and patterns of the water as it moves.",
+        step: {
+          title: "Engage your senses.",
+          description: "Allow yourself to be fully present in the experience.",
+        },
+        details: [
+          "Feel the breeze on your skin and listen to the sounds of nature.",
+          "Take deep breaths, inhaling the fresh air around you.",
+        ],
       },
       {
-        step: "Take deep, slow breaths, allowing your mind to quiet as you observe the water.",
-      },
-      {
-        step: "Let your thoughts drift away with the movement of the water, returning your focus to the present moment.",
+        step: {
+          title: "Reflect on your experience.",
+          description:
+            "After a few minutes, take a moment to notice how you feel.",
+        },
+        details: [
+          "Did you feel more relaxed or centered?",
+          "How did observing the water affect your mental state?",
+        ],
       },
     ],
     frequency: "Whenever near moving water, or as needed for relaxation",
@@ -210,17 +505,41 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     approximateTime: "5–10 minutes",
     steps: [
       {
-        step: "Light a candle in a quiet space, ensuring the flame is visible and safe.",
+        step: {
+          title: "Find a quiet space and light a candle.",
+          description:
+            "Choose a candle with a calming scent if possible, and place it at eye level.",
+        },
+        details: [
+          "Ensure the candle is in a safe location away from flammable materials.",
+          "Sit comfortably in front of the candle, allowing your body to relax.",
+          "Take a few deep breaths to center yourself.",
+          "Allow your body to settle into a comfortable position.",
+          "Focus on your breath as you prepare for the practice.",
+        ],
+        note: "Dim the lights or create a cozy atmosphere to enhance the experience.",
       },
       {
-        step: "Sit comfortably and focus on the movement of the candle flame.",
+        step: {
+          title: "Gaze at the candle flame.",
+          description:
+            "Allow your gaze to soften as you focus on the flickering flame.",
+        },
+        details: [
+          "Notice the colors, shapes, and movement of the flame.",
+          "If your mind wanders, gently bring your focus back to the flame.",
+        ],
       },
-      { step: "Notice the way the light flickers and the warmth it emits." },
       {
-        step: "If your mind begins to race, gently bring your focus back to the flame and the soothing light.",
-      },
-      {
-        step: "End the practice by noticing how your thoughts have slowed and your body feels more relaxed.",
+        step: {
+          title: "Engage your senses.",
+          description:
+            "Pay attention to the warmth of the candle and any scents it may emit.",
+        },
+        details: [
+          "Feel the warmth radiating from the candle.",
+          "Notice any scents that arise from the burning wick or wax.",
+        ],
       },
     ],
     frequency: "As needed, or when seeking a quick mindfulness reset",
@@ -238,13 +557,43 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     ],
     approximateTime: "2 minutes",
     steps: [
-      { step: "Sit or stand comfortably and close your eyes." },
-      { step: "Notice the natural rhythm of your breath without changing it." },
-      { step: "Place a hand lightly on your belly to feel the rise and fall." },
       {
-        step: "Stay with your breath for 5–10 cycles, gently redirecting focus if it wanders.",
+        step: {
+          title: "Find a quiet space to pause.",
+          description:
+            "Choose a comfortable position where you can sit or stand without distractions.",
+        },
+        details: [
+          "Take a moment to settle into your body and notice how you feel.",
+          "Allow your body to relax and release any tension.",
+        ],
       },
-      { step: "Open your eyes and continue your day with renewed awareness." },
+      {
+        step: {
+          title: "Take a few deep breaths.",
+          description:
+            "Inhale deeply through your nose, filling your lungs, and exhale slowly through your mouth.",
+        },
+        details: [
+          "Focus on the sensation of your breath entering and leaving your body.",
+          "Notice any areas of tension or discomfort as you breathe.",
+          "Allow your breath to become natural and effortless.",
+          "Feel the rise and fall of your chest or abdomen with each breath.",
+        ],
+        note: "This helps prepare your mind for the breath awareness pause.",
+      },
+      {
+        step: {
+          title: "Pause and observe your breath.",
+          description:
+            "Allow your breath to flow naturally without trying to control it.",
+        },
+        details: [
+          "Notice the rhythm of your breath and how it feels in your body.",
+          "Observe any sensations, thoughts, or emotions that arise without judgment.",
+          "If your mind wanders, gently bring your focus back to your breath.",
+        ],
+      },
     ],
     frequency: "1–3 times daily",
     conclusion:
@@ -262,19 +611,48 @@ export const calmingARacingMind: MindfulnessPractices[] = [
     approximateTime: "10–15 minutes",
     steps: [
       {
-        step: "Choose a mantra or phrase that resonates with you (e.g., 'peace', 'breathe', or a personal affirmation).",
+        step: {
+          title: "Choose a mantra or sound to chant.",
+          description:
+            "Select a word, phrase, or sound that resonates with you (e.g., 'Om,' 'Peace,' or a personal affirmation).",
+        },
+        details: [
+          "Consider using a mantra that holds personal significance or aligns with your intentions.",
+          "You can also use a traditional mantra from a spiritual or cultural tradition.",
+          "If you prefer, you can create your own mantra that reflects your goals or feelings.",
+        ],
+        note: "Feel free to create your own mantra that holds personal significance.",
       },
       {
-        step: "Sit comfortably with your eyes closed and focus on your breathing.",
+        step: {
+          title: "Find a comfortable position.",
+          description:
+            "Sit or lie down in a quiet space where you can focus without distractions.",
+        },
+        details: [
+          "Close your eyes and take a few deep breaths to center yourself.",
+          "Allow your body to relax and release any tension.",
+          "Focus on your breath as you prepare for the practice.",
+        ],
       },
       {
-        step: "Begin chanting or silently repeating your mantra with each breath, aligning it with your inhales and exhales.",
+        step: {
+          title: "Begin chanting or repeating the mantra.",
+          description:
+            "Start vocalizing the chosen sound or phrase, allowing it to flow naturally.",
+        },
+        details: [
+          "Focus on the sound and how it resonates in your body.",
+          "Feel the vibrations of the sound as you chant.",
+        ],
       },
       {
-        step: "If your mind wanders, gently bring your focus back to the mantra and the rhythm of your breath.",
-      },
-      {
-        step: "Finish by sitting quietly, noticing any shifts in your mental state after chanting.",
+        step: {
+          title: "Continue for several minutes.",
+          description:
+            "Allow yourself to immerse in the sound and rhythm of the chant.",
+        },
+        note: "Feel free to adjust the volume and pace to suit your comfort level.",
       },
     ],
     frequency: "As needed, or regularly to deepen mindfulness practice",
