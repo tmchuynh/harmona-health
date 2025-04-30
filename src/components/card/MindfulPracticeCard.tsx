@@ -20,20 +20,36 @@ const MindfulPracticeCard = ({ data }: { data: MindfulnessPractices }) => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h3>When to Use:</h3>
-        <ul className="mt-2 pl-6 list-disc">
-          {data.useCases.map((useCase, index) => (
-            <li key={index}>{useCase}</li>
-          ))}
-        </ul>
-      </div>
+      {data.useCases && (
+        <div className="mb-6">
+          <h3>When to Use:</h3>
+          <ul className="mt-2 pl-6 list-disc">
+            {data.useCases.map((useCase, index) => (
+              <li key={index}>{useCase}</li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="mb-6">
         <h3>Steps:</h3>
         <ol className="space-y-2 pl-6 list-decimal">
           {data.steps.map((step, index) => (
-            <li key={index}>{step.step}</li>
+            <li key={index}>
+              <p>
+                <strong>{step.step.title}: </strong>
+                {step.step.description}
+              </p>
+
+              {step.note && <p>{step.note}</p>}
+
+              {step.details &&
+                step.details.map((detail, index) => (
+                  <p key={index} className="pl-6">
+                    {detail}
+                  </p>
+                ))}
+            </li>
           ))}
         </ol>
       </div>

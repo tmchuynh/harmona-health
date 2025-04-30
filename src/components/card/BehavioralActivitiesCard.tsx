@@ -16,8 +16,18 @@ const BehavioralActivitiesCard = ({ data }: { data: BehavioralActivities }) => {
         <ol className="pl-6 list-decimal">
           {data.steps.map((step, index) => (
             <li key={index} className="mb-4">
-              <p className="font-semibold">{step.step}</p>
-              <p>{step.note}</p>
+              <p className="font-semibold">
+                <strong>{step.step.title}: </strong>
+                {step.step.description}
+              </p>
+              {step.note && <p>{step.note}</p>}
+
+              {step.details &&
+                step.details.map((detail, index) => (
+                  <p key={index} className="pl-6">
+                    {detail}
+                  </p>
+                ))}
             </li>
           ))}
         </ol>
