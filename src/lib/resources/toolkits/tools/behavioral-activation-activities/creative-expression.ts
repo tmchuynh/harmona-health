@@ -9,18 +9,42 @@ export const creativeExpression: BehavioralActivities[] = [
       "Visual journaling is a creative exercise that can help break through emotional or mental barriers by blending verbal and non-verbal expression. It can facilitate deeper self-exploration and provide a different perspective on complex feelings.",
     steps: [
       {
-        step: "Start with a blank page and create a space for both writing and visuals. You can use colors, shapes, or pictures to reflect your mood or thoughts.",
+        step: {
+          title: "Create Your Expression Space",
+          description:
+            "Begin with a blank page that allows room for both writing and visual elements. Use colors, lines, or images that match your current emotional state.",
+        },
         note: "The goal is not to create perfect art, but to express yourself freely.",
       },
       {
-        step: "Write down your feelings or experiences in the journal, and then use drawings or collages to further explore those emotions visually.",
+        step: {
+          title: "Combine Written and Visual Content",
+          description:
+            "Write about your emotions, experiences, or thoughts, and support them with expressive visuals like doodles, sketches, or collages.",
+        },
         note: "The images can be abstract or representational, depending on what feels right.",
       },
       {
-        step: "Reflect on the visuals and writing you've created. How do they complement each other, and what new insights arise from combining both forms of expression?",
+        step: {
+          title: "Reflect on the Page",
+          description:
+            "Look at how your writing and imagery connect. What deeper insights arise from blending the two modes of expression?",
+        },
+        details: [
+          "Consider whether the visuals reveal anything your writing didn’t. They may express subconscious feelings you weren’t fully aware of. Allow these insights to guide further exploration.",
+          "Note emotional shifts you felt during the process. Did you feel lighter, more grounded, or unexpectedly emotional? Acknowledge and process these emotional changes.",
+        ],
       },
       {
-        step: "Set a regular practice of visual journaling to enhance creative exploration and emotional release.",
+        step: {
+          title: "Establish a Routine",
+          description:
+            "Make visual journaling a regular part of your creative or emotional exploration practice.",
+        },
+        details: [
+          "Choose a time of day that you can consistently dedicate to the practice. A morning or evening routine may provide emotional clarity. The key is consistency, not perfection.",
+          "Keep your journal and materials accessible to encourage frequency. When creativity strikes, you’ll be ready. Keeping tools nearby reduces barriers to expression.",
+        ],
       },
     ],
     conclusion:
@@ -36,17 +60,37 @@ export const creativeExpression: BehavioralActivities[] = [
       "Through the creation of collages, you can explore and process emotions that may be difficult to articulate. This method taps into the power of visual symbolism, helping you to make sense of your feelings and uncover new insights.",
     steps: [
       {
-        step: "Gather materials such as magazines, photographs, fabric, or anything that resonates with you emotionally.",
+        step: {
+          title: "Gather Materials",
+          description:
+            "Collect magazines, photographs, fabric, and any other materials that resonate with you emotionally.",
+        },
         note: "Choose images and textures that you feel drawn to without overthinking the selection.",
       },
       {
-        step: "Start creating a collage by cutting and pasting pieces that represent your emotions, desires, or thoughts. Arrange them intuitively.",
+        step: {
+          title: "Create Your Collage",
+          description:
+            "Begin arranging and pasting pieces that represent your emotions, desires, or thoughts. Arrange them intuitively without worrying about perfection.",
+        },
       },
       {
-        step: "Allow yourself to express emotions freely through the imagery and design. Don’t worry about creating a ‘perfect’ collage—focus on the process and expression.",
+        step: {
+          title: "Allow Expression Through Design",
+          description:
+            "Focus on using imagery and layout to freely express emotions. Don’t focus on creating a 'perfect' collage; let the process guide you.",
+        },
       },
       {
-        step: "Reflect on the finished collage. What emotions and thoughts arise as you look at it? What patterns or themes can you identify?",
+        step: {
+          title: "Reflect on Your Collage",
+          description:
+            "Once your collage is complete, take time to reflect. What emotions arise as you observe it? Are there any patterns or themes you can identify?",
+        },
+        details: [
+          "Think about how the collage might represent your emotional landscape.",
+          "Look for any unconscious messages or symbols that emerge.",
+        ],
       },
     ],
     conclusion:
@@ -62,17 +106,37 @@ export const creativeExpression: BehavioralActivities[] = [
       "This technique encourages emotional exploration through spontaneous, free-form painting. By expressing feelings on canvas, you can gain insights into your emotions and engage in therapeutic self-expression.",
     steps: [
       {
-        step: "Gather your painting materials (paints, brushes, paper or canvas) and set up a space where you can work freely.",
-        note: "Ensure the space is conducive to uninhibited expression.",
+        step: {
+          title: "Gather Painting Materials",
+          description:
+            "Collect paints, brushes, and a canvas or paper. Set up a comfortable space where you can paint freely.",
+        },
+        note: "Ensure that the space allows for uninhibited expression.",
       },
       {
-        step: "Begin by allowing yourself to paint without a plan. Focus on the colors, textures, and shapes that feel right in the moment.",
+        step: {
+          title: "Start Painting Freely",
+          description:
+            "Begin painting without a plan. Focus on the colors, textures, and shapes that feel right in the moment, letting your emotions guide you.",
+        },
       },
       {
-        step: "Let your emotions guide your brushstrokes. There is no wrong way to express yourself—simply let the paint flow.",
+        step: {
+          title: "Let Your Emotions Guide the Process",
+          description:
+            "Allow your brushstrokes to flow according to how you're feeling. There is no 'wrong' way to express yourself.",
+        },
       },
       {
-        step: "When finished, take time to reflect on how the colors and patterns made you feel. What emotions surfaced during the process?",
+        step: {
+          title: "Reflect on the Painting",
+          description:
+            "When you’ve finished, reflect on the piece. How did the colors and shapes make you feel? What emotions were brought to the surface during the process?",
+        },
+        details: [
+          "Consider how the painting might reflect your current emotional state.",
+          "Notice any cathartic release you might have experienced.",
+        ],
       },
     ],
     conclusion:
@@ -88,18 +152,39 @@ export const creativeExpression: BehavioralActivities[] = [
       "By journaling during your time outdoors, you can reflect on the beauty of nature and use it as a catalyst for emotional exploration. Nature journaling encourages mindfulness and creativity while deepening your connection to the natural world.",
     steps: [
       {
-        step: "Go outdoors to a park, garden, or natural space and bring along a journal or sketchbook.",
+        step: {
+          title: "Choose Your Natural Space",
+          description:
+            "Find a park, garden, or any natural space that invites you to observe and engage with nature.",
+        },
         note: "The more time you spend in nature, the more inspired you'll feel.",
       },
       {
-        step: "Observe the natural surroundings closely. Take note of plants, animals, colors, textures, and sounds.",
-        note: "Use both writing and drawing to capture your observations.",
+        step: {
+          title: "Observe Your Surroundings",
+          description:
+            "Take in the plants, animals, colors, textures, and sounds around you. Use writing and drawing to capture these observations.",
+        },
       },
       {
-        step: "Reflect on your emotional state and how the natural world influences your mood and creativity. Let your thoughts flow freely in the journal.",
+        step: {
+          title: "Reflect on Emotional Impact",
+          description:
+            "Reflect on how the natural environment influences your emotions and creativity. Allow your thoughts to flow freely in your journal.",
+        },
+        details: [
+          "Notice any emotional shifts as you immerse yourself in your surroundings. Write about how those changes may relate to your current life experiences. Consider how this natural environment contrasts with your usual daily space.",
+        ],
       },
       {
-        step: "Use the experience of nature to inspire creative projects or simply to deepen your emotional connection to the world around you.",
+        step: {
+          title: "Incorporate Nature into Your Creativity",
+          description:
+            "Use the insights or inspiration from nature to fuel creative projects or deepen your emotional connection to the natural world.",
+        },
+        details: [
+          "Translate your feelings about nature into creative forms like poetry, sketches, or photography. Let patterns or metaphors from the natural world shape your storytelling or artistic style. Revisit this location over time to track how your emotional response evolves.",
+        ],
       },
     ],
     conclusion:
@@ -115,76 +200,42 @@ export const creativeExpression: BehavioralActivities[] = [
       "Soundscaping involves the intentional creation of sound environments, whether through music, nature sounds, or even everyday noises. This practice can heighten sensory awareness and foster a deeper connection with your creative self.",
     steps: [
       {
-        step: "Start by recording or gathering sounds that you find inspiring or calming. These can be natural sounds, music, or ambient noise.",
-        note: "Consider using a sound recorder app or an online sound library.",
+        step: {
+          title: "Gather Sound Materials",
+          description:
+            "Start by collecting sounds that resonate with you. These can be natural sounds, music, or everyday ambient noise.",
+        },
+        note: "Consider using a sound recorder app or online sound libraries.",
       },
       {
-        step: "Play with layering and mixing different sounds. How do they change the emotional tone or atmosphere of your creative space?",
-        note: "Experiment with different combinations to evoke specific moods or feelings.",
+        step: {
+          title: "Experiment with Layering Sounds",
+          description:
+            "Mix different sounds together to create unique auditory landscapes. How do they change the emotional tone of your environment?",
+        },
+        note: "Experiment with various sound combinations to evoke specific moods.",
       },
       {
-        step: "Incorporate soundscaping into your creative projects by using it to inspire your writing, artwork, or even decision-making.",
+        step: {
+          title: "Incorporate Sound into Creative Projects",
+          description:
+            "Use soundscaping to inspire your other creative projects, whether writing, art, or decision-making.",
+        },
       },
       {
-        step: "Reflect on how the sounds affect your mood and creativity. Do they unlock new perspectives or help you think outside the box?",
+        step: {
+          title: "Reflect on Sound’s Impact",
+          description:
+            "Evaluate how the sounds affect your mood and creativity. Do they spark new ideas or offer fresh perspectives?",
+        },
+        details: [
+          "Pay attention to how your emotions shift while listening to different sounds. Record what types of sounds make you feel calm, energized, or nostalgic. Use this reflection to curate sound environments for specific moods or goals.",
+        ],
       },
     ],
     conclusion:
       "Soundscaping can enhance your creative process by incorporating auditory stimuli to deepen focus, inspire fresh ideas, and break through creative blocks.",
     afterThoughts:
       "Use sound to set the mood for specific tasks or creative endeavors, allowing it to become a catalyst for new perspectives.",
-  },
-  {
-    title: "Movement and Dance Therapy",
-    introduction:
-      "Movement and Dance Therapy is a form of creative expression that uses body movement to explore emotions, express thoughts, and release tension. This practice helps to connect mind, body, and spirit.",
-    description:
-      "Movement and dance can bypass cognitive barriers and allow you to express emotions that are difficult to articulate with words. It’s a therapeutic and creative method for self-expression, emotional healing, and unlocking creativity.",
-    steps: [
-      {
-        step: "Find a quiet, open space where you can move freely without distraction.",
-        note: "You don’t need to have any dance experience; simply focus on how your body feels and moves.",
-      },
-      {
-        step: "Begin by tuning into your body. How does it feel today? What movements arise naturally when you focus on your breath or emotions?",
-        note: "Allow the movement to be spontaneous and unstructured.",
-      },
-      {
-        step: "Use the movement to express different emotions you’re experiencing. Can you embody joy, sadness, or frustration through your body?",
-      },
-      {
-        step: "Afterward, reflect on how the movement made you feel. Did it help release tension or inspire creative ideas?",
-      },
-    ],
-    conclusion:
-      "Movement and dance therapy can be a powerful tool for emotional release and creative self-expression, enhancing both mental and physical well-being.",
-    afterThoughts:
-      "Integrate movement and dance into your creative routine to break through mental blocks and foster a deeper connection to your creativity.",
-  },
-  {
-    title: "Free-Flow Writing (Stream of Consciousness)",
-    introduction:
-      "Free-flow writing, also known as stream of consciousness, is a writing technique where you write continuously without editing or censoring your thoughts. This method allows creativity to flow freely without the constraints of structure or grammar.",
-    description:
-      "This unstructured writing practice helps you connect with your subconscious mind, uncover hidden emotions, and spark new creative ideas by bypassing internal censorship.",
-    steps: [
-      {
-        step: "Set a timer for 10–20 minutes and begin writing without worrying about punctuation, spelling, or structure.",
-        note: "The goal is to let your thoughts flow freely without judgment.",
-      },
-      {
-        step: "Write whatever comes to mind, even if it feels unrelated or disjointed. Allow your subconscious to guide the process.",
-      },
-      {
-        step: "Once the time is up, read through what you’ve written. Notice any patterns or surprising insights that emerge.",
-      },
-      {
-        step: "Use the content from your free-flow writing as a springboard for further creative exploration—whether in writing, art, or another medium.",
-      },
-    ],
-    conclusion:
-      "Free-flow writing opens up creative channels by allowing your subconscious thoughts to surface, enabling deeper self-discovery and enhanced creativity.",
-    afterThoughts:
-      "Practice this technique regularly to unblock creativity and free yourself from the constraints of structured thinking.",
   },
 ];

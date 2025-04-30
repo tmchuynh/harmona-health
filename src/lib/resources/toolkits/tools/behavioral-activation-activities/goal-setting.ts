@@ -9,16 +9,32 @@ export const goalSetting: BehavioralActivities[] = [
       "This method works by leveraging habits that are already ingrained in your routine. You 'stack' a new goal on top of these pre-existing habits, which makes it easier to follow through.",
     steps: [
       {
-        step: "Identify an existing habit or routine that you already do regularly (e.g., brushing your teeth, having coffee).",
+        step: {
+          title: "Identify an existing habit or routine",
+          description:
+            "Identify a habit that you already do regularly (e.g., brushing your teeth, having coffee).",
+        },
       },
       {
-        step: "Choose a new, small goal or task to attach to this habit. For example, after brushing your teeth, you could write down one goal-related action or reflection.",
+        step: {
+          title: "Choose a new goal to attach",
+          description:
+            "Pick a new, small goal or task to attach to this habit. For example, after brushing your teeth, write down one goal-related action or reflection.",
+        },
       },
       {
-        step: "Make sure the new goal is simple, achievable, and immediately actionable.",
+        step: {
+          title: "Ensure the goal is achievable",
+          description:
+            "Make sure the new goal is simple, achievable, and immediately actionable.",
+        },
       },
       {
-        step: "Repeat this stacking technique daily to reinforce both the habit and the new goal until it becomes a consistent part of your routine.",
+        step: {
+          title: "Repeat daily",
+          description:
+            "Repeat this stacking technique daily to reinforce both the habit and the new goal until it becomes a consistent part of your routine.",
+        },
       },
     ],
     conclusion:
@@ -34,16 +50,32 @@ export const goalSetting: BehavioralActivities[] = [
       "This method helps clarify the exact steps needed to reach your goal by focusing on the desired result first. It ensures that every action you take is purposeful and aligned with your ultimate vision.",
     steps: [
       {
-        step: "Visualize your goal achieved. Imagine every detail of the outcome you desire.",
+        step: {
+          title: "Visualize your goal achieved",
+          description:
+            "Visualize your goal achieved and imagine every detail of the outcome you desire.",
+        },
       },
       {
-        step: "Ask yourself: What needs to happen immediately before that success? Write down the steps leading to that outcome in reverse order.",
+        step: {
+          title: "Work backward from the outcome",
+          description:
+            "Ask yourself: What needs to happen immediately before that success? Write down the steps leading to that outcome in reverse order.",
+        },
       },
       {
-        step: "Break down each reverse step into smaller actions that will help you get there.",
+        step: {
+          title: "Break down each reverse step",
+          description:
+            "Break down each reverse step into smaller actions that will help you get there.",
+        },
       },
       {
-        step: "Begin taking action on the smallest step, and let it guide you toward the next.",
+        step: {
+          title: "Begin taking action",
+          description:
+            "Start taking action on the smallest step, and let it guide you toward the next.",
+        },
       },
     ],
     conclusion:
@@ -59,16 +91,32 @@ export const goalSetting: BehavioralActivities[] = [
       "By starting with a clear understanding of why you want to achieve a goal, this technique helps you stay focused and motivated, especially when obstacles arise or progress slows.",
     steps: [
       {
-        step: "Start by writing down your goal, then ask yourself, 'Why do I want to achieve this?' Write out the reasons in as much detail as possible.",
+        step: {
+          title: "Write down your goal",
+          description:
+            "Start by writing down your goal, then ask yourself, 'Why do I want to achieve this?' Write out the reasons in as much detail as possible.",
+        },
       },
       {
-        step: "For each reason, ask 'Why is this important to me?' Dig deeper into your motivations.",
+        step: {
+          title: "Dig deeper into your motivations",
+          description:
+            "For each reason, ask 'Why is this important to me?' Dig deeper into your motivations.",
+        },
       },
       {
-        step: "Use this deeper understanding to create a list of daily reminders or affirmations that keep your 'why' at the forefront of your journey.",
+        step: {
+          title: "Create daily reminders",
+          description:
+            "Use this deeper understanding to create a list of daily reminders or affirmations that keep your 'why' at the forefront of your journey.",
+        },
       },
       {
-        step: "Regularly reflect on your 'why' throughout your goal-setting process, especially when you feel challenged.",
+        step: {
+          title: "Reflect regularly on your 'why'",
+          description:
+            "Regularly reflect on your 'why' throughout your goal-setting process, especially when you feel challenged.",
+        },
       },
     ],
     conclusion:
@@ -84,16 +132,32 @@ export const goalSetting: BehavioralActivities[] = [
       "Accountability partnerships work by leveraging the power of social support. Having someone to share progress, setbacks, and successes with can increase your chances of reaching your goals.",
     steps: [
       {
-        step: "Find a partner who shares similar goals or is interested in goal setting.",
+        step: {
+          title: "Find a partner",
+          description:
+            "Find a partner who shares similar goals or is interested in goal setting.",
+        },
       },
       {
-        step: "Establish check-ins, either weekly or bi-weekly, to discuss progress and challenges.",
+        step: {
+          title: "Establish check-ins",
+          description:
+            "Establish check-ins, either weekly or bi-weekly, to discuss progress and challenges.",
+        },
       },
       {
-        step: "Provide support and motivation to each other during setbacks and celebrate successes together.",
+        step: {
+          title: "Support each other",
+          description:
+            "Provide support and motivation to each other during setbacks and celebrate successes together.",
+        },
       },
       {
-        step: "Set clear expectations for your partnership to ensure you both stay committed to the process.",
+        step: {
+          title: "Set clear expectations",
+          description:
+            "Set clear expectations for your partnership to ensure you both stay committed to the process.",
+        },
       },
     ],
     conclusion:
@@ -109,16 +173,32 @@ export const goalSetting: BehavioralActivities[] = [
       "The 'Stretch and Challenge' technique ensures your goals are ambitious yet achievable, encouraging personal growth while keeping the process motivating and exciting.",
     steps: [
       {
-        step: "Identify your current comfort zone, and choose a goal that stretches your abilities slightly beyond that.",
+        step: {
+          title: "Identify your comfort zone",
+          description:
+            "Identify your current comfort zone, and choose a goal that stretches your abilities slightly beyond that.",
+        },
       },
       {
-        step: "Add a challenge element—something that requires learning a new skill or overcoming a personal barrier.",
+        step: {
+          title: "Add a challenge element",
+          description:
+            "Add a challenge element—something that requires learning a new skill or overcoming a personal barrier.",
+        },
       },
       {
-        step: "Set a timeline for the goal that allows room for learning and growth without overwhelming yourself.",
+        step: {
+          title: "Set a timeline",
+          description:
+            "Set a timeline for the goal that allows room for learning and growth without overwhelming yourself.",
+        },
       },
       {
-        step: "Track progress regularly, noting moments where you've stepped out of your comfort zone or overcome a challenge.",
+        step: {
+          title: "Track progress regularly",
+          description:
+            "Track progress regularly, noting moments where you've stepped out of your comfort zone or overcome a challenge.",
+        },
       },
     ],
     conclusion:
@@ -134,16 +214,32 @@ export const goalSetting: BehavioralActivities[] = [
       "The 5-Minute Goal Focus technique helps break down procrastination barriers by committing to a small, manageable amount of time. The idea is to begin with a short burst of focused effort and see where it leads.",
     steps: [
       {
-        step: "Pick one goal to focus on. Keep it simple and manageable for the 5-minute timeframe.",
+        step: {
+          title: "Pick a simple goal",
+          description:
+            "Pick one goal to focus on. Keep it simple and manageable for the 5-minute timeframe.",
+        },
       },
       {
-        step: "Set a timer for 5 minutes and dedicate your full attention to this goal without distractions.",
+        step: {
+          title: "Set a timer for 5 minutes",
+          description:
+            "Set a timer for 5 minutes and dedicate your full attention to this goal without distractions.",
+        },
       },
       {
-        step: "After 5 minutes, assess whether you want to continue or if the task is complete. If you’re in a flow state, extend the time for another 5 minutes.",
+        step: {
+          title: "Assess after 5 minutes",
+          description:
+            "After 5 minutes, assess whether you want to continue or if the task is complete. If you’re in a flow state, extend the time for another 5 minutes.",
+        },
       },
       {
-        step: "Repeat this process daily, gradually building your time and task complexity as you gain confidence and momentum.",
+        step: {
+          title: "Repeat daily",
+          description:
+            "Repeat this process daily, gradually building your time and task complexity as you gain confidence and momentum.",
+        },
       },
     ],
     conclusion:
@@ -159,16 +255,28 @@ export const goalSetting: BehavioralActivities[] = [
       "The 'Perfect Day' visualization helps you emotionally connect with the outcome of your goal. It encourages you to focus on the lifestyle, achievements, and emotions associated with your goal being realized.",
     steps: [
       {
-        step: "Close your eyes and imagine your ideal day, from the moment you wake up to the moment you go to bed, living your goal in full.",
+        step: {
+          description:
+            "Close your eyes and imagine your ideal day, from the moment you wake up to the moment you go to bed, living your goal in full.",
+        },
       },
       {
-        step: "Take note of every detail: what you are doing, how you feel, who you are with, and how you’re living.",
+        step: {
+          description:
+            "Take note of every detail: what you are doing, how you feel, who you are with, and how you’re living.",
+        },
       },
       {
-        step: "Use this visualization as motivation to start taking small steps every day toward making this perfect day a reality.",
+        step: {
+          description:
+            "Use this visualization as motivation to start taking small steps every day toward making this perfect day a reality.",
+        },
       },
       {
-        step: "Write down key aspects of your 'perfect day' and break them into actionable steps for your goal.",
+        step: {
+          description:
+            "Write down key aspects of your 'perfect day' and break them into actionable steps for your goal.",
+        },
       },
     ],
     conclusion:
@@ -184,16 +292,28 @@ export const goalSetting: BehavioralActivities[] = [
       "By balancing small wins with more challenging goals, the 3-2-1 approach helps maintain motivation while steadily progressing toward bigger achievements.",
     steps: [
       {
-        step: "Start by identifying three small, easy-to-achieve goals that can be completed within a short period.",
+        step: {
+          description:
+            "Start by identifying three small, easy-to-achieve goals that can be completed within a short period.",
+        },
       },
       {
-        step: "Next, select two medium-sized goals that may take a bit longer but are still achievable within a few weeks or months.",
+        step: {
+          description:
+            "Next, select two medium-sized goals that may take a bit longer but are still achievable within a few weeks or months.",
+        },
       },
       {
-        step: "Lastly, choose one large, long-term goal that represents your ultimate vision, which will require more time and effort to accomplish.",
+        step: {
+          description:
+            "Lastly, choose one large, long-term goal that represents your ultimate vision, which will require more time and effort to accomplish.",
+        },
       },
       {
-        step: "Work on the small goals first to build momentum, then focus on the medium-sized goals, while keeping the large goal in sight as your guiding vision.",
+        step: {
+          description:
+            "Work on the small goals first to build momentum, then focus on the medium-sized goals, while keeping the large goal in sight as your guiding vision.",
+        },
       },
     ],
     conclusion:
@@ -209,13 +329,22 @@ export const goalSetting: BehavioralActivities[] = [
       "Micro-goals are so small that they don’t feel intimidating. The focus is on consistency and building a sense of accomplishment from very small, but frequent wins.",
     steps: [
       {
-        step: "Break your larger goal into incredibly small, specific tasks or actions (e.g., writing one sentence instead of a paragraph, doing one push-up instead of a full workout).",
+        step: {
+          description:
+            "Break your larger goal into incredibly small, specific tasks or actions (e.g., writing one sentence instead of a paragraph, doing one push-up instead of a full workout).",
+        },
       },
       {
-        step: "Focus on completing these micro-goals every day, ensuring you feel successful every time.",
+        step: {
+          description:
+            "Focus on completing these micro-goals every day, ensuring you feel successful every time.",
+        },
       },
       {
-        step: "Gradually increase the complexity of your micro-goals over time as you build confidence and momentum.",
+        step: {
+          description:
+            "Gradually increase the complexity of your micro-goals over time as you build confidence and momentum.",
+        },
       },
     ],
     conclusion:
@@ -231,23 +360,36 @@ export const goalSetting: BehavioralActivities[] = [
       "The SMART method ensures that your goals are specific, measurable, achievable, relevant, and time-bound, giving you a clear path forward.",
     steps: [
       {
-        step: "Start by identifying your overall goal.",
+        step: {
+          description: "Start by identifying your overall goal.",
+        },
         note: "Be specific about what you want to achieve (e.g., 'I want to lose 10 pounds').",
       },
       {
-        step: "Make the goal measurable by setting clear metrics (e.g., weight loss in pounds, steps walked).",
+        step: {
+          description:
+            "Make the goal measurable by setting clear metrics (e.g., weight loss in pounds, steps walked).",
+        },
         note: "Measuring progress ensures you can track your achievements.",
       },
       {
-        step: "Ensure the goal is achievable and realistic given your current resources and constraints.",
+        step: {
+          description:
+            "Ensure the goal is achievable and realistic given your current resources and constraints.",
+        },
         note: "Break large goals into smaller, manageable steps to avoid feeling overwhelmed.",
       },
       {
-        step: "Ensure the goal is relevant to your life values and long-term aspirations.",
+        step: {
+          description:
+            "Ensure the goal is relevant to your life values and long-term aspirations.",
+        },
         note: "Ask yourself if this goal aligns with your personal growth and happiness.",
       },
       {
-        step: "Set a clear time frame for completing the goal.",
+        step: {
+          description: "Set a clear time frame for completing the goal.",
+        },
         note: "A time-bound goal creates a sense of urgency and motivation.",
       },
     ],
@@ -264,19 +406,33 @@ export const goalSetting: BehavioralActivities[] = [
       "Instead of randomly tackling tasks, time-blocking helps you assign a set period for each activity, ensuring you stay focused and productive while avoiding burnout or procrastination.",
     steps: [
       {
-        step: "List the major tasks or milestones required to achieve your goal.",
+        step: {
+          description:
+            "List the major tasks or milestones required to achieve your goal.",
+        },
       },
       {
-        step: "Break down each task into smaller, manageable steps.",
+        step: {
+          description: "Break down each task into smaller, manageable steps.",
+        },
       },
       {
-        step: "Assign specific time blocks during your day/week dedicated to working on each task. Make sure you have clear start and end times.",
+        step: {
+          description:
+            "Assign specific time blocks during your day/week dedicated to working on each task. Make sure you have clear start and end times.",
+        },
       },
       {
-        step: "Ensure you incorporate breaks between time blocks to avoid burnout.",
+        step: {
+          description:
+            "Ensure you incorporate breaks between time blocks to avoid burnout.",
+        },
       },
       {
-        step: "Review your time blocks weekly to adjust for any unexpected delays or shifts in priorities.",
+        step: {
+          description:
+            "Review your time blocks weekly to adjust for any unexpected delays or shifts in priorities.",
+        },
       },
     ],
     conclusion:
@@ -292,23 +448,36 @@ export const goalSetting: BehavioralActivities[] = [
       "This strategy allows you to take the first steps toward achieving your goals, no matter how daunting they may seem.",
     steps: [
       {
-        step: "Identify the main goal you want to achieve.",
+        step: {
+          description: "Identify the main goal you want to achieve.",
+        },
         note: "Write down your goal clearly so you can refer back to it as needed.",
       },
       {
-        step: "Break the goal into smaller, manageable tasks.",
+        step: {
+          description: "Break the goal into smaller, manageable tasks.",
+        },
         note: "For example, if your goal is to start a business, tasks could include 'researching business ideas,' 'creating a business plan,' and 'registering a domain.'",
       },
       {
-        step: "Prioritize the tasks and identify which ones should be tackled first.",
+        step: {
+          description:
+            "Prioritize the tasks and identify which ones should be tackled first.",
+        },
         note: "Focus on high-impact tasks to gain momentum early on.",
       },
       {
-        step: "Set deadlines for each small task to keep yourself accountable.",
+        step: {
+          description:
+            "Set deadlines for each small task to keep yourself accountable.",
+        },
         note: "Deadlines give a sense of urgency and help keep you on track.",
       },
       {
-        step: "Celebrate each small victory as you complete each task.",
+        step: {
+          description:
+            "Celebrate each small victory as you complete each task.",
+        },
         note: "Acknowledging progress boosts motivation and keeps you motivated throughout the process.",
       },
     ],

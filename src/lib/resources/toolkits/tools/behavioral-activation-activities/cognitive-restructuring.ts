@@ -9,19 +9,29 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "When you identify a negative thought, record it and then assess its accuracy, evidence supporting it, and alternative ways of thinking. This method is especially effective in challenging irrational beliefs and cognitive distortions.",
     steps: [
       {
-        step: "Write down the negative thought you're experiencing.",
+        step: {
+          description: "Write down the negative thought you're experiencing.",
+        },
         note: "Be specific about the thought and context in which it occurs.",
       },
       {
-        step: "Examine the evidence supporting or contradicting this thought.",
+        step: {
+          description:
+            "Examine the evidence supporting or contradicting this thought.",
+        },
         note: "Ask yourself: Is there any evidence that disproves the thought?",
       },
       {
-        step: "Challenge the thought by considering more balanced or realistic perspectives.",
+        step: {
+          description:
+            "Challenge the thought by considering more balanced or realistic perspectives.",
+        },
         note: "What are alternative ways to interpret the situation?",
       },
       {
-        step: "Write down how this new perspective makes you feel.",
+        step: {
+          description: "Write down how this new perspective makes you feel.",
+        },
         note: "Reflect on whether your emotions change after rethinking the original thought.",
       },
     ],
@@ -38,19 +48,31 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "When a negative thought arises, the goal is to mentally 'stop' it, followed by substituting it with a more positive or constructive thought. This method helps prevent negative thinking from spiraling out of control and promotes emotional well-being.",
     steps: [
       {
-        step: "When a negative or intrusive thought arises, immediately say 'Stop' to yourself, either mentally or aloud.",
+        step: {
+          description:
+            "When a negative or intrusive thought arises, immediately say 'Stop' to yourself, either mentally or aloud.",
+        },
         note: "This is your cue to interrupt the negative thought and take control.",
       },
       {
-        step: "Visualize a stop sign or imagine a red light, signaling that the thought must come to an end.",
+        step: {
+          description:
+            "Visualize a stop sign or imagine a red light, signaling that the thought must come to an end.",
+        },
         note: "This helps reinforce the idea that the thought is not allowed to continue.",
       },
       {
-        step: "Replace the negative thought with a more positive, constructive, or calming thought.",
+        step: {
+          description:
+            "Replace the negative thought with a more positive, constructive, or calming thought.",
+        },
         note: "For example, if you’re thinking 'I can't handle this,' replace it with 'I am capable of overcoming challenges.'",
       },
       {
-        step: "Practice this method consistently to strengthen your ability to interrupt and replace negative thoughts.",
+        step: {
+          description:
+            "Practice this method consistently to strengthen your ability to interrupt and replace negative thoughts.",
+        },
       },
     ],
     conclusion:
@@ -66,19 +88,35 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "This cognitive restructuring tool helps shift the narrative from self-judgment to self-acceptance. By reframing negative thoughts with self-compassion, you can reduce feelings of shame and guilt and build emotional resilience.",
     steps: [
       {
-        step: "Identify a situation where you're feeling self-critical or negative about yourself.",
+        step: {
+          title: "Identify the Negative Thought",
+          description:
+            "Identify a situation where you're feeling self-critical or negative about yourself.",
+        },
         note: "This could be related to a mistake you've made or a perceived failure.",
       },
       {
-        step: "Instead of self-criticism, ask yourself: 'What would I say to a close friend who was going through this?'",
+        step: {
+          title: "Ask Yourself: 'What Would I Say to a Friend?'",
+          description:
+            "Instead of self-criticism, ask yourself: 'What would I say to a close friend who was going through this?'",
+        },
         note: "Offer yourself the same kindness and understanding you'd give someone you care about.",
       },
       {
-        step: "Replace your negative thoughts with a compassionate message: 'It's okay to make mistakes, and I am learning from this.'",
+        step: {
+          title: "Reframe the Thought",
+          description:
+            "Replace your negative thoughts with a compassionate message: 'It's okay to make mistakes, and I am learning from this.'",
+        },
         note: "This reframing allows you to view your situation through a lens of growth rather than self-blame.",
       },
       {
-        step: "Acknowledge your feelings without judgment and remind yourself that imperfection is a part of the human experience.",
+        step: {
+          title: "Practice Self-Compassion",
+          description:
+            "Acknowledge your feelings without judgment and remind yourself that imperfection is a part of the human experience.",
+        },
       },
     ],
     conclusion:
@@ -94,19 +132,35 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "By looking for concrete evidence that supports or contradicts a thought, this method allows you to challenge cognitive distortions and break free from patterns of automatic negative thinking.",
     steps: [
       {
-        step: "Write down the thought you’re experiencing. Be as specific as possible about the situation.",
+        step: {
+          title: "Identify the Thought",
+          description:
+            "Write down the thought you’re experiencing. Be as specific as possible about the situation.",
+        },
         note: "Try to capture the exact wording of the thought, without embellishing or filtering.",
       },
       {
-        step: "List all the evidence that supports this thought. Is there any factual basis for it?",
+        step: {
+          title: "Identify Supporting Evidence",
+          description:
+            "List all the evidence that supports this thought. Is there any factual basis for it?",
+        },
         note: "Be objective and avoid assuming or guessing. Focus on facts.",
       },
       {
-        step: "Next, list any evidence that contradicts or challenges this thought.",
+        step: {
+          title: "Identify Contradictory Evidence",
+          description:
+            "Next, list any evidence that contradicts or challenges this thought.",
+        },
         note: "Look for instances where this thought is proven to be inaccurate.",
       },
       {
-        step: "Reframe the thought by considering a more balanced or rational perspective, based on the evidence you've gathered.",
+        step: {
+          title: "Reframe the Thought",
+          description:
+            "Reframe the thought by considering a more balanced or rational perspective, based on the evidence you've gathered.",
+        },
         note: "For example, if you think 'I always fail,' consider evidence where you've succeeded.",
       },
     ],
@@ -123,23 +177,42 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "This exercise encourages you to imagine a future where you’ve achieved all your personal and professional goals. By focusing on your best possible self, you can challenge limiting beliefs and cultivate a growth mindset.",
     steps: [
       {
-        step: "Take a few deep breaths to center yourself and relax.",
+        step: {
+          title: "Find a Quiet Space",
+          description: "Take a few deep breaths to center yourself and relax.",
+        },
         note: "This exercise works best when you're in a calm state of mind.",
       },
       {
-        step: "Close your eyes and imagine a future where everything is exactly as you desire—your career, relationships, health, and well-being.",
+        step: {
+          title: "Visualize Your Ideal Future",
+          description:
+            "Close your eyes and imagine a future where everything is exactly as you desire—your career, relationships, health, and well-being.",
+        },
         note: "Visualize yourself as the best version of who you can be.",
       },
       {
-        step: "Describe your ‘Best Possible Self’ in as much detail as possible. What do you look like, feel like, and experience in this ideal future?",
+        step: {
+          title: "Describe Your ‘Best Possible Self’",
+          description:
+            "Describe your ‘Best Possible Self’ in as much detail as possible. What do you look like, feel like, and experience in this ideal future?",
+        },
         note: "The more detailed you are, the more powerful this visualization becomes.",
       },
       {
-        step: "Reflect on how it feels to be your best self. How do you overcome challenges? What strengths do you rely on?",
+        step: {
+          title: "Reflect on Your Strengths",
+          description:
+            "Reflect on how it feels to be your best self. How do you overcome challenges? What strengths do you rely on?",
+        },
         note: "This reflection can help you identify your inner strengths and resilience.",
       },
       {
-        step: "Identify actionable steps you can take today to move closer to becoming your ‘Best Possible Self.’",
+        step: {
+          title: "Identify Actionable Steps",
+          description:
+            "Identify actionable steps you can take today to move closer to becoming your ‘Best Possible Self.’",
+        },
         note: "Focus on small, realistic steps that align with your vision.",
       },
     ],
@@ -156,23 +229,43 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "This model consists of five steps: Activating Event (A), Beliefs (B), Consequences (C), Disputation (D), and New Effect (E). It helps you break down and challenge irrational beliefs, ultimately replacing them with healthier, more adaptive beliefs.",
     steps: [
       {
-        step: "Identify the Activating Event (A) that triggered your negative thoughts or feelings.",
+        step: {
+          title: "Activating Event (A)",
+          description:
+            "Identify the Activating Event (A) that triggered your negative thoughts or feelings.",
+        },
         note: "Be specific about the event or situation that caused the reaction.",
       },
       {
-        step: "Note your Beliefs (B) related to this event (e.g., irrational beliefs, assumptions).",
+        step: {
+          title: "Beliefs (B)",
+          description:
+            "Note your Beliefs (B) related to this event (e.g., irrational beliefs, assumptions).",
+        },
         note: "What were the thoughts or beliefs that fueled your reaction?",
       },
       {
-        step: "Examine the Consequences (C), such as emotional reactions or behaviors, caused by these beliefs.",
+        step: {
+          title: "Consequences (C)",
+          description:
+            "Examine the Consequences (C), such as emotional reactions or behaviors, caused by these beliefs.",
+        },
         note: "How did these beliefs affect your feelings or actions?",
       },
       {
-        step: "Dispute the negative Beliefs (D) by asking yourself: 'Is this belief true?' or 'What evidence do I have for this belief?'",
+        step: {
+          title: "Disputation (D)",
+          description:
+            "Dispute the negative Beliefs (D) by asking yourself: 'Is this belief true?' or 'What evidence do I have for this belief?'",
+        },
         note: "Challenge cognitive distortions such as all-or-nothing thinking, catastrophizing, etc.",
       },
       {
-        step: "Replace the old Beliefs with more rational and balanced beliefs to create a New Effect (E).",
+        step: {
+          title: "New Effect (E)",
+          description:
+            "Replace the old Beliefs with more rational and balanced beliefs to create a New Effect (E).",
+        },
         note: "How can you think about the situation in a more positive or realistic way?",
       },
     ],
@@ -189,19 +282,35 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "This technique involves mindfulness and cognitive reframing together. It encourages you to focus on the present moment without judgment and change how you perceive a challenging situation.",
     steps: [
       {
-        step: "When you experience a negative emotion, take a moment to breathe deeply and observe the feeling without judgment.",
+        step: {
+          title: "Check In with Yourself",
+          description:
+            "When you experience a negative emotion, take a moment to breathe deeply and observe the feeling without judgment.",
+        },
         note: "Try to accept the emotion as it is, without labeling it as 'good' or 'bad.'",
       },
       {
-        step: "Recognize the thoughts that accompany the emotion. Are they based on assumptions or cognitive distortions?",
+        step: {
+          title: "Identify the Thoughts",
+          description:
+            "Recognize the thoughts that accompany the emotion. Are they based on assumptions or cognitive distortions?",
+        },
         note: "Ask yourself: 'What am I telling myself about this situation?'",
       },
       {
-        step: "Reframe the situation by finding another perspective that feels less negative or more balanced.",
+        step: {
+          title: "Reframe the Situation",
+          description:
+            "Reframe the situation by finding another perspective that feels less negative or more balanced.",
+        },
         note: "For example, if you're stressed about a deadline, remind yourself that stress can motivate action and growth.",
       },
       {
-        step: "Check in with yourself again. How does the situation feel now with this new perspective?",
+        step: {
+          title: "Check In with Yourself",
+          description:
+            "Check in with yourself again. How does the situation feel now with this new perspective?",
+        },
         note: "Notice any shifts in how you feel after reappraising the situation mindfully.",
       },
     ],
@@ -218,19 +327,34 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "Instead of trying to suppress or avoid unpleasant thoughts, cognitive defusion encourages you to observe them non-judgmentally and create space between you and your thoughts. The goal is to diminish their power over you.",
     steps: [
       {
-        step: "Notice the negative thought as it arises.",
+        step: {
+          title: "Noticing the Thought",
+          description: "Notice the negative thought as it arises.",
+        },
         note: "Don’t try to avoid or change the thought—simply observe it.",
       },
       {
-        step: "Label the thought as just a thought, e.g., 'I am having the thought that I am not good enough.'",
+        step: {
+          title: "Labeling the Thought",
+          description:
+            "Label the thought as just a thought, e.g., 'I am having the thought that I am not good enough.'",
+        },
         note: "This helps create psychological distance between you and the thought.",
       },
       {
-        step: "Imagine the thought as a cloud or leaf floating down a stream.",
+        step: {
+          title: "Visualizing the Thought",
+          description:
+            "Imagine the thought as a cloud or leaf floating down a stream.",
+        },
         note: "Visualizing the thought as something temporary helps reduce its power.",
       },
       {
-        step: "Allow the thought to come and go without engaging with it or trying to change it.",
+        step: {
+          title: "Letting Go",
+          description:
+            "Allow the thought to come and go without engaging with it or trying to change it.",
+        },
         note: "Recognize that thoughts are temporary and don't have to define you.",
       },
     ],

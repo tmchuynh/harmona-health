@@ -9,19 +9,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Put on your favorite music and dance freely. Let your body move to the rhythm in whatever way feels natural to you. It doesn't matter how it looks—just have fun and embrace the flow.",
     steps: [
       {
-        step: "Choose a playlist of your favorite music—preferably something upbeat or calming depending on your mood.",
+        step: {
+          description:
+            "Choose a playlist of your favorite music—preferably something upbeat or calming depending on your mood.",
+        },
       },
       {
-        step: "Find a space where you can move freely without any restrictions or distractions.",
+        step: {
+          description:
+            "Find a space where you can move freely without any restrictions or distractions.",
+        },
       },
       {
-        step: "Close your eyes if you'd like and focus solely on how your body feels as it moves to the music.",
+        step: {
+          description:
+            "Close your eyes if you'd like and focus solely on how your body feels as it moves to the music.",
+        },
       },
       {
-        step: "Let go of any self-consciousness and move however you feel, whether it's swaying, jumping, or spinning.",
+        step: {
+          description:
+            "Let go of any self-consciousness and move however you feel, whether it's swaying, jumping, or spinning.",
+        },
       },
       {
-        step: "Enjoy the freedom of expressing yourself through movement, letting go of any tension or stress.",
+        step: {
+          description:
+            "Enjoy the freedom of expressing yourself through movement, letting go of any tension or stress.",
+        },
       },
     ],
     conclusion:
@@ -35,22 +50,40 @@ export const physicalActivity: BehavioralActivities[] = [
       "This movement involves transitioning from lying on the floor to a standing position while holding a weight overhead, challenging multiple muscle groups.",
     steps: [
       {
-        step: "Lie on your back, holding a kettlebell or dumbbell in one hand, and extend your arm toward the ceiling.",
+        step: {
+          description:
+            "Lie on your back, holding a kettlebell or dumbbell in one hand, and extend your arm toward the ceiling.",
+        },
       },
       {
-        step: "Bend your knee on the same side as the weight and keep your other leg extended straight.",
+        step: {
+          description:
+            "Bend your knee on the same side as the weight and keep your other leg extended straight.",
+        },
       },
       {
-        step: "Using your free hand, push up onto your elbow, then to your hand, while keeping the weight above you.",
+        step: {
+          description:
+            "Using your free hand, push up onto your elbow, then to your hand, while keeping the weight above you.",
+        },
       },
       {
-        step: "Lift your hips off the floor and sweep your leg underneath you, bringing it into a kneeling position.",
+        step: {
+          description:
+            "Lift your hips off the floor and sweep your leg underneath you, bringing it into a kneeling position.",
+        },
       },
       {
-        step: "Stand up while keeping the weight overhead, then reverse the movement to return to the starting position.",
+        step: {
+          description:
+            "Stand up while keeping the weight overhead, then reverse the movement to return to the starting position.",
+        },
       },
       {
-        step: "Perform 3-4 sets of 3-5 reps per side, focusing on control and form.",
+        step: {
+          description:
+            "Perform 3-4 sets of 3-5 reps per side, focusing on control and form.",
+        },
       },
     ],
     conclusion:
@@ -64,19 +97,33 @@ export const physicalActivity: BehavioralActivities[] = [
       "Perform short bursts of sprinting followed by a period of active rest (like jogging or walking). This is an excellent exercise for fat burning and improving speed.",
     steps: [
       {
-        step: "Find a flat track or open space to sprint.",
+        step: {
+          description: "Find a flat track or open space to sprint.",
+        },
       },
       {
-        step: "Sprint for 20-30 seconds at maximum effort, then slow down to a jog or brisk walk for 1-2 minutes.",
+        step: {
+          description:
+            "Sprint for 20-30 seconds at maximum effort, then slow down to a jog or brisk walk for 1-2 minutes.",
+        },
       },
       {
-        step: "Repeat the cycle of sprints and active rest for 10-15 minutes.",
+        step: {
+          description:
+            "Repeat the cycle of sprints and active rest for 10-15 minutes.",
+        },
       },
       {
-        step: "Focus on maintaining good form during the sprints and using the active rest to catch your breath.",
+        step: {
+          description:
+            "Focus on maintaining good form during the sprints and using the active rest to catch your breath.",
+        },
       },
       {
-        step: "Gradually increase the sprint time or decrease rest time as your fitness level improves.",
+        step: {
+          description:
+            "Gradually increase the sprint time or decrease rest time as your fitness level improves.",
+        },
       },
     ],
     conclusion:
@@ -90,19 +137,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Plyometric jump training involves exercises like box jumps, squat jumps, and burpees that develop muscle strength, power, and endurance.",
     steps: [
       {
-        step: "Start with a warm-up, such as light jogging or dynamic stretches.",
+        step: {
+          description:
+            "Start with a warm-up, such as light jogging or dynamic stretches.",
+        },
       },
       {
-        step: "Perform squat jumps by bending your knees and exploding upward into the air, landing softly back into a squat position.",
+        step: {
+          description:
+            "Perform squat jumps by bending your knees and exploding upward into the air, landing softly back into a squat position.",
+        },
       },
       {
-        step: "For box jumps, stand in front of a sturdy box or platform. Jump with both feet, landing softly with knees bent on top of the box.",
+        step: {
+          description:
+            "For box jumps, stand in front of a sturdy box or platform. Jump with both feet, landing softly with knees bent on top of the box.",
+        },
       },
       {
-        step: "Incorporate burpees, performing a push-up followed by a jump into the air and then dropping back into a squat.",
+        step: {
+          description:
+            "Incorporate burpees, performing a push-up followed by a jump into the air and then dropping back into a squat.",
+        },
       },
       {
-        step: "Rest for 30 seconds to 1 minute between sets, aiming for 3-4 sets of 10 reps for each exercise.",
+        step: {
+          description:
+            "Rest for 30 seconds to 1 minute between sets, aiming for 3-4 sets of 10 reps for each exercise.",
+        },
       },
     ],
     conclusion:
@@ -116,19 +178,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Tai Chi helps with flexibility, strength, and mental focus. You can start by practicing a few basic movements and gradually work your way up as you get more comfortable.",
     steps: [
       {
-        step: "Stand with your feet shoulder-width apart, arms relaxed by your sides, and focus on your breath.",
+        step: {
+          description:
+            "Stand with your feet shoulder-width apart, arms relaxed by your sides, and focus on your breath.",
+        },
       },
       {
-        step: "Slowly raise one arm in front of you while shifting your weight to one leg.",
+        step: {
+          description:
+            "Slowly raise one arm in front of you while shifting your weight to one leg.",
+        },
       },
       {
-        step: "Shift your weight and gently lower your arms back down while rotating your torso.",
+        step: {
+          description:
+            "Shift your weight and gently lower your arms back down while rotating your torso.",
+        },
       },
       {
-        step: "Repeat these slow, mindful movements for 5-10 minutes, ensuring you're breathing deeply and focusing on the flow of the movements.",
+        step: {
+          description:
+            "Repeat these slow, mindful movements for 5-10 minutes, ensuring you're breathing deeply and focusing on the flow of the movements.",
+        },
       },
       {
-        step: "As you progress, add more complex Tai Chi sequences and increase your practice time.",
+        step: {
+          description:
+            "As you progress, add more complex Tai Chi sequences and increase your practice time.",
+        },
       },
     ],
     conclusion:
@@ -142,19 +219,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Start with basic jump rope techniques and gradually increase the intensity by adding different types of jumps or increasing your time. It's an excellent full-body workout.",
     steps: [
       {
-        step: "Find a flat surface and grab a rope that suits your height.",
+        step: {
+          description:
+            "Find a flat surface and grab a rope that suits your height.",
+        },
       },
       {
-        step: "Start by jumping with both feet together, keeping a steady rhythm.",
+        step: {
+          description:
+            "Start by jumping with both feet together, keeping a steady rhythm.",
+        },
       },
       {
-        step: "As you gain confidence, try alternating feet or jumping with a higher intensity for short bursts.",
+        step: {
+          description:
+            "As you gain confidence, try alternating feet or jumping with a higher intensity for short bursts.",
+        },
       },
       {
-        step: "Aim for 5-10 minutes of jump rope with short breaks in between.",
+        step: {
+          description:
+            "Aim for 5-10 minutes of jump rope with short breaks in between.",
+        },
       },
       {
-        step: "Increase your time and intensity as you build stamina and improve your skill.",
+        step: {
+          description:
+            "Increase your time and intensity as you build stamina and improve your skill.",
+        },
       },
     ],
     conclusion:
@@ -168,19 +260,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Use an agility ladder to perform a series of footwork drills that challenge your coordination, balance, and cardiovascular endurance.",
     steps: [
       {
-        step: "Place the agility ladder on the ground and stand at the beginning.",
+        step: {
+          description:
+            "Place the agility ladder on the ground and stand at the beginning.",
+        },
       },
       {
-        step: "Start with a basic drill like the 'two-feet-in-each-square,' stepping both feet into each square as quickly as possible.",
+        step: {
+          description:
+            "Start with a basic drill like the 'two-feet-in-each-square,' stepping both feet into each square as quickly as possible.",
+        },
       },
       {
-        step: "Add more advanced drills like 'in-and-out' (jumping in and out of the ladder squares) or 'lateral shuffle' (moving side to side through the ladder).",
+        step: {
+          description:
+            "Add more advanced drills like 'in-and-out' (jumping in and out of the ladder squares) or 'lateral shuffle' (moving side to side through the ladder).",
+        },
       },
       {
-        step: "Focus on speed and precision. Keep your body low and your core engaged.",
+        step: {
+          description:
+            "Focus on speed and precision. Keep your body low and your core engaged.",
+        },
       },
       {
-        step: "Perform 3-4 sets of each drill, resting for 30-45 seconds between sets.",
+        step: {
+          description:
+            "Perform 3-4 sets of each drill, resting for 30-45 seconds between sets.",
+        },
       },
     ],
     conclusion:
@@ -194,19 +301,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Through movements like crawling, jumping, and balancing, Animal Flow enhances mobility and coordination while providing a fun and challenging workout.",
     steps: [
       {
-        step: "Start with basic animal movements like the 'crab crawl,' where you sit with your hands and feet on the floor and use your hands and feet to move forward.",
+        step: {
+          description:
+            "Start with basic animal movements like the 'crab crawl,' where you sit with your hands and feet on the floor and use your hands and feet to move forward.",
+        },
       },
       {
-        step: "Try the 'beast' position by getting on all fours and moving with controlled, fluid movements.",
+        step: {
+          description:
+            "Try the 'beast' position by getting on all fours and moving with controlled, fluid movements.",
+        },
       },
       {
-        step: "Progress to more complex moves like the 'ape reach' or 'scorpion reach' for flexibility and strength.",
+        step: {
+          description:
+            "Progress to more complex moves like the 'ape reach' or 'scorpion reach' for flexibility and strength.",
+        },
       },
       {
-        step: "Start slow, focus on form, and gradually increase the number of sets or time spent on each movement.",
+        step: {
+          description:
+            "Start slow, focus on form, and gradually increase the number of sets or time spent on each movement.",
+        },
       },
       {
-        step: "As you gain strength and coordination, add variety to your flow by mixing different animal movements together.",
+        step: {
+          description:
+            "As you gain strength and coordination, add variety to your flow by mixing different animal movements together.",
+        },
       },
     ],
     conclusion:
@@ -220,19 +342,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Kettlebell swings involve swinging a kettlebell in a controlled motion, challenging both your strength and explosive power.",
     steps: [
       {
-        step: "Stand with your feet shoulder-width apart, holding the kettlebell with both hands in front of you.",
+        step: {
+          description:
+            "Stand with your feet shoulder-width apart, holding the kettlebell with both hands in front of you.",
+        },
       },
       {
-        step: "Hinge at your hips, not at your waist, and swing the kettlebell backward between your legs.",
+        step: {
+          description:
+            "Hinge at your hips, not at your waist, and swing the kettlebell backward between your legs.",
+        },
       },
       {
-        step: "Explode your hips forward and swing the kettlebell up to shoulder height or higher, keeping your core tight.",
+        step: {
+          description:
+            "Explode your hips forward and swing the kettlebell up to shoulder height or higher, keeping your core tight.",
+        },
       },
       {
-        step: "Control the descent as the kettlebell swings back down between your legs.",
+        step: {
+          description:
+            "Control the descent as the kettlebell swings back down between your legs.",
+        },
       },
       {
-        step: "Perform 3-4 sets of 15-20 swings with a 30-second rest in between.",
+        step: {
+          description:
+            "Perform 3-4 sets of 15-20 swings with a 30-second rest in between.",
+        },
       },
     ],
     conclusion:
@@ -246,19 +383,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "Instead of mindlessly swimming, this practice invites you to focus on your breath, the feel of the water, and the rhythm of your strokes. It encourages mindfulness and adds a mental component to the physical exercise.",
     steps: [
       {
-        step: "Start with a warm-up, focusing on your breath and the feeling of the water surrounding you.",
+        step: {
+          description:
+            "Start with a warm-up, focusing on your breath and the feeling of the water surrounding you.",
+        },
       },
       {
-        step: "As you swim, be mindful of each stroke, the movement of your arms, and the sensation of your legs kicking in the water.",
+        step: {
+          description:
+            "As you swim, be mindful of each stroke, the movement of your arms, and the sensation of your legs kicking in the water.",
+        },
       },
       {
-        step: "Focus on the rhythm of your breathing and how it syncs with your strokes.",
+        step: {
+          description:
+            "Focus on the rhythm of your breathing and how it syncs with your strokes.",
+        },
       },
       {
-        step: "If your mind starts to wander, gently bring your attention back to your body’s movement and the water’s resistance.",
+        step: {
+          description:
+            "If your mind starts to wander, gently bring your attention back to your body’s movement and the water’s resistance.",
+        },
       },
       {
-        step: "Finish your swim with a few moments of stretching and reflection on how you feel physically and mentally.",
+        step: {
+          description:
+            "Finish your swim with a few moments of stretching and reflection on how you feel physically and mentally.",
+        },
       },
     ],
     conclusion:
@@ -272,19 +424,34 @@ export const physicalActivity: BehavioralActivities[] = [
       "This single-leg squat requires you to lower yourself down to the ground while keeping one leg extended in front of you.",
     steps: [
       {
-        step: "Stand on one leg with the other leg extended in front of you.",
+        step: {
+          description:
+            "Stand on one leg with the other leg extended in front of you.",
+        },
       },
       {
-        step: "Lower your body by bending the standing knee, keeping your extended leg off the ground.",
+        step: {
+          description:
+            "Lower your body by bending the standing knee, keeping your extended leg off the ground.",
+        },
       },
       {
-        step: "Control the descent, making sure your knee doesn't collapse inward.",
+        step: {
+          description:
+            "Control the descent, making sure your knee doesn't collapse inward.",
+        },
       },
       {
-        step: "Push through the heel of your standing leg to return to the starting position.",
+        step: {
+          description:
+            "Push through the heel of your standing leg to return to the starting position.",
+        },
       },
       {
-        step: "Perform 3 sets of 5-8 reps on each leg, using a support or modification if necessary.",
+        step: {
+          description:
+            "Perform 3 sets of 5-8 reps on each leg, using a support like a chair or wall for balance if needed.",
+        },
       },
     ],
     conclusion:

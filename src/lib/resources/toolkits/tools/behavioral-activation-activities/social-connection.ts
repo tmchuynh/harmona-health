@@ -9,19 +9,39 @@ export const socialConnection: BehavioralActivities[] = [
       "Storytelling circles foster emotional connections and provide opportunities for sharing meaningful experiences. It’s a great way to build trust and strengthen relationships in a virtual environment.",
     steps: [
       {
-        step: "Choose a virtual platform that everyone can access (Zoom, Google Meet, etc.).",
+        step: {
+          title: "Choose a virtual platform",
+          description:
+            "Choose a virtual platform that everyone can access (Zoom, Google Meet, etc.).",
+        },
       },
       {
-        step: "Set a theme or let participants choose a personal story to share (e.g., 'A time when I learned something important').",
+        step: {
+          title: "Set a theme or let participants choose",
+          description:
+            "Set a theme or let participants choose a personal story to share (e.g., 'A time when I learned something important').",
+        },
       },
       {
-        step: "Each participant takes turns sharing their story, focusing on feelings and experiences rather than just events.",
+        step: {
+          title: "Sharing stories",
+          description:
+            "Each participant takes turns sharing their story, focusing on feelings and experiences rather than just events.",
+        },
       },
       {
-        step: "Encourage active listening, and avoid interrupting or offering advice. This is a time for connection, not problem-solving.",
+        step: {
+          title: "Active listening",
+          description:
+            "Encourage active listening, and avoid interrupting or offering advice. This is a time for connection, not problem-solving.",
+        },
       },
       {
-        step: "After everyone has shared, reflect on the experience and how it made everyone feel more connected.",
+        step: {
+          title: "Reflect on the experience",
+          description:
+            "After everyone has shared, reflect on the experience and how it made everyone feel more connected.",
+        },
       },
     ],
     conclusion:
@@ -35,19 +55,39 @@ export const socialConnection: BehavioralActivities[] = [
       "This virtual activity allows for connection through food, creativity, and fun conversation, bringing people together even if they are physically distant.",
     steps: [
       {
-        step: "Choose a theme for the dinner party (e.g., 'Taco Night,' 'Global Flavors,' or 'Comfort Food Classics').",
+        step: {
+          title: "Choose a theme",
+          description:
+            "Choose a theme for the dinner party (e.g., 'Taco Night,' 'Global Flavors,' or 'Comfort Food Classics').",
+        },
       },
       {
-        step: "Invite friends or family to participate and assign them dishes to prepare based on the theme.",
+        step: {
+          title: "Invite friends or family",
+          description:
+            "Invite friends or family to participate and assign them dishes to prepare based on the theme.",
+        },
       },
       {
-        step: "Set up a virtual meeting via Zoom, Skype, or Google Meet, and share the meals and stories behind them.",
+        step: {
+          title: "Set up a virtual meeting",
+          description:
+            "Set up a virtual meeting via Zoom, Skype, or Google Meet, and share the meals and stories behind them.",
+        },
       },
       {
-        step: "Take turns presenting your dish and explaining how it connects to the theme or to personal memories.",
+        step: {
+          title: "Present your dish",
+          description:
+            "Take turns presenting your dish and explaining how it connects to the theme or to personal memories.",
+        },
       },
       {
-        step: "Engage in casual conversation while enjoying your meals together, creating a relaxed and fun environment.",
+        step: {
+          title: "Engage in conversation",
+          description:
+            "Engage in casual conversation while enjoying your meals together, creating a relaxed and fun environment.",
+        },
       },
     ],
     conclusion:
@@ -61,19 +101,39 @@ export const socialConnection: BehavioralActivities[] = [
       "This practice not only spreads positivity but also strengthens social connections by fostering goodwill and encouraging acts of generosity among friends and strangers alike.",
     steps: [
       {
-        step: "Start by performing a random act of kindness for someone in your life (e.g., sending a thoughtful message, paying for someone's coffee).",
+        step: {
+          title: "Perform a random act of kindness",
+          description:
+            "Start by performing a random act of kindness for someone in your life (e.g., sending a thoughtful message, paying for someone's coffee).",
+        },
       },
       {
-        step: "Ask the recipient of your kindness to perform a similar act for someone else.",
+        step: {
+          title: "Encourage the recipient to continue",
+          description:
+            "Ask the recipient of your kindness to perform a similar act for someone else.",
+        },
       },
       {
-        step: "Track the progress of the kindness chain by checking in with those who participate, encouraging them to keep the chain going.",
+        step: {
+          title: "Track the chain",
+          description:
+            "Track the progress of the kindness chain by checking in with those who participate, encouraging them to keep the chain going.",
+        },
       },
       {
-        step: "Reflect on how the chain makes you feel, and celebrate the positive impact it creates in the community.",
+        step: {
+          title: "Reflect on the impact",
+          description:
+            "Reflect on how the chain makes you feel, and celebrate the positive impact it creates in the community.",
+        },
       },
       {
-        step: "Consider making it an ongoing challenge to keep spreading kindness regularly.",
+        step: {
+          title: "Make it an ongoing challenge",
+          description:
+            "Consider making it an ongoing challenge to keep spreading kindness regularly.",
+        },
       },
     ],
     conclusion:
@@ -87,19 +147,39 @@ export const socialConnection: BehavioralActivities[] = [
       "This activity promotes open-mindedness and enhances understanding by sharing customs, food, music, and stories from each other's cultures, fostering deeper social connections and respect for diversity.",
     steps: [
       {
-        step: "Set up a meeting with a friend, family member, or group from different cultural backgrounds.",
+        step: {
+          title: "Set up a meeting",
+          description:
+            "Set up a meeting with a friend, family member, or group from different cultural backgrounds.",
+        },
       },
       {
-        step: "Decide on a cultural topic to explore, such as food, music, traditional attire, or holidays.",
+        step: {
+          title: "Decide on a cultural topic",
+          description:
+            "Decide on a cultural topic to explore, such as food, music, traditional attire, or holidays.",
+        },
       },
       {
-        step: "Each person prepares something representative of their culture (e.g., a dish, a song, a short history lesson).",
+        step: {
+          title: "Prepare cultural elements",
+          description:
+            "Each person prepares something representative of their culture (e.g., a dish, a song, a short history lesson).",
+        },
       },
       {
-        step: "Present your cultural share to the group, explaining its significance and any personal connections.",
+        step: {
+          title: "Present your share",
+          description:
+            "Present your cultural share to the group, explaining its significance and any personal connections.",
+        },
       },
       {
-        step: "Ask questions and engage in an open discussion about the cultural exchange, focusing on learning and appreciation.",
+        step: {
+          title: "Engage in discussion",
+          description:
+            "Ask questions and engage in an open discussion about the cultural exchange, focusing on learning and appreciation.",
+        },
       },
     ],
     conclusion:
@@ -113,19 +193,39 @@ export const socialConnection: BehavioralActivities[] = [
       "Collaborative art projects encourage teamwork, creativity, and connection. The shared effort in producing something beautiful fosters a sense of community and achievement.",
     steps: [
       {
-        step: "Decide on the type of art project (e.g., mural, painting, digital collage) and gather materials or set up a digital platform for collaboration.",
+        step: {
+          title: "Decide on the type of art",
+          description:
+            "Decide on the type of art project (e.g., mural, painting, digital collage) and gather materials or set up a digital platform for collaboration.",
+        },
       },
       {
-        step: "Each participant adds their personal touch to the artwork, whether it's a specific element or color scheme.",
+        step: {
+          title: "Add personal touches",
+          description:
+            "Each participant adds their personal touch to the artwork, whether it's a specific element or color scheme.",
+        },
       },
       {
-        step: "As you work, engage in conversation about the process and share ideas to inspire each other's creativity.",
+        step: {
+          title: "Engage in creative conversation",
+          description:
+            "As you work, engage in conversation about the process and share ideas to inspire each other's creativity.",
+        },
       },
       {
-        step: "Once the project is completed, reflect on the experience and the collaborative effort that went into creating the piece.",
+        step: {
+          title: "Reflect on the experience",
+          description:
+            "Once the project is completed, reflect on the experience and the collaborative effort that went into creating the piece.",
+        },
       },
       {
-        step: "Consider displaying the artwork as a reminder of the bond and creativity shared during the project.",
+        step: {
+          title: "Display the artwork",
+          description:
+            "Consider displaying the artwork as a reminder of the bond and creativity shared during the project.",
+        },
       },
     ],
     conclusion:
@@ -139,19 +239,39 @@ export const socialConnection: BehavioralActivities[] = [
       "It helps break the routine by providing new experiences and perspectives, strengthening existing relationships by seeing the world through someone else's eyes.",
     steps: [
       {
-        step: "Choose a person to swap with, ensuring mutual consent and comfort.",
+        step: {
+          title: "Choose a person to swap with",
+          description:
+            "Choose a person to swap with, ensuring mutual consent and comfort.",
+        },
       },
       {
-        step: "Plan the swap day, where each person spends time with the other's friend or family member.",
+        step: {
+          title: "Plan the swap day",
+          description:
+            "Plan the swap day, where each person spends time with the other's friend or family member.",
+        },
       },
       {
-        step: "Engage in regular activities, but observe and learn how the other person interacts with their friends or family.",
+        step: {
+          title: "Observe and learn",
+          description:
+            "Engage in regular activities, but observe and learn how the other person interacts with their friends or family.",
+        },
       },
       {
-        step: "At the end of the day, share reflections on the experience and discuss what you learned about each other.",
+        step: {
+          title: "Share reflections",
+          description:
+            "At the end of the day, share reflections on the experience and discuss what you learned about each other.",
+        },
       },
       {
-        step: "Consider doing this activity once every few months to keep social circles dynamic and connected.",
+        step: {
+          title: "Make it a regular activity",
+          description:
+            "Consider doing this activity once every few months to keep social circles dynamic and connected.",
+        },
       },
     ],
     conclusion:
@@ -165,19 +285,43 @@ export const socialConnection: BehavioralActivities[] = [
       "By setting up social skill-building activities, you encourage positive interactions that are both fun and educational. This strengthens emotional intelligence and interpersonal bonds.",
     steps: [
       {
-        step: "Create a list of social skills you want to improve (e.g., active listening, giving compliments, maintaining eye contact).",
+        step: {
+          title:
+            "Create a list of social skills you want to improve (e.g., active listening, giving compliments, maintaining eye contact).",
+          description: "Make a list of the social skills you want to practice.",
+        },
       },
       {
-        step: "Design a challenge where participants practice a skill each day (e.g., complimenting someone without expecting anything in return).",
+        step: {
+          title:
+            "Design a challenge where participants practice a skill each day (e.g., complimenting someone without expecting anything in return).",
+          description:
+            "Develop daily challenges that focus on practicing a particular social skill.",
+        },
       },
       {
-        step: "Track progress by discussing how each challenge felt and whether it was effective in promoting connection.",
+        step: {
+          title:
+            "Track progress by discussing how each challenge felt and whether it was effective in promoting connection.",
+          description:
+            "Keep track of how each challenge is progressing and how it affects interactions.",
+        },
       },
       {
-        step: "Offer constructive feedback to each other and support continued improvement of social skills.",
+        step: {
+          title:
+            "Offer constructive feedback to each other and support continued improvement of social skills.",
+          description:
+            "Give helpful feedback to encourage growth and continuous improvement.",
+        },
       },
       {
-        step: "Celebrate achievements and share how the challenges have improved your social interactions.",
+        step: {
+          title:
+            "Celebrate achievements and share how the challenges have improved your social interactions.",
+          description:
+            "Recognize progress and celebrate the growth of your social skills.",
+        },
       },
     ],
     conclusion:
@@ -191,19 +335,44 @@ export const socialConnection: BehavioralActivities[] = [
       "A shared book club offers an opportunity for intellectual connection, fostering discussions and deepening relationships through the exploration of ideas, themes, and personal perspectives.",
     steps: [
       {
-        step: "Choose a book to read together and set a timeline for completing it.",
+        step: {
+          title:
+            "Choose a book to read together and set a timeline for completing it.",
+          description:
+            "Select a book and agree on a completion timeline for the group.",
+        },
       },
       {
-        step: "Schedule regular meetings to discuss the book, focusing on themes, characters, and personal insights.",
+        step: {
+          title:
+            "Schedule regular meetings to discuss the book, focusing on themes, characters, and personal insights.",
+          description:
+            "Arrange consistent meetings to dive into different aspects of the book.",
+        },
       },
       {
-        step: "Encourage open dialogue, where everyone can share their thoughts and feelings about the book.",
+        step: {
+          title:
+            "Encourage open dialogue, where everyone can share their thoughts and feelings about the book.",
+          description:
+            "Foster an open environment for discussion, where each participant shares their perspectives.",
+        },
       },
       {
-        step: "After completing the book, reflect on the discussion and ask participants for book recommendations for the next read.",
+        step: {
+          title:
+            "After completing the book, reflect on the discussion and ask participants for book recommendations for the next read.",
+          description:
+            "Look back on the book's discussion and gather suggestions for future reads.",
+        },
       },
       {
-        step: "Make the book club a regular event to maintain connection and intellectual stimulation.",
+        step: {
+          title:
+            "Make the book club a regular event to maintain connection and intellectual stimulation.",
+          description:
+            "Turn the book club into a recurring event to keep the connections and discussions ongoing.",
+        },
       },
     ],
     conclusion:
@@ -217,19 +386,43 @@ export const socialConnection: BehavioralActivities[] = [
       "A social media detox helps reduce digital overwhelm and opens up space for authentic, face-to-face connections. This challenge encourages you to invest more time in real-world relationships.",
     steps: [
       {
-        step: "Set a specific time frame for your social media detox (e.g., 48 hours, a week).",
+        step: {
+          title:
+            "Set a specific time frame for your social media detox (e.g., 48 hours, a week).",
+          description: "Decide how long your detox period will last.",
+        },
       },
       {
-        step: "Inform friends and family that you’ll be offline and focus on engaging with them in person or via phone calls.",
+        step: {
+          title:
+            "Inform friends and family that you’ll be offline and focus on engaging with them in person or via phone calls.",
+          description:
+            "Let your social circle know you're taking a break from social media.",
+        },
       },
       {
-        step: "Use the time to reconnect through meaningful activities such as playing games, cooking meals, or going for walks.",
+        step: {
+          title:
+            "Use the time to reconnect through meaningful activities such as playing games, cooking meals, or going for walks.",
+          description:
+            "Engage in offline activities that foster deeper connections with loved ones.",
+        },
       },
       {
-        step: "At the end of the detox period, reflect on how you feel, how the connections have changed, and whether you want to continue any of the new habits.",
+        step: {
+          title:
+            "At the end of the detox period, reflect on how you feel, how the connections have changed, and whether you want to continue any of the new habits.",
+          description:
+            "Evaluate how the detox has impacted your well-being and relationships.",
+        },
       },
       {
-        step: "Make plans for regular offline check-ins to foster deeper, ongoing social connections.",
+        step: {
+          title:
+            "Make plans for regular offline check-ins to foster deeper, ongoing social connections.",
+          description:
+            "Set a routine for regular in-person or phone-based check-ins.",
+        },
       },
     ],
     conclusion:
@@ -243,19 +436,44 @@ export const socialConnection: BehavioralActivities[] = [
       "Revisiting old memories allows for reflection, bonding, and the sharing of meaningful experiences that strengthen relationships and bring people closer together.",
     steps: [
       {
-        step: "Gather photos, letters, or objects that hold sentimental value and relate to past memories.",
+        step: {
+          title:
+            "Gather photos, letters, or objects that hold sentimental value and relate to past memories.",
+          description:
+            "Collect meaningful items that evoke past memories to share.",
+        },
       },
       {
-        step: "Set aside time to gather with friends or family and share the memories attached to each item.",
+        step: {
+          title:
+            "Set aside time to gather with friends or family and share the memories attached to each item.",
+          description:
+            "Create a space where you and your loved ones can share memories and stories.",
+        },
       },
       {
-        step: "As you share, encourage others to ask questions and connect through their own similar memories or feelings.",
+        step: {
+          title:
+            "As you share, encourage others to ask questions and connect through their own similar memories or feelings.",
+          description:
+            "Foster conversation by prompting others to share their own reflections.",
+        },
       },
       {
-        step: "Reflect on the emotions and experiences that arise during the session, allowing for deeper connections.",
+        step: {
+          title:
+            "Reflect on the emotions and experiences that arise during the session, allowing for deeper connections.",
+          description:
+            "Create a space for reflecting on the shared experiences and their emotional impact.",
+        },
       },
       {
-        step: "Consider documenting these stories in a memory journal or digital scrapbook to cherish the shared experiences.",
+        step: {
+          title:
+            "Consider documenting these stories in a memory journal or digital scrapbook to cherish the shared experiences.",
+          description:
+            "Record these stories to keep them as a cherished memory for the future.",
+        },
       },
     ],
     conclusion:
@@ -269,19 +487,43 @@ export const socialConnection: BehavioralActivities[] = [
       "This practice creates a routine of open communication and support, helping individuals feel heard and supported in their emotional journey.",
     steps: [
       {
-        step: "Set a specific day and time each week for the check-in circle to take place, either virtually or in person.",
+        step: {
+          title:
+            "Set a specific day and time each week for the check-in circle to take place, either virtually or in person.",
+          description: "Pick a regular day and time for the group to meet.",
+        },
       },
       {
-        step: "Each participant takes turns sharing how they’re feeling emotionally, any challenges they are facing, and positive updates from their week.",
+        step: {
+          title:
+            "Each participant takes turns sharing how they’re feeling emotionally, any challenges they are facing, and positive updates from their week.",
+          description:
+            "Create a structure where everyone can share their feelings and updates.",
+        },
       },
       {
-        step: "Encourage active listening and support, with others offering encouragement or advice if needed.",
+        step: {
+          title:
+            "Encourage active listening and support, with others offering encouragement or advice if needed.",
+          description:
+            "Promote a supportive environment where everyone feels heard.",
+        },
       },
       {
-        step: "End the circle by expressing gratitude for the shared connection and commitment to supporting each other.",
+        step: {
+          title:
+            "End the circle by expressing gratitude for the shared connection and commitment to supporting each other.",
+          description:
+            "Close the session by expressing appreciation for everyone's participation.",
+        },
       },
       {
-        step: "Keep the circle consistent to build trust and create a safe space for vulnerability and growth.",
+        step: {
+          title:
+            "Keep the circle consistent to build trust and create a safe space for vulnerability and growth.",
+          description:
+            "Make the check-ins regular to strengthen emotional support and trust.",
+        },
       },
     ],
     conclusion:
