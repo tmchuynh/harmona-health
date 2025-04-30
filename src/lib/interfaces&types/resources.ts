@@ -118,15 +118,26 @@ export interface BehavioralActivities {
   afterThoughts?: string;
 }
 
+export type ListDetail = {
+  title?: string;
+  description: string;
+};
+
 export type Step = {
-  step: string;
+  step: ListDetail;
   note?: string;
+  details?: string[];
 };
 
 export interface MindfulnessPractices extends BehavioralActivities {
-  useCases: string[];
+  useCases?: string[];
   approximateTime: string;
   frequency: string;
+}
+
+export interface DetailedSteps extends MindfulnessPractices {
+  difficulty: string;
+  howToStart: string[];
 }
 
 export interface WorkLifeBalance {

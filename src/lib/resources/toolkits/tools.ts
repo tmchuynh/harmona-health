@@ -4,6 +4,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-1",
     categoryId: "nutritionTools",
     title: "Healthy Eating Plate",
+    subtitle: "Visualize your plate for balanced nutrition.",
     description:
       "An interactive tool that helps users visualize and understand how to balance their meals using a variety of food groups. This tool provides practical guidance on portion sizes and nutrient diversity to support a healthy diet.",
   },
@@ -11,6 +12,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-1",
     categoryId: "nutritionTools",
     title: "Gut Health Tracker",
+    subtitle: "Monitor your digestive health and identify patterns.",
     description:
       "Track your digestive health by logging symptoms and triggers, helping you identify patterns and improve gut health over time. This tool also provides insights into dietary changes that can support a healthier gut.",
   },
@@ -18,6 +20,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-2",
     categoryId: "nutritionTools",
     title: "Probiotic Finder",
+    subtitle: "Find the right probiotic for your gut health.",
     description:
       "A tool to help you find the right probiotic based on your digestive health needs and goals. It includes recommendations for strains that support gut balance and overall wellness.",
   },
@@ -25,6 +28,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-3",
     categoryId: "nutritionTools",
     title: "Fiber Intake Tracker",
+    subtitle: "Monitor your daily fiber intake for better digestion.",
     description:
       "A tool to monitor daily fiber intake and ensure users are meeting recommended levels to support gut health and digestion.",
   },
@@ -32,6 +36,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-5",
     categoryId: "nutritionTools",
     title: "Prebiotic Food Guide",
+    subtitle: "Discover foods that nourish your gut bacteria.",
     description:
       "A guide to foods rich in prebiotics that support the growth of healthy gut bacteria.",
   },
@@ -39,6 +44,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-6",
     categoryId: "nutritionTools",
     title: "Digestive Enzyme Guide",
+    subtitle: "Enhance your digestion with the right enzymes.",
     description:
       "A resource explaining the role of digestive enzymes and how to incorporate them into your diet for better digestion.",
   },
@@ -46,6 +52,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-7",
     categoryId: "nutritionTools",
     title: "Gut-Friendly Recipes",
+    subtitle: "Delicious meals that support gut health.",
     description:
       "A collection of recipes designed to promote gut health and reduce inflammation.",
   },
@@ -53,6 +60,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-8",
     categoryId: "nutritionTools",
     title: "Bloating Relief Tips",
+    subtitle: "Strategies to reduce bloating and improve comfort.",
     description:
       "A tool offering practical tips and strategies to reduce bloating and improve digestive comfort.",
   },
@@ -60,6 +68,7 @@ const nutritionTools: Tool[] = [
     id: "gut-health-tool-9",
     categoryId: "nutritionTools",
     title: "Fermented Food Tracker",
+    subtitle: "Incorporate fermented foods for gut health.",
     description:
       "A tracker to help users incorporate fermented foods into their diet for improved gut health.",
   },
@@ -67,6 +76,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-2",
     categoryId: "nutritionTools",
     title: "Meal Planning Template",
+    subtitle: "Plan balanced meals for the week ahead.",
     description:
       "A template that guides users to plan balanced meals throughout the week, ensuring proper portion control and nutrient diversity. It includes tips for meal prep and grocery shopping to make healthy eating easier.",
   },
@@ -74,6 +84,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-3",
     categoryId: "nutritionTools",
     title: "Portion Size Guide",
+    subtitle: "Visualize portion sizes for balanced meals.",
     description:
       "A visual guide to help users understand appropriate portion sizes for different food groups, promoting balanced and mindful eating habits.",
   },
@@ -81,6 +92,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-4",
     categoryId: "nutritionTools",
     title: "Nutrient Density Calculator",
+    subtitle: "Evaluate the nutrient density of your meals.",
     description:
       "A calculator that helps users evaluate the nutrient density of their meals, ensuring they are getting the most nutrition out of their food choices.",
   },
@@ -88,6 +100,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-5",
     categoryId: "nutritionTools",
     title: "Hydration Tracker",
+    subtitle: "Monitor your daily water intake for optimal hydration.",
     description:
       "A tool to help users monitor their daily water intake and ensure proper hydration for optimal health.",
   },
@@ -95,6 +108,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-6",
     categoryId: "nutritionTools",
     title: "Macro Calculator",
+    subtitle: "Calculate your macronutrient needs.",
     description:
       "A tool to calculate macronutrient needs based on individual health goals, such as weight loss, muscle gain, or maintenance.",
   },
@@ -102,6 +116,7 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-8",
     categoryId: "nutritionTools",
     title: "Healthy Snack Ideas",
+    subtitle: "Quick and nutritious snack options.",
     description:
       "A resource providing quick and easy snack ideas that are both nutritious and satisfying.",
   },
@@ -109,78 +124,83 @@ const nutritionTools: Tool[] = [
     id: "balanced-nutrition-tool-9",
     categoryId: "nutritionTools",
     title: "Calorie Tracker",
+    subtitle: "Monitor your daily calorie intake.",
     description:
       "A tool to track daily calorie intake and ensure users are meeting their energy needs without overconsumption.",
   },
 ];
 const buildingResiliencePractices: Tool[] = [
   {
-    id: "resilience-tool-1",
-    categoryId: "buildingResiliencePractices",
-    title: "Resilience Building Plan",
-    description:
-      "A step-by-step guide to create a personalized plan for building resilience in daily life.",
-  },
-  {
     id: "resilience-tool-2",
     categoryId: "buildingResiliencePractices",
-    title: "Stress Resilience Exercises",
+    title: "Promoting Positive Emotions",
+    subtitle: "Fostering a positive mindset for resilience.",
+
     description:
       "A set of exercises to help users strengthen their ability to cope with stress and adversity.",
   },
   {
     id: "resilience-tool-5",
     categoryId: "buildingResiliencePractices",
-    title: "Resilience Skills Tracker",
+    title: "Positive Psychology",
+    subtitle: "Harnessing the power of positive psychology.",
     description:
       "A tracker to monitor the development of resilience skills over time.",
   },
   {
     id: "resilience-tool-6",
     categoryId: "buildingResiliencePractices",
-    title: "Adversity Reflection Journal",
+    title: "Cultivating Forgiveness",
+    subtitle: "Letting go of grudges for emotional freedom.",
     description:
-      "A guided journal that prompts users to reflect on past challenges and identify key lessons learned to strengthen future resilience.",
+      "If holding a grudge is holding you back, research suggests that cultivating forgiveness could be beneficial to your mental and physical health. If you feel ready to begin, it can be a powerful practice.",
   },
+
   {
     id: "resilience-tool-7",
     categoryId: "buildingResiliencePractices",
-    title: "Optimism Booster Worksheets",
+    title: "Embracing Change",
+    subtitle: "Adapting to life's transitions with resilience.",
     description:
       "Worksheets designed to shift mindset towards optimism, helping users build a more resilient and positive outlook.",
   },
   {
     id: "resilience-tool-8",
     categoryId: "buildingResiliencePractices",
-    title: "Emotional Regulation Techniques",
+    title: "Practicing Problem Solving Skills",
+    subtitle: "Developing effective strategies for overcoming challenges.",
     description:
       "A toolkit of practices and strategies to improve emotional regulation under stress, enhancing resilience.",
   },
   {
     id: "resilience-tool-9",
     categoryId: "buildingResiliencePractices",
-    title: "Problem-Solving Framework",
+    title: "Establishing Long Term And Short Term Goals And Objectives",
+    subtitle: "Setting clear goals for personal growth and resilience.",
     description:
       "A structured approach to solving problems effectively and reducing stress when facing obstacles.",
   },
   {
     id: "resilience-tool-10",
     categoryId: "buildingResiliencePractices",
-    title: "Daily Resilience Practices Checklist",
+    title: "Changing The Narrative",
+    subtitle: "Reframing negative thoughts for emotional growth.",
     description:
-      "A daily checklist of simple, actionable practices to boost resilience and maintain emotional strength over time.",
+      "When something bad happens, we often relive the event over and over in our heads, rehashing the pain. This process is called rumination; it’s like a cognitive spinning of the wheels, and it doesn’t move us forward toward healing and growth. ",
   },
   {
     id: "resilience-tool-11",
     categoryId: "buildingResiliencePractices",
-    title: "Growth Mindset Builder",
+    title: "Cultivating Compassion Through A Self Compassionate Letter",
+    subtitle: "Writing a letter to yourself with kindness and understanding.",
     description:
-      "A tool to cultivate a growth mindset by reframing challenges as opportunities for personal development.",
+      "Self-compassion involves offering compassion to ourselves: confronting our own suffering with an attitude of warmth and kindness, without judgment. ",
   },
   {
     id: "resilience-tool-12",
     categoryId: "buildingResiliencePractices",
-    title: "Support Network Mapping Tool",
+    title: "Support Network Mapping",
+    subtitle: "Visualizing your support system for emotional resilience.",
     description:
       "A tool to map out your personal and professional support systems, strengthening your resilience through community.",
   },
@@ -190,6 +210,7 @@ const selfCompassionAndSelfEsteemToolkit: Tool[] = [
     id: "gratitude-tool-2",
     categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Gratitude Prompts",
+    subtitle: "Daily prompts to cultivate gratitude and self-compassion.",
     description:
       "A set of prompts to inspire deeper gratitude journaling and reflection.",
   },
@@ -197,6 +218,7 @@ const selfCompassionAndSelfEsteemToolkit: Tool[] = [
     id: "self-care-tool-2",
     categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Boundaries Setting Guide",
+    subtitle: "Establishing healthy boundaries for emotional well-being.",
     description:
       "A guide to help you identify and set healthy boundaries with others to protect your mental and emotional well-being.",
   },
@@ -204,6 +226,7 @@ const selfCompassionAndSelfEsteemToolkit: Tool[] = [
     id: "gratitude-tool-3",
     categoryId: "selfCompassionAndSelfEsteemToolkit",
     title: "Weekly Gratitude Tracker",
+    subtitle: "Reflect on your week with gratitude.",
     description:
       "A tracker to log weekly gratitude entries and visualize positive patterns.",
   },
@@ -816,7 +839,9 @@ const communicationTools: Tool[] = [
   {
     id: "communication-tool-1",
     categoryId: "communicationTools",
-    title: "Effective Communication Workbook",
+    title: "Effective Communication Guide",
+    subtitle:
+      "Mastering the Art of Connection: A Comprehensive Guide to Effective Communication",
     description:
       "A workbook to help users develop and practice effective communication skills.",
     href: "/tools/effective-communication-workbook",
@@ -825,6 +850,7 @@ const communicationTools: Tool[] = [
     id: "relationship-tool-1",
     categoryId: "communicationTools",
     title: "Healthy Communication Guide",
+    subtitle: "Building Stronger Connections Through Effective Communication",
     description:
       "A guide to effective communication strategies for building healthy relationships.",
     href: "/tools/healthy-communication-guide",
@@ -833,6 +859,8 @@ const communicationTools: Tool[] = [
     id: "relationship-tool-2",
     categoryId: "communicationTools",
     title: "Conflict Resolution Skills",
+    subtitle:
+      "Navigating Disagreements with Grace: Essential Skills for Conflict Resolution",
     description:
       "A set of skills and techniques to help users resolve conflicts in a constructive manner.",
     href: "/tools/conflict-resolution-skills",
@@ -840,7 +868,9 @@ const communicationTools: Tool[] = [
   {
     id: "communication-tool-2",
     categoryId: "communicationTools",
-    title: "Active Listening Techniques & Exercises",
+    title: "Active Listening Techniques",
+    subtitle:
+      "Enhancing Understanding and Connection: Techniques for Active Listening",
     description:
       "A guide to improve active listening skills for better understanding and connection along with exercises to help users practice active listening and improve understanding in relationships.",
     href: "/tools/active-listening-techniques",
@@ -848,7 +878,9 @@ const communicationTools: Tool[] = [
   {
     id: "relationship-tool-5",
     categoryId: "communicationTools",
-    title: "Trust-Building Activities",
+    title: "Trust-Building",
+    subtitle:
+      "Strengthening Bonds: Activities and Exercises for Building Trust in Relationships",
     description:
       "A set of activities designed to strengthen trust and connection in relationships.",
     href: "/tools/trust-building-activities",
@@ -856,23 +888,19 @@ const communicationTools: Tool[] = [
   {
     id: "communication-tool-2",
     categoryId: "communicationTools",
-    title: "Nonverbal Communication Guide",
+    title: "Nonverbal Communication",
+    subtitle:
+      "Understanding the Unspoken: A Guide to Nonverbal Communication Cues",
     description:
       "A guide to understanding and improving nonverbal communication cues.",
     href: "/tools/nonverbal-communication-guide",
   },
   {
-    id: "relationship-tool-2",
-    categoryId: "communicationTools",
-    title: "Conflict Resolution Planner",
-    description:
-      "A planner to help users navigate and resolve conflicts in relationships.",
-    href: "/tools/conflict-resolution-planner",
-  },
-  {
     id: "communication-tool-3",
     categoryId: "communicationTools",
-    title: "Conflict Management Exercises",
+    title: "Conflict Management",
+    subtitle:
+      "Navigating Disagreements with Grace: A Guide to Conflict Management",
     description:
       "Exercises to help users manage and resolve conflicts constructively.",
     href: "/tools/conflict-management-exercises",
@@ -880,7 +908,9 @@ const communicationTools: Tool[] = [
   {
     id: "communication-tool-4",
     categoryId: "communicationTools",
-    title: "Empathy Building Activities",
+    title: "Empathy Building",
+    subtitle:
+      "Fostering Understanding: Activities and Exercises for Building Empathy",
     description:
       "Activities to foster empathy and improve interpersonal understanding.",
     href: "/tools/empathy-building-activities",
@@ -888,7 +918,9 @@ const communicationTools: Tool[] = [
   {
     id: "communication-tool-5",
     categoryId: "communicationTools",
-    title: "Assertiveness Training Guide",
+    title: "Assertiveness Training",
+    subtitle:
+      "Empowering Yourself: A Guide to Assertiveness Training for Healthy Communication",
     description:
       "A guide to help users practice assertiveness and communicate their needs effectively.",
     href: "/tools/assertiveness-training-guide",
@@ -899,199 +931,288 @@ const leadershipTools: Tool[] = [
   {
     id: "1",
     title: "Technology",
+    subtitle:
+      "Leading Innovation: Navigating the Fast-Paced World of Technology",
     description:
-      "The technology industry is centered around the development and application of new technologies to solve complex problems. It encompasses a broad range of sectors, including software, hardware, IT services, and more.",
+      "The technology industry is centered around the development and application of new technologies to solve complex problems. It encompasses a broad range of sectors, including software, hardware, IT services, and more. This industry is characterized by rapid change and innovation, making it essential for leaders to stay ahead of trends and adapt to new challenges. ",
     categoryId: "leadershipTools",
     introduction: [
       "The technology industry is one of the fastest-growing sectors, continually evolving with innovation. It drives change across all industries, influencing everything from business models to consumer behavior. Successful leadership in tech requires a deep understanding of both emerging trends and operational efficiency.",
+      "Technology is a rapidly evolving field that requires leaders to stay ahead of trends and innovations. Leaders in this industry must navigate complex challenges, including cybersecurity, data privacy, and the ethical implications of technology. Effective leadership in technology fosters a culture of innovation, collaboration, and continuous learning, ultimately driving organizational success.",
+      "The technology industry is a dynamic and rapidly evolving field that requires strong leadership to navigate its complexities. Leaders must stay ahead of trends, manage diverse teams, and foster a culture of innovation. Effective leadership in technology drives organizational success by empowering teams to embrace change and leverage new technologies. Leaders must also prioritize ethical considerations, data security, and user experience to build trust and drive growth. By fostering a culture of collaboration and continuous learning, leaders can ensure their organizations remain competitive in this fast-paced environment.",
     ],
   },
   {
     id: "2",
     title: "Healthcare",
+    subtitle:
+      "Leading with Compassion: Navigating the Complexities of Healthcare",
     description:
       "Healthcare is an essential industry that focuses on maintaining and improving the health of individuals and communities. It includes services like medical care, research, and pharmaceutical production.",
     categoryId: "leadershipTools",
     introduction: [
       "The healthcare industry is essential for the well-being of society, constantly evolving to provide better care. Leaders in this field must navigate regulatory challenges, technological advancements, and the growing demand for accessible care. Effective leadership ensures quality service, efficient operations, and positive health outcomes.",
+      "Healthcare is a complex and dynamic industry that requires strong leadership to navigate its challenges. Leaders must balance patient care, regulatory compliance, and technological advancements while ensuring the well-being of their teams. Effective leadership in healthcare fosters a culture of compassion, innovation, and collaboration, ultimately improving patient outcomes and organizational success.",
     ],
   },
   {
     id: "3",
     title: "Finance",
+    subtitle: "Leading with Integrity: Navigating the Complexities of Finance",
     description:
-      "The finance industry deals with the management of money, including banking, investments, insurance, and financial planning. It plays a vital role in the global economy, providing individuals and businesses with the tools to manage their financial resources.",
+      "The finance industry deals with the management of money, including banking, investments, insurance, and financial planning. It plays a vital role in the global economy, providing individuals and businesses with the tools to manage their financial resources. ",
     categoryId: "leadershipTools",
     introduction: [
-      "Leaders in finance must stay ahead of economic trends, regulatory changes, and technological innovations that impact investment strategies. This sector is known for its fast-paced environment and need for strategic decision-making. Strong leadership ensures financial stability, growth, and the trust of clients.",
+      "Leaders in finance must stay ahead of economic trends, regulatory changes, and technological innovations that impact investment strategies. This sector is known for its fast-paced environment and need for strategic decision-making. Strong leadership ensures financial stability, growth, and the trust of clients. ",
+      "The finance industry is essential for economic growth and stability, providing the resources necessary for individuals and businesses to thrive. Leaders in this field must navigate complex regulations, market fluctuations, and technological advancements. Effective leadership in finance fosters trust, transparency, and ethical practices while driving innovation and growth.",
     ],
   },
   {
     id: "4",
     title: "Education",
+    subtitle:
+      "Leading with Purpose: Navigating the Evolving Landscape of Education",
     description:
-      "The education industry is focused on the development and dissemination of knowledge. It includes schools, universities, online education platforms, and professional development organizations.",
+      "The education industry is focused on the development and dissemination of knowledge. It includes schools, universities, online education platforms, and professional development organizations. This sector is crucial for personal and societal growth. ",
     categoryId: "leadershipTools",
     introduction: [
       "Education is foundational to personal and societal growth, and leaders in this industry must adapt to new teaching methodologies and digital learning platforms. They also navigate challenges like funding, access to education, and curriculum development. Effective leadership in education fosters learning environments that inspire students and empower educators.",
+      "Education is a vital industry that shapes the future of individuals and societies. Leaders in this field must navigate complex challenges, including curriculum development, technology integration, and diverse learning needs. Effective leadership in education fosters a culture of innovation, collaboration, and continuous improvement, ultimately enhancing student outcomes and institutional success.",
+      "The education industry is a dynamic and evolving field that requires strong leadership to navigate its complexities. Leaders must stay ahead of trends, manage diverse teams, and foster a culture of innovation. Effective leadership in education drives institutional success by empowering educators and students to embrace change and leverage new technologies. Leaders must also prioritize inclusivity, accessibility, and student engagement to create meaningful learning experiences. By fostering a culture of collaboration and continuous improvement, leaders can ensure their institutions remain competitive in this fast-paced environment.",
     ],
   },
   {
     id: "5",
     title: "Retail",
+    subtitle: "Leading with Vision: Navigating the Dynamic World of Retail",
     description:
-      "The retail industry involves the sale of goods and services to consumers, including physical stores, e-commerce, and direct-to-consumer models. This industry is critical for economic growth and the distribution of products.",
+      "The retail industry involves the sale of goods and services to consumers, including physical stores, e-commerce, and direct-to-consumer models. This industry is critical for economic growth and the distribution of products. ",
     categoryId: "leadershipTools",
     introduction: [
       "The retail industry is driven by consumer behavior, market trends, and logistics efficiency. Leaders in retail must be adept at adapting to changing market demands, supply chain challenges, and technological innovations. Leadership in this industry ensures a seamless customer experience and business profitability.",
+      "Retail is a dynamic industry that requires strong leadership to navigate its complexities. Leaders must stay ahead of trends, manage diverse teams, and foster a culture of innovation. Effective leadership in retail drives organizational success by empowering employees to embrace change and leverage new technologies. Leaders must also prioritize customer experience, supply chain management, and sustainability to remain competitive in this fast-paced environment.",
     ],
   },
   {
     id: "6",
     title: "Manufacturing",
+    subtitle:
+      "Leading with Precision: Navigating the Complexities of Manufacturing",
     description:
-      "The manufacturing industry involves the production of goods through industrial processes. This sector spans a wide range of products, from consumer goods to industrial equipment.",
+      "The manufacturing industry involves the production of goods through industrial processes. This sector spans a wide range of products, from consumer goods to industrial equipment. It is essential for economic growth and job creation in many regions. ",
     categoryId: "leadershipTools",
     introduction: [
       "Manufacturing is key to the global supply chain, producing the goods that power economies. Leaders in manufacturing must oversee production efficiency, quality control, and workforce management while keeping costs low. Strong leadership ensures that companies stay competitive and innovative in a rapidly evolving market.",
+      "Manufacturing is a critical industry that drives economic growth and job creation. Leaders in this field must navigate complex supply chains, technological advancements, and regulatory challenges. Effective leadership in manufacturing fosters a culture of innovation, quality, and safety while ensuring operational efficiency and sustainability.",
     ],
   },
   {
     id: "7",
     title: "Hospitality",
+    subtitle: "Leading with Heart: Navigating the Dynamic World of Hospitality",
     description:
-      "The hospitality industry focuses on services related to leisure, travel, and accommodation. It includes hotels, resorts, restaurants, and entertainment venues.",
+      "The hospitality industry focuses on services related to leisure, travel, and accommodation. It includes hotels, resorts, restaurants, and entertainment venues. This industry is essential for tourism and leisure activities.",
     categoryId: "leadershipTools",
     introduction: [
       "Hospitality is about providing exceptional experiences, from dining to lodging. Leaders in this industry must manage diverse teams, customer satisfaction, and operational logistics. Effective leadership in hospitality creates memorable experiences for guests while driving business growth.",
+      "The hospitality industry is a dynamic and customer-centric field that requires strong leadership to navigate its complexities. Leaders must stay ahead of trends, manage diverse teams, and foster a culture of service excellence. Effective leadership in hospitality drives organizational success by empowering employees to embrace change and leverage new technologies. Leaders must also prioritize customer experience, sustainability, and operational efficiency to remain competitive in this fast-paced environment.",
     ],
   },
   {
     id: "8",
     title: "Energy",
+    subtitle:
+      "Leading with Sustainability: Navigating the Complexities of Energy",
     description:
-      "The energy industry involves the production and distribution of energy resources like oil, gas, electricity, and renewable energy. It is essential for powering industries, homes, and economies worldwide.",
+      "The energy industry involves the production and distribution of energy resources like oil, gas, electricity, and renewable energy. It is essential for powering industries, homes, and economies worldwide. This sector is undergoing significant changes due to the shift towards renewable energy sources and sustainability. ",
     categoryId: "leadershipTools",
     introduction: [
       "Energy is a crucial sector for sustaining modern society, with leaders tasked with managing supply, demand, and environmental impacts. They must navigate a complex landscape of regulations, market fluctuations, and technological advancements in energy production. Strong leadership in this industry focuses on sustainability and resource management.",
+      "The energy industry is a critical sector that powers economies and drives innovation. Leaders in this field must navigate complex regulatory environments, technological advancements, and sustainability challenges. Effective leadership in energy fosters a culture of safety, efficiency, and environmental responsibility while ensuring reliable energy supply and operational excellence.",
     ],
   },
   {
     id: "9",
     title: "Marketing",
+    subtitle:
+      "Leading with Creativity: Navigating the Dynamic World of Marketing",
     description:
-      "The marketing industry focuses on promoting and selling products or services. It encompasses advertising, public relations, market research, and digital marketing.",
+      "The marketing industry focuses on promoting and selling products or services. It encompasses advertising, public relations, market research, and digital marketing. This industry is essential for connecting businesses with consumers and driving brand awareness.",
     categoryId: "leadershipTools",
     introduction: [
       "Marketing is essential for connecting businesses with consumers, driving brand awareness, and generating sales. Leaders in this industry must understand consumer behavior, market trends, and digital platforms. Effective leadership in marketing fosters creativity, innovation, and strategic thinking to achieve business goals.",
+      "The marketing industry is a dynamic and fast-paced field that requires strong leadership to navigate its complexities. Leaders must stay ahead of trends, manage diverse teams, and foster a culture of creativity and innovation. Effective leadership in marketing drives organizational success by empowering employees to embrace change and leverage new technologies. Leaders must also prioritize customer experience, brand reputation, and data-driven decision-making to remain competitive in this fast-paced environment.",
     ],
   },
   {
     id: "10",
     title: "Real Estate",
+    subtitle: "Leading with Vision: Navigating the Complexities of Real Estate",
     description:
-      "The real estate industry involves the buying, selling, and leasing of properties. It includes residential, commercial, and industrial real estate sectors.",
+      "The real estate industry involves the buying, selling, and leasing of properties. It includes residential, commercial, and industrial real estate sectors. This industry is vital for economic growth and community development.",
     categoryId: "leadershipTools",
     introduction: [
       "Real estate is a dynamic industry that plays a significant role in the economy. Leaders in this field must navigate market fluctuations, regulatory challenges, and consumer preferences. Effective leadership in real estate focuses on building relationships, understanding market trends, and providing exceptional service to clients.",
+      "Real estate is a critical industry that drives economic growth and community development. Leaders in this field must navigate complex regulations, market fluctuations, and consumer preferences. Effective leadership in real estate fosters a culture of integrity, collaboration, and innovation while ensuring client satisfaction and operational excellence.",
     ],
   },
 ];
 
 const visualizationExercises: Tool[] = [
   {
-    id: "visualization-tool-1",
-    categoryId: "visualizationExercises",
-    title: "Guided Relaxation Visualization",
-    description:
-      "A guided exercise to create calming mental scenarios for stress relief and relaxation.",
-    href: "/tools/guided-relaxation-visualization",
-  },
-  {
     id: "visualization-tool-2",
     categoryId: "visualizationExercises",
     title: "Goal Achievement Visualization",
+    subtitle:
+      "Visualize Your Success: A Guided Exercise for Achieving Your Goals",
     description:
       "A visualization exercise to mentally rehearse achieving personal or professional goals.",
     href: "/tools/goal-achievement-visualization",
   },
   {
-    id: "stress-management-tool-7",
-    categoryId: "visualizationExercises",
-    title: "Visualization Exercises for Stress Relief",
-    description:
-      "A tool offering guided visualization exercises to help users reduce stress and improve focus.",
-    href: "/tools/visualization-exercises",
-  },
-  {
-    id: "visualization-tool-3",
-    categoryId: "visualizationExercises",
-    title: "Nature Imagery Visualization",
-    description:
-      "A calming exercise that uses nature imagery to reduce stress and promote mental clarity.",
-    href: "/tools/nature-imagery-visualization",
-  },
-  {
     id: "visualization-tool-4",
     categoryId: "visualizationExercises",
     title: "Positive Outcome Visualization",
+    subtitle:
+      "Envisioning Success: A Guided Visualization for Positive Outcomes",
     description:
       "A tool to help users focus on positive outcomes and build confidence in challenging situations.",
     href: "/tools/positive-outcome-visualization",
   },
   {
-    id: "visualization-tool-5",
-    categoryId: "visualizationExercises",
-    title: "Energy Boost Visualization",
-    description:
-      "A quick visualization exercise to recharge energy and improve focus during the day.",
-    href: "/tools/energy-boost-visualization",
-  },
-  {
-    id: "visualization-tool-6",
-    categoryId: "visualizationExercises",
-    title: "Self-Compassion Visualization",
-    description:
-      "A visualization exercise to foster self-compassion and reduce self-criticism.",
-    href: "/tools/self-compassion-visualization",
-  },
-  {
-    id: "visualization-tool-7",
-    categoryId: "visualizationExercises",
-    title: "Stress-Free Visualization",
-    description:
-      "A visualization technique that helps users manage anxiety and find peace during stressful situations.",
-    href: "/tools/stress-free-visualization",
-  },
-  {
     id: "visualization-tool-8",
     categoryId: "visualizationExercises",
     title: "Future Visioning Visualization",
+    subtitle:
+      "Envision Your Future: A Guided Visualization for Clarity and Focus",
     description:
       "A tool to help users mentally envision and plan for a positive future with clarity and focus.",
     href: "/tools/future-visioning-visualization",
+  },
+  {
+    id: "visualization-tool-9",
+    categoryId: "visualizationExercises",
+    title: "Stress Relief Visualization",
+    subtitle:
+      "Finding Calm: A Guided Visualization for Stress Relief and Relaxation",
+    description:
+      "A guided visualization exercise to help users relax and reduce stress.",
+    href: "/tools/stress-relief-visualization",
+  },
+  {
+    id: "visualization-tool-10",
+    categoryId: "visualizationExercises",
+    title: "Self-Compassion Visualization",
+    subtitle:
+      "Cultivating Kindness: A Guided Visualization for Self-Compassion and Acceptance",
+    description:
+      "A visualization exercise to promote self-compassion and acceptance.",
+    href: "/tools/self-compassion-visualization",
+  },
+  {
+    id: "visualization-tool-11",
+    categoryId: "visualizationExercises",
+    title: "Mindfulness Visualization",
+    subtitle:
+      "Present Moment Awareness: A Guided Visualization for Mindfulness and Clarity",
+    description:
+      "A guided visualization exercise to promote mindfulness and present-moment awareness.",
+    href: "/tools/mindfulness-visualization",
+  },
+  {
+    id: "visualization-tool-12",
+    categoryId: "visualizationExercises",
+    title: "Healing Visualization",
+    subtitle:
+      "Nurturing Wellness: A Guided Visualization for Healing and Restoration",
+    description:
+      "A visualization exercise to promote healing and emotional restoration.",
+    href: "/tools/healing-visualization",
+  },
+  {
+    id: "visualization-tool-13",
+    categoryId: "visualizationExercises",
+    title: "Gratitude Visualization",
+    subtitle:
+      "Cultivating Appreciation: A Guided Visualization for Gratitude and Joy",
+    description:
+      "A visualization exercise to cultivate gratitude and appreciation.",
+    href: "/tools/gratitude-visualization",
+  },
+  {
+    id: "visualization-tool-14",
+    categoryId: "visualizationExercises",
+    title: "Confidence Visualization",
+    subtitle:
+      "Empowering Beliefs: A Guided Visualization for Confidence and Self-Esteem",
+    description:
+      "A visualization exercise to boost confidence and self-esteem.",
+    href: "/tools/confidence-visualization",
+  },
+  {
+    id: "visualization-tool-15",
+    categoryId: "visualizationExercises",
+    title: "Relaxation Visualization",
+    subtitle:
+      "Finding Peace: A Guided Visualization for Relaxation and Stress Relief",
+    description:
+      "A guided visualization exercise to promote relaxation and stress relief.",
+    href: "/tools/relaxation-visualization",
+  },
+  {
+    id: "visualization-tool-16",
+    categoryId: "visualizationExercises",
+    title: "Empowerment Visualization",
+    subtitle:
+      "Unleashing Potential: A Guided Visualization for Empowerment and Growth",
+    description:
+      "A visualization exercise to promote empowerment and personal growth.",
+    href: "/tools/empowerment-visualization",
+  },
+  {
+    id: "visualization-tool-17",
+    categoryId: "visualizationExercises",
+    title: "Creativity Visualization",
+    subtitle:
+      "Igniting Imagination: A Guided Visualization for Creativity and Inspiration",
+    description:
+      "A visualization exercise to enhance creativity and inspire new ideas.",
+    href: "/tools/creativity-visualization",
+  },
+  {
+    id: "visualization-tool-18",
+    categoryId: "visualizationExercises",
+    title: "Forgiveness Visualization",
+    subtitle:
+      "Releasing Burdens: A Guided Visualization for Forgiveness and Healing",
+    description:
+      "A visualization exercise to promote forgiveness and emotional healing.",
+    href: "/tools/forgiveness-visualization",
   },
 ];
 const workLifeBalanceTools: Tool[] = [
   {
     id: "work-life-tool-1",
     categoryId: "workLifeBalanceTools",
-    title: "Setting Boundaries",
-    subtitle: "Clear Lines, Strong Self",
+    title: "Establishing Boundaries for a Balanced Life",
+    subtitle:
+      "Practical Strategies to Define Limits, Protect Personal Time, and Reduce Stress",
     description:
-      "A guide to help users establish healthy boundaries between work and personal life.",
+      "A step-by-step guide to establishing healthy boundaries between work and personal life, offering strategies for effectively communicating your limits, protecting your personal time, and reducing stress.",
     href: "/tools/boundary-setting-worksheet",
     introduction: [
       "Setting boundaries is essential for maintaining a healthy work-life balance. This guide provides practical strategies to help you establish and communicate your boundaries effectively. By setting clear limits, you can protect your personal time, reduce stress, and enhance your overall well-being.",
+      "Establishing boundaries is crucial for maintaining a healthy work-life balance. This guide offers practical strategies to help you set and communicate your boundaries effectively. By defining clear limits, you can protect your personal time, reduce stress, and enhance your overall well-being.",
     ],
   },
   {
     id: "work-life-tool-2",
     categoryId: "workLifeBalanceTools",
-    title: "Time Management",
-    subtitle: "Master Your Minutes",
+    title: "Mastering Time Management for a Balanced Life",
+    subtitle:
+      "Practical Tips and Techniques to Prioritize Tasks, Set Goals, and Reduce Stress",
     description:
-      "A guide to help users manage their time effectively and prioritize tasks.",
+      "A practical guide to mastering time management, featuring proven techniques and strategies to help you prioritize tasks, set achievable goals, and optimize your time for maximum productivity and personal fulfillment.",
     href: "/tools/time-management-guide",
     introduction: [
       "Effective time management is crucial for achieving a healthy work-life balance. This guide offers practical tips and techniques to help you prioritize tasks, set realistic goals, and make the most of your time. By mastering time management, you can reduce stress and create more space for personal activities.",
@@ -1101,9 +1222,10 @@ const workLifeBalanceTools: Tool[] = [
     id: "work-life-tool-3",
     categoryId: "workLifeBalanceTools",
     title: "Prioritizing Personal Time",
-    subtitle: "Your Time, Your Life",
+    subtitle:
+      "Strategies to Carve Out Time for Self-Care, Hobbies, and Relaxation",
     description:
-      "A guide to help users prioritize personal time and self-care in their schedules.",
+      "A detailed guide designed to help you prioritize personal time and self-care by providing actionable strategies for carving out space in your busy schedule for relaxation, hobbies, and self-renewal.",
     href: "/tools/work-life-balance-planner",
     introduction: [
       "Prioritizing personal time is essential for maintaining a healthy work-life balance. This guide provides strategies to help you carve out time for self-care, hobbies, and relaxation. By making personal time a priority, you can recharge and enhance your overall well-being.",
@@ -1113,7 +1235,7 @@ const workLifeBalanceTools: Tool[] = [
     id: "work-life-tool-5",
     categoryId: "workLifeBalanceTools",
     title: "Nurture Relationships",
-    subtitle: "Connect, Communicate, Care",
+    subtitle: "Strengthen Connections and Build a Supportive Network",
     description:
       "A guide to help users nurture and maintain healthy relationships in their personal and professional lives.",
     href: "/tools/nurturing-relationships-guide",
@@ -1125,9 +1247,9 @@ const workLifeBalanceTools: Tool[] = [
     id: "work-life-tool-6",
     categoryId: "workLifeBalanceTools",
     title: "Seek Support",
-    subtitle: "Reach Out, Rejuvenate",
+    subtitle: "Build a Strong Network and Navigate Challenges Effectively",
     description:
-      "A guide to building a support network and seeking help when navigating work-life challenges.",
+      "A comprehensive guide to building a robust support network, offering practical advice on seeking help and leveraging resources to effectively navigate work-life challenges and enhance your well-being.",
     href: "/tools/seeking-support-strategies",
     introduction: [
       "Seeking support is essential for managing work-life challenges. This guide provides strategies to help you build a strong support network and seek assistance when needed. By reaching out for help, you can navigate challenges more effectively and enhance your overall well-being.",
@@ -1140,6 +1262,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "health-habits",
     categoryId: "behavioralActivationActivities",
     title: "Healthy Habits",
+    subtitle: "Building a Foundation for Well-Being",
     description:
       "These are activities that support physical and mental well-being. They help you build consistency, reduce stress, and promote overall health.",
   },
@@ -1147,6 +1270,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "social-connection",
     categoryId: "behavioralActivationActivities",
     title: "Social Connection",
+    subtitle: "Fostering Meaningful Relationships",
     description:
       "Activities that foster meaningful connections with others. They promote social well-being, build relationships, and reduce feelings of isolation.",
   },
@@ -1154,6 +1278,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "creative-expression",
     categoryId: "behavioralActivationActivities",
     title: "Creative Expression",
+    subtitle: "Unleashing Your Inner Artist",
     description:
       "Activities that allow you to express your thoughts and feelings in artistic ways. This includes journaling, painting, music, and any form of creative output.",
   },
@@ -1161,6 +1286,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "mindfulness-practices",
     categoryId: "behavioralActivationActivities",
     title: "Mindfulness Practices",
+    subtitle: "Cultivating Present-Moment Awareness",
     description:
       "Engaging in activities that promote present-moment awareness and reduce stress, such as meditation, deep breathing, and mindfulness-based exercises.",
   },
@@ -1168,6 +1294,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "physical-activity",
     categoryId: "behavioralActivationActivities",
     title: "Physical Activity",
+    subtitle: "Energizing Your Body and Mind",
     description:
       "Exercise routines and activities that promote physical health, increase energy, and improve mood. This includes walking, yoga, strength training, and aerobic exercises.",
   },
@@ -1175,6 +1302,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "self-care",
     categoryId: "behavioralActivationActivities",
     title: "Self-Care",
+    subtitle: "Nurturing Your Mind, Body, and Spirit",
     description:
       "Activities focused on nurturing your mental, emotional, and physical well-being, such as taking relaxing baths, skincare routines, and practicing gratitude.",
   },
@@ -1182,6 +1310,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "cognitive-restructuring",
     categoryId: "behavioralActivationActivities",
     title: "Cognitive Restructuring",
+    subtitle: "Transforming Negative Thoughts",
     description:
       "Techniques that help you identify and challenge negative thought patterns. Activities might include journaling, affirmations, or guided cognitive exercises.",
   },
@@ -1189,6 +1318,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "goal-setting",
     categoryId: "behavioralActivationActivities",
     title: "Goal Setting",
+    subtitle: "Mapping Your Path to Success",
     description:
       "Activities designed to help you set clear, achievable goals. This can include creating to-do lists, setting SMART goals, and using productivity tools to stay on track.",
   },
@@ -1196,6 +1326,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "time-management",
     categoryId: "behavioralActivationActivities",
     title: "Time Management",
+    subtitle: "Mastering Your Schedule",
     description:
       "Activities that enhance your ability to organize and manage time effectively, such as prioritizing tasks, using planners, and breaking large tasks into smaller steps.",
   },
@@ -1203,6 +1334,7 @@ const behavioralActivationActivities: Tool[] = [
     id: "gratitude-practices",
     categoryId: "behavioralActivationActivities",
     title: "Gratitude Practices",
+    subtitle: "Cultivating a Positive Mindset",
     description:
       "Engaging in activities that foster appreciation and positive thinking, such as keeping a gratitude journal or expressing thanks to others.",
   },
@@ -1213,6 +1345,7 @@ const journalingPrompts: Tool[] = [
     id: "self-discovery-tool-1",
     categoryId: "journalingPrompts",
     title: "Life Purpose And Self-Discovery Prompts",
+    subtitle: "Uncover Your True Self",
     description:
       "A collection of prompts to help you explore your inner self, values, and beliefs.",
     href: "/tools/self-discovery-prompts",
@@ -1221,6 +1354,7 @@ const journalingPrompts: Tool[] = [
     id: "self-discovery-tool-2",
     categoryId: "journalingPrompts",
     title: "Gratitude Journaling Prompts",
+    subtitle: "Cultivating Appreciation",
     description:
       "Prompts to help you focus on the positive aspects of life and cultivate gratitude.",
     href: "/tools/gratitude-journaling-prompts",
@@ -1229,56 +1363,100 @@ const journalingPrompts: Tool[] = [
     id: "self-discovery-tool-3",
     categoryId: "journalingPrompts",
     title: "Goal-Setting And Vision Board Reflection Prompts",
+    subtitle: "Dream Big, Plan Smart",
     description:
       "Prompts to guide you in setting clear, actionable goals and tracking your progress.",
     href: "/tools/goal-setting-prompts",
   },
   {
+    id: "journaling-tool-23",
+    categoryId: "journalingPrompts",
+    title: "Therapeutic Writing Prompts",
+    subtitle: "Healing Through Words",
+    description:
+      "Prompts designed to help you process emotions and experiences through writing.",
+    introduction: [
+      "Therapeutic Writing Prompts are powerful tools designed to support you in processing and healing from difficult or traumatic experiences. Each carefully crafted prompt encourages you to dive deep into your emotions, thoughts, and feelings, offering a safe space to reflect and explore your inner world. By engaging with these prompts, you can gain valuable insights into your emotional patterns and mental state, helping you understand the root causes of your feelings and reactions. This practice is not only about expressing emotions but also about cultivating emotional resilience. Writing provides an opportunity to externalize your thoughts, which can be deeply cathartic, allowing you to release pent-up emotions that may otherwise remain unaddressed. As you engage with the prompts regularly, you will begin to notice a shift in your perspective, fostering a healthier relationship with your emotions and increasing your ability to cope with life's challenges in a balanced way.",
+      "Therapeutic Writing Prompts are a transformative tool designed to help you process emotions, reflect on personal experiences, and heal from challenging situations. Writing can serve as a powerful outlet for expression, allowing you to explore your thoughts and feelings in a safe, structured way. Whether you're dealing with stress, grief, anxiety, or simply seeking a deeper connection with yourself, these prompts provide a gentle yet effective means of self-reflection.",
+    ],
+  },
+  {
     id: "self-discovery-tool-4",
     categoryId: "journalingPrompts",
     title: "Mindfulness Prompts",
+    subtitle: "Stay Present, Stay Grounded",
     description:
       "Prompts to help you stay present and increase mindfulness in your daily life.",
+    introduction: [
+      "Mindfulness Prompts are designed to help you cultivate a greater sense of presence and awareness in your daily life. Each prompt encourages you to reflect on your thoughts, feelings, and experiences in the moment, fostering a deeper connection to yourself and the world around you. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life.",
+      "These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your thoughts and feelings, you can gain insights into your emotional landscape and develop a greater understanding of your experiences. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace the present moment.",
+    ],
     href: "/tools/mindfulness-prompts",
   },
   {
     id: "self-discovery-tool-5",
     categoryId: "journalingPrompts",
     title: "Emotional Healing Prompts",
+    subtitle: "Healing Through Reflection",
     description:
       "Prompts designed to help you process emotions and heal from difficult experiences.",
+    introduction: [
+      "Emotional Healing Prompts are designed to help you process and heal from difficult experiences. Each prompt encourages you to reflect on your emotions, thoughts, and feelings, allowing you to gain insights into your inner world. By engaging with these prompts, you can cultivate emotional resilience and foster a deeper understanding of yourself.",
+    ],
     href: "/tools/emotional-healing-prompts",
   },
   {
     id: "self-discovery-tool-6",
     categoryId: "journalingPrompts",
     title: "Creativity Journaling Prompts",
+    subtitle: "Ignite Your Imagination",
     description:
       "Prompts to ignite your creative energy and explore new ideas and artistic endeavors.",
+    introduction: [
+      "Creativity Journaling Prompts are designed to inspire and ignite your creative energy. Each prompt encourages you to explore new ideas, artistic endeavors, and imaginative concepts. By engaging with these prompts, you can tap into your inner creativity and discover new ways of expressing yourself.",
+      "These prompts serve as a catalyst for creative exploration and self-expression. By taking the time to write about your thoughts and ideas, you can unlock new perspectives and insights that can enhance your creative process. This practice helps you cultivate a deeper connection with your imagination and encourages you to embrace your unique artistic voice.",
+    ],
     href: "/tools/creativity-journaling-prompts",
   },
   {
     id: "self-discovery-tool-7",
     categoryId: "journalingPrompts",
     title: "Self-Compassion Prompts",
+    subtitle: "Nurturing Kindness and Acceptance",
     description:
       "Prompts that encourage self-love, acceptance, and kindness towards yourself.",
+    introduction: [
+      "Self-Compassion Prompts are designed to help you cultivate a kinder and more forgiving relationship with yourself. Each prompt encourages you to reflect on your thoughts, feelings, and experiences with compassion and understanding. By engaging with these prompts, you can develop a deeper sense of self-acceptance and emotional resilience.",
+    ],
     href: "/tools/self-compassion-prompts",
   },
   {
     id: "self-discovery-tool-1",
     categoryId: "journalingPrompts",
     title: "Daily Journaling Prompts",
+    subtitle: "Reflect, Write, Grow",
+
     description:
       "A collection of thought-provoking journaling prompts to help you explore your emotions, thoughts, and personal values.",
+    introduction: [
+      "Daily Journaling Prompts are designed to encourage self-reflection and personal growth. Each prompt invites you to explore your thoughts, feelings, and experiences, helping you gain insights into your inner world. By engaging with these prompts regularly, you can cultivate a deeper understanding of yourself and your journey.",
+      "These prompts serve as a tool for self-discovery and emotional healing. By taking the time to write about your experiences, you can process your emotions and develop healthier coping mechanisms. This practice helps you build emotional resilience and fosters a greater sense of self-awareness.",
+    ],
     href: "/tools/journaling-prompts",
   },
   {
     id: "resilience-tool-3",
     categoryId: "journalingPrompts",
     title: "Resilience Journaling Prompts",
+    subtitle: "Building Strength Through Reflection",
     description:
       "A journal to track progress in building resilience and reflect on personal growth.",
+    introduction: [
+      "Resilience Journaling Prompts are designed to help you reflect on your experiences, emotions, and personal growth. Each prompt encourages you to explore your thoughts and feelings, fostering a deeper understanding of yourself and your journey. By engaging with these prompts, you can build emotional resilience and develop a more positive outlook on life.",
+      "These prompts serve as a tool for self-reflection and personal development. By taking the time to write about your experiences, you can gain insights into your strengths, challenges, and aspirations. This practice helps you cultivate a growth mindset and encourages you to embrace change and uncertainty with confidence.",
+      "Resilience Journaling Prompts are not just about documenting your experiences; they are a means to foster emotional healing and growth. By regularly engaging with these prompts, you can build a stronger sense of self and develop healthier coping mechanisms. This practice empowers you to navigate life's challenges with grace and resilience.",
+      "As you work through these prompts, remember that resilience is a journey, not a destination. Each entry in your journal is an opportunity to learn and grow, helping you build the emotional strength needed to face life's ups and downs. Embrace the process of self-discovery and use these prompts as a guide to navigate your unique path.",
+    ],
     href: "/tools/resilience-journal",
   },
   {
@@ -1287,38 +1465,70 @@ const journalingPrompts: Tool[] = [
     title: "Morning Mindset Prompts",
     description:
       "A collection of prompts to help you start your day with intention, focus, and a positive mindset.",
+    subtitle: "Start Your Day with Intention and Positivity",
+    introduction: [
+      "Morning Mindset Prompts are designed to help you cultivate a positive and focused mindset as you start your day. Each prompt encourages you to reflect on your goals, intentions, and aspirations, setting a positive tone for the day ahead. By engaging with these prompts, you can enhance your emotional resilience and personal empowerment.",
+      "These prompts serve as a daily ritual that encourages self-reflection and mindfulness. By taking a few moments each morning to engage with these prompts, you can create a sense of clarity and purpose that guides your actions throughout the day. This practice helps shift your mindset from passive reaction to active creation, allowing you to approach challenges with confidence and determination.",
+    ],
     href: "/tools/morning-mindset-prompts",
   },
   {
     id: "self-discovery-tool-14",
     categoryId: "journalingPrompts",
     title: "Overcoming Fear And Limiting Beliefs Prompts",
+    subtitle: "Confronting Your Inner Barriers",
     description:
       "Prompts to challenge and rewrite limiting beliefs that may be holding you back and help you understand their roots.",
+    introduction: [
+      "Overcoming fear and limiting beliefs is a crucial step in personal growth and self-discovery. This collection of prompts is designed to help you identify and challenge the fears and beliefs that may be holding you back from reaching your full potential. By engaging with these prompts, you can gain insights into the origins of your fears and learn how to reframe them in a more empowering way.",
+      "Each prompt encourages you to reflect on different aspects of fear and limiting beliefs, from understanding their impact on your life to exploring the steps you can take to overcome them. By writing about your experiences, you can gain clarity and perspective, which can lead to healthier coping mechanisms and a greater sense of control over your life.",
+    ],
     href: "/tools/overcoming-limiting-beliefs-prompts",
   },
   {
     id: "self-discovery-tool-19",
     categoryId: "journalingPrompts",
     title: "Dealing With Stress Prompts",
+    subtitle: "Finding Solutions and Nurturing Your Peace",
     description:
       "Prompts to help you process and manage stress, with a focus on finding solutions and nurturing your peace.",
+    introduction: [
+      "Dealing with stress is an essential part of maintaining emotional well-being. This collection of prompts is designed to help you explore your stressors, understand their impact on your life, and develop effective coping strategies. By engaging with these prompts, you can gain insights into your stress triggers and learn how to manage them more effectively.",
+      "Each prompt encourages you to reflect on different aspects of stress, from identifying its sources to exploring your emotional responses. By writing about your experiences, you can gain clarity and perspective, which can lead to healthier coping mechanisms and a greater sense of control over your life.",
+      "These prompts are not only a tool for self-reflection but also a means to foster resilience. By regularly engaging with these prompts, you can build emotional strength and develop a proactive approach to managing stress. Embrace the process of self-discovery and use these prompts as a guide to navigate life's challenges with confidence.",
+      "As you work through these prompts, remember that stress is a natural part of life. It's how you respond to it that matters. By taking the time to reflect on your experiences and feelings, you can cultivate a deeper understanding of yourself and develop healthier ways to cope with stress.",
+    ],
+    href: "/tools/dealing-with-stress-prompts",
+  },
+  {
+    id: "self-discovery-tool-25",
+    categoryId: "journalingPrompts",
+    title: "Expressive Writing Prompts",
+    subtitle: "A Journey of Self-Discovery and Emotional Healing",
+    description:
+      "Expressive writing is a type of writing that focuses on expressing your emotions, thoughts, and experiences without worrying about grammar, spelling, or structure. It is a private and personal form of writing that allows you to vent, explore, and understand yourself better.",
+    introduction: [
+      "Expressive writing is a powerful tool for self-discovery and emotional healing. It allows you to explore your thoughts and feelings in a safe and private space. By engaging in expressive writing, you can gain insights into your emotions, process difficult experiences, and foster personal growth. This collection of prompts is designed to guide you in your expressive writing journey. Each prompt encourages you to delve into different aspects of your life, emotions, and experiences. Whether you're looking to release pent-up feelings, reflect on your day, or explore your dreams, these prompts will help you tap into your inner thoughts and feelings. Expressive writing can be a therapeutic practice that promotes emotional well-being. It allows you to articulate your feelings, gain clarity, and develop a deeper understanding of yourself. By regularly engaging in expressive writing, you can cultivate self-awareness, reduce stress, and enhance your overall mental health.",
+      "As you embark on this journey of self-exploration, remember that there are no right or wrong answers. The goal is to write freely and authentically, allowing your thoughts and emotions to flow onto the page. Embrace the process, and let your writing be a reflection of your unique experiences and perspectives. Whether you're a seasoned writer or just starting, these prompts will inspire you to express yourself and connect with your inner self. Use them as a springboard for your writing practice, and allow your creativity to flourish. Expressive writing is a valuable tool for personal growth and emotional healing. By engaging in this practice, you can gain insights into your thoughts and feelings, process difficult experiences, and foster self-discovery. Embrace the power of expressive writing and let it guide you on your journey of self-exploration.",
+      "Remember, the most important aspect of expressive writing is to be true to yourself. Write without judgment, and allow your thoughts and emotions to flow freely. This practice can be a transformative experience that leads to greater self-awareness and emotional well-being. As you explore these prompts, take your time and allow yourself to fully engage with each one. Reflect on your responses, and let them guide you in your journey of self-discovery. Expressive writing is a powerful tool that can help you navigate life's challenges and celebrate your triumphs.By embracing the process of expressive writing, you can unlock new insights, gain clarity, and foster a deeper connection with yourself. Use these prompts as a guide to explore your thoughts and feelings, and let your writing be a reflection of your unique experiences.",
+    ],
     href: "/tools/dealing-with-stress-prompts",
   },
 ];
 const checklistsToolkit: Tool[] = [
   {
-    id: "mental-health-checklist-1",
+    id: "daily-self-care-checklist",
     categoryId: "checklistsToolkit",
     title: "Daily Self Care Checklist",
+    subtitle: "Simple Daily Actions for Everyday",
     description:
-      "A practical checklist to ensure you prioritize your mental, emotional, and physical self-care every day.",
-    href: "/tools/daily-self-care-checklist",
+      "Track simple daily actions like hydration, rest, and connection to support emotional resilience.",
   },
   {
     id: "mental-health-checklist-2",
     categoryId: "checklistsToolkit",
     title: "Anxiety Management Checklist",
+    subtitle: "Coping Strategies for Everyday",
     description:
       "A focused checklist designed to help manage symptoms of anxiety through actionable coping strategies.",
     href: "/tools/anxiety-management-checklist",
@@ -1327,6 +1537,7 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-3",
     categoryId: "checklistsToolkit",
     title: "Depression Support Checklist",
+    subtitle: "Daily Practices for Emotional Resilience",
     description:
       "A compassionate checklist offering daily practices and reminders to support mental health during depressive periods.",
     href: "/tools/depression-support-checklist",
@@ -1335,22 +1546,89 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-4",
     categoryId: "checklistsToolkit",
     title: "Mindfulness Practice Checklist",
+    subtitle: "Incorporating Mindfulness into Daily Life",
     description:
       "A step-by-step checklist for incorporating mindfulness into your daily life to reduce stress and improve focus.",
     href: "/tools/mindfulness-practice-checklist",
   },
   {
-    id: "mental-health-checklist-5",
+    id: "support-network-engagement-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Support Network Engagement Checklist",
+    subtitle: "Building Connections for Emotional Resilience",
+    description:
+      "Encourages regular outreach and connection with supportive people in your life.",
+  },
+  {
+    id: "adaptability-skills-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Adaptability Skills Checklist",
+    subtitle: "Building Resilience in Changing Environments",
+    description:
+      "Practice flexible responses, problem-solving, and goal setting in changing environments.",
+  },
+  {
+    id: "inner-strength-builder-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Inner Strength Builder Checklist",
+    subtitle: "Discovering Your Inner Resilience",
+    description:
+      "Identify your personal values, strengths, and resources that help you push through hard times.",
+  },
+  {
+    id: "bounce-back-habits-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Bounce Back Habits Checklist",
+    subtitle: "Building Resilience Through Healthy Routines",
+    description:
+      "Establish healthy patterns that help you recover faster from setbacks or adversity.",
+  },
+  {
+    id: "stress-buffer-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Stress Buffer Checklist",
+    subtitle: "Coping Strategies for Stress Management",
+    description:
+      "List protective routines and coping strategies that reduce stress and promote recovery.",
+  },
+  {
+    id: "growth-mindset-reflection-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Growth Mindset Reflection Checklist",
+    subtitle:
+      "Cultivating a Growth Mindset for Personal and Professional Development",
+    description:
+      "Track learning moments, effort, and small wins to build a mindset of perseverance.",
+  },
+  {
+    id: "crisis-coping-plan-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Crisis Coping Plan Checklist",
+    subtitle: "Creating a Personal Safety and Support Plan",
+    description:
+      "Build a personal safety and support plan for handling moments of emotional crisis.",
+  },
+  {
+    id: "resilient-thinking-habits-checklist",
+    categoryId: "checklistsToolkit",
+    title: "Resilient Thinking Habits Checklist",
+    subtitle: "Cultivating Positive Thinking Patterns",
+    description:
+      "Promote positive self-talk, reframe negative thoughts, and develop flexible thinking habits.",
+  },
+  {
+    id: "emotional-regulation-checklist",
     categoryId: "checklistsToolkit",
     title: "Emotional Regulation Checklist",
+    subtitle: "Strategies for Managing Emotions Effectively",
     description:
-      "A checklist of techniques and habits to help regulate emotions and build resilience in challenging moments.",
-    href: "/tools/emotional-regulation-checklist",
+      "Use calming strategies to stay centered and respond effectively during emotional stress.",
   },
   {
     id: "mental-health-checklist-6",
     categoryId: "checklistsToolkit",
     title: "Healthy Sleep Hygiene Checklist",
+    subtitle: "Building Healthy Sleep Routines",
     description:
       "A practical checklist to help you develop healthy sleep routines that support mental and emotional well-being.",
     href: "/tools/healthy-sleep-hygiene-checklist",
@@ -1359,6 +1637,7 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-7",
     categoryId: "checklistsToolkit",
     title: "Social Connection Checklist",
+    subtitle: "Building Meaningful Connections",
     description:
       "A checklist designed to strengthen your social support system and improve emotional connectedness.",
     href: "/tools/social-connection-checklist",
@@ -1367,6 +1646,7 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-8",
     categoryId: "checklistsToolkit",
     title: "Burnout Prevention Checklist",
+    subtitle: "Recognizing and Preventing Burnout",
     description:
       "A checklist to identify burnout symptoms early and incorporate strategies for sustainable self-care and recovery.",
     href: "/tools/burnout-prevention-checklist",
@@ -1375,6 +1655,7 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-9",
     categoryId: "checklistsToolkit",
     title: "Grounding Techniques Checklist",
+    subtitle: "Finding Calm in the Present Moment",
     description:
       "A set of grounding exercises organized into a checklist to help center yourself during anxiety or dissociation episodes.",
     href: "/tools/grounding-techniques-checklist",
@@ -1383,6 +1664,7 @@ const checklistsToolkit: Tool[] = [
     id: "mental-health-checklist-10",
     categoryId: "checklistsToolkit",
     title: "Positive Thinking Checklist",
+    subtitle: "Cultivating a Positive Mindset",
     description:
       "A checklist to foster a positive mindset by incorporating daily affirmations, gratitude, and optimistic habits.",
     href: "/tools/positive-thinking-checklist",
