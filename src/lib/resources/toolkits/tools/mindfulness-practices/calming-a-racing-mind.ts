@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const calmingARacingMind: MindfulnessPractices[] = [
+export const calmingARacingMind: Activity[] = [
   {
     title: "Visualization Journey",
     introduction:

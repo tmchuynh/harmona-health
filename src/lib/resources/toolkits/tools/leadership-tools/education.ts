@@ -141,4 +141,52 @@ export const education: ToolLinks[] = [
     image:
       "https://images.unsplash.com/photo-1706759755782-62bc9a0b32e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMHBvcnRmb2xpb3xlbnwwfDB8MHx8fDA%3D",
   },
+  {
+    title: "Pear Deck",
+    description:
+      "An interactive presentation tool that allows teachers to create engaging lessons with real-time feedback and student participation.",
+    href: "https://www.peardeck.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMHBvcnRmb2xpb3xlbnwwfDB8MHx8fDA%3D",
+  },
+  {
+    title: "Edpuzzle",
+    description:
+      "An interactive video platform that allows teachers to create and share engaging video lessons with embedded questions and assessments.",
+    href: "https://edpuzzle.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMHBvcnRmb2xpb3xlbnwwfDB8MHx8fDA%3D",
+  },
+  {
+    title: "Nearpod",
+    description:
+      "An interactive classroom tool that allows teachers to create engaging lessons with real-time feedback and student participation.",
+    href: "https://nearpod.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMHBvcnRmb2xpb3xlbnwwfDB8MHx8fDA%3D",
+  },
+  {
+    title: "Socrative",
+    description:
+      "An interactive student response system that allows teachers to create quizzes and polls for real-time feedback.",
+    href: "https://www.socrative.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U29jcmF0aXZlfGVufDB8MHwwfHx8MA%3D%3D",
+  },
+  {
+    title: "Padlet",
+    description:
+      "A digital canvas that allows students and teachers to collaborate, brainstorm, and share ideas in real-time.",
+    href: "https://padlet.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGFkbGV0fGVufDB8MHwwfHx8MA%3D%3D",
+  },
+  {
+    title: "ClassDojo",
+    description:
+      "A classroom management tool that helps teachers communicate with students and parents, track behavior, and share updates.",
+    href: "https://www.classdojo.com",
+    image:
+      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2xhc3N8ZW58MHwwfDB8fHww",
+  },
 ];

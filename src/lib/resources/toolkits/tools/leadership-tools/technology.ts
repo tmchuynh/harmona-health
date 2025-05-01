@@ -17,6 +17,20 @@ export const technology: ToolLinks[] = [
       "https://images.seeklogo.com/logo-png/48/1/meilisearch-logo-png_seeklogo-482367.png",
   },
   {
+    title: "Shopify Analytics",
+    description:
+      "A built-in analytics tool for Shopify merchants that provides insights into store performance, customer behavior, and sales trends.",
+    href: "https://www.shopify.com/analytics",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+  },
+  {
+    title: "Google Search Console",
+    description:
+      "A web service that helps retailers monitor and maintain their site's presence in Google search results.",
+    href: "https://search.google.com/search-console",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+  },
+  {
     title: "Jira",
     description:
       "A popular project management tool for software teams that helps track issues, projects, and workflows.",

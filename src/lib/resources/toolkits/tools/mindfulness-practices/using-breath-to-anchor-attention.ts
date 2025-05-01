@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const usingBreathToAnchorAttention: MindfulnessPractices[] = [
+export const usingBreathToAnchorAttention: Activity[] = [
   {
     title: "Box Breathing",
     introduction:

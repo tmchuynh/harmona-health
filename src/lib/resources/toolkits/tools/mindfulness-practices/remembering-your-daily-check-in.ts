@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const rememberingYourDailyCheckIn: MindfulnessPractices[] = [
+export const rememberingYourDailyCheckIn: Activity[] = [
   {
     title: "Morning Self-Scan",
     introduction:

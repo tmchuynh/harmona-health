@@ -71,4 +71,60 @@ export const healthcare: ToolLinks[] = [
     href: "https://www.redoxengine.com",
     image: "https://images.unsplash.com/photo-1573497491207-9b9f0cc2e9eb",
   },
+  {
+    title: "Health Catalyst",
+    description:
+      "A data and analytics technology company that provides solutions to improve healthcare outcomes.",
+    href: "https://www.healthcatalyst.com",
+    image: "https://images.unsplash.com/photo-1583501561157-daf143318e5e",
+  },
+  {
+    title: "Health Gorilla",
+    description:
+      "A health information network that connects healthcare providers to share patient data securely.",
+    href: "https://www.healthgorilla.com",
+    image: "https://images.unsplash.com/photo-1583501561157-daf143318e5e",
+  },
+  {
+    title: "SimplePractice",
+    description:
+      "A practice management software designed for health and wellness professionals to manage their practices efficiently.",
+    href: "https://www.simplepractice.com",
+    image: "https://images.unsplash.com/photo-1586311631444-bf0a42e31556",
+  },
+  {
+    title: "HealthTap",
+    description:
+      "A telehealth platform that connects patients with doctors for virtual consultations and health advice.",
+    href: "https://www.healthtap.com",
+    image: "https://images.unsplash.com/photo-1516320867451-e1a66a60b3f1",
+  },
+  {
+    title: "MD Tech",
+    description:
+      "A technology company that provides software solutions for healthcare providers to enhance patient care.",
+    href: "https://www.mdtech.com",
+    image: "https://images.unsplash.com/photo-1586311631444-bf0a42e31556",
+  },
+  {
+    title: "Qventus",
+    description:
+      "An AI-powered platform that helps hospitals optimize operations and improve patient flow.",
+    href: "https://www.qventus.com",
+    image: "https://images.unsplash.com/photo-1516320867451-e1a66a60b3f1",
+  },
+  {
+    title: "Healthify",
+    description:
+      "A platform that connects healthcare providers with social services to address social determinants of health.",
+    href: "https://www.healthify.us",
+    image: "https://images.unsplash.com/photo-1586311631444-bf0a42e31556",
+  },
+  {
+    title: "CareSync",
+    description:
+      "A patient engagement platform that helps patients manage their health information and coordinate care.",
+    href: "https://www.caresync.com",
+    image: "https://images.unsplash.com/photo-1583501561157-daf143318e5e",
+  },
 ];

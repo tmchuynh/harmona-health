@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const doingASensoryReset: MindfulnessPractices[] = [
+export const doingASensoryReset: Activity[] = [
   {
     title: "Temperature Contrast Reset",
     introduction:

@@ -17,6 +17,13 @@ export const finance: ToolLinks[] = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFjY291bnRpbmd8ZW58MHwwfDB8fHww",
   },
   {
+    title: "Shopify POS",
+    description:
+      "A point-of-sale system that integrates with Shopify's e-commerce platform, allowing retailers to manage in-store and online sales seamlessly.",
+    href: "https://www.shopify.com/pos",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+  },
+  {
     title: "YNAB (You Need A Budget)",
     description:
       "A proactive budgeting app that encourages intentional spending by assigning every dollar a job.",

@@ -10,6 +10,13 @@ export const hospitality: ToolLinks[] = [
       "https://plus.unsplash.com/premium_photo-1681491777884-70dd799fd210?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjBtYW5hZ2VtZW50fGVufDB8MHwwfHx8MA%3D%3D",
   },
   {
+    title: "Zendesk",
+    description:
+      "A customer service platform that helps manage customer inquiries, support tickets, and feedback.",
+    href: "https://www.zendesk.com",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+  },
+  {
     title: "Checkmate",
     description:
       "A cloud-based hotel booking engine and channel manager that integrates with property management systems to drive direct bookings.",

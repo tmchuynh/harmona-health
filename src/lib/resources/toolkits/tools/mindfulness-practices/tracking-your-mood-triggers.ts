@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const trackingYourMoodTriggers: MindfulnessPractices[] = [
+export const trackingYourMoodTriggers: Activity[] = [
   {
     title: "Mood Logging",
     introduction:

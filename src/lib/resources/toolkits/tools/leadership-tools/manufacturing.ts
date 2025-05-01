@@ -71,4 +71,32 @@ export const manufacturing: ToolLinks[] = [
     href: "https://www.essensys.com/iqms-manufacturing-erp",
     image: "https://images.unsplash.com/photo-1582993771205-d124d9ef1739",
   },
+  {
+    title: "NetSuite Manufacturing Edition",
+    description:
+      "A cloud-based ERP solution tailored for manufacturers, offering tools for production planning, inventory management, and financials.",
+    href: "https://www.netsuite.com",
+    image: "https://images.unsplash.com/photo-1582993771205-d124d9ef1739",
+  },
+  {
+    title: "Epicor ERP",
+    description:
+      "An ERP solution designed for manufacturing, providing tools for production management, supply chain, and financials.",
+    href: "https://www.epicor.com/",
+    image: "https://images.unsplash.com/photo-1582993771205-d124d9ef1739",
+  },
+  {
+    title: "Infor CloudSuite Industrial",
+    description:
+      "A cloud-based ERP solution for manufacturers, offering tools for production planning, inventory management, and financials.",
+    href: "https://www.infor.com",
+    image: "https://images.unsplash.com/photo-1582993771205-d124d9ef1739",
+  },
+  {
+    title: "Blue Yonder",
+    description:
+      "A supply chain management software that helps manufacturers optimize inventory, production, and logistics.",
+    href: "https://www.blueyonder.com",
+    image: "https://images.unsplash.com/photo-1582993771205-d124d9ef1739",
+  },
 ];

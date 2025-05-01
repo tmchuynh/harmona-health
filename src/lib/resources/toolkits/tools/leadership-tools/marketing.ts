@@ -16,11 +16,25 @@ export const marketing: ToolLinks[] = [
     image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
   },
   {
+    title: "Google Ads",
+    description:
+      "An online advertising platform that allows retailers to create and manage ads across Google's search and display networks.",
+    href: "https://ads.google.com",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+  },
+  {
     title: "ManyChat",
     description:
       "A marketing automation platform for Facebook Messenger and Instagram that allows you to build conversational chatbots for lead capture and engagement.",
     href: "https://manychat.com",
     image: "https://images.unsplash.com/photo-1585241936934-68393c5f63c4",
+  },
+  {
+    title: "SEMrush",
+    description:
+      "An all-in-one marketing toolkit for digital marketing professionals, providing tools for SEO, PPC, content marketing, and social media.",
+    href: "https://www.semrush.com",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
   },
   {
     title: "Mailchimp",
@@ -154,6 +168,13 @@ export const marketing: ToolLinks[] = [
       "A widely-used social media management tool that allows businesses to schedule posts, track social media analytics, and engage with customers.",
     href: "https://hootsuite.com",
     image: "https://images.unsplash.com/photo-1516742125243-7c08e28b2b34",
+  },
+  {
+    title: "Ahrefs",
+    description:
+      "An SEO toolset that helps analyze their website's performance, track keywords, and conduct competitor research.",
+    href: "https://ahrefs.com",
+    image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
   },
   {
     title: "Notion for Marketing",
