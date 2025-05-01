@@ -2,8 +2,8 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { useToolContext } from "@/context/toolContext";
 import { getToolResource } from "@/lib/utils";
-import { capitalize, formatUrlToID } from "@/lib/utils/format";
-import { useState, useEffect } from "react";
+import { formatUrlToID } from "@/lib/utils/format";
+import { useEffect, useState } from "react";
 
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
@@ -36,7 +36,7 @@ export default function Page() {
   }
 
   if (loading) {
-    return <div>Loading affirmation cards...</div>;
+    return <div>Loading...</div>;
   }
 
   const handleCheckChange = (item: string, checked: boolean) => {
