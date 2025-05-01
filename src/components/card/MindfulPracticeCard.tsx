@@ -4,21 +4,40 @@ import React from "react";
 const MindfulPracticeCard = ({ data }: { data: MindfulnessPractices }) => {
   return (
     <div className="bg-card shadow-md mx-auto p-9 rounded-lg">
+      <div className="flex justify-between items-center">
+        {data.difficulty && (
+          <div className="flex items-center gap-3">
+            <h5 className="mb-0">Difficulty:</h5>
+            <p>{data.difficulty}</p>
+          </div>
+        )}
+
+        {data.approximateTime && (
+          <div className="flex items-center gap-3">
+            <p>~ {data.approximateTime}</p>
+          </div>
+        )}
+      </div>
+
       <h1 className="font-bold text-2xl">{data.title}</h1>
 
       <p>{data.introduction}</p>
 
       <div className="my-3">
-        <div className="flex items-center gap-3">
-          <h5 className="mb-0">Approximate Time:</h5>
-          <p>{data.approximateTime}</p>
-        </div>
-
-        <div className="flex items-center gap-3">
-          <h5 className="mb-0">Frequency:</h5>
-          <p>{data.frequency}</p>
-        </div>
+        {data.frequency && (
+          <div className="flex items-center gap-3">
+            <h5 className="mb-0">Frequency:</h5>
+            <p>{data.frequency}</p>
+          </div>
+        )}
       </div>
+
+      {data.howToStart && (
+        <div className="my-3">
+          <h3>How to Start:</h3>
+          <p>{data.howToStart}</p>
+        </div>
+      )}
 
       {data.useCases && (
         <div className="mb-6">
@@ -37,7 +56,9 @@ const MindfulPracticeCard = ({ data }: { data: MindfulnessPractices }) => {
           {data.steps.map((step, index) => (
             <li key={index}>
               <p>
-                <strong>{step.step.title}: </strong>
+                {step.step.title && (
+                  <strong>{step.step.title.replace(".", "")}: </strong>
+                )}
                 {step.step.description}
               </p>
 
