@@ -117,8 +117,8 @@ export interface Activity {
   difficulty?: string;
   howToStart?: string[];
   useCases?: string[];
-  frequency: string;
-  approximateTime: string;
+  frequency?: string;
+  approximateTime?: string;
   steps: Step[];
   conclusion: string;
   afterThoughts?: string;
