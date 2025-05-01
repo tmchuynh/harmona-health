@@ -1,18 +1,18 @@
 "use client";
 
 import CardFlip from "@/components/card/CardFlip";
-import { useToolContext } from "@/context/toolContext";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { getRandomIndex, getToolResource } from "@/lib/utils";
-import { AffirmationCards } from "@/lib/interfaces&types/resources";
-import { useEffect, useState } from "react";
-import { formatUrlToID } from "@/lib/utils/format";
+import { useToolContext } from "@/context/toolContext";
 import { icons } from "@/lib/constants/constants";
+import { AffirmationCards } from "@/lib/interfaces&types/resources";
+import { getRandomIndex, getToolResource } from "@/lib/utils";
+import { formatUrlToID } from "@/lib/utils/format";
+import { useEffect, useState } from "react";
 
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
@@ -40,7 +40,7 @@ export default function Page() {
   }
 
   if (loading) {
-    return <div>Loading affirmation cards...</div>;
+    return <div>Loading...</div>;
   }
 
   return (
