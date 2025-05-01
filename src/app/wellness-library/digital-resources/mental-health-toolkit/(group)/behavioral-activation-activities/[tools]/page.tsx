@@ -1,15 +1,15 @@
 "use client";
 
-import BehavioralActivitiesCard from "@/components/card/BehavioralActivitiesCard";
+import ActivityCard from "@/components/card/ActivityCard";
 import { useToolContext } from "@/context/toolContext";
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<BehavioralActivities[]>([]);
+  const [toolData, setToolData] = useState<Activity[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,7 +40,7 @@ export default function Page() {
 
       <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
         {toolData.map((activity, index) => (
-          <BehavioralActivitiesCard key={index} data={activity} />
+          <ActivityCard key={index} data={activity} />
         ))}
       </section>
     </div>

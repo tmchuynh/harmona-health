@@ -1,5 +1,5 @@
 "use client";
-import MindfulPracticeCard from "@/components/card/MindfulPracticeCard";
+import ActivityCard from "@/components/card/ActivityCard";
 import { useToolContext } from "@/context/toolContext";
 import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
@@ -39,7 +39,7 @@ export default function Page() {
 
       <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
         {toolData.map((data, index) => (
-          <MindfulPracticeCard data={data} key={index} />
+          <ActivityCard data={data} key={index} />
         ))}
       </section>
     </div>

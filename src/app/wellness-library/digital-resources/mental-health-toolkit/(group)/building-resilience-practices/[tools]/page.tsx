@@ -1,4 +1,5 @@
 "use client";
+import ActivityCard from "@/components/card/ActivityCard";
 import { useToolContext } from "@/context/toolContext";
 import { BehavioralActivities } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
@@ -35,6 +36,12 @@ export default function Page() {
         toolInformation.introduction.map((intro: string, index: number) => (
           <p key={index}>{intro}</p>
         ))}
+
+      <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
+        {toolData.map((activity, index) => (
+          <ActivityCard key={index} data={activity} />
+        ))}
+      </section>
     </div>
   );
 }

@@ -1,14 +1,14 @@
 "use client";
-import MindfulPracticeCard from "@/components/card/MindfulPracticeCard";
+import ActivityCard from "@/components/card/ActivityCard";
 import { useToolContext } from "@/context/toolContext";
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<MindfulnessPractices[]>([]);
+  const [toolData, setToolData] = useState<Activity[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,7 +39,7 @@ export default function Page() {
 
       <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
         {toolData.map((data, index) => (
-          <MindfulPracticeCard data={data} key={index} />
+          <ActivityCard data={data} key={index} />
         ))}
       </section>
     </div>

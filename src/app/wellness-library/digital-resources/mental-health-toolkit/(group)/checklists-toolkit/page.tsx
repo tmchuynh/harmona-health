@@ -45,7 +45,9 @@ export default function Page() {
   }, []);
 
   useEffect(() => {
-    const toolkitInformation = toolkit.find((toolkit) => toolkit.href === url);
+    const toolkitInformation = toolkit.find(
+      (toolkit) => toolkit.title === capitalize(tool)
+    );
     if (toolkitInformation) {
       setToolkitInformation(toolkitInformation);
     }
