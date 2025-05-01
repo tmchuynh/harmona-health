@@ -12,6 +12,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What specific actions or mindset helped you navigate that challenge successfully?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "What does resilience mean to me, and how do I embody it?",
@@ -22,6 +32,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What mindset or beliefs help you stay resilient in the face of adversity?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -33,6 +53,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you make affirmations a regular part of your routine to build resilience?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -44,6 +74,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you frame setbacks as learning opportunities rather than roadblocks?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -55,6 +95,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you develop and nurture these strengths even further?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -66,6 +116,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you break down large challenges into manageable steps to make them feel less intimidating?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "Who or what inspires me to keep going when life gets tough?",
@@ -76,6 +136,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What do you admire most about people who exhibit resilience, and how can you integrate these traits into your life?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -87,6 +157,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you create a habit of recognizing your accomplishments, no matter how small they seem?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "What self-care practices can help me build emotional resilience?",
@@ -97,6 +177,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can setting aside time for self-care make you more resilient in the long run?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -108,6 +198,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you use past successes as a reminder of your ability to endure and thrive?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -119,6 +219,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How does treating yourself with empathy and understanding contribute to your long-term resilience?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -130,6 +240,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What role do your values play in your ability to persevere and stay true to yourself during adversity?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "How can I cultivate a growth mindset to enhance my resilience?",
@@ -140,6 +260,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can a growth mindset help you become more adaptable and resilient in the face of adversity?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -151,6 +281,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What actions can you take to maintain resilience and foster understanding in your interactions with others?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "How can I stay motivated during times of uncertainty or change?",
@@ -161,6 +301,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you embrace change as an opportunity for growth and resilience?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -172,6 +322,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you create a personalized toolkit of coping strategies to support your emotional well-being?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -183,6 +343,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you encourage resilience in others while also prioritizing your own well-being?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -194,6 +364,16 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you practice vulnerability as a way to foster deeper connections and support?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "How can I use humor and laughter to build resilience in my life?",
@@ -204,5 +384,15 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What role does laughter play in your relationships, and how can it strengthen your connections with others?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
 ];

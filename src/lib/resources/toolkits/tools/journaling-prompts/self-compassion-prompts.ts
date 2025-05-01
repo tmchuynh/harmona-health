@@ -11,6 +11,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What is one thing you can forgive yourself for today, allowing more peace to enter your heart?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -22,6 +32,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What actions can you take to soothe your own heart the way you would for someone you care about?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -33,6 +53,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you replicate that feeling of gentleness in your daily life?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -44,6 +74,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you remind yourself to practice compassion instead of self-criticism in moments of doubt?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "What are three things I can appreciate about myself right now?",
@@ -54,6 +94,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How does appreciating yourself change how you feel about your current situation?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "What part of my body needs more love and care right now?",
@@ -64,6 +114,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How does nurturing your body allow you to feel more grounded and connected?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -75,6 +135,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can letting go of this burden bring you peace and freedom?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -86,6 +156,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What self-compassionate steps can you take today to ensure you are not rushing the journey?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -97,6 +177,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What impact could regularly practicing kind self-talk have on your mental well-being?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt: "How can I embrace my imperfections with love and acceptance?",
@@ -107,6 +197,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What shifts in perspective can you adopt to love yourself more fully in all your uniqueness?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
   {
     prompt:
@@ -118,5 +218,15 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What small changes can you make today to prioritize self-compassion in your life?",
     ],
     Icon: IoChatbubble,
+    gallery: {
+      data: [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
   },
 ];
