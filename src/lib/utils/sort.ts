@@ -466,3 +466,48 @@ export function filterByDateComparison<T>(
     return false;
   });
 }
+
+
+/**
+ * Selects a random subset of entries from an array.
+ * 
+ * @param array - The source array to select from
+ * @param count - The number of entries to randomly select
+ * @returns A new array containing the randomly selected entries
+ * 
+ * @example
+ * // Get 3 random strings
+ * const randomStrings = getRandomEntries(["apple", "banana", "cherry", "date", "elderberry"], 3);
+ * 
+ * @example
+ * // Get 2 random journal prompts
+ * const randomPrompts = getRandomEntries<JournalPrompts>(journalPrompts, 2);
+ * 
+ * @example
+ * // Get 5 random activities or fewer if the array doesn't have enough items
+ * const randomActivities = getRandomEntries<Activity>(activities, 5);
+ */
+export function getRandomEntries<T>(array: T[], count: number): T[] {
+  // Handle edge cases
+  if (!array || array.length === 0) {
+    return [];
+  }
+  
+  // Ensure count is not negative and not larger than the array length
+  count = Math.min(Math.max(0, count), array.length);
+  
+  if (count === 0) {
+    return [];
+  }
+  
+  // If we want all items, just create a copy of the array to avoid modifying the original
+  if (count === array.length) {
+    return [...array];
+  }
+  
+  // Create a copy of the array to avoid modifying the original
+  const shuffled = shuffleArray([...array]);
+  
+  // Return the first 'count' elements
+  return shuffled.slice(0, count);
+}
