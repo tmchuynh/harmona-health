@@ -143,7 +143,9 @@ export default function Page() {
         </section>
       )}
 
-      <MixedGallery />
+      {randomPrompt?.gallery && (
+        <MixedGallery data={randomPrompt.gallery.data} />
+      )}
     </div>
   );
 }
