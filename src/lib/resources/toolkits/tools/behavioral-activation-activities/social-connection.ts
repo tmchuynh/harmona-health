@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const socialConnection: BehavioralActivities[] = [
+export const socialConnection: Activity[] = [
   {
     title: "Virtual Storytelling Circle",
     introduction:
@@ -46,6 +46,52 @@ export const socialConnection: BehavioralActivities[] = [
     ],
     conclusion:
       "Storytelling circles provide a platform for deep emotional connection, fostering empathy and shared understanding in an interactive and supportive environment.",
+  },
+  {
+    title: "Outdoor Adventure Day",
+    introduction:
+      "Plan a day of outdoor activities with friends or family, such as hiking, biking, or picnicking, to strengthen social bonds through shared experiences.",
+    description:
+      "Outdoor adventures promote physical activity and provide opportunities for meaningful conversations and laughter, enhancing social connections in a relaxed environment.",
+    steps: [
+      {
+        step: {
+          title: "Choose an outdoor activity",
+          description:
+            "Select an outdoor activity that everyone enjoys (e.g., hiking, biking, or a picnic).",
+        },
+      },
+      {
+        step: {
+          title: "Plan the logistics",
+          description:
+            "Plan the logistics, including location, time, and any necessary equipment or supplies.",
+        },
+      },
+      {
+        step: {
+          title: "Invite friends or family",
+          description:
+            "Invite friends or family to join and encourage them to bring their own food or drinks.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in conversation",
+          description:
+            "As you enjoy the activity, engage in light-hearted conversation and share stories to deepen connections.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on the experience",
+          description:
+            "At the end of the day, reflect on the experience and how it strengthened your relationships.",
+        },
+      },
+    ],
+    conclusion:
+      "Outdoor adventure days create lasting memories and strengthen social bonds through shared experiences in nature.",
   },
   {
     title: "Virtual Dinner Party with a Theme",

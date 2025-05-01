@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const timeManagement: BehavioralActivities[] = [
+export const timeManagement: Activity[] = [
   {
     title: "Task Prioritization with ABCDE Method",
     introduction:
@@ -66,6 +66,172 @@ export const timeManagement: BehavioralActivities[] = [
       "Consider using the ABCDE Method daily to stay organized and on top of tasks. This practice can help you align your actions with your most significant goals.",
   },
   {
+    title: "The Eisenhower Box",
+    introduction:
+      "The Eisenhower Box is a simple yet effective tool for prioritizing tasks based on their urgency and importance. This method helps you focus on what truly matters and avoid distractions.",
+    description:
+      "By categorizing tasks into four quadrants, you can easily identify which tasks to tackle first, delegate, or eliminate altogether. This method is particularly useful for busy professionals looking to improve their time management skills.",
+    steps: [
+      {
+        step: {
+          title: "Identify Tasks",
+          description:
+            "List all tasks you need to complete, both personal and professional.",
+        },
+        note: "Include everything from daily tasks to long-term projects.",
+      },
+      {
+        step: {
+          title: "Categorize Tasks",
+          description:
+            "Divide tasks into four quadrants based on urgency and importance.",
+        },
+        note: "Quadrant 1: Urgent and Important (Do First), Quadrant 2: Important but Not Urgent (Schedule), Quadrant 3: Urgent but Not Important (Delegate), Quadrant 4: Neither Urgent nor Important (Eliminate).",
+      },
+      {
+        step: {
+          title: "Prioritize",
+          description:
+            "Focus your time and energy on tasks in Quadrant 1 and Quadrant 2.",
+        },
+        note: "These tasks are critical to your success.",
+      },
+      {
+        step: {
+          title: "Delegate or Eliminate",
+          description:
+            "Delegate tasks in Quadrant 3 and eliminate tasks in Quadrant 4.",
+        },
+        note: "This helps you free up time for more important activities.",
+      },
+      {
+        step: {
+          title: "Review Regularly",
+          description:
+            "Periodically reassess your task list and adjust priorities as needed.",
+        },
+        note: "As your goals evolve, the importance of tasks may change.",
+      },
+    ],
+    conclusion:
+      "The Eisenhower Box is a powerful tool for organizing your tasks by priority and focusing your efforts on what truly matters. By identifying and acting on the most important tasks, you can improve your productivity and reduce stress.",
+    afterThoughts:
+      "Remember, prioritization is key. By continually reassessing tasks, you'll gain clarity on what deserves your attention and ensure you’re spending your time in ways that align with your goals.",
+  },
+  {
+    title: "The 1-3-5 Rule",
+    introduction:
+      "The 1-3-5 Rule is a simple yet effective time management technique that helps you prioritize your daily tasks. The idea is to choose one big task, three medium tasks, and five small tasks to accomplish each day.",
+    description:
+      "By limiting the number of tasks you focus on, you can avoid feeling overwhelmed and ensure that you're making progress on your most important goals. This method encourages you to be realistic about what you can achieve in a day.",
+    steps: [
+      {
+        step: {
+          title: "Identify Tasks",
+          description: "List all the tasks you want to accomplish for the day.",
+        },
+        note: "Include both personal and professional tasks.",
+      },
+      {
+        step: {
+          title: "Categorize Tasks",
+          description:
+            "Choose one big task, three medium tasks, and five small tasks from your list.",
+        },
+        note: "This helps you focus on what truly matters.",
+      },
+      {
+        step: {
+          title: "Set Priorities",
+          description:
+            "Prioritize the tasks based on their importance and urgency.",
+        },
+        note: "Focus on completing the big task first.",
+      },
+      {
+        step: {
+          title: "Schedule Time Blocks",
+          description:
+            "Allocate specific time blocks for each task throughout the day.",
+        },
+        note: "This helps you stay organized and focused.",
+      },
+      {
+        step: {
+          title: "Review Progress",
+          description:
+            "At the end of the day, review what you've accomplished and adjust your list for the next day.",
+        },
+        note: "Reflect on what worked well and what needs improvement.",
+      },
+    ],
+    conclusion:
+      "The 1-3-5 Rule is an effective way to prioritize your daily tasks and ensure that you're making progress on your most important goals. By focusing on a limited number of tasks, you can avoid feeling overwhelmed and stay productive.",
+    afterThoughts:
+      "Consider using this method daily to help you stay organized and focused. Over time, you'll find it easier to manage your time effectively.",
+  },
+  {
+    title: "The Two-Minute Rule",
+    introduction:
+      "The Two-Minute Rule is a simple yet effective time management technique that suggests if a task takes two minutes or less to complete, do it immediately. This method helps you avoid procrastination and keep your to-do list manageable.",
+    description:
+      "By tackling small tasks right away, you prevent them from piling up and becoming overwhelming. This technique is particularly useful for busy professionals looking to improve their productivity.",
+    steps: [
+      {
+        step: {
+          title: "Identify Small Tasks",
+          description:
+            "Look for tasks that can be completed in two minutes or less.",
+        },
+        note: "These could include responding to an email, making a quick phone call, or tidying up a small area.",
+      },
+      {
+        step: {
+          title: "Do It Now",
+          description:
+            "If the task takes two minutes or less, do it immediately.",
+        },
+        note: "This prevents small tasks from piling up and becoming overwhelming.",
+      },
+      {
+        step: {
+          title: "Prioritize Larger Tasks",
+          description:
+            "For tasks that take longer than two minutes, prioritize them based on urgency and importance.",
+        },
+        note: "Use other time management techniques to tackle larger tasks effectively.",
+      },
+      {
+        step: {
+          title: "Stay Consistent",
+          description:
+            "Make the Two-Minute Rule a habit by applying it consistently throughout your day.",
+        },
+        note: "The more you practice this rule, the easier it becomes to tackle small tasks immediately.",
+      },
+      {
+        step: {
+          title: "Reflect",
+          description:
+            "At the end of the day, reflect on how many small tasks you completed using the Two-Minute Rule.",
+        },
+        note: "Consider how this practice has helped you stay organized and productive.",
+      },
+      {
+        step: {
+          title: "Adjust as Needed",
+          description:
+            "Feel free to adjust the time limit based on your preferences and workload.",
+        },
+        note: "Some people find that a longer or shorter time frame works better for them.",
+      },
+    ],
+    conclusion:
+      "The Two-Minute Rule is a simple yet effective way to improve your time management skills. By tackling small tasks immediately, you can prevent them from piling up and stay focused on your larger goals.",
+    afterThoughts:
+      "Consider using this technique daily to help you stay organized and productive. Over time, you'll find it easier to manage your time effectively.",
+  },
+  {
     title: "The Seinfeld Strategy (Don't Break the Chain)",
     introduction:
       "This technique, inspired by comedian Jerry Seinfeld, is a simple yet powerful way to build consistency in your habits. The idea is to set a daily goal and mark each day you accomplish it with an X. The goal is to never break the chain.",
@@ -114,6 +280,111 @@ export const timeManagement: BehavioralActivities[] = [
       "The Seinfeld Strategy is a powerful visual motivator that helps you stay consistent. By tracking progress and never wanting to break the chain, you’ll build good habits and work toward long-term success.",
     afterThoughts:
       "This strategy works well for both personal and professional goals, so whether you’re trying to build a fitness routine or a creative habit, it's a great tool to keep you motivated.",
+  },
+  {
+    title: "The Ivy Lee Method",
+    introduction:
+      "The Ivy Lee Method is a simple yet effective time management technique that helps you prioritize your tasks for the day. This method encourages you to focus on the most important tasks and avoid distractions.",
+    description:
+      "By identifying the six most important tasks you need to accomplish each day, you can stay organized and focused on what truly matters. This technique is particularly useful for busy professionals looking to improve their productivity.",
+    steps: [
+      {
+        step: {
+          title: "List Your Tasks",
+          description:
+            "At the end of each day, write down the six most important tasks you need to accomplish the next day.",
+        },
+        note: "Be specific about what you want to achieve.",
+      },
+      {
+        step: {
+          title: "Prioritize",
+          description:
+            "Rank the tasks in order of importance, with the most important task at the top.",
+        },
+        note: "This helps you focus on what truly matters.",
+      },
+      {
+        step: {
+          title: "Start with Task 1",
+          description:
+            "The next day, start with the first task on your list and work on it until it's completed.",
+        },
+        note: "Avoid distractions and stay focused on this task.",
+      },
+      {
+        step: {
+          title: "Move to Task 2",
+          description:
+            "Once you've completed Task 1, move on to Task 2 and repeat the process.",
+        },
+        note: "Continue this process until all tasks are completed.",
+      },
+      {
+        step: {
+          title: "Review Progress",
+          description:
+            "At the end of the day, review what you've accomplished and adjust your list for the next day.",
+        },
+        note: "Reflect on what worked well and what needs improvement.",
+      },
+    ],
+    conclusion:
+      "The Ivy Lee Method is an effective way to prioritize your daily tasks and ensure that you're making progress on your most important goals. By focusing on a limited number of tasks, you can avoid feeling overwhelmed and stay productive.",
+    afterThoughts:
+      "Consider using this method daily to help you stay organized and focused. Over time, you'll find it easier to manage your time effectively.",
+  },
+  {
+    title: "The 1-2-3 Method",
+    introduction:
+      "The 1-2-3 Method is a simple time management technique that helps you prioritize your tasks for the day. The idea is to choose one big task, two medium tasks, and three small tasks to accomplish each day.",
+    description:
+      "By limiting the number of tasks you focus on, you can avoid feeling overwhelmed and ensure that you're making progress on your most important goals. This method encourages you to be realistic about what you can achieve in a day.",
+    steps: [
+      {
+        step: {
+          title: "Identify Tasks",
+          description: "List all the tasks you want to accomplish for the day.",
+        },
+        note: "Include both personal and professional tasks.",
+      },
+      {
+        step: {
+          title: "Categorize Tasks",
+          description:
+            "Choose one big task, two medium tasks, and three small tasks from your list.",
+        },
+        note: "This helps you focus on what truly matters.",
+      },
+      {
+        step: {
+          title: "Set Priorities",
+          description:
+            "Prioritize the tasks based on their importance and urgency.",
+        },
+        note: "Focus on completing the big task first.",
+      },
+      {
+        step: {
+          title: "Schedule Time Blocks",
+          description:
+            "Allocate specific time blocks for each task throughout the day.",
+        },
+        note: "This helps you stay organized and focused.",
+      },
+      {
+        step: {
+          title: "Review Progress",
+          description:
+            "At the end of the day, review what you've accomplished and adjust your list for the next day.",
+        },
+        note: "Reflect on what worked well and what needs improvement.",
+      },
+    ],
+    conclusion:
+      "The 1-2-3 Method is an effective way to prioritize your daily tasks and ensure that you're making progress on your most important goals. By focusing on a limited number of tasks, you can avoid feeling overwhelmed and stay productive.",
+    afterThoughts:
+      "Consider using this method daily to help you stay organized and focused. Over time, you'll find it easier to manage your time effectively.",
   },
   {
     title: "The 80/20 Rule (Pareto Principle)",

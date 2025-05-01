@@ -39,12 +39,32 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
   },
   {
     prompt:
+      "What are my personal goals, and how can I stay resilient in pursuing them?",
+    ideas: [
+      "Write about your personal goals and aspirations, both short-term and long-term.",
+      "How can you maintain resilience and motivation as you work toward these goals?",
+      "What obstacles do you anticipate, and how can you prepare to overcome them?",
+      "How can you celebrate your progress along the way to stay motivated and resilient?",
+    ],
+  },
+  {
+    prompt:
       "What does success look like to me, both internally and externally?",
     ideas: [
       "Write about your vision of success — what does it feel like emotionally, mentally, and physically?",
       "What external accomplishments or milestones signify success in your life?",
       "What does success look like on a deeper, internal level (e.g., peace, confidence, fulfillment)?",
       "How do you balance internal and external success?",
+    ],
+  },
+  {
+    prompt:
+      "What are some lessons I’ve learned from past challenges that can guide me in the future?",
+    ideas: [
+      "Reflect on the lessons you’ve learned from overcoming challenges in your life.",
+      "How can these lessons inform your approach to future obstacles?",
+      "What wisdom have you gained that can help you navigate difficult situations with resilience?",
+      "How can you apply these lessons to your current circumstances to foster growth and strength?",
     ],
   },
   {

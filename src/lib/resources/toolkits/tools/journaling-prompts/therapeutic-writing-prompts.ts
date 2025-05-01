@@ -226,4 +226,34 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "How will changing this habit or mindset improve your well-being?",
     ],
   },
+  {
+    prompt:
+      "Reflect on a time when you felt truly connected to someone. What made that connection special?",
+    ideas: [
+      "Who was the person, and what was the context of your connection?",
+      "What emotions did you experience during this moment of connection?",
+      "How did this connection impact your relationship with that person?",
+      "What qualities or actions contributed to this deep connection?",
+      "How can you cultivate more meaningful connections in your life?",
+      "What role does vulnerability play in building connections?",
+      "How can you express gratitude for the connections you have?",
+      "What lessons about connection can you apply to future relationships?",
+      "How does feeling connected to others enhance your overall well-being?",
+    ],
+  },
+  {
+    prompt:
+      "Think about a time you felt truly authentic. What were you doing, and how did it feel to be your true self?",
+    ideas: [
+      "What activities or situations allow you to express your authentic self?",
+      "How does being authentic impact your relationships with others?",
+      "What fears or doubts prevent you from being your true self?",
+      "How can you create more opportunities for authenticity in your life?",
+      "What does authenticity mean to you on a personal level?",
+      "How can you encourage others to embrace their authenticity?",
+      "What role does self-acceptance play in living authentically?",
+      "How can you celebrate your unique qualities and experiences?",
+      "What steps can you take to align your actions with your true self?",
+    ],
+  },
 ];

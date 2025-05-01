@@ -412,4 +412,59 @@ export const cultivatingForgiveness: Activity[] = [
     approximateTime: "60–90 minutes",
     frequency: "Monthly or quarterly",
   },
+  {
+    title: "Forgiveness Meditation",
+    introduction:
+      "This guided meditation practice helps you cultivate compassion and emotional release toward yourself or others. It can be done individually or in a group setting.",
+    description:
+      "Meditation allows you to focus on the present moment, creating space for emotional healing. This practice encourages self-reflection and emotional release, helping you let go of resentment and anger.",
+    steps: [
+      {
+        step: {
+          title: "Find a quiet space",
+          description:
+            "Sit comfortably in a quiet place where you won’t be disturbed. Close your eyes and take a few deep breaths to center yourself.",
+        },
+      },
+      {
+        step: {
+          title: "Focus on your breath",
+          description:
+            "Take a few moments to focus on your breath, allowing your mind to settle. Inhale deeply through your nose and exhale slowly through your mouth.",
+        },
+      },
+      {
+        step: {
+          title: "Visualize the person or situation",
+          description:
+            "Bring to mind the person or situation you wish to forgive. Allow any emotions that arise to surface without judgment.",
+        },
+      },
+      {
+        step: {
+          title: "Send compassion and understanding",
+          description:
+            "Visualize sending love, compassion, and understanding toward the person or situation. Repeat phrases like 'I forgive you' or 'I release this pain.'",
+        },
+      },
+      {
+        step: {
+          title: "Close with gratitude",
+          description:
+            "Take a few deep breaths and express gratitude for the healing process. Open your eyes when you feel ready.",
+        },
+      },
+    ],
+    conclusion:
+      "Forgiveness meditation helps create emotional distance from pain, allowing for healing and growth.",
+    afterThoughts: "Practice this regularly to reinforce emotional resilience.",
+    difficulty: "Moderate",
+    howToStart: [
+      "Set aside 15–20 minutes in a quiet space where you can sit comfortably without distractions.",
+      "Use calming music or a guided meditation app if desired.",
+    ],
+    useCases: ["Emotional release", "Stress reduction", "Self-compassion"],
+    approximateTime: "15–20 minutes",
+    frequency: "Weekly or as needed",
+  },
 ];

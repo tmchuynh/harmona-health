@@ -175,4 +175,67 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can protecting your energy allow you to nurture your emotional well-being and practice self-care?",
     ],
   },
+  {
+    prompt:
+      "What does emotional safety mean to me, and how can I create it in my life?",
+    ideas: [
+      "Reflect on what emotional safety looks like in your relationships and environments.",
+      "How can you cultivate emotional safety for yourself and others through open communication and trust?",
+      "What steps can you take to create a safe space for vulnerability and emotional expression?",
+    ],
+  },
+  {
+    prompt:
+      "How can I practice self-compassion when I’m feeling overwhelmed or stressed?",
+    ideas: [
+      "Think about moments when you’ve felt overwhelmed and how you responded to yourself.",
+      "What self-compassionate practices (e.g., deep breathing, positive affirmations) can you use to soothe yourself during stressful times?",
+      "How can you remind yourself that it’s okay to feel overwhelmed and that you deserve kindness in those moments?",
+    ],
+  },
+  {
+    prompt:
+      "What does it mean to me to be emotionally resilient, and how can I cultivate that resilience?",
+    ideas: [
+      "Reflect on times when you’ve bounced back from emotional challenges or setbacks.",
+      "What qualities or practices contribute to your emotional resilience, such as mindfulness, support systems, or self-care?",
+      "How can you strengthen your emotional resilience moving forward, especially during difficult times?",
+    ],
+  },
+  {
+    prompt:
+      "How can I embrace change and uncertainty as part of my emotional healing journey?",
+    ideas: [
+      "Consider how change and uncertainty have impacted your emotional well-being in the past.",
+      "What practices (e.g., mindfulness, acceptance) can help you navigate change with grace and resilience?",
+      "How can you view change as an opportunity for growth and transformation rather than a source of fear?",
+    ],
+  },
+  {
+    prompt:
+      "What does it mean to me to be emotionally authentic, and how can I express that?",
+    ideas: [
+      "Reflect on what emotional authenticity looks like in your life and relationships.",
+      "How can you practice being true to your emotions, even when it feels uncomfortable?",
+      "What steps can you take to create a safe space for emotional expression and authenticity?",
+    ],
+  },
+  {
+    prompt:
+      "What does emotional healing mean to me, and how can I embrace it in my life?",
+    ideas: [
+      "Reflect on your understanding of emotional healing and its importance in your life.",
+      "What practices or rituals can you incorporate into your routine to support your emotional healing journey?",
+      "How can you remind yourself that healing is a process, and it’s okay to take it one step at a time?",
+    ],
+  },
+  {
+    prompt:
+      "How can I create a supportive environment for my emotional healing journey?",
+    ideas: [
+      "Consider the people, spaces, and practices that contribute to your emotional well-being.",
+      "What changes can you make to your environment (e.g., decluttering, surrounding yourself with positive influences) to support your healing?",
+      "How can you cultivate a sense of safety and comfort in your surroundings to facilitate emotional growth?",
+    ],
+  },
 ];

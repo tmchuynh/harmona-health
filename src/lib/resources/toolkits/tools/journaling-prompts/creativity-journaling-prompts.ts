@@ -174,4 +174,24 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lesson do they take away that will help them in the future?",
     ],
   },
+  {
+    prompt: "Write about a time you took a risk and what happened.",
+    ideas: [
+      "What was the risk you took, and what motivated you to take it?",
+      "How did you feel before, during, and after taking the risk?",
+      "What were the consequences of your decision—positive, negative, or both?",
+      "What did you learn from this experience about yourself or life in general?",
+      "Would you take the same risk again? Why or why not?",
+    ],
+  },
+  {
+    prompt: "Write about a time you felt completely out of your comfort zone.",
+    ideas: [
+      "What was the situation, and how did you feel going into it?",
+      "What challenges did you face, and how did you cope with them?",
+      "What did you learn about yourself during this experience?",
+      "How did this experience change your perspective on comfort zones?",
+      "Would you willingly put yourself in a similar situation again? Why or why not?",
+    ],
+  },
 ];

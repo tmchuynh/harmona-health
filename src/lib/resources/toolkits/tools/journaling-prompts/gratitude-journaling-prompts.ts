@@ -10,11 +10,54 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
     ],
   },
   {
+    prompt:
+      "How can I practice gratitude to enhance my resilience and perspective?",
+    ideas: [
+      "Reflect on the role of gratitude in your life and how it can help you stay positive during tough times.",
+      "What are some things you’re grateful for, even in challenging situations?",
+      "How can practicing gratitude shift your perspective and help you build resilience?",
+      "What daily gratitude practices can you incorporate into your routine to support your emotional well-being?",
+    ],
+  },
+  {
+    prompt: "Write a letter to someone who has inspired you.",
+    ideas: [
+      "What qualities or actions of this person have inspired you?",
+      "How has this person influenced your life or perspective?",
+      "What specific moments or lessons do you want to thank them for?",
+      "How do you hope to carry their inspiration into your own life?",
+    ],
+  },
+  {
+    prompt:
+      "How can I practice gratitude as a tool for emotional healing and growth?",
+    ideas: [
+      "Think about how gratitude has helped you shift your perspective during difficult times.",
+      "What gratitude practices (e.g., journaling, expressing thanks) can you incorporate into your daily life?",
+      "How can cultivating gratitude support your emotional healing journey and enhance your well-being?",
+    ],
+  },
+  {
     prompt: "How has gratitude positively impacted my life so far?",
     ideas: [
       "Reflect on the moments when focusing on gratitude helped shift your perspective.",
       "How has practicing gratitude affected your relationships, health, or sense of well-being?",
       "In what ways has being grateful influenced your mindset, especially in challenging situations?",
+    ],
+  },
+  {
+    prompt:
+      "Write about a time you felt a deep sense of gratitude. What were you grateful for, and how did it impact your perspective?",
+    ideas: [
+      "What specific event or experience triggered this feeling of gratitude?",
+      "How did this moment change your outlook on life?",
+      "What emotions did you experience during this moment of gratitude?",
+      "How can you cultivate more moments of gratitude in your daily life?",
+      "What role does gratitude play in your overall well-being?",
+      "How can you express gratitude to others in meaningful ways?",
+      "What lessons about appreciation have you learned from this experience?",
+      "How can you shift your mindset to focus on gratitude more often?",
+      "What practices can help you maintain a grateful heart?",
     ],
   },
   {

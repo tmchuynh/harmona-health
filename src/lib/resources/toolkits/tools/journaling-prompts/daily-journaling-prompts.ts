@@ -20,6 +20,16 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     ],
   },
   {
+    prompt: "Write about a time you felt truly connected to someone.",
+    ideas: [
+      "What was the situation, and how did this connection manifest?",
+      "What emotions did you experience during this moment of connection?",
+      "How did this connection impact your relationship with that person?",
+      "What lessons did you learn about connection and intimacy?",
+      "How can you cultivate more moments of connection in your life?",
+    ],
+  },
+  {
     prompt: "If I could talk to my younger self, what would I say?",
     ideas: [
       "Write a letter to your younger self with advice and encouragement.",

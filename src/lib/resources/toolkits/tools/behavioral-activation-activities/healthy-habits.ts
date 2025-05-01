@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const healthyHabits: BehavioralActivities[] = [
+export const healthyHabits: Activity[] = [
   {
     title: "Establish a Morning Routine",
     introduction:

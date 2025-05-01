@@ -1,19 +1,44 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const coreBeliefExercise: MindfulnessPractices[] = [
+export const coreBeliefExercise: Activity[] = [
   {
     title: "Identifying Limiting Core Beliefs",
     introduction:
       "This exercise supports you in uncovering and labeling your core beliefs, particularly those that contribute to emotional suffering.",
     steps: [
-      { step: "Write down repetitive negative thoughts you experience." },
       {
-        step: "Ask yourself what belief lies underneath those thoughts (e.g., 'I’m not good enough').",
+        step: {
+          title: "Reflect on a recent emotional trigger",
+          description:
+            "Think of a moment when you felt strong negative emotions.",
+        },
       },
-      { step: "Group similar thoughts under broad belief categories." },
-      { step: "Write a list of top 3 limiting core beliefs." },
       {
-        step: "Reflect on how each belief developed and how it affects your life today.",
+        step: {
+          title: "Identify the thought",
+          description:
+            "Write down the specific thought you had about yourself in that moment.",
+        },
+      },
+      {
+        step: {
+          title: "Explore the belief",
+          description:
+            "Ask yourself what this thought reveals about your core beliefs.",
+        },
+      },
+      {
+        step: {
+          title: "Label the belief",
+          description:
+            "Identify and label the core belief (e.g., 'I am unlovable').",
+        },
+      },
+      {
+        step: {
+          title: "Choose one belief to work on",
+          description: "Select one core belief to focus on for the next week.",
+        },
       },
     ],
     conclusion:
@@ -27,12 +52,33 @@ export const coreBeliefExercise: MindfulnessPractices[] = [
     introduction:
       "This practice teaches you how to reframe harmful core beliefs using logic, evidence, and self-compassion.",
     steps: [
-      { step: "Choose one negative core belief to focus on." },
-      { step: "List evidence that supports and contradicts the belief." },
-      { step: "Ask: Would I say this belief to someone I love?" },
-      { step: "Write a healthier, balanced belief to replace the old one." },
       {
-        step: "Repeat the new belief daily while practicing awareness of the old one.",
+        step: {
+          title: "Identify a negative core belief",
+          description:
+            "Choose a core belief you want to challenge (e.g., 'I am not enough').",
+        },
+        note: "Be specific about the belief and its impact on your life.",
+      },
+      {
+        step: {
+          title: "Gather evidence against the belief",
+          description: "List experiences or facts that contradict this belief.",
+        },
+      },
+      {
+        step: {
+          title: "Reframe the belief",
+          description:
+            "Create a more balanced or positive statement to replace the negative belief.",
+        },
+      },
+      {
+        step: {
+          title: "Practice self-compassion",
+          description:
+            "Acknowledge that everyone has flaws and that you are worthy of love and acceptance.",
+        },
       },
     ],
     conclusion:
@@ -46,11 +92,34 @@ export const coreBeliefExercise: MindfulnessPractices[] = [
     introduction:
       "This activity helps you consciously create empowering core beliefs that align with your values and strengths.",
     steps: [
-      { step: "List your strengths and past accomplishments." },
-      { step: "Write affirming statements that reflect those strengths." },
-      { step: "Pair each affirmation with a memory or proof from your life." },
-      { step: "Post affirmations in visible places (mirror, phone, journal)." },
-      { step: "Recite and internalize them daily." },
+      {
+        step: {
+          title: "Identify a positive belief",
+          description:
+            "Choose a positive belief you want to cultivate (e.g., 'I am capable').",
+        },
+      },
+      {
+        step: {
+          title: "Write an affirmation statement",
+          description:
+            "Create a clear, concise affirmation that embodies this belief.",
+        },
+      },
+      {
+        step: {
+          title: "Visualize the belief",
+          description:
+            "Spend a few minutes visualizing yourself embodying this belief.",
+        },
+      },
+      {
+        step: {
+          title: "Repeat the affirmation daily",
+          description:
+            "Say the affirmation out loud or write it down every day.",
+        },
+      },
     ],
     conclusion:
       "Positive beliefs replace outdated ones by repeated affirmation and emotional reinforcement.",
@@ -63,14 +132,33 @@ export const coreBeliefExercise: MindfulnessPractices[] = [
     introduction:
       "This introspective exercise explores the origins of negative beliefs formed during early life experiences.",
     steps: [
-      { step: "Choose a strong negative belief you hold about yourself." },
-      { step: "Recall early memories where this belief may have been formed." },
-      { step: "Write about how those events shaped your view of self." },
       {
-        step: "Practice inner child compassion for the version of you that learned that belief.",
+        step: {
+          title: "Reflect on your childhood",
+          description:
+            "Think about significant events or messages you received as a child.",
+        },
       },
       {
-        step: "Write a letter to your younger self with a new, supportive belief.",
+        step: {
+          title: "Identify core beliefs formed",
+          description:
+            "Write down the core beliefs that emerged from these experiences.",
+        },
+      },
+      {
+        step: {
+          title: "Challenge the origin",
+          description:
+            "Ask yourself if these beliefs are still valid or helpful today.",
+        },
+      },
+      {
+        step: {
+          title: "Reframe the belief",
+          description:
+            "Create a new, empowering belief that reflects your current values.",
+        },
       },
     ],
     conclusion:
@@ -86,15 +174,34 @@ export const coreBeliefExercise: MindfulnessPractices[] = [
     description:
       "Explore the stories you tell yourself about who you are and what you're worth.",
     steps: [
-      { step: "Think of a recent moment that triggered strong emotion." },
       {
-        step: "Write down what you were thinking about yourself in that moment.",
+        step: {
+          title: "Reflect on your self-talk",
+          description:
+            "Think about the messages you tell yourself regularly (e.g., 'I am not good enough').",
+        },
       },
-      { step: "Ask: What does this say about how I see myself?" },
       {
-        step: "Identify recurring phrases like 'I’m not good enough' or 'I always fail'.",
+        step: {
+          title: "Identify recurring themes",
+          description:
+            "Look for patterns in your self-talk that reveal core beliefs.",
+        },
       },
-      { step: "Highlight one belief to challenge over the next week." },
+      {
+        step: {
+          title: "Write down your core beliefs",
+          description:
+            "List the core beliefs you’ve identified and how they affect your life.",
+        },
+      },
+      {
+        step: {
+          title: "Consider their origins",
+          description:
+            "Reflect on where these beliefs may have come from (e.g., family, culture).",
+        },
+      },
     ],
     conclusion: "Awareness is the first step in shifting deeply held beliefs.",
     afterThoughts:
@@ -108,15 +215,34 @@ export const coreBeliefExercise: MindfulnessPractices[] = [
     introduction:
       "This is a behavioral tool to actively test the accuracy of your core beliefs through real-life situations.",
     steps: [
-      { step: "Choose a negative belief (e.g., 'I always fail')." },
       {
-        step: "Create a situation where this belief might be challenged (e.g., trying a new skill).",
+        step: {
+          title: "Choose a core belief to test",
+          description:
+            "Select a core belief you want to challenge (e.g., 'I am unlovable').",
+        },
       },
-      { step: "Note the actual outcome vs. the predicted outcome." },
       {
-        step: "Journal about how your experience supported or disproved the belief.",
+        step: {
+          title: "Identify a situation to test it",
+          description:
+            "Find a real-life scenario where you can put this belief to the test.",
+        },
       },
-      { step: "Revise the belief based on this lived evidence." },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Actively participate in the situation and observe your thoughts and feelings.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Afterward, reflect on whether the situation supported or contradicted your belief.",
+        },
+      },
     ],
     conclusion:
       "Beliefs lose power when confronted with consistent contradictory evidence in real-world scenarios.",

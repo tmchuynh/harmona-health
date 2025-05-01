@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const cognitiveRestructuring: BehavioralActivities[] = [
+export const cognitiveRestructuring: Activity[] = [
   {
     title: "Thought Record",
     introduction:
@@ -79,6 +79,50 @@ export const cognitiveRestructuring: BehavioralActivities[] = [
       "Thought-Stopping and Substitution allows you to take control of negative thought patterns, reducing their impact on your emotional state. With regular practice, this method helps promote healthier, more resilient thinking.",
     afterThoughts:
       "This technique can be especially effective in managing anxiety or rumination. Practice it regularly to make it a natural part of your cognitive toolbox.",
+  },
+  {
+    title: "Reframing Negative Thoughts",
+    introduction:
+      "This exercise helps you identify and reframe negative thoughts into positive ones.",
+    description:
+      "Use structured questions to analyze if your thoughts fall into distortion categories during self-reflection.",
+    steps: [
+      {
+        step: {
+          title: "Identify the Distortion",
+          description:
+            "Reflect on your negative thoughts. Do they fit into any of the following categories?",
+        },
+        note: "Common distortions include all-or-nothing thinking, overgeneralization, and catastrophizing.",
+      },
+      {
+        step: {
+          title: "Challenge the Thought",
+          description:
+            "Ask yourself if this thought is based on facts or assumptions.",
+        },
+      },
+      {
+        step: {
+          title: "Reframe the Situation",
+          description:
+            "Create a more balanced or positive thought to replace the negative one.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on Your Emotions",
+          description:
+            "Note how your feelings changed after reframing your thoughts.",
+        },
+      },
+    ],
+    conclusion:
+      "Over time, you’ll learn to manage negative thoughts with a clearer, more rational mindset.",
+    afterThoughts: "Use this after any negative self-reflection.",
+    useCases: ["Self-Esteem", "Anxiety", "Depression"],
+    approximateTime: "10–15 minutes",
+    frequency: "Daily or as needed",
   },
   {
     title: "Self-Compassionate Reframing",

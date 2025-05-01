@@ -97,4 +97,14 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What shifts in perspective can you adopt to love yourself more fully in all your uniqueness?",
     ],
   },
+  {
+    prompt:
+      "What does self-compassion mean to me, and how can I integrate it into my daily life?",
+    ideas: [
+      "Reflect on your understanding of self-compassion and its importance in your life.",
+      "What practices or rituals can you incorporate into your routine to foster self-compassion?",
+      "How can you remind yourself to be gentle and kind during challenging moments?",
+      "What small changes can you make today to prioritize self-compassion in your life?",
+    ],
+  },
 ];

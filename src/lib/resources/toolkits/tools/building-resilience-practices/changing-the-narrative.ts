@@ -86,6 +86,50 @@ export const changingTheNarrative: Activity[] = [
     ],
   },
   {
+    title: "Challenging Negative Self-Talk",
+    introduction:
+      "This exercise helps you identify and challenge negative self-talk patterns.",
+    description:
+      "Use structured questions to analyze if your thoughts fall into distortion categories during self-reflection.",
+    steps: [
+      {
+        step: {
+          title: "Identify the Distortion",
+          description:
+            "Reflect on your negative self-talk. Do they fit into any of the following categories?",
+        },
+        note: "Common distortions include all-or-nothing thinking, overgeneralization, and catastrophizing.",
+      },
+      {
+        step: {
+          title: "Challenge the Thought",
+          description:
+            "Ask yourself if this thought is based on facts or assumptions.",
+        },
+      },
+      {
+        step: {
+          title: "Reframe the Situation",
+          description:
+            "Create a more balanced or positive thought to replace the negative one.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on Your Emotions",
+          description:
+            "Note how your feelings changed after reframing your thoughts.",
+        },
+      },
+    ],
+    conclusion:
+      "Over time, you’ll learn to manage negative self-talk with a clearer, more rational mindset.",
+    afterThoughts: "Use this after any negative self-reflection.",
+    useCases: ["Self-Esteem", "Anxiety", "Depression"],
+    approximateTime: "10–15 minutes",
+    frequency: "Daily or as needed",
+  },
+  {
     title: "Dialogue with the Inner Critic",
     introduction:
       "Engage in a written or spoken conversation with your inner critic to better understand and transform its messages.",

@@ -146,4 +146,43 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you embrace change as an opportunity for growth and resilience?",
     ],
   },
+  {
+    prompt:
+      "What are some healthy coping strategies I can use to manage stress and build resilience?",
+    ideas: [
+      "Identify coping strategies that work for you, such as mindfulness, exercise, or creative outlets.",
+      "How can these strategies help you manage stress and enhance your resilience?",
+      "What new coping techniques would you like to explore or incorporate into your routine?",
+      "How can you create a personalized toolkit of coping strategies to support your emotional well-being?",
+    ],
+  },
+  {
+    prompt:
+      "How can I create a supportive environment that fosters resilience in myself and others?",
+    ideas: [
+      "Think about the people, places, and activities that support your resilience.",
+      "How can you cultivate a positive and nurturing environment for yourself and those around you?",
+      "What actions can you take to create a sense of community and support in your life?",
+      "How can you encourage resilience in others while also prioritizing your own well-being?",
+    ],
+  },
+  {
+    prompt:
+      "How can I embrace vulnerability as a strength in building resilience?",
+    ideas: [
+      "Write about the idea of vulnerability and how it can be a source of strength.",
+      "How can embracing vulnerability help you connect with others and build resilience?",
+      "What does it mean to be open and authentic in your relationships, even during tough times?",
+      "How can you practice vulnerability as a way to foster deeper connections and support?",
+    ],
+  },
+  {
+    prompt: "How can I use humor and laughter to build resilience in my life?",
+    ideas: [
+      "Write about the role of humor and laughter in your life and how it can help you cope with challenges.",
+      "What are some funny moments or experiences that have brought you joy during tough times?",
+      "How can you incorporate more humor into your daily life to lighten the mood and build resilience?",
+      "What role does laughter play in your relationships, and how can it strengthen your connections with others?",
+    ],
+  },
 ];

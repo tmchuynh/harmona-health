@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const selfCare: BehavioralActivities[] = [
+export const selfCare: Activity[] = [
   {
     title: "DIY Aromatherapy Bath Soak",
     introduction:
@@ -40,6 +40,47 @@ export const selfCare: BehavioralActivities[] = [
     ],
     conclusion:
       "Aromatherapy baths are a gentle, soothing way to alleviate stress and relax the mind and body, giving you a moment of peace and calm.",
+  },
+  {
+    title: "Mindful Coloring",
+    introduction:
+      "Mindful coloring is a therapeutic activity that promotes relaxation and mindfulness through the simple act of coloring.",
+    description:
+      "This self-care activity allows you to focus on the present moment, reduce stress, and express your creativity.",
+    steps: [
+      {
+        step: {
+          description:
+            "Choose a coloring book or print out intricate designs from the internet.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Gather your favorite coloring materials (colored pencils, markers, or crayons).",
+        },
+      },
+      {
+        step: {
+          description:
+            "Find a quiet space where you can sit comfortably and focus on your coloring.",
+        },
+      },
+      {
+        step: {
+          description:
+            "As you color, pay attention to the colors you choose and how they make you feel.",
+        },
+      },
+      {
+        step: {
+          description:
+            "Allow yourself to get lost in the process, letting go of any distractions or worries.",
+        },
+      },
+    ],
+    conclusion:
+      "Mindful coloring is a simple yet effective way to practice mindfulness and self-care while tapping into your creative side.",
   },
   {
     title: "Digital Detox Day",

@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const physicalActivity: BehavioralActivities[] = [
+export const physicalActivity: Activity[] = [
   {
     title: "Dance Like Nobody's Watching",
     introduction:

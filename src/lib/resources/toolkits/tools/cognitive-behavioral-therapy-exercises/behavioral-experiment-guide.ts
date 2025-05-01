@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const behavioralExperimentGuide: MindfulnessPractices[] = [
+export const behavioralExperimentGuide: Activity[] = [
   {
     title: "Testing Negative Predictions",
     introduction:
@@ -8,14 +8,45 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
     description:
       "Create small, manageable tests that target a specific fear or self-limiting belief.",
     steps: [
-      { step: "Identify a fear-based prediction you'd like to test." },
       {
-        step: "Write down what you think will happen if you do the feared action.",
+        step: {
+          title: "Identify a negative belief or prediction",
+          description:
+            "Choose a belief that causes anxiety or avoidance. It could be related to social situations, performance, or self-worth.",
+        },
+        note: "Be specific about the belief you want to test.",
       },
-      { step: "Design a low-risk experiment to challenge that prediction." },
-      { step: "Carry out the experiment and record the outcome." },
       {
-        step: "Reflect on what you learned and how accurate your prediction was.",
+        step: {
+          title: "Write down your prediction",
+          description:
+            "Document what you believe will happen if you face this situation. Be as detailed as possible.",
+        },
+        note: "This helps clarify your fears and sets the stage for testing.",
+      },
+      {
+        step: {
+          title: "Plan a small experiment",
+          description:
+            "Design a low-risk situation to test your belief. Make sure it’s manageable and safe.",
+        },
+        note: "Keep it simple and realistic.",
+      },
+      {
+        step: {
+          title: "Carry out the experiment",
+          description:
+            "Engage in the planned situation and observe what happens. Try to remain objective.",
+        },
+        note: "Avoid overthinking or analyzing during the experience.",
+      },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "This is where you gather evidence against your negative belief.",
       },
     ],
     conclusion:
@@ -34,17 +65,36 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
       "Conduct a real-life interaction with a stranger and observe the actual outcome versus your predicted outcome.",
     steps: [
       {
-        step: "Write down your feared situation and what you believe will happen.",
+        step: {
+          title: "Identify a social situation that makes you anxious",
+          description:
+            "Choose a specific social interaction that you typically avoid.",
+        },
+        note: "Be specific about the situation.",
       },
       {
-        step: "Identify the behavior you would normally avoid or alter due to fear.",
+        step: {
+          title: "Write down your negative prediction",
+          description:
+            "Document what you believe will happen during this interaction.",
+        },
+        note: "This helps clarify your fears.",
       },
       {
-        step: "Plan a safe social situation to test this belief (e.g., ask a stranger for the time).",
+        step: {
+          title: "Plan a small, manageable interaction",
+          description:
+            "Engage in the planned social situation and observe what happens.",
+        },
+        note: "Keep it low-stakes and realistic.",
       },
-      { step: "Carry out the experiment and observe responses." },
       {
-        step: "Record your actual experience and compare with the predicted outcome.",
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your negative belief.",
       },
     ],
     conclusion:
@@ -62,11 +112,38 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
     description:
       "You’ll attempt a difficult task without striving for perfection and observe the results.",
     steps: [
-      { step: "Write down a task you usually avoid due to fear of failing." },
-      { step: "Identify what you believe will happen if you fail." },
-      { step: "Complete the task with effort but without perfection." },
-      { step: "Ask for honest feedback or observe outcomes." },
-      { step: "Compare your beliefs with the actual consequences." },
+      {
+        step: {
+          title: "Identify a task you fear failing at",
+          description:
+            "Choose a specific task that you typically avoid due to fear of failure.",
+        },
+        note: "Be specific about the task.",
+      },
+      {
+        step: {
+          title: "Write down your negative prediction",
+          description:
+            "Document what you believe will happen if you fail at this task.",
+        },
+        note: "This helps clarify your fears.",
+      },
+      {
+        step: {
+          title: "Engage in the task without striving for perfection",
+          description:
+            "Attempt the task with the goal of learning, not succeeding.",
+        },
+        note: "Keep it low-stakes and realistic.",
+      },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your negative belief.",
+      },
     ],
     conclusion:
       "You'll likely find that failure does not lead to disaster, and people are more forgiving than you think.",
@@ -83,15 +160,36 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
       "Create a plan for interacting in a social setting where you normally feel anxious.",
     steps: [
       {
-        step: "Identify a specific social fear (e.g., speaking in public, approaching a stranger).",
+        step: {
+          title: "Identify a social situation that makes you anxious",
+          description:
+            "Choose a specific social interaction that you typically avoid.",
+        },
+        note: "Be specific about the situation.",
       },
-      { step: "Write down your negative prediction about the interaction." },
       {
-        step: "Plan a small, manageable social interaction to test your prediction.",
+        step: {
+          title: "Write down your negative prediction",
+          description:
+            "Document what you believe will happen during this interaction.",
+        },
+        note: "This helps clarify your fears.",
       },
-      { step: "Carry out the interaction and observe the outcome." },
       {
-        step: "Reflect on the actual outcome and compare it to your original fear.",
+        step: {
+          title: "Plan a small, manageable interaction",
+          description:
+            "Engage in the planned social situation and observe what happens.",
+        },
+        note: "Keep it low-stakes and realistic.",
+      },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your negative belief.",
       },
     ],
     conclusion:
@@ -109,16 +207,37 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
     description:
       "Purposefully make a small mistake in a low-risk environment to challenge perfectionist beliefs.",
     steps: [
-      { step: "Identify a task where you typically strive for perfection." },
       {
-        step: "Write down your belief about what would happen if the task wasn't perfect.",
+        step: {
+          title: "Identify a task where you feel pressure to be perfect",
+          description:
+            "Choose a specific task that you typically approach with perfectionism.",
+        },
+        note: "Be specific about the task.",
       },
       {
-        step: "Purposefully leave something unfinished or imperfect in the task.",
+        step: {
+          title: "Write down your negative prediction",
+          description:
+            "Document what you believe will happen if you allow imperfection.",
+        },
+        note: "This helps clarify your fears.",
       },
-      { step: "Observe how the world reacts to your imperfection." },
       {
-        step: "Reflect on how the task turned out and how you feel about the mistake.",
+        step: {
+          title: "Engage in the task and allow for imperfection",
+          description:
+            "Purposefully make a small mistake and observe the outcome.",
+        },
+        note: "Keep it low-stakes and realistic.",
+      },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your negative belief.",
       },
     ],
     conclusion:
@@ -136,17 +255,38 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
     description:
       "Take on a task with the goal of failing to learn from it, rather than achieving success.",
     steps: [
-      { step: "Identify a task you are avoiding due to fear of failure." },
       {
-        step: "Reframe the task as an opportunity to learn, regardless of the outcome.",
+        step: {
+          title: "Identify a task you fear failing at",
+          description:
+            "Choose a specific task that you typically avoid due to fear of failure.",
+        },
+        note: "Be specific about the task.",
       },
       {
-        step: "Engage in the task fully, embracing mistakes as part of the process.",
+        step: {
+          title: "Write down your negative prediction",
+          description:
+            "Document what you believe will happen if you fail at this task.",
+        },
+        note: "This helps clarify your fears.",
       },
       {
-        step: "Reflect on the experience and what you learned from the failure.",
+        step: {
+          title: "Engage in the task with a learning mindset",
+          description:
+            "Attempt the task with the goal of learning, not succeeding.",
+        },
+        note: "Keep it low-stakes and realistic.",
       },
-      { step: "Celebrate the learning process, not the outcome." },
+      {
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your negative belief.",
+      },
     ],
     conclusion:
       "Failure is a natural part of growth, and learning from it reduces the fear of making mistakes.",
@@ -164,19 +304,36 @@ export const behavioralExperimentGuide: MindfulnessPractices[] = [
       "Test the worst-case scenario of a feared situation to challenge catastrophic thinking.",
     steps: [
       {
-        step: "Identify a recent fearful thought about a possible catastrophe.",
+        step: {
+          title: "Identify a catastrophic thought",
+          description:
+            "Choose a specific thought that leads you to believe the worst will happen.",
+        },
+        note: "Be specific about the thought.",
       },
       {
-        step: "Write down the worst possible outcome and assess its likelihood.",
+        step: {
+          title: "Write down your worst-case scenario",
+          description:
+            "Document what you believe will happen if this thought comes true.",
+        },
+        note: "This helps clarify your fears.",
       },
       {
-        step: "Devise a plan for managing the worst-case scenario, if it happens.",
+        step: {
+          title: "Plan a small experiment to test the scenario",
+          description:
+            "Engage in a situation where this thought might occur and observe the outcome.",
+        },
+        note: "Keep it low-stakes and realistic.",
       },
       {
-        step: "Assess how realistic your prediction is after planning for it.",
-      },
-      {
-        step: "Reflect on how manageable the situation would be, even in the worst case.",
+        step: {
+          title: "Reflect on the outcome",
+          description:
+            "Compare your actual experience with your initial prediction. What surprised you?",
+        },
+        note: "Gather evidence against your catastrophic thinking.",
       },
     ],
     conclusion:

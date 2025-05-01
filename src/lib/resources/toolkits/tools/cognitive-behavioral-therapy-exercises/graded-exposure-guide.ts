@@ -1,6 +1,6 @@
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const gradedExposureGuide: MindfulnessPractices[] = [
+export const gradedExposureGuide: Activity[] = [
   {
     title: "Gradual Social Exposure",
     introduction:
@@ -9,16 +9,45 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
       "By planning and engaging in progressively challenging social scenarios, you can build confidence and reduce fear responses.",
     steps: [
       {
-        step: "Identify a social situation you find moderately uncomfortable.",
+        step: {
+          title: "Identify social situations that cause anxiety",
+          description:
+            "List specific scenarios that trigger your social anxiety (e.g., parties, meetings).",
+        },
+        details: [
+          "Example: 'Talking to a stranger at a party' or 'Speaking in a meeting.'",
+          "Be specific about the situations that make you anxious.",
+        ],
       },
       {
-        step: "List out a hierarchy of similar social situations from least to most anxiety-inducing.",
+        step: {
+          title: "Create a fear hierarchy",
+          description:
+            "Rank these situations from least to most anxiety-provoking.",
+        },
+        note: "Use a scale of 1 (least scary) to 10 (most scary).",
       },
-      { step: "Begin exposure starting with the least difficult situation." },
       {
-        step: "Reflect on each experience to note changes in anxiety and coping skills.",
+        step: {
+          title: "Start with the least scary situation",
+          description:
+            "Choose the lowest-ranked situation and plan a time to face it.",
+        },
       },
-      { step: "Progress to more challenging situations over time." },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice the chosen scenario while observing your thoughts and feelings.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
+      },
     ],
     conclusion:
       "The more often you practice graded exposure, the more desensitized and confident you’ll become in social scenarios.",
@@ -35,13 +64,35 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
     description:
       "Start here if you’re new to exposure work or feeling overwhelmed. Small wins lead to lasting changes.",
     steps: [
-      { step: "List 3 mildly uncomfortable activities you tend to avoid." },
       {
-        step: "Rank each from 1 (least distressing) to 10 (most distressing).",
+        step: {
+          title: "Identify a low-level fear",
+          description:
+            "Choose a situation that makes you mildly uncomfortable but is manageable.",
+        },
+        note: "Examples: making a phone call, starting a conversation.",
       },
-      { step: "Pick the lowest-ranked one and plan a specific time to do it." },
-      { step: "Complete the task while observing your thoughts and feelings." },
-      { step: "Reflect afterward on what you learned and how you felt." },
+      {
+        step: {
+          title: "Plan your exposure",
+          description:
+            "Set a specific time and place to face this discomfort. Make it concrete.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice the exposure while observing your thoughts and feelings.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
+      },
     ],
     conclusion:
       "You’re building psychological strength by meeting discomfort intentionally. This rewires your brain to associate action with safety.",
@@ -55,15 +106,42 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
     introduction:
       "This exercise guides you through tackling public speaking fears in a safe, structured, and empowering way.",
     steps: [
-      { step: "Write down specific fears related to speaking publicly." },
       {
-        step: "Create a fear ladder from least to most scary (e.g., reading aloud to 1 person vs. a group).",
+        step: {
+          title: "Identify specific fears",
+          description:
+            "List the aspects of public speaking that make you anxious (e.g., forgetting lines, judgment).",
+        },
+        note: "Be specific about what triggers your fear.",
       },
       {
-        step: "Practice speaking in low-risk settings like a mirror or trusted friend.",
+        step: {
+          title: "Create a fear hierarchy",
+          description:
+            "Rank these fears from least to most anxiety-provoking using a scale of 1 (least scary) to 10 (most scary).",
+        },
       },
-      { step: "Record your voice or video and review progress." },
-      { step: "Gradually increase your audience and difficulty." },
+      {
+        step: {
+          title: "Start with the least scary situation",
+          description:
+            "Choose the lowest-ranked fear and plan a time to face it.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice speaking in front of a mirror or recording yourself.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
+      },
     ],
     conclusion:
       "Consistent practice reshapes your relationship with public speaking into one of strength and self-assurance.",
@@ -81,15 +159,40 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
       "Designed to support those with driving anxiety, this exercise offers a graded plan to help you get back behind the wheel.",
     steps: [
       {
-        step: "Identify specific fears or triggering scenarios (e.g., highways, merging, night driving).",
+        step: {
+          title: "Identify specific fears",
+          description:
+            "List the aspects of driving that make you anxious (e.g., highway driving, parallel parking).",
+        },
+        note: "Be specific about what triggers your fear.",
       },
-      { step: "Rate each scenario on a 0–10 anxiety scale." },
       {
-        step: "Start exposure with low-rated situations (e.g., driving around your block).",
+        step: {
+          title: "Create a fear hierarchy",
+          description:
+            "Rank these fears from least to most anxiety-provoking using a scale of 1 (least scary) to 10 (most scary).",
+        },
       },
-      { step: "Track your anxiety levels and confidence after each session." },
       {
-        step: "Gradually move up the hierarchy to more challenging driving tasks.",
+        step: {
+          title: "Start with the least scary situation",
+          description:
+            "Choose the lowest-ranked fear and plan a time to face it.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice driving in a safe, familiar area or with a trusted passenger.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
       },
     ],
     conclusion:
@@ -104,12 +207,34 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
       "This practice helps desensitize emotional discomfort around rejection by exposing yourself to minor rejections.",
     steps: [
       {
-        step: "Start with small, low-risk requests that may be denied (e.g., asking a store for a discount).",
+        step: {
+          title: "Identify low-stakes rejection scenarios",
+          description:
+            "Choose situations where you can intentionally face rejection (e.g., asking for a discount, requesting a favor).",
+        },
+        note: "Be specific about the scenarios you choose.",
       },
-      { step: "Record the outcome and your emotional response." },
-      { step: "Review irrational thoughts related to rejection." },
-      { step: "Challenge these thoughts with logic and self-compassion." },
-      { step: "Repeat with increasingly vulnerable interactions." },
+      {
+        step: {
+          title: "Plan your exposure",
+          description:
+            "Set a specific time and place to face this discomfort. Make it concrete.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice the exposure while observing your thoughts and feelings.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
+      },
     ],
     conclusion:
       "The more you face rejection intentionally, the less power it has over your self-worth and behavior.",
@@ -123,12 +248,41 @@ export const gradedExposureGuide: MindfulnessPractices[] = [
       "A supportive exposure strategy for those with panic disorder to face and disarm triggering stimuli in a controlled way.",
     steps: [
       {
-        step: "Identify physical or situational triggers that evoke panic symptoms.",
+        step: {
+          title: "Identify panic triggers",
+          description:
+            "List specific situations or sensations that trigger your panic attacks.",
+        },
+        note: "Be specific about what triggers your panic.",
       },
-      { step: "Create a gradual exposure plan, starting with mild triggers." },
-      { step: "Use grounding techniques during exposure to remain present." },
-      { step: "Track physiological symptoms and emotional response." },
-      { step: "Repeat until the anxiety response diminishes." },
+      {
+        step: {
+          title: "Create a fear hierarchy",
+          description:
+            "Rank these triggers from least to most anxiety-provoking using a scale of 1 (least scary) to 10 (most scary).",
+        },
+      },
+      {
+        step: {
+          title: "Start with the least scary situation",
+          description:
+            "Choose the lowest-ranked trigger and plan a time to face it.",
+        },
+      },
+      {
+        step: {
+          title: "Engage in the situation",
+          description:
+            "Practice facing the trigger while observing your thoughts and feelings.",
+        },
+      },
+      {
+        step: {
+          title: "Reflect on your experience",
+          description:
+            "Afterward, reflect on how you felt and what you learned.",
+        },
+      },
     ],
     conclusion:
       "Graded exposure promotes mastery over panic responses and increases tolerance for physical discomfort.",

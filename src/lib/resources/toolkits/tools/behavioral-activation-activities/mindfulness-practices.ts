@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const mindfulnessPractices: BehavioralActivities[] = [
+export const mindfulnessPractices: Activity[] = [
   {
     title: "Mindful Listening Practice",
     introduction:

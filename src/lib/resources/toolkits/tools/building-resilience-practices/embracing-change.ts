@@ -439,4 +439,50 @@ export const embracingChange: Activity[] = [
       "Choose a regular time to update it (e.g., every Sunday evening).",
     ],
   },
+  {
+    title: "The Change Affirmation Deck",
+    introduction:
+      "Create a personalized deck of affirmations to support you through change.",
+    description:
+      "Affirmations help rewire your mindset and reinforce positive beliefs about your ability to adapt.",
+    steps: [
+      {
+        step: {
+          title: "Write 5–10 affirmations related to change.",
+          description:
+            "Examples: 'I embrace uncertainty with courage.' or 'I am capable of adapting to new situations.'",
+        },
+      },
+      {
+        step: {
+          title: "Decorate or design the cards.",
+          description:
+            "Make them visually appealing — use colors, images, or symbols that resonate with you.",
+        },
+      },
+      {
+        step: {
+          title: "Use the deck daily.",
+          description:
+            "Pull a card each morning or whenever you need a boost. Reflect on its meaning for you.",
+        },
+      },
+    ],
+    conclusion:
+      "This practice reinforces positive self-talk and builds resilience over time.",
+    afterThoughts:
+      "Consider adding new cards as you grow and evolve through different changes.",
+    approximateTime: "30–60 minutes",
+    frequency: "Daily or as needed",
+    useCases: [
+      "Positive reinforcement",
+      "Mindset shifts",
+      "Resilience building",
+    ],
+    difficulty: "Easy",
+    howToStart: [
+      "Gather materials for card-making (paper, markers, etc.).",
+      "Set aside time to create and reflect on your affirmations.",
+    ],
+  },
 ];

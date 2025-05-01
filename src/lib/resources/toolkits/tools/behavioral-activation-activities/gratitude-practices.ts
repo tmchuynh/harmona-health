@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const gratitudePractices: BehavioralActivities[] = [
+export const gratitudePractices: Activity[] = [
   {
     title: "Gratitude Letter",
     introduction:

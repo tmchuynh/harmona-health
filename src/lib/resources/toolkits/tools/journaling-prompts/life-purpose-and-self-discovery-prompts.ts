@@ -11,6 +11,15 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
     ],
   },
   {
+    prompt: "Create a list of things you want to learn or try.",
+    ideas: [
+      "What skills or hobbies have always intrigued you?",
+      "How do you think learning these things would enrich your life?",
+      "What steps can you take to start learning or trying these things?",
+      "How do you envision your life changing as a result of these new experiences?",
+    ],
+  },
+  {
     prompt: "What do I value most in life?",
     ideas: [
       "List your core values (e.g., honesty, freedom, creativity, connection).",

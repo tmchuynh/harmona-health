@@ -1,6 +1,6 @@
-import { BehavioralActivities } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const creativeExpression: BehavioralActivities[] = [
+export const creativeExpression: Activity[] = [
   {
     title: "Visual Journaling",
     introduction:
@@ -53,6 +53,57 @@ export const creativeExpression: BehavioralActivities[] = [
       "Experiment with different mediums (e.g., watercolors, collage materials) and let your creativity flow without limitations.",
   },
   {
+    title: "Creative Writing for Emotional Exploration",
+    introduction:
+      "Creative writing is a powerful tool for self-expression and emotional exploration. It allows you to articulate feelings, thoughts, and experiences in a structured yet imaginative way.",
+    description:
+      "This activity encourages you to write freely, using prompts or themes that resonate with your current emotional state. By putting pen to paper, you can gain clarity and insight into your feelings.",
+    steps: [
+      {
+        step: {
+          title: "Choose a Writing Prompt",
+          description:
+            "Select a prompt that resonates with you emotionally. This could be a word, phrase, or theme that reflects your current state of mind.",
+        },
+        note: "The prompt should inspire you to explore your emotions without feeling pressured to create a 'perfect' piece of writing.",
+      },
+      {
+        step: {
+          title: "Write Freely",
+          description:
+            "Set a timer for 10-15 minutes and write continuously without worrying about grammar or structure. Let your thoughts flow naturally.",
+        },
+        note: "Allow yourself to write whatever comes to mind, even if it feels disjointed or chaotic.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Writing",
+          description:
+            "After the timer goes off, read through what you've written. What emotions or themes stand out? Are there any surprises in your writing?",
+        },
+        details: [
+          "Consider how the writing reflects your current emotional state. Are there any patterns or insights that emerge?",
+          "Take note of any cathartic release you may have experienced during the writing process.",
+        ],
+      },
+      {
+        step: {
+          title: "Use Writing as a Tool for Growth",
+          description:
+            "Consider how you can use this writing practice regularly to explore and process emotions over time.",
+        },
+        details: [
+          "Set aside time each week for creative writing. This will help you build a habit of self-reflection and emotional exploration.",
+          "Experiment with different genres (poetry, short stories) to find what resonates most with you.",
+        ],
+      },
+    ],
+    conclusion:
+      "Creative writing serves as an effective outlet for emotional expression and self-discovery, allowing you to articulate complex feelings in a meaningful way.",
+    afterThoughts:
+      "Incorporate creative writing into your routine as a form of self-care and emotional processing.",
+  },
+  {
     title: "Collage Making for Emotional Exploration",
     introduction:
       "Collage making is an artistic process where you use materials such as magazines, fabric, photographs, and other textures to create a visual narrative. This activity can help you express complex emotions and thoughts in a non-verbal way.",
@@ -99,6 +150,57 @@ export const creativeExpression: BehavioralActivities[] = [
       "Create collages regularly as a tool for emotional processing, self-reflection, and creative inspiration.",
   },
   {
+    title: "Photography for Emotional Exploration",
+    introduction:
+      "Photography is a powerful medium for self-expression and emotional exploration. By capturing images that resonate with your feelings, you can gain insights into your emotional landscape.",
+    description:
+      "This activity encourages you to use photography as a tool for self-reflection and emotional processing. By focusing on the emotions behind the images, you can deepen your understanding of yourself.",
+    steps: [
+      {
+        step: {
+          title: "Choose a Theme or Emotion",
+          description:
+            "Select a theme or emotion that you want to explore through photography. This could be joy, sadness, nostalgia, or any other feeling.",
+        },
+        note: "The theme should resonate with you personally and inspire you to capture images that reflect it.",
+      },
+      {
+        step: {
+          title: "Capture Images",
+          description:
+            "Take photographs that represent the chosen theme or emotion. Focus on composition, lighting, and subject matter that evoke the desired feelings.",
+        },
+        note: "Allow yourself to experiment with different angles and perspectives.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Photos",
+          description:
+            "After capturing images, review them. What emotions do they evoke? Are there any patterns or themes that emerge?",
+        },
+        details: [
+          "Consider how the photographs reflect your emotional state. Do they reveal anything new about your feelings?",
+          "Think about how the process of taking photos influenced your emotions.",
+        ],
+      },
+      {
+        step: {
+          title: "Create a Photo Journal",
+          description:
+            "Compile your photographs into a photo journal. Write captions or reflections alongside each image to deepen your emotional exploration.",
+        },
+        details: [
+          "Use this journal as a tool for ongoing self-reflection and emotional processing.",
+          "Consider sharing your photo journal with trusted friends or family for additional insights.",
+        ],
+      },
+    ],
+    conclusion:
+      "Photography serves as a powerful medium for emotional expression and self-discovery, allowing you to articulate complex feelings visually.",
+    afterThoughts:
+      "Incorporate photography into your routine as a form of creative self-care and emotional exploration.",
+  },
+  {
     title: "Art as Therapy (Expressive Painting)",
     introduction:
       "Expressive painting is an artistic approach to creativity where you use colors, brushes, and other tools to convey feelings and emotions on the canvas without the goal of producing a 'finished' or 'perfect' piece of art.",
@@ -143,6 +245,57 @@ export const creativeExpression: BehavioralActivities[] = [
       "Expressive painting offers a powerful outlet for emotions and is a valuable tool for self-discovery and emotional release.",
     afterThoughts:
       "Use expressive painting regularly as a form of creative self-care to foster emotional well-being and creative expression.",
+  },
+  {
+    title: "Creative Movement and Dance",
+    introduction:
+      "Creative movement and dance is a form of self-expression that allows you to explore emotions through physical movement. This practice encourages you to connect with your body and express feelings in a non-verbal way.",
+    description:
+      "By engaging in free-form movement, you can release pent-up emotions, reduce stress, and enhance your overall well-being. This activity promotes mindfulness and encourages you to listen to your body’s needs.",
+    steps: [
+      {
+        step: {
+          title: "Find Your Space",
+          description:
+            "Choose a comfortable space where you can move freely without distractions. This could be indoors or outdoors.",
+        },
+        note: "Make sure the space feels safe and inviting for movement.",
+      },
+      {
+        step: {
+          title: "Tune into Your Body",
+          description:
+            "Close your eyes and take a few deep breaths. Focus on how your body feels in the moment. What emotions are present?",
+        },
+        note: "Allow yourself to be fully present in your body.",
+      },
+      {
+        step: {
+          title: "Move Freely",
+          description:
+            "Begin moving in a way that feels natural to you. Let your body guide the movement without overthinking it.",
+        },
+        details: [
+          "Experiment with different tempos, rhythms, and styles of movement. Allow your emotions to influence how you move.",
+          "Notice any shifts in energy or emotion as you dance.",
+        ],
+      },
+      {
+        step: {
+          title: "Reflect on the Experience",
+          description:
+            "After dancing, take a moment to reflect on how you feel. What emotions were expressed through movement? How did it affect your mood?",
+        },
+        details: [
+          "Consider journaling about the experience or discussing it with someone you trust.",
+          "Use this reflection as a tool for ongoing emotional exploration.",
+        ],
+      },
+    ],
+    conclusion:
+      "Creative movement and dance provide an effective outlet for emotional expression, promoting mindfulness and enhancing overall well-being.",
+    afterThoughts:
+      "Incorporate creative movement into your routine as a form of self-care and emotional exploration.",
   },
   {
     title: "Nature Journaling",

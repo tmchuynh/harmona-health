@@ -139,6 +139,16 @@ export const mindfulnessPrompts: JournalPrompts[] = [
     ],
   },
   {
+    prompt:
+      "What are some ways I can practice mindfulness to enhance my resilience?",
+    ideas: [
+      "Reflect on the role of mindfulness in your life and how it can help you stay present during challenges.",
+      "What mindfulness practices resonate with you, such as meditation, deep breathing, or mindful walking?",
+      "How can you incorporate mindfulness into your daily routine to support your emotional well-being?",
+      "What benefits do you experience when you practice mindfulness in the face of stress or adversity?",
+    ],
+  },
+  {
     prompt: "How can I stay mindful throughout the day?",
     ideas: [
       "What can I do today to stay present in the moment and avoid getting caught in worries about the future or past?",
@@ -154,6 +164,26 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How does mindfulness contribute to maintaining balance and focus as you work toward your long-term goals?",
       "How can mindfulness help you prioritize your well-being while still being productive and goal-oriented?",
       "What role does mindfulness play in reducing stress, preventing burnout, and improving your quality of life?",
+    ],
+  },
+  {
+    prompt:
+      "How can I use mindfulness to enhance my creativity and problem-solving skills?",
+    ideas: [
+      "Reflect on how mindfulness can help you tap into your creative potential and think outside the box.",
+      "What mindfulness practices can you use to clear mental blocks and foster innovative thinking?",
+      "How can being present in the moment help you approach challenges with a fresh perspective?",
+      "What role does mindfulness play in allowing your mind to wander and explore new ideas?",
+    ],
+  },
+  {
+    prompt:
+      "How can I practice mindfulness in my relationships to foster deeper connections?",
+    ideas: [
+      "What does it mean to be fully present and engaged in conversations with others?",
+      "How can mindfulness help you listen more deeply and respond with empathy?",
+      "What small, mindful actions can you take to strengthen your relationships and create a sense of connection?",
+      "How does practicing mindfulness in your interactions with others enhance your emotional well-being?",
     ],
   },
 ];
