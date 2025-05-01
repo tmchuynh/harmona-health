@@ -107,7 +107,8 @@ export interface AffirmationCards {
 
 export interface JournalPrompts {
   prompt: string;
-  ideas: string[];
+  ideas?: string[];
+  Icon: IconType;
 }
 
 export interface Activity {
