@@ -148,6 +148,37 @@ export function sliceOffLastWord(str: string, wordCount: number = 1): string {
   // Return all words except the last 'wordCount' words
   return words.slice(0, words.length - wordCount).join(" ");
 }
+
+/**
+ * Extracts the first word from a string.
+ *
+ * @param str - The input string to extract the first word from
+ * @returns The first word in the string, or an empty string if the input is empty
+ *
+ * @example
+ * // returns "Hello"
+ * getFirstWord("Hello world");
+ *
+ * @example
+ * // returns "SingleWord"
+ * getFirstWord("SingleWord");
+ *
+ * @example
+ * // returns ""
+ * getFirstWord("");
+ */
+export function getFirstWord(str: string): string {
+  if (!str || typeof str !== "string") {
+    return "";
+  }
+
+  const trimmed = str.trim();
+  if (!trimmed) {
+    return "";
+  }
+
+  const words = trimmed.split(/\s+/);
+  return words[0];
 }
 
 /**
@@ -202,38 +233,6 @@ export function formatDate(date: string | Date): string {
 
   return `${year}-${month}-${day}`;
 }
-
-export const formatItemName = (itemName: string) => {
-  
-  const exceptions = [
-    "and",
-    "or",
-    "a",
-    "an",
-    "as",
-    "at",
-    "but",
-    "by",
-    "for",
-    "in",
-    "nor",
-    "of",
-    "on",
-    "the",
-    "up",
-  ];
-
-  return itemName
-    .split("_")
-    .map((word, index) => {
-      if (index === 0 || !exceptions.includes(word.toLowerCase())) {
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      }
-
-      return word.toLowerCase();
-    })
-    .join(" "); 
-};
 
 /**
  * Transforms a URL or URL-like string into a camelCase identifier.
