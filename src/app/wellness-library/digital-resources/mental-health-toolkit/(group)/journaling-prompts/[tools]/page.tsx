@@ -43,6 +43,23 @@ export default function Page() {
     fetchData();
   }, [toolKit, toolKitID]);
 
+  const getNextPrompt = () => {
+    if (journal.length > 0) {
+      // Get random index from remaining prompts
+      const index = getRandomIndex(journal);
+      const nextPrompt = journal[index];
+
+      // Update state
+      setRandomPrompt(nextPrompt);
+      setOldPrompts((prev) => [...prev, nextPrompt]);
+
+      // Remove selected prompt from journal array
+      const newJournal = [...journal];
+      newJournal.splice(index, 1);
+      setJournal(newJournal);
+    }
+  };
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -65,6 +82,26 @@ export default function Page() {
             <randomPrompt.Icon className="size-8" />
             <p>{randomPrompt.prompt}</p>
           </div>
+
+          <div className="flex justify-center mt-6">
+            <button
+              onClick={getNextPrompt}
+              disabled={journal.length === 0}
+              className={`px-4 py-2 rounded-md ${
+                journal.length === 0
+                  ? "bg-gray-300 cursor-not-allowed"
+                  : "bg-primary text-white hover:bg-primary-dark"
+              }`}
+            >
+              {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
+            </button>
+          </div>
+
+          {journal.length === 0 && (
+            <p className="mt-4 text-center text-gray-600">
+              You've viewed all available journal prompts!
+            </p>
+          )}
         </section>
       )}
     </div>
