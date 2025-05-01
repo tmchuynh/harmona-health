@@ -1,5 +1,10 @@
 "use client";
 
+import {
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import useMediumScreen from "@/lib/screens/useMediumScreen";
 import useSmallScreen from "@/lib/screens/useSmallScreen";
 import {
@@ -8,11 +13,6 @@ import {
   compareStringWordCount,
 } from "@/lib/utils/format";
 import { generateRandomString } from "@/lib/utils/sort";
-import {
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
 import { usePathname } from "next/navigation";
 import { JSX, useMemo } from "react";
 import { FaLeaf } from "react-icons/fa";
@@ -30,10 +30,6 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         .map((segment) => decodeURIComponent(segment)),
     [pathname]
   );
-
-  console.log("pathSegments", pathSegments);
-  console.log("path segments length", pathSegments.length);
-  console.log("pathname", pathname);
 
   // Detect if this is a 404 page based on known structure
   const isNotFoundPage = pathSegments.includes("not-found");
