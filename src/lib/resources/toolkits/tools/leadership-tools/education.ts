@@ -6,63 +6,48 @@ export const education: ToolLinks[] = [
     description:
       "An online classroom management tool that helps teachers organize assignments, communicate with students, and track progress.",
     href: "https://classroom.google.com",
-    image: "https://cdn.worldvectorlogo.com/logos/google-classroom.svg",
   },
   {
     title: "Sutori",
     description:
       "A collaborative presentation tool perfect for timelines, visual storytelling, and project-based learning.",
     href: "https://www.sutori.com",
-    image:
-      "https://images.unsplash.com/photo-1652265540589-46f91535337b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b25saW5lJTIwcHJlc2VudGF0aW9ufGVufDB8MHwwfHx8MA%3D%3D",
   },
   {
     title: "Explain Everything",
     description:
       "An interactive whiteboard tool that lets students and teachers create dynamic visual presentations and lessons collaboratively.",
     href: "https://explaineverything.com",
-    image:
-      "https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGVib2FyZHxlbnwwfDB8MHx8fDA%3D",
   },
   {
     title: "GooseChase",
     description:
       "A platform that turns learning into scavenger hunts, combining creativity, mobility, and competition in classrooms or remote settings.",
     href: "https://www.goosechase.com",
-    image:
-      "https://images.unsplash.com/photo-1591511743783-9b91e8b23900?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGlkZSUyMGFuZCUyMHNlZWt8ZW58MHwwfDB8fHww",
   },
   {
     title: "Zooniverse",
     description:
       "A platform for people-powered research where students can contribute to real science projects through data classification and analysis.",
     href: "https://www.zooniverse.org",
-    image:
-      "https://plus.unsplash.com/premium_photo-1663050756824-165ee7eafdac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2NpZW5jZSUyMHByb2plY3RzfGVufDB8MHwwfHx8MA%3D%3D",
   },
   {
     title: "CommonLit",
     description:
       "A free digital library of reading passages and literacy tools for grades 3–12, with built-in assessments and analytics.",
     href: "https://www.commonlit.org",
-    image:
-      "https://plus.unsplash.com/premium_photo-1681487433878-d5c4bedd7a57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGlnaXRhbCUyMGxpYnJhcnl8ZW58MHwwfDB8fHww",
   },
   {
     title: "Book Creator",
     description:
       "A tool that empowers students to create their own interactive books with text, audio, images, and videos.",
     href: "https://bookcreator.com",
-    image:
-      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGlnaXRhbCUyMGxpYnJhcnl8ZW58MHwwfDB8fHww",
   },
   {
     title: "Kahoot!",
     description:
       "A game-based learning platform that engages students with fun quizzes and activities.",
     href: "https://kahoot.com",
-    image:
-      "https://images.unsplash.com/photo-1665247238133-6235ac1d745e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2Fob290fGVufDB8MHwwfHx8MA%3D%3D",
   },
   {
     title: "Tynker",
