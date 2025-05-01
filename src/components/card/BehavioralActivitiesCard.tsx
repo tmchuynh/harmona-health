@@ -35,7 +35,7 @@ const BehavioralActivitiesCard = ({ data }: { data: BehavioralActivities }) => {
 
       <section className="mb-6">
         <p>{data.conclusion}</p>
-        <p>{data.afterThoughts}</p>
+        {data.afterThoughts && <p>{data.afterThoughts}</p>}
       </section>
     </div>
   );
