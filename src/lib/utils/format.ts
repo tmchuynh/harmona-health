@@ -42,6 +42,80 @@ export function compareStringWordCount(
   return words.length <= maxWords;
 }
 
+/**
+ * Converts a verb to its "-ing" form following English spelling rules.
+ *
+ * @param verb - The base verb to convert
+ * @returns The verb with "-ing" suffix correctly applied
+ * 
+ * Rules handled:
+ * - Words ending in "ie": change to "y" + "ing" (lie → lying)
+ * - Words ending in "e": typically drop "e" + add "ing" (write → writing)
+ *   - Exception: Words ending in "ee", "ye", or "oe" keep the "e" (see → seeing)
+ * - Words ending in single consonant after short vowel: double final consonant (run → running)
+ * - Words ending in "c": add "k" before "ing" in some cases (panic → panicking)
+ * - All other cases: simply add "ing"
+ * 
+ * @example
+ * convertToIngForm("write");   // returns "writing"
+ * convertToIngForm("run");     // returns "running"
+ * convertToIngForm("lie");     // returns "lying"
+ * convertToIngForm("see");     // returns "seeing"
+ * convertToIngForm("panic");   // returns "panicking"
+ * convertToIngForm("play");    // returns "playing"
+ */
+export function convertToIngForm(verb: string): string {
+  if (!verb || typeof verb !== 'string') {
+    return '';
+  }
+
+  verb = verb.trim().toLowerCase();
+  
+  // Rule: Words ending in "ie" change to "y" + "ing"
+  if (verb.endsWith('ie')) {
+    return verb.slice(0, -2) + 'ying';
+  }
+  
+  // Rule: Words ending in "e"
+  if (verb.endsWith('e')) {
+    // Exception: Words ending in "ee", "ye", "oe" keep the "e"
+    if (verb.endsWith('ee') || verb.endsWith('ye') || verb.endsWith('oe')) {
+      return verb + 'ing';
+    }
+    // Standard case: Drop the "e" and add "ing"
+    return verb.slice(0, -1) + 'ing';
+  }
+  
+  // Rule: Words ending in "c" in some cases add "k"
+  if (verb.endsWith('c')) {
+    return verb + 'king';
+  }
+  
+  // Rule: Words ending with a single consonant after a short vowel
+  const length = verb.length;
+  if (length >= 2) {
+    const lastChar = verb[length - 1];
+    const secondLastChar = verb[length - 2];
+    
+    // Check if the last character is a consonant (not a, e, i, o, u, y, w)
+    const isLastCharConsonant = !/[aeiouyfw]/i.test(lastChar);
+    
+    // Check if the second-last character is a vowel
+    const isSecondLastVowel = /[aeiou]/i.test(secondLastChar);
+    
+    // Do not double final consonants w, x, or y
+    if (isLastCharConsonant && isSecondLastVowel && !/[wxy]/i.test(lastChar)) {
+      // Simple way to detect short words or words with stress on final syllable
+      // This is an approximation as determining stress programmatically is complex
+      if (length <= 3 || (length === 4 && !isSecondLastVowel)) {
+        return verb + lastChar + 'ing';
+      }
+    }
+  }
+  
+  // Default case: just add "ing"
+  return verb + 'ing';
+}
 
 /**
  * Removes the last word from the input string, separated by a space.
