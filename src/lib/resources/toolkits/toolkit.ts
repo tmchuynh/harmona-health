@@ -167,8 +167,8 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "communicationTools",
-    title: "Communication Tools",
+    id: "strongCommunicationPractices",
+    title: "Strong Communication Practices",
     description: [
       "Communication tools are designed to help individuals improve their interpersonal skills and enhance their relationships. These resources may include active listening techniques, assertiveness training, and conflict resolution strategies specifically tailored for effective communication. By using these tools, individuals can learn to express themselves clearly, understand others better, and navigate difficult conversations with confidence. The goal is to empower individuals to take control of their communication skills and improve their overall mental health.",
       "Effective communication is essential for building strong relationships and maintaining emotional well-being. The Communication Tools provide practical strategies for enhancing interpersonal skills and fostering healthy connections with others. By incorporating these tools into daily interactions, individuals can create a personalized approach to communication that supports their mental health and well-being. The focus is on fostering a sense of connection and empowerment in the face of communication challenges.",
