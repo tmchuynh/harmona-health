@@ -1,22 +1,12 @@
 "use client";
+import JournalPromptCard from "@/components/card/JournalPromptCard";
+import MixedGallery from "@/components/images/MixedGallery";
 import { Button } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 import { useToolContext } from "@/context/toolContext";
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { getRandomIndex, getToolResource } from "@/lib/utils";
-import {
-  convertToIngForm,
-  formatUrlToID,
-  getFirstWord,
-} from "@/lib/utils/format";
+import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
-import { FaQuestionCircle } from "react-icons/fa";
 
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
@@ -24,6 +14,8 @@ export default function Page() {
   const [loading, setLoading] = useState(true);
   const [randomPrompt, setRandomPrompt] = useState<JournalPrompts | null>(null);
   const [oldPrompts, setOldPrompts] = useState<JournalPrompts[]>([]);
+
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -50,6 +42,17 @@ export default function Page() {
         console.error("Failed to load affirmation cards:", error);
       } finally {
         setLoading(false);
+      }
+
+      try {
+        const data = await getToolResource(
+          toolKit,
+          tool,
+          toolKitID + formatUrlToID(tool)
+        );
+        setImages(data);
+      } catch (error) {
+        console.error("Failed to load images:", error);
       }
     };
 
@@ -111,40 +114,7 @@ export default function Page() {
 
       {randomPrompt && (
         <section className="mx-auto py-7 w-full">
-          <div
-            key={randomPrompt.prompt}
-            className="relative flex flex-col justify-center items-center gap-6 bg-card shadow-md mx-auto p-4 rounded-lg md:w-2/3 lg:w-1/2 min-h-[15rem]"
-          >
-            <randomPrompt.Icon className="size-8" />
-
-            <p>{randomPrompt.prompt}</p>
-            <Dialog>
-              <DialogTrigger className="top-5 right-5 absolute cursor-pointer">
-                <FaQuestionCircle />
-              </DialogTrigger>
-              <DialogContent>
-                <DialogHeader className="pt-4">
-                  <DialogTitle>
-                    Ideas for{" "}
-                    {convertToIngForm(getFirstWord(randomPrompt.prompt))}{" "}
-                    {randomPrompt.prompt
-                      .trim()
-                      .split(/\s+/)
-                      .slice(1, randomPrompt.prompt.length - 1)
-                      .join(" ")
-                      .split(",")[0]
-                      .replace(".", "")}
-                    :
-                  </DialogTitle>
-                </DialogHeader>
-                <ul className="pl-5 list-disc">
-                  {randomPrompt.ideas?.map((idea, index) => (
-                    <li key={index}>{idea}</li>
-                  ))}
-                </ul>
-              </DialogContent>
-            </Dialog>
-          </div>
+          <JournalPromptCard randomPrompt={randomPrompt} />
 
           <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
             <Button
@@ -172,6 +142,8 @@ export default function Page() {
           )}
         </section>
       )}
+
+      <MixedGallery />
     </div>
   );
 }
