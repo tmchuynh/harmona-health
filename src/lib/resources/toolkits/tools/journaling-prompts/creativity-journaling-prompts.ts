@@ -1,4 +1,7 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
+import { PiPenBold } from "react-icons/pi";
+import { TiPen } from "react-icons/ti";
 
 export const creativityJournalingPrompts: JournalPrompts[] = [
   {
@@ -10,6 +13,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lessons do you hope your future self has learned?",
       "What kind of person do you want to be when you read this letter?",
     ],
+    Icon: TiPen,
   },
   {
     prompt: "Imagine your life as a novel—what would the title be?",
@@ -20,6 +24,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who are the main characters in your life story, and what roles do they play?",
       "How would you want your life’s story to be remembered?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a dream you’ve had recently.",
@@ -30,6 +35,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "If this dream had a story, what would the plot be?",
       "How did the dream make you feel the next morning, and why?",
     ],
+    Icon: PiPenBold,
   },
   {
     prompt: "Create a character based on someone you’ve met.",
@@ -40,6 +46,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What’s their most defining trait—confidence, kindness, humor, or something else?",
       "How does this character interact with others? Are they a leader, follower, or something in-between?",
     ],
+    Icon: PiPenBold,
   },
   {
     prompt: "Describe a place that holds significance for you.",
@@ -50,6 +57,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How has this place shaped you, and why does it have a special place in your heart?",
       "If you could visit this place in the future, what would you hope to find or experience?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write a scene where you are the hero in an adventure.",
@@ -60,6 +68,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who are your allies or enemies in this adventure? How do they help or hinder your progress?",
       "What does your ultimate victory or failure look like? How does it change you?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
@@ -71,6 +80,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What explanation, if any, do you come up with for this strange event?",
       "What happens next? Does this strange event lead to further bizarre occurrences?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Invent a new holiday. What is it, and how do people celebrate it?",
@@ -81,6 +91,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who celebrates this holiday, and how is it different from other holidays?",
       "How do people prepare for and reflect on the holiday? Is it a time of rest, action, or giving?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a turning point in your life.",
@@ -91,6 +102,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lessons did you learn from this experience, and how did they guide you afterward?",
       "If you could go back, would you make the same decision, or would you choose differently?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write a scene where you meet your younger self.",
@@ -101,6 +113,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What do you wish your younger self had known or understood at that time in their life?",
       "How does meeting your younger self change your view of who you are today?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Describe an ordinary object, but make it extraordinary.",
@@ -111,6 +124,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What kind of history or significance does the object hold?",
       "How do you, or others, interact with the object, and what surprises come from it?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a moment of pure joy or happiness in vivid detail.",
@@ -121,6 +135,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What made this moment stand out in your life?",
       "What did you learn from this moment of joy, and how can you bring it into your daily life?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a place you’d like to visit and why.",
@@ -131,6 +146,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What would be the first thing you do once you arrive?",
       "How does this place fit into your dreams or vision for your life?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
@@ -142,6 +158,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How do their personalities come across in their communication—are they respectful, hostile, or open?",
       "What is the outcome of this conversation, and does it change either of their perspectives?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a personal habit or ritual that brings you comfort.",
@@ -152,6 +169,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How does this habit reflect your values, needs, or desires?",
       "If you had to give up this ritual, how would your life feel different?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Describe an object that holds deep sentimental value to you.",
@@ -162,6 +180,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What does this object represent in your personal journey?",
       "What would happen if you lost or gave up this object? How would you feel?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
@@ -173,6 +192,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How does the character change or grow as a result of the failure?",
       "What lesson do they take away that will help them in the future?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a time you took a risk and what happened.",
@@ -183,6 +203,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What did you learn from this experience about yourself or life in general?",
       "Would you take the same risk again? Why or why not?",
     ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write about a time you felt completely out of your comfort zone.",
@@ -193,5 +214,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How did this experience change your perspective on comfort zones?",
       "Would you willingly put yourself in a similar situation again? Why or why not?",
     ],
+    Icon: FaPenAlt,
   },
 ];
