@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const positivePsychology: DetailedSteps[] = [
+export const positivePsychology: Activity[] = [
   {
     title: "Building Resilience Through Positive Psychology Practices",
     introduction:

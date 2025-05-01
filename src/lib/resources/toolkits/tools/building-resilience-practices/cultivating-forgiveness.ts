@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const cultivatingForgiveness: DetailedSteps[] = [
+export const cultivatingForgiveness: Activity[] = [
   {
     title: "Letter of Release",
     introduction:

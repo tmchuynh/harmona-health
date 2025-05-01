@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const practicingProblemSolvingSkills: DetailedSteps[] = [
+export const practicingProblemSolvingSkills: Activity[] = [
   {
     title: "Define the Problem Clearly",
     introduction:

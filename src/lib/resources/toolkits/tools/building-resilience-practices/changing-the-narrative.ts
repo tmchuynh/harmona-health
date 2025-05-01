@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const changingTheNarrative: DetailedSteps[] = [
+export const changingTheNarrative: Activity[] = [
   {
     title: "Name the Narrative",
     introduction:

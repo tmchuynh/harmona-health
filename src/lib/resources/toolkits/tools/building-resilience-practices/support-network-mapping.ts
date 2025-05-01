@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const supportNetworkMapping: DetailedSteps[] = [
+export const supportNetworkMapping: Activity[] = [
   {
     title: "Identify Key Support Figures",
     introduction:

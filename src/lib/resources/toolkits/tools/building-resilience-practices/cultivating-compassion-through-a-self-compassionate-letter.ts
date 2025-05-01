@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const cultivatingCompassionThroughASelfCompassionateLetter: DetailedSteps[] =
+export const cultivatingCompassionThroughASelfCompassionateLetter: Activity[] =
   [
     {
       title: "Self-Compassionate Letter Practice",

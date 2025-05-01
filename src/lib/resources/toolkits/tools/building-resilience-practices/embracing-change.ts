@@ -1,6 +1,6 @@
-import { DetailedSteps } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 
-export const embracingChange: DetailedSteps[] = [
+export const embracingChange: Activity[] = [
   {
     title: "The Change Inventory",
     introduction:
