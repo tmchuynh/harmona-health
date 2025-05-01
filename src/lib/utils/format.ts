@@ -118,23 +118,36 @@ export function convertToIngForm(verb: string): string {
 }
 
 /**
- * Removes the last word from the input string, separated by a space.
+ * Removes the specified number of words from the end of the input string.
  * 
- * @param str - The input string from which to remove the last word
- * @returns The input string with the last word removed, or an empty string if there are no spaces in the input
+ * @param str - The input string from which to remove words
+ * @param wordCount - The number of words to remove from the end (defaults to 1)
+ * @returns The input string with the specified number of words removed, 
+ *          or an empty string if there are not enough words in the input
  * 
  * @example
  * ```ts
  * sliceOffLastWord("Hello world"); // returns "Hello"
+ * sliceOffLastWord("Hello beautiful world", 2); // returns "Hello"
+ * sliceOffLastWord("Hello world", 3); // returns "" (not enough words)
  * sliceOffLastWord("SingleWord"); // returns ""
  * ```
  */
-export function sliceOffLastWord(str: string) {
-  const lastSpaceIndex = str.lastIndexOf(" ");
-  if (lastSpaceIndex === -1) {
-    return ""; // Handle the case where there are no spaces in the string
+export function sliceOffLastWord(str: string, wordCount: number = 1): string {
+  if (!str || wordCount <= 0) {
+    return str;
   }
-  return str.slice(0, lastSpaceIndex);
+
+  const words = str.trim().split(/\s+/);
+
+  // If trying to remove more words than exist, return empty string
+  if (wordCount >= words.length) {
+    return "";
+  }
+
+  // Return all words except the last 'wordCount' words
+  return words.slice(0, words.length - wordCount).join(" ");
+}
 }
 
 /**
