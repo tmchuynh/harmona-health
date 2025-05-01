@@ -41,7 +41,7 @@ export interface Toolkit {
   introduction?: string;
   description: string[];
   warningText?: string;
-  href: string; // NEEDS TO BE REMOVED
+  href?: string; // NEEDS TO BE REMOVED
   image?: string;
 }
 
@@ -125,14 +125,6 @@ export interface Activity {
   image?: string;
   icon?: string;
 }
-export interface BehavioralActivities {
-  title: string;
-  introduction: string;
-  description?: string;
-  steps: Step[];
-  conclusion: string;
-  afterThoughts?: string;
-}
 
 export type ListDetail = {
   title?: string;
@@ -144,19 +136,6 @@ export type Step = {
   note?: string;
   details?: string[];
 };
-
-export interface MindfulnessPractices extends BehavioralActivities {
-  useCases?: string[];
-  approximateTime: string;
-  frequency: string;
-  difficulty?: string;
-  howToStart?: string[];
-}
-
-export interface DetailedSteps extends MindfulnessPractices {
-  difficulty: string;
-  howToStart: string[];
-}
 
 export interface WorkLifeBalance {
   title: string;
@@ -176,5 +155,5 @@ export interface ToolLinks {
   title: string;
   description: string;
   href: string;
-  image: string;
+  image?: string;
 }
