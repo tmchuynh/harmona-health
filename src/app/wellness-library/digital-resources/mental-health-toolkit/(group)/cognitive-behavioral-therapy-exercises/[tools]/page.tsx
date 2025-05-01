@@ -1,14 +1,14 @@
 "use client";
 import ActivityCard from "@/components/card/ActivityCard";
 import { useToolContext } from "@/context/toolContext";
-import { MindfulnessPractices } from "@/lib/interfaces&types/resources";
+import { Activity } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<MindfulnessPractices[]>([]);
+  const [toolData, setToolData] = useState<Activity[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
