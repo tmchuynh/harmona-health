@@ -1,9 +1,22 @@
 "use client";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { useToolContext } from "@/context/toolContext";
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { getRandomIndex, getToolResource } from "@/lib/utils";
-import { formatUrlToID } from "@/lib/utils/format";
+import {
+  convertToIngForm,
+  formatUrlToID,
+  getFirstWord,
+} from "@/lib/utils/format";
 import { useEffect, useState } from "react";
+import { FaQuestionCircle } from "react-icons/fa";
 
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
@@ -60,6 +73,29 @@ export default function Page() {
     }
   };
 
+  const handleStartOver = async () => {
+    setLoading(true);
+    try {
+      const data = await getToolResource(toolKit, tool, formatUrlToID(tool));
+
+      if (data.length > 0) {
+        const index = getRandomIndex(data);
+        setRandomPrompt(data[index]);
+
+        const newJournal = [...data];
+        newJournal.splice(index, 1);
+        setJournal(newJournal);
+
+        // Reset old prompts with only the newly selected prompt
+        setOldPrompts([data[index]]);
+      }
+    } catch (error) {
+      console.error("Failed to reload journal prompts:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -77,28 +113,60 @@ export default function Page() {
         <section className="mx-auto py-7 w-full">
           <div
             key={randomPrompt.prompt}
-            className="flex flex-col justify-center items-center gap-6 bg-card shadow-md p-4 rounded-lg"
+            className="relative flex flex-col justify-center items-center gap-6 bg-card shadow-md mx-auto p-4 rounded-lg md:w-2/3 lg:w-1/2 min-h-[15rem]"
           >
             <randomPrompt.Icon className="size-8" />
+
             <p>{randomPrompt.prompt}</p>
+            <Dialog>
+              <DialogTrigger className="top-5 right-5 absolute cursor-pointer">
+                <FaQuestionCircle />
+              </DialogTrigger>
+              <DialogContent>
+                <DialogHeader className="pt-4">
+                  <DialogTitle>
+                    Ideas for{" "}
+                    {convertToIngForm(getFirstWord(randomPrompt.prompt))}{" "}
+                    {randomPrompt.prompt
+                      .trim()
+                      .split(/\s+/)
+                      .slice(1, randomPrompt.prompt.length - 1)
+                      .join(" ")
+                      .split(",")[0]
+                      .replace(".", "")}
+                    :
+                  </DialogTitle>
+                </DialogHeader>
+                <ul className="pl-5 list-disc">
+                  {randomPrompt.ideas?.map((idea, index) => (
+                    <li key={index}>{idea}</li>
+                  ))}
+                </ul>
+              </DialogContent>
+            </Dialog>
           </div>
 
-          <div className="flex justify-center mt-6">
-            <button
+          <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
+            <Button
+              variant={journal.length === 0 ? "accent" : "destructive"}
+              onClick={handleStartOver}
+            >
+              Start Over
+            </Button>
+
+            <Button
               onClick={getNextPrompt}
               disabled={journal.length === 0}
               className={`px-4 py-2 rounded-md ${
-                journal.length === 0
-                  ? "bg-gray-300 cursor-not-allowed"
-                  : "bg-primary text-white hover:bg-primary-dark"
+                journal.length === 0 && "cursor-not-allowed"
               }`}
             >
               {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
-            </button>
+            </Button>
           </div>
 
           {journal.length === 0 && (
-            <p className="mt-4 text-center text-gray-600">
+            <p className="mt-4 text-center">
               You've viewed all available journal prompts!
             </p>
           )}
