@@ -109,6 +109,22 @@ export interface JournalPrompts {
   prompt: string;
   ideas: string[];
 }
+
+export interface Activity {
+  title: string;
+  introduction: string;
+  description?: string;
+  difficulty?: string;
+  howToStart?: string[];
+  useCases?: string[];
+  frequency: string;
+  approximateTime: string;
+  steps: Step[];
+  conclusion: string;
+  afterThoughts?: string;
+  image?: string;
+  icon?: string;
+}
 export interface BehavioralActivities {
   title: string;
   introduction: string;
@@ -133,6 +149,8 @@ export interface MindfulnessPractices extends BehavioralActivities {
   useCases?: string[];
   approximateTime: string;
   frequency: string;
+  difficulty?: string;
+  howToStart?: string[];
 }
 
 export interface DetailedSteps extends MindfulnessPractices {
