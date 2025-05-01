@@ -207,7 +207,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
           </BreadcrumbItem>
         );
 
-        pathSegments.slice(1, 3).forEach((_, index) => {
+        pathSegments.slice(1, 4).forEach((_, index) => {
           const href = `/${pathSegments.slice(0, index + 1).join("/")}`;
           const segment = capitalizedSegments[index];
 
