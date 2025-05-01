@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const gratitudeJournalingPrompts: JournalPrompts[] = [
   {
@@ -8,6 +9,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "Think about things that bring you peace and happiness, no matter how fleeting.",
       "What are you grateful for in the present moment, right now?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -18,6 +20,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can practicing gratitude shift your perspective and help you build resilience?",
       "What daily gratitude practices can you incorporate into your routine to support your emotional well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Write a letter to someone who has inspired you.",
@@ -27,6 +30,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What specific moments or lessons do you want to thank them for?",
       "How do you hope to carry their inspiration into your own life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -36,6 +40,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What gratitude practices (e.g., journaling, expressing thanks) can you incorporate into your daily life?",
       "How can cultivating gratitude support your emotional healing journey and enhance your well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How has gratitude positively impacted my life so far?",
@@ -44,6 +49,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How has practicing gratitude affected your relationships, health, or sense of well-being?",
       "In what ways has being grateful influenced your mindset, especially in challenging situations?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -59,6 +65,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can you shift your mindset to focus on gratitude more often?",
       "What practices can help you maintain a grateful heart?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -68,6 +75,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "Reflect on aspects of life that you might not always notice but are deeply important.",
       "Think about what you tend to take for granted and reframe it as something to be thankful for.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I express my gratitude to someone in my life today?",
@@ -76,6 +84,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "Consider ways you can show appreciation through words, acts of kindness, or gestures.",
       "How can you reach out to a friend, family member, or colleague to acknowledge their positive impact on you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -85,6 +94,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "Notice how gratitude shifts your mental and emotional state in the moment.",
       "What does it feel like to appreciate the present without worrying about the past or future?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -94,6 +104,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How did overcoming a challenge help you appreciate the good things in your life?",
       "What lessons have you learned from difficult situations that have shaped your sense of gratitude?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Who or what inspires feelings of gratitude in me, and why?",
@@ -102,6 +113,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "Reflect on the qualities in others that make you feel grateful to know them.",
       "What about certain experiences or environments brings gratitude to your heart?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -111,6 +123,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can you appreciate the journey and not just the destination?",
       "What are you excited about, and how can you approach it with an open, thankful mindset?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -120,6 +133,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What practices, habits, or reminders can help you stay focused on the positive?",
       "How can you share your gratitude more regularly with others?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -129,6 +143,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What about that experience or interaction made it stand out as something to be grateful for?",
       "How can you carry that sense of gratitude forward in your daily life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -138,6 +153,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can you reframe negative thoughts into opportunities for gratitude?",
       "What practices or rituals (e.g., expressing thanks before meals, writing thank-you notes) can help you foster more gratitude?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -147,6 +163,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How do feelings like stress, anxiety, or negativity impact your ability to appreciate the present moment?",
       "How can you shift your mindset to be more open and receptive to gratitude?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What positive qualities do I appreciate most about myself?",
@@ -155,6 +172,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What do you admire most about yourself, and how can you show more appreciation for these traits?",
       "Consider how practicing self-gratitude contributes to your sense of well-being.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I express more gratitude for the simple joys in life?",
@@ -163,6 +181,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can you approach these moments with more awareness and appreciation?",
       "What simple pleasures have the power to brighten your day?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -172,6 +191,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How does a gratitude mindset change your approach to challenges?",
       "What can you be thankful for, even in difficult times?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -181,6 +201,7 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What role does gratitude play in maintaining motivation and resilience?",
       "How can you tap into the power of gratitude to fuel your personal growth and aspirations?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -190,5 +211,6 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "How can you express appreciation to the people who support and care for you?",
       "What are some small, meaningful ways you can show gratitude in your relationships?",
     ],
+    Icon: IoChatbubble,
   },
 ];

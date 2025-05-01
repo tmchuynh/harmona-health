@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const mindfulnessPrompts: JournalPrompts[] = [
   {
@@ -10,6 +11,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can you acknowledge your emotions without labeling them as 'good' or 'bad'?",
       "What does it feel like to simply observe your feelings without needing to change them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -20,6 +22,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can you deepen your awareness of the world around you by focusing on the sensory experiences in this moment?",
       "What impact does being fully aware of your environment have on your sense of peace?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I incorporate more mindfulness into my daily routine?",
@@ -29,6 +32,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can you remind yourself to slow down and focus on the present moment, even during busy times?",
       "What benefits might you experience by incorporating mindfulness into your day?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -39,6 +43,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What are some reminders you can give yourself to pause and be present when you're feeling overwhelmed?",
       "How can mindfulness help you detach from the thoughts and emotions that fuel your stress?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does it mean to be truly present in my relationships?",
@@ -48,6 +53,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can mindfulness improve your ability to understand and connect with others?",
       "What are some small, mindful actions you can take to foster more meaningful connections?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -58,6 +64,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What would it look like to practice non-judgmental awareness when you're struggling?",
       "How can mindfulness support you in navigating difficult situations with a sense of calm and clarity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I create a mindful space in my home or workspace?",
@@ -67,6 +74,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What small changes can you make to create a more peaceful, mindful atmosphere where you spend your time?",
       "How does your environment influence your mental clarity and ability to focus?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -77,6 +85,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What would it feel like to take a few moments of deep, mindful breathing during breaks in your day?",
       "How can mindful breathing help you create space between your thoughts and reactions?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -87,6 +96,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What specific practices or habits can you adopt to bring more mindfulness into your routine?",
       "How would cultivating mindfulness on a deeper level improve your overall well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -97,6 +107,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How does mindfulness influence your ability to cope with difficult emotions or challenges?",
       "What long-term benefits do you expect mindfulness to bring to your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -107,6 +118,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What would it look like to practice mindfulness when you experience negative or self-critical thoughts?",
       "How can you cultivate greater awareness of your thought patterns and reactions?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -117,6 +129,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can you practice mindful gratitude, paying attention to things you often take for granted?",
       "What are some specific moments you can pause to reflect on with gratitude during your day?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -127,6 +140,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What are some mindfulness strategies you can use to break tasks into manageable pieces and stay present?",
       "How can mindfulness help you navigate moments of distraction without judgment or frustration?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -137,6 +151,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can being mindful during small moments create a deeper sense of appreciation for life’s simple pleasures?",
       "How does mindfulness enhance your connection with the present moment, even in the most mundane tasks?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -147,6 +162,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can you incorporate mindfulness into your daily routine to support your emotional well-being?",
       "What benefits do you experience when you practice mindfulness in the face of stress or adversity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I stay mindful throughout the day?",
@@ -155,6 +171,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can I remind myself to take deep breaths and center myself when I feel overwhelmed?",
       "What are some simple mindfulness practices I can incorporate into my routine today?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -165,6 +182,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can mindfulness help you prioritize your well-being while still being productive and goal-oriented?",
       "What role does mindfulness play in reducing stress, preventing burnout, and improving your quality of life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -175,6 +193,7 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "How can being present in the moment help you approach challenges with a fresh perspective?",
       "What role does mindfulness play in allowing your mind to wander and explore new ideas?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -185,5 +204,6 @@ export const mindfulnessPrompts: JournalPrompts[] = [
       "What small, mindful actions can you take to strengthen your relationships and create a sense of connection?",
       "How does practicing mindfulness in your interactions with others enhance your emotional well-being?",
     ],
+    Icon: IoChatbubble,
   },
 ];

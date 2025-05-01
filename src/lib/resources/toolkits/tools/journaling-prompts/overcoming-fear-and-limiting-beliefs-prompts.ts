@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
   {
@@ -10,6 +11,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What steps can you take today, however small, to challenge this fear?",
       "How would confronting this fear empower you and help you grow?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -20,6 +22,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What is a more empowering belief you can adopt that will help you move forward?",
       "What evidence can you gather to challenge the limiting belief and reinforce the new, positive belief?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -30,6 +33,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How has this belief impacted your self-esteem and confidence?",
       "What would your life look like if you no longer held onto this belief or fear?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -40,6 +44,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How does holding onto the fear or belief serve you, and what would happen if you allowed it to fade away?",
       "Is there a deeper fear you are protecting yourself from by holding onto this limiting belief?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -50,6 +55,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can embracing fear lead to greater self-awareness and personal development?",
       "What is one small action you can take today to begin seeing fear as a stepping stone toward growth?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -60,6 +66,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can you build emotional safety to allow yourself to process and confront your fears?",
       "What steps can you take to feel more secure and empowered as you work through your limiting beliefs?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -70,6 +77,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How could freeing yourself from this fear open up new possibilities for growth, creativity, and success?",
       "What would you be able to achieve if you allowed yourself to fail and learn without fear of criticism?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -80,6 +88,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can you rely on these strengths to dismantle your limiting beliefs?",
       "What is one specific strength you can remind yourself of when fear or self-doubt arises?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -90,6 +99,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What would it look like to take consistent, small actions every day to weaken the hold of fear?",
       "How can you celebrate each step forward as a victory, no matter how small?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -100,6 +110,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can you apply these same words to your own situation?",
       "What perspective can you shift to support yourself the way you would support a friend?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -110,6 +121,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can you gently remind yourself that overcoming fear and limiting beliefs is a gradual process?",
       "What practices of self-compassion can you integrate to support yourself through this journey?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -120,6 +132,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What strengths did you rely on to overcome this challenge?",
       "How can you use this past success to encourage yourself through current fears or limiting beliefs?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -130,6 +143,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "How can imagining your future self inspire you to take action today?",
       "What perspective shift would help you view your current fears as temporary obstacles?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -140,6 +154,7 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What would it look like to take imperfect action and learn along the way?",
       "How can taking small steps build momentum and confidence to tackle bigger challenges?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -150,5 +165,6 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
       "What would it feel like to embrace discomfort and uncertainty as a path toward self-improvement?",
       "How can shifting your perspective help you view fear as a helpful ally instead of an obstacle?",
     ],
+    Icon: IoChatbubble,
   },
 ];

@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const resilienceJournalingPrompts: JournalPrompts[] = [
   {
@@ -10,6 +11,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How did you grow or change as a person because of that experience?",
       "What specific actions or mindset helped you navigate that challenge successfully?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does resilience mean to me, and how do I embody it?",
@@ -19,6 +21,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you embrace challenges as opportunities to build more resilience?",
       "What mindset or beliefs help you stay resilient in the face of adversity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -29,6 +32,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What words of encouragement do you need to hear in moments of struggle?",
       "How can you make affirmations a regular part of your routine to build resilience?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -39,6 +43,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What mindset shifts would help you approach obstacles with more patience and persistence?",
       "How can you frame setbacks as learning opportunities rather than roadblocks?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -49,6 +54,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What role do resilience, optimism, and adaptability play in your ability to bounce back?",
       "How can you develop and nurture these strengths even further?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -59,6 +65,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What small steps can you take right now to create a sense of calm and control in the midst of stress?",
       "How can you break down large challenges into manageable steps to make them feel less intimidating?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Who or what inspires me to keep going when life gets tough?",
@@ -68,6 +75,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you surround yourself with more of these sources of inspiration to fuel your resilience?",
       "What do you admire most about people who exhibit resilience, and how can you integrate these traits into your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -78,6 +86,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What are some ways to acknowledge and appreciate your progress as you move toward bigger dreams?",
       "How can you create a habit of recognizing your accomplishments, no matter how small they seem?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What self-care practices can help me build emotional resilience?",
@@ -87,6 +96,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What practices can you integrate into your daily life to help you stay grounded and focused when times get tough?",
       "How can setting aside time for self-care make you more resilient in the long run?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -97,6 +107,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What would it look like to approach future challenges with more confidence, knowing you’ve overcome tough situations before?",
       "How can you use past successes as a reminder of your ability to endure and thrive?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -107,6 +118,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What does self-compassion look like in your life, and how can you practice it more regularly?",
       "How does treating yourself with empathy and understanding contribute to your long-term resilience?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -117,6 +129,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "In moments of difficulty, how can you align your actions with your values to maintain resilience?",
       "What role do your values play in your ability to persevere and stay true to yourself during adversity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I cultivate a growth mindset to enhance my resilience?",
@@ -126,6 +139,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What specific challenges can you frame as learning experiences rather than failures?",
       "How can a growth mindset help you become more adaptable and resilient in the face of adversity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -136,6 +150,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you create healthy boundaries and nurture your relationships without compromising your own well-being?",
       "What actions can you take to maintain resilience and foster understanding in your interactions with others?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I stay motivated during times of uncertainty or change?",
@@ -145,6 +160,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What strategies can you use to remain grounded and centered during periods of transition?",
       "How can you embrace change as an opportunity for growth and resilience?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -155,6 +171,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What new coping techniques would you like to explore or incorporate into your routine?",
       "How can you create a personalized toolkit of coping strategies to support your emotional well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -165,6 +182,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What actions can you take to create a sense of community and support in your life?",
       "How can you encourage resilience in others while also prioritizing your own well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -175,6 +193,7 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What does it mean to be open and authentic in your relationships, even during tough times?",
       "How can you practice vulnerability as a way to foster deeper connections and support?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I use humor and laughter to build resilience in my life?",
@@ -184,5 +203,6 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "How can you incorporate more humor into your daily life to lighten the mood and build resilience?",
       "What role does laughter play in your relationships, and how can it strengthen your connections with others?",
     ],
+    Icon: IoChatbubble,
   },
 ];

@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const dealingWithStressPrompts: JournalPrompts[] = [
   {
@@ -9,6 +10,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What patterns or recurring themes do you notice in these stressors?",
       "How can you take small, actionable steps to address or reduce these stressors, such as time management or setting boundaries?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -18,6 +20,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What practices can help you release these physical symptoms of stress, like stretching, deep breathing, or progressive muscle relaxation?",
       "How can you incorporate these stress-relief techniques into your daily routine?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -27,6 +30,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What strategies can you use to break down these tasks into smaller, more manageable steps?",
       "How can prioritizing and setting small goals reduce the sense of overwhelm?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I create a stress-free environment at home or work?",
@@ -35,6 +39,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What changes can you make to declutter or organize your space to foster calmness?",
       "How can you incorporate calming elements (e.g., plants, soothing colors, natural light) into your environment?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What self-care activities bring me the most relief from stress?",
@@ -43,6 +48,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "How can you incorporate more of these stress-relieving activities into your weekly routine?",
       "What role does self-care play in maintaining a balanced and stress-free life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -52,6 +58,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What tools (e.g., cognitive reframing, mindfulness) can you use to challenge and shift these thoughts?",
       "How can you practice self-compassion when these thoughts arise, reminding yourself that stress is a normal part of life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -61,6 +68,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What steps can you take to assertively communicate your needs and limits with others?",
       "How can setting these boundaries help you create more space for rest and reduce stress in your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -70,6 +78,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "How can you remind yourself to stay present instead of getting lost in anxious or stressful thoughts?",
       "What grounding technique works best for you, and how can you practice it regularly to stay calm in stressful moments?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -79,6 +88,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What changes can you make to communicate your stress more openly and ask for support when needed?",
       "How can you practice vulnerability by sharing your stress without feeling guilty or overwhelmed?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -88,6 +98,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "How can you prioritize downtime, sleep, and relaxation without feeling guilty or pressured?",
       "What activities can help you unwind, such as reading, spending time in nature, or practicing mindfulness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -97,6 +108,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "How can you intentionally incorporate these moments of joy into your day to create a balance between stress and happiness?",
       "What simple pleasures can you savor throughout your day to keep your mind and body relaxed?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -106,6 +118,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What does it feel like to be fully present in the moment during these tasks, without rushing or multitasking?",
       "How can mindfulness help you break the cycle of stress and overwhelm by focusing on one task at a time?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What support systems can I rely on to manage and reduce stress?",
@@ -114,6 +127,7 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "How can you reach out for help when you need it, and what ways can you ensure you're not facing stress alone?",
       "What community or support group can you join to help you manage stress more effectively?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -123,5 +137,6 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "What coping mechanisms, strategies, or tools have you learned over time that you can continue to use?",
       "How can you use these past lessons to handle future stressors with more confidence and calmness?",
     ],
+    Icon: IoChatbubble,
   },
 ];

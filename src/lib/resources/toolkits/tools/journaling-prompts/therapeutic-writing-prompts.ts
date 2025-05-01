@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const therapeuticWritingPrompts: JournalPrompts[] = [
   {
@@ -15,6 +16,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What would you do differently if faced with a similar situation in the future?",
       "What personal strengths did you discover while navigating this challenge?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -30,6 +32,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What does it feel like to let go of stress and fully embrace peace?",
       "How can you use this memory to guide you when feeling overwhelmed?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -45,6 +48,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What tools or strategies can you use in the future to prevent this disconnection?",
       "How can you be more attuned to your needs moving forward?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -60,6 +64,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "If you could express gratitude to them, what would you say?",
       "How has this relationship helped you become the person you are today?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -75,6 +80,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "How will reaching this goal impact your life?",
       "What will you do to stay motivated when facing setbacks?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -90,6 +96,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "How can you apply forgiveness in other areas of your life?",
       "Do you find it easier to forgive others or to forgive yourself?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -105,6 +112,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "Why do you consider this place your sanctuary?",
       "How can you take the sense of security this place offers with you when you leave?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -120,6 +128,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "How has this experience helped you grow as a person?",
       "What has this taught you about resilience and adaptability?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -135,6 +144,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What does this accomplishment mean to you on a deeper level?",
       "How can you use this experience to fuel future success?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -150,6 +160,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What role does empathy play in your relationships?",
       "How can you show others that you understand them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -165,6 +176,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What other habits might support your overall well-being?",
       "How do you feel when you are able to stick to this routine consistently?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -180,6 +192,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What fears are you still working to overcome, and how can you approach them?",
       "How does overcoming fear contribute to your personal empowerment?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -195,6 +208,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What lessons about resilience have you applied in other areas of your life?",
       "How can you build more resilience moving forward?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -210,6 +224,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What other perspectives would you like to explore or challenge?",
       "How can you stay open to shifts in perspective in the future?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -225,6 +240,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What rewards will you give yourself for progress?",
       "How will changing this habit or mindset improve your well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -240,6 +256,7 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What lessons about connection can you apply to future relationships?",
       "How does feeling connected to others enhance your overall well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -255,5 +272,6 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "How can you celebrate your unique qualities and experiences?",
       "What steps can you take to align your actions with your true self?",
     ],
+    Icon: IoChatbubble,
   },
 ];

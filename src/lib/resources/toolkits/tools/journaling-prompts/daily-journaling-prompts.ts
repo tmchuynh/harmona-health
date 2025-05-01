@@ -1,4 +1,8 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { BsMailboxFlag } from "react-icons/bs";
+import { FaBrain, FaHeart, FaSun } from "react-icons/fa";
+import { IoChatbubble } from "react-icons/io5";
+
 
 export const dailyJournalingPrompts: JournalPrompts[] = [
   {
@@ -9,6 +13,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How do you feel emotionally and physically during this day?",
       "What activities would make you feel energized and fulfilled?",
     ],
+    Icon: FaSun,
   },
   {
     prompt:
@@ -18,6 +23,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "Free-flow writing, also known as stream of consciousness, is a writing technique where you write continuously without editing or censoring your thoughts.",
       "Use the content from your free-flow writing as a springboard for further creative exploration—whether in writing, art, or another medium.",
     ],
+    Icon: FaBrain,
   },
   {
     prompt: "Write about a time you felt truly connected to someone.",
@@ -28,6 +34,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What lessons did you learn about connection and intimacy?",
       "How can you cultivate more moments of connection in your life?",
     ],
+    Icon: FaHeart,
   },
   {
     prompt: "If I could talk to my younger self, what would I say?",
@@ -37,6 +44,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How do you think they would react to who you’ve become?",
       "What are the moments you’d reassure them about?",
     ],
+    Icon: BsMailboxFlag,
   },
   {
     prompt: "What is one thing I want to focus on today?",
@@ -45,6 +53,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How will focusing on this task improve my overall well-being or progress?",
       "How can I eliminate distractions to give my full energy to this task?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What would I do if fear didn’t exist?",
@@ -54,6 +63,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How would your relationships, career, or hobbies change?",
       "What new possibilities would open up for you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I want to be remembered?",
@@ -63,6 +73,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How do you want to impact the people around you?",
       "Write about the kind of person you aspire to become.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How am I feeling today, emotionally and physically?",
@@ -71,6 +82,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How does my body feel today? Am I feeling energized or do I need to take it easy?",
       "Are there any areas of tension or discomfort in my body that I need to address?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What will I do today to nurture my physical health?",
@@ -79,6 +91,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What physical activities will support my energy levels and overall well-being?",
       "How can I listen to my body’s needs today and respond with care?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What’s one thing I can do today to enhance my creativity?",
@@ -87,6 +100,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What small steps can I take to open my mind and encourage innovative thinking today?",
       "How can I use my creativity to bring joy and energy into my day?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What is one thing I can do today to challenge myself?",
@@ -95,6 +109,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How can I push myself toward growth, even if it’s in a small way?",
       "What challenge will help me build confidence and resilience?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does self-care look like for me?",
@@ -104,6 +119,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What activities restore your energy and bring you joy?",
       "Describe how you nurture both your mind and body.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What’s one positive thing that has already happened today?",
@@ -112,6 +128,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How can this positive moment set the tone for the rest of my day?",
       "What else can I do today to ensure more moments of positivity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I practice self-compassion today?",
@@ -120,6 +137,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How can I show myself grace if things don’t go as planned?",
       "What does self-compassion look like for me in my daily life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What is my personal definition of success?",
@@ -129,6 +147,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What does success look like in terms of personal growth?",
       "Write about how you’ll know when you’ve achieved success.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are the things I’m grateful for today?",
@@ -138,6 +157,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How does your gratitude practice improve your mindset?",
       "What challenges are you grateful for and why?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are my current emotional triggers?",
@@ -147,6 +167,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What do these triggers teach you about your inner world?",
       "Describe a time you successfully managed an emotional trigger.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "If I could live anywhere in the world, where would it be?",
@@ -156,6 +177,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How would this environment affect your creativity, energy, and peace?",
       "What would you need to let go of to make this dream a reality?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What is my favorite memory from childhood?",
@@ -165,6 +187,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How has this memory shaped who you are today?",
       "What lessons or joy can you bring from this memory into your life now?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I show myself love and kindness?",
@@ -174,6 +197,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How do you respond to your inner critic, and how can you improve?",
       "What new practices of self-love could you explore?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What do I want my future self to know?",
@@ -183,6 +207,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "Describe the life you envision for yourself 5, 10, or 20 years from now.",
       "What are the things you want to celebrate about your future self?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does my perfect morning routine look like?",
@@ -192,6 +217,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "How would this routine help with your productivity or mood?",
       "What small changes could you make to move closer to this ideal morning?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What is one fear I’d like to overcome, and how can I start?",
@@ -201,6 +227,7 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "Write about a time when you overcame a smaller fear and how it felt.",
       "How would your life improve if this fear no longer held you back?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What brings me peace when everything feels chaotic?",
@@ -210,5 +237,6 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What can you rely on to help you regain focus and inner calm?",
       "How can you integrate more peace into your daily life?",
     ],
+    Icon: IoChatbubble,
   },
 ];

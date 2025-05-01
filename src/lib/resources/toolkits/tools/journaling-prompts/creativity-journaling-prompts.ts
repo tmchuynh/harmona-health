@@ -1,7 +1,16 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { FaPenAlt } from "react-icons/fa";
-import { PiPenBold } from "react-icons/pi";
-import { TiPen } from "react-icons/ti";
+import { FaPersonBurst } from "react-icons/fa6";
+import {
+  GiCandleLight,
+  GiCornerFlag,
+  GiDreamCatcher,
+  GiGhost,
+  GiKnightBanner,
+} from "react-icons/gi";
+import { IoIosBookmarks } from "react-icons/io";
+import { SlEnvolopeLetter } from "react-icons/sl";
+import { TbBuildingLighthouse } from "react-icons/tb";
 
 export const creativityJournalingPrompts: JournalPrompts[] = [
   {
@@ -13,7 +22,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lessons do you hope your future self has learned?",
       "What kind of person do you want to be when you read this letter?",
     ],
-    Icon: TiPen,
+    Icon: SlEnvolopeLetter,
   },
   {
     prompt: "Imagine your life as a novel—what would the title be?",
@@ -24,7 +33,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who are the main characters in your life story, and what roles do they play?",
       "How would you want your life’s story to be remembered?",
     ],
-    Icon: FaPenAlt,
+    Icon: IoIosBookmarks,
   },
   {
     prompt: "Write about a dream you’ve had recently.",
@@ -35,7 +44,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "If this dream had a story, what would the plot be?",
       "How did the dream make you feel the next morning, and why?",
     ],
-    Icon: PiPenBold,
+    Icon: GiDreamCatcher,
   },
   {
     prompt: "Create a character based on someone you’ve met.",
@@ -46,7 +55,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What’s their most defining trait—confidence, kindness, humor, or something else?",
       "How does this character interact with others? Are they a leader, follower, or something in-between?",
     ],
-    Icon: PiPenBold,
+    Icon: FaPersonBurst,
   },
   {
     prompt: "Describe a place that holds significance for you.",
@@ -57,7 +66,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "How has this place shaped you, and why does it have a special place in your heart?",
       "If you could visit this place in the future, what would you hope to find or experience?",
     ],
-    Icon: FaPenAlt,
+    Icon: TbBuildingLighthouse,
   },
   {
     prompt: "Write a scene where you are the hero in an adventure.",
@@ -68,7 +77,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who are your allies or enemies in this adventure? How do they help or hinder your progress?",
       "What does your ultimate victory or failure look like? How does it change you?",
     ],
-    Icon: FaPenAlt,
+    Icon: GiKnightBanner,
   },
   {
     prompt:
@@ -80,7 +89,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What explanation, if any, do you come up with for this strange event?",
       "What happens next? Does this strange event lead to further bizarre occurrences?",
     ],
-    Icon: FaPenAlt,
+    Icon: GiGhost,
   },
   {
     prompt: "Invent a new holiday. What is it, and how do people celebrate it?",
@@ -91,7 +100,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Who celebrates this holiday, and how is it different from other holidays?",
       "How do people prepare for and reflect on the holiday? Is it a time of rest, action, or giving?",
     ],
-    Icon: FaPenAlt,
+    Icon: GiCandleLight,
   },
   {
     prompt: "Write about a turning point in your life.",
@@ -102,7 +111,7 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lessons did you learn from this experience, and how did they guide you afterward?",
       "If you could go back, would you make the same decision, or would you choose differently?",
     ],
-    Icon: FaPenAlt,
+    Icon: GiCornerFlag,
   },
   {
     prompt: "Write a scene where you meet your younger self.",
@@ -217,3 +226,5 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     Icon: FaPenAlt,
   },
 ];
+
+export const journalingPromptscreativityJournalingPrompts = [];

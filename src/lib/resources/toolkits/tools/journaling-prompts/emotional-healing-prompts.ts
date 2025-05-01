@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const emotionalHealingPrompts: JournalPrompts[] = [
   {
@@ -9,6 +10,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What physical sensations or thoughts arise when you think about these emotions?",
       "What steps can you take today to release them, such as journaling, talking to someone, or practicing mindfulness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What past experiences or events do I need to forgive myself for?",
@@ -17,6 +19,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What did you learn from these experiences, and how can you offer yourself forgiveness?",
       "What emotions (shame, guilt, regret) are tied to these past actions, and how can you release them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -26,6 +29,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "When you feel overwhelmed, what practices can you use to ground yourself, like deep breathing or meditation?",
       "How can you create emotional space, allowing feelings to come and go without letting them control you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -35,6 +39,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What are the underlying beliefs that fuel your fears, and how can you challenge them?",
       "How can you take small steps to face these fears, building resilience along the way?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -44,6 +49,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you reframe or shift your perspective on these situations to prevent anger from taking hold?",
       "What healthy coping strategies (e.g., physical exercise, assertive communication) can you use to release these emotions?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -53,6 +59,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you allow yourself to grieve or mourn without rushing through it?",
       "What comfort or self-care practices can you engage in to nurture yourself during times of sadness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I let go of guilt or shame and embrace self-compassion?",
@@ -61,6 +68,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you remind yourself that everyone makes mistakes, and you are worthy of forgiveness?",
       "What would it look like to release the weight of guilt or shame and replace it with self-compassion?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How does anxiety show up in my body, and how can I soothe it?",
@@ -69,6 +77,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What mindfulness or grounding techniques (e.g., body scanning, deep breathing) can you use to calm your body during anxious moments?",
       "How can you create a sense of safety and calmness in your mind and body when anxiety arises?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -78,6 +87,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What is the underlying cause of your resentment, and how can you process it constructively?",
       "How can letting go of resentment open the door to healing, peace, and personal freedom?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -87,6 +97,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What strengths have you discovered within yourself through the process of sadness and healing?",
       "How can you shift your perspective to see sadness as a stepping stone to emotional growth?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -96,6 +107,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you practice self-compassion while healing from heartache?",
       "What steps can you take to slowly open your heart again, starting with self-love and forgiveness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -105,6 +117,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What tools (e.g., mindfulness, cognitive reframing, journaling) can you use to shift your thinking and create space for peace?",
       "How can you practice being present in the moment and let go of thoughts that no longer serve you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -114,6 +127,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What might it feel like to share your true emotions with others, even when it feels uncomfortable?",
       "How can embracing vulnerability strengthen your relationships and facilitate emotional healing?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -123,6 +137,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What healing practices (e.g., affirmations, self-love, therapy) can help you rebuild a positive self-image?",
       "How can you shift your focus from criticism to appreciation of your body for all that it does for you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -132,6 +147,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you reframe fear as a signal that you are pushing boundaries and growing emotionally?",
       "What are small, courageous steps you can take to confront and move past your fears?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -141,6 +157,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you actively cultivate these emotions through mindful practices, gratitude, or intentional living?",
       "What are some experiences that would help you tap into these positive emotions on a regular basis?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -150,6 +167,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you use self-compassion and mindfulness to connect with yourself during lonely moments?",
       "What practices (e.g., journaling, creative expression) can help you cultivate self-love and reduce feelings of loneliness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How does my emotional pain serve as a teacher in my life?",
@@ -158,6 +176,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you shift your perspective to see pain as an opportunity for growth, self-awareness, and healing?",
       "What insights have you gained from painful experiences that can guide you on your emotional healing journey?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does balance look like for me today?",
@@ -166,6 +185,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can I ensure I’m nurturing both my work life and personal well-being?",
       "What boundaries can I set to maintain balance throughout the day?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I practice emotional boundaries and protect my energy?",
@@ -174,6 +194,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What steps can you take to establish clear emotional boundaries in relationships, work, or family?",
       "How can protecting your energy allow you to nurture your emotional well-being and practice self-care?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -183,6 +204,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you cultivate emotional safety for yourself and others through open communication and trust?",
       "What steps can you take to create a safe space for vulnerability and emotional expression?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -192,6 +214,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What self-compassionate practices (e.g., deep breathing, positive affirmations) can you use to soothe yourself during stressful times?",
       "How can you remind yourself that it’s okay to feel overwhelmed and that you deserve kindness in those moments?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -201,6 +224,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What qualities or practices contribute to your emotional resilience, such as mindfulness, support systems, or self-care?",
       "How can you strengthen your emotional resilience moving forward, especially during difficult times?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -210,6 +234,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What practices (e.g., mindfulness, acceptance) can help you navigate change with grace and resilience?",
       "How can you view change as an opportunity for growth and transformation rather than a source of fear?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -219,6 +244,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can you practice being true to your emotions, even when it feels uncomfortable?",
       "What steps can you take to create a safe space for emotional expression and authenticity?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -228,6 +254,7 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What practices or rituals can you incorporate into your routine to support your emotional healing journey?",
       "How can you remind yourself that healing is a process, and it’s okay to take it one step at a time?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -237,5 +264,6 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What changes can you make to your environment (e.g., decluttering, surrounding yourself with positive influences) to support your healing?",
       "How can you cultivate a sense of safety and comfort in your surroundings to facilitate emotional growth?",
     ],
+    Icon: IoChatbubble,
   },
 ];

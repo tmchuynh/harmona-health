@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const selfCompassionPrompts: JournalPrompts[] = [
   {
@@ -9,6 +10,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you show yourself compassion through self-talk or taking a break?",
       "What is one thing you can forgive yourself for today, allowing more peace to enter your heart?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -19,6 +21,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you apply this same kindness and patience to yourself?",
       "What actions can you take to soothe your own heart the way you would for someone you care about?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -29,6 +32,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What did you learn about yourself in that moment of softness?",
       "How can you replicate that feeling of gentleness in your daily life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -39,6 +43,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What would it feel like to release this belief and replace it with one that is more nurturing?",
       "How can you remind yourself to practice compassion instead of self-criticism in moments of doubt?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are three things I can appreciate about myself right now?",
@@ -48,6 +53,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What do you like most about who you are at this moment, and why?",
       "How does appreciating yourself change how you feel about your current situation?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What part of my body needs more love and care right now?",
@@ -57,6 +63,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What act of self-compassion can you perform for your body today, whether it’s a gentle stretch or taking a break?",
       "How does nurturing your body allow you to feel more grounded and connected?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -67,6 +74,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "What would it look like to forgive yourself fully for this situation, understanding that growth comes from learning?",
       "How can letting go of this burden bring you peace and freedom?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -77,6 +85,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you recognize progress along the way, even if it feels small or slow?",
       "What self-compassionate steps can you take today to ensure you are not rushing the journey?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -87,6 +96,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you cultivate a habit of speaking to yourself with the same compassion you would offer a friend?",
       "What impact could regularly practicing kind self-talk have on your mental well-being?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I embrace my imperfections with love and acceptance?",
@@ -96,6 +106,7 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can embracing your whole self — flaws and all — make you feel more whole and at peace?",
       "What shifts in perspective can you adopt to love yourself more fully in all your uniqueness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -106,5 +117,6 @@ export const selfCompassionPrompts: JournalPrompts[] = [
       "How can you remind yourself to be gentle and kind during challenging moments?",
       "What small changes can you make today to prioritize self-compassion in your life?",
     ],
+    Icon: IoChatbubble,
   },
 ];

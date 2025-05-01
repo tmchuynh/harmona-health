@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
   {
@@ -9,6 +10,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What do these experiences teach you about your passions or purpose?",
       "How can you bring more of these moments into your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Create a list of things you want to learn or try.",
@@ -18,6 +20,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What steps can you take to start learning or trying these things?",
       "How do you envision your life changing as a result of these new experiences?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What do I value most in life?",
@@ -27,6 +30,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What would your life look like if you lived in total alignment with these values?",
       "How can you strengthen these values in your daily life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -37,6 +41,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What could you create, share, or contribute using these talents?",
       "How can you bring more of your unique self into your work and relationships?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I define success in my life?",
@@ -46,6 +51,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "Are there societal pressures or expectations influencing your idea of success?",
       "What would you change about your current view of success to make it more authentic?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What legacy do I want to leave behind?",
@@ -55,6 +61,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How do your actions and choices today align with the legacy you envision?",
       "What small steps can you take now to start building that legacy?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "When do I feel most connected to my authentic self?",
@@ -64,6 +71,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How can you cultivate more of these moments in your daily life?",
       "What are the barriers that prevent you from showing up authentically?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -74,6 +82,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How can you foster a deeper understanding of who you are through your daily life?",
       "What tools or practices can support your journey of self-exploration?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -84,6 +93,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What would your life look like if you released or rewrote these stories?",
       "What empowering beliefs could replace these limiting ones?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does it mean to live a life of purpose?",
@@ -93,6 +103,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How can you align your daily actions with a sense of purpose?",
       "What small changes can you make today to bring more purpose into your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Who do I admire most, and why?",
@@ -102,6 +113,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How can you embody some of those qualities in your own life?",
       "What can you learn from their journeys or accomplishments?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does my intuition tell me about my life’s direction?",
@@ -111,6 +123,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "When have you ignored or trusted your gut feelings, and what was the outcome?",
       "How can you deepen your connection to your intuition moving forward?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -121,6 +134,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What would life look like if these fears were no longer an obstacle?",
       "What steps can you take to address these fears, whether through action or mindset shifts?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I want to grow over the next year?",
@@ -130,6 +144,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How will you measure your growth over time?",
       "What commitments or actions will you take to ensure you continue to evolve?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I cultivate more joy and fulfillment in my life?",
@@ -139,6 +154,7 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What would your ideal life look like if joy were your top priority?",
       "How can you shift your focus from stress to gratitude and happiness?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What do I want to learn about myself this year?",
@@ -148,5 +164,6 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "How can you create space for this self-discovery journey?",
       "What questions do you need to ask yourself to uncover new insights?",
     ],
+    Icon: IoChatbubble,
   },
 ];

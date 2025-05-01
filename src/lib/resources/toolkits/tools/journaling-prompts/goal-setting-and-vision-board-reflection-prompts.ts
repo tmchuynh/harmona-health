@@ -1,4 +1,10 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { BsBriefcaseFill } from "react-icons/bs";
+import { GoGoal } from "react-icons/go";
+import { IoIosBowtie } from "react-icons/io";
+import { IoChatbubble } from "react-icons/io5";
+
+
 
 export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
   {
@@ -9,6 +15,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "Break each goal into smaller, actionable steps.",
       "What resources or support do you need to achieve them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I envision my ideal life 5 years from now?",
@@ -18,6 +25,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How does your current path align with this vision?",
       "What changes or shifts do you need to make to get closer to this vision?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What values guide my decisions and goals?",
@@ -27,6 +35,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you align your goals with these core values?",
       "When making decisions, how can you check that they align with your values?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What limiting beliefs might hold me back from achieving my goals?",
@@ -36,6 +45,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What evidence do you have that disproves these limiting beliefs?",
       "What actions can you take to build confidence and overcome self-doubt?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -46,6 +56,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What obstacles do you anticipate, and how can you prepare to overcome them?",
       "How can you celebrate your progress along the way to stay motivated and resilient?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -56,6 +67,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What does success look like on a deeper, internal level (e.g., peace, confidence, fulfillment)?",
       "How do you balance internal and external success?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -66,6 +78,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What wisdom have you gained that can help you navigate difficult situations with resilience?",
       "How can you apply these lessons to your current circumstances to foster growth and strength?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I want to feel at the end of this year?",
@@ -75,6 +88,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What habits or actions do you need to start or stop to feel that way?",
       "How will you track your emotional progress throughout the year?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are the key habits that will help me achieve my goals?",
@@ -84,6 +98,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What obstacles might come in the way of these habits, and how can you overcome them?",
       "How will you celebrate small victories as you develop these habits?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -94,6 +109,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "Write a step-by-step plan for navigating these obstacles.",
       "What mindset shifts will help you persevere through difficult times?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -104,6 +120,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What personal values or core beliefs are reflected in your vision board?",
       "How do the items on your board align with your goals and life vision?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -114,6 +131,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can letting go of these goals create space for new opportunities?",
       "What does it feel like to release goals that no longer align with your vision?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Who do I need to become to achieve my vision?",
@@ -123,6 +141,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What strengths will you cultivate, and what habits will you adopt?",
       "How can you start embodying this future version of yourself right now?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What role does gratitude play in my goal-setting process?",
@@ -132,6 +151,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you build gratitude into your daily goal-setting routine?",
       "What can you appreciate about your progress so far, even if you haven’t reached your ultimate goal?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -142,6 +162,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What mindset will you adopt to stay focused on your goal in the present moment?",
       "How can you build momentum by taking consistent, small actions?",
     ],
+    Icon: GoGoal,
   },
   {
     prompt: "What do I need to release in order to move forward in my goals?",
@@ -151,6 +172,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you shift your mindset to embrace growth and change?",
       "Write about the freedom and potential that will arise when you release what no longer serves you.",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -161,6 +183,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How do these passions align with your core values and life purpose?",
       "What would it look like to incorporate more of these activities into your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What is my deepest sense of purpose?",
@@ -170,6 +193,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What inner qualities, gifts, or talents do you want to express and share with others?",
       "What would a life lived in total alignment with your purpose look like?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I envision my ideal life in 10 years?",
@@ -179,6 +203,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How do your current actions and decisions align with this long-term vision?",
       "What changes or shifts do you need to make in your daily life to step closer to this ideal future?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What passions do I want to explore more deeply in my life?",
@@ -188,6 +213,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How could diving into these passions enrich your life or career?",
       "What small steps can you take to begin exploring them more deeply?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does my career vision look like in the next 5 years?",
@@ -197,6 +223,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What professional skills, relationships, or milestones do you want to achieve?",
       "How does this vision excite or inspire you to take action now?",
     ],
+    Icon: BsBriefcaseFill,
   },
   {
     prompt:
@@ -207,6 +234,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "In what areas can you expand or enhance these strengths to support your growth?",
       "How can you use these strengths to differentiate yourself in your industry?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -217,6 +245,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How do you envision yourself feeling each day at work — energized, proud, balanced?",
       "What actions or career choices will bring you closer to these feelings?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -227,6 +256,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What will achieving these goals mean for your life and self-fulfillment?",
       "What steps can you take today to make progress toward these long-term goals?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What skills do I need to develop in order to advance my career?",
@@ -236,6 +266,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What resources or people can help you gain these skills?",
       "How can developing these skills open new doors or opportunities for you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -246,6 +277,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What role does networking play in your career vision, and how can you make it a priority?",
       "What value can you offer in these relationships to make them mutually beneficial?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -256,6 +288,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "Are there areas where you feel misaligned or disconnected from your core values?",
       "How can you shift your professional direction to create more alignment?",
     ],
+    Icon: IoIosBowtie,
   },
   {
     prompt:
@@ -266,6 +299,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How does this balance affect your overall well-being and productivity?",
       "What adjustments do you need to make in your current routine to create more harmony?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What legacy do I want to leave in my career?",
@@ -275,6 +309,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What achievements would make you feel that you’ve left a meaningful legacy?",
       "How can you start today to build toward this lasting legacy?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -285,6 +320,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What strategies or solutions can you implement to navigate around these challenges?",
       "How will overcoming these obstacles contribute to your growth and success?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I want to grow professionally in the next year?",
@@ -294,6 +330,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How will you measure your professional growth and success?",
       "What specific actions can you take today to begin growing in these areas?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does fulfillment look like for me in my career?",
@@ -303,6 +340,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you align your daily actions with the pursuit of this fulfillment?",
       "What small shifts can you make in your current work situation to bring you closer to this sense of fulfillment?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How can I develop a growth mindset to support my career success?",
@@ -312,6 +350,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What steps can you take to develop resilience and adaptability in your career?",
       "How can you embrace a mindset that sees every experience as a lesson to learn from?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does success look like for me today?",
@@ -320,6 +359,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can I measure success without getting too attached to perfection?",
       "What is one thing I can do today that will give me a sense of accomplishment?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What steps can I take today to start building my dream career?",
@@ -329,6 +369,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How will these steps create momentum and clarity for your long-term career vision?",
       "What mindset will help you stay focused and motivated as you take these steps?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What makes me feel energized and motivated in my work?",
@@ -338,6 +379,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you incorporate more of these energizing tasks into your daily routine?",
       "What habits or environments can support your motivation and focus?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are my priorities for today?",
@@ -346,6 +388,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can I balance my priorities without overwhelming myself?",
       "What will happen if I successfully complete these priorities, and how will that impact my week?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What are the values that I want to guide my career choices?",
@@ -355,6 +398,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What decisions or actions will help you live in greater alignment with these values?",
       "What career choices have you made that reflect your values, and how do you feel about them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What success have I already achieved, and how can I celebrate it?",
@@ -364,6 +408,7 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How can you celebrate your achievements and honor your progress?",
       "What positive habits did these successes reinforce in your life?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What legacy do I want to create through my goals and actions?",
@@ -373,5 +418,6 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "What actions will you take to ensure that your legacy aligns with your values?",
       "How can you begin building this legacy today?",
     ],
+    Icon: IoChatbubble,
   },
 ];

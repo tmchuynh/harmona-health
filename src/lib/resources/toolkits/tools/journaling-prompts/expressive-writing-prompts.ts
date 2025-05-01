@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { IoChatbubble } from "react-icons/io5";
 
 export const expressiveWritingPrompts: JournalPrompts[] = [
   {
@@ -15,6 +16,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "Write a goodbye letter to one emotion you’re ready to release.",
       "What support would help you feel safer in releasing these emotions?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What do I need to hear right now, and why?",
@@ -29,6 +31,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "How can you be your own source of emotional safety?",
       "What beliefs are you working to rebuild within yourself?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does emotional safety mean to me?",
@@ -43,6 +46,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What changes can you make to cultivate more emotional safety in your life?",
       "How does emotional safety affect your ability to be vulnerable?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I cope with emotional pain, and is it working for me?",
@@ -57,6 +61,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What would it take for you to reach out for help more often?",
       "How does your body respond when you’re avoiding emotional pain?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What parts of myself do I still struggle to accept?",
@@ -71,6 +76,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What strengths might exist in these parts you struggle with?",
       "What would self-acceptance look and feel like for you?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What relationship in my life feels most unresolved, and why?",
@@ -85,6 +91,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "How has this relationship affected your sense of self-worth?",
       "What boundaries could help you move forward, with or without them?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What patterns keep showing up in my emotional life?",
@@ -99,6 +106,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What support or tools do you need to begin changing these patterns?",
       "What emotion are you most uncomfortable sitting with—and why?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt:
@@ -114,6 +122,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "How can this truth help you grow or evolve?",
       "What is the cost of continuing to avoid it?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "What does healing mean to me at this stage in life?",
@@ -128,6 +137,7 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What areas of your life still need your attention or compassion?",
       "What would life look like if you felt truly whole?",
     ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "In what ways have I grown emotionally over the past year?",
@@ -142,5 +152,6 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What are you proud of yourself for learning or unlearning?",
       "How can you celebrate or honor this emotional growth?",
     ],
+    Icon: IoChatbubble,
   },
 ];
