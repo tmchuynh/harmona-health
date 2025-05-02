@@ -1,14 +1,14 @@
 "use client";
 import ToolLinkCard from "@/components/card/ToolLinkCard";
 import { useToolContext } from "@/context/toolContext";
-import { ToolLinks } from "@/lib/interfaces&types/resources";
+import { LeadershipTools } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<ToolLinks[]>([]);
+  const [toolData, setToolData] = useState<LeadershipTools[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
