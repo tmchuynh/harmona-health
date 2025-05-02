@@ -1,6 +1,5 @@
 "use client";
 import DynamicButton from "@/components/button/button-dynamic";
-import { QuadGallery } from "@/components/images/QuadGridImages";
 import {
   Table,
   TableBody,
@@ -10,7 +9,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { icons } from "@/lib/constants/constants";
-import { data } from "@/lib/constants/services/images";
 import { serviceInformation } from "@/lib/constants/services/serviceInformation";
 import { subServices } from "@/lib/constants/services/services";
 import { serviceTierInformation } from "@/lib/constants/services/tierInformation";
@@ -290,10 +288,6 @@ export default function Page() {
                   )}
                 </div>
               ))}
-            </section>
-            <section className="xl:gap-2 grid grid-cols-1 py-2">
-              <QuadGallery data={data} />
-              {isLargeScreen && <QuadGallery data={data} />}
             </section>
           </div>
         </article>
