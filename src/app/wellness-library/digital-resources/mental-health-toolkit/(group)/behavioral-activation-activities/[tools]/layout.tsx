@@ -8,7 +8,7 @@ import {
   sliceOffLastWord,
 } from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   const tool = usePathname().split("/").slice(-1)[0];
