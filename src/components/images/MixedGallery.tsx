@@ -8,7 +8,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-1/2">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[20em] object-cover object-center"
               src={
                 data[0] ||
                 "https://img.freepik.com/premium-photo/concept-using-data-analysis-systems-with-artificial-intelligence_150418-2110.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
@@ -20,7 +20,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-1/2">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[20em] object-cover object-center"
               src={
                 data[1] ||
                 "https://img.freepik.com/premium-photo/martech-marketing-technology-concept-virtual-screen-interface-network-connection-online-market_1101054-70301.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
@@ -32,7 +32,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-full">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[42em] object-cover object-center"
               src={
                 data[2] ||
                 "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010144.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
@@ -46,7 +46,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-full">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[30em] object-cover object-center"
               src={
                 data[3] ||
                 "https://img.freepik.com/premium-photo/screen-with-word-blue-it_1239820-2062.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
@@ -58,7 +58,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-1/2">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[32em] object-cover object-center"
               src={
                 data[4] ||
                 "https://img.freepik.com/premium-photo/big-data-technology-business-finance-concept_31965-3079.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
@@ -70,7 +70,7 @@ export default function MixedGallery({ data }: { data: string[] }) {
           <div className="p-1 md:p-2 w-1/2">
             <Image
               alt=""
-              className="block rounded-lg w-full h-full object-cover object-center"
+              className="block rounded-lg w-full h-[32em] object-cover object-center"
               src={
                 data[5] ||
                 "https://img.freepik.com/premium-photo/two-asian-businessmen-analysts-modern-office-reviewing-financial-statements-business-performance-analysing-return-investment-roi_101984-115.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740"
