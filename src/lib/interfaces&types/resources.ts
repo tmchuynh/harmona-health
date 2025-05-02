@@ -161,6 +161,14 @@ export interface ToolLinks {
   image?: string;
 }
 
+export interface LeadershipTools {
+  title: string;
+  description: string;
+  href: string;
+  highlights: string[];
+  details: string[];
+}
+
 export interface Fitness {
   title: string;
   duration?: string;
