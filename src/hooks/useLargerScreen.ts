@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
-import { debounce } from "./debounce";
-
+import { debounce } from "@/lib/screens/debounce";
+import { useEffect, useState } from "react";
 
 /**
  * A custom React hook that determines if the screen width exceeds a certain threshold.
@@ -33,8 +32,8 @@ const useIsLargerScreen = (
     handleResize();
 
     return () => {
-    window.removeEventListener("resize", debouncedHandleResize);
-  };
+      window.removeEventListener("resize", debouncedHandleResize);
+    };
   }, [debounceDelay, threshold]);
 
   return isLargerScreen;
