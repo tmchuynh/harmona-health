@@ -169,7 +169,7 @@ export interface Fitness {
   rest: string;
   frequency: string;
   tip: string;
-  difficulty: "Beginner" | "Intermediate" | "Advanced";
+  difficulty: "Beginner" | "Intermediate" | "Advanced" | "All Levels";
   exercises: Workout[];
 }
 
