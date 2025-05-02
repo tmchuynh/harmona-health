@@ -41,23 +41,6 @@ import { JSX, useEffect, useState } from "react";
 import { FaLeaf } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 
-const images = [
-  "https://images.unsplash.com/photo-1599552683573-9dc48255fe85?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29ya291dHxlbnwwfDF8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1549476464-37392f717541?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1620188467120-5042ed1eb5da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya291dHxlbnwwfDF8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1500468756762-a401b6f17b46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1649887974297-4be052375a67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1517438984742-1262db08379e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1539794830467-1f1755804d13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://plus.unsplash.com/premium_photo-1674675647518-10fb231b4635?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://plus.unsplash.com/premium_photo-1674675646762-74d41a8889a0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://plus.unsplash.com/premium_photo-1672862928749-d49270b3af84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1618688862225-ac941a9da58f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-  "https://images.unsplash.com/photo-1560233075-4c1e2007908e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
-];
-
 export default function Page() {
   const url = usePathname();
   const { fitnessContent, loading } = useFitnessContent();
