@@ -154,10 +154,12 @@ export interface WorkLifeBalance {
   afterThoughts?: string;
 }
 
-export interface ToolLinks {
+export interface CommunicationTools {
   title: string;
   description: string;
-  href: string;
+  items: {
+    item: { examples: string[]; title?: string; description: string }[];
+  };
   image?: string;
 }
 
@@ -165,8 +167,9 @@ export interface LeadershipTools {
   title: string;
   description: string;
   href: string;
-  highlights: string[];
-  details: string[];
+  image?: string;
+  highlights?: string[];
+  details?: string[];
 }
 
 export interface Fitness {
