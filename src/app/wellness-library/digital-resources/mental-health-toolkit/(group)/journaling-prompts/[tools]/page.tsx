@@ -1,6 +1,7 @@
 "use client";
 import JournalPromptCard from "@/components/card/JournalPromptCard";
 import MixedGallery from "@/components/images/MixedGallery";
+import { QuadGallery } from "@/components/images/QuadGridImages";
 import { Button } from "@/components/ui/button";
 import { useToolContext } from "@/context/toolContext";
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
@@ -104,7 +105,7 @@ export default function Page() {
   }
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+    <div className="mx-auto">
       {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
 
       {toolInformation?.introduction &&
@@ -113,38 +114,46 @@ export default function Page() {
         ))}
 
       {randomPrompt && (
-        <section className="mx-auto py-7 w-full">
-          <JournalPromptCard randomPrompt={randomPrompt} />
+        <>
+          <section className="mx-auto py-7 w-full">
+            <JournalPromptCard randomPrompt={randomPrompt} />
 
-          <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
-            <Button
-              variant={journal.length === 0 ? "accent" : "destructive"}
-              onClick={handleStartOver}
-            >
-              Start Over
-            </Button>
+            <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
+              <Button
+                variant={journal.length === 0 ? "accent" : "destructive"}
+                onClick={handleStartOver}
+              >
+                Start Over
+              </Button>
 
-            <Button
-              onClick={getNextPrompt}
-              disabled={journal.length === 0}
-              className={`px-4 py-2 rounded-md ${
-                journal.length === 0 && "cursor-not-allowed"
-              }`}
-            >
-              {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
-            </Button>
-          </div>
+              <Button
+                onClick={getNextPrompt}
+                disabled={journal.length === 0}
+                className={`px-4 py-2 rounded-md ${
+                  journal.length === 0 && "cursor-not-allowed"
+                }`}
+              >
+                {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
+              </Button>
+            </div>
 
-          {journal.length === 0 && (
-            <p className="mt-4 text-center">
-              You've viewed all available journal prompts!
-            </p>
+            {journal.length === 0 && (
+              <p className="mt-4 text-center">
+                You've viewed all available journal prompts!
+              </p>
+            )}
+          </section>
+
+          {randomPrompt.gallery && (
+            <MixedGallery data={randomPrompt.gallery.data} />
           )}
-        </section>
-      )}
 
-      {randomPrompt?.gallery && (
-        <MixedGallery data={randomPrompt.gallery.data} />
+          {randomPrompt.miniGallery && (
+            <div className="flex w-full">
+              <QuadGallery data={randomPrompt.miniGallery.data} />
+            </div>
+          )}
+        </>
       )}
     </div>
   );

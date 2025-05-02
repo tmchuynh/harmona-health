@@ -29,7 +29,7 @@ export default function Page() {
   console.log("toolData", toolData);
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+    <div className="mx-auto">
       {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
 
       {toolInformation?.introduction &&
@@ -37,7 +37,7 @@ export default function Page() {
           <p key={index}>{intro}</p>
         ))}
 
-      <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
+      <section className="gap-4 grid grid-cols-1 lg:grid-cols-2 my-7">
         {toolData.map((data, index) => (
           <ActivityCard data={data} key={index} />
         ))}

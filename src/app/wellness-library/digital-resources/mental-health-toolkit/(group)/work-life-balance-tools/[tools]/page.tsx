@@ -1,10 +1,7 @@
 "use client";
 import WorkLifeBalanceCard from "@/components/card/WorkLifeBalanceCard";
 import { useToolContext } from "@/context/toolContext";
-import {
-  BehavioralActivities,
-  WorkLifeBalance,
-} from "@/lib/interfaces&types/resources";
+import { WorkLifeBalance } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
@@ -34,7 +31,7 @@ export default function Page() {
   console.log("toolInformation", toolInformation);
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+    <div className="mx-auto">
       {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
 
       {toolInformation?.introduction &&
@@ -42,7 +39,7 @@ export default function Page() {
           <p key={index}>{intro}</p>
         ))}
 
-      <section className="gap-4 grid grid-cols-1 lg:grid-cols-2">
+      <section className="gap-4 grid grid-cols-1 lg:grid-cols-2 my-7">
         {toolData.map((data, index) => (
           <WorkLifeBalanceCard data={data} key={index} />
         ))}

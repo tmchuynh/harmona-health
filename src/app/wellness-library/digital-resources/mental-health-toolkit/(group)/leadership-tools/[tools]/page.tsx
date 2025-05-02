@@ -1,10 +1,7 @@
 "use client";
 import ToolLinkCard from "@/components/card/ToolLinkCard";
 import { useToolContext } from "@/context/toolContext";
-import {
-  BehavioralActivities,
-  ToolLinks,
-} from "@/lib/interfaces&types/resources";
+import { ToolLinks } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
@@ -32,7 +29,7 @@ export default function Page() {
   console.log("toolData", toolData);
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+    <div className="mx-auto">
       {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
 
       {toolInformation?.introduction &&

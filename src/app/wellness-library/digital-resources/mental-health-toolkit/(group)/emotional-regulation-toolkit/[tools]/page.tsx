@@ -33,7 +33,7 @@ export default function Page() {
   console.log("toolData", toolData);
 
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9">
+    <div className="mx-auto">
       {toolInformation?.subtitle && <h2>{toolInformation.subtitle}</h2>}
 
       {toolInformation?.introduction &&
