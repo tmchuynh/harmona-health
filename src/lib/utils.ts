@@ -1,18 +1,17 @@
-import { clsx, type ClassValue } from "clsx"
+import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
-
 
 /**
  * Returns a random index from the given array.
- * 
+ *
  * @template T - The type of elements in the array
  * @param {T[]} array - The array to get a random index from
  * @returns {number} A random index within the bounds of the array
- * 
+ *
  * @example
  * const numbers = [10, 20, 30, 40];
  * const randomIndex = getRandomIndex(numbers);
@@ -24,20 +23,18 @@ export function getRandomIndex<T>(array: T[]): number {
   return Math.floor(Math.random() * array.length);
 }
 
-
-
 /**
  * Asynchronously loads and retrieves a specific resource from a toolkit module.
- * 
+ *
  * @param {string} toolKit - The name of the toolkit directory to search in.
  * @param {string} tool - The name of the tool file within the toolkit directory.
  * @param {string} toolKitID - The specific named export to retrieve from the module.
  * @returns {Promise<any>} The requested resource if found, or an empty array if the resource cannot be loaded.
- * 
+ *
  * @example
  * // Returns the 'anxietyTools' export from the specified module
  * const resource = await getToolResource('mental', 'anxiety', 'anxietyTools');
- * 
+ *
  * @throws {Error} Logs an error if the module cannot be imported or if the specified export doesn't exist.
  */
 export async function getToolResource(
