@@ -519,18 +519,19 @@ export function getRandomEntries<T>(array: T[], count: number): T[] {
 
 /**
  * Sorts an array of Fitness objects by difficulty level
- * (Beginner → Intermediate → Advanced)
- *
+ * (All Levels → Beginner → Intermediate → Advanced)
+ * 
  * @param fitnessArray - Array of Fitness objects to sort
  * @returns A new sorted array
  */
 export function sortByDifficulty(fitnessArray: Fitness[]): Fitness[] {
   const difficultyOrder: Record<string, number> = {
+    "All Levels": 0,
     Beginner: 1,
     Intermediate: 2,
     Advanced: 3,
   };
-
+  
   return [...fitnessArray].sort((a, b) => {
     return difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
   });
