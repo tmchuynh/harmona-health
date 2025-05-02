@@ -276,7 +276,6 @@ export const Card = ({
           className="z-10 absolute inset-0 object-cover"
           width={600}
           height={1200}
-          priority
         />
       </motion.button>
     </>
@@ -303,6 +302,8 @@ export const BlurImage = ({
       src={src as string}
       width={width}
       height={height}
+      loading="lazy"
+      decoding="async"
       blurDataURL={typeof src === "string" ? src : undefined}
       alt={alt ? alt : "Background of a beautiful view"}
       {...rest}
