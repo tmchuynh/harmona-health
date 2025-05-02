@@ -485,62 +485,94 @@ const mindfulnessPractices: Tool[] = [
 
 const fitnessToolkit: Tool[] = [
   {
-    id: "exercise-mental-health-tool-1",
-    categoryId: "fitnessToolkit",
-    title: "Fitness Tracker",
+    id: "strength-training",
+    title: "Strength Training",
+    subtitle: "Tools to build muscular strength and endurance.",
     description:
-      "A tool to track your physical activity and monitor its effects on your mood and mental well-being. It provides insights into how exercise supports emotional health.",
+      "Strength training helps develop muscle mass, improve bone density, and enhance functional performance. It supports metabolism, joint stability, and physical confidence. This toolkit provides structured guidance on reps, sets, and progressive overload techniques. Users can log their workouts, track gains, and follow adaptive programming. Whether at home or in the gym, strength tools create a consistent path toward muscular development.",
+    categoryId: "fitnessToolkit",
+    introduction: [
+      "Strength training plays a vital role in improving muscle tone, bone density, and physical performance. It involves controlled resistance exercises that challenge the muscles and stimulate growth. When practiced regularly and with proper form, strength training enhances metabolism and body composition. It also builds resilience and reduces the risk of age-related muscle loss.",
+      "These tools help users design personalized strength routines that align with their fitness goals and abilities. They include progressive overload strategies, set and rep tracking, and rest period optimization. By using structured planning, individuals can improve both consistency and long-term outcomes. Visual feedback through logs and charts helps maintain motivation and accountability.",
+      "They also support adaptive progression by adjusting intensity based on current strength levels. As users become more experienced, these tools can introduce new methods such as supersets, periodization, and tempo control. By continually evolving the workout structure, users can avoid plateaus and continue making gains. This ensures that every workout remains challenging and goal-driven.",
+      "Whether you're a beginner starting with bodyweight or an athlete lifting heavy weights, structured tools create a safe and sustainable path. They help users avoid injury through proper form cues and balanced muscle group training. These tools also encourage recovery planning, which is critical to muscle growth. With regular use, strength training becomes a foundation for physical independence and vitality.",
+    ],
   },
   {
-    id: "exercise-mental-health-tool-2",
-    categoryId: "fitnessToolkit",
-    title: "Exercise Routine Generator",
+    id: "cardio-conditioning",
+    title: "Cardio Conditioning",
+    subtitle: "Endurance-building tools to support heart and lung health.",
     description:
-      "A tool to help you create a personalized exercise routine based on your mental health goals and physical capacity. It includes recommendations for activities that boost mood and reduce stress.",
+      "Cardio conditioning strengthens your heart, lungs, and circulatory system, improving stamina and energy levels. It is essential for managing weight, reducing stress, and boosting immune function. These tools help you plan, measure, and progress through aerobic and anaerobic activities. Whether running, cycling, or training with intervals, they keep your sessions organized and goal-oriented. The toolkit supports both casual movers and competitive athletes with clear cardio metrics.",
+    categoryId: "fitnessToolkit",
+    introduction: [
+      "Cardiovascular health is foundational to overall fitness, energy levels, and longevity. Cardio conditioning strengthens the heart, improves circulation, and enhances lung capacity. It supports efficient oxygen delivery and helps regulate blood pressure. Regular cardio activity can also reduce stress and promote better sleep quality.",
+      "These tools provide structured plans for various forms of cardiovascular training. Users can schedule runs, rides, rowing sessions, or HIIT circuits with clear metrics and pacing guidance. They also allow for progress tracking through heart rate data, distance, time, and intensity. This helps users tailor their routines to improve both aerobic and anaerobic performance.",
+      "Tracking tools help identify trends and areas for improvement over time. Users can set personal goals, track milestones, and stay accountable with built-in reminders and check-ins. Some tools include gamification or social features to increase engagement and consistency. They create a sense of achievement that reinforces the habit of regular movement.",
+      "With consistent use, cardio tools improve endurance, body composition, and overall vitality. They also help users transition through different levels of training intensity based on fitness goals. Whether training for a race or simply increasing daily energy, structured cardio tools provide clarity and momentum. They support a heart-healthy lifestyle built on movement and discipline.",
+    ],
   },
   {
-    id: "exercise-mental-health-tool-4",
-    categoryId: "fitnessToolkit",
-    title: "Stretching for Relaxation",
+    id: "mobility-and-flexibility",
+    title: "Mobility And Flexibility",
+    subtitle:
+      "Guided routines to enhance joint mobility and muscle flexibility.",
     description:
-      "A guide to stretching exercises that promote relaxation and reduce physical tension, supporting mental well-being.",
+      "Mobility and flexibility training improve your body's ability to move freely and efficiently. These practices support joint health, muscle balance, and posture. The tools guide you through dynamic warm-ups, static stretches, and foam rolling sequences. They help reduce stiffness, prevent injury, and increase range of motion. Ideal for all fitness levels, these routines are essential for pain-free and sustainable movement.",
+    categoryId: "fitnessToolkit",
+    introduction: [
+      "Maintaining mobility and flexibility is essential for injury prevention and movement quality. Mobility focuses on joint range and control, while flexibility targets muscle length and elasticity. Both are important for efficient, pain-free movement across all types of physical activity. Without attention to mobility, performance may plateau and injury risk increases.",
+      "These tools include routines for dynamic stretching, static holds, and active mobility drills. They provide guidance for morning movement, pre-workout warmups, and post-workout recovery. Some tools incorporate foam rolling, yoga-inspired sequences, or joint-specific progressions. Users are encouraged to practice consistently for lasting results.",
+      "They support individuals recovering from injury or dealing with movement restrictions. With assessments and progress markers, users can track joint health and soft tissue resilience. Clear visuals and instructional prompts make routines accessible to all levels. Over time, improved mobility leads to better posture, alignment, and freedom of movement.",
+      "Regular flexibility work is also linked to stress relief and improved sleep. By reducing muscular tension, these tools contribute to relaxation and mental clarity. Athletes, desk workers, and active seniors alike benefit from incorporating daily mobility practices. The tools are designed to be modular, allowing users to focus on specific tight areas or full-body routines.",
+    ],
   },
   {
-    id: "exercise-mental-health-tool-5",
-    categoryId: "fitnessToolkit",
-    title: "Mood-Boosting Workouts",
+    id: "bodyweight-workouts",
+    title: "Bodyweight Workouts",
+    subtitle: "Minimal-equipment tools for full-body training anywhere.",
     description:
-      "A curated selection of workouts designed to enhance mood, reduce anxiety, and improve emotional resilience through movement.",
+      "Bodyweight workouts use your own body as resistance to build strength, endurance, and stability. These tools offer routines and progressions that require no gym or equipment. From beginner-friendly moves to advanced body control drills, all levels are supported. The toolkit promotes consistency and makes fitness accessible from anywhere. With a focus on functional movement, users gain total-body fitness with maximum flexibility.",
+    categoryId: "fitnessToolkit",
+    introduction: [
+      "Bodyweight workouts are accessible, efficient, and require no equipment. They help build strength, endurance, balance, and control using one's own body as resistance. From push-ups and squats to advanced gymnastics movements, these routines are highly scalable. Bodyweight training also engages stabilizing muscles, promoting functional strength.",
+      "These tools provide circuits, progressions, and skill-building sequences for all fitness levels. Users can follow full-body routines or isolate areas like core, lower body, or upper body. Many tools include timers, video demos, and built-in rest intervals. This makes training more engaging and structured without needing a gym.",
+      "They support users in tracking rep counts, form improvements, and difficulty scaling. From beginner programs like wall push-ups to advanced moves like pistol squats or L-sits, the path is clearly laid out. These tools also encourage creativity through movement-based challenges. Consistent use leads to improved muscle tone and cardiovascular health.",
+      "Ideal for travel or busy schedules, bodyweight workouts can be done virtually anywhere. They promote consistency and reduce barriers to entry, especially for new exercisers. With regular practice, users gain strength, agility, and confidence. These tools transform small spaces into effective training zones.",
+    ],
   },
   {
-    id: "exercise-mental-health-tool-6",
-    categoryId: "fitnessToolkit",
-    title: "Mindful Movement Guide",
+    id: "recovery-and-regeneration",
+    title: "Recovery And Regeneration",
+    subtitle: "Tools for managing soreness, fatigue, and overall recovery.",
     description:
-      "A guide that combines mindfulness techniques with gentle movement practices to promote mental clarity and reduce stress.",
+      "Recovery is essential for muscle repair, mental clarity, and long-term fitness progress. These tools focus on reducing soreness, improving sleep, and optimizing downtime. From foam rolling guides to active rest plans, they promote full-body regeneration. Insights like sleep tracking and recovery journaling help individuals adjust intensity and prevent burnout. Incorporating recovery supports both physical performance and emotional balance.",
+    categoryId: "fitnessToolkit",
+    introduction: [
+      "Recovery is an essential phase of any training program that supports growth and prevents burnout. It allows the body to repair tissue, restore energy, and adapt to training demands. Without adequate recovery, progress stalls and the risk of injury increases. These tools help manage both physical and mental recovery with intention.",
+      "They include stretching flows, foam rolling guides, contrast therapy protocols, and breathwork. Recovery tracking tools monitor soreness, heart rate variability, and sleep quality. These insights help users adjust intensity, frequency, and rest days. Custom plans ensure that recovery becomes a strategic, ongoing part of the routine.",
+      "Sleep, nutrition, and stress management are also emphasized within recovery tools. By optimizing these areas, users improve hormonal balance and muscle repair. The tools often include reflection prompts and rest-focused meditations. Recovery practices create a more sustainable, long-term approach to fitness.",
+      "Athletes and beginners alike benefit from structured regeneration tools. Whether post-race, post-strength session, or after long sedentary periods, recovery routines restore balance. They help users stay injury-free and mentally fresh. Over time, recovery becomes a skill just as critical as strength or endurance.",
+    ],
   },
   {
-    id: "exercise-mental-health-tool-7",
-    categoryId: "fitnessToolkit",
-    title: "Home Fitness Plan Builder",
+    id: "functional-fitness",
+    title: "Functional Fitness",
+    subtitle:
+      "Training tools designed for real-life movement and injury prevention.",
     description:
-      "A customizable plan generator for building effective home workout routines, regardless of equipment availability.",
-  },
-  {
-    id: "exercise-mental-health-tool-8",
+      "Functional fitness emphasizes training that supports natural movement, balance, and daily activity. These tools include multi-joint exercises and stability drills that mimic real-world tasks. By developing strength across movement patterns, users reduce injury risk and move more efficiently. The toolkit includes assessments and corrective strategies for alignment and coordination. It’s ideal for athletes, aging adults, and anyone seeking practical, life-enhancing fitness.",
     categoryId: "fitnessToolkit",
-    title: "Progress Tracker for Strength and Stamina",
-    description:
-      "A detailed tracker to monitor improvements in strength, endurance, and flexibility over time, encouraging sustainable fitness growth.",
-  },
-  {
-    id: "exercise-mental-health-tool-9",
-    categoryId: "fitnessToolkit",
-    title: "Quick Energy Boost Exercises",
-    description:
-      "A set of short, high-energy workout routines to quickly elevate energy levels and sharpen focus during the day.",
+    introduction: [
+      "Functional fitness focuses on exercises that mimic real-life movements and support daily functionality. These tools help improve coordination, balance, agility, and multi-directional strength. By training movement patterns rather than isolated muscles, users gain more transferable strength. This approach is effective for all ages and fitness backgrounds.",
+      "The tools include stability assessments, balance drills, and movement quality screenings. Users can identify compensations or imbalances and address them through corrective strategies. Functional circuits often integrate compound movements, unilateral work, and core engagement. These routines help reduce injury risk and enhance movement control.",
+      "They also encourage versatility with minimal equipment such as resistance bands, medicine balls, and body weight. Functional training is ideal for athletes, older adults, or those returning to exercise. Clear guidance ensures safe and efficient movement across multiple planes. Users experience greater strength and fluidity in everyday activities.",
+      "This category bridges the gap between performance and longevity. It supports occupational and recreational goals by building physical resilience. With consistent use, functional fitness tools improve independence, confidence, and overall well-being. Movement becomes smoother, more intentional, and more empowering.",
+    ],
   },
 ];
+
+
 
 const selfCareAndDiscoveryToolkit: Tool[] = [
   {
