@@ -109,12 +109,9 @@ export interface JournalPrompts {
   prompt: string;
   ideas?: string[];
   Icon: IconType;
-  gallery?: MixedGallery;
+  gallery?: { data: [string, string, string, string, string, string] };
+  miniGallery?: { data: [string, string, string, string] };
 }
-
-export type MixedGallery = {
-  data: [string, string, string, string, string, string];
-};
 
 export interface Activity {
   title: string;
