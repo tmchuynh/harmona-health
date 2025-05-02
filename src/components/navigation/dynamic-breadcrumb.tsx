@@ -5,8 +5,8 @@ import {
   BreadcrumbLink,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import useMediumScreen from "@/lib/screens/useMediumScreen";
-import useSmallScreen from "@/lib/screens/useSmallScreen";
+import useMediumScreen from "@/hooks/useMediumScreen";
+import useSmallScreen from "@/hooks/useSmallScreen";
 import {
   capitalize,
   clipString,
