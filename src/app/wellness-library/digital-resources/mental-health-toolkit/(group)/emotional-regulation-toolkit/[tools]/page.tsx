@@ -1,5 +1,6 @@
 "use client";
 import { useToolContext } from "@/context/toolContext";
+import { Activity } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
