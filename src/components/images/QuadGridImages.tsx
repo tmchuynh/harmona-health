@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-export function QuadGallery({ data }: { data: { imageLink: string }[] }) {
+export function QuadGallery({ data }: { data: string[] }) {
   return (
-    <div className="gap-2 grid lg:grid-cols-2 lg:mt-3 xl:mt-0">
-      {data.map(({ imageLink }, index) => (
+    <div className="gap-2 grid lg:grid-cols-2 mx-auto lg:mt-3 xl:mt-0">
+      {data.map((data, index) => (
         <div key={index}>
           <Image
             className="rounded-lg max-w-full h-40 md:h-60 object-cover object-center"
-            src={imageLink}
+            src={data}
             alt=""
             width={500}
             height={500}
