@@ -1468,6 +1468,10 @@ const behavioralActivationActivities: Tool[] = [
     subtitle: "Transforming Negative Thoughts",
     description:
       "Techniques that help you identify and challenge negative thought patterns. Activities might include journaling, affirmations, or guided cognitive exercises.",
+    introduction: [
+      "Cognitive restructuring is a powerful technique used in cognitive-behavioral therapy (CBT) to help individuals identify and challenge negative thought patterns. By recognizing these patterns, you can replace them with more positive and realistic thoughts, leading to improved emotional well-being. This process involves several steps, including identifying cognitive distortions, examining the evidence for and against these thoughts, and developing healthier alternatives. Cognitive restructuring can be applied in various contexts, such as managing anxiety, depression, or stress. By practicing this technique regularly, you can cultivate a more positive mindset and enhance your overall mental health.",
+      "Cognitive restructuring is a therapeutic technique that helps individuals identify and challenge negative thought patterns. By recognizing these cognitive distortions, you can replace them with more positive and realistic thoughts, leading to improved emotional well-being. This process involves several steps, including identifying cognitive distortions, examining the evidence for and against these thoughts, and developing healthier alternatives. Cognitive restructuring can be applied in various contexts, such as managing anxiety, depression, or stress. By practicing this technique regularly, you can cultivate a more positive mindset and enhance your overall mental health.",
+    ],
   },
   {
     id: "goal-setting",
