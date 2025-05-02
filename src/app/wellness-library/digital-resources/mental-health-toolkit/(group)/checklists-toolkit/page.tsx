@@ -1,5 +1,5 @@
 "use client";
-import ToolCard from "@/components/card/ToolCard";
+import ChecklistToolkitCard from "@/components/card/ChecklistToolkitCard";
 import { icons } from "@/lib/constants/constants";
 import { Toolkit } from "@/lib/interfaces&types/resources";
 import { toolkit } from "@/lib/resources/toolkits/toolkit";
@@ -12,8 +12,6 @@ import { JSX, useEffect, useState } from "react";
 
 import { FaLeaf } from "react-icons/fa";
 export default function Page() {
-  const url = usePathname();
-
   const segments = usePathname().split("/");
   const tool = segments[segments.length - 1];
   const toolkitCategory = segments[segments.length - 2];
@@ -65,9 +63,9 @@ export default function Page() {
       </div>
 
       {correspondingTools && correspondingTools.length > 0 && (
-        <div className="gap-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-2">
+        <div className="gap-9 grid grid-cols-1 md:grid-cols-2 py-2">
           {sortedTools.map((tool, index) => (
-            <ToolCard tool={tool} key={index} />
+            <ChecklistToolkitCard tool={tool} key={index} index={index} />
           ))}
         </div>
       )}
