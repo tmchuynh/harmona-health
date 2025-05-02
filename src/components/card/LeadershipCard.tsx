@@ -27,7 +27,7 @@ export default function LeadershipCard({ data }: { data: LeadershipTools }) {
 
           <div className="mt-4">
             <ul role="list" className="space-y-2 pl-4 list-disc">
-              {data.highlights.map((highlight) => (
+              {data.highlights?.map((highlight) => (
                 <li key={highlight} className="">
                   <span className="">{highlight}</span>
                 </li>
