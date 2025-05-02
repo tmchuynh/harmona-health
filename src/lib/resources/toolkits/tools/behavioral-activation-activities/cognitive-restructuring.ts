@@ -39,6 +39,8 @@ export const cognitiveRestructuring: Activity[] = [
       "The Thought Record technique encourages mindfulness and helps reduce cognitive distortions by challenging negative thoughts. This tool leads to more rational thinking patterns and emotional resilience.",
     afterThoughts:
       "Use this method regularly to increase self-awareness and shift ingrained thought patterns over time.",
+    approximateTime: "10–15 minutes",
+    frequency: "Daily or as needed",
   },
   {
     title: "Thought-Stopping and Substitution",
@@ -79,6 +81,8 @@ export const cognitiveRestructuring: Activity[] = [
       "Thought-Stopping and Substitution allows you to take control of negative thought patterns, reducing their impact on your emotional state. With regular practice, this method helps promote healthier, more resilient thinking.",
     afterThoughts:
       "This technique can be especially effective in managing anxiety or rumination. Practice it regularly to make it a natural part of your cognitive toolbox.",
+    approximateTime: "5–10 minutes",
+    frequency: "As needed or during moments of distress",
   },
   {
     title: "Reframing Negative Thoughts",
@@ -104,6 +108,30 @@ export const cognitiveRestructuring: Activity[] = [
       },
       {
         step: {
+          title: "Consider Alternative Perspectives",
+          description:
+            "What would you say to a friend who had this thought? How would you help them reframe it?",
+        },
+        note: "This helps you gain distance from the thought and view it more objectively.",
+      },
+      {
+        step: {
+          title: "Evaluate the Evidence",
+          description:
+            "What evidence supports or contradicts this thought? Is it based on facts or feelings?",
+        },
+        note: "This step helps you ground your thoughts in reality.",
+      },
+      {
+        step: {
+          title: "Create a Balanced Thought",
+          description:
+            "Based on the evidence, create a more balanced thought that reflects reality.",
+        },
+        note: "For example, instead of 'I always fail,' consider 'I have succeeded in the past and can learn from this experience.'",
+      },
+      {
+        step: {
           title: "Reframe the Situation",
           description:
             "Create a more balanced or positive thought to replace the negative one.",
@@ -120,7 +148,6 @@ export const cognitiveRestructuring: Activity[] = [
     conclusion:
       "Over time, you’ll learn to manage negative thoughts with a clearer, more rational mindset.",
     afterThoughts: "Use this after any negative self-reflection.",
-    useCases: ["Self-Esteem", "Anxiety", "Depression"],
     approximateTime: "10–15 minutes",
     frequency: "Daily or as needed",
   },
@@ -149,24 +176,43 @@ export const cognitiveRestructuring: Activity[] = [
       },
       {
         step: {
-          title: "Reframe the Thought",
+          title: "Acknowledge Your Feelings",
           description:
-            "Replace your negative thoughts with a compassionate message: 'It's okay to make mistakes, and I am learning from this.'",
+            "Recognize that it's normal to feel upset or disappointed. Allow yourself to feel these emotions without judgment.",
         },
-        note: "This reframing allows you to view your situation through a lens of growth rather than self-blame.",
+        note: "This step is crucial for self-acceptance and emotional healing.",
       },
       {
         step: {
-          title: "Practice Self-Compassion",
+          title: "Reframe the Situation and Thought",
           description:
-            "Acknowledge your feelings without judgment and remind yourself that imperfection is a part of the human experience.",
+            "Reframe the situation by focusing on what you can learn from it rather than dwelling on self-blame. Replace your negative thoughts with a compassionate message: 'It's okay to make mistakes, and I am learning from this.'",
         },
+        note: "For example, instead of 'I messed up,' think 'I can learn from this experience.' This reframing allows you to view your situation through a lens of growth rather than self-blame.",
+      },
+      {
+        step: {
+          title: "Write a Self-Compassionate Letter",
+          description:
+            "Write a letter to yourself expressing understanding, kindness, and encouragement.",
+        },
+        note: "This letter can serve as a reminder of your self-worth and resilience.",
+      },
+      {
+        step: {
+          title: "Reflect on the Letter",
+          description:
+            "Read the letter aloud and reflect on how it makes you feel. Allow yourself to absorb the compassion and understanding.",
+        },
+        note: "This reflection reinforces the positive message of self-compassion.",
       },
     ],
     conclusion:
       "Self-compassionate reframing reduces self-criticism and promotes emotional healing. It fosters a mindset that embraces growth and encourages self-kindness.",
     afterThoughts:
       "Practice self-compassionate reframing in moments of stress or self-doubt to improve emotional well-being and strengthen self-esteem.",
+    approximateTime: "15–20 minutes",
+    frequency: "As needed or during challenging situations",
   },
   {
     title: "Evidence-Based Thought Evaluation",
@@ -212,6 +258,8 @@ export const cognitiveRestructuring: Activity[] = [
       "Evidence-Based Thought Evaluation empowers you to replace irrational beliefs with rational ones, reducing anxiety and fostering a healthier mindset.",
     afterThoughts:
       "Use this tool to analyze thoughts in high-stress situations and break patterns of negative thinking.",
+    approximateTime: "10–15 minutes",
+    frequency: "As needed or during moments of distress",
   },
   {
     title: "The ‘Best Possible Self’ Exercise",
@@ -264,6 +312,8 @@ export const cognitiveRestructuring: Activity[] = [
       "The ‘Best Possible Self’ exercise helps you shift focus from self-criticism to self-empowerment, building confidence and motivation to pursue personal growth and well-being.",
     afterThoughts:
       "Use this exercise regularly to remind yourself of your potential and inspire action toward achieving your goals.",
+    approximateTime: "15–20 minutes",
+    frequency: "Weekly or as needed",
   },
   {
     title: "The ABCDE Model",
@@ -317,6 +367,8 @@ export const cognitiveRestructuring: Activity[] = [
       "The ABCDE Model encourages logical evaluation and cognitive restructuring of your thoughts. It helps you reframe negative experiences and adopt healthier perspectives.",
     afterThoughts:
       "Apply this model to recurring thought patterns to effectively shift your mindset and improve emotional outcomes.",
+    approximateTime: "15–20 minutes",
+    frequency: "As needed or during moments of distress",
   },
   {
     title: "Mindful Reappraisal",
@@ -362,6 +414,8 @@ export const cognitiveRestructuring: Activity[] = [
       "Mindful reappraisal helps you reframe challenging experiences in a way that reduces emotional reactivity and promotes greater emotional regulation. This technique fosters emotional resilience by promoting acceptance and perspective-taking.",
     afterThoughts:
       "Incorporate mindful reappraisal into daily life to improve emotional responses to stressful or difficult situations.",
+    approximateTime: "10–15 minutes",
+    frequency: "As needed or during moments of distress",
   },
   {
     title: "Cognitive Defusion",
@@ -406,5 +460,7 @@ export const cognitiveRestructuring: Activity[] = [
       "Cognitive defusion allows you to detach from your thoughts, reducing their emotional impact and promoting mental clarity. It helps you observe thoughts from a distance without reacting impulsively.",
     afterThoughts:
       "Practice this technique regularly to build awareness of your thought patterns and reduce their influence on your emotions and actions.",
+    approximateTime: "5–10 minutes",
+    frequency: "As needed or during moments of distress",
   },
 ];

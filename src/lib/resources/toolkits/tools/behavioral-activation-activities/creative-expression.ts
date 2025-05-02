@@ -51,6 +51,8 @@ export const creativeExpression: Activity[] = [
       "Visual journaling opens up new pathways of self-expression, encouraging creative freedom and deeper emotional understanding.",
     afterThoughts:
       "Experiment with different mediums (e.g., watercolors, collage materials) and let your creativity flow without limitations.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
   {
     title: "Creative Writing for Emotional Exploration",
@@ -102,6 +104,8 @@ export const creativeExpression: Activity[] = [
       "Creative writing serves as an effective outlet for emotional expression and self-discovery, allowing you to articulate complex feelings in a meaningful way.",
     afterThoughts:
       "Incorporate creative writing into your routine as a form of self-care and emotional processing.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
   {
     title: "Collage Making for Emotional Exploration",
@@ -148,6 +152,8 @@ export const creativeExpression: Activity[] = [
       "Collage making allows for creative expression of emotions that might be difficult to verbalize, providing clarity and emotional insight in a visual format.",
     afterThoughts:
       "Create collages regularly as a tool for emotional processing, self-reflection, and creative inspiration.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Photography for Emotional Exploration",
@@ -199,6 +205,8 @@ export const creativeExpression: Activity[] = [
       "Photography serves as a powerful medium for emotional expression and self-discovery, allowing you to articulate complex feelings visually.",
     afterThoughts:
       "Incorporate photography into your routine as a form of creative self-care and emotional exploration.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Art as Therapy (Expressive Painting)",
@@ -245,6 +253,8 @@ export const creativeExpression: Activity[] = [
       "Expressive painting offers a powerful outlet for emotions and is a valuable tool for self-discovery and emotional release.",
     afterThoughts:
       "Use expressive painting regularly as a form of creative self-care to foster emotional well-being and creative expression.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Creative Movement and Dance",
@@ -296,6 +306,8 @@ export const creativeExpression: Activity[] = [
       "Creative movement and dance provide an effective outlet for emotional expression, promoting mindfulness and enhancing overall well-being.",
     afterThoughts:
       "Incorporate creative movement into your routine as a form of self-care and emotional exploration.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
   {
     title: "Nature Journaling",
@@ -344,6 +356,8 @@ export const creativeExpression: Activity[] = [
       "Nature journaling fosters mindfulness, creativity, and emotional clarity by encouraging you to explore your surroundings and connect deeply with the present moment.",
     afterThoughts:
       "Make nature journaling a regular practice to boost creativity and improve your mental well-being by engaging with the outdoors.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Soundscaping",
@@ -390,5 +404,60 @@ export const creativeExpression: Activity[] = [
       "Soundscaping can enhance your creative process by incorporating auditory stimuli to deepen focus, inspire fresh ideas, and break through creative blocks.",
     afterThoughts:
       "Use sound to set the mood for specific tasks or creative endeavors, allowing it to become a catalyst for new perspectives.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
+  },
+  {
+    title: "Mindful Doodling",
+    introduction:
+      "Mindful doodling is a creative practice that combines mindfulness with spontaneous drawing. This activity encourages you to let go of expectations and allow your hand to move freely on the page.",
+    description:
+      "By engaging in mindful doodling, you can tap into your subconscious mind, reduce stress, and enhance your focus. This practice promotes relaxation and encourages creative exploration without judgment.",
+    steps: [
+      {
+        step: {
+          title: "Gather Your Materials",
+          description:
+            "Collect paper, pens, or markers that you enjoy using. Find a comfortable space where you can doodle without distractions.",
+        },
+        note: "The materials should inspire you to create freely.",
+      },
+      {
+        step: {
+          title: "Start Doodling Mindfully",
+          description:
+            "Begin doodling without any specific goal in mind. Let your hand move naturally, allowing shapes and patterns to emerge.",
+        },
+        note: "Focus on the sensation of drawing rather than the outcome.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Doodles",
+          description:
+            "After doodling for a while, take a moment to observe what you've created. What emotions or thoughts arise as you look at your doodles?",
+        },
+        details: [
+          "Consider how the doodles reflect your current emotional state. Are there any recurring themes or symbols?",
+          "Use this reflection as a tool for self-discovery and emotional exploration.",
+        ],
+      },
+      {
+        step: {
+          title: "Incorporate Doodling into Your Routine",
+          description:
+            "Make mindful doodling a regular part of your creative practice. Use it as a way to unwind and connect with your emotions.",
+        },
+        details: [
+          "Set aside time each week for mindful doodling. This will help you build a habit of self-reflection and emotional exploration.",
+          "Experiment with different styles of doodling (e.g., mandalas, abstract shapes) to find what resonates most with you.",
+        ],
+      },
+    ],
+    conclusion:
+      "Mindful doodling serves as an effective outlet for emotional expression and self-discovery, allowing you to articulate complex feelings in a playful way.",
+    afterThoughts:
+      "Incorporate mindful doodling into your routine as a form of self-care and emotional processing.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
 ];

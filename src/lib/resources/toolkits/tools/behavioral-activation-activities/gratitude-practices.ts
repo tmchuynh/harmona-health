@@ -46,6 +46,8 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "A Gratitude Letter strengthens relationships and fosters a deeper sense of connection. It also serves as a reminder of the impact others have had on your life.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
   {
     title: "Gratitude Jar",
@@ -99,6 +101,7 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "The Gratitude Jar is a simple yet powerful way to make gratitude a daily practice and create a tangible reminder of the abundance in your life.",
+    difficulty: "Beginner",
   },
   {
     title: "Gratitude Collage",
@@ -152,6 +155,8 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "Creating a Gratitude Collage is a creative way to visually reinforce your gratitude practice and keep positive reminders close to you.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Gratitude Sketch Journal",
@@ -191,6 +196,8 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "By incorporating art into your gratitude practice, you deepen your emotional connection to gratitude and open up your creative expression. This practice can be a fun and therapeutic way to explore your feelings of gratitude.",
+    approximateTime: "2-3 hours",
+    difficulty: "Beginner",
   },
   {
     title: "The Gratitude Mind Map",
@@ -251,6 +258,8 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "A Gratitude Mind Map helps you explore your gratitude in a structured, creative way and reminds you of all the blessings, both big and small. It can also help you identify areas of your life that you may want to focus on more.",
+    approximateTime: "1-2 hours",
+    difficulty: "Beginner",
   },
   {
     title: "Gratitude Reflection",
@@ -290,5 +299,7 @@ export const gratitudePractices: Activity[] = [
     ],
     conclusion:
       "Gratitude reflection is a simple yet powerful way to cultivate a sense of appreciation and improve your overall well-being. By regularly practicing gratitude reflection, you can shift your focus from what you lack to what you have, fostering a greater sense of contentment and joy.",
+    approximateTime: "30-60 minutes",
+    difficulty: "Beginner",
   },
 ];
