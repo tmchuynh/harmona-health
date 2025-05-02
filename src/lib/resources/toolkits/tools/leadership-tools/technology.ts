@@ -1,5 +1,4 @@
-import { ToolLinks } from "@/lib/interfaces&types/resources";
-export const technology: ToolLinks[] = [
+export const technology = [
   {
     title: "Wasp",
     description:
@@ -7,6 +6,8 @@ export const technology: ToolLinks[] = [
     href: "https://wasp-lang.dev",
     image:
       "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2vyhz27e7i4qy5pfrcrx.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Meilisearch",
@@ -15,6 +16,8 @@ export const technology: ToolLinks[] = [
     href: "https://www.meilisearch.com",
     image:
       "https://images.seeklogo.com/logo-png/48/1/meilisearch-logo-png_seeklogo-482367.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Shopify Analytics",
@@ -22,6 +25,8 @@ export const technology: ToolLinks[] = [
       "A built-in analytics tool for Shopify merchants that provides insights into store performance, customer behavior, and sales trends.",
     href: "https://www.shopify.com/analytics",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Google Search Console",
@@ -29,6 +34,8 @@ export const technology: ToolLinks[] = [
       "A web service that helps retailers monitor and maintain their site's presence in Google search results.",
     href: "https://search.google.com/search-console",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Jira",
@@ -36,6 +43,8 @@ export const technology: ToolLinks[] = [
       "A popular project management tool for software teams that helps track issues, projects, and workflows.",
     href: "https://www.atlassian.com/software/jira",
     image: "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Cal.com",
@@ -44,6 +53,8 @@ export const technology: ToolLinks[] = [
     href: "https://cal.com",
     image:
       "https://seeklogo.com/images/C/cal-com-logo-6E6F6924A6-seeklogo.com.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "N8N",
@@ -52,6 +63,8 @@ export const technology: ToolLinks[] = [
     href: "https://n8n.io",
     image:
       "https://images.seeklogo.com/logo-png/47/1/n8n-logo-png_seeklogo-470809.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Ray.so",
@@ -59,6 +72,8 @@ export const technology: ToolLinks[] = [
       "A tool that turns your code snippets into beautiful, shareable images with customizable themes and settings.",
     href: "https://ray.so",
     image: "https://images.unsplash.com/photo-1557431521-b1c4c2cfa9a1",
+    highlights: [],
+    details: [],
   },
   {
     title: "Uptime Kuma",
@@ -66,6 +81,8 @@ export const technology: ToolLinks[] = [
       "A self-hosted monitoring tool like Uptime Robot, providing real-time website uptime tracking with alerting.",
     href: "https://github.com/louislam/uptime-kuma",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    highlights: [],
+    details: [],
   },
   {
     title: "Lighthouse CI",
@@ -73,6 +90,8 @@ export const technology: ToolLinks[] = [
       "An open-source CI tool from Google to continuously run performance, accessibility, and SEO audits using Lighthouse.",
     href: "https://github.com/GoogleChrome/lighthouse-ci",
     image: "https://cdn.worldvectorlogo.com/logos/google-lighthouse.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Infisical",
@@ -81,6 +100,8 @@ export const technology: ToolLinks[] = [
     href: "https://infisical.com",
     image:
       "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyf2ge4vrv4xpiw4qmw06.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Turso",
@@ -89,6 +110,8 @@ export const technology: ToolLinks[] = [
     href: "https://turso.tech",
     image:
       "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*uMo_rxIX-pUBPIo3D9A8zA.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Coolify",
@@ -97,6 +120,8 @@ export const technology: ToolLinks[] = [
     href: "https://coolify.io",
     image:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMvqNaz54Q5P_ivDu1gUFVDRXxFsKXkdyoMiRoyKGWZZ4aTnc0yAYfNv_F1qQ-2fbXWdv_FXjufAVIQd_z8hPL68OJ3znYjYrK3obMwu27l-ZVgSnazIYeLC-Dml3QT0heD8wuEfmSRNWGNonJowoJhvd9GDadspazWkl_HWE0eYTiG6FwB2pmqJFLSjmQ/s16000-rw/coolify.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "Retool",
@@ -105,6 +130,8 @@ export const technology: ToolLinks[] = [
     href: "https://retool.com",
     image:
       "https://images.seeklogo.com/logo-png/41/2/retool-logo-png_seeklogo-412181.png",
+    highlights: [],
+    details: [],
   },
   {
     title: "TinaCMS",
@@ -113,6 +140,8 @@ export const technology: ToolLinks[] = [
     href: "https://tina.io",
     image:
       "https://miro.medium.com/v2/resize:fit:1400/1*Dkba-JCtowfh8ynp7TCr5Q.jpeg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Zapier",
@@ -120,6 +149,8 @@ export const technology: ToolLinks[] = [
       "A no-code automation tool that connects different apps and services to automate workflows and data sharing.",
     href: "https://zapier.com",
     image: "https://cdn.worldvectorlogo.com/logos/zapier-1.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Linear",
@@ -127,6 +158,8 @@ export const technology: ToolLinks[] = [
       "A sleek project and issue tracking tool designed for software teams to plan, track, and manage software development cycles.",
     href: "https://linear.app",
     image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34",
+    highlights: [],
+    details: [],
   },
   {
     title: "Loom",
@@ -134,6 +167,8 @@ export const technology: ToolLinks[] = [
       "A video messaging tool for work that helps users record quick videos of their screen and webcam to share with teams.",
     href: "https://www.loom.com",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    highlights: [],
+    details: [],
   },
   {
     title: "LaunchDarkly",
@@ -141,6 +176,8 @@ export const technology: ToolLinks[] = [
       "A feature management platform that helps development teams control feature rollouts and experimentation in production.",
     href: "https://launchdarkly.com",
     image: "https://images.unsplash.com/photo-1549924231-f129b911e442",
+    highlights: [],
+    details: [],
   },
   {
     title: "Raycast",
@@ -148,6 +185,8 @@ export const technology: ToolLinks[] = [
       "A powerful productivity tool for developers that replaces Spotlight and boosts workflows with extensions and scripts.",
     href: "https://www.raycast.com",
     image: "https://images.unsplash.com/photo-1556157382-97eda2d62296",
+    highlights: [],
+    details: [],
   },
   {
     title: "Sentry",
@@ -155,6 +194,8 @@ export const technology: ToolLinks[] = [
       "An application monitoring and error tracking platform that helps developers identify and fix performance issues.",
     href: "https://sentry.io",
     image: "https://cdn.worldvectorlogo.com/logos/sentry-3.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Liveblocks",
@@ -162,6 +203,8 @@ export const technology: ToolLinks[] = [
       "A set of real-time collaboration APIs and tools that let you add multiplayer experiences (like live cursors and presence) to any app.",
     href: "https://liveblocks.io",
     image: "https://images.unsplash.com/photo-1518977956815-b47e7e493d7d",
+    highlights: [],
+    details: [],
   },
   {
     title: "Clerk",
@@ -169,6 +212,8 @@ export const technology: ToolLinks[] = [
       "An identity platform built for modern frontends, providing drop-in components for user auth and session management.",
     href: "https://clerk.dev",
     image: "https://images.unsplash.com/photo-1573166364524-04e6897e86e1",
+    highlights: [],
+    details: [],
   },
   {
     title: "Dagger",
@@ -176,6 +221,8 @@ export const technology: ToolLinks[] = [
       "A programmable CI/CD engine that allows developers to build CI pipelines as code in their favorite programming languages.",
     href: "https://dagger.io",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    highlights: [],
+    details: [],
   },
   {
     title: "Encore",
@@ -183,6 +230,8 @@ export const technology: ToolLinks[] = [
       "A backend framework that includes infrastructure management and deployment built into the development workflow.",
     href: "https://encore.dev",
     image: "https://images.unsplash.com/photo-1602524202434-07c4f4e0cf59",
+    highlights: [],
+    details: [],
   },
   {
     title: "Railway",
@@ -190,6 +239,8 @@ export const technology: ToolLinks[] = [
       "An infrastructure platform that lets you deploy code, databases, and queues with zero-config and real-time collaboration.",
     href: "https://railway.app",
     image: "https://images.unsplash.com/photo-1639762681835-2db4800c1837",
+    highlights: [],
+    details: [],
   },
   {
     title: "Val.town",
@@ -197,6 +248,8 @@ export const technology: ToolLinks[] = [
       "An environment for writing and deploying small TypeScript/JavaScript functions that run on a server—perfect for tiny apps and APIs.",
     href: "https://www.val.town",
     image: "https://images.unsplash.com/photo-1616628182501-2c76c7a64661",
+    highlights: [],
+    details: [],
   },
   {
     title: "Tonic.ai",
@@ -204,6 +257,8 @@ export const technology: ToolLinks[] = [
       "A synthetic data platform that helps developers generate realistic test data for staging environments while preserving privacy.",
     href: "https://www.tonic.ai",
     image: "https://images.unsplash.com/photo-1588072432836-e10032774350",
+    highlights: [],
+    details: [],
   },
   {
     title: "GitKraken",
@@ -211,6 +266,8 @@ export const technology: ToolLinks[] = [
       "A Git GUI client that simplifies the version control process for developers, featuring an intuitive interface.",
     href: "https://www.gitkraken.com",
     image: "https://cdn.worldvectorlogo.com/logos/gitkraken.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Webflow",
@@ -218,6 +275,8 @@ export const technology: ToolLinks[] = [
       "A visual web design tool that allows users to build responsive websites without needing to write code.",
     href: "https://webflow.com",
     image: "https://cdn.worldvectorlogo.com/logos/webflow-logo-1.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Code Climate",
@@ -225,5 +284,7 @@ export const technology: ToolLinks[] = [
       "A tool for automated code review that helps maintain high-quality code and measure technical debt in software projects.",
     href: "https://codeclimate.com",
     image: "https://images.unsplash.com/photo-1560837282-544602b18130",
+    highlights: [],
+    details: [],
   },
 ];

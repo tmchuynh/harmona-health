@@ -1,12 +1,12 @@
-import { ToolLinks } from "@/lib/interfaces&types/resources";
-
-export const retail: ToolLinks[] = [
+export const retail = [
   {
     title: "Shopify",
     description:
       "An e-commerce platform that allows businesses to create online stores, manage products, and process payments.",
     href: "https://www.shopify.com",
     image: "https://cdn.worldvectorlogo.com/logos/shopify.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Square",
@@ -14,6 +14,8 @@ export const retail: ToolLinks[] = [
       "A payment processing and point-of-sale solution for retail businesses, providing hardware and software to manage transactions.",
     href: "https://squareup.com",
     image: "https://cdn.worldvectorlogo.com/logos/square.svg",
+    highlights: [],
+    details: [],
   },
   {
     title: "Lightspeed",
@@ -21,6 +23,8 @@ export const retail: ToolLinks[] = [
       "A retail management platform that integrates point-of-sale, inventory management, and analytics for small and medium-sized businesses.",
     href: "https://www.lightspeedhq.com",
     image: "https://images.unsplash.com/photo-1573497491207-9b9f0cc2e9eb",
+    highlights: [],
+    details: [],
   },
   {
     title: "BigCommerce",
@@ -28,6 +32,8 @@ export const retail: ToolLinks[] = [
       "An e-commerce platform for creating online stores with powerful features for product management and customer engagement.",
     href: "https://www.bigcommerce.com",
     image: "https://images.unsplash.com/photo-1582202490527-e9a0fe6d94b4",
+    highlights: [],
+    details: [],
   },
   {
     title: "WooCommerce",
@@ -35,6 +41,8 @@ export const retail: ToolLinks[] = [
       "An open-source e-commerce plugin for WordPress, offering customizable options for online stores and payment integration.",
     href: "https://woocommerce.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Klaviyo",
@@ -42,6 +50,8 @@ export const retail: ToolLinks[] = [
       "An email marketing automation platform that integrates with e-commerce platforms to help increase customer retention.",
     href: "https://www.klaviyo.com",
     image: "https://images.unsplash.com/photo-1531611181024-e07da2322e9e",
+    highlights: [],
+    details: [],
   },
   {
     title: "Zentail",
@@ -49,6 +59,8 @@ export const retail: ToolLinks[] = [
       "A multichannel retail automation platform that allows businesses to manage inventory, orders, and listings across multiple e-commerce channels.",
     href: "https://www.zentail.com",
     image: "https://images.unsplash.com/photo-1547258326-e4df62f1a65d",
+    highlights: [],
+    details: [],
   },
   {
     title: "ShipBob",
@@ -56,6 +68,8 @@ export const retail: ToolLinks[] = [
       "A fulfillment solution for e-commerce stores to simplifies shipping, tracking, and order management.",
     href: "https://www.shipbob.com",
     image: "https://images.unsplash.com/photo-1600728994052-7880f170d75a",
+    highlights: [],
+    details: [],
   },
   {
     title: "Nosto",
@@ -63,6 +77,8 @@ export const retail: ToolLinks[] = [
       "An e-commerce personalization platform that uses AI to help deliver personalized experiences and recommendations to shoppers.",
     href: "https://www.nosto.com",
     image: "https://images.unsplash.com/photo-1594330800285-91da0484d5ca",
+    highlights: [],
+    details: [],
   },
   {
     title: "Yotpo",
@@ -70,6 +86,8 @@ export const retail: ToolLinks[] = [
       "A customer content marketing platform that helps collect and leverage user-generated content, reviews, and ratings.",
     href: "https://www.yotpo.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Slack",
@@ -77,6 +95,8 @@ export const retail: ToolLinks[] = [
       "A collaboration platform that allows communication with teams, share files, and integrate with other tools for streamlined workflows.",
     href: "https://slack.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Asana",
@@ -84,6 +104,8 @@ export const retail: ToolLinks[] = [
       "A work management platform that helps plan, organize, and track tasks and projects across teams.",
     href: "https://asana.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Freshdesk",
@@ -91,6 +113,8 @@ export const retail: ToolLinks[] = [
       "A customer support software that helps manage customer inquiries, support tickets, and feedback.",
     href: "https://freshdesk.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Buffer",
@@ -98,6 +122,8 @@ export const retail: ToolLinks[] = [
       "A social media management platform that allows scheduling posts, monitoring engagement, and analyzing performance across multiple channels.",
     href: "https://buffer.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Shopify Flow",
@@ -105,6 +131,8 @@ export const retail: ToolLinks[] = [
       "An automation tool for Shopify merchants that allows creation custom workflows and automation tasks within their store.",
     href: "https://www.shopify.com/flow",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Facebook Ads Manager",
@@ -112,6 +140,8 @@ export const retail: ToolLinks[] = [
       "A platform for creating and managing ads on Facebook and Instagram, helping people reach their target audience effectively.",
     href: "https://www.facebook.com/business/tools/ads-manager",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Pinterest for Business",
@@ -119,6 +149,8 @@ export const retail: ToolLinks[] = [
       "A platform for creating and managing ads on Pinterest, helping people reach their target audience through visual discovery.",
     href: "https://business.pinterest.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Instagram Shopping",
@@ -126,6 +158,8 @@ export const retail: ToolLinks[] = [
       "A feature that allows people to tag products in posts and stories, enabling direct shopping experiences on Instagram.",
     href: "https://www.instagram.com/shopping/",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Amazon Seller Central",
@@ -133,6 +167,8 @@ export const retail: ToolLinks[] = [
       "A platform for people to manage their product listings, orders, and customer interactions on Amazon.",
     href: "https://sellercentral.amazon.com",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "eBay Seller Hub",
@@ -140,6 +176,8 @@ export const retail: ToolLinks[] = [
       "A platform for people to manage their product listings, orders, and customer interactions on eBay.",
     href: "https://www.ebay.com/sh/sell",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
   {
     title: "Etsy Shop Manager",
@@ -147,5 +185,7 @@ export const retail: ToolLinks[] = [
       "A platform for people to manage their product listings, orders, and customer interactions on Etsy.",
     href: "https://www.etsy.com/shop/manager",
     image: "https://images.unsplash.com/photo-1583784852832-1e1c1c174087",
+    highlights: [],
+    details: [],
   },
 ];
