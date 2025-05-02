@@ -1,33 +1,17 @@
 import ArticleCard from "@/components/card/ArticleCard";
+import OverlappingImageTiles from "@/components/images/OverlappingImageTiles";
 import { articles } from "@/lib/resources/articles/articles";
-import React from "react";
 export default function Page() {
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>Health Articles</h1>
-      <h5>
-        Evidence-Based Health Insights: Practical Advice for Balanced Nutrition,
-        Better Sleep, and More
-      </h5>
-
-      <p className="my-8 md:my-4 lg:my-6">
-        Stay informed and inspired with our expansive library of research-backed
-        health articles. Covering a wide array of topics—from balanced nutrition
-        and gut health to stress management and sleep optimization—our articles
-        offer practical, actionable advice to help you make lasting lifestyle
-        changes. Written by health experts and backed by scientific research,
-        these articles provide you with the tools you need to make informed
-        decisions about your wellness. Each piece is designed to not only
-        educate but also empower you to take proactive steps toward improving
-        your health, featuring meal plans, expert interviews, and proven
-        strategies for living a healthier, more balanced life.
-      </p>
-
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-4 lg:my-8 xl:my-12">
-        {articles.map((post) => (
-          <ArticleCard article={post} key={post.id} />
-        ))}
+    <main className="overflow-hidden">
+      <OverlappingImageTiles />
+      <div className="z-20 mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
+        <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-4 lg:my-8 xl:my-12">
+          {articles.map((post) => (
+            <ArticleCard article={post} key={post.id} />
+          ))}
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
