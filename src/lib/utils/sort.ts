@@ -1,4 +1,8 @@
-import { Resource, ResourceInformation } from "../interfaces&types/resources";
+import {
+  Fitness,
+  Resource,
+  ResourceInformation,
+} from "../interfaces&types/resources";
 import { mentalHealthResources } from "../resources/resource";
 import { resourceInformation } from "../resources/resourceInformation";
 
@@ -104,7 +108,6 @@ export function getResourcesByCategoryId(categoryId: string): Resource[] {
   );
 }
 
-
 /**
  * Sorts an array of strings alphabetically in ascending order.
  *
@@ -169,10 +172,9 @@ export function sortByProperty<T>(
   });
 }
 
-
 /**
  * Groups an array of objects by a specified property and optionally sorts each group.
- * 
+ *
  * @template T - The type of elements in the array
  * @param {T[]} array - The array to group and sort
  * @param {keyof T} groupByProperty - The property to group the array by
@@ -181,15 +183,15 @@ export function sortByProperty<T>(
  * @param {boolean} [sortByLength=false] - Whether to sort by the length of the property value instead of the value itself
  * @param {boolean} [groupByLength=false] - Whether to group by the length of the property value instead of the value itself
  * @returns {T[]} A new array with elements grouped and sorted according to the specified parameters
- * 
+ *
  * @example
  * // Group users by department and sort by name
  * const sortedUsers = groupAndSortByProperties(users, 'department', 'name');
- * 
+ *
  * @example
  * // Group posts by category and sort by date (most recent first)
  * const sortedPosts = groupAndSortByProperties(posts, 'category', 'date', false);
- * 
+ *
  * // Example 1: Group by "program" and sort by "name"
  * const groupedAndSortedByName = groupAndSortByProperties(
  *   successStories,
@@ -217,7 +219,7 @@ export function sortByProperty<T>(
  *   true // Enable grouping by length
  * );
  *
- * 
+ *
  * @example
  * // Group messages by sender and sort by message length
  * const sortedMessages = groupAndSortByProperties(messages, 'sender', 'content', true, true);
@@ -234,7 +236,7 @@ export function groupAndSortByProperties<T>(
   const grouped = array.reduce((acc, item) => {
     const key = groupByLength
       ? (item[groupByProperty] as unknown as string)?.length || 0
-      : item[groupByProperty] as string | number;
+      : (item[groupByProperty] as string | number);
 
     if (!acc[key]) {
       acc[key] = [];
@@ -247,15 +249,21 @@ export function groupAndSortByProperties<T>(
   const sortedKeys = Object.keys(grouped).sort((a, b) => {
     const numA = parseInt(a, 10);
     const numB = parseInt(b, 10);
-    return groupByLength ? (ascending ? numA - numB : numB - numA) : a.localeCompare(b);
+    return groupByLength
+      ? ascending
+        ? numA - numB
+        : numB - numA
+      : a.localeCompare(b);
   });
 
   // Sort each group by the specified property or by the length of the property
   const sortedGroups = sortedKeys.map((key) => {
     if (sortByLength) {
       return [...grouped[key]].sort((a, b) => {
-        const lengthA = (a[sortByPropertyKey!] as unknown as string)?.length || 0;
-        const lengthB = (b[sortByPropertyKey!] as unknown as string)?.length || 0;
+        const lengthA =
+          (a[sortByPropertyKey!] as unknown as string)?.length || 0;
+        const lengthB =
+          (b[sortByPropertyKey!] as unknown as string)?.length || 0;
         return ascending ? lengthA - lengthB : lengthB - lengthA;
       });
     } else if (sortByPropertyKey) {
@@ -294,8 +302,6 @@ export function groupAndSortByProperties<T>(
   // Flatten the sorted groups back into a single array
   return sortedGroups.flat();
 }
-
-
 
 /**
  * Sorts an array of objects by the length of a specified property.
@@ -467,22 +473,21 @@ export function filterByDateComparison<T>(
   });
 }
 
-
 /**
  * Selects a random subset of entries from an array.
- * 
+ *
  * @param array - The source array to select from
  * @param count - The number of entries to randomly select
  * @returns A new array containing the randomly selected entries
- * 
+ *
  * @example
  * // Get 3 random strings
  * const randomStrings = getRandomEntries(["apple", "banana", "cherry", "date", "elderberry"], 3);
- * 
+ *
  * @example
  * // Get 2 random journal prompts
  * const randomPrompts = getRandomEntries<JournalPrompts>(journalPrompts, 2);
- * 
+ *
  * @example
  * // Get 5 random activities or fewer if the array doesn't have enough items
  * const randomActivities = getRandomEntries<Activity>(activities, 5);
@@ -492,22 +497,41 @@ export function getRandomEntries<T>(array: T[], count: number): T[] {
   if (!array || array.length === 0) {
     return [];
   }
-  
+
   // Ensure count is not negative and not larger than the array length
   count = Math.min(Math.max(0, count), array.length);
-  
+
   if (count === 0) {
     return [];
   }
-  
+
   // If we want all items, just create a copy of the array to avoid modifying the original
   if (count === array.length) {
     return [...array];
   }
-  
+
   // Create a copy of the array to avoid modifying the original
   const shuffled = shuffleArray([...array]);
-  
+
   // Return the first 'count' elements
   return shuffled.slice(0, count);
+}
+
+/**
+ * Sorts an array of Fitness objects by difficulty level
+ * (Beginner → Intermediate → Advanced)
+ *
+ * @param fitnessArray - Array of Fitness objects to sort
+ * @returns A new sorted array
+ */
+export function sortByDifficulty(fitnessArray: Fitness[]): Fitness[] {
+  const difficultyOrder: Record<string, number> = {
+    Beginner: 1,
+    Intermediate: 2,
+    Advanced: 3,
+  };
+
+  return [...fitnessArray].sort((a, b) => {
+    return difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
+  });
 }
