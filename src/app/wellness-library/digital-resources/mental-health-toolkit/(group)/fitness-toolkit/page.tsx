@@ -1,5 +1,5 @@
 "use client";
-import ToolCard from "@/components/card/ToolCard";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { icons } from "@/lib/constants/constants";
 import { Toolkit } from "@/lib/interfaces&types/resources";
 import { toolkit } from "@/lib/resources/toolkits/toolkit";
@@ -9,8 +9,33 @@ import { capitalize, formatUrlToID } from "@/lib/utils/format";
 import { shuffleArray, sortByProperty } from "@/lib/utils/sort";
 import { usePathname } from "next/navigation";
 import { JSX, useEffect, useState } from "react";
-
 import { FaLeaf } from "react-icons/fa";
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+const images = [
+  "https://images.unsplash.com/photo-1599552683573-9dc48255fe85?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29ya291dHxlbnwwfDF8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1549476464-37392f717541?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1620188467120-5042ed1eb5da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya291dHxlbnwwfDF8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1500468756762-a401b6f17b46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1649887974297-4be052375a67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1517438984742-1262db08379e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1539794830467-1f1755804d13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://plus.unsplash.com/premium_photo-1674675647518-10fb231b4635?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://plus.unsplash.com/premium_photo-1674675646762-74d41a8889a0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://plus.unsplash.com/premium_photo-1672862928749-d49270b3af84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1618688862225-ac941a9da58f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+  "https://images.unsplash.com/photo-1560233075-4c1e2007908e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHdvcmtvdXR8ZW58MHwxfDB8fHww",
+];
+
 export default function Page() {
   const url = usePathname();
 
@@ -27,6 +52,8 @@ export default function Page() {
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
 
   const sortedTools = sortByProperty(correspondingTools, "title");
+
+  console.log("sortedTools", sortedTools);
 
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
@@ -56,13 +83,33 @@ export default function Page() {
         ))}
       </div>
 
-      {correspondingTools && correspondingTools.length > 0 && (
-        <div className="gap-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-2">
-          {sortedTools.map((tool, index) => (
-            <ToolCard tool={tool} key={index} />
-          ))}
-        </div>
-      )}
+      <div>
+        {correspondingTools && correspondingTools.length > 0 && (
+          <>
+            <Carousel className="mx-auto w-9/12 md:w-10/12 xl:w-11/12">
+              <CarouselContent>
+                {sortedTools.map((tool, index) => (
+                  <CarouselItem key={index} className="lg:basis-1/2">
+                    <Card className="h-full">
+                      <CardHeader>
+                        <h5>{capitalize(tool.title)}</h5>
+                        <h3>{tool.subtitle}</h3>
+                      </CardHeader>
+                      <CardContent>
+                        {tool.introduction?.slice(0, 2).map((intro, index) => (
+                          <span key={index}>{intro}</span>
+                        ))}
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </>
+        )}
+      </div>
     </div>
   );
 }
