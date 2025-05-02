@@ -160,3 +160,29 @@ export interface ToolLinks {
   href: string;
   image?: string;
 }
+
+export interface Fitness {
+  title: string;
+  duration?: string;
+  format?: string;
+  goal?: string;
+  rest: string;
+  frequency: string;
+  tip: string;
+  difficulty: "Beginner" | "Intermediate" | "Advanced";
+  exercises: Workout[];
+}
+
+export type Workout = {
+  exercise: Exercise;
+  set: number;
+  rep?: number;
+  time?: number;
+};
+
+export type Exercise = {
+  title: string;
+  description: string;
+  howTo: Step[];
+  tips: string[];
+};
