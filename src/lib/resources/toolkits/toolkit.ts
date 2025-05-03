@@ -232,11 +232,10 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "fitnessToolkit",
-    title: "Fitness Toolkit",
+    id: "fitnessCollection",
+    title: "Fitness Collection",
     description: [
-      "The Fitness Toolkit provides a collection of resources designed to help individuals improve their physical fitness and overall well-being. It includes workout plans, exercise guides, and nutrition tips specifically tailored for fitness enthusiasts. By using these tools, individuals can learn to set fitness goals, track their progress, and develop healthy habits that support their physical health. The goal is to empower individuals to take control of their fitness journey and enhance their mental health through physical activity.",
-      "Physical fitness is essential for mental health, as regular exercise has been shown to reduce stress, improve mood, and enhance cognitive function. The Fitness Toolkit encourages individuals to explore different types of physical activity and find what works best for them. By incorporating these tools into daily routines, individuals can create a personalized approach to fitness that supports their mental health and well-being. The focus is on fostering a sense of empowerment and connection to one's body through physical activity.",
+      "The Fitness Collection provides a collection of workouts designed to help individuals improve their physical fitness and overall well-being. Physical fitness is essential for mental health, as regular exercise has been shown to reduce stress, improve mood, and enhance cognitive function. The Fitness Collection encourages individuals to explore different types of physical activity and find what works best for them.",
     ],
     subtitle:
       "Get Fit, Feel Great: Essential Tools for Improving Physical Fitness and Mental Health",

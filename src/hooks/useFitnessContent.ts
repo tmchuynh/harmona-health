@@ -21,7 +21,7 @@ export function useFitnessContent() {
 
         for (const name of moduleNames) {
           const toolModule = await import(
-            `@/lib/resources/toolkits/tools/fitness-toolkit/${name}`
+            `@/lib/resources/toolkits/tools/fitness-collection/${name}`
           );
           // Convert kebab-case to camelCase for the export name
           const exportName = name.replace(/-([a-z])/g, (_, letter) =>
