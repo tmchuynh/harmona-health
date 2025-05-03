@@ -1,16 +1,23 @@
 "use client";
+import "@/components/EmblaCarouselScale/css/embla.css";
+import EmblaCarousel from "@/components/EmblaCarouselScale/tsx/EmblaCarousel";
 import {
   AlertDialog,
   AlertDialogCancel,
   AlertDialogContent,
-  AlertDialogDescription,
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -56,7 +63,7 @@ export default function Page() {
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
 
-  const sortepools = sortByProperty(correspondingTools, "title");
+  const sortedTools = sortByProperty(correspondingTools, "title");
 
   useEffect(() => {
     const shuffledIcons = shuffleArray(icons);
@@ -96,15 +103,17 @@ export default function Page() {
         ))}
       </div>
 
+      <EmblaCarousel slides={correspondingTools} />
+
       <div>
         {correspondingTools && correspondingTools.length > 0 && (
           <>
             <Carousel className="mx-auto w-9/12 md:w-10/12 xl:w-11/12">
               <CarouselContent>
-                {sortepools.map((tool, index) => {
+                {sortedTools.map((tool, index) => {
                   const toolName = capitalize(tool.title);
 
-                  const toolInformation = sortepools?.find(
+                  const toolInformation = sortedTools?.find(
                     (toolInfo) => toolInfo.title === toolName
                   );
 
@@ -128,26 +137,17 @@ export default function Page() {
                       <AlertDialogTrigger asChild>
                         <CarouselItem
                           key={`${index}-${generateRandomString(4)}`}
-                          className="lg:basis-1/2"
+                          className="lg:basis-1/2 grow"
                         >
                           <Card className="h-full">
                             <CardHeader>
                               <h5>{capitalize(tool.title)}</h5>
                               <h3>{tool.subtitle}</h3>
                             </CardHeader>
-                            <CardContent>
-                              {tool.introduction
-                                ?.slice(0, 2)
-                                .map((intro, tIndex) => (
-                                  <span
-                                    key={`${tIndex}-${sliceOffLastWord(
-                                      intro
-                                    )}-${generateRandomString(9)}`}
-                                  >
-                                    {intro}
-                                  </span>
-                                ))}
-                            </CardContent>
+                            <CardContent>{tool.description}</CardContent>
+                            <CardFooter>
+                              <Button variant={"fancy"}>View Routines</Button>
+                            </CardFooter>
                           </Card>
                         </CarouselItem>
                       </AlertDialogTrigger>
@@ -159,20 +159,28 @@ export default function Page() {
                           <AlertDialogTitle className="lg:text-2xl">
                             {tool.title}
                           </AlertDialogTitle>
-                          <AlertDialogDescription className="lg:text-lg">
-                            {tool.description}
-                          </AlertDialogDescription>
+                          <div>
+                            {tool.introduction?.map((intro, tIndex) => (
+                              <p
+                                key={`${tIndex}-${sliceOffLastWord(
+                                  intro
+                                )}-${generateRandomString(9)}`}
+                              >
+                                {intro}
+                              </p>
+                            ))}
+                          </div>
                         </AlertDialogHeader>
-                        <ScrollArea className="h-[50%] md:h-[80%] lg:h-[75%]">
+                        <ScrollArea className="px-3 md:px-6 lg:px-9 pb-3 border-accent border-b-2 border-dashed h-[50%] md:h-[80%] lg:h-[75%]">
                           <div className="gap-3 lg:gap-4 grid grid-cols-1 lg:grid-cols-2">
                             {/* ==================================== */}
                             {content.map((routine: Fitness, index: number) => (
-                              <div
-                                className="bg-card shadow-xs p-5 rounded-lg"
+                              <Card
+                                className="shadow-xs p-5 rounded-lg"
                                 key={`${index}-${generateRandomString(4)}`}
                               >
-                                <section className="flex flex-wrap">
-                                  <div className="flex md:flex-row flex-col-reverse justify-between items-start w-full h-full">
+                                <section className="flex flex-wrap h-fit">
+                                  <div className="flex md:flex-row flex-col-reverse justify-between items-start w-full">
                                     <div className="flex-auto">
                                       <h3>{routine.title}</h3>
                                       <p>
@@ -290,7 +298,7 @@ export default function Page() {
                                     </div>
                                   </div>
                                 </section>
-                              </div>
+                              </Card>
                             ))}
                             {/* ============================================ */}
                           </div>
