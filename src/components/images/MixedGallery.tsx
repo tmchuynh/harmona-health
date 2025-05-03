@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MixedGallery({ data }: { data: string[] }) {
   return (
-    <div className="lg:block hidden mx-auto py-2">
+    <div className="lg:block hidden mx-auto py-2 md:py-6 lg:py-12">
       <div className="flex flex-wrap -m-1 md:-m-2">
         <div className="flex flex-wrap w-1/2">
           <div className="p-1 md:p-2 w-1/2">

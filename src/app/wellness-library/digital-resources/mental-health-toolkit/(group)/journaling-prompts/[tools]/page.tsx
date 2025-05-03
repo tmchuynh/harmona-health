@@ -1,5 +1,6 @@
 "use client";
 import JournalPromptCard from "@/components/card/JournalPromptCard";
+import { MasonryGridGallery } from "@/components/images/MasonryGridGallery";
 import MixedGallery from "@/components/images/MixedGallery";
 import { QuadGallery } from "@/components/images/QuadGridImages";
 import { Button } from "@/components/ui/button";
@@ -144,15 +145,18 @@ export default function Page() {
             )}
           </section>
 
-          {randomPrompt.gallery && (
-            <MixedGallery data={randomPrompt.gallery.data} />
-          )}
-
-          {randomPrompt.miniGallery && (
-            <div className="flex w-full">
-              <QuadGallery data={randomPrompt.miniGallery.data} />
-            </div>
-          )}
+          {randomPrompt.gallery &&
+            (randomPrompt.gallery.data.length === 6 ? (
+              <MixedGallery data={randomPrompt.gallery.data} />
+            ) : randomPrompt.gallery.data.length === 4 ? (
+              <div className="flex w-full">
+                <QuadGallery data={randomPrompt.gallery.data} />
+              </div>
+            ) : (
+              <div className="flex w-full">
+                <MasonryGridGallery data={randomPrompt.gallery.data} />
+              </div>
+            ))}
         </>
       )}
     </div>

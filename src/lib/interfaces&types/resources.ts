@@ -109,8 +109,24 @@ export interface JournalPrompts {
   prompt: string;
   ideas?: string[];
   Icon: IconType;
-  gallery?: { data: [string, string, string, string, string, string] };
-  miniGallery?: { data: [string, string, string, string] };
+  gallery?: {
+    data:
+      | [string, string, string, string, string, string]
+      | [string, string, string, string]
+      | [
+          string,
+          string,
+          string,
+          string,
+          string,
+          string,
+          string,
+          string,
+          string,
+          string,
+          string
+        ];
+  };
 }
 
 export interface Activity {

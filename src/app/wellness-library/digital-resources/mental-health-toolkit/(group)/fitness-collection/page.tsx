@@ -1,6 +1,4 @@
 "use client";
-import "@/components/EmblaCarouselScale/css/embla.css";
-import EmblaCarousel from "@/components/EmblaCarouselScale/tsx/EmblaCarousel";
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -20,10 +18,9 @@ import {
 } from "@/components/ui/card";
 import {
   Carousel,
+  CarouselApi,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useFitnessContent } from "@/hooks/useFitnessContent";
@@ -40,25 +37,42 @@ import {
 import {
   generateRandomString,
   shuffleArray,
+  simpleShuffleArray,
   sortByProperty,
 } from "@/lib/utils/sort";
+import useEmblaCarousel from "embla-carousel-react";
 import { CalendarDaysIcon, CreditCardIcon, UserCircleIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { JSX, useEffect, useState } from "react";
-import { FaLeaf } from "react-icons/fa";
+import { JSX, useCallback, useEffect, useState } from "react";
+import { FaChevronLeft, FaChevronRight, FaLeaf } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 
 export default function Page() {
-  const url = usePathname();
   const { fitnessContent, loading } = useFitnessContent();
   const segments = usePathname().split("/");
   const tool = segments[segments.length - 1];
   const toolkitCategory = segments[segments.length - 2];
   const [icon, setIcon] = useState<JSX.Element>(<FaLeaf />);
-  const [content, setContent] = useState<Fitness[]>([]);
+  const [decorativeIcon, setDecorativeIcon] = useState<JSX.Element>(<FaLeaf />);
   const [toolkitInformation, setToolkitInformation] = useState<Toolkit>();
-
   const toolID = formatUrlToID(tool);
+  const carouselOptions = { loop: true };
+  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [api, setApi] = useState<CarouselApi>();
+
+  const scrollPrev = useCallback(() => {
+    if (api) {
+      api.scrollPrev();
+      console.log(api.canScrollPrev());
+    }
+  }, [api]);
+
+  const scrollNext = useCallback(() => {
+    if (api) {
+      api.scrollNext();
+      console.log(api.canScrollNext());
+    }
+  }, [api]);
 
   // Find the corresponding tools array for the specific toolID
   const correspondingTools = toolsMap[toolID as keyof typeof toolsMap];
@@ -66,11 +80,19 @@ export default function Page() {
   const sortedTools = sortByProperty(correspondingTools, "title");
 
   useEffect(() => {
-    const shuffledIcons = shuffleArray(icons);
-    const index = getRandomIndex(shuffledIcons);
-    const MainIcon = shuffledIcons[index];
+    let shuffledIcons = shuffleArray(icons);
+    let index = getRandomIndex(shuffledIcons);
 
-    setIcon(<MainIcon className="mt-2 text-fancy" />);
+    const MainIcon = shuffledIcons[index];
+    setIcon(<MainIcon className="w-10 h-10 text-primary" />);
+
+    shuffledIcons = shuffleArray(icons.filter((ic) => ic !== MainIcon));
+    index = getRandomIndex(simpleShuffleArray(shuffledIcons));
+
+    const DecorativeIcon = shuffledIcons[index];
+    setDecorativeIcon(
+      <DecorativeIcon className="w-12 xl:w-16 h-12 xl:h-16 text-secondary" />
+    );
   }, []);
 
   useEffect(() => {
@@ -90,25 +112,23 @@ export default function Page() {
     );
   }
 
-  console.log("fitnessContent", fitnessContent);
-
   return (
-    <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>{capitalize(tool)}</h1>
-      <h5>{toolkitInformation?.subtitle}</h5>
+    <>
+      <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
+        <h1>{capitalize(tool)}</h1>
+        <h5>{toolkitInformation?.subtitle}</h5>
 
-      <div className="my-8 md:my-4 lg:my-6">
-        {toolkitInformation?.description.map((description, index) => (
-          <p key={index}>{description}</p>
-        ))}
+        <div className="my-8 md:my-4 lg:my-6">
+          {toolkitInformation?.description.map((description, index) => (
+            <p key={index}>{description}</p>
+          ))}
+        </div>
       </div>
-
-      <EmblaCarousel slides={correspondingTools} />
 
       <div>
         {correspondingTools && correspondingTools.length > 0 && (
-          <>
-            <Carousel className="mx-auto w-9/12 md:w-10/12 xl:w-11/12">
+          <section>
+            <Carousel setApi={setApi} opts={carouselOptions} ref={emblaRef}>
               <CarouselContent>
                 {sortedTools.map((tool, index) => {
                   const toolName = capitalize(tool.title);
@@ -137,16 +157,30 @@ export default function Page() {
                       <AlertDialogTrigger asChild>
                         <CarouselItem
                           key={`${index}-${generateRandomString(4)}`}
-                          className="lg:basis-1/2 grow"
+                          className="md:h-[25em] lg:h-[30em] xl:h-[25em] lg:basis-1/2 grow"
                         >
-                          <Card className="h-full">
+                          <Card className="relative flex flex-col justify-between h-full overflow-hidden">
                             <CardHeader>
-                              <h5>{capitalize(tool.title)}</h5>
-                              <h3>{tool.subtitle}</h3>
+                              <h5 className="md:flex items-center gap-3 hidden mb-0">
+                                {icon} {tool.subtitle}
+                              </h5>
+                              <h3> {capitalize(tool.title)}</h3>
                             </CardHeader>
-                            <CardContent>{tool.description}</CardContent>
-                            <CardFooter>
-                              <Button variant={"fancy"}>View Routines</Button>
+                            <CardContent className="md:flex hidden h-full">
+                              {tool.description}
+                            </CardContent>
+                            <CardFooter className="md:mb-7">
+                              <div className="-bottom-3 xl:-bottom-5 absolute md:flex gap-2 hidden opacity-60 -mx-10">
+                                {[
+                                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                                  0, 0, 0,
+                                ].map((_, index) => (
+                                  <span key={index}>{decorativeIcon}</span>
+                                ))}{" "}
+                              </div>
+                              <Button variant={"outline"} className="z-10">
+                                View Routines
+                              </Button>
                             </CardFooter>
                           </Card>
                         </CarouselItem>
@@ -192,7 +226,7 @@ export default function Page() {
                                       <p className="sr-only">
                                         Difficulty Level
                                       </p>
-                                      <Badge className="bg-green-50 px-2 rounded-md ring-1 ring-green-600/20 ring-inset font-medium text-green-600 text-xs">
+                                      <Badge variant={"secondary"}>
                                         {routine.difficulty}
                                       </Badge>
                                     </div>
@@ -213,7 +247,7 @@ export default function Page() {
                                     <div className="flex flex-none gap-x-4 w-full">
                                       <p className="flex-none">
                                         <span className="sr-only">
-                                          Durattion of Workout
+                                          Duration of Workout
                                         </span>
                                         <CalendarDaysIcon className="w-5 h-6" />
                                       </p>
@@ -258,18 +292,23 @@ export default function Page() {
                                             <li key={eIndex}>
                                               <div className="flex md:flex-row flex-col justify-between">
                                                 <p>{exercise.exercise.title}</p>
-                                                {exercise.set && (
-                                                  <p>{exercise.set} Sets of </p>
-                                                )}
-                                                {exercise.rep && (
-                                                  <p>{exercise.rep} Reps </p>
-                                                )}
-
-                                                {exercise.time && (
-                                                  <p>
-                                                    {exercise.time} seconds{" "}
-                                                  </p>
-                                                )}
+                                                <div>
+                                                  {exercise.set && (
+                                                    <span>
+                                                      {exercise.set} Set(s) of{" "}
+                                                    </span>
+                                                  )}
+                                                  {exercise.rep && (
+                                                    <span>
+                                                      {exercise.rep} Reps{" "}
+                                                    </span>
+                                                  )}
+                                                  {exercise.time && (
+                                                    <span>
+                                                      {exercise.time} seconds{" "}
+                                                    </span>
+                                                  )}
+                                                </div>
                                               </div>
                                               <i className="ml-2">
                                                 *{exercise.exercise.description}
@@ -311,12 +350,28 @@ export default function Page() {
                   );
                 })}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
-          </>
+            <div className="flex md:flex-row flex-col gap-4 mx-auto my-3 lg:my-10 w-10/12 md:w-11/12">
+              <Button
+                size={"icon"}
+                variant={"ghost"}
+                className="rounded-full"
+                onClick={scrollPrev}
+              >
+                <FaChevronLeft />
+              </Button>
+              <Button
+                size={"icon"}
+                variant={"ghost"}
+                className="rounded-full"
+                onClick={scrollNext}
+              >
+                <FaChevronRight />
+              </Button>
+            </div>
+          </section>
         )}
       </div>
-    </div>
+    </>
   );
 }
