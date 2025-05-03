@@ -69,8 +69,8 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "nutritionTools",
-    title: "Nutrition Tools",
+    id: "nutritionInfographics",
+    title: "Nutrition Infographics",
     description: [
       "Nutrition tools focus on the relationship between diet and mental health. These resources provide guidance on how to make dietary choices that support emotional well-being. They may include meal planning templates, nutritional guidelines, and information on foods that can enhance mood and cognitive function. By understanding the impact of nutrition on mental health, individuals can make informed choices that promote overall wellness. These tools aim to empower individuals to take charge of their health through mindful eating practices.",
       "Nutrition plays a vital role in mental health, as certain nutrients can influence mood, energy levels, and cognitive function. The Nutrition Tools encourage individuals to explore how their dietary habits affect their emotional state and provide practical steps for making healthier choices. By incorporating these tools into daily life, individuals can improve their mental clarity, emotional stability, and overall well-being. The goal is to create a balanced approach to nutrition that supports both physical and mental health.",

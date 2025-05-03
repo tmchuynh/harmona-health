@@ -1,133 +1,117 @@
 import { Tool } from "@/lib/interfaces&types/resources";
 
-const nutritionTools: Tool[] = [
+const nutritionInfographics: Tool[] = [
   {
-    id: "balanced-nutrition-tool-1",
-    categoryId: "nutritionTools",
-    title: "Healthy Eating Plate",
-    subtitle: "Visualize your plate for balanced nutrition.",
+    id: "macronutrient-breakdown",
+    title: "Macronutrient Breakdown",
+    subtitle: "Visualizing Protein, Carbs, And Fats",
     description:
-      "An interactive tool that helps users visualize and understand how to balance their meals using a variety of food groups. This tool provides practical guidance on portion sizes and nutrient diversity to support a healthy diet.",
+      "Charts that compare actual vs. recommended intake of macronutrients for better meal planning and dietary balance.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Understanding your daily macronutrient intake is essential for creating a well-balanced diet that supports energy, muscle maintenance, and metabolic health.",
+      "Macronutrient charts typically break down how much of your diet is composed of carbohydrates, proteins, and fats. These visuals help you determine whether you're over-relying on one macronutrient or under-consuming another.",
+      "These charts can also reflect dietary goals, like increasing protein for muscle gain, reducing carbs for a low-carb diet, or achieving a specific macronutrient ratio like 40/30/30.",
+      "Visual tools like bar graphs and pie charts make these nutritional patterns easier to understand and adjust based on personal health goals.",
+    ],
   },
   {
-    id: "gut-health-tool-1",
-    categoryId: "nutritionTools",
-    title: "Gut Health Tracker",
-    subtitle: "Monitor your digestive health and identify patterns.",
+    id: "hydration-tracking",
+    title: "Hydration Tracking",
+    subtitle: "Visualizing Daily Water Intake Patterns",
     description:
-      "Track your digestive health by logging symptoms and triggers, helping you identify patterns and improve gut health over time. This tool also provides insights into dietary changes that can support a healthier gut.",
+      "Line or bar charts that show water consumption trends over time, helping individuals meet hydration goals.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Hydration plays a critical role in digestion, energy levels, and cognitive function, yet it’s often overlooked in daily nutrition.",
+      "By visualizing water intake, individuals can track patterns, notice fluctuations, and identify days where hydration is lacking.",
+      "These charts are especially helpful when used alongside physical activity logs or climate data to better understand daily needs.",
+      "Visual feedback encourages consistency and builds awareness around the importance of meeting daily water recommendations.",
+    ],
   },
   {
-    id: "gut-health-tool-2",
-    categoryId: "nutritionTools",
-    title: "Probiotic Finder",
-    subtitle: "Find the right probiotic for your gut health.",
+    id: "sources-of-added-sugar",
+    title: "Sources of Added Sugar",
+    subtitle: "Understanding Where Sugar Hides In Your Diet",
     description:
-      "A tool to help you find the right probiotic based on your digestive health needs and goals. It includes recommendations for strains that support gut balance and overall wellness.",
+      "Pie or bar charts showing the percentage of sugar consumption by source—soda, snacks, desserts, and packaged foods.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Added sugar is one of the biggest contributors to poor diet quality, yet many people are unaware of where it hides in everyday foods.",
+      "These charts reveal which categories—such as beverages, snacks, or baked goods—contribute most to daily sugar intake.",
+      "Visualizing this data helps consumers make more informed choices by replacing high-sugar items with lower-sugar alternatives.",
+      "This kind of nutritional insight is especially useful for individuals managing diabetes, weight, or energy crashes throughout the day.",
+    ],
   },
   {
-    id: "gut-health-tool-3",
-    categoryId: "nutritionTools",
-    title: "Fiber Intake Tracker",
-    subtitle: "Monitor your daily fiber intake for better digestion.",
+    id: "meal-frequency-patterns",
+    title: "Meal Frequency Patterns",
+    subtitle: "Tracking Meals And Snacks Per Day",
     description:
-      "A tool to monitor daily fiber intake and ensure users are meeting recommended levels to support gut health and digestion.",
+      "Charts that show how often meals or snacks are consumed daily, weekly, or monthly, highlighting eating habits and irregular patterns.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Meal frequency impacts metabolism, blood sugar stability, and energy throughout the day.",
+      "These charts display how often someone eats breakfast, lunch, dinner, or snacks, revealing whether they're skipping meals or overeating at certain times.",
+      "Tracking frequency visually can uncover unhealthy patterns like late-night snacking or long periods of fasting.",
+      "Using a line graph or histogram, users can make gradual improvements toward more regular and balanced eating habits.",
+    ],
   },
   {
-    id: "gut-health-tool-5",
-    categoryId: "nutritionTools",
-    title: "Prebiotic Food Guide",
-    subtitle: "Discover foods that nourish your gut bacteria.",
+    id: "food-group-distribution",
+    title: "Food Group Distribution",
+    subtitle: "How Balanced Is Your Diet",
     description:
-      "A guide to foods rich in prebiotics that support the growth of healthy gut bacteria.",
+      "Visualizations that categorize food intake into food groups (vegetables, fruits, grains, proteins, dairy, fats) to identify dietary gaps.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "A balanced diet should include a variety of food groups, each contributing unique nutrients and health benefits.",
+      "This chart type helps individuals assess how much of their diet comes from each food group, often revealing over-dependence on certain categories (like grains or fats) and under-consumption of others (like vegetables or legumes).",
+      "These visualizations can guide users toward more diverse meal planning and improved nutritional adequacy.",
+      "Pie charts, stacked bar charts, and radial diagrams are particularly effective in showing food group proportions over time or across meals.",
+    ],
   },
   {
-    id: "gut-health-tool-6",
-    categoryId: "nutritionTools",
-    title: "Digestive Enzyme Guide",
-    subtitle: "Enhance your digestion with the right enzymes.",
+    id: "weekly-grocery-cost-vs-nutrition",
+    title: "Weekly Grocery Cost Vs Nutrition",
+    subtitle: "Balancing Budget And Nutrient Quality",
     description:
-      "A resource explaining the role of digestive enzymes and how to incorporate them into your diet for better digestion.",
+      "Bubble or bar charts comparing the nutritional value of foods against their cost, helping students or families shop smarter.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "For many people, especially students, budgeting plays a significant role in food choices—but lower cost doesn't have to mean poor nutrition.",
+      "This category focuses on visual comparisons between the cost of food items and their nutrient density, helping users identify the best 'nutrition per dollar' options.",
+      "By balancing cost with dietary quality, individuals can make more strategic decisions when grocery shopping.",
+      "These visuals are especially effective for meal prepping, creating budget meal plans, or maximizing the impact of limited food budgets.",
+    ],
   },
   {
-    id: "gut-health-tool-7",
-    categoryId: "nutritionTools",
-    title: "Gut-Friendly Recipes",
-    subtitle: "Delicious meals that support gut health.",
+    id: "eating-out-vs-home-cooked",
+    title: "Eating Out Vs Home Cooked Meals",
+    subtitle: "Comparing Health And Frequency Of Meal Sources",
     description:
-      "A collection of recipes designed to promote gut health and reduce inflammation.",
+      "Charts that track the number of home-cooked vs. restaurant or takeout meals per week and their average nutritional differences.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Eating out can be convenient but often comes with higher calorie, sodium, and fat content compared to home-cooked meals.",
+      "These charts display how often individuals eat out compared to preparing meals at home, revealing patterns that influence health and budgeting.",
+      "They may also compare average calorie intake or cost per meal by source, offering insight into how food preparation choices affect overall diet quality.",
+      "Tracking this data visually can motivate people to cook more often or make healthier choices when dining out.",
+    ],
   },
   {
-    id: "gut-health-tool-8",
-    categoryId: "nutritionTools",
-    title: "Bloating Relief Tips",
-    subtitle: "Strategies to reduce bloating and improve comfort.",
+    id: "micronutrient-deficiencies",
+    title: "Micronutrient Deficiencies",
+    subtitle: "Identifying Common Gaps In Vitamins And Minerals",
     description:
-      "A tool offering practical tips and strategies to reduce bloating and improve digestive comfort.",
-  },
-  {
-    id: "gut-health-tool-9",
-    categoryId: "nutritionTools",
-    title: "Fermented Food Tracker",
-    subtitle: "Incorporate fermented foods for gut health.",
-    description:
-      "A tracker to help users incorporate fermented foods into their diet for improved gut health.",
-  },
-  {
-    id: "balanced-nutrition-tool-2",
-    categoryId: "nutritionTools",
-    title: "Meal Planning Template",
-    subtitle: "Plan balanced meals for the week ahead.",
-    description:
-      "A template that guides users to plan balanced meals throughout the week, ensuring proper portion control and nutrient diversity. It includes tips for meal prep and grocery shopping to make healthy eating easier.",
-  },
-  {
-    id: "balanced-nutrition-tool-3",
-    categoryId: "nutritionTools",
-    title: "Portion Size Guide",
-    subtitle: "Visualize portion sizes for balanced meals.",
-    description:
-      "A visual guide to help users understand appropriate portion sizes for different food groups, promoting balanced and mindful eating habits.",
-  },
-  {
-    id: "balanced-nutrition-tool-4",
-    categoryId: "nutritionTools",
-    title: "Nutrient Density Calculator",
-    subtitle: "Evaluate the nutrient density of your meals.",
-    description:
-      "A calculator that helps users evaluate the nutrient density of their meals, ensuring they are getting the most nutrition out of their food choices.",
-  },
-  {
-    id: "balanced-nutrition-tool-5",
-    categoryId: "nutritionTools",
-    title: "Hydration Tracker",
-    subtitle: "Monitor your daily water intake for optimal hydration.",
-    description:
-      "A tool to help users monitor their daily water intake and ensure proper hydration for optimal health.",
-  },
-  {
-    id: "balanced-nutrition-tool-6",
-    categoryId: "nutritionTools",
-    title: "Macro Calculator",
-    subtitle: "Calculate your macronutrient needs.",
-    description:
-      "A tool to calculate macronutrient needs based on individual health goals, such as weight loss, muscle gain, or maintenance.",
-  },
-  {
-    id: "balanced-nutrition-tool-8",
-    categoryId: "nutritionTools",
-    title: "Healthy Snack Ideas",
-    subtitle: "Quick and nutritious snack options.",
-    description:
-      "A resource providing quick and easy snack ideas that are both nutritious and satisfying.",
-  },
-  {
-    id: "balanced-nutrition-tool-9",
-    categoryId: "nutritionTools",
-    title: "Calorie Tracker",
-    subtitle: "Monitor your daily calorie intake.",
-    description:
-      "A tool to track daily calorie intake and ensure users are meeting their energy needs without overconsumption.",
+      "Bar charts or radar graphs showing population-level or individual deficiencies in iron, calcium, vitamin D, fiber, and other key nutrients.",
+    categoryId: "nutritionInfographics",
+    introduction: [
+      "Micronutrient deficiencies often go unnoticed but can lead to fatigue, weakened immunity, and other health problems.",
+      "This category visualizes how well individuals or groups are meeting their daily vitamin and mineral needs based on diet logs or surveys.",
+      "It’s particularly useful for identifying gaps like low iron in menstruating individuals, or vitamin D in those with limited sun exposure.",
+      "Radar charts or bar graphs help users clearly see which nutrients are lacking and where dietary adjustments or supplements may be needed.",
+    ],
   },
 ];
 
@@ -1555,7 +1539,7 @@ export const toolsMap = {
   journalingPrompts: journalingPrompts,
   leadershipTools: leadershipTools,
   mindfulnessPractices: mindfulnessPractices,
-  nutritionTools: nutritionTools,
+  nutritionInfographics: nutritionInfographics,
   strongCommunicationPractices: strongCommunicationPractices,
   workLifeBalanceTools: workLifeBalanceTools,
 };
