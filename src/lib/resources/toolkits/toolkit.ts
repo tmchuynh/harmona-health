@@ -15,19 +15,6 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "progressiveMuscleRelaxationGuides",
-    title: "Progressive Muscle Relaxation Guides",
-    description: [
-      "Progressive Muscle Relaxation (PMR) is a technique where individuals progressively tense and then relax different muscle groups throughout the body. By focusing on the tension in each muscle group and releasing it, individuals can achieve a deep sense of physical and mental relaxation. PMR helps alleviate stress, anxiety, and physical discomfort by reducing muscle tension, which can contribute to a calmer state of mind. The process encourages greater body awareness and mindfulness, which can also improve overall emotional health.",
-      "This technique is particularly effective for those who experience chronic tension, anxiety, or insomnia. By practicing PMR regularly, individuals learn to identify areas of tension in their bodies and develop the ability to release it intentionally. This process not only promotes relaxation but also enhances self-awareness, leading to improved emotional regulation and stress management. PMR is an accessible tool for anyone looking to incorporate relaxation into their daily routine or to address specific sources of discomfort.",
-    ],
-    subtitle:
-      "Release the Tension: Achieve Deep Relaxation and Emotional Balance with Simple Techniques",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/progressive-muscle-relaxation-guides",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
     id: "affirmationCards",
     title: "Affirmation Cards",
     description: [
@@ -37,22 +24,6 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Empower Your Mind: Daily Affirmations for Building Confidence and Self-Love",
     href: "/wellness-library/digital-resources/mental-health-toolkit/affirmation-cards",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "visualizationExercises",
-    title: "Visualization Exercises",
-    description: [
-      "Visualization exercises and goal-setting tools are both powerful resources designed to help individuals tap into their inner potential and create meaningful, positive change in their lives. By combining the imaginative power of visualization with the practical structure of goal-setting, these practices provide a mind-body approach to personal growth and emotional well-being.",
-      "Visualization exercises, such as guided imagery, visualization scripts, and relaxation techniques, are specifically tailored to help individuals harness the power of their imagination to reduce anxiety, foster creativity, and bring clarity to their aspirations. These exercises encourage individuals to vividly picture their goals, whether personal or professional, and immerse themselves in a mental space where success and positive outcomes feel attainable. By visualizing desired outcomes, individuals can reduce feelings of overwhelm or self-doubt, creating a sense of calm and confidence. The practice of visualization not only strengthens focus but also improves overall mental health by promoting a positive mindset, boosting self-esteem, and enhancing emotional resilience.",
-      "In parallel, goal-setting tools like SMART goal templates, action plans, and progress tracking sheets are designed to help individuals break down their larger aspirations into clear, actionable steps. These tools guide individuals in defining their objectives, creating realistic timelines, and tracking progress, providing structure and direction. Effective goal setting encourages individuals to set specific, measurable, achievable, relevant, and time-bound goals, which helps turn abstract ideas into tangible outcomes. By using these tools, individuals can maintain motivation, assess their progress, and make necessary adjustments, thus increasing their chances of success. This process of intentional goal-setting fosters a sense of accomplishment and provides a strong foundation for ongoing personal and professional growth.",
-      "When visualization and goal setting are combined, they work together in a complementary way, amplifying their effectiveness. Visualization helps individuals clarify their desires and strengthen their belief in the possibility of achieving their goals, while goal-setting provides a roadmap to turn these visualized outcomes into reality. Incorporating both into daily routines encourages individuals to stay focused, overcome obstacles, and remain determined in the face of challenges. The powerful combination of a clear vision and structured action steps promotes a sense of purpose, direction, and empowerment, which in turn supports mental well-being and emotional balance.",
-      "By practicing visualization and setting intentional goals, individuals gain a sense of control over their lives and their future. This dual approach enables them to create a mental space of clarity, purpose, and possibility while maintaining a structured path toward achievement. As individuals integrate these practices into their daily lives, they not only enhance their personal development but also cultivate a sense of fulfillment and joy, knowing they are actively working toward their dreams with confidence and resilience. Ultimately, the integration of visualization exercises and goal-setting tools supports long-term mental health, fosters self-compassion, and empowers individuals to create lasting, meaningful change in their lives.",
-    ],
-    subtitle:
-      "Visualize Your Success: Unlock the Power of Mental Imagery for Stress Relief and Personal Growth",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/visualization-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -85,21 +56,6 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "selfCompassionAndSelfEsteemToolkit",
-    title: "Self Compassion and Self Esteem Toolkit",
-    description: [
-      "Self-compassion and self-esteem practices are essential components of personal growth and emotional well-being, helping individuals cultivate a positive mindset and emotional resilience. Both approaches encourage individuals to treat themselves with the same kindness, understanding, and care they would extend to a friend, fostering a deeper connection with themselves. Self-compassion involves recognizing and accepting personal struggles without judgment, responding with warmth and support. Techniques such as reflecting on strengths, embracing imperfections, and reframing negative self-talk into compassionate language help reduce self-criticism and build emotional resilience. This practice creates a mental space where pain can be acknowledged without the added burden of harsh judgment, promoting a sense of gentleness and understanding.",
-      "Through self-compassion, individuals can overcome feelings of unworthiness, self-doubt, and shame, approaching challenges with kindness rather than self-criticism. The tools designed to nurture self-compassion, including exercises, guided meditations, and journaling prompts, empower individuals to take control of their mental health journey. These resources help individuals embrace their experiences with compassion, cultivating emotional resilience and improving overall well-being. Over time, practicing self-compassion strengthens one’s sense of self-worth and supports better mental health, particularly in the face of self-doubt.",
-      "Similarly, self-esteem tools provide practical strategies to enhance one's self-worth and positive self-image. These resources, such as positive affirmations, self-reflection exercises, and goal-setting techniques, help individuals recognize their value and build confidence. By incorporating these tools into daily routines, individuals can develop a personalized approach to improving their self-esteem, which in turn supports emotional balance and a healthy sense of identity. Effective self-esteem building is key to fostering a positive self-image, empowering individuals to face challenges with confidence and to navigate life’s difficulties without being hindered by self-doubt.",
-      "Together, self-compassion and self-esteem practices create a powerful foundation for personal growth. They enable individuals to approach their lives with greater kindness, understanding, and self-empowerment. By integrating both self-compassion exercises and self-esteem tools into their daily lives, individuals can nurture their emotional well-being, strengthen their mental health, and build a more confident, resilient sense of self. Ultimately, these practices not only improve mental health but also foster a sense of purpose and fulfillment, empowering individuals to face challenges with a positive mindset and a deep connection to their true worth.",
-    ],
-    subtitle:
-      "Building Emotional Resilience: Nurturing Self-Compassion and Self-Esteem for Personal Growth",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/self-compassion-and-esteem-practices",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
     id: "buildingResiliencePractices",
     title: "Building Resilience Practices",
     description: [
@@ -113,21 +69,6 @@ export const toolkit: Toolkit[] = [
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
   {
-    id: "selfCareAndDiscoveryToolkit",
-    title: "Self Care and Discovery Toolkit",
-    description: [
-      "The Self-Care and Self-Discovery Toolkits provide a comprehensive approach to fostering long-term mental, emotional, and physical well-being. The Self-Care Toolkit offers a range of practical strategies to help individuals prioritize their well-being, including establishing routines, setting boundaries, and engaging in restful activities that promote relaxation and rejuvenation. By incorporating these tools into daily life, individuals can create a healthy balance between work, social obligations, and personal time, reducing the risk of burnout and stress-related illness. Regular self-care practices are essential in maintaining a strong foundation for overall wellness, enhancing both physical health and emotional resilience.",
-      "Self-care is often overlooked, but it plays a crucial role in sustaining long-term happiness and health. By making self-care a priority and carving out time for activities that restore energy and offer joy, individuals can significantly improve their mental and physical health, while strengthening their ability to manage stress. The Self-Care Toolkit empowers individuals to build a sustainable practice that fosters overall well-being, ensuring they are equipped to navigate life’s challenges with a sense of balance and vitality.",
-      "In parallel, the Self-Discovery Toolkit provides essential resources for individuals to explore their thoughts, feelings, and values. Tools like journaling prompts, self-reflection exercises, and personality assessments help individuals understand themselves better, identify their strengths and weaknesses, and deepen their sense of self-awareness. These self-discovery practices play a vital role in personal growth and emotional well-being, offering individuals a pathway to clarity and empowerment as they explore their identity.",
-      "By incorporating self-discovery tools into their daily routines, individuals can create a personalized approach to self-exploration that enhances mental health and emotional balance. This process of self-exploration not only fosters a deeper understanding of oneself but also nurtures a stronger sense of purpose and direction. Together, the Self-Care and Self-Discovery Toolkits provide individuals with the strategies they need to cultivate a fulfilling and resilient life, supporting both their well-being and personal growth.",
-    ],
-    subtitle:
-      "Prioritize Your Well-Being: A Complete Guide to Self-Care and Self-Discovery for Personal Growth",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/self-care-and-discovery-toolkit",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
     id: "nutritionTools",
     title: "Nutrition Tools",
     description: [
@@ -137,19 +78,6 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Nourish Your Mind: Discover the Connection Between Nutrition and Mental Well-Being",
     href: "/wellness-library/digital-resources/mental-health-toolkit/nutrition-tools",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "sleepOptimizationGuides",
-    title: "Sleep Optimization Guides",
-    description: [
-      "Sleep optimization guides focus on improving sleep quality and establishing healthy sleep habits. These resources may include sleep diaries, relaxation techniques, and tips for creating a sleep-friendly environment. By understanding the importance of sleep for mental health, individuals can take proactive steps to enhance their sleep patterns. The goal is to promote restorative sleep that supports emotional regulation, cognitive function, and overall well-being.",
-      "Quality sleep is essential for mental health, as it affects mood, energy levels, and cognitive performance. The Sleep Optimization Guides provide practical strategies for improving sleep hygiene and addressing common sleep disturbances. By incorporating these tools into daily routines, individuals can enhance their sleep quality and overall mental health. The focus is on creating a personalized approach to sleep that aligns with individual needs and lifestyles, ultimately leading to better emotional resilience and well-being.",
-    ],
-    subtitle:
-      "Sleep Your Way to Wellness: Essential Tools for Improving Sleep Quality and Mental Health",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/sleep-optimization-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -215,19 +143,6 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Organize Your Life: Essential Tools for Effective Time Management and Productivity",
     href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-toolkit",
-    image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
-  },
-  {
-    id: "emotionalRegulationToolkit",
-    title: "Emotional Regulation Toolkit",
-    description: [
-      "Emotional regulation tools are designed to help individuals manage their emotions effectively. These resources may include mindfulness practices, cognitive reframing exercises, and self-care strategies specifically tailored for emotional regulation. By using these tools, individuals can learn to identify their emotional triggers, develop healthy coping mechanisms, and improve their overall mental health. The goal is to empower individuals to take control of their emotions and enhance their well-being.",
-      "Effective emotional regulation is essential for maintaining emotional balance and overall health. The Emotional Regulation Tools provide practical strategies for managing emotions in real-time, as well as long-term techniques for building resilience. By incorporating these tools into daily routines, individuals can create a personalized approach to emotional regulation that supports their mental health and well-being. The focus is on fostering a sense of control and empowerment in the face of emotional challenges.",
-    ],
-    subtitle:
-      "Master Your Emotions: Essential Tools for Effective Emotional Regulation and Resilience",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/emotional-regulation-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
