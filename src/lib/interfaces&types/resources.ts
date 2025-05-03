@@ -213,3 +213,53 @@ export type Exercise = {
   howTo: Step[];
   tips: string[];
 };
+
+export interface Nutrition {
+  graphType: "pie" | "bar" | "line" | "doughnut";
+  title: string;
+  data: Data;
+  options?: ChartOptions;
+}
+
+export type Data = {
+  labels: string[];
+  datasets: {
+    label: string;
+    data: number[];
+    backgroundColor?: string[] | string;
+    borderColor?: string[] | string;
+    borderWidth?: number;
+    fill?: boolean;
+    tension?: number;
+  }[];
+};
+
+export type ChartOptions = {
+  responsive?: boolean;
+  maintainAspectRatio?: boolean;
+  plugins?: {
+    legend: {
+      display: boolean;
+      position?: "top" | "bottom" | "left" | "right";
+    };
+    title: {
+      display: boolean;
+      text: string;
+    };
+  };
+  scales?: {
+    x?: {
+      type?: string;
+      title?: {
+        display: boolean;
+        text: string;
+      };
+    };
+    y?: {
+      title?: {
+        display: boolean;
+        text: string;
+      };
+    };
+  };
+};
