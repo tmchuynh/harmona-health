@@ -1,13 +1,14 @@
 "use client";
 import { useToolContext } from "@/context/toolContext";
-import { Activity } from "@/lib/interfaces&types/resources";
+import { Nutrition } from "@/lib/interfaces&types/resources";
 import { getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
+import Chart from "./chart";
 export default function Page() {
   const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
   const [loading, setLoading] = useState(true);
-  const [toolData, setToolData] = useState<Activity[]>([]);
+  const [toolData, setToolData] = useState<Nutrition[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,6 +36,12 @@ export default function Page() {
         toolInformation.introduction.map((intro: string, index: number) => (
           <p key={index}>{intro}</p>
         ))}
+
+      <section className="flex flex-col gap-2 md:gap-5 xl:gap-9 py-5">
+        {toolData.map((data, index) => (
+          <Chart data={data} key={index} />
+        ))}
+      </section>
     </div>
   );
 }
