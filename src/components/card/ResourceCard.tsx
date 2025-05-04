@@ -30,7 +30,7 @@ export default function ResourceCard({
         <Dialog>
           <DialogTrigger asChild>
             <Button
-              variant={"outline"}
+              variant={"accent"}
               size={"icon"}
               className="top-4 right-4 absolute cursor-pointer"
             >

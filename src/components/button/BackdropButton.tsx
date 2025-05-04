@@ -8,6 +8,7 @@ export default function BackdropButton({
   onClick,
   rel,
   className,
+  size,
   children,
 }: {
   variant?:
@@ -21,18 +22,21 @@ export default function BackdropButton({
     | "destructive"
     | "ghost"
     | "link"
+    | "icon"
     | "disabled";
   target?: string;
+  size?: "default" | "sm" | "lg";
   rel?: string;
   onClick?: () => void;
   className?: string;
-  href: string;
+  href?: string;
   children: React.ReactNode;
 }) {
   return (
     <Button
       variant={variant}
       onClick={onClick}
+      size={size}
       className={cn(
         "hover:shadow-lg backdrop-blur-xl px-4 py-2 rounded-lg transition duration-200",
         {

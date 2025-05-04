@@ -1,6 +1,6 @@
 import { CategoryQuestion } from "@/lib/interfaces&types/resources";
 
-export const onlineSelfHelpBookPlatformQuestions: CategoryQuestion[] = [
+export const onlineSelfHelpBookPlatformsQuestions: CategoryQuestion[] = [
   // Online Self-Help Book Platforms
   {
     id: "online-self-help-book-platforms",

@@ -1,8 +1,8 @@
-import { cn } from "@/lib/utils";
-import { buttonVariants } from "../ui/button";
-import { simpleShuffleArray, shuffleArray } from "@/lib/utils/sort";
-import { useState, useEffect } from "react";
 import { icons } from "@/lib/constants/constants";
+import { cn } from "@/lib/utils";
+import { shuffleArray, simpleShuffleArray } from "@/lib/utils/sort";
+import { useEffect, useState } from "react";
+import { buttonVariants } from "../ui/button";
 
 export default function MockButton({
   variant = "default",
@@ -22,6 +22,7 @@ export default function MockButton({
     | "link"
     | "tertiary"
     | "fancy"
+    | "icon"
     | "accent"
     | "disabled";
   size?: "default" | "sm" | "lg" | "icon";

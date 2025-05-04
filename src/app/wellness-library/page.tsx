@@ -1,5 +1,5 @@
 "use client";
-import MockButton from "@/components/button/MockButton";
+import BackdropButton from "@/components/button/BackdropButton";
 import { icons } from "@/lib/constants/constants";
 import { featuredResource, resource } from "@/lib/resources/resource";
 import { getRandomIndex } from "@/lib/utils";
@@ -50,7 +50,9 @@ export default function Page() {
                 <p className="text-lg lg:text-xl">
                   {featuredResource.description}
                 </p>
-                <MockButton variant="outline">View This Resource</MockButton>
+                <BackdropButton variant="outline" className="mt-2">
+                  View This Resource
+                </BackdropButton>
               </article>
             </Link>
           ))}
@@ -67,9 +69,13 @@ export default function Page() {
                     {item.title}
                   </h3>
                   <p>{item.description}</p>
-                  <MockButton variant="outline" size="sm" className="text-xs">
+                  <BackdropButton
+                    variant="outline"
+                    size="sm"
+                    className="mt-3 text-xs"
+                  >
                     Read More
-                  </MockButton>
+                  </BackdropButton>
                 </div>
               </article>
             </Link>
