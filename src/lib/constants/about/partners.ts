@@ -5,19 +5,19 @@ export const affiliateCompanies: Company[] = [
     name: "Healthy Living Co.",
     description:
       "A lifestyle brand offering products for mindful living, from wellness gadgets to healthy food options.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/Healthy.jpeg",
   },
   {
     name: "Wellness Innovations",
     description:
       "A tech company developing apps to enhance mental well-being, from meditation to sleep tracking.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/Wellness.jpeg",
   },
   {
     name: "Vibrant Life Nutrition",
     description:
       "Nutritional supplement brand focused on providing high-quality vitamins and minerals for optimal health.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/Vibrant.jpeg",
   },
   {
     name: "FitTech Solutions",

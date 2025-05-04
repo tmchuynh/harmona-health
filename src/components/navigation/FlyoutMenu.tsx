@@ -20,10 +20,9 @@ import {
 } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { ThemeToggle } from "../button/ThemeToggle";
-import Link from "next/link";
 
 export default function FlyoutMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,18 +33,6 @@ export default function FlyoutMenu() {
         aria-label="Global"
         className="top-0 z-20 fixed flex justify-between items-center bg-background shadow-sm mx-auto lg:px-8 p-6 border-b w-full font-[Poppins]"
       >
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <Image
-              alt=""
-              src="/images/monogram-hq.png"
-              className="w-24 h-auto aspect-video object-cover"
-              width={200}
-              height={100}
-            />
-          </a>
-        </div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -188,19 +175,9 @@ export default function FlyoutMenu() {
         onClose={setMobileMenuOpen}
         className="lg:hidden"
       >
-        <div className="z-10 fixed inset-0" />
-        <DialogPanel className="right-0 z-10 fixed inset-y-0 bg-background px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
+        <div className="z-20 fixed inset-0" />
+        <DialogPanel className="right-0 z-20 fixed inset-y-0 bg-background px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
           <div className="flex justify-between items-center">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <Image
-                alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="w-auto h-8"
-                width={32}
-                height={32}
-              />
-            </a>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -210,8 +187,8 @@ export default function FlyoutMenu() {
               <XMarkIcon aria-hidden="true" className="size-6" />
             </button>
           </div>
-          <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-gray-500/10">
+          <div className="relative mt-6 h-screen flow-root">
+            <div className="-my-6 pb-12 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3 font-[Poppins]">
                   <DisclosureButton className="group flex justify-between items-center py-2 pr-3.5 pl-3 rounded-lg w-full font-semibold text-base/7">

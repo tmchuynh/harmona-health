@@ -16,8 +16,8 @@ export default function Page() {
             <div className="mx-auto lg:mx-0 px-8 md:px-0 lg:px-12 lg:pt-8 max-w-2xl shrink-0">
               <Image
                 alt="harmona-health"
-                src="/images/harmona-health-high-resolution-logo-transparent.png"
-                className="w-auto h-36 md:h-48 lg:h-72"
+                src="/images/logo/HH-Photoroom-HH.png"
+                className="w-auto h-36 md:h-48 lg:h-80"
                 width={900}
                 height={900}
               />
