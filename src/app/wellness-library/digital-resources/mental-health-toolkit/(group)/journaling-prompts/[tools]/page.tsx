@@ -145,8 +145,8 @@ export default function Page() {
             )}
           </section>
 
-          {randomPrompt.gallery ? (
-            randomPrompt.gallery.data.length === 6 ? (
+          {randomPrompt.gallery &&
+            (randomPrompt.gallery.data.length === 6 ? (
               <MixedGallery data={randomPrompt.gallery.data} />
             ) : randomPrompt.gallery.data.length === 4 ? (
               <div className="flex w-full">
@@ -156,19 +156,7 @@ export default function Page() {
               <div className="flex w-full">
                 <MasonryGridGallery data={randomPrompt.gallery.data} />
               </div>
-            )
-          ) : (
-            <MixedGallery
-              data={[
-                "https://img.freepik.com/free-photo/elderly-woman-drinking-coffee-cafe-while-working-her-laptop-writing-her-notebook_23-2149230374.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-                "https://img.freepik.com/free-photo/close-up-hand-writing-notebook_23-2148877761.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-                "https://img.freepik.com/free-photo/writers-scene-concept_23-2151931181.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-                "https://img.freepik.com/premium-photo/coffee-shop-cafe-drinking-friendship-togetherness-concept_53876-54879.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-                "https://img.freepik.com/premium-photo/cropped-hand-woman-writing-with-pen-paper-home_1048944-25455010.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-                "https://img.freepik.com/free-photo/unrecognisable-man-writing-notebook_23-2148422490.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
-              ]}
-            />
-          )}
+            ))}
         </>
       )}
     </div>
