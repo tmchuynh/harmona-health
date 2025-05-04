@@ -1,6 +1,6 @@
 import { CategoryQuestion } from "@/lib/interfaces&types/resources";
 
-export const mentalHealthEducationQuestions: CategoryQuestion[] = [
+export const mentalHealthEducationSelfHelpQuestions: CategoryQuestion[] = [
   // Mental Health Education & Self-Help
   {
     id: "mental-health-education",
