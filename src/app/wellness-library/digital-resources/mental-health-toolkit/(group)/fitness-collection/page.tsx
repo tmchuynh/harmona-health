@@ -3,7 +3,6 @@ import {
   AlertDialog,
   AlertDialogCancel,
   AlertDialogContent,
-  AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
@@ -128,7 +127,12 @@ export default function Page() {
       <div>
         {correspondingTools && correspondingTools.length > 0 && (
           <section>
-            <Carousel setApi={setApi} opts={carouselOptions} ref={emblaRef}>
+            <Carousel
+              setApi={setApi}
+              opts={carouselOptions}
+              ref={emblaRef}
+              className="mx-auto w-10/12 md:w-11/12 lg:w-full"
+            >
               <CarouselContent>
                 {sortedTools.map((tool, index) => {
                   const toolName = capitalize(tool.title);
@@ -141,14 +145,8 @@ export default function Page() {
                     return null; // Skip if tool information is not found
                   }
 
-                  console.log(formatUrlToID(toolInformation.id));
-
                   const content =
                     fitnessContent[formatUrlToID(toolInformation.id)];
-
-                  console.log("content", content);
-
-                  // console.log(`toolInformation for ${index}`, toolInformation);
 
                   return (
                     <AlertDialog
@@ -157,7 +155,7 @@ export default function Page() {
                       <AlertDialogTrigger asChild>
                         <CarouselItem
                           key={`${index}-${generateRandomString(4)}`}
-                          className="md:h-[25em] lg:h-[30em] xl:h-[25em] lg:basis-1/2 grow"
+                          className="mx-auto w-10/12 md:h-[45em] lg:h-[60em] xl:h-[45em] lg:basis-1/2 xl:basis-1/2 grow"
                         >
                           <Card className="relative flex flex-col justify-between h-full overflow-hidden">
                             <CardHeader>
@@ -166,8 +164,16 @@ export default function Page() {
                               </h5>
                               <h3> {capitalize(tool.title)}</h3>
                             </CardHeader>
-                            <CardContent className="md:flex hidden h-full">
-                              {tool.description}
+                            <CardContent className="md:flex flex-col gap-4 hidden h-full">
+                              {tool.introduction?.map((intro, tIndex) => (
+                                <p
+                                  key={`${tIndex}-${sliceOffLastWord(
+                                    intro
+                                  )}-${generateRandomString(9)}`}
+                                >
+                                  {intro}
+                                </p>
+                              ))}
                             </CardContent>
                             <CardFooter className="md:mb-7">
                               <div className="-bottom-3 xl:-bottom-5 absolute md:flex gap-2 hidden opacity-60 -mx-10">
@@ -186,26 +192,16 @@ export default function Page() {
                         </CarouselItem>
                       </AlertDialogTrigger>
                       <AlertDialogContent className="flex flex-col justify-between w-11/12 max-w-none sm:max-w-none h-11/12">
-                        <AlertDialogHeader className="relative">
-                          <AlertDialogCancel className="top-0 right-0 absolute">
+                        <AlertDialogHeader>
+                          <AlertDialogCancel className="w-fit self-end">
                             <IoCloseSharp />
                           </AlertDialogCancel>
                           <AlertDialogTitle className="lg:text-2xl">
                             {tool.title}
                           </AlertDialogTitle>
-                          <div>
-                            {tool.introduction?.map((intro, tIndex) => (
-                              <p
-                                key={`${tIndex}-${sliceOffLastWord(
-                                  intro
-                                )}-${generateRandomString(9)}`}
-                              >
-                                {intro}
-                              </p>
-                            ))}
-                          </div>
+                          <div>{tool.description}</div>
                         </AlertDialogHeader>
-                        <ScrollArea className="px-3 md:px-6 lg:px-9 pb-3 border-accent border-b-2 border-dashed h-[50%] md:h-[80%] lg:h-[75%]">
+                        <ScrollArea className="px-3 md:px-6 lg:px-9 pb-3 h-[80%] md:h-[87%] lg:h-[85%]">
                           <div className="gap-3 lg:gap-4 grid grid-cols-1 lg:grid-cols-2">
                             {/* ==================================== */}
                             {content.map((routine: Fitness, index: number) => (
@@ -342,16 +338,13 @@ export default function Page() {
                             {/* ============================================ */}
                           </div>
                         </ScrollArea>
-                        <AlertDialogFooter>
-                          <AlertDialogCancel>Close</AlertDialogCancel>
-                        </AlertDialogFooter>
                       </AlertDialogContent>
                     </AlertDialog>
                   );
                 })}
               </CarouselContent>
             </Carousel>
-            <div className="flex md:flex-row flex-col gap-4 mx-auto my-3 lg:my-10 w-10/12 md:w-11/12">
+            <div className="flex gap-4 mx-auto my-3 lg:my-10 w-10/12 md:w-11/12">
               <Button
                 size={"icon"}
                 variant={"ghost"}

@@ -177,6 +177,39 @@ export function sliceOffLastWord(str: string, wordCount: number = 1): string {
 }
 
 /**
+ * Returns the last specified number of words from a string.
+ * 
+ * @param str - The input string to extract words from
+ * @param wordCount - The number of words to return from the end (defaults to 1)
+ * @returns The last specified number of words from the string, 
+ *          or the entire trimmed string if there are fewer words than requested,
+ *          or the original string if wordCount is invalid
+ * 
+ * @example
+ * ```ts
+ * getLastWords("Hello world"); // returns "world"
+ * getLastWords("Hello beautiful world", 2); // returns "beautiful world"
+ * getLastWords("Hello", 3); // returns "Hello" (not enough words)
+ * getLastWords(""); // returns ""
+ * ```
+ */
+export function getLastWords(str: string, wordCount: number = 1): string {
+  if (!str || wordCount <= 0) {
+    return str;
+  }
+
+  const words = str.trim().split(/\s+/);
+  
+  // If trying to get more words than exist, return the entire string
+  if (wordCount >= words.length) {
+    return str.trim();
+  }
+
+  // Return the last 'wordCount' words
+  return words.slice(words.length - wordCount).join(" ");
+}
+
+/**
  * Extracts the first word from a string.
  *
  * @param str - The input string to extract the first word from
