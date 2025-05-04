@@ -77,7 +77,6 @@ export interface Events {
 export interface Company {
   name: string;
   description: string;
-  website: string;
   logo: string;
   partnershipDetails?: string;
 }
