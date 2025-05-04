@@ -17,6 +17,7 @@ export type DynamicButtonProps = {
     | "fancy"
     | "destructive"
     | "ghost"
+    | "icon"
     | "link"
     | "disabled";
   text: string;

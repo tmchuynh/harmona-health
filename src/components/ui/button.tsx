@@ -26,6 +26,7 @@ const buttonVariants = cva(
         accent: "bg-accent text-accent-foreground shadow-xs hover:bg-accent/80",
         disabled:
           "border-transparent bg-muted/45 text-muted-foreground/50 cursor-not-allowed",
+        icon: "bg-transparent dark:text-secondary hover:text-tertiary shadow-none dark:hover:text-accent",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
