@@ -18,13 +18,14 @@ export const micronutrientDeficiencies: Nutrition[] = [
           label: "Percentage of Deficiencies",
           data: [30, 25, 15, 10, 5, 15],
           backgroundColor: [
-            "#FF7043",
-            "#FFD54F",
-            "#64B5F6",
-            "#81C784",
-            "#FFEB3B",
-            "#B2DFDB",
+            "#d69f7e",
+            "#e1bb80",
+            "#352208",
+            "#9c6644",
+            "#ede0d4",
+            "#6f1d1b",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -32,7 +33,7 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Micronutrient Deficiencies in Adults" },
       },
     },
@@ -47,12 +48,12 @@ export const micronutrientDeficiencies: Nutrition[] = [
         {
           label: "Women (%)",
           data: [35, 30, 20, 15, 10],
-          backgroundColor: "#FF7043",
+          backgroundColor: "#9c6644",
         },
         {
           label: "Men (%)",
           data: [25, 20, 10, 10, 5],
-          backgroundColor: "#64B5F6",
+          backgroundColor: "#ede0d4",
         },
       ],
     },
@@ -60,58 +61,33 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Prevalence of Micronutrient Deficiencies by Gender",
         },
       },
       scales: {
-        x: { title: { display: true, text: "Micronutrient" } },
-        y: { title: { display: true, text: "Prevalence (%)" } },
-      },
-    },
-  },
-
-  {
-    graphType: "line",
-    title: "Micronutrient Deficiencies Over Time",
-    data: {
-      labels: ["2018", "2019", "2020", "2021", "2022"],
-      datasets: [
-        {
-          label: "Iron Deficiency (%)",
-          data: [25, 30, 35, 30, 28],
-          borderColor: "#FF7043",
-          fill: false,
-          tension: 0.4,
+        x: {
+          title: {
+            display: true,
+            text: "Micronutrient",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
         },
-        {
-          label: "Vitamin D Deficiency (%)",
-          data: [20, 25, 28, 22, 24],
-          borderColor: "#64B5F6",
-          fill: false,
-          tension: 0.4,
+        y: {
+          title: {
+            display: true,
+            text: "Prevalence (%)",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
         },
-        {
-          label: "Vitamin B12 Deficiency (%)",
-          data: [10, 15, 18, 12, 10],
-          borderColor: "#81C784",
-          fill: false,
-          tension: 0.4,
-        },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: { display: true, text: "Micronutrient Deficiencies Over Time" },
-      },
-      scales: {
-        x: { title: { display: true, text: "Year" } },
-        y: { title: { display: true, text: "Deficiency (%)" } },
       },
     },
   },
@@ -125,7 +101,8 @@ export const micronutrientDeficiencies: Nutrition[] = [
         {
           label: "Deficiency Rate",
           data: [15, 25, 20, 40],
-          backgroundColor: ["#FF7043", "#FFD54F", "#64B5F6", "#81C784"],
+          backgroundColor: ["#ede0d4", "#9c6644", "#352208", "#e1bb80"],
+          borderWidth: 0,
         },
       ],
     },
@@ -133,7 +110,7 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Micronutrient Deficiency by Age Group" },
       },
     },
@@ -148,17 +125,17 @@ export const micronutrientDeficiencies: Nutrition[] = [
         {
           label: "Iron Deficiency (%)",
           data: [20, 15, 30, 35, 25],
-          backgroundColor: "#FF7043",
+          backgroundColor: "#9c6644",
         },
         {
           label: "Vitamin D Deficiency (%)",
           data: [30, 25, 20, 40, 15],
-          backgroundColor: "#FFD54F",
+          backgroundColor: "#352208",
         },
         {
           label: "Vitamin A Deficiency (%)",
           data: [10, 5, 25, 35, 15],
-          backgroundColor: "#64B5F6",
+          backgroundColor: "#e1bb80",
         },
       ],
     },
@@ -166,44 +143,30 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Micronutrient Deficiency by Region" },
       },
       scales: {
-        x: { title: { display: true, text: "Region" } },
-        y: { title: { display: true, text: "Deficiency (%)" } },
-      },
-    },
-  },
-
-  {
-    graphType: "line",
-    title: "Iron Deficiency Trends in Pregnant Women",
-    data: {
-      labels: ["2018", "2019", "2020", "2021", "2022"],
-      datasets: [
-        {
-          label: "Iron Deficiency (%)",
-          data: [40, 45, 50, 55, 50],
-          borderColor: "#FF7043",
-          fill: false,
-          tension: 0.4,
+        x: {
+          title: {
+            display: true,
+            text: "Region",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
         },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: {
-          display: true,
-          text: "Iron Deficiency Trends in Pregnant Women",
+        y: {
+          title: {
+            display: true,
+            text: "Deficiency (%)",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
         },
-      },
-      scales: {
-        x: { title: { display: true, text: "Year" } },
-        y: { title: { display: true, text: "Deficiency (%)" } },
       },
     },
   },
@@ -224,12 +187,13 @@ export const micronutrientDeficiencies: Nutrition[] = [
           label: "Impact Distribution",
           data: [35, 25, 15, 10, 15],
           backgroundColor: [
-            "#FF7043",
-            "#FFD54F",
-            "#64B5F6",
-            "#81C784",
-            "#FFEB3B",
+            "#9c6644",
+            "#e1bb80",
+            "#d69f7e",
+            "#6f1d1b",
+            "#ede0d4",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -237,7 +201,7 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Micronutrient Deficiency Impact on Health",
@@ -248,14 +212,34 @@ export const micronutrientDeficiencies: Nutrition[] = [
 
   {
     graphType: "bar",
-    title: "Vitamin D Deficiency by Season",
+    title: "Deficiency by Season",
     data: {
       labels: ["Spring", "Summer", "Fall", "Winter"],
       datasets: [
         {
           label: "Vitamin D Deficiency (%)",
           data: [30, 20, 25, 45],
-          backgroundColor: "#81C784",
+          backgroundColor: "#6f1d1b",
+        },
+        {
+          label: "Iron Deficiency (%)",
+          data: [20, 15, 10, 25],
+          backgroundColor: "#e1bb80",
+        },
+        {
+          label: "Vitamin A Deficiency (%)",
+          data: [10, 5, 15, 20],
+          backgroundColor: "#352208",
+        },
+        {
+          label: "Calcium Deficiency (%)",
+          data: [5, 10, 15, 20],
+          backgroundColor: "#ede0d4",
+        },
+        {
+          label: "Vitamin B12 Deficiency (%)",
+          data: [15, 20, 25, 30],
+          backgroundColor: "#d69f7e",
         },
       ],
     },
@@ -263,12 +247,32 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: false },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Vitamin D Deficiency by Season" },
       },
       scales: {
-        x: { title: { display: true, text: "Season" } },
-        y: { title: { display: true, text: "Deficiency (%)" } },
+        x: {
+          title: {
+            display: true,
+            text: "Season",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
+        },
+        y: {
+          title: {
+            display: true,
+            text: "Deficiency (%)",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
+        },
       },
     },
   },
@@ -282,7 +286,8 @@ export const micronutrientDeficiencies: Nutrition[] = [
         {
           label: "Vitamin A Deficiency Rate",
           data: [10, 5, 15, 8],
-          backgroundColor: ["#FF7043", "#FFD54F", "#64B5F6", "#81C784"],
+          backgroundColor: ["#352208", "#6f1d1b", "#e1bb80", "#ede0d4"],
+          borderWidth: 0,
         },
       ],
     },
@@ -290,7 +295,7 @@ export const micronutrientDeficiencies: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Vitamin A Deficiency by Diet Type" },
       },
     },

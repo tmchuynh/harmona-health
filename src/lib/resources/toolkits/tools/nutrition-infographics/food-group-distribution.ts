@@ -18,13 +18,14 @@ export const foodGroupDistribution: Nutrition[] = [
           label: "Percentage of Daily Intake",
           data: [25, 15, 30, 20, 7, 3],
           backgroundColor: [
-            "#4CAF50",
-            "#FF9800",
-            "#FFEB3B",
-            "#9C27B0",
-            "#03A9F4",
-            "#795548",
+            "#352208",
+            "#6f1d1b",
+            "#9c6644",
+            "#e1bb80",
+            "#d69f7e",
+            "#ede0d4",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -32,7 +33,7 @@ export const foodGroupDistribution: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Distribution of Daily Food Intake by Group",
@@ -43,58 +44,67 @@ export const foodGroupDistribution: Nutrition[] = [
 
   {
     graphType: "bar",
-    title: "Food Group Intake by Meal",
+    title: "Average Food Group Intake by Meal",
     data: {
       labels: ["Breakfast", "Lunch", "Dinner", "Snacks"],
       datasets: [
         {
-          label: "Vegetables",
-          data: [5, 30, 40, 5],
-          backgroundColor: "#4CAF50",
+          label: "Grains",
+          data: [56.4, 36.4, 25.4, 15.4],
+          backgroundColor: "#9c6644",
         },
-        { label: "Fruits", data: [20, 10, 5, 15], backgroundColor: "#FF9800" },
-        { label: "Grains", data: [40, 35, 30, 10], backgroundColor: "#FFEB3B" },
         {
           label: "Proteins",
-          data: [20, 15, 20, 5],
-          backgroundColor: "#9C27B0",
+          data: [30.8, 68.7, 60.7, 14.3],
+          backgroundColor: "#ede0d4",
         },
-        { label: "Dairy", data: [10, 10, 5, 5], backgroundColor: "#03A9F4" },
+        {
+          label: "Vegetables",
+          data: [5.3, 16.7, 46.3, 1.5],
+          backgroundColor: "#6f1d1b",
+        },
+        {
+          label: "Fruits",
+          data: [25.4, 56.4, 13.6, 54.2],
+          backgroundColor: "#d69f7e",
+        },
+        {
+          label: "Dairy",
+          data: [45.2, 43.6, 13.4, 14.3],
+          backgroundColor: "#352208",
+        },
       ],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Food Group Contribution by Meal Type" },
       },
       scales: {
-        x: { title: { display: true, text: "Meal Type" } },
-        y: { title: { display: true, text: "Percentage of Group Consumed" } },
-      },
-    },
-  },
-
-  {
-    graphType: "pie",
-    title: "Grains Distribution: Whole vs Refined",
-    data: {
-      labels: ["Whole Grains", "Refined Grains"],
-      datasets: [
-        {
-          label: "Grain Type",
-          data: [45, 55],
-          backgroundColor: ["#8BC34A", "#FFC107"],
+        x: {
+          title: {
+            display: true,
+            text: "Meal Type",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: { display: true, text: "Whole vs Refined Grains in Daily Diet" },
+        y: {
+          title: {
+            display: true,
+            text: "Amount Consumed",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
+        },
       },
     },
   },
@@ -108,62 +118,57 @@ export const foodGroupDistribution: Nutrition[] = [
         {
           label: "Vegetables",
           data: [15, 20, 25, 30],
-          backgroundColor: "#4CAF50",
+          backgroundColor: "#6f1d1b",
         },
-        { label: "Fruits", data: [20, 18, 15, 10], backgroundColor: "#FF9800" },
+        { label: "Fruits", data: [20, 18, 15, 10], backgroundColor: "#d69f7e" },
+        {
+          label: "Oils & Fats",
+          data: [5, 2, 3, 2],
+          backgroundColor: "#ede0d4",
+        },
+        { label: "Grains", data: [30, 25, 20, 15], backgroundColor: "#352208" },
         {
           label: "Proteins",
           data: [15, 20, 25, 20],
-          backgroundColor: "#9C27B0",
+          backgroundColor: "#e1bb80",
         },
+
+        { label: "Dairy", data: [20, 15, 10, 5], backgroundColor: "#9c6644" },
       ],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Age-Based Trends in Food Group Consumption",
         },
       },
       scales: {
-        x: { title: { display: true, text: "Age Group" } },
-        y: { title: { display: true, text: "Average % of Daily Diet" } },
-      },
-    },
-  },
-
-  {
-    graphType: "line",
-    title: "Weekly Vegetable Consumption Trend",
-    data: {
-      labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-      datasets: [
-        {
-          label: "Vegetables",
-          data: [22, 24, 20, 25, 30, 35, 32],
-          borderColor: "#4CAF50",
-          backgroundColor: "rgba(76, 175, 80, 0.2)",
-          fill: true,
-          tension: 0.4,
+        x: {
+          title: {
+            display: true,
+            text: "Age Group",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: {
-          display: true,
-          text: "Vegetable Consumption Throughout the Week",
+        y: {
+          title: {
+            display: true,
+            text: "Average % of Daily Diet",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      },
-      scales: {
-        x: { title: { display: true, text: "Day of Week" } },
-        y: { title: { display: true, text: "Percentage of Daily Goal" } },
       },
     },
   },
@@ -178,13 +183,14 @@ export const foodGroupDistribution: Nutrition[] = [
           label: "Monthly Spending",
           data: [20, 15, 25, 30, 7, 3],
           backgroundColor: [
-            "#4CAF50",
-            "#FF9800",
-            "#FFEB3B",
-            "#9C27B0",
-            "#03A9F4",
-            "#F06292",
+            "#352208",
+            "#9c6644",
+            "#e1bb80",
+            "#ede0d4",
+            "#d69f7e",
+            "#6f1d1b",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -192,7 +198,7 @@ export const foodGroupDistribution: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Monthly Food Budget by Group" },
       },
     },
@@ -207,7 +213,7 @@ export const foodGroupDistribution: Nutrition[] = [
         {
           label: "Protein Sources",
           data: [60, 30, 10],
-          backgroundColor: ["#FF7043", "#8BC34A", "#B39DDB"],
+          backgroundColor: ["#352208", "#e1bb80", "#d69f7e"],
         },
       ],
     },
@@ -219,50 +225,28 @@ export const foodGroupDistribution: Nutrition[] = [
         title: { display: true, text: "Types of Protein Sources Consumed" },
       },
       scales: {
-        x: { title: { display: true, text: "Protein Source" } },
+        x: {
+          title: {
+            display: true,
+            text: "Protein Source",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
+        },
         y: {
-          title: { display: true, text: "Percentage of Total Protein Intake" },
+          title: {
+            display: true,
+            text: "Percentage of Total Protein Intake",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      },
-    },
-  },
-
-  {
-    graphType: "doughnut",
-    title: "Gender-Based Food Group Preference",
-    data: {
-      labels: ["Vegetables", "Fruits", "Grains", "Proteins", "Dairy"],
-      datasets: [
-        {
-          label: "Male",
-          data: [20, 10, 35, 30, 5],
-          backgroundColor: [
-            "#4CAF50",
-            "#FF9800",
-            "#FFEB3B",
-            "#9C27B0",
-            "#03A9F4",
-          ],
-        },
-        {
-          label: "Female",
-          data: [30, 20, 25, 20, 5],
-          backgroundColor: [
-            "#81C784",
-            "#FFCC80",
-            "#FFF176",
-            "#CE93D8",
-            "#4FC3F7",
-          ],
-        },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: { display: true, text: "Food Group Preferences by Gender" },
       },
     },
   },

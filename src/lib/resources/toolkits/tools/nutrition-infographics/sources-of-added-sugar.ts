@@ -17,12 +17,13 @@ export const sourcesOfAddedSugar: Nutrition[] = [
           label: "Percentage of Total Sugar",
           data: [40, 25, 15, 10, 10],
           backgroundColor: [
-            "#FF7043",
-            "#FFD54F",
-            "#64B5F6",
-            "#81C784",
-            "#FFEB3B",
+            "#293241",
+            "#3d5a80",
+            "#98c1d9",
+            "#ee6c4d",
+            "#e0fbfc",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -30,7 +31,7 @@ export const sourcesOfAddedSugar: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: { display: true, text: "Sources of Added Sugar in Diet" },
       },
     },
@@ -43,29 +44,29 @@ export const sourcesOfAddedSugar: Nutrition[] = [
       labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
       datasets: [
         {
-          label: "Sugary Beverages",
-          data: [30, 32, 28, 35],
-          backgroundColor: "#FF7043",
-        },
-        {
           label: "Snacks & Sweets",
           data: [18, 20, 25, 23],
-          backgroundColor: "#FFD54F",
+          backgroundColor: "#293241",
         },
         {
           label: "Breakfast Cereals",
           data: [10, 8, 12, 15],
-          backgroundColor: "#64B5F6",
+          backgroundColor: "#e0fbfc",
+        },
+        {
+          label: "Sugary Beverages",
+          data: [30, 32, 28, 35],
+          backgroundColor: "#98c1d9",
         },
         {
           label: "Sauces & Condiments",
           data: [5, 7, 6, 8],
-          backgroundColor: "#81C784",
+          backgroundColor: "#3d5a80",
         },
         {
           label: "Processed Foods",
           data: [7, 6, 9, 6],
-          backgroundColor: "#FFEB3B",
+          backgroundColor: "#98c1d9",
         },
       ],
     },
@@ -73,54 +74,35 @@ export const sourcesOfAddedSugar: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "top" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Weekly Added Sugar Intake from Different Sources",
         },
       },
       scales: {
-        x: { title: { display: true, text: "Week" } },
-        y: { title: { display: true, text: "Sugar Intake (g)" } },
-      },
-    },
-  },
-
-  {
-    graphType: "line",
-    title: "Added Sugar Intake vs. Health Symptoms",
-    data: {
-      labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
-      datasets: [
-        {
-          label: "Added Sugar Intake (g)",
-          data: [50, 60, 55, 70],
-          borderColor: "#FF7043",
-          fill: false,
-          tension: 0.4,
+        x: {
+          title: {
+            display: true,
+            text: "Week",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-        {
-          label: "Reported Health Symptoms (Score)",
-          data: [4, 5, 6, 7],
-          borderColor: "#81C784",
-          fill: false,
-          tension: 0.4,
+        y: {
+          title: {
+            display: true,
+            text: "Sugar Intake (g)",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: {
-          display: true,
-          text: "Added Sugar Intake vs. Health Symptoms",
-        },
-      },
-      scales: {
-        x: { title: { display: true, text: "Week" } },
-        y: { title: { display: true, text: "Amount/Score" } },
       },
     },
   },
@@ -135,12 +117,13 @@ export const sourcesOfAddedSugar: Nutrition[] = [
           label: "Sugar Content",
           data: [35, 25, 15, 10, 15],
           backgroundColor: [
-            "#FF7043",
-            "#FFD54F",
-            "#64B5F6",
-            "#81C784",
-            "#FFEB3B",
+            "#293241",
+            "#e0fbfc",
+            "#ee6c4d",
+            "#98c1d9",
+            "#3d5a80",
           ],
+          borderWidth: 0,
         },
       ],
     },
@@ -148,7 +131,7 @@ export const sourcesOfAddedSugar: Nutrition[] = [
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: "bottom" },
+        legend: { display: true, position: "right" },
         title: {
           display: true,
           text: "Proportion of Sugar in Common Food Groups",
@@ -159,14 +142,34 @@ export const sourcesOfAddedSugar: Nutrition[] = [
 
   {
     graphType: "bar",
-    title: "Added Sugar Consumption by Age Group",
+    title: "Sources of Added Sugar Consumption by Age Group",
     data: {
       labels: ["Under 18", "18-34", "35-50", "50+"],
       datasets: [
         {
-          label: "Added Sugar (g)",
-          data: [60, 70, 65, 50],
-          backgroundColor: "#FF7043",
+          label: "Snacks & Sweets",
+          data: [30, 35, 25, 20],
+          backgroundColor: "#3d5a80",
+        },
+        {
+          label: "Sugary Beverages",
+          data: [50, 40, 30, 20],
+          backgroundColor: "#ee6c4d",
+        },
+        {
+          label: "Processed Foods",
+          data: [5, 5, 10, 15],
+          backgroundColor: "#293241",
+        },
+        {
+          label: "Breakfast Cereals",
+          data: [10, 15, 20, 25],
+          backgroundColor: "#98c1d9",
+        },
+        {
+          label: "Sauces & Condiments",
+          data: [5, 10, 15, 20],
+          backgroundColor: "#e0fbfc",
         },
       ],
     },
@@ -178,37 +181,28 @@ export const sourcesOfAddedSugar: Nutrition[] = [
         title: { display: true, text: "Added Sugar Consumption by Age Group" },
       },
       scales: {
-        x: { title: { display: true, text: "Age Group" } },
-        y: { title: { display: true, text: "Added Sugar (g)" } },
-      },
-    },
-  },
-
-  {
-    graphType: "line",
-    title: "Added Sugar Intake Trend Over Time",
-    data: {
-      labels: ["January", "February", "March", "April", "May"],
-      datasets: [
-        {
-          label: "Added Sugar Intake (g)",
-          data: [120, 130, 115, 140, 125],
-          borderColor: "#FF7043",
-          fill: false,
-          tension: 0.4,
+        x: {
+          title: {
+            display: true,
+            text: "Age Group",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
         },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: true, position: "top" },
-        title: { display: true, text: "Added Sugar Intake Trend Over Time" },
-      },
-      scales: {
-        x: { title: { display: true, text: "Month" } },
-        y: { title: { display: true, text: "Added Sugar (g)" } },
+        y: {
+          title: {
+            display: true,
+            text: "Added Sugar (g)",
+            font: {
+              size: 18,
+              weight: "bold",
+            },
+          },
+          grid: { lineWidth: 0.15, color: "#929292" },
+        },
       },
     },
   },
