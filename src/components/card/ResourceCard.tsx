@@ -1,19 +1,18 @@
 import {
-  Resource,
-  ResourceInformation,
-} from "@/lib/interfaces&types/resources";
-import Image from "next/image";
-import { Button } from "../ui/button";
-import { FaEye } from "react-icons/fa";
-import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import {
+  Resource,
+  ResourceInformation,
+} from "@/lib/interfaces&types/resources";
+import Image from "next/image";
+import { FaEye } from "react-icons/fa";
+import { Button } from "../ui/button";
 
 export default function ResourceCard({
   resource,
@@ -42,7 +41,7 @@ export default function ResourceCard({
           <DialogContent className="sm:max-w-[425px]">
             <DialogHeader>
               <DialogTitle className="sr-only">More Information</DialogTitle>
-              <h3>More Information</h3>
+              <h2>{resource.title}</h2>
               <DialogDescription>{information?.description}</DialogDescription>
             </DialogHeader>
             <div className="gap-4 grid py-4">
@@ -63,9 +62,6 @@ export default function ResourceCard({
                 </ul>
               </div>
             </div>
-            <DialogFooter>
-              <Button type="submit">Save changes</Button>
-            </DialogFooter>
           </DialogContent>
         </Dialog>
 
