@@ -11,7 +11,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Unlock the Power of Your Mind: Transform Negative Thoughts into Positive Action",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/person-sharing-feelings-emotions-therapy-session_23-2151074003.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "affirmationCards",
@@ -23,7 +23,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Empower Your Mind: Daily Affirmations for Building Confidence and Self-Love",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/astrology-astrologer-cards-burning-candles-background-tarot-cards-esoteric-background_1272242-5.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "behavioralActivationActivities",
@@ -35,7 +35,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Take Action: Engage in Meaningful Activities to Boost Your Mood and Motivation",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091541.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "mindfulnessPractices",
@@ -47,7 +47,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Live in the Moment: Harness the Power of Mindfulness to Reduce Stress and Improve Focus",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/double-exposure-photo-young-man-meditates-while-practicing-yoga-freedom-concept_457222-42557.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "buildingResiliencePractices",
@@ -59,7 +59,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Build Inner Strength: Develop Resilience to Overcome Life’s Challenges with Confidence",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/woman-flexing-biceps-gazing-sunrise-symbolizing-motivation-empowerment_871349-38548.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "nutritionInfographics",
@@ -71,7 +71,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Nourish Your Mind: Discover the Connection Between Nutrition and Mental Well-Being",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/real-food-pyramid-assortment-top-view_23-2150238927.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "workLifeBalanceTools",
@@ -83,7 +83,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Achieve Harmony: Essential Tools for Balancing Work and Life for Optimal Well-Being",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/young-pretty-joyful-brunette-woman-meditating-table-surround-work-stuff-flying-papers-cheerful-mood-taking-break-working-studying-relaxation-true-emotions_197531-1873.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "strongCommunicationPractices",
@@ -95,7 +95,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Connect and Communicate: Essential Tools for Enhancing Interpersonal Skills and Relationships",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/business-people-designers-having-fun-chatting-workplace-office_522218-674.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "leadershipTools",
@@ -107,7 +107,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Lead with Confidence: Essential Tools for Developing Leadership Skills and Inspiring Others",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/businessman-suit-using-his-white-king-chess-piece-dark-chess-pieces-table_181624-47212.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "journalingPrompts",
@@ -119,7 +119,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Write Your Way to Clarity: Essential Tools for Self-Reflection and Emotional Processing",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/cozy-indoor-scene-someone-journaling-with-cup-tea-by-their-side-setting-is-warm-inviting-with-soft-lighting-comfortable-blankets-personal-items-like-books-plants-nearby_799429-7792.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "checklistToolkit",
@@ -131,7 +131,7 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Organize Your Life: Essential Tools for Effective Time Management and Productivity",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938727.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
   {
     id: "fitnessCollection",
@@ -142,6 +142,6 @@ export const toolkit: Toolkit[] = [
     subtitle:
       "Get Fit, Feel Great: Essential Tools for Improving Physical Fitness and Mental Health",
     image:
-      "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
+      "https://img.freepik.com/premium-photo/african-american-athletic-guy-training-outdoors-summer-sporty-man-without-shirt-doing-warmup_164411-925.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   },
 ];
