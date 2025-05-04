@@ -1,4 +1,4 @@
-import DynamicButton from "@/components/button/button-dynamic";
+import BackdropButton from "@/components/button/BackdropButton";
 import {
   empowerHealthFeatures,
   supportFeatures,
@@ -48,12 +48,12 @@ export default function Page() {
                 wellness journey you were meant to live.
               </p>
               <div className="flex md:flex-row flex-col items-center gap-3 mt-10">
-                <DynamicButton href="/programs/start-your-journey">
+                <BackdropButton href="/programs/start-your-journey">
                   Get started
-                </DynamicButton>
-                <DynamicButton variant="accent" href="/programs">
+                </BackdropButton>
+                <BackdropButton variant="accent" href="/programs">
                   Learn more
-                </DynamicButton>
+                </BackdropButton>
               </div>
             </div>
             <div className="flex lg:flex-none mx-auto mt-16 sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 xl:ml-32 max-w-2xl lg:max-w-none">
@@ -76,9 +76,7 @@ export default function Page() {
           <div className="flex justify-end mx-auto w-full">
             <div className="md:text-right md:w-4/5 lg:w-2/3 text-pretty">
               <h5>Balanced Health, Powerful Life</h5>
-              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-                Your Health, Your Way
-              </p>
+              <h1>Your Health, Your Way</h1>
               <p className="mt-6">
                 Your health is your most valuable asset, and at Harmona Health,
                 we are committed to helping you unlock its full potential. With
@@ -112,8 +110,11 @@ export default function Page() {
                 <dd className="flex flex-col flex-auto mt-1 text-base/7">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-6">
-                    <a href={feature.href} className="font-semibold text-sm/6">
-                      Learn more <span aria-hidden="true">→</span>
+                    <a
+                      href={feature.href}
+                      className="font-semibold text-sm/6 underline-offset-2 hover:underline"
+                    >
+                      Learn more
                     </a>
                   </p>
                 </dd>
@@ -129,9 +130,7 @@ export default function Page() {
               <h5>
                 Helping You Unlock Your Full Potential with Our Health Programs
               </h5>
-              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-                The Harmona Health Difference
-              </p>
+              <h1>The Harmona Health Difference</h1>
               <p className="mt-6">
                 At Harmona Health, we believe in the power of transformation.
                 Our extensive approach to wellness supports lasting changes,
@@ -146,17 +145,17 @@ export default function Page() {
             </div>
           </div>
           <div className="mx-auto mt-8 md:mt-12 lg:mt-16">
-            <dl className="gap-x-6 gap-y-10 lg:gap-x-8 lg:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-0 max-w-2xl lg:max-w-none text-base/7">
+            <dl className="gap-x-6 gap-y-2 lg:gap-x-8 lg:gap-y-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto lg:mx-0 max-w-2xl lg:max-w-none text-base/7">
               {supportFeatures.map((feature) => (
                 <div key={feature.name} className="relative pl-9">
                   <dt className="inline font-semibold">
                     <feature.icon
                       aria-hidden="true"
-                      className="top-1 left-1 absolute text-accent size-5"
+                      className="top-1 left-0 absolute text-accent size-6"
                     />
                     {feature.name}
                   </dt>
-                  <dd className="inline">{feature.description}</dd>
+                  <dd>{feature.description}</dd>
                 </div>
               ))}
             </dl>
@@ -170,9 +169,7 @@ export default function Page() {
               <h5>
                 Supporting You Every Step of the Way to Health and Vitality
               </h5>
-              <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-                Your Path to Wellness
-              </p>
+              <h1>Your Path to Wellness</h1>
               <p className="mt-6">
                 Wellness is a journey, not a destination. At Harmona Health, we
                 guide you every step of the way with a structured approach to
@@ -193,7 +190,7 @@ export default function Page() {
                 key={stat.id}
                 className="flex flex-col gap-y-3 pl-6 border-l"
               >
-                <dt className="text-sm/6">{stat.name}</dt>
+                <dt className="text-sm/6">{stat.name} </dt>
                 <dd className="order-first font-semibold text-3xl tracking-tight">
                   {stat.value}
                 </dd>
@@ -209,9 +206,7 @@ export default function Page() {
               A Redefined Approach to Health That Nurtures Your Mind, Body, and
               Spirit
             </h5>
-            <p className="mt-2 font-[Nunito] font-semibold text-4xl text-pretty sm:text-5xl lg:text-balance tracking-tight">
-              Take the First Step Towards Wellness
-            </p>
+            <h1>Take the First Step Towards Wellness</h1>
             <p className="mt-6">
               True balance is the foundation of a thriving life. At Harmona
               Health, we focus on integrating physical fitness, mental clarity,
@@ -225,15 +220,15 @@ export default function Page() {
               the way.
             </p>
             <div className="flex justify-center xl:justify-start items-center gap-x-6 mt-10">
-              <DynamicButton
+              <BackdropButton
                 variant="accent"
                 href="/programs/start-your-journey"
               >
                 Get started
-              </DynamicButton>
-              <DynamicButton variant="outline" href="/programs">
+              </BackdropButton>
+              <BackdropButton variant="outline" href="/programs">
                 Learn more
-              </DynamicButton>
+              </BackdropButton>
             </div>
           </div>
         </div>
