@@ -123,6 +123,7 @@ export interface JournalPrompts {
           string,
           string,
           string,
+          string,
           string
         ];
   };
