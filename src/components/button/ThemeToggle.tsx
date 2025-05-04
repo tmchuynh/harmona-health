@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import { JSX, useEffect, useState } from "react";
+import { JSX, useEffect, useMemo, useState } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { Toggle } from "../ui/toggle";
 
@@ -37,32 +37,36 @@ export const ThemeToggle = (): JSX.Element | null => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  if (!mounted) {
-    return null;
-  }
-
   const currentTheme = theme === "system" ? systemTheme : theme;
 
-  return (
-    <div className="flex items-center lg:mx-4">
-      <p className="sr-only">Toggle theme</p>
+  // Memoize the toggle button content based on the theme
+  const toggleButton = useMemo(
+    () => (
       <Toggle
         aria-label="Toggle theme"
         onClick={toggleTheme}
-        className="group flex justify-center items-center bg-secondary hover:bg-fancy p-3 rounded-lg text-secondary-foreground hover:text-fancy-foreground cursor-pointer"
+        className="flex justify-center items-center bg-tertiary hover:bg-secondary dark:bg-secondary dark:hover:bg-primary text-tertiary-foreground hover:text-secondary-foreground dark:hover:text-primary-foreground dark:text-secondary-foreground"
+        pressed={currentTheme === "dark"}
       >
         {currentTheme === "dark" ? (
           <>
-            <p className="sr-only">Toggle to dark mode</p>
+            <p className="sr-only">Toggle to light mode</p>
             <FiMoon className="w-4 h-4" />
           </>
         ) : (
           <>
-            <p className="sr-only">Toggle to light mode</p>
+            <p className="sr-only">Toggle to dark mode</p>
             <FiSun className="w-4 h-4" />
           </>
         )}
       </Toggle>
+    ),
+    [currentTheme, toggleTheme]
+  );
+
+  return (
+    <div className="flex items-center mx-4">
+      {mounted ? <div className="flex items-center">{toggleButton}</div> : null}
     </div>
   );
 };
