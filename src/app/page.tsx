@@ -48,8 +48,12 @@ export default function Page() {
                 wellness journey you were meant to live.
               </p>
               <div className="flex md:flex-row flex-col items-center gap-3 mt-10">
-                <DynamicButton>Get started</DynamicButton>
-                <DynamicButton variant="accent">Learn more</DynamicButton>
+                <DynamicButton href="/programs/start-your-journey">
+                  Get started
+                </DynamicButton>
+                <DynamicButton variant="accent" href="/programs">
+                  Learn more
+                </DynamicButton>
               </div>
             </div>
             <div className="flex lg:flex-none mx-auto mt-16 sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 xl:ml-32 max-w-2xl lg:max-w-none">
@@ -97,10 +101,10 @@ export default function Page() {
             {empowerHealthFeatures.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="font-semibold text-base/7">
-                  <div className="flex justify-center items-center bg-accent-foreground mb-6 rounded-lg size-10">
+                  <div className="flex justify-center items-center bg-secondary mb-6 rounded-lg size-10">
                     <feature.icon
                       aria-hidden="true"
-                      className="text-accent size-6"
+                      className="text-secondary-foreground size-6"
                     />
                   </div>
                   {feature.name}
@@ -151,7 +155,7 @@ export default function Page() {
                       className="top-1 left-1 absolute text-accent size-5"
                     />
                     {feature.name}
-                  </dt>{" "}
+                  </dt>
                   <dd className="inline">{feature.description}</dd>
                 </div>
               ))}
@@ -221,11 +225,14 @@ export default function Page() {
               the way.
             </p>
             <div className="flex justify-center xl:justify-start items-center gap-x-6 mt-10">
-              <DynamicButton variant="accent" href="#">
+              <DynamicButton
+                variant="accent"
+                href="/programs/start-your-journey"
+              >
                 Get started
               </DynamicButton>
-              <DynamicButton variant="outline" href="#">
-                Learn more <span aria-hidden="true">→</span>
+              <DynamicButton variant="outline" href="/programs">
+                Learn more
               </DynamicButton>
             </div>
           </div>
