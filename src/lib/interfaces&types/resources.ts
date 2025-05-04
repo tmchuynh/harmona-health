@@ -6,7 +6,6 @@ export interface ResourceCategory {
   title: string;
   introduction: string;
   description: string;
-  image: string;
   icon: IconType;
 }
 
