@@ -1,10 +1,8 @@
-import DynamicButton from "@/components/button/button-dynamic";
 import {
   affiliateCompanies,
   partnershipCompanies,
 } from "@/lib/constants/about/partners";
 import Image from "next/image";
-import React from "react";
 export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
@@ -84,14 +82,6 @@ export default function Page() {
                   <h3>{company.name}</h3>
                   <p>{company.description}</p>
                 </div>
-                <a
-                  href={company.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline-offset-2 group-hover:underline"
-                >
-                  Visit Website
-                </a>
               </div>
             </div>
           ))}
@@ -122,14 +112,6 @@ export default function Page() {
                     {company.partnershipDetails}
                   </p>
                 </div>
-                <a
-                  href={company.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline-offset-2 group-hover:underline"
-                >
-                  Visit Website
-                </a>
               </div>
             </div>
           ))}
