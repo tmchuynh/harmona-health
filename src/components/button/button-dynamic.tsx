@@ -23,16 +23,16 @@ import { Button } from "../ui/button";
  * @returns {JSX.Element} A dynamic button with icons that change on hover
  *
  * @example
- * <DynamicButton
+ * <BackdropButton
  *   variant="outline"
  *   icon={HomeIcon}
  *   hoverIcon={PlusIcon}
  *   href="/dashboard"
  * >
  *   Dashboard
- * </DynamicButton>
+ * </BackdropButton>
  */
-export default function DynamicButton({
+export default function BackdropButton({
   variant = "default",
   children,
   target,
