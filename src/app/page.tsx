@@ -22,9 +22,7 @@ export default function Page() {
                 height={900}
               />
               <h1 className="mt-10">Build a Life You’re Excited to Live</h1>
-              <h5>
-                Empowering You to Live with Clarity, Strength, and Balance
-              </h5>
+              <h5>Clarity. Strength. Balance. Your Journey Starts Here.</h5>
               <p>
                 Each day is a new opportunity to rise stronger, live brighter,
                 and move closer to your goals. At Harmona Health, we believe
@@ -33,6 +31,11 @@ export default function Page() {
                 Whether you’re looking to ignite your strength, find balance, or
                 embrace your full potential, we stand with you every step of the
                 way.
+              </p>
+              <p>
+                Whether you're seeking strength, striving for balance, or ready
+                to step into your full potential, we’re here to walk with you —
+                every step, every goal, every breakthrough.
               </p>
               <p>
                 With our complete programs, we fuel your journey by empowering
@@ -44,8 +47,9 @@ export default function Page() {
                 step.
               </p>
               <p>
-                Create a bold new narrative for your life. Step fully into the
-                wellness journey you were meant to live.
+                This is your moment to rewrite the story. Let’s build a life
+                that energizes you, empowers you, and reflects who you really
+                are.
               </p>
               <div className="flex md:flex-row flex-col items-center gap-3 mt-10">
                 <BackdropButton href="/programs/start-your-journey">
