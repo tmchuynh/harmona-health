@@ -1,5 +1,5 @@
 import { LeadershipTools } from "@/lib/interfaces&types/resources";
-import DynamicButton from "../button/button-dynamic";
+import BackdropButton from "../button/button-dynamic";
 
 const ToolLinkCard = ({ data }: { data: LeadershipTools }) => {
   return (
@@ -8,7 +8,7 @@ const ToolLinkCard = ({ data }: { data: LeadershipTools }) => {
         <h3 className="mb-4 font-semibold text-2xl">{data.title}</h3>
         <p className="mb-4 text-lg">{data.description}</p>
       </div>
-      <DynamicButton href={data.href}>Visit Website</DynamicButton>
+      <BackdropButton href={data.href}>Visit Website</BackdropButton>
     </div>
   );
 };

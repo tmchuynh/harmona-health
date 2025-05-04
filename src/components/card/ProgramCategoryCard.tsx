@@ -1,6 +1,6 @@
 import { ServiceCategory } from "@/lib/interfaces&types/services";
 import { useRouter } from "next/navigation";
-import DynamicButton from "../button/button-dynamic";
+import BackdropButton from "../button/button-dynamic";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 export default function ProgramCategoryCard({
@@ -25,7 +25,9 @@ export default function ProgramCategoryCard({
         <p>{category.description}</p>
       </CardContent>
       <CardFooter>
-        <DynamicButton variant="tertiary">Explore This Category</DynamicButton>
+        <BackdropButton variant="tertiary">
+          Explore This Category
+        </BackdropButton>
       </CardFooter>
     </Card>
   );

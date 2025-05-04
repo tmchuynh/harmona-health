@@ -1,5 +1,5 @@
 "use client";
-import DynamicButton from "@/components/button/button-dynamic";
+import BackdropButton from "@/components/button/button-dynamic";
 import {
   Table,
   TableBody,
@@ -202,9 +202,9 @@ export default function Page() {
 
           <div className="items-center lg:items-start xl:items-center gap-5 grid grid-cols-1 md:grid-cols-2">
             <section>
-              <DynamicButton href={`${url}/pricing`}>
+              <BackdropButton href={`${url}/pricing`}>
                 View Pricing
-              </DynamicButton>
+              </BackdropButton>
               {filteredTiers.map((tier, index) => (
                 <div
                   key={`${tier.tier}-${index}`}

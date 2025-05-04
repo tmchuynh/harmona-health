@@ -67,11 +67,11 @@ export default function FlyoutMenu() {
                     className="group relative flex items-center gap-x-6 hover:bg-muted p-4 rounded-lg text-sm/6"
                   >
                     {item.icon && (
-                      <div className="flex flex-none justify-center items-center group-hover:bg-accent rounded-lg group-hover:text-accent-foreground size-11">
+                      <div className="flex flex-none justify-center items-center bg-primary group-hover:bg-secondary rounded-lg text-primary-foreground group-hover:text-secondary-foreground size-11">
                         <item.icon aria-hidden="true" className="size-6" />
                       </div>
                     )}
-                    <div className="flex-auto">
+                    <div className="flex-auto dark:group-hover:text-background">
                       <a href={item.href} className="block font-semibold">
                         {item.name}
                         <span className="absolute inset-0" />
@@ -103,11 +103,11 @@ export default function FlyoutMenu() {
                     className="group relative flex items-center gap-x-6 hover:bg-muted p-4 rounded-lg text-sm/6"
                   >
                     {item.icon && (
-                      <div className="flex flex-none justify-center items-center group-hover:bg-accent rounded-lg group-hover:text-accent-foreground size-11">
+                      <div className="flex flex-none justify-center items-center bg-primary group-hover:bg-secondary rounded-lg text-primary-foreground group-hover:text-secondary-foreground size-11">
                         <item.icon aria-hidden="true" className="size-6" />
                       </div>
                     )}
-                    <div className="flex-auto">
+                    <div className="flex-auto dark:group-hover:text-background">
                       <a href={item.href} className="block font-semibold">
                         {item.name}
                         <span className="absolute inset-0" />
@@ -140,11 +140,11 @@ export default function FlyoutMenu() {
                     className="group relative flex items-center gap-x-6 hover:bg-muted p-4 rounded-lg text-sm/6"
                   >
                     {item.icon && (
-                      <div className="flex flex-none justify-center items-center group-hover:bg-accent rounded-lg group-hover:text-accent-foreground size-11">
+                      <div className="flex flex-none justify-center items-center bg-primary group-hover:bg-secondary rounded-lg text-primary-foreground group-hover:text-secondary-foreground size-11">
                         <item.icon aria-hidden="true" className="size-6" />
                       </div>
                     )}
-                    <div className="flex-auto">
+                    <div className="flex-auto dark:group-hover:text-background">
                       <a href={item.href} className="block font-semibold">
                         {item.name}
                         <span className="absolute inset-0" />

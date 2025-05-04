@@ -1,9 +1,9 @@
 "use client";
 
+import { CTA } from "@/lib/interfaces&types/types";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import DynamicButton from "../button/button-dynamic";
-import { CTA } from "@/lib/interfaces&types/types";
+import BackdropButton from "../button/button-dynamic";
 
 export default function CallToActionImage({ cta }: { cta: CTA }) {
   const router = useRouter();
@@ -59,13 +59,13 @@ export default function CallToActionImage({ cta }: { cta: CTA }) {
             </p>
           )}
           <div className="mt-8">
-            <DynamicButton
+            <BackdropButton
               variant={"secondary"}
               className="mx-0 w-full"
               onClick={() => router.push("/programs/start-your-journey")}
             >
               Get Started Today!
-            </DynamicButton>
+            </BackdropButton>
           </div>
         </div>
       </div>

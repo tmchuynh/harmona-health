@@ -3,7 +3,7 @@
 import { Article } from "@/lib/interfaces&types/resources";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import DynamicButton from "../button/button-dynamic";
+import BackdropButton from "../button/button-dynamic";
 
 export default function ArticleCard({ article }: { article: Article }) {
   const router = useRouter();
@@ -34,7 +34,7 @@ export default function ArticleCard({ article }: { article: Article }) {
           <h5>{article.subtitle}</h5>
           <p>{article.description}</p>
         </div>
-        <DynamicButton>Read This Article</DynamicButton>
+        <BackdropButton>Read This Article</BackdropButton>
       </div>
     </div>
   );
