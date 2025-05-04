@@ -25,12 +25,18 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     Icon: SlEnvolopeLetter,
     gallery: {
       data: [
-        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1676302455399-5c3f0625979f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1579373791421-d7b4b6dfb8b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1638231660517-bacaf3c395bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1623406794994-72b75db37ab9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGV0dGVyfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1479642770516-f2df0a071c6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1566232137428-27dd00f5c6bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGV0dGVyfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1529066496421-d8fb2dca38a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxldHRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1666899830344-f7f226af458f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGV0dGVyfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1569690681342-d74eb25436fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxsZXR0ZXJ8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1634562876572-5abe57afcceb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGV0dGVyfGVufDB8fDB8fHww",
       ],
     },
   },
@@ -67,8 +73,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     Icon: GiDreamCatcher,
     gallery: {
       data: [
-        "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJlYW18ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1536602012356-86c345795580?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRyZWFtfGVufDB8fDB8fHww",
         "https://images.unsplash.com/photo-1446813768824-b3730a9d5840?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRyZWFtfGVufDB8fDB8fHww",
         "https://images.unsplash.com/photo-1517868163143-6eb6c78dbf54?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRyZWFtfGVufDB8fDB8fHww",
         "https://plus.unsplash.com/premium_photo-1682308196818-e81db0e8462b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGRyZWFtfGVufDB8fDB8fHww",
@@ -173,8 +177,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     Icon: GiCandleLight,
     gallery: {
       data: [
-        "https://images.unsplash.com/photo-1703293560531-794d580de57c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmV3JTIwaG9saWRheXxlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1525351159099-81893194469e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2VsZWJyYXRlfGVufDB8fDB8fHww",
         "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNlbGVicmF0ZXxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNlbGVicmF0ZXxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1527269534026-c86f4009eace?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNlbGVicmF0ZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -195,8 +197,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     gallery: {
       data: [
         "https://plus.unsplash.com/premium_photo-1701195493934-53b77fa118d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHVybmluZyUyMHBvaW50JTIwaW4lMjB5b3VyJTIwbGlmZXxlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1553852892-60d02bad79e9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHR1cm5pbmclMjBwb2ludCUyMGluJTIweW91ciUyMGxpZmV8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1593394645521-58ea45cd17ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHR1cm5pbmclMjBwb2ludCUyMGluJTIweW91ciUyMGxpZmV8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1567599518522-e5e86fd92b3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHR1cm5pbmclMjBwb2ludCUyMGluJTIweW91ciUyMGxpZmV8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1607428122566-dc5486d692bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHR1cm5pbmclMjBwb2ludCUyMGluJTIweW91ciUyMGxpZmV8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1670796223293-b86095de8e59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHR1cm5pbmclMjBwb2ludCUyMGluJTIweW91ciUyMGxpZmV8ZW58MHx8MHx8fDA%3D",
@@ -300,8 +300,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     gallery: {
       data: [
         "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlyZWN0JTIwZG9vcnxlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1533050487297-09b450131914?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGRpcmVjdCUyMGRvb3J8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRpcmVjdCUyMGRvb3J8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlyZWN0JTIwZG9vcnxlbnwwfHwwffDA%3D",
         "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlyZWN0JTIwZG9vcnxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1533050487297-09b450131914?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGRpcmVjdCUyMGRvb3J8ZW58MHx8MHx8fDA%3D",
@@ -382,16 +380,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "What lesson do they take away that will help them in the future?",
     ],
     Icon: FaPenAlt,
-    gallery: {
-      data: [
-        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-      ],
-    },
   },
   {
     prompt: "Write about a time you took a risk and what happened.",
@@ -403,16 +391,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       "Would you take the same risk again? Why or why not?",
     ],
     Icon: FaPenAlt,
-    gallery: {
-      data: [
-        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1592819695396-064b9572a660?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D",
-      ],
-    },
   },
   {
     prompt: "Write about a time you felt completely out of your comfort zone.",
@@ -428,8 +406,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
       data: [
         "https://plus.unsplash.com/premium_photo-1664373232551-32575df6820a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1568527701620-6ea4ba2e2880?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
-        "https://plus.unsplash.com/premium_photo-1664373232965-5820c775de3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29tZm9ydHxlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1475609471617-0ef53b59cff5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1535365751156-45e3b6060cc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
         "https://images.unsplash.com/photo-1533263470226-27d56346f62e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
       ],
