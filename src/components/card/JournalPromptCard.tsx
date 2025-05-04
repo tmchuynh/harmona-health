@@ -1,5 +1,4 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
-import { convertToIngForm, getFirstWord } from "@/lib/utils/format";
 import { FaQuestionCircle } from "react-icons/fa";
 import {
   Dialog,
@@ -28,17 +27,7 @@ export default function JournalPromptCard({
         </DialogTrigger>
         <DialogContent>
           <DialogHeader className="pt-4">
-            <DialogTitle>
-              Ideas for {convertToIngForm(getFirstWord(randomPrompt.prompt))}{" "}
-              {randomPrompt.prompt
-                .trim()
-                .split(/\s+/)
-                .slice(1, randomPrompt.prompt.length - 1)
-                .join(" ")
-                .split(",")[0]
-                .replace(".", "")}
-              :
-            </DialogTitle>
+            <DialogTitle>Ideas To Get Started:</DialogTitle>
           </DialogHeader>
           <ul className="pl-5 list-disc">
             {randomPrompt.ideas?.map((idea, index) => (
