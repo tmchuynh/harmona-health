@@ -31,7 +31,7 @@ const nutritionInfographics: Tool[] = [
   },
   {
     id: "sources-of-added-sugar",
-    title: "Sources of Added Sugar",
+    title: "Sources Of Added Sugar",
     subtitle: "Understanding Where Sugar Hides In Your Diet",
     description:
       "Pie or bar charts showing the percentage of sugar consumption by source—soda, snacks, desserts, and packaged foods.",
@@ -69,20 +69,6 @@ const nutritionInfographics: Tool[] = [
       "This chart type helps individuals assess how much of their diet comes from each food group, often revealing over-dependence on certain categories (like grains or fats) and under-consumption of others (like vegetables or legumes).",
       "These visualizations can guide users toward more diverse meal planning and improved nutritional adequacy.",
       "Pie charts, stacked bar charts, and radial diagrams are particularly effective in showing food group proportions over time or across meals.",
-    ],
-  },
-  {
-    id: "weekly-grocery-cost-vs-nutrition",
-    title: "Weekly Grocery Cost Vs Nutrition",
-    subtitle: "Balancing Budget And Nutrient Quality",
-    description:
-      "Bubble or bar charts comparing the nutritional value of foods against their cost, helping students or families shop smarter.",
-    categoryId: "nutritionInfographics",
-    introduction: [
-      "For many people, especially students, budgeting plays a significant role in food choices—but lower cost doesn't have to mean poor nutrition.",
-      "This category focuses on visual comparisons between the cost of food items and their nutrient density, helping users identify the best 'nutrition per dollar' options.",
-      "By balancing cost with dietary quality, individuals can make more strategic decisions when grocery shopping.",
-      "These visuals are especially effective for meal prepping, creating budget meal plans, or maximizing the impact of limited food budgets.",
     ],
   },
   {

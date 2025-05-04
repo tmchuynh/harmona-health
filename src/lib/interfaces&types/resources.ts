@@ -1,3 +1,4 @@
+import { ChartOptions } from "chart.js";
 import { IconType } from "react-icons";
 
 export interface ResourceCategory {
@@ -217,6 +218,7 @@ export type Exercise = {
 export interface Nutrition {
   graphType: "pie" | "bar" | "line" | "doughnut";
   title: string;
+  description?: string;
   data: Data;
   options?: ChartOptions;
 }
@@ -232,34 +234,4 @@ export type Data = {
     fill?: boolean;
     tension?: number;
   }[];
-};
-
-export type ChartOptions = {
-  responsive?: boolean;
-  maintainAspectRatio?: boolean;
-  plugins?: {
-    legend: {
-      display: boolean;
-      position?: "top" | "bottom" | "left" | "right";
-    };
-    title: {
-      display: boolean;
-      text: string;
-    };
-  };
-  scales?: {
-    x?: {
-      type?: string;
-      title?: {
-        display: boolean;
-        text: string;
-      };
-    };
-    y?: {
-      title?: {
-        display: boolean;
-        text: string;
-      };
-    };
-  };
 };
