@@ -14,6 +14,12 @@ const imageHosts = [
   "blogger.googleusercontent.com",
   "logovectordl.com",
   "cdn.worldvectorlogo.com",
+  "988lifeline.org",
+  "www.crisistextline.org",
+  "www.thehotline.org",
+  "rainn.org",
+  "play-lh.googleusercontent.com",
+  "c.media-amazon.com",
 ];
 
 const nextConfig: NextConfig = {

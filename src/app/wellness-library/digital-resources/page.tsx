@@ -111,15 +111,16 @@ export default function Page() {
                 className="text-left text-xs md:text-sm"
                 onClick={() => scrollToSection(`category-${category.id}`)}
               >
-                {category.title === "Recommended Books and Articles" ||
-                category.title === "Online Therapy & Therapy Networks"
+                {category.title === "Online Therapy & Therapy Networks"
                   ? getLastWords(category.title, 2)
                   : category.title ===
                       "Children’s & Young Adult Mental Health Books" ||
-                    category.title === "Memoirs & Lived Experience Narratives"
+                    category.title === "Recommended Books and Articles"
                   ? getLastWords(category.title, 3)
                   : category.title === "Mental Health Education & Self-Help"
                   ? sliceOffLastWord(category.title, 2)
+                  : category.title === "Memoirs & Lived Experience Narratives"
+                  ? "Memoirs & Narratives"
                   : category.title}
               </Button>
             </li>

@@ -99,7 +99,7 @@ export const mentalHealthResources: Resource[] = [
     id: "nlm",
     title: "National Library of Medicine (NLM)",
     description:
-      "Free access to hundreds of clinical and academic mental health books and publications.",
+      "Free access to hundreds of clinical and academic mental health books and ations.",
     href: "https://www.ncbi.nlm.nih.gov/books/",
     image:
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
@@ -108,10 +108,10 @@ export const mentalHealthResources: Resource[] = [
   },
   {
     id: "who",
-    title: "World Health Organization (WHO) Publications",
+    title: "World Health Organization (WHO) ations",
     description:
       "Downloadable global mental health reports, guides, and research.",
-    href: "https://www.who.int/publications",
+    href: "https://www.who.int/ations",
     image:
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
     similarResources: ["nlm", "cci", "open-library"],
@@ -837,200 +837,96 @@ export const mentalHealthResources: Resource[] = [
       "A popular meditation and mindfulness app designed to help reduce stress, improve focus, and enhance overall well-being.",
     href: "https://www.headspace.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/sSjK8ZpCafvsAeQdC5KbpjuHXZQFzXH_gRodS4kBZ6peK9AxhM5ikTIsWqoIAgkrlXI=w1052-h592-rw",
     similarResources: ["calmApp", "moodpathApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
   {
-    id: "calmApp",
-    title: "Calm",
+    id: "how-we-feel",
+    title: "How We Feel",
     description:
-      "An award-winning app for meditation, sleep, and relaxation with soothing music, sleep stories, and guided sessions.",
-    href: "https://www.calm.com/",
+      "An app designed to help you identify and understand your emotions, providing tools for emotional awareness and regulation.",
+    href: "https://howwefeel.org/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["headspaceApp", "breetheApp", "sanvelloApp"],
-    category: "mental-health-apps",
-  },
-  {
-    id: "moodpathApp",
-    title: "MindDoc (formerly Moodpath)",
-    description:
-      "A mood tracking and mental health assessment app co-developed by psychologists to help you better understand emotional patterns.",
-    href: "https://minddoc.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["sanvelloApp", "youperApp", "headspaceApp"],
-    category: "mental-health-apps",
-  },
-  {
-    id: "sanvelloApp",
-    title: "Sanvello",
-    description:
-      "Combines CBT-based tools, mood tracking, guided journeys, and peer support to manage stress, anxiety, and depression.",
-    href: "https://www.sanvello.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["moodpathApp", "calmApp", "youperApp"],
-    category: "mental-health-apps",
-  },
-  {
-    id: "youperApp",
-    title: "Youper",
-    description:
-      "An AI-powered emotional health assistant that uses evidence-based therapeutic techniques to support your mental well-being.",
-    href: "https://www.youper.ai/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["sanvelloApp", "moodpathApp", "headspaceApp"],
-    category: "mental-health-apps",
-  },
-  {
-    id: "mindfulness-app",
-    title: "Mindfulness App",
-    description:
-      "A meditation app that offers guided sessions, reminders, and a community for mindfulness practice.",
-    href: "https://www.meditationapp.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/qywBcV6jMg-ea1YdypchpgiSm1_c-fa1LSmjSJ0hp2izKjwjxpQitmxi8KsehntoNwA=w1052-h592-rw",
     similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
   {
-    id: "simpleHabitApp",
-    title: "Simple Habit",
+    id: "voidpet-garden-mental-health",
+    title: "Voidpet Garden",
     description:
-      "A meditation app designed to help you build a daily mindfulness practice with short, guided sessions.",
-    href: "https://www.simplehabit.com/",
+      "A unique app that combines mental health support with a virtual pet garden, allowing users to care for their pets while engaging in mindfulness and self-care activities.",
+    href: "https://voidpetgarden.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/sPOBmxKILGEZxQz0KmtXc-AnI2vLAHVmG9rvmN7AdwlKqENsQwO99MFinBUaN6rBLA=w1052-h592-rw",
     similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
   {
-    id: "smiling-mind",
-    title: "Smiling Mind",
+    id: "dailybean-simplest-journal",
+    title: "DailyBean",
     description:
-      "A mindfulness app designed for children and adolescents, offering programs to improve mental well-being.",
-    href: "https://www.smilingmind.com.au/",
+      "A simple journaling app that allows you to track your mood and daily experiences, helping you reflect on your mental health over time.",
+    href: "https://dailybeanapp.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/gRlJ5E1XcKKqRlNIBFWB9TtySjvRfp51GWJsciiPJVv0Tqm0sV11EK2Jf5RDOwyxhg=w1052-h592-rw",
     similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
   {
-    id: "waking-up",
-    title: "Waking Up",
+    id: "finch-self-care-pet",
+    title: "Finch",
     description:
-      "A meditation app that combines mindfulness with philosophy and psychology to enhance self-awareness.",
-    href: "https://www.wakingup.com/",
+      "An app that combines self-care with a virtual pet, allowing users to care for their pet while engaging in mental health activities and journaling.",
+    href: "https://finchpet.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/QnxsLCpoGBsw29_Mx5hLP64jNeovXO_oeBpNjJBYjUxL3eT81JOoRyxH2ptcHn9A_w=w1052-h592-rw",
     similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
   {
-    id: "breathe",
-    title: "Breathe",
+    id: "betterme-mental-health",
+    title: "BetterMe",
     description:
-      "A meditation app that offers guided sessions, breathing exercises, and mindfulness practices.",
-    href: "https://www.breathe.com/",
+      "An app that offers personalized mental health support, including guided meditations, mood tracking, and self-care activities.",
+    href: "https://betterme.world/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://play-lh.googleusercontent.com/lDaR3OoWZCDC2RZ_swrXBjptDWrCV8rRpTg-Il-J1wv5nppc3noJvUTH2ExN52Bumrg=w1052-h592-rw",
+    similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
+    category: "mental-health-apps",
+  },
+  {
+    id: "atom-meditation-for-beginners",
+    title: "Atom",
+    description:
+      "A meditation app designed for beginners, offering guided meditations and mindfulness exercises to help users develop a consistent practice.",
+    href: "https://atomapp.com/",
+    image:
+      "https://play-lh.googleusercontent.com/ehrzIEejyRacVEAmgNGMti4u3ptEXTXf5Vmoj-TJ9k4RkSpTZHMfi5fPcCgEfM4jwjtq=w1052-h592-rw",
+    similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
+    category: "mental-health-apps",
+  },
+  {
+    id: "healthy-minds-program",
+    title: "Healthy Minds Program",
+    description:
+      "An app that combines mindfulness, meditation, and emotional well-being practices, designed to help users cultivate a healthy mind.",
+    href: "https://healthymindsapp.com/",
+    image:
+      "https://play-lh.googleusercontent.com/uLWP2HbIvh5BRmyE9aahMrC0zrXnBuaqAXghU3nQ8_xIQRHtwPhufPSduSltW9uTTbI=w1052-h592-rw",
     similarResources: ["headspaceApp", "calmApp", "sanvelloApp"],
     category: "mental-health-apps",
   },
 
   // Category: "Podcasts"
   {
-    id: "the-mental-illness-happy-hour",
-    title: "The Mental Illness Happy Hour",
-    description:
-      "Hosted by comedian Paul Gilmartin, this podcast offers honest, raw, and often humorous conversations about mental health and the invisible battles many people face.",
-    href: "https://mentalpod.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["therapy-chat", "unlocking-us", "ten-percent-happier"],
-    category: "podcasts",
-  },
-  {
-    id: "therapy-chat",
-    title: "Therapy Chat",
-    description:
-      "Hosted by trauma therapist Laura Reagan, this podcast dives into topics like mindfulness, self-compassion, attachment, and emotional healing.",
-    href: "https://www.therapychatpodcast.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "the-mental-illness-happy-hour",
-      "trauma-recovery-university",
-      "unf*ck-your-brain",
-    ],
-    category: "podcasts",
-  },
-  {
-    id: "the-happiness-lab-with-dr-laura-schlitz",
-    title: "The Happiness Lab with Dr. Laura Schlitz",
-    description:
-      "Dr. Laura Schlitz dives deep into the science of happiness and provides practical tips on how to live a more fulfilling life. Explore evidence-based strategies for improving mental health and well-being.",
-    href: "https://www.happinesslab.fm/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["podcasts", "mental-health-education-self-help"],
-    category: "podcasts",
-  },
-  {
-    id: "therapist-unfiltered",
-    title: "Therapist Unfiltered",
+    id: "the-unfiltered-therapists",
+    title: "The Unfiltered Therapists",
     description:
       "Therapist Unfiltered is a candid conversation about mental health, relationships, and personal growth. Each episode features a therapist discussing issues relevant to today’s society and offering advice for navigating life’s challenges.",
     href: "https://www.therapistunfiltered.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["podcasts", "mental-health-education-self-help"],
-    category: "podcasts",
-  },
-  {
-    id: "the-mindful-kind",
-    title: "The Mindful Kind",
-    description:
-      "Hosted by Rachael Kable, The Mindful Kind explores mindfulness, meditation, and self-compassion. It’s a great resource for anyone looking to develop a mindful approach to their mental health and well-being.",
-    href: "https://www.rachaelkable.com/the-mindful-kind-podcast",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["podcasts", "mindfulness-meditation"],
-    category: "podcasts",
-  },
-  {
-    id: "mental-health-foundations",
-    title: "Mental Health Foundations",
-    description:
-      "Mental Health Foundations offers listeners expert advice on how to build a solid foundation for emotional and mental well-being. Topics include stress management, self-care, and practical tools to maintain mental health.",
-    href: "https://www.mentalhealthfoundations.com/podcast",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["podcasts", "mental-health-education-self-help"],
-    category: "podcasts",
-  },
-  {
-    id: "unF*ck Your Brain",
-    title: "UnF*ck Your Brain",
-    description:
-      "UnF*ck Your Brain with Kara Loewentheil combines feminism, mental health, and self-empowerment in a unique and impactful way. It’s a podcast about how to rewire your brain for confidence, peace, and self-love.",
-    href: "https://www.unfuckyourbrain.com/podcast/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["podcasts", "mental-health-education-self-help"],
-    category: "podcasts",
-  },
-  {
-    id: "the-anxiety-coach",
-    title: "The Anxiety Coach",
-    description:
-      "The Anxiety Coach podcast offers support for anyone who struggles with anxiety. It includes tips, strategies, and advice on how to cope with anxiety in daily life and strategies for managing it long term.",
-    href: "https://www.theanxietycoach.com/podcast",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "/images/podcasts/unfiltered-therapists.png",
     similarResources: ["podcasts", "mental-health-education-self-help"],
     category: "podcasts",
   },
@@ -1040,8 +936,7 @@ export const mentalHealthResources: Resource[] = [
     description:
       "Brené Brown explores what it means to be human, offering insights on vulnerability, courage, connection, and the messy parts of life.",
     href: "https://brenebrown.com/podcast-show/unlocking-us/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "/images/podcasts/unlocking-us.png",
     similarResources: [
       "we-can-do-hard-things",
       "ten-percent-happier",
@@ -1055,8 +950,7 @@ export const mentalHealthResources: Resource[] = [
     description:
       "Glennon Doyle, along with her sister and wife, discusses life's hardest truths with vulnerability and humor—touching on topics from anxiety to boundaries and burnout.",
     href: "https://momastery.com/blog/we-can-do-hard-things-podcast/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "/images/podcasts/we-can-do-hard-things.png",
     similarResources: [
       "unlocking-us",
       "ten-percent-happier",
@@ -1066,166 +960,79 @@ export const mentalHealthResources: Resource[] = [
   },
   {
     id: "ten-percent-happier",
-    title: "Ten Percent Happier",
+    title: "10% Happier with Dan Harris",
     description:
       "Hosted by Dan Harris, this podcast brings practical mental health tools rooted in mindfulness, meditation, and psychology from leading experts.",
     href: "https://www.tenpercent.com/podcast",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "https://c.media-amazon.com/images/I/41RsOoojQXL._SY466_.jpg",
     similarResources: ["headspaceApp", "therapy-chat", "unlocking-us"],
     category: "podcasts",
   },
   {
-    id: "unfck-your-brain",
-    title: "UnF*ck Your Brain",
+    id: "mental-illness-happy-hour",
+    title: "Mental Illness Happy Hour",
     description:
-      "Hosted by feminist mindset coach Kara Loewentheil, this podcast explores thought work, anxiety, perfectionism, and reclaiming agency over your mental life.",
-    href: "https://unfuckyourbrain.com/podcast/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "A weekly podcast hosted by comedian Paul Gilmartin, featuring candid conversations about mental illness, trauma, and the challenges of life.",
+    href: "https://mentalpod.com/",
+    image: "/images/podcasts/mental-illness.png",
     similarResources: [
-      "we-can-do-hard-things",
       "therapy-chat",
-      "the-mental-illness-happy-hour",
+      "unf*ck-your-brain",
+      "the-unfiltered-therapists",
+    ],
+    category: "podcasts",
+  },
+  {
+    id: "the-happiness-lab",
+    title: "The Happiness Lab with Dr. Laurie Santos",
+    description:
+      "Dr. Laurie Santos, a Yale professor, shares the science of happiness and practical tips for improving well-being based on her popular course.",
+    href: "https://www.happinesslab.fm/",
+    image: "/images/podcasts/ten-percent-happier.png",
+    similarResources: [
+      "therapy-chat",
+      "unf*ck-your-brain",
+      "the-unfiltered-therapists",
+    ],
+    category: "podcasts",
+  },
+  {
+    id: "the-school-of-greatness",
+    title: "The School of Greatness with Lewis Howes",
+    description:
+      "Lewis Howes interviews inspiring individuals from various fields, discussing their journeys, challenges, and the lessons learned along the way.",
+    href: "https://lewishowes.com/sogpodcast/",
+    image: "/images/podcasts/school-of-greatness.png",
+    similarResources: [
+      "therapy-chat",
+      "unf*ck-your-brain",
+      "the-unfiltered-therapists",
+    ],
+    category: "podcasts",
+  },
+  {
+    id: "the-mindset-mentor",
+    title: "The Mindset Mentor with Rob Dial",
+    description:
+      "Rob Dial shares insights and strategies for personal development, mindset shifts, and achieving success in various aspects of life.",
+    href: "https://robdial.com/podcast/",
+    image: "/images/podcasts/mindset-mentor.png",
+    similarResources: [
+      "therapy-chat",
+      "unf*ck-your-brain",
+      "the-unfiltered-therapists",
     ],
     category: "podcasts",
   },
 
   // Category: "recommended-books-and-articles"
   {
-    id: "the-body-keeps-the-score",
-    title: "The Body Keeps the Score by Bessel van der Kolk",
-    description:
-      "A foundational text in trauma psychology, this book explains how trauma reshapes both the body and brain—and how innovative therapies offer paths to healing.",
-    href: "https://www.penguinrandomhouse.com/books/227408/the-body-keeps-the-score-by-bessel-van-der-kolk-md/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "what-happened-to-you",
-      "trauma-and-recovery",
-      "brainstorm",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "what-happened-to-you",
-    title: "What Happened to You? by Oprah Winfrey & Dr. Bruce Perry",
-    description:
-      "This powerful book reframes mental health conversations from 'What’s wrong with you?' to 'What happened to you?', combining personal stories with neuroscience.",
-    href: "https://www.oprahdaily.com/life/a36055303/what-happened-to-you-oprah-book-summary/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "the-body-keeps-the-score",
-      "the-deepest-well",
-      "it-didnt-start-with-you",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "the-deepest-well",
-    title: "The Deepest Well by Dr. Nadine Burke Harris",
-    description:
-      "This groundbreaking book explores the impact of childhood adversity on long-term health and introduces the science of ACEs (Adverse Childhood Experiences).",
-    href: "https://www.nadineburkeharris.com/deepest-well/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "what-happened-to-you",
-      "the-body-keeps-the-score",
-      "childrens-young-adult-mental-health-books",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "it-didnt-start-with-you",
-    title: "It Didn't Start With You by Mark Wolynn",
-    description:
-      "An accessible introduction to inherited family trauma and how unresolved emotional issues may be passed down through generations.",
-    href: "https://markwolynn.com/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "the-body-keeps-the-score",
-      "the-deepest-well",
-      "the-drama-of-the-gifted-child",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "article-nyt-mental-health-crisis-teens",
-    title: "The Inner Pandemic: Mental Health Crisis Among American Teens",
-    description:
-      "A powerful New York Times feature article examining the rising rates of anxiety, depression, and suicidal ideation among teens—and the systems failing to meet their needs.",
-    href: "https://www.nytimes.com/2022/12/12/us/teen-mental-health-crisis.html",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "what-happened-to-you",
-      "childrens-young-adult-mental-health-books",
-      "the-deepest-well",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "feeling-good",
-    title: "Feeling Good by David D. Burns",
-    description: "CBT for depression.",
-    href: "https://www.amazon.com",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["the-body-keeps-the-score", "it-didnt-start-with-you"],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "the-drama-of-the-gifted-child",
-    title: "The Drama of the Gifted Child by Alice Miller",
-    description:
-      "A classic that explores how childhood trauma—especially emotional neglect—can shape adult psychology and self-perception.",
-    href: "https://www.harpercollins.com/products/the-drama-of-the-gifted-child-revised-edition-alice-miller",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "it-didnt-start-with-you",
-      "memoirs-lived-experience-narratives",
-      "the-body-keeps-the-score",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "dare-to-lead",
-    title: "Dare to Lead by Brené Brown",
-    description:
-      "A powerful guide on how vulnerability, courage, and empathy are essential traits of strong, effective leadership.",
-    href: "https://brenebrown.com/book/dare-to-lead/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: [
-      "grit",
-      "atomic-habits",
-      "the-7-habits-of-highly-effective-people",
-    ],
-    category: "recommended-books-and-articles",
-  },
-  {
-    id: "grit",
-    title: "Grit by Angela Duckworth",
-    description:
-      "This book explores how passion and perseverance—not talent alone—are the keys to long-term success.",
-    href: "https://angeladuckworth.com/grit-book/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["dare-to-lead", "drive", "deep-work"],
-    category: "recommended-books-and-articles",
-  },
-  {
     id: "atomic-habits",
     title: "Atomic Habits by James Clear",
     description:
       "One of the most actionable guides on how to build good habits, break bad ones, and master the tiny behaviors that lead to big change.",
     href: "https://jamesclear.com/atomic-habits",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "https://c.media-amazon.com/images/I/81ANaVZk5LL._SY466_.jpg",
     similarResources: ["deep-work", "the-power-of-habit", "grit"],
     category: "recommended-books-and-articles",
   },
@@ -1236,7 +1043,7 @@ export const mentalHealthResources: Resource[] = [
       "A mix of autobiography and management manual, Dalio’s framework for decision-making and personal effectiveness is backed by decades of experience.",
     href: "https://www.principles.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://c.media-amazon.com/images/I/61LKD6scbfL._AC_UY327_FMwebp_QL65_.jpg",
     similarResources: [
       "deep-work",
       "the-7-habits-of-highly-effective-people",
@@ -1249,58 +1056,295 @@ export const mentalHealthResources: Resource[] = [
     title: "Deep Work by Cal Newport",
     description:
       "A manifesto for focused success in a distracted world. Newport provides tools for maximizing cognitive performance and minimizing distraction.",
-    href: "https://www.calnewport.com/books/deep-work/",
+    href: "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692/ref=sr_1_1?crid=3S7IDGDR0UHN6&dib=eyJ2IjoiMSJ9.GXchbC3wgCUhodWl-i9aj3rmuZ-QgPAl6aKspLUp_xpYblkdq41U1h4NGl39RXN9Odu83V_64p32wO4mzGoV3za5GlU79P0Y9KqXomt-ozwNlU2EOz4Ja0QKNNW2_NuxJU1nhYYUjQawZXxwRyY8Cj5jBqAT39SFKw13WzIN7_jS2AvwgKpWmIKLPWVMFBA6ZVZVMG9c60J6xU3ichyWtu-ArrCl1FwBcT-_t3j6lyk.rIrlUkSfvdmv7Nl1YQafz6KVoEYNZubjXOce0cQ5a34&dib_tag=se&keywords=Deep+Work+by+Cal+Newport&qid=1746397195&s=books&sprefix=deep+work+by+cal+newport%2Cstripbooks%2C148&sr=1-1",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://c.media-amazon.com/images/I/91nujEwIpYL._AC_UY327_FMwebp_QL65_.jpg",
     similarResources: ["atomic-habits", "digital-minimalism", "principles"],
     category: "recommended-books-and-articles",
   },
   {
-    id: "the-7-habits-of-highly-effective-people",
-    title: "The 7 Habits of Highly Effective People by Stephen R. Covey",
+    id: "the-subtle-art-of-not-giving-a-f*ck",
+    title: "The Subtle Art of Not Giving a F*ck by Mark Manson",
     description:
-      "A perennial self-help classic that introduces a principle-centered approach for solving personal and professional problems.",
-    href: "https://www.franklincovey.com/the-7-habits.html",
+      "A counterintuitive approach to living a good life, Manson argues that we should focus on what truly matters and let go of the trivial.",
+    href: "https://markmanson.net/books/subtle-art",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["atomic-habits", "principles", "grit"],
+      "https://c.media-amazon.com/images/I/71QKQ9mwV7L._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-power-of-habit",
+      "the-4-hour-workweek",
+    ],
     category: "recommended-books-and-articles",
   },
   {
-    id: "the-power-of-habit",
-    title: "The Power of Habit by Charles Duhigg",
+    id: "unf*ck-yourself",
+    title: "Unf*ck Yourself by Gary John Bishop",
     description:
-      "Duhigg explores the science of habits, explaining how they're formed—and how they can be changed.",
-    href: "https://charlesduhigg.com/the-power-of-habit/",
+      "A no-nonsense guide to self-improvement, Bishop’s book challenges readers to take responsibility for their lives and offers practical advice for overcoming self-doubt.",
+    href: "https://garyjohnbishop.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["atomic-habits", "deep-work", "grit"],
+      "https://c.media-amazon.com/images/I/81HuYGapupL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-7-habits-of-highly-effective-people",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "f*ck-feelings",
+    title: "F*ck Feelings by Michael Bennett and Sarah Bennett",
+    description:
+      "A humorous and practical guide to mental health, this book offers a no-nonsense approach to dealing with life’s challenges and emotional struggles.",
+    href: "https://www.amazon.com/Feelings-Practical-Managing-Impossible-Problems/dp/1476789991/ref=sr_1_1?crid=21JBBUC6CNTN&dib=eyJ2IjoiMSJ9.Luc9STzbzg9EgVyTVf90WKSxep52OQpmoC5Sg0Ye8UXWbCBTwqd5msXE1MbidIl6k9p-WgipiRGR6onv_b9qCQ.hkgbDFvDQBLIg2TrqQlge4JbcxtSQUDgdyySKHWUf-w&dib_tag=se&keywords=F*ck+Feelings+by+Michael+Bennett&qid=1746397150&s=books&sprefix=thinking%2C+fast+and+slow%2Cstripbooks%2C160&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/61hV0LP9ECL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-power-of-habit",
+      "the-4-hour-workweek",
+    ],
     category: "recommended-books-and-articles",
   },
   {
     id: "thinking-fast-and-slow",
     title: "Thinking, Fast and Slow by Daniel Kahneman",
     description:
-      "A groundbreaking exploration of how our minds make decisions, combining psychology and behavioral economics.",
-    href: "https://us.macmillan.com/books/9780374533557/thinkingfastandslow",
+      "A groundbreaking exploration of how we think, make decisions, and the biases that affect our judgment. Kahneman provides insights into the two systems of thought that drive our choices.",
+    href: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?crid=1BAAG4WE85MJY&dib=eyJ2IjoiMSJ9.ceqZU8DyU2py75144OBkfwy7oHpHu4i50hoJDUixuQGA5lbtNMFW5TpP3FPt5OI6MpDFn3rd8zgEFg-ThGWgKV0VIEngafyY14vuQE-jsaMoJbVm-e8sIKAsxTmz6uWK2Q0v6bCDOl6JHtBPu0GH5t2bOaUWF4Lgzkbc-KYsfS-wDv5_rgkq7DNx19YFqqZMvTsrbDND8vESYXFhGrGuTUmOd0QjtrllnZxCYfq8CU8.tlgJsVsWq5eP6BMQ72jya9ubC_fAK2HO4Jk1OAo2Rkg&dib_tag=se&keywords=Thinking%2C+Fast+and+Slow&qid=1746397137&s=books&sprefix=thinking%2C+fast+and+slow%2Cstripbooks%2C158&sr=1-1",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://c.media-amazon.com/images/I/61fdrEuPJwL._AC_UY327_FMwebp_QL65_.jpg",
     similarResources: [
-      "principles",
       "the-7-habits-of-highly-effective-people",
-      "grit",
+      "the-power-of-habit",
+      "the-subtle-art-of-not-giving-a-f*ck",
     ],
     category: "recommended-books-and-articles",
   },
   {
-    id: "digital-minimalism",
-    title: "Digital Minimalism by Cal Newport",
+    id: "the-7-habits-of-highly-effective-people",
+    title: "The 7 Habits of Highly Effective People by Stephen R. Covey",
     description:
-      "A practical guide to reclaiming focus and intentionality in a hyperconnected world.",
-    href: "https://www.calnewport.com/books/digital-minimalism/",
+      "A classic in personal development, Covey’s book outlines a principle-centered approach to solving personal and professional problems.",
+    href: "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1982137274/ref=sr_1_1?crid=316BJHIU7VGP&dib=eyJ2IjoiMSJ9.IGH7OW2oMuVIJwBgX-Kg79XFov-JqXQuYVOgrwZp1qxcORg1MkIIzpDa5CImMcrft2jqLSMf00i-aKIhW1PILJeHYWttUKF11ZMr1iJy3JdHBW8-uz90hV2hRhz1DdoJKvgJaW_Yvruu3vLdHOLtcJwc9TWdSHi_fByeBbxwnBQ1WIkJROvikYW06ZtZtdinnejrTKlMlvQGUokO2SOABV1ltfC34X8vUj2m42831yo.-WztHsHJWRVE9aNcqc-G8TN_olEJwMzznMMECIfclMs&dib_tag=se&keywords=The+7+Habits+of+Highly+Effective&qid=1746397119&s=books&sprefix=the+7+habits+of+highly+effective%2Cstripbooks%2C165&sr=1-1",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["deep-work", "atomic-habits", "the-power-of-habit"],
+      "https://c.media-amazon.com/images/I/71y1NKGcGKL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-4-hour-workweek",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "how-highlighly-effective-people-speak",
+    title: "How Highly Effective People Speak by Peter Andrei",
+    description:
+      "A guide to effective communication, this book draws on the principles of Covey’s work and offers practical tips for improving interpersonal skills.",
+    href: "https://www.amazon.com/How-Highly-Effective-People-Speak/dp/B089CSW3Y6/ref=sr_1_1?crid=14IR1P6JVEN3Q&dib=eyJ2IjoiMSJ9.12z_qrZhX-v21M0dw6BK5H0TMBotYsHd5PRHPdEKLyjd33Vus1v6jSxQ_zSE1Yu2iKUDOY6fkRrWeX2rVJGDGjaotzLWUrm23WEuK45lLBEHdrYlFoJyWOM9IoFB6yjzXq6Ol4w5CScQGf1nyCZ76c6Ks7Q7N-28CguhfsxWpEvKiB6pcVpaOuTkTVIaR42k05j0GrEAqvzicR0c-O6F7OuelwUNuNMO4PuG2f0v0qU.PgT8OqMePsNlgmhrzFo31KZcFCamoDbFTp7_JvAN0fc&dib_tag=se&keywords=How+Highly+Effective+People+Speak&qid=1746397104&s=books&sprefix=how+highly+effective+people+speak%2Cstripbooks%2C167&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/6133q2mrx7L._AC_UL480_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-war-of-art",
+    title: "The War of Art by Steven Pressfield",
+    description:
+      "A powerful exploration of the challenges of creativity and the resistance we face in pursuing our passions. Pressfield offers insights on overcoming self-doubt and procrastination.",
+    href: "https://stevenpressfield.com/books/the-war-of-art/",
+    image:
+      "https://c.media-amazon.com/images/I/51lmpnWEuEL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "turning-pro",
+    title: "Turning Pro by Steven Pressfield",
+    description:
+      "A follow-up to The War of Art, this book focuses on the transition from amateur to professional in creative pursuits, offering insights on commitment and discipline.",
+    href: "https://stevenpressfield.com/books/turning-pro/",
+    image:
+      "https://c.media-amazon.com/images/I/41m7L8FrIzL._UX300undefined_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "do-the-work",
+    title: "Do the Work by Steven Pressfield",
+    description:
+      "A practical guide to overcoming resistance and getting started on creative projects. Pressfield provides actionable steps for moving past self-doubt and procrastination.",
+    href: "https://stevenpressfield.com/books/do-the-work/",
+    image:
+      "https://c.media-amazon.com/images/I/41S6LVVM5pL._UX300undefined_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-artists-journey",
+    title: "The Artist's Journey by Steven Pressfield",
+    description:
+      "An exploration of the creative process and the journey of the artist. Pressfield shares insights on finding purpose and meaning in creative work.",
+    href: "https://stevenpressfield.com/books/the-artists-journey/",
+    image:
+      "https://c.media-amazon.com/images/I/41F5a4VEC8L._UX300undefined_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-power-of-habit",
+    title: "The Power of Habit by Charles Duhigg",
+    description:
+      "An exploration of the science behind habit formation and how understanding habits can lead to personal and professional transformation.",
+    href: "https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X/ref=sr_1_1?crid=1JOMAWD6VDMP8&dib=eyJ2IjoiMSJ9.0hHZS6RnjQpYhx8VcpQxY8h6w-P8Orl8iQfddTe-yvpVa7vio_yr6N4GD6Tmu3VCIKC8vfZVE7XeRqrT6mHSF5dOVQrHJbZX9qHmGN__Nam-QORJKxYW5ZeXB3F8X2-fpb9SWpBxVC6a2CyPVX0W9g-PQ6KzGanI-S5pnlqTQ1-w5z2YBc3iP2bYnc7LDKWLz-jsGPkUvlJqYnLbufHUMr4Xl1ROuAa3uFYwJ36bqlA.wjw-mwtaGpBnRJYiA_JBfgkA3RnZcyZabNAM8wpL3SA&dib_tag=se&keywords=The+Power+of+Habit&qid=1746397063&s=books&sprefix=the+power+of+habit%2Cstripbooks%2C154&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/71wm29Etl4L._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-4-hour-workweek",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "being-the-red-flag",
+    title: "Being the Red Flag by Dr. Nicole LePera",
+    description:
+      "Dr. Nicole LePera’s book focuses on self-healing and personal growth. She emphasizes the importance of self-awareness and taking responsibility for our own mental health.",
+    href: "https://www.amazon.com/being-red-flag-UNAPOLOGETIC-CURIOSITY/dp/B0D493TKYD/ref=sr_1_1?crid=3IN53ELPC48CB&dib=eyJ2IjoiMSJ9.WeXFHW1l2s5fDtvNnyQRnlDk35bHPzO-3_A-dpLE2VtzIQ6FaGU9wms7n_ctFZ2ghwPlm4USU4z87lExkIdPZQ.pva212bBZVD5zd2-2in8C2jRh7TJjQO5i78eViiRGX4&dib_tag=se&keywords=Being+the+Red+Flag&qid=1746397053&s=books&sprefix=being+the+red+flag%2Cstripbooks%2C153&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/51qzM2XNPoL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "how-to-win-friends-and-influence-people",
+    title: "How to Win Friends and Influence People by Dale Carnegie",
+    description:
+      "A timeless classic on interpersonal skills, Carnegie’s book offers practical advice on how to connect with others and build meaningful relationships.",
+    href: "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034/ref=sr_1_1?crid=3NENJJMBLD4KZ&dib=eyJ2IjoiMSJ9.EaX04KFI1Nc_7_-oH8VP-zr7aLss_KhDFxeJvIWMr40sT8-bF_m1ADvrjcWfNIZPN1D3G7Paqxf2Tw7ILFZh_istCxkg4GOIYeEVfnC1U0fWvFVjnrCuDN3b8x7reAHuBdhlzB5oFHWfSRcUUbzZ9aGDHV7PxNljXF1iUqJ3ezUajo5pnVoVMEWz5_CxvvHUL0tNyEXWvxGG6sQL5KyTK_xri0lSbDAuMS7Rw7IDtoM.v0dg7jbGn-LvFt_mbk4_XX0bXERmQ1t1Tg1C7orN0GU&dib_tag=se&keywords=How+to+Win+Friends+and+Influence+People&qid=1746397041&s=books&sprefix=the+4-hour+workweek%2Cstripbooks%2C144&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/71vK0WVQ4rL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-4-hour-workweek",
+    title: "The 4-Hour Workweek by Tim Ferriss",
+    description:
+      "A guide to lifestyle design, Ferriss challenges traditional work norms and offers strategies for achieving more in less time.",
+    href: "https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357/ref=sr_1_1?crid=18443SP534EUM&dib=eyJ2IjoiMSJ9.cz8gK4FE_eKEXi-z7TBrexN608xgskwVXVpR1fYgZt3si5dNDIAd_0QguOWYyvSXB8xV68cVLt-orrPsO8jnO3V2PXdygx5UemIJA6OspkaCsK7NCeWdPUDhzJjtqJjQcjG15YvEYyATSqahlURFCGHFW1cZJxfnVBWOzfVefco2lrJxxnv6uUPjoScnqEOoTTddBUXeL5INWY5Fg2fyb6OvJ2XBZ_yHzwf0Fj0QYWQ.cJ390SlPQzZeL2EB9Wq3Be-m7hMFE4AvaAuFZigvq6A&dib_tag=se&keywords=The+4-Hour+Workweek&qid=1746397029&s=books&sprefix=the+4-hour+workweek%2Cstripbooks%2C150&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/71vO9Tbf4-L._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "grit",
+    title: "Grit by Angela Duckworth",
+    description:
+      "Duckworth explores the power of passion and perseverance in achieving success, emphasizing that talent is not the only predictor of achievement.",
+    href: "https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111116/ref=sr_1_2?crid=P45K31KWD8K3&dib=eyJ2IjoiMSJ9.m527lz6HO1m68YuIwy7sG4qBfYPFmQSADlf-LkHHv2Lmetx3L65jEu9ZasnFhzf6OJKUD8JGTSDvKx8Gl4c3a1YRmjGLapqutfKtA7nWyzTd9rYBJ8gZwJ3anEwRQSKJ38IAJ02tswnVbWDmQNEiSh8oAJruQQnqlQhErkZYa6dZQYvaJpY6CSUBe9LRp9P3_dZBJcHTPrtTDy_IDnZF1Tejxglv4jpgCky1SpN54Y0ls3ESs-hRYmSgvwpvdmIpBa8W3MMM1BIwks-iiSVrZoujOhKaLtifXXLEypDzSPU.l0yPjIM046J1aDH7BI5kqK9dVigWralu2G7f0OOxF3o&dib_tag=se&keywords=Grit&qid=1746397018&s=books&sprefix=grit%2Cstripbooks%2C158&sr=1-2",
+    image:
+      "https://c.media-amazon.com/images/I/71uZIWQx+tL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-creative-habit",
+    title: "The Creative Habit by Twyla Tharp",
+    description:
+      "A guide to unlocking your creative potential, Tharp shares exercises and insights from her own creative journey as a renowned choreographer.",
+    href: "https://www.amazon.com/Creative-Habit-Learn-Use-Life/dp/0743235274/ref=sr_1_1?crid=3TWDITZ9B3EQR&dib=eyJ2IjoiMSJ9.YtYR_WFp0CTHiVgoqYp7jF_fiFhl_pkIaQIpGS0YKqA-VoHpPWXvRGMF40ax08oUtU3Ekgpwwr7rfCWWZMuHUgSEia2hYYuddOueWGy-gibds0arrGvkEgS5Sex2YO6Mz1aLVQqIKCXIoryRrsSpjQ.fpfa-3vIxxJr6k7iiyHs0VDDJ8aeEDsvHkSLyL1LFQc&dib_tag=se&keywords=The+Creative+Habit+by+Twyla&qid=1746397008&s=books&sprefix=the+creative+act+a+way+of+being+by+rick+rubin%2Cstripbooks%2C153&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/619EWpDPrIL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-creative-act-a-way-of-being",
+    title: "The Creative Act: A Way of Being by Rick Rubin",
+    description:
+      "A deep dive into the creative process, Rubin shares his philosophy on creativity and how to cultivate a mindset that fosters artistic expression.",
+    href: "https://www.amazon.com/Creative-Act-Way-Being/dp/0593652886/ref=sr_1_1?crid=SD5KVIFOYMTU&dib=eyJ2IjoiMSJ9.oDkaqLCaAugZG1GhFl5DvIn1k3-p2msQaRFrsyo9XdTQoy2FS8WNaSlnWndaxV3gAX78hd3AuFyHpaAJ88Cy7mEmjywzBqMV-DkFQZ8YvmLs5_coogf5Fhsi0MGo_7KUAIZ9bsLxqau7R59stQ9AudkoB33PPc_sZfARHDLc0BMD8Rbv5Aq-kyFh-inGjrv8h87pfC9RGOOt0_5mtkoNNrXeOmd96bgTCXechntCRTQ.x3DeeydzRzeExOodP2ELcBGqroo_7a0RSrU33o92vdA&dib_tag=se&keywords=The+Creative+Act%3A+A+Way+of+Being+by+Rick+Rubin&qid=1746396997&s=books&sprefix=the+artist%27s+way+by+julia+cameron%2Cstripbooks%2C176&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/918EkrTDaRL._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-artist-way",
+    title: "The Artist's Way by Julia Cameron",
+    description:
+      "A 12-week program designed to help you recover your creativity and overcome creative blocks. Cameron provides exercises and insights to nurture your artistic self.",
+    href: "https://www.amazon.com/Artists-Way-25th-Anniversary/dp/0143129252/ref=sr_1_1?crid=1KEIFVW3CX22D&dib=eyJ2IjoiMSJ9.j2bNWhJKONpFlTX6-ONeNXMvz_M8SdRQ-gEzLZk27SCzw12uLInHhi-Hc6DEJuUHwZL94WucEAPvU-p4geomLXrSFz3jtJ1LcWB_4fjKcEtLvjqb8_pxlFRiqjfV4xb0lP_ZL1yG2LcmmGBWf-28Ow93w6VZBUYzmhvjRqOpUYWgulTFCCVnbNTox2TM4YuGZBrNOOliezir2o-OJMzHTWCcK32c4iC8fLFbFBxfbXA.12DQ_hmjKNGpwvBBpfHsM20VORkEFmaHJaOET2Q4h64&dib_tag=se&keywords=The+Artist%27s+Way+by+Julia+Cameron&qid=1746396986&s=books&sprefix=the+artist%27s+way+by+julia+cameron%2Cstripbooks%2C468&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/41ZXeva+yZL._UX300undefined_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
+    category: "recommended-books-and-articles",
+  },
+  {
+    id: "the-creative-curve",
+    title: "The Creative Curve by Allen Gannett",
+    description:
+      "Gannett explores the science of creativity and how anyone can cultivate their creative potential through practice and understanding.",
+    href: "https://www.amazon.com/Creative-Curve-Develop-Right-Idea/dp/1524761710/ref=sr_1_1?crid=3M290D0GS24QD&dib=eyJ2IjoiMSJ9.3Z74K4ZoCgb0adB1Rd3jCQ.KxmlqtS3RwiTe_5o_eocnpc7eFKDyPNO4X9qL-xTRt8&dib_tag=se&keywords=The+Creative+Curve+by+Allen+Gannett+View&qid=1746396920&s=books&sprefix=the+creative+curve+by+allen+gannett+view%2Cstripbooks%2C127&sr=1-1",
+    image:
+      "https://c.media-amazon.com/images/I/81BRx8510+L._AC_UY327_FMwebp_QL65_.jpg",
+    similarResources: [
+      "the-7-habits-of-highly-effective-people",
+      "the-subtle-art-of-not-giving-a-f*ck",
+      "the-power-of-habit",
+    ],
     category: "recommended-books-and-articles",
   },
 
@@ -1312,7 +1356,7 @@ export const mentalHealthResources: Resource[] = [
       "Learn simple and practical mindfulness techniques that can be incorporated into everyday life. These resources help you stay present, reduce stress, and improve overall well-being.",
     href: "https://www.meditationoasis.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["mindfulness-meditation", "specialized-resources"],
     category: "mindfulness-meditation",
   },
@@ -1323,7 +1367,7 @@ export const mentalHealthResources: Resource[] = [
       "A great starting point for anyone new to mindfulness. This resource provides beginner-friendly exercises, tools, and tips to help you cultivate mindfulness in your daily life.",
     href: "https://www.mindful.org/how-to-practice-mindfulness/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1666946131242-b2c5cc73892a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "mindfulness-meditation",
       "mental-health-education-self-help",
@@ -1334,10 +1378,10 @@ export const mentalHealthResources: Resource[] = [
     id: "meditation-for-anxiety",
     title: "Meditation for Anxiety",
     description:
-      "Specially designed meditation techniques to help manage and reduce anxiety. These resources provide tools to calm the mind and restore emotional balance during moments of stress or overwhelm.",
-    href: "https://www.calmsage.com/anxiety/meditation-for-anxiety/",
+      "Explore meditation techniques specifically designed to help manage anxiety. These resources provide guided meditations and practices to help you find calm and clarity.",
+    href: "https://www.youtube.com/playlist?list=PLCQACBUblTbXfTb8c_SlZ5kynRAPxwHFD",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1611800065908-233b597db552?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZGl0YXRpb258ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "mindfulness-meditation",
       "mental-health-education-self-help",
@@ -1349,9 +1393,9 @@ export const mentalHealthResources: Resource[] = [
     title: "Mindful Eating",
     description:
       "Mindful eating helps you become more aware of your relationship with food. Explore resources and practices that encourage eating with intention, mindfulness, and gratitude.",
-    href: "https://www.mindfuleating.org/",
+    href: "https://nutritionsource.hsph.harvard.edu/mindful-eating/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWluZGZ1bCUyMEVhdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "mindfulness-meditation",
       "mental-health-education-self-help",
@@ -1363,9 +1407,9 @@ export const mentalHealthResources: Resource[] = [
     title: "Breathing Exercises for Relaxation",
     description:
       "Simple breathing techniques to help you relax, reduce stress, and reset your mind. These practices are quick and effective, allowing you to find calm and focus in any situation.",
-    href: "https://www.psychologytoday.com/us/basics/breathing-exercises",
+    href: "https://www.lung.org/lung-health-diseases/wellness/breathing-exercises",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1508583732154-e9ff899f8534?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fG1lZGl0YXRpb258ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "mindfulness-meditation",
       "mental-health-education-self-help",
@@ -1377,9 +1421,9 @@ export const mentalHealthResources: Resource[] = [
     title: "Meditation for Sleep",
     description:
       "Use meditation to help relax your mind and body before bed. These resources offer meditation practices to help you fall asleep more easily and wake up feeling refreshed.",
-    href: "https://www.headspace.com/sleep/meditation-for-sleep",
+    href: "https://www.youtube.com/watch?v=g0jfhRcXtLQ",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1661766053468-49d07ec86cc4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWVkaXRhdGlvbiUyMGZvciUyMFNsZWVwfGVufDB8fDB8fHww",
     similarResources: [
       "mindfulness-meditation",
       "mental-health-education-self-help",
@@ -1395,7 +1439,7 @@ export const mentalHealthResources: Resource[] = [
       "The National Suicide Prevention Lifeline offers free, confidential support for people in distress. Available 24/7, they provide a safe space to talk and help navigate through a crisis.",
     href: "https://suicidepreventionlifeline.org/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://988lifeline.org/wp-content/uploads/2024/06/storytelling2-682x357.jpg",
     similarResources: ["crisis-support-hotlines", "mental-health-apps"],
     category: "crisis-support-hotlines",
   },
@@ -1406,7 +1450,7 @@ export const mentalHealthResources: Resource[] = [
       "Text HELLO to 741741 to connect with a trained crisis counselor who can help with anxiety, depression, or any other mental health challenges you may be experiencing.",
     href: "https://www.crisistextline.org/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://www.crisistextline.org/wp-content/themes/heliotrope/patterns/images/people-illustration.svg",
     similarResources: [
       "crisis-support-hotlines",
       "mental-health-education-self-help",
@@ -1420,18 +1464,7 @@ export const mentalHealthResources: Resource[] = [
       "The National Domestic Violence Hotline provides confidential support for those affected by domestic violence. They offer resources and assistance to help you take the next steps towards safety and healing.",
     href: "https://www.thehotline.org/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-    similarResources: ["crisis-support-hotlines", "specialized-resources"],
-    category: "crisis-support-hotlines",
-  },
-  {
-    id: "textline-for-domestic-violence",
-    title: "Textline for Domestic Violence",
-    description:
-      "A text-based support service for those experiencing domestic violence. Text ‘START’ to 88788 for confidential help.",
-    href: "https://www.thehotline.org/get-help/text-our-crisis-line/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://www.thehotline.org/wp-content/themes/hotline-main/assets/images/logo-ndvh.svg",
     similarResources: ["crisis-support-hotlines", "specialized-resources"],
     category: "crisis-support-hotlines",
   },
@@ -1441,8 +1474,7 @@ export const mentalHealthResources: Resource[] = [
     description:
       "The National Sexual Assault Hotline provides confidential support for anyone affected by sexual assault. Trained staff are available to listen and provide guidance and resources.",
     href: "https://www.rainn.org/",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+    image: "https://rainn.org/sites/all/themes/rainn/RAINN_Logo_NoTagline.jpg",
     similarResources: [
       "crisis-support-hotlines",
       "mental-health-education-self-help",
@@ -1456,7 +1488,7 @@ export const mentalHealthResources: Resource[] = [
       "The Transgender Crisis Hotline provides confidential support for transgender people who are experiencing a crisis. They offer understanding and guidance during difficult times.",
     href: "https://www.translifeline.org/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1597586281133-b43c49844e4d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8VHJhbnNnZW5kZXJ8ZW58MHx8MHx8fDA%3D",
     similarResources: ["crisis-support-hotlines", "specialized-resources"],
     category: "crisis-support-hotlines",
   },
@@ -1467,7 +1499,7 @@ export const mentalHealthResources: Resource[] = [
       "The Veterans Crisis Hotline is dedicated to supporting veterans and their families. They provide confidential support 24/7, offering assistance during times of emotional or mental distress.",
     href: "https://www.veteranscrisisline.net/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1682564166278-bc4bd2c9e32f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmV0ZXJhbnN8ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "crisis-support-hotlines",
       "mental-health-education-self-help",
@@ -1483,7 +1515,7 @@ export const mentalHealthResources: Resource[] = [
       "7 Cups offers free, anonymous, and confidential online text chat with trained listeners, as well as affordable therapy services with licensed professionals. It’s a supportive community that provides emotional support 24/7.",
     href: "https://www.7cups.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b25saW5lJTIwdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["online-therapy-networks", "crisis-support-hotlines"],
     category: "online-therapy-networks",
   },
@@ -1494,7 +1526,7 @@ export const mentalHealthResources: Resource[] = [
       "MDLive provides online therapy and psychiatry services via video or phone. With a variety of therapists available, MDLive helps users find the right fit for their needs in a secure, convenient setting.",
     href: "https://www.mdlive.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b25saW5lJTIwdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1508,7 +1540,7 @@ export const mentalHealthResources: Resource[] = [
       "Calmerry offers flexible online therapy with licensed therapists, accessible through chat, video, or phone calls. They tailor the experience to your schedule and offer affordable pricing plans.",
     href: "https://calmerry.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1588873281272-14886ba1f737?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b25saW5lJTIwdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1522,7 +1554,7 @@ export const mentalHealthResources: Resource[] = [
       "Rethink Therapy offers online therapy services with licensed professionals for individuals, couples, and families. The platform emphasizes building a strong therapeutic relationship in a virtual setting.",
     href: "https://www.rethinktherapy.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1663047726632-4e56b16b75a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b25saW5lJTIwdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1536,7 +1568,7 @@ export const mentalHealthResources: Resource[] = [
       "Amwell connects individuals with licensed therapists and psychiatrists for video or phone consultations. It’s a reliable platform for behavioral health support, offering flexible appointments and quick access to care.",
     href: "https://www.amwell.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1733342492614-21ae0fe15efc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b25saW5lJTIwdGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1550,7 +1582,7 @@ export const mentalHealthResources: Resource[] = [
       "Therapist Match connects individuals with licensed mental health professionals who offer virtual sessions via video, chat, or phone calls. The platform helps match users with therapists based on their specific needs.",
     href: "https://www.therapistmatch.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1661281212609-f4681817d657?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9ubGluZSUyMHRoZXJhcHl8ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1564,7 +1596,7 @@ export const mentalHealthResources: Resource[] = [
       "Online Therapy offers a comprehensive online mental health service where users can communicate with licensed therapists through text, video, or chat. It focuses on Cognitive Behavioral Therapy (CBT) to help users manage anxiety, depression, and other mental health challenges.",
     href: "https://www.online-therapy.com/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1661514083597-0d069eaa740b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG9ubGluZSUyMHRoZXJhcHl8ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1578,7 +1610,7 @@ export const mentalHealthResources: Resource[] = [
       "Regain Therapy offers online couples therapy with licensed therapists who specialize in relationship and marital issues. Sessions are available via text, video, or phone consultations, providing flexible support for couples.",
     href: "https://www.regain.us/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1723575734631-af8ea9186d02?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG9ubGluZSUyMHRoZXJhcHl8ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "online-therapy-networks",
       "mental-health-education-self-help",
@@ -1594,7 +1626,7 @@ export const mentalHealthResources: Resource[] = [
       "This article explores how chronic stress can reshape the brain's structure—especially in the hippocampus, prefrontal cortex, and amygdala—leading to cognitive decline and emotional imbalance.",
     href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5579396/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1731326957305-3db057114a5d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hyb25pYyUyMFN0cmVzc3xlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["mental-health-education-self-help"],
     category: "research-articles",
   },
@@ -1605,7 +1637,7 @@ export const mentalHealthResources: Resource[] = [
       "Dive into emerging research on the gut-brain axis and how your microbiome may influence mood, anxiety, and even depression—shaping the future of mental health treatment.",
     href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6469458/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1674641195838-59ad13f8cc55?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWljcm9iaW9tZXxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["mental-health-education-self-help"],
     category: "research-articles",
   },
@@ -1616,7 +1648,7 @@ export const mentalHealthResources: Resource[] = [
       "A look at the complex effects of social media on young people, including links to anxiety, depression, and self-esteem, with guidance on digital wellness strategies.",
     href: "https://www.apa.org/news/press/releases/stress/2023/social-media-use-teens",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1579869847557-1f67382cc158?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U29jaWFsJTIwTWVkaWF8ZW58MHx8MHx8fDA%3D",
     similarResources: [
       "mental-health-education-self-help",
       "crisis-support-hotlines",
@@ -1630,7 +1662,7 @@ export const mentalHealthResources: Resource[] = [
       "This peer-reviewed article breaks down the most effective treatments for PTSD, comparing techniques like EMDR, Prolonged Exposure, and Cognitive Processing Therapy.",
     href: "https://www.ptsd.va.gov/professional/treat/txessentials/overview_therapy.asp",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://plus.unsplash.com/premium_photo-1661301178605-21949cf82eb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UFRTRHxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["online-therapy-networks"],
     category: "research-articles",
   },
@@ -1641,7 +1673,7 @@ export const mentalHealthResources: Resource[] = [
       "Explore the growing body of research linking systemic inflammation to depressive symptoms, offering new insights into biomarkers and targeted interventions.",
     href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116040/",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RGVwcmVzc2lvbnxlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["mental-health-education-self-help"],
     category: "research-articles",
   },
@@ -1652,7 +1684,7 @@ export const mentalHealthResources: Resource[] = [
       "This article reviews how sleep quality and duration directly affect emotional control, stress responses, and overall psychological resilience.",
     href: "https://www.sleepfoundation.org/mental-health",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2xlZXB8ZW58MHx8MHx8fDA%3D",
     similarResources: ["mental-health-education-self-help"],
     category: "research-articles",
   },
@@ -1663,7 +1695,7 @@ export const mentalHealthResources: Resource[] = [
       "Explore groundbreaking studies on how substances like psilocybin and MDMA are being used to treat depression, PTSD, and addiction under professional supervision.",
     href: "https://www.nature.com/articles/s41591-022-01807-3",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1600928691816-73fd9addad04?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UHN5Y2hlZGVsaWNzfGVufDB8fDB8fHww",
     similarResources: [
       "mental-health-education-self-help",
       "online-therapy-networks",
@@ -1677,7 +1709,7 @@ export const mentalHealthResources: Resource[] = [
       "A critical review of evidence supporting mental health apps and how features like CBT modules and mindfulness tools influence user outcomes.",
     href: "https://www.sciencedirect.com/science/article/pii/S2589790X21000023",
     image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+      "https://images.unsplash.com/photo-1635373390272-9855a0aea13d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVudGFsJTIwSGVhbHRoJTIwQXBwc3xlbnwwfHwwfHx8MA%3D%3D",
     similarResources: ["mental-health-education-self-help"],
     category: "research-articles",
   },
