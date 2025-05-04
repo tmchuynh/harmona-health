@@ -10,7 +10,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Unlock the Power of Your Mind: Transform Negative Thoughts into Positive Action",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/cognitive-behavioral-therapy-exercises",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -23,7 +22,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Empower Your Mind: Daily Affirmations for Building Confidence and Self-Love",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/affirmation-cards",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -36,7 +34,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Take Action: Engage in Meaningful Activities to Boost Your Mood and Motivation",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/behavioral-activation-worksheets",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -49,7 +46,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Live in the Moment: Harness the Power of Mindfulness to Reduce Stress and Improve Focus",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/mindfulness-practices",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -62,7 +58,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Build Inner Strength: Develop Resilience to Overcome Life’s Challenges with Confidence",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/resilience-toolkit",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -75,7 +70,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Nourish Your Mind: Discover the Connection Between Nutrition and Mental Well-Being",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/nutrition-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -88,7 +82,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Achieve Harmony: Essential Tools for Balancing Work and Life for Optimal Well-Being",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/work-life-balance-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -101,7 +94,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Connect and Communicate: Essential Tools for Enhancing Interpersonal Skills and Relationships",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/communication-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -114,7 +106,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Lead with Confidence: Essential Tools for Developing Leadership Skills and Inspiring Others",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/leadership-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -127,7 +118,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Write Your Way to Clarity: Essential Tools for Self-Reflection and Emotional Processing",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/journaling-tools",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -140,7 +130,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Organize Your Life: Essential Tools for Effective Time Management and Productivity",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/checklists-toolkit",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },
@@ -152,7 +141,6 @@ export const toolkit: Toolkit[] = [
     ],
     subtitle:
       "Get Fit, Feel Great: Essential Tools for Improving Physical Fitness and Mental Health",
-    href: "/wellness-library/digital-resources/mental-health-toolkit/fitness-toolkit",
     image:
       "https://bremershs.eq.edu.au/SiteCollectionImages/photos/Mental%20Health%20Tool%20Kit.png",
   },

@@ -42,7 +42,6 @@ export interface Toolkit {
   introduction?: string;
   description: string[];
   warningText?: string;
-  href?: string; // NEEDS TO BE REMOVED
   image?: string;
 }
 
@@ -59,10 +58,9 @@ export interface Tool {
   id: string;
   title: string;
   description: string;
-  href?: string; // NEEDS TO BE REMOVED
   categoryId: string;
-  subtitle?: string;
-  introduction?: string[];
+  subtitle: string;
+  introduction: string[];
 }
 
 export interface Events {
