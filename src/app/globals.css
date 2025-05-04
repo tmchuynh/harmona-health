@@ -105,7 +105,7 @@
   --popover: oklch(0.2 0.002 286.22);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.68 0.0761 252.64);
-  --primary-foreground: oklch(0.16 0.01 120);
+  --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.9 0.0508 232.81);
   --secondary-foreground: oklch(0.16 0.01 120);
   --tertiary: oklch(0.68 0.0953 261.66);
@@ -115,7 +115,7 @@
   --muted: oklch(0.95 0.0034 67.78);
   --muted-foreground: oklch(0.16 0.01 120);
   --accent: oklch(0.66 0.1479 35.07);
-  --accent-foreground: oklch(0.16 0.01 120);
+  --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.63 0.2359 26.67);
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.46 0.0713 255.54);
@@ -208,7 +208,7 @@
     @apply text-base text-accent underline underline-offset-2 font-[Nunito] font-bold;
   }
   h5 {
-    @apply text-xs md:text-sm mb-3 text-fancy font-[IBMPlexSans] font-bold;
+    @apply text-xs md:text-sm mb-3 text-tertiary font-[IBMPlexSans] font-bold;
   }
   p {
     @apply py-1
