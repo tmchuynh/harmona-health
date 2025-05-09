@@ -209,7 +209,7 @@ export default function Page() {
                 </div>
                 <p key={index}>{category.description}</p>
               </div>
-              <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto">
+              <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto mt-6">
                 {groupedAndSorted.map((resource, index) => {
                   const resourceInformation = getResourceInformationById(
                     resource.id
@@ -224,14 +224,14 @@ export default function Page() {
                   );
                 })}
               </div>
-              <div className="text-right mt-8">
+              <div className="text-right flex items-center mt-8">
                 <Button
                   variant="outline"
-                  size="sm"
                   onClick={scrollToTOC}
-                  className="inline-flex items-center gap-2"
+                  className="border border-solid"
                 >
-                  <FaArrowUp /> Back to Table of Contents
+                  <FaArrowUp className="w-auto h-full" /> Back to Table of
+                  Contents
                 </Button>
               </div>
             </div>
