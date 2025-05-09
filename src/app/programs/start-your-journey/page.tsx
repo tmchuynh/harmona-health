@@ -1,9 +1,10 @@
+import { Button } from "@/components/ui/button";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <div className="mx-auto text-center">
-        <h2>Start Living with Purpose and Power</h2>
+        <h1>Start Living with Purpose and Power</h1>
         <p>
           Take the first step toward a healthier, more energized you. Your
           transformation begins with one choice — and we’re here to support you
@@ -130,12 +131,7 @@ export default function Page() {
           </div>
         </div>
         <div className="mt-10">
-          <button
-            type="submit"
-            className="block bg-indigo-600 hover:bg-indigo-500 shadow-xs px-3.5 py-2.5 rounded-md w-full font-semibold text-center text-sm text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            Let's talk
-          </button>
+          <Button type="submit">Let's talk</Button>
         </div>
       </form>
     </div>
