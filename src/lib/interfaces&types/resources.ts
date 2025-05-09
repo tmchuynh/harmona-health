@@ -1,5 +1,6 @@
 import { ChartOptions } from "chart.js";
 import { IconType } from "react-icons";
+import { Data, ListDetail, Paragraph, Step, Workout } from "./types";
 
 export interface ResourceCategory {
   id: string;
@@ -143,17 +144,6 @@ export interface Activity {
   icon?: string;
 }
 
-export type ListDetail = {
-  title?: string;
-  description: string;
-};
-
-export type Step = {
-  step: ListDetail;
-  note?: string;
-  details?: string[];
-};
-
 export interface WorkLifeBalance {
   title: string;
   introduction: string[];
@@ -198,20 +188,6 @@ export interface Fitness {
   exercises: Workout[];
 }
 
-export type Workout = {
-  exercise: Exercise;
-  set: number;
-  rep?: number;
-  time?: number;
-};
-
-export type Exercise = {
-  title: string;
-  description: string;
-  howTo: Step[];
-  tips: string[];
-};
-
 export interface Nutrition {
   graphType: "pie" | "bar" | "line" | "doughnut";
   title: string;
@@ -219,16 +195,16 @@ export interface Nutrition {
   data: Data;
   options?: ChartOptions;
 }
+export interface CTA extends ListDetail {
+  intro: string;
+  button: string;
+  afterButtonText?: string;
+}
 
-export type Data = {
-  labels: string[];
-  datasets: {
-    label: string;
-    data: number[];
-    backgroundColor?: string[] | string;
-    borderColor?: string[] | string;
-    borderWidth?: number;
-    fill?: boolean;
-    tension?: number;
-  }[];
-};
+export interface ArticleInformation {
+  introduction: string[];
+  description: string[];
+  paragraphs: Paragraph[];
+  conclusion: string[];
+  image?: string;
+}

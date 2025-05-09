@@ -1,5 +1,5 @@
-import { JSX } from "react";
 import { IconType } from "react-icons/lib";
+import { Step } from "./resources";
 
 export type NotFoundContextType = {
   isNotFound: boolean;
@@ -38,14 +38,48 @@ export type NavigationMenu = {
   icon?: IconType;
 };
 
-export interface ListDetail {
-  title?: string;
-  description?: string | JSX.Element;
-  list?: ListDetail[];
-}
+export type Data = {
+  labels: string[];
+  datasets: {
+    label: string;
+    data: number[];
+    backgroundColor?: string[] | string;
+    borderColor?: string[] | string;
+    borderWidth?: number;
+    fill?: boolean;
+    tension?: number;
+  }[];
+};
 
-export interface CTA extends ListDetail {
-  intro: string;
-  button: string;
-  afterButtonText?: string;
-}
+export type Workout = {
+  exercise: Exercise;
+  set: number;
+  rep?: number;
+  time?: number;
+};
+
+export type Exercise = {
+  title: string;
+  description: string;
+  howTo: Step[];
+  tips: string[];
+};
+
+export type ListDetail = {
+  title?: string;
+  description: string;
+};
+
+export type Step = {
+  step: ListDetail;
+  note?: string;
+  details?: string[];
+};
+
+export type Paragraph = {
+  title: string;
+  subtitle?: string;
+  intro?: string;
+  details: string[];
+  image?: string;
+};
