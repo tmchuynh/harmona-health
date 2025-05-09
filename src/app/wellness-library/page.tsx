@@ -34,10 +34,10 @@ export default function Page() {
         you are seeking practical tools for daily mental health care, in-depth
         health education, or opportunities for personal growth, our curated
         collections are here to empower you. Explore therapist-developed
-        toolkits, an expansive wellness dictionary, research-backed health
-        articles, expert-led events, and insightful self-assessments—all
-        thoughtfully created to help you build resilience, foster balance, and
-        take actionable steps toward a healthier, more vibrant life.
+        toolkits, research-backed health articles, expert-led events, and
+        insightful self-assessments—all thoughtfully created to help you build
+        resilience, foster balance, and take actionable steps toward a
+        healthier, more vibrant life.
       </p>
       <div className="gap-x-8 gap-y-12 sm:gap-y-16 grid grid-cols-1 lg:grid-cols-2 mx-auto">
         <div className="flex flex-col gap-y-8 lg:gap-y-12">
