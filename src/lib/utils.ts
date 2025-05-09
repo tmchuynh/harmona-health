@@ -58,3 +58,23 @@ export async function getToolResource(
     return [];
   }
 }
+
+
+export async function getArticleInformation(
+  article: string,
+  articleID: string
+): Promise<any> {
+  try {
+    const articleModule = await import(`@/lib/resources/articles/${article}`);
+    // Return the specific named export that matches articleID
+    if (articleModule[articleID]) {
+      return articleModule[articleID];
+    } else {
+      console.error(`Export named ${articleID} not found in module`);
+      return [];
+    }
+  } catch (error) {
+    console.error(`Error loading resource: ${error}`);
+    return [];
+  }
+}
