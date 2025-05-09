@@ -223,7 +223,7 @@
     @apply text-xs md:text-sm mb-3 text-tertiary font-[IBMPlexSans] font-bold;
   }
   p {
-    @apply py-1
+    @apply py-1 text-pretty;
   }
 }
 
