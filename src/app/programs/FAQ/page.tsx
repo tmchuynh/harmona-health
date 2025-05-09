@@ -34,10 +34,10 @@ export default function Page() {
           </p>
           <p className="mt-4 text-base/7 text-pretty">
             Can’t find the answer you’re looking for? Reach out to our team.
-            <BackdropButton onClick="/contact" variant="tertiary">
-              customer support
-            </BackdropButton>
           </p>
+          <BackdropButton onClick="/contact" variant="link">
+            customer support
+          </BackdropButton>
         </div>
         <div className="lg:col-span-7 mt-10 lg:mt-0">
           <Accordion type="single" collapsible>
