@@ -1,14 +1,6 @@
 import { Service } from "@/lib/interfaces&types/services";
 import { useRouter } from "next/navigation";
-import {
-  RiComputerFill,
-  RiComputerLine,
-  RiFireFill,
-  RiFireLine,
-  RiVipCrownFill,
-  RiVipCrownLine,
-} from "react-icons/ri";
-import BackdropButton from "../button/button-dynamic";
+import BackdropButton from "../button/BackdropButton";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 export default function ProgramCard({
@@ -35,19 +27,21 @@ export default function ProgramCard({
       </CardContent>
       <CardFooter>
         {service.title === "Executive Health Coaching" ? (
-          <BackdropButton icon={RiVipCrownFill} hoverIcon={RiVipCrownLine}>
+          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
             Explore This Program
           </BackdropButton>
         ) : service.title === "Tech-Life Balance Training" ? (
-          <BackdropButton icon={RiComputerFill} hoverIcon={RiComputerLine}>
+          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
             Explore This Program
           </BackdropButton>
         ) : service.title === "Employee Burnout Prevention" ? (
-          <BackdropButton icon={RiFireFill} hoverIcon={RiFireLine}>
+          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
             Explore This Program
           </BackdropButton>
         ) : (
-          <BackdropButton>Explore This Program</BackdropButton>
+          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
+            Explore This Program
+          </BackdropButton>
         )}
       </CardFooter>
     </Card>

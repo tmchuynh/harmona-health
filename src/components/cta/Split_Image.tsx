@@ -3,7 +3,7 @@
 import { CTA } from "@/lib/interfaces&types/types";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import BackdropButton from "../button/button-dynamic";
+import BackdropButton from "../button/BackdropButton";
 
 export default function CallToActionImage({ cta }: { cta: CTA }) {
   const router = useRouter();
@@ -62,7 +62,7 @@ export default function CallToActionImage({ cta }: { cta: CTA }) {
             <BackdropButton
               variant={"secondary"}
               className="mx-0 w-full"
-              onClick={() => router.push("/programs/start-your-journey")}
+              onClick={"/programs/start-your-journey"}
             >
               Get Started Today!
             </BackdropButton>

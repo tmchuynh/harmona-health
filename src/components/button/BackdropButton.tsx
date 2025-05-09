@@ -1,12 +1,12 @@
+"use client";
+
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 import { Button } from "../ui/button";
 
 export default function BackdropButton({
   variant = "default",
-  href,
-  target,
   onClick,
-  rel,
   className,
   size,
   children,
@@ -24,18 +24,16 @@ export default function BackdropButton({
     | "link"
     | "icon"
     | "disabled";
-  target?: string;
   size?: "default" | "sm" | "lg";
-  rel?: string;
-  onClick?: () => void;
+  onClick: string;
   className?: string;
-  href?: string;
   children: React.ReactNode;
 }) {
+  const router = useRouter();
   return (
     <Button
       variant={variant}
-      onClick={onClick}
+      onClick={() => onClick && router.push(onClick)}
       size={size}
       className={cn(
         "hover:shadow-lg backdrop-blur-xl px-4 py-2 rounded-lg transition duration-200",
@@ -46,9 +44,7 @@ export default function BackdropButton({
         className
       )}
     >
-      <a href={href} target={target} rel={rel} className="px-3">
-        {children}
-      </a>
+      {children}
     </Button>
   );
 }

@@ -50,7 +50,11 @@ export default function Page() {
                 <p className="text-lg lg:text-xl">
                   {featuredResource.description}
                 </p>
-                <BackdropButton variant="outline" className="mt-2">
+                <BackdropButton
+                  variant="outline"
+                  onClick={featuredResource.href}
+                  className="mt-2"
+                >
                   View This Resource
                 </BackdropButton>
               </article>
@@ -73,6 +77,7 @@ export default function Page() {
                     variant="outline"
                     size="sm"
                     className="mt-3 text-xs"
+                    onClick={item.href}
                   >
                     Read More
                   </BackdropButton>

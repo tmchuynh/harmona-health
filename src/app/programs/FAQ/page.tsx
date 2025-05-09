@@ -1,9 +1,8 @@
 "use client";
 
-import BackdropButton from "@/components/button/button-dynamic";
 import { FAQ } from "@/lib/constants/services/frequently-asked-questions";
-import { RiTelegram2Fill, RiTelegram2Line } from "react-icons/ri";
 
+import BackdropButton from "@/components/button/BackdropButton";
 import {
   Accordion,
   AccordionContent,
@@ -35,12 +34,7 @@ export default function Page() {
           </p>
           <p className="mt-4 text-base/7 text-pretty">
             Can’t find the answer you’re looking for? Reach out to our team.
-            <BackdropButton
-              icon={RiTelegram2Line}
-              hoverIcon={RiTelegram2Fill}
-              href="/contact"
-              variant="tertiary"
-            >
+            <BackdropButton onClick="/contact" variant="tertiary">
               customer support
             </BackdropButton>
           </p>

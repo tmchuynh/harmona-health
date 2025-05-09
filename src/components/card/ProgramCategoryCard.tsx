@@ -1,7 +1,7 @@
 import { ServiceCategory } from "@/lib/interfaces&types/services";
 import { useRouter } from "next/navigation";
-import BackdropButton from "../button/button-dynamic";
 import { Card, CardContent, CardFooter } from "../ui/card";
+import BackdropButton from "../button/BackdropButton";
 
 export default function ProgramCategoryCard({
   category,
@@ -25,7 +25,7 @@ export default function ProgramCategoryCard({
         <p>{category.description}</p>
       </CardContent>
       <CardFooter>
-        <BackdropButton variant="tertiary">
+        <BackdropButton onClick={`/programs/${category.id}`} variant="tertiary">
           Explore This Category
         </BackdropButton>
       </CardFooter>

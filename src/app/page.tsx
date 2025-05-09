@@ -52,10 +52,10 @@ export default function Page() {
                 are.
               </p>
               <div className="flex md:flex-row flex-col items-center gap-3 mt-10">
-                <BackdropButton href="/programs/start-your-journey">
+                <BackdropButton onClick="/programs/start-your-journey">
                   Get started
                 </BackdropButton>
-                <BackdropButton variant="accent" href="/programs">
+                <BackdropButton variant="accent" onClick="/programs">
                   Learn more
                 </BackdropButton>
               </div>
@@ -226,11 +226,11 @@ export default function Page() {
             <div className="flex justify-center xl:justify-start items-center gap-x-6 mt-10">
               <BackdropButton
                 variant="accent"
-                href="/programs/start-your-journey"
+                onClick="/programs/start-your-journey"
               >
                 Get started
               </BackdropButton>
-              <BackdropButton variant="outline" href="/programs">
+              <BackdropButton variant="outline" onClick="/programs">
                 Learn more
               </BackdropButton>
             </div>
