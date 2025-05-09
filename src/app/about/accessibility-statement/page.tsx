@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { accessibilityStatement } from "@/lib/constants/about/about";
-import React from "react";
 import { FaCheck } from "react-icons/fa";
 export default function Page() {
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-      <h1>Wellness Without Barriers</h1>
+      <h1>Removing Barriers, Creating Possibility</h1>
       <h5>Because Everyone Deserves to Feel Seen, Supported, and Empowered</h5>
 
       <p>
@@ -22,7 +21,7 @@ export default function Page() {
 
       <div className="flex flex-col gap-10 py-5">
         <section>
-          <h2>What Accessibility Means to Us at HH</h2>
+          <h2>How We Champion Accessibility</h2>
           <p>
             Accessibility is an essential part of how we bring our mission to
             life. We are dedicated to making our website, content, and services
@@ -38,10 +37,10 @@ export default function Page() {
         </section>
 
         <section>
-          <h2>Measures We Have Taken</h2>
+          <h2>Steps We’ve Taken Toward Digital Inclusion</h2>
           <p>
-            To support digital accessibility, we have taken the following
-            measures:
+            In our effort to make our platform usable for everyone, here’s what
+            we’ve done:
           </p>
           <ul className="gap-2 grid grid-cols-1 lg:grid-cols-2">
             {accessibilityStatement.map((item, index) => (
@@ -58,14 +57,14 @@ export default function Page() {
         </section>
 
         <section>
-          <h2>Continuous Improvements</h2>
+          <h2>Ongoing Commitment to Accessibility</h2>
           <p>
-            We recognize that digital accessibility is an ongoing journey.
-            Harmona Health is committed to continuous testing, evaluation, and
-            improvement of our digital assets to maintain a high standard of
-            accessibility.
+            At Harmona Health, we understand that accessibility is not a
+            one-time achievement — it’s a continuous journey. We are dedicated
+            to regularly testing, reviewing, and enhancing our digital
+            experiences to ensure they remain inclusive, user-friendly, and
+            aligned with the highest accessibility standards.
           </p>
-          <p>We perform:</p>
           <ul className="gap-2 grid grid-cols-1 lg:grid-cols-2">
             <li className="flex items-start gap-x-3">
               <div className="flex-shrink-0 mt-2">
