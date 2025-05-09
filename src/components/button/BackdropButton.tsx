@@ -41,7 +41,7 @@ export default function BackdropButton({
           "shadow-none hover:underline underline-offset-2 px-0 backdrop-blur-none":
             variant === "link",
         },
-        { "hover:shadow-lg": variant !== "outline" },
+        { "hover:shadow-lg": variant !== "outline" && variant !== "link" },
         className
       )}
     >
