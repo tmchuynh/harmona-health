@@ -1,5 +1,4 @@
 import { IconType } from "react-icons/lib";
-import { Step } from "./resources";
 
 export type NotFoundContextType = {
   isNotFound: boolean;
@@ -77,9 +76,16 @@ export type Step = {
 };
 
 export type Paragraph = {
-  title: string;
-  subtitle?: string;
   intro?: string;
   details: string[];
   image?: string;
+};
+
+export type Section = {
+  title: string;
+  subtitle?: string;
+  intro?: string;
+  details?: string[];
+  image?: string;
+  paragraphs: Paragraph[];
 };

@@ -1,6 +1,6 @@
 import { ChartOptions } from "chart.js";
 import { IconType } from "react-icons";
-import { Data, ListDetail, Paragraph, Step, Workout } from "./types";
+import { Data, ListDetail, Section, Step, Workout } from "./types";
 
 export interface ResourceCategory {
   id: string;
@@ -203,8 +203,7 @@ export interface CTA extends ListDetail {
 
 export interface ArticleInformation {
   introduction: string[];
-  description: string[];
-  paragraphs: Paragraph[];
+  sections: Section[];
   conclusion: string[];
   image?: string;
 }
