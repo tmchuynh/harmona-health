@@ -59,7 +59,7 @@
 }
 
 :root {
-  --background: oklch(0.95 0 238.64);
+  --background: oklch(0.99 0.0011 0);
   --foreground: oklch(0.11 0.002 238.64);
   --card: oklch(0.96 0 360);
   --card-foreground: oklch(0.11 0.002 238.64);
@@ -98,16 +98,7 @@
   --sidebar-ring: oklch(0.65 0.01 120);
   --radius: 0.625rem;
 }
-@layer components {
-  Card, AlertDialog, Dialog {
-    @apply bg-card;
-  }
-  Popover {
-    @apply bg-popover;
-  }
-}
-  
-
+ 
 .dark {
   --background: oklch(0.11 0.002 238.64);
   --foreground: oklch(0.96 0 360);
@@ -194,6 +185,18 @@
   src: url("/fonts/Poppins-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+@layer components {
+  Card, AlertDialog, Dialog {
+    @apply bg-card;
+  }
+  Popover {
+    @apply bg-popover;
+  }
+  Image {
+    @apply object-cover object-center rounded-2xl;
+  }
 }
 
 @layer base {
