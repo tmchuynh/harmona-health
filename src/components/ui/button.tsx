@@ -10,20 +10,23 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground shadow-xs hover:bg-primary/90",
+          "bg-primary text-primary-foreground shadow-xs hover:shadow-md dark:hover:bg-primary/90",
         destructive:
-          "bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+          "bg-destructive text-white shadow-xs hover:shadow-md focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
-          "border bg-background shadow-xs hover:bg-accent/60 hover:border-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+          "border bg-background border-double border-4 shadow-xs hover:border-outline",
         secondary:
-          "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
-        ghost:
-          "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
+          "bg-secondary text-secondary-foreground shadow-xs hover:shadow-md dark:hover:bg-secondary/80",
+        ghost: "hover:bg-accent dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
+        muted:
+          "bg-muted text-muted-foreground shadow-xs hover:shadow-md dark:hover:bg-muted/80",
         tertiary:
-          "bg-tertiary text-tertiary-foreground shadow-xs hover:bg-tertiary/80",
-        fancy: "bg-fancy text-fancy-foreground shadow-xs hover:bg-fancy/80",
-        accent: "bg-accent text-accent-foreground shadow-xs hover:bg-accent/80",
+          "bg-tertiary text-tertiary-foreground shadow-xs hover:shadow-md dark:hover:bg-tertiary/80",
+        fancy:
+          "bg-fancy text-fancy-foreground shadow-xs hover:shadow-md dark:hover:bg-fancy/80",
+        accent:
+          "bg-accent text-accent-foreground  outline shadow-xs hover:shadow-md dark:hover:bg-accent/80",
         disabled:
           "border-transparent bg-muted/45 text-muted-foreground/50 cursor-not-allowed",
         icon: "bg-transparent dark:text-secondary hover:text-tertiary shadow-none dark:hover:text-accent",
