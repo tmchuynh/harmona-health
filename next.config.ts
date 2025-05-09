@@ -20,6 +20,7 @@ const imageHosts = [
   "rainn.org",
   "play-lh.googleusercontent.com",
   "c.media-amazon.com",
+  "media.istockphoto.com",
 ];
 
 const nextConfig: NextConfig = {
