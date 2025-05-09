@@ -49,7 +49,7 @@ export default function Page() {
     <>
       {articleInformation && (
         <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
-          <div className="gap-2 lg:gap-5 grid md:grid-cols-3 lg:grid-cols-6 my-3">
+          <div className="items-center gap-9 lg:gap-5 grid md:grid-cols-3 lg:grid-cols-6 mb-5">
             <div className="md:col-span-2 lg:col-span-4">
               <h1>{articleInformation.title}</h1>
               <h5>{articleInformation.subtitle}</h5>
@@ -62,7 +62,7 @@ export default function Page() {
               <Image
                 src={articleData.image}
                 alt={articleInformation.title}
-                className="lg:col-span-2 my-4 rounded-2xl w-full h-auto object-cover object-center aspect-video"
+                className="order-first lg:col-span-2 my-4 rounded-2xl w-full h-full object-cover object-center lg:aspect-video"
                 width={1000}
                 height={1000}
               />
@@ -74,25 +74,25 @@ export default function Page() {
               <div className="flex flex-col gap-4 lg:gap-6">
                 {articleData.sections.map((section, aIndex) => (
                   <div key={aIndex}>
-                    <div className="gap-3 grid grid-cols-1 md:grid-cols-6 my-3">
+                    <div className="gap-6 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8 my-3">
                       {section.image && (
                         <div
-                          className={cn("col-span-2", {
-                            "col-span-3 order-last": aIndex % 2 === 0,
+                          className={cn("col-span-3 lg:col-span-3", {
+                            "order-last": aIndex % 2 === 0,
                           })}
                         >
                           <Image
                             src={section.image}
                             alt={section.title}
-                            className="my-4 rounded-2xl w-full h-auto object-cover object-center aspect-video"
+                            className="my-4 rounded-2xl w-full h-auto object-cover object-center lg:aspect-9/10"
                             width={1000}
                             height={1000}
                           />
                         </div>
                       )}
                       <div
-                        className={cn("col-span-4", {
-                          "col-span-3": aIndex % 2 === 0,
+                        className={cn("col-span-3 lg:col-span-5", {
+                          "col-span-6 lg:col-span-5": !section.image,
                         })}
                       >
                         <h2>{section.title}</h2>
@@ -111,33 +111,19 @@ export default function Page() {
                         <div key={pIndex}>
                           <div
                             className={cn(
-                              "gap-3 lg:gap-8 grid grid-cols-1 md:grid-cols-5",
-                              {
-                                "md:grid-cols-7": pIndex % 3 === 0,
-                              }
+                              "gap-6 lg:gap-8 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8"
                             )}
                           >
-                            {paragraph.image && (
-                              <div
-                                className={cn("col-span-2", {
-                                  "order-last col-span-1": pIndex % 2 === 0,
-                                  "col-span-2": pIndex % 3 === 0,
-                                })}
-                              >
-                                <Image
-                                  src={paragraph.image}
-                                  alt={paragraph.topic}
-                                  className="my-4 rounded-2xl w-full h-auto aspect-square object-cover"
-                                  width={1000}
-                                  height={1000}
-                                />
-                              </div>
-                            )}
                             <div
-                              className={cn("col-span-3", {
-                                "col-span-4": pIndex % 2 === 0,
-                                "col-span-5": pIndex % 3 === 0,
-                              })}
+                              className={cn(
+                                "col-span-3 lg:col-span-4 xl:col-span-5 2xl:col-span-6",
+                                {
+                                  "lg:col-span-5": pIndex % 2 === 0,
+                                  "order-last": pIndex % 3 === 0,
+                                  "col-span-6 lg:col-span-8 xl:col-span-8 2xl:col-span-8":
+                                    !paragraph.image,
+                                }
+                              )}
                             >
                               <h3>{paragraph.topic}</h3>
                               {paragraph.supporting.map((content, sIndex) => (
@@ -146,6 +132,26 @@ export default function Page() {
                                 </p>
                               ))}
                             </div>
+
+                            {paragraph.image && (
+                              <div
+                                className={cn(
+                                  "col-span-3 lg:col-span-4 xl:col-span-3 2xl:col-span-2 flex flex-col h-full justify-center",
+                                  {
+                                    "lg:col-span-3": pIndex % 2 === 0,
+                                    "": pIndex % 3 === 0,
+                                  }
+                                )}
+                              >
+                                <Image
+                                  src={paragraph.image}
+                                  alt={paragraph.topic}
+                                  className="my-4 rounded-2xl w-full h-full lg:aspect-square object-cover"
+                                  width={1000}
+                                  height={1000}
+                                />
+                              </div>
+                            )}
                           </div>
                           {paragraph.concluding && (
                             <p className="indent-5">{paragraph.concluding}</p>
