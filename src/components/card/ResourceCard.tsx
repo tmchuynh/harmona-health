@@ -50,12 +50,12 @@ export default function ResourceCard({
           height={240}
         />
       </div>
-      <div className="relative h-full cursor-pointer">
-        <div className="flex items-center gap-5 -ml-2">
+      <div className="relative mx-auto w-11/12 h-full">
+        <div className="flex items-center gap-5">
           <h3>
             <a
               href={resource.href}
-              className="underline-offset-2 hover:underline"
+              className="underline-offset-4 hover:underline decoration-1"
             >
               {resource.title}
             </a>
@@ -67,17 +67,19 @@ export default function ResourceCard({
                 <FaInfoCircle />
               </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[425px]">
+            <DialogContent className="md:max-w-3/5">
               <DialogHeader>
                 <DialogTitle className="sr-only">More Information</DialogTitle>
                 <h2>{resource.title}</h2>
-                <DialogDescription>
-                  {information?.description}
-                </DialogDescription>
+                {information?.description && (
+                  <DialogDescription>
+                    {information.description}
+                  </DialogDescription>
+                )}
               </DialogHeader>
-              <div className="gap-4 grid py-4">
+              <div className="gap-4 grid lg:grid-cols-2">
                 <div className="flex flex-col gap-2">
-                  <h4>Key Points</h4>
+                  <h3>Key Points</h3>
                   <ul className="pl-5 list-disc">
                     {information?.keypoints.map((point, index) => (
                       <li key={index}>{point}</li>
@@ -85,7 +87,7 @@ export default function ResourceCard({
                   </ul>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h4>Benefits</h4>
+                  <h3>Benefits</h3>
                   <ul className="pl-5 list-disc">
                     {information?.benefits.map((benefit, index) => (
                       <li key={index}>{benefit}</li>
