@@ -76,16 +76,16 @@ export type Step = {
 };
 
 export type Paragraph = {
+  image?: string;
   topic: string;
   supporting: string[];
   concluding?: string;
-  image?: string;
 };
 
 export type Section = {
+  image?: string;
   title: string;
   subtitle?: string;
   preface?: string[];
-  image?: string;
   paragraphs: Paragraph[];
 };
