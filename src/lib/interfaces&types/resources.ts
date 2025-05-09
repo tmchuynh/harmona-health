@@ -202,8 +202,8 @@ export interface CTA extends ListDetail {
 }
 
 export interface ArticleInformation {
+  image?: string;
   preface: string[];
   sections: Section[];
   conclusion: string[];
-  image?: string;
 }
