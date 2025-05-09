@@ -1,10 +1,7 @@
 import { successStories } from "@/lib/constants/services/successStories";
-import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
+import { groupAndSortByProperties } from "@/lib/utils/sort";
 import Image from "next/image";
-import React from "react";
 export default function Page() {
-  const sortedStories = sortByProperty(successStories, "program");
-
   const groupedAndSorted = groupAndSortByProperties(
     successStories,
     "program", // Group by "program"
@@ -34,11 +31,11 @@ export default function Page() {
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-7">
         {groupedAndSorted.map((story) => (
           <div key={story.id} className="shadow-md mb-4 p-4 border rounded-lg">
-            <div className="flex mb-4">
+            <div className="flex mb-4 w-full">
               <Image
                 src={story.image}
                 alt={story.name}
-                className="rounded-2xl object-cover object-center"
+                className="rounded-2xl w-3/4 object-cover object-center aspect-video"
                 width={300}
                 height={300}
               />
