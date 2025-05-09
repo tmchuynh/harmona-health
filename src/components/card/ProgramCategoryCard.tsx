@@ -1,7 +1,7 @@
 import { ServiceCategory } from "@/lib/interfaces&types/services";
 import { useRouter } from "next/navigation";
-import { Card, CardContent, CardFooter } from "../ui/card";
 import BackdropButton from "../button/BackdropButton";
+import { Card, CardContent, CardFooter } from "../ui/card";
 
 export default function ProgramCategoryCard({
   category,
@@ -25,7 +25,7 @@ export default function ProgramCategoryCard({
         <p>{category.description}</p>
       </CardContent>
       <CardFooter>
-        <BackdropButton onClick={`/programs/${category.id}`} variant="tertiary">
+        <BackdropButton onClick={`/programs/${category.id}`} variant="fancy">
           Explore This Category
         </BackdropButton>
       </CardFooter>
