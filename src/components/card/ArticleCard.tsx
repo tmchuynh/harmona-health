@@ -1,6 +1,7 @@
 "use client";
 
 import { Article } from "@/lib/interfaces&types/resources";
+import { formatToURL } from "@/lib/utils/format";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import BackdropButton from "../button/BackdropButton";
@@ -25,7 +26,11 @@ export default function ArticleCard({ article }: { article: Article }) {
         <div>
           <h3
             onClick={() =>
-              router.push(`/wellness-library/health-articles/${article.title}`)
+              router.push(
+                `/wellness-library/health-articles/${formatToURL(
+                  article.title
+                )}`
+              )
             }
             className="mt-3 underline-offset-2 group-hover:underline"
           >
@@ -35,7 +40,9 @@ export default function ArticleCard({ article }: { article: Article }) {
           <p>{article.description}</p>
         </div>
         <BackdropButton
-          onClick={`/wellness-library/health-articles/${article.title}`}
+          onClick={`/wellness-library/health-articles/${formatToURL(
+            article.title
+          )}`}
         >
           Read This Article
         </BackdropButton>
