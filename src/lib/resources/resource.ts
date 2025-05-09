@@ -1763,17 +1763,17 @@ export const featuredResource: Resource[] = [
     image:
       "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
   },
-  {
-    id: "wellness-library/digital-resources/wellness-dictionary",
-    title: "Wellness Dictionary",
-    href: "/wellness-library/digital-resources/wellness-dictionary",
-    description:
-      "Navigate the complex world of multidimensional health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
-    subtitle:
-      "Demystifying the language of wellness with clear, concise definitions you can trust.",
-    image:
-      "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
-  },
+  // {
+  //   id: "wellness-library/digital-resources/wellness-dictionary",
+  //   title: "Wellness Dictionary",
+  //   href: "/wellness-library/digital-resources/wellness-dictionary",
+  //   description:
+  //     "Navigate the complex world of multidimensional health with our Wellness Dictionary: over 500 definitions of terms, acronyms, and methodologies—from adaptogens and biofeedback to circadian rhythm and functional foods. Each entry includes clear explanations, usage examples, and links to deeper learning.",
+  //   subtitle:
+  //     "Demystifying the language of wellness with clear, concise definitions you can trust.",
+  //   image:
+  //     "https://www.research.colostate.edu/healthyagingcenter/wp-content/uploads/sites/32/2024/04/mood-7529903_1280-1024x682.png",
+  // },
   {
     id: "wellness-library/digital-resources",
     title: "Digital Resources for Mental Health",
