@@ -1,5 +1,48 @@
-import React from "react";
+"use client";
+
+import { ArticleInformation } from "@/lib/interfaces&types/resources";
+import { articles } from "@/lib/resources/articles/articles";
+import { capitalize, formatUrlToID } from "@/lib/utils/format";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+
 export default function Page() {
+  const segments = usePathname().split("/");
+  const article = segments[segments.length - 1];
+  const articleID = formatUrlToID(article);
+  const articleInformation = articles.find(
+    (article) => article.title === capitalize(article.title)
+  );
+
+  console.log("article", article);
+  console.log("articleID", articleID);
+
+  console.log("articleInformation", articleInformation);
+
+  const [articleData, setArticleData] = useState<ArticleInformation[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const articleModule = await import(
+          `@/lib/resources/articles/${article}`
+        );
+        // Return the specific named export that matches articleID
+        if (articleModule[articleID]) {
+          setArticleData(articleModule[articleID]);
+        } else {
+          console.error(`Export named ${articleID} not found in module`);
+        }
+      } catch (error) {
+        console.error(`Error loading resource: ${error}`);
+      }
+    };
+
+    fetchData();
+  }, [article, articleID]);
+
+  console.log("articleData", articleData);
+
   return (
     <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
       <h1>Article [article]</h1>
