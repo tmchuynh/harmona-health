@@ -3,22 +3,13 @@
 import EventsCard from "@/components/card/EventsCard";
 import { FeaturedImageGallery } from "@/components/images/FeaturedImageGallery";
 import { events, images, workshops } from "@/lib/constants/about/events";
-import { formatDate } from "@/lib/utils/format";
 import {
   filterByDateComparison,
   groupAndSortByProperties,
 } from "@/lib/utils/sort";
-import { useEffect } from "react";
 export default function Page() {
   const date = new Date();
-  const formatedDate = formatDate(date);
-
   const dateString = date.toString();
-  useEffect(() => {
-    console.log(date);
-
-    console.log(formatedDate);
-  }, []);
   const sortedEvents = groupAndSortByProperties(
     events,
     "date",
