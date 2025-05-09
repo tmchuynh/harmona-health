@@ -5,14 +5,13 @@ import {
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
 import {
-  HeartPulseIcon,
-  LayersIcon,
+  AccessibilityIcon,
   BrainIcon,
+  ClipboardCheckIcon,
   FileTextIcon,
   HandshakeIcon,
-  ClipboardCheckIcon,
-  AccessibilityIcon,
-  BookTextIcon,
+  HeartPulseIcon,
+  LayersIcon,
 } from "lucide-react";
 
 export const mainPages: NavigationMenu[] = [
@@ -69,12 +68,6 @@ export const secondaryPages: NavigationMenu[] = [
     description: "Explore educational content written by our experts.",
     href: "/wellness-library/health-articles",
     icon: FileTextIcon,
-  },
-  {
-    name: "Wellness Dictionary",
-    href: "/wellness-library/digital-resources/wellness-dictionary",
-    description: "Understand wellness terms and concepts with our glossary.",
-    icon: BookTextIcon,
   },
   {
     name: "Self Assessments",
