@@ -1,6 +1,6 @@
 "use client";
 
-import { CTA } from "@/lib/interfaces&types/types";
+import { CTA } from "@/lib/interfaces&types/resources";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import BackdropButton from "../button/BackdropButton";
