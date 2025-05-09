@@ -25,7 +25,10 @@ export default function ProgramCategoryCard({
         <p>{category.description}</p>
       </CardContent>
       <CardFooter>
-        <BackdropButton onClick={`/programs/${category.id}`} variant="fancy">
+        <BackdropButton
+          onClick={`/programs/${category.id}`}
+          variant="secondary"
+        >
           Explore This Category
         </BackdropButton>
       </CardFooter>

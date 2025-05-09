@@ -27,19 +27,31 @@ export default function ProgramCard({
       </CardContent>
       <CardFooter>
         {service.title === "Executive Health Coaching" ? (
-          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
+          <BackdropButton
+            variant="accent"
+            onClick={`/programs/${categoryId}/${service.id}`}
+          >
             Explore This Program
           </BackdropButton>
         ) : service.title === "Tech-Life Balance Training" ? (
-          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
+          <BackdropButton
+            variant="accent"
+            onClick={`/programs/${categoryId}/${service.id}`}
+          >
             Explore This Program
           </BackdropButton>
         ) : service.title === "Employee Burnout Prevention" ? (
-          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
+          <BackdropButton
+            variant="accent"
+            onClick={`/programs/${categoryId}/${service.id}`}
+          >
             Explore This Program
           </BackdropButton>
         ) : (
-          <BackdropButton onClick={`/programs/${categoryId}/${service.id}`}>
+          <BackdropButton
+            variant="accent"
+            onClick={`/programs/${categoryId}/${service.id}`}
+          >
             Explore This Program
           </BackdropButton>
         )}
