@@ -5,40 +5,40 @@ export const affiliateCompanies: Company[] = [
     name: "Healthy Living Co.",
     description:
       "A lifestyle brand offering products for mindful living, from wellness gadgets to healthy food options.",
-    logo: "/images/Healthy.jpeg",
+    logo: "/images/Healthy.png",
   },
   {
     name: "Wellness Innovations",
     description:
       "A tech company developing apps to enhance mental well-being, from meditation to sleep tracking.",
-    logo: "/images/Wellness.jpeg",
+    logo: "/images/Wellness.png",
   },
   {
     name: "Vibrant Life Nutrition",
     description:
       "Nutritional supplement brand focused on providing high-quality vitamins and minerals for optimal health.",
-    logo: "/images/Vibrant.jpeg",
+    logo: "/images/Vibrant.png",
   },
   {
     name: "FitTech Solutions",
     description:
       "Innovative fitness equipment and technology to enhance physical training and improve performance.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/FitTech.png",
   },
   {
     name: "PureWell Products",
     description:
       "A sustainable wellness brand focused on organic health products, from skincare to essential oils.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/PureWell.png",
   },
 ];
 
 export const partnershipCompanies: Company[] = [
   {
-    name: "WellCo Enterprises",
+    name: "WelCo Enterprises",
     description:
       "A global wellness brand focused on corporate wellness solutions, offering workshops and seminars.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/WelCo.png",
     partnershipDetails:
       "Exclusive partner for corporate wellness programs, collaborating on large-scale wellness initiatives.",
   },
