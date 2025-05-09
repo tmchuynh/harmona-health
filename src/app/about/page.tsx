@@ -20,12 +20,13 @@ export default function Page() {
       <div className="flex flex-col gap-10 py-5">
         <section>
           <div className="max-w-2xl lg:max-w-none">
-            <h2>Our mission</h2>
+            <h2>Purpose with Heart</h2>
             <div className="gap-x-8 gap-y-20 grid grid-cols-1 lg:grid-cols-7 2xl:grid-cols-8">
               <div className="lg:flex-auto lg:col-span-3 lg:w-full">
                 <p className="text-xl/8">
-                  At Harmona Health, we are dedicated to transforming lives
-                  through the power of holistic wellness.
+                  At Harmona Health, we guide individuals to wellness with care,
+                  empathy, and purpose — empowering every step of the journey
+                  through personalized, holistic support.
                 </p>
                 <p className="mt-3">
                   We believe that true health is about more than physical
@@ -33,7 +34,7 @@ export default function Page() {
                   and spirit. Our mission is simple: to empower individuals and
                   organizations to unlock their full potential, live with
                   vitality, and lead lives of balance, strength, and purpose.
-                </p>{" "}
+                </p>
                 <p>
                   Our goal is to build an ecosystem that is greater than the sum
                   of its parts—where diverse perspectives and expertise come
@@ -71,7 +72,7 @@ export default function Page() {
 
         <section>
           <div>
-            <h2>Our Story: A Journey Toward True Wellness</h2>
+            <h2>How Our Commitment to Wellness Began</h2>
             <p>
               Harmona Health was founded on the belief that wellness is not a
               destination — it’s a lifelong journey. At Harmona Health, we
@@ -139,7 +140,7 @@ export default function Page() {
               to help you reclaim what’s rightfully yours: a life filled with
               vitality, clarity, and strength. Over the years, we've helped
               individuals reclaim their energy, regain their strength, and
-              reimagine what’s possible when wellness becomes a way of life.
+              re-imagine what’s possible when wellness becomes a way of life.
             </p>
           </div>
 
@@ -211,7 +212,7 @@ export default function Page() {
                 </div>
                 <div className="relative w-full lg:max-w-xl xl:max-w-2xl lg:shrink-0">
                   <h2 className="mt-8 lg:mt-0">
-                    There are no "cookie-cutter" ways to do things
+                    Every path is unique — and so is the way forward
                   </h2>
                   <div>
                     <p className="mt-8 sm:max-w-xl lg:max-w-none font-medium text-pretty sm:text-xl/8 lg:text-lg">
@@ -240,7 +241,7 @@ export default function Page() {
                       lifestyle, your dreams.
                     </p>
                   </div>
-                  <h3 className="mt-8 lg:mt-0">You aren't alone.</h3>
+                  <h3 className="mt-8 lg:mt-5">You aren't alone.</h3>
                   <p>
                     You don’t have to walk this journey alone. We meet you where
                     you are and walk with you every step of the way, offering
@@ -248,7 +249,7 @@ export default function Page() {
                     health and create lasting change. We are here — to inspire,
                     to equip, and to walk beside you — as you build the life you
                     deserve.
-                  </p>{" "}
+                  </p>
                   <p>
                     We believe in you—in your strength, your potential, and your
                     ability to create lasting, positive change. Your journey to
@@ -327,8 +328,34 @@ export default function Page() {
 
         <section>
           <h2>What We Stand For</h2>
-          <p></p>
-          <div className="md:gap-10 grid lg:grid-cols-2">
+          <p>
+            At Harmona Health, we believe that wellness is more than a
+            destination — it’s a daily practice, a mindset, and a way of living
+            that brings you closer to your most vibrant self. We don’t chase
+            trends or quick fixes. Instead, we focus on what truly matters:
+            helping you create a life of clarity, strength, and balance through
+            intentional action, compassionate support, and a deep understanding
+            of who you are. Your journey is as unique as your fingerprint. And
+            that journey deserves care, patience, and expertise tailored to your
+            needs. Whether you're seeking more energy, emotional balance,
+            improved habits, or deeper resilience, our purpose is to walk beside
+            you with encouragement, insight, and unwavering belief in your
+            potential.
+          </p>
+          <p>
+            We are here to break down the noise, to simplify the science, and to
+            demystify wellness in a way that’s both approachable and empowering.
+            We guide you in building strong foundations — not just physically,
+            but mentally and emotionally. Because true wellness doesn’t live in
+            extremes. It lives in balance. It grows from self-awareness. And it
+            thrives when you're supported by people who genuinely care. This is
+            the heart of Harmona Health. We’re not just another wellness brand —
+            we’re a partner in your growth. Every step you take toward wholeness
+            is a step we take with you. We believe in your ability to rise, to
+            rebuild, and to re-imagine what's possible. And we’re here to help
+            you do just that — boldly, intentionally, and with purpose.
+          </p>
+          <div className="md:gap-10 grid lg:grid-cols-2 mt-2 md:mt-8">
             {commitments.map((item, index) => (
               <div
                 key={index}
@@ -410,7 +437,6 @@ export default function Page() {
             future where you not only thrive, but live your life with power,
             purpose, and unshakable confidence.
           </p>
-          <p>Explore how we support you at every stage of your growth:</p>
           <div className="gap-4 grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-2 mt-4 md:mt-9">
             <div className="relative lg:col-span-3">
               <div className="absolute inset-px bg-card rounded-lg max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]" />
@@ -422,23 +448,25 @@ export default function Page() {
                   width={700}
                   height={700}
                 />
-                <div className="p-10 pt-4">
-                  <h5>
-                    Awaken your fullest potential through integrated mind-body
-                    wellness.
-                  </h5>
-                  <h3>Comprehensive Wellness Programs</h3>
-                  <p>
-                    Our Wellness Programs weave together modern science, ancient
-                    healing traditions, and evidence-based practices to support
-                    transformation on every level. Through tailored coaching,
-                    mindfulness, and full-scale strategies, you’ll cultivate
-                    lasting resilience, balance, and vibrant energy. We believe
-                    wellness is not a destination, but a dynamic, ongoing
-                    journey — one that reconnects you with your truest,
-                    healthiest self. Embrace a life of deep vitality,
-                    authenticity, and joy.
-                  </p>
+                <div className="flex flex-col justify-between p-10 pt-4 h-full">
+                  <div>
+                    <h5>
+                      Awaken your fullest potential through integrated mind-body
+                      wellness.
+                    </h5>
+                    <h3>Comprehensive Wellness Programs</h3>
+                    <p>
+                      Our Wellness Programs weave together modern science,
+                      ancient healing traditions, and evidence-based practices
+                      to support transformation on every level. Through tailored
+                      coaching, mindfulness, and full-scale strategies, you’ll
+                      cultivate lasting resilience, balance, and vibrant energy.
+                      We believe wellness is not a destination, but a dynamic,
+                      ongoing journey — one that reconnects you with your
+                      truest, healthiest self. Embrace a life of deep vitality,
+                      authenticity, and joy.
+                    </p>
+                  </div>
                   <Button
                     className="mt-3"
                     onClick={() => router.push("/programs/wellness-programs")}
@@ -459,23 +487,25 @@ export default function Page() {
                   width={700}
                   height={700}
                 />
-                <div className="p-10 pt-4">
-                  <h5>
-                    Wellness isn't complete without mental and emotional
-                    balance.
-                  </h5>
-                  <h3>Mental & Emotional Well-Being</h3>
-                  <p>
-                    At Harmona Health, we recognize that true well-being
-                    requires care for the heart and mind, not just the body. Our
-                    programs combine therapy, mindfulness, and resilience
-                    coaching to foster emotional intelligence, stress
-                    management, and personal growth. Whether you're navigating
-                    life transitions or striving for deeper inner peace, our
-                    approach offers personalized support every step of the way.
-                    Heal, grow, and thrive with greater clarity, strength, and
-                    compassion for yourself.
-                  </p>
+                <div className="flex flex-col justify-between p-10 pt-4 h-full">
+                  <div>
+                    <h5>
+                      Wellness isn't complete without mental and emotional
+                      balance.
+                    </h5>
+                    <h3>Mental & Emotional Well-Being</h3>
+                    <p>
+                      At Harmona Health, we recognize that true well-being
+                      requires care for the heart and mind, not just the body.
+                      Our programs combine therapy, mindfulness, and resilience
+                      coaching to foster emotional intelligence, stress
+                      management, and personal growth. Whether you're navigating
+                      life transitions or striving for deeper inner peace, our
+                      approach offers personalized support every step of the
+                      way. Heal, grow, and thrive with greater clarity,
+                      strength, and compassion for yourself.
+                    </p>
+                  </div>
                   <Button
                     className="mt-3"
                     onClick={() => router.push("/programs/mental-health")}
@@ -496,22 +526,24 @@ export default function Page() {
                   width={700}
                   height={700}
                 />
-                <div className="p-10 pt-4">
-                  <h5>
-                    Redefine your relationship with food and reclaim your
-                    vitality.
-                  </h5>
-                  <h3>Nutrition Coaching</h3>
-                  <p>
-                    Nutrition is more than just eating — it’s about deeply
-                    nourishing your body and spirit. Our Nutrition Coaching goes
-                    beyond meal plans, blending functional nutrition, intuitive
-                    eating, and personalized strategies that honor your unique
-                    body and lifestyle. Through a supportive, empowering
-                    approach, we help you build habits that energize, heal, and
-                    sustain you. True strength begins from the inside out — and
-                    we’re here to guide your journey.
-                  </p>
+                <div className="flex flex-col justify-between p-10 pt-4 h-full">
+                  <div>
+                    <h5>
+                      Redefine your relationship with food and reclaim your
+                      vitality.
+                    </h5>
+                    <h3>Nutrition Coaching</h3>
+                    <p>
+                      Nutrition is more than just eating — it’s about deeply
+                      nourishing your body and spirit. Our Nutrition Coaching
+                      goes beyond meal plans, blending functional nutrition,
+                      intuitive eating, and personalized strategies that honor
+                      your unique body and lifestyle. Through a supportive,
+                      empowering approach, we help you build habits that
+                      energize, heal, and sustain you. True strength begins from
+                      the inside out — and we’re here to guide your journey.
+                    </p>
+                  </div>
                   <Button
                     className="mt-3"
                     onClick={() => router.push("/programs/nutrition-coaching")}
@@ -532,21 +564,24 @@ export default function Page() {
                   width={700}
                   height={700}
                 />
-                <div className="p-10 pt-4">
-                  <h5>
-                    Unlock strength, move with purpose, and live with vitality.
-                  </h5>
-                  <h3>Fitness Training</h3>
-                  <p>
-                    Our Fitness Training programs are designed for every stage
-                    of your journey — from beginner to seasoned athlete. With an
-                    emphasis on functional movement, injury prevention, and
-                    real-world strength, we customize training that builds more
-                    than just muscle — it builds confidence, energy, and lasting
-                    results. Every session moves you closer to your highest
-                    potential, empowering you to live actively, vibrantly, and
-                    fully aligned with your goals.
-                  </p>
+                <div className="flex flex-col justify-between p-10 pt-4 h-full">
+                  <div>
+                    <h5>
+                      Unlock strength, move with purpose, and live with
+                      vitality.
+                    </h5>
+                    <h3>Fitness Training</h3>
+                    <p>
+                      Our Fitness Training programs are designed for every stage
+                      of your journey — from beginner to seasoned athlete. With
+                      an emphasis on functional movement, injury prevention, and
+                      real-world strength, we customize training that builds
+                      more than just muscle — it builds confidence, energy, and
+                      lasting results. Every session moves you closer to your
+                      highest potential, empowering you to live actively,
+                      vibrantly, and fully aligned with your goals.
+                    </p>
+                  </div>
                   <Button
                     className="mt-3"
                     onClick={() => router.push("/programs/fitness-training")}
@@ -567,20 +602,23 @@ export default function Page() {
                   width={700}
                   height={700}
                 />
-                <div className="p-10 pt-4">
-                  <h5>Thriving teams start with thriving individuals</h5>
-                  <h3>Corporate Wellness</h3>
-                  <p>
-                    We collaborate with organizations to nurture employee
-                    well-being at every level — physically, mentally, and
-                    emotionally. Our Corporate Wellness initiatives blend stress
-                    reduction, mental health strategies, fitness programs, and
-                    leadership development into a powerful blueprint for
-                    organizational vitality. By creating spaces where well-being
-                    fuels innovation and resilience, we help businesses grow
-                    stronger from the inside out. Investing in people isn't just
-                    good leadership — it’s the foundation of lasting success.
-                  </p>
+                <div className="flex flex-col justify-between p-10 pt-4 h-full">
+                  <div>
+                    <h5>Thriving teams start with thriving individuals</h5>
+                    <h3>Corporate Wellness</h3>
+                    <p>
+                      We collaborate with organizations to nurture employee
+                      well-being at every level — physically, mentally, and
+                      emotionally. Our Corporate Wellness initiatives blend
+                      stress reduction, mental health strategies, fitness
+                      programs, and leadership development into a powerful
+                      blueprint for organizational vitality. By creating spaces
+                      where well-being fuels innovation and resilience, we help
+                      businesses grow stronger from the inside out. Investing in
+                      people isn't just good leadership — it’s the foundation of
+                      lasting success.
+                    </p>
+                  </div>
                   <Button
                     className="mt-3"
                     onClick={() => router.push("/programs/corporate-wellness")}
