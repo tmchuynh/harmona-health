@@ -14,7 +14,9 @@ export default function Page() {
 
   console.log(capitalize(article));
   const articleID = formatUrlToID(article);
-  const articleInformation = articles.find((a) => a.id === article);
+  const articleInformation = articles.find(
+    (a) => a.title === capitalize(article)
+  );
 
   console.log("article", article);
   console.log("articleID", articleID);

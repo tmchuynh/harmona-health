@@ -14,7 +14,7 @@ export const articles: Article[] = [
   },
   {
     id: "gut-health-importance",
-    title: "The Importance of Gut Health",
+    title: "The Importance Of Gut Health",
     subtitle: "How Your Gut Affects Your Overall Well-Being",
     description:
       "Explore the critical role of gut health in your overall well-being. This article explains the gut-brain connection, how gut health impacts mood, immunity, and digestion, and provides tips for maintaining a healthy gut.",
@@ -26,7 +26,7 @@ export const articles: Article[] = [
   {
     id: "stress-management-strategies",
     title: "Effective Stress Management Strategies",
-    subtitle: "How to Handle Stress in Healthy Ways",
+    subtitle: "How To Handle Stress In Healthy Ways",
     description:
       "Discover proven strategies for managing stress effectively. This article outlines both short-term and long-term stress management techniques that help reduce anxiety, increase resilience, and promote a calm, focused mind.",
     introduction:
@@ -36,7 +36,7 @@ export const articles: Article[] = [
   },
   {
     id: "mindfulness-and-meditation",
-    title: "Mindfulness and Meditation",
+    title: "Mindfulness And Meditation",
     subtitle: "How to Cultivate Mindfulness in Your Life",
     description:
       "Mindfulness and meditation are powerful practices for enhancing mental clarity and emotional well-being. This article explores the benefits of mindfulness, how to get started with meditation, and tips for incorporating mindfulness into your daily routine.",
@@ -58,7 +58,7 @@ export const articles: Article[] = [
   },
   {
     id: "mindfulness-techniques",
-    title: "Mindfulness Techniques for Everyday Life",
+    title: "Mindfulness Techniques For Everyday Life",
     subtitle: "How to Practice Mindfulness in the Modern World",
     description:
       "Mindfulness is a powerful tool for reducing stress and enhancing mental clarity. This article explores simple mindfulness practices that you can incorporate into your daily routine to improve focus, reduce anxiety, and promote emotional well-being.",
@@ -69,7 +69,7 @@ export const articles: Article[] = [
   },
   {
     id: "exercise-and-mental-health",
-    title: "Exercise and Mental Health",
+    title: "Exercise And Mental Health",
     subtitle: "How Physical Activity Improves Your Mood",
     description:
       "Exercise is not only good for your body—it’s also essential for mental health. This article explains the connection between physical activity and mood, offering tips for incorporating exercise into your routine for improved mental well-being.",
@@ -80,7 +80,7 @@ export const articles: Article[] = [
   },
   {
     id: "healthy-habits-for-busy-lifestyles",
-    title: "Healthy Habits for Busy Lifestyles",
+    title: "Healthy Habits For Busy Lifestyles",
     subtitle: "How to Stay Healthy in a Hectic Schedule",
     description:
       "Incorporating healthy habits into a busy lifestyle can be challenging, but it's essential for long-term well-being. This article offers practical tips for staying healthy, even when you have a packed schedule.",
@@ -91,7 +91,7 @@ export const articles: Article[] = [
   },
   {
     id: "mental-health-and-social-media",
-    title: "Mental Health and Social Media",
+    title: "Mental Health And Social Media",
     subtitle: "How Social Media Affects Your Mental Well-Being",
     description:
       "Social media can have both positive and negative effects on mental health. This article examines how social media influences mental well-being and offers tips for managing your social media use in a way that supports your mental health.",
@@ -102,7 +102,7 @@ export const articles: Article[] = [
   },
   {
     id: "self-care-practices-for-busy-people",
-    title: "Self-Care Practices for Busy People",
+    title: "Self Care Practices For Busy People",
     subtitle: "How to Make Time for Yourself When You're Short on Time",
     description:
       "Self-care is essential for maintaining mental and physical health, but it can be difficult to prioritize when life gets busy. This article provides quick, effective self-care practices that can be done even on the most hectic days.",
@@ -124,7 +124,7 @@ export const articles: Article[] = [
   },
   {
     id: "work-life-balance-tips",
-    title: "Work-Life Balance Tips",
+    title: "Work Life Balance Tips",
     subtitle: "How to Achieve a Healthy Work-Life Balance",
     description:
       "Achieving a healthy work-life balance is essential for overall well-being. This article provides practical tips for managing work and personal life effectively, ensuring you have time for both professional and personal pursuits.",
@@ -135,7 +135,7 @@ export const articles: Article[] = [
   },
   {
     id: "hydration-importance",
-    title: "The Importance of Hydration",
+    title: "The Importance Of Hydration",
     subtitle: "How Water Affects Your Health",
     description:
       "Staying hydrated is crucial for overall health. This article explains the importance of hydration, how much water you need, and tips for ensuring you stay properly hydrated throughout the day.",
