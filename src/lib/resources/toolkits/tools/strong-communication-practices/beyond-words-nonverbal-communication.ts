@@ -89,7 +89,8 @@ export const beyondWordsNonverbalCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1532634726-8b9fb99825c7",
+    image:
+      "https://plus.unsplash.com/premium_photo-1671431598263-fe43ff128856?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Tm9udmVyYmFsJTIwQ29tbXVuaWNhdGlvbnxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Functions of Nonverbal Communication",
@@ -149,7 +150,8 @@ export const beyondWordsNonverbalCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    image:
+      "https://plus.unsplash.com/premium_photo-1673835487034-542775f0a2a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Tm9udmVyYmFsJTIwQ29tbXVuaWNhdGlvbnxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Cultural Variations in Nonverbal Communication",
@@ -189,7 +191,8 @@ export const beyondWordsNonverbalCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1590080874944-38af2ef1f94b",
+    image:
+      "https://plus.unsplash.com/premium_photo-1664297879428-bf0bd75a12df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fE5vbnZlcmJhbCUyMENvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
   {
     title: "Improving Nonverbal Communication",
@@ -249,6 +252,7 @@ export const beyondWordsNonverbalCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1586281380394-281bc2c51cbd",
+    image:
+      "https://images.unsplash.com/photo-1585861907254-87ffbd8c1e14?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE5vbnZlcmJhbCUyMENvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
 ];

@@ -49,7 +49,8 @@ export const communicationInLeadership: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1508385082359-f38ae991e8f3",
+    image:
+      "https://plus.unsplash.com/premium_photo-1668383207188-f5474588d674?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGVhZGVyc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Building Trust and Credibility",
@@ -99,7 +100,8 @@ export const communicationInLeadership: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902",
+    image:
+      "https://images.unsplash.com/photo-1620767317854-aa89c01f4dcd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxlYWRlcnNoaXB8ZW58MHwxfDB8fHww",
   },
   {
     title: "Encouraging Engagement",
@@ -159,7 +161,8 @@ export const communicationInLeadership: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxlYWRlcnNoaXB8ZW58MHwxfDB8fHww",
   },
   {
     title: "Empowering and Developing Others",
@@ -249,6 +252,7 @@ export const communicationInLeadership: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1531379410502-63bfe8cdaf9b",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661766444310-014137fc422c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGxlYWRlcnNoaXB8ZW58MHwxfDB8fHww",
   },
 ];

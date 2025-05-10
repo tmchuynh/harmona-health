@@ -89,7 +89,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    image:
+      "https://plus.unsplash.com/premium_photo-1664533227575-560c4ff393d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW1wYXRoeXxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Expressing Compassion and Support",
@@ -139,7 +140,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+    image:
+      "https://images.unsplash.com/photo-1600299637171-d174627135ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aHVnfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Building Empathic Culture",
@@ -199,7 +201,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    image:
+      "https://images.unsplash.com/photo-1475609471617-0ef53b59cff5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aHVnfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Empathy in Conflict Resolution",
@@ -239,7 +242,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://media.istockphoto.com/id/2050239951/photo/dont-worry-sweetie-mommy-is-here.webp?a=1&b=1&s=612x612&w=0&k=20&c=bK771kC9kVslhFEmIHdXp5uCUHqfSJxUw9M8uUsk9jc=",
   },
   {
     title: "Empathy in Leadership",
@@ -339,7 +343,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1591640889261-603e96b81842?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtcGF0aHklMjBpbiUyMGxlYWRlcnN8ZW58MHwxfDB8fHww",
   },
   {
     title: "Empathy in Customer Service",
@@ -379,7 +384,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1630510590497-e69fac21bfbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVtcGF0aHklMjBpbiUyMGxlYWRlcnN8ZW58MHwxfDB8fHww",
   },
   {
     title: "Empathy in Education",
@@ -479,7 +485,8 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1664300900349-afd61c20f8b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVhY2hlcnxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Empathy in Community Engagement",
@@ -569,6 +576,7 @@ export const empathyInAction: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1544168190-79c17527004f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVhY2hlcnxlbnwwfDF8MHx8fDA%3D",
   },
 ];

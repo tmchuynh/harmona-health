@@ -39,7 +39,8 @@ export const connectThroughAudienceAwareness: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1560264418-c4445382edbc",
+    image:
+      "https://images.unsplash.com/photo-1544531585-b3fadf704c02?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QXVkaWVuY2V8ZW58MHwxfDB8fHww",
   },
   {
     title: "Tailoring Your Message",
@@ -79,7 +80,8 @@ export const connectThroughAudienceAwareness: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1596496054254-fd3b0c7ccffc",
+    image:
+      "https://plus.unsplash.com/premium_photo-1679547202405-cf2a83d69b42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEF1ZGllbmNlfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Engaging the Audience",
@@ -119,7 +121,8 @@ export const connectThroughAudienceAwareness: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    image:
+      "https://plus.unsplash.com/premium_photo-1679547202812-8891615fb37a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fEF1ZGllbmNlfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Ethical and Inclusive Communication",
@@ -159,6 +162,7 @@ export const connectThroughAudienceAwareness: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1531058020387-3be344556be6",
+    image:
+      "https://plus.unsplash.com/premium_photo-1679547202595-5b38d8fde3a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fEF1ZGllbmNlfGVufDB8MXwwfHx8MA%3D%3D",
   },
 ];

@@ -4,33 +4,39 @@ export const embraceDiversity: CommunicationTools[] = [
   {
     title: "Fostering Inclusive Language",
     description:
-      "Inclusive language creates a welcoming space for people of all backgrounds by acknowledging differences respectfully and avoiding marginalizing terms.",
+      "Inclusive language creates a welcoming space for people of all backgrounds by acknowledging differences respectfully and avoiding marginalizing terms. It’s essential to be aware of the language we use and how it can impact others.",
     items: {
       item: [
         {
           title: "Using Gender-Neutral Language",
           description:
-            "Avoid assumptions about gender by using terms that include everyone, especially in public or written communication.",
+            "Avoid assumptions about gender by using terms that include everyone, especially in public or written communication. This helps create a more inclusive environment. It also respects individuals' identities and avoids reinforcing stereotypes. This will help create a more inclusive environment.",
           examples: [
             "Saying 'they' instead of 'he' or 'she'",
             "Using 'everyone' or 'folks' instead of 'guys'",
             "Avoiding gendered job titles like 'fireman' or 'chairman'",
+            "Using 'partner' instead of 'husband' or 'wife'",
+            "Using 'spouse' instead of 'husband' or 'wife'",
+            "Using 'parent' instead of 'mother' or 'father'",
+            "Using 'sibling' instead of 'brother' or 'sister'",
           ],
         },
         {
           title: "Respecting Identity Terms",
           description:
-            "Honor how individuals self-identify, especially in relation to race, ethnicity, gender, and ability.",
+            "Honor how individuals self-identify, especially in relation to race, ethnicity, gender, and ability. This shows respect and understanding of their experiences. It also helps to avoid stereotypes and assumptions.",
           examples: [
             "Asking for and using correct pronouns",
             "Avoiding outdated or offensive terms",
             "Following cultural capitalization standards (e.g., Black, Indigenous)",
+            "Using 'person-first' language (e.g., 'person with a disability' instead of 'disabled person')",
+            "Using 'person of color' instead of 'minority'",
           ],
         },
         {
           title: "Removing Cultural Biases",
           description:
-            "Be mindful of assumptions or metaphors rooted in a specific cultural worldview that may exclude or confuse others.",
+            "Be mindful of assumptions or metaphors rooted in a specific cultural worldview that may exclude or confuse others. This helps to create a more inclusive environment. It also helps to avoid stereotypes and assumptions.",
           examples: [
             "Avoiding idioms that don’t translate universally",
             "Using plain, accessible language over slang",
@@ -39,38 +45,41 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1584467735871-d057a4e2f5be",
+    image:
+      "https://plus.unsplash.com/premium_photo-1680012591113-9a61eff8df4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGl2ZXJzZXxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Valuing Diverse Perspectives",
     description:
-      "True inclusion goes beyond representation—it involves actively listening to and elevating diverse voices to enrich dialogue and decision-making.",
+      "True inclusion goes beyond representation—it involves actively listening to and elevating diverse voices to enrich dialogue and decision-making. This fosters a culture of respect and collaboration.",
     items: {
       item: [
         {
           title: "Creating Space for All Voices",
           description:
-            "Encourage contributions from quieter or underrepresented members in group settings.",
+            "Encourage contributions from quieter or underrepresented members in group settings. ",
           examples: [
             "Using round-robin speaking formats",
             "Providing anonymous feedback options",
             "Proactively inviting input from diverse backgrounds",
+            "Using 'I' statements to express personal experiences",
           ],
         },
         {
           title: "Challenging Groupthink",
           description:
-            "Welcome respectful disagreement and alternative views to avoid echo chambers and broaden solutions.",
+            "Welcome respectful disagreement and alternative views to avoid echo chambers and broaden solutions.  ",
           examples: [
             "Asking, 'What’s another way to look at this?'",
             "Rotating leadership roles in team projects",
             "Encouraging 'devil’s advocate' thinking",
+            "Using anonymous voting to gauge opinions",
           ],
         },
         {
           title: "Recognizing Intersectionality",
           description:
-            "Understand that identity is multi-layered and that people experience the world in complex, overlapping ways.",
+            "Understand that identity is multi-layered and that people experience the world in complex, overlapping ways. ",
           examples: [
             "Including multiple perspectives in case studies or scenarios",
             "Avoiding tokenism in representation",
@@ -79,68 +88,75 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1509099836639-18ba1795216d",
+    image:
+      "https://images.unsplash.com/photo-1607748862156-7c548e7e98f4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGl2ZXJzZXxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Cross-Cultural Competence",
     description:
-      "Intercultural understanding improves communication and builds trust by recognizing values, norms, and communication styles across cultures.",
+      "Intercultural understanding improves communication and builds trust by recognizing values, norms, and communication styles across cultures. This fosters a culture of respect and collaboration. It also helps to avoid stereotypes and assumptions. This will help create a more inclusive environment.",
     items: {
       item: [
         {
           title: "Learning Cultural Communication Norms",
           description:
-            "Different cultures have distinct norms for eye contact, gestures, tone, and personal space.",
+            "Different cultures have distinct norms for eye contact, gestures, tone, and personal space. Understanding these can prevent misunderstandings. ",
           examples: [
             "Understanding that silence may signal respect, not discomfort",
             "Being aware of taboos or symbolic gestures",
             "Respecting hierarchy in formal communication",
+            "Using 'yes' or 'no' appropriately in different cultures",
+            "Understanding that some cultures may prefer indirect communication",
           ],
         },
         {
           title: "Practicing Cultural Humility",
           description:
-            "Approach unfamiliar cultures with openness and a willingness to learn, rather than assuming expertise.",
+            "Approach unfamiliar cultures with openness and a willingness to learn, rather than assuming expertise.  ",
           examples: [
             "Asking, 'What’s the best way to address this in your culture?'",
             "Admitting when you make mistakes and correcting them",
-            "Seeking out diverse media and narratives",
+            "Seeking out diverse media and narratives to broaden your perspective",
+            "Engaging in cultural exchange programs or events",
           ],
         },
         {
           title: "Adapting Communication Styles",
           description:
-            "Flex your approach based on audience needs, including language level, context, and cultural norms.",
+            "Flex your approach based on audience needs, including language level, context, and cultural norms. ",
           examples: [
             "Avoiding humor or idioms in international communications",
-            "Using visuals to support multilingual understanding",
+            "Using visuals to support multilingual understanding ",
             "Offering translation or interpretation support",
+            "Being mindful of time zones and scheduling",
           ],
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee9815",
+    image:
+      "https://images.unsplash.com/photo-1616126630578-565b20ba68a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGl2ZXJzZXxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Building Empathy and Connection",
     description:
-      "Empathy is the foundation of effective communication. Understanding and valuing diverse experiences fosters connection and collaboration.",
+      "Empathy is the foundation of effective communication. Understanding and valuing diverse experiences fosters connection and collaboration.  ",
     items: {
       item: [
         {
           title: "Practicing Active Listening",
           description:
-            "Listening with intent and empathy allows you to understand others' perspectives and respond thoughtfully.",
+            "Listening with intent and empathy allows you to understand others' perspectives and respond thoughtfully. ",
           examples: [
             "Using reflective listening techniques",
             "Asking clarifying questions to ensure understanding",
             "Validating feelings and experiences",
+            "Using 'I' statements to express personal experiences",
           ],
         },
         {
           title: "Creating Safe Spaces for Dialogue",
           description:
-            "Encourage open conversations about diversity, equity, and inclusion without fear of judgment or backlash.",
+            "Encourage open conversations about diversity, equity, and inclusion without fear of judgment or backlash. ",
           examples: [
             "Facilitating workshops on difficult topics",
             "Establishing ground rules for respectful dialogue",
@@ -150,7 +166,7 @@ export const embraceDiversity: CommunicationTools[] = [
         {
           title: "Celebrating Diversity",
           description:
-            "Recognize and celebrate the unique contributions of individuals from diverse backgrounds.",
+            "Recognize and celebrate the unique contributions of individuals from diverse backgrounds. ",
           examples: [
             "Highlighting cultural events or heritage months",
             "Sharing success stories from diverse team members",
@@ -160,7 +176,7 @@ export const embraceDiversity: CommunicationTools[] = [
         {
           title: "Encouraging Allyship",
           description:
-            "Support and empower others in advocating for diversity and inclusion within the workplace.",
+            "Support and empower others in advocating for diversity and inclusion within the workplace. ",
           examples: [
             "Mentoring individuals from underrepresented groups",
             "Speaking up against discrimination or bias",
@@ -170,7 +186,7 @@ export const embraceDiversity: CommunicationTools[] = [
         {
           title: "Continuous Learning",
           description:
-            "Commit to ongoing education about diversity, equity, and inclusion to enhance your understanding and skills.",
+            "Commit to ongoing education about diversity, equity, and inclusion to enhance your understanding and skills. ",
           examples: [
             "Participating in diversity training programs",
             "Reading books or articles on cultural competence",
@@ -179,18 +195,19 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1527628173875-3c7bfd28ad78?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QnVpbGRpbmclMjBFbXBhdGh5JTIwYW5kJTIwQ29ubmVjdGlvbnxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Creating Inclusive Environments",
     description:
-      "Fostering an inclusive environment requires intentional efforts to ensure everyone feels valued and respected.",
+      "Fostering an inclusive environment requires intentional efforts to ensure everyone feels valued and respected. ",
     items: {
       item: [
         {
           title: "Implementing Inclusive Policies",
           description:
-            "Develop and enforce policies that promote diversity, equity, and inclusion in the workplace.",
+            "Develop and enforce policies that promote diversity, equity, and inclusion in the workplace. ",
           examples: [
             "Creating a diversity and inclusion committee",
             "Establishing clear anti-discrimination policies",
@@ -229,7 +246,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661964412661-2ae2deb8c9a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q3JlYXRpbmclMjBJbmNsdXNpdmUlMjBFbnZpcm9ubWVudHN8ZW58MHwxfDB8fHww",
   },
   {
     title: "Bridging Generational Differences",
@@ -279,7 +297,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1603415526960-f7e0328d6c5b",
+    image:
+      "https://plus.unsplash.com/premium_photo-1729097072955-91e6635f8e6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnJpZGdpbmclMjBHZW5lcmF0aW9uYWwlMjBEaWZmZXJlbmNlc3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Addressing Microaggressions",
@@ -309,7 +328,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1531256379411-3a4b6fdaa3b1",
+    image:
+      "https://plus.unsplash.com/premium_photo-1742937261905-558bf1288a6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxkaXZlcnNlfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Practicing Linguistic Inclusion",
@@ -339,7 +359,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1612209339581-85c1d3d3b2f0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1683586974648-e73ffe3f6046?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxkaXZlcnNlfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Using Accessible Language",
@@ -389,7 +410,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    image:
+      "https://media.istockphoto.com/id/1185378998/photo/patient-receiving-bad-news-she-is-desperate-and-crying-doctor-support-and-comforting-her.webp?a=1&b=1&s=612x612&w=0&k=20&c=z8VMsFJNRvEh2-18QyZP8TvIKXyKL1DGQejqMWC7Xg4=",
   },
   {
     title: "Supporting Neurodiversity",
@@ -439,7 +461,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1626378924534-753a1c70dbee",
+    image:
+      "https://plus.unsplash.com/premium_photo-1683133526673-9ab5275974a3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TmV1cm9kaXZlcnNpdHl8ZW58MHwxfDB8fHww",
   },
   {
     title: "Being Aware of Language Barriers",
@@ -489,7 +512,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1606851092760-c9937f35f29c",
+    image:
+      "https://images.unsplash.com/photo-1629781163390-7fa352211054?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGFuZ3VhZ2UlMjBCYXJyaWVyc3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Inclusive Feedback Practices",
@@ -529,7 +553,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    image:
+      "https://plus.unsplash.com/premium_photo-1739027970007-b38397a43189?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SW5jbHVzaXZlJTIwRmVlZGJhY2t8ZW58MHwxfDB8fHww",
   },
   {
     title: "Navigating Generational Differences",
@@ -579,7 +604,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1600880291700-3c8f3f8f07e7",
+    image:
+      "https://plus.unsplash.com/premium_photo-1732614962196-5d504c91abe4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2VuZXJhdGlvbmFsJTIwRGlmZmVyZW5jZXN8ZW58MHwxfDB8fHww",
   },
   {
     title: "Inclusive Virtual Communication",
@@ -629,7 +655,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    image:
+      "https://plus.unsplash.com/premium_photo-1710294629911-8c89c30aa310?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmlydHVhbCUyMENvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
   {
     title: "Recognizing Religious and Spiritual Diversity",
@@ -679,7 +706,8 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1528354042629-b7453d0ef40f",
+    image:
+      "https://plus.unsplash.com/premium_photo-1677959658568-d15ee92e3be6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmVsaWdpb3VzJTIwYW5kJTIwU3Bpcml0dWFsfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Inclusive Storytelling and Messaging",
@@ -739,6 +767,7 @@ export const embraceDiversity: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1549924231-f129b911e442",
+    image:
+      "https://images.unsplash.com/photo-1681831130944-ad6a8443365f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3Rvcnl0ZWxsaW5nJTIwYW5kJTIwTWVzc2FnaW5nfGVufDB8MXwwfHx8MA%3D%3D",
   },
 ];

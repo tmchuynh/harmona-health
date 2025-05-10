@@ -39,7 +39,8 @@ export const digitalCommunicationPractices: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1581091012184-7f56c4f68dd0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1684179641331-e89c6320b6a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlnaXRhbCUyMHBsYXRmb3Jtc3xlbnwwfDF8MHx8fDA%3D",
   },
 
   {
@@ -80,7 +81,8 @@ export const digitalCommunicationPractices: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1584754166504-b8f21be4e0f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RG8lMjBOb3QlMjBEaXN0dXJifGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Choosing the Right Digital Channel",
@@ -120,7 +122,8 @@ export const digitalCommunicationPractices: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1590650516494-0c8f9e999064",
+    image:
+      "https://images.unsplash.com/photo-1629131530694-c2b44f0cd901?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
   {
     title: "Digital Etiquette and Empathy",
@@ -160,6 +163,7 @@ export const digitalCommunicationPractices: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661347856235-209a8bc637b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlnaXRhbCUyMEV0aXF1ZXR0ZXxlbnwwfDF8MHx8fDA%3D",
   },
 ];

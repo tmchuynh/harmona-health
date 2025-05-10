@@ -12,12 +12,12 @@ export const seekSupport: WorkLifeBalance[] = [
     workScenarioDescription:
       "An employee attempts to manage multiple projects on their own, struggling to meet deadlines and sacrificing quality. They are overwhelmed and beginning to feel frustrated with their workload.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1527742000003-83501b1cc0d9?ixid=MnwzNjUwMHwwfDF8c2VhY2h8MXx8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://media.istockphoto.com/id/1194440238/photo/times-to-working-in-the-morning-mobile-business-lifestyle-work-with-laptop-computer-outdoor.webp?a=1&b=1&s=612x612&w=0&k=20&c=m1FWggzGvUtcz-ZlRbbeB1W-cK0by_R2pfRzD2dkCkM=",
     lifeScenario: "Reaching Out to Colleagues for Assistance",
     lifeScenarioDescription:
       "The employee finally reaches out to a trusted colleague to help with a report. Together, they identify where they need support, re-prioritize tasks, and meet the deadline with better outcomes.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1590481482831-978cc28b3d3e?ixid=MnwzNjUwMHwwfDF8c2VhY2h8Mnx8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1692441603790-5f86bd344baf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZyaWVuZHN8ZW58MHx8MHx8fDA%3D",
     reasoning:
       "Asking for help doesn't undermine your capabilities—it leverages the collective strengths of your team. By recognizing when you need support, you avoid burnout and promote teamwork.",
     conclusion:
@@ -36,12 +36,12 @@ export const seekSupport: WorkLifeBalance[] = [
     workScenarioDescription:
       "An individual feels overwhelmed by the pressure of meeting work deadlines, family obligations, and personal goals. They try to shoulder everything without reaching out for help, leading to mental exhaustion.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1560807707-8cc777d1b7db?ixid=MnwzNjUwMHwwfDF8c2VhY2h8Mnx8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://media.istockphoto.com/id/1072859540/photo/busy-office-staff-in-business-time-working-hours-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=S0GRP8QIqJAYlsEqHXtYBoiHsJlw3h9XYRtBa9zvrQs=",
     lifeScenario: "Opening Up to a Partner About Stress and Anxiety",
     lifeScenarioDescription:
       "The individual opens up to their partner about the emotional weight they're carrying. Their partner listens, offers reassurance, and together they create a plan to balance work and personal commitments more effectively.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1547742447-eaf2e10a4978?ixid=MnwzNjUwMHwwfDF8c2VhY2h8M3x8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1667533288519-49d00a1620b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGZyaWVuZHN8ZW58MHx8MHx8fDA%3D",
     reasoning:
       "Emotional support allows you to process and gain clarity on the challenges you're facing. Vulnerability fosters trust, and sharing emotional burdens prevents isolation.",
     conclusion:
@@ -60,12 +60,12 @@ export const seekSupport: WorkLifeBalance[] = [
     workScenarioDescription:
       "A professional is feeling paralyzed by anxiety and self-doubt, affecting their productivity and relationships at work. They hesitate to ask for help, fearing judgment or repercussions.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1605711010176-d1cfa3b0e9e7?ixid=MnwzNjUwMHwwfDF8c2VhY2h8NHx8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1731326956826-b68dc897f1bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHdvcmslMjB0aW1lfGVufDB8fDB8fHww",
     lifeScenario: "Seeking Therapy to Address Work-Related Anxiety",
     lifeScenarioDescription:
       "The individual books a session with a therapist to discuss their anxiety. They learn valuable coping techniques, such as mindfulness and boundary-setting, to help manage stress and regain balance.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1582131272111-d42b47cf4558?ixid=MnwzNjUwMHwwfDF8c2VhY2h8NXx8c3RyZXNzZWQgfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1665990294269-f1d6c35ab9d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "Therapy or counseling provides tools for managing anxiety and stress effectively. Professional guidance helps you break patterns of negative thinking and address the root causes of your emotional struggles.",
     conclusion:

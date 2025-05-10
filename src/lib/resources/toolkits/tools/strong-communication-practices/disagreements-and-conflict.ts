@@ -59,7 +59,8 @@ export const disagreementsAndConflict: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661510114881-ea356db88eb8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uZmxpY3R8ZW58MHwxfDB8fHww",
   },
   {
     title: "Effective Communication During Conflict",
@@ -109,7 +110,8 @@ export const disagreementsAndConflict: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1580828451665-cd4a528b3f89",
+    image:
+      "https://plus.unsplash.com/premium_photo-1658506865718-151c4a9750a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbmZsaWN0fGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Resolution Strategies",
@@ -169,7 +171,8 @@ export const disagreementsAndConflict: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1620223094033-938bc8dcb351",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661344249025-d20b92dec980?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNvbmZsaWN0fGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Moving Forward After Conflict",
@@ -209,7 +212,8 @@ export const disagreementsAndConflict: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1629726655737-70d8e9b98d30",
+    image:
+      "https://images.unsplash.com/photo-1604881990409-b9f246db39da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXJndWV8ZW58MHwxfDB8fHww",
   },
   {
     title: "Learning from Conflict",
@@ -249,6 +253,7 @@ export const disagreementsAndConflict: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    image:
+      "https://plus.unsplash.com/premium_photo-1677681802920-33c3195571ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJndWV8ZW58MHwxfDB8fHww",
   },
 ];

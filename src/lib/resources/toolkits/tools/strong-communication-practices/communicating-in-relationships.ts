@@ -39,7 +39,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
+    image:
+      "https://images.unsplash.com/photo-1506014299253-3725319c0f69?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVsYXRpb25zaGlwfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Conflict Resolution in Relationships",
@@ -79,7 +80,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1520975408777-d189f6edc46d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVsYXRpb25zaGlwfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Expressing Appreciation and Affection",
@@ -119,7 +121,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1514480657081-a987d9a45e90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVsYXRpb25zaGlwfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Choosing the Right Digital Channel",
@@ -149,7 +152,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1612832022002-66ee448468a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlbGF0aW9uc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
 
   {
@@ -230,7 +234,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1469989011449-f7b46079781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHJlbGF0aW9uc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Maintaining Professionalism",
@@ -260,7 +265,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1511898290398-cee3038fa7a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlbGF0aW9uc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Balancing Personal and Professional Communication",
@@ -290,7 +296,8 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1605432722372-5f8acd7c7d93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHJlbGF0aW9uc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Encouraging Feedback and Collaboration",
@@ -320,6 +327,7 @@ export const communicatingInRelationships: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1543829969-57899edf981b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHJlbGF0aW9uc2hpcHxlbnwwfDF8MHx8fDA%3D",
   },
 ];

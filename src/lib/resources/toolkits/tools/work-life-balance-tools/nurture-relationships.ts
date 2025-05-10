@@ -12,12 +12,12 @@ export const nurtureRelationships: WorkLifeBalance[] = [
     workScenarioDescription:
       "An employee regularly chooses to work late, missing out on weekend family dinners and celebrations. Although their productivity is praised at work, they begin to feel emotionally distant from their partner and children.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1600880292089-90a7e086ee1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1669904021350-c59c580086e3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29yayUyMFRpbWV8ZW58MHx8MHx8fDA%3D",
     lifeScenario: "Setting Boundaries to Preserve Family Time",
     lifeScenarioDescription:
       "Instead of accepting every late assignment, the employee commits to unplugging during weekends. They inform their team in advance and actively plan family outings to reconnect with loved ones.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1677789512373-038e1082019c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmFtaWx5JTIwVGltZXxlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "Protecting family time signals that relationships are a non-negotiable part of a well-balanced life. When we show up consistently for the people who matter most, we build trust and emotional intimacy. This stability can positively influence our ability to manage stress and maintain focus at work.",
     conclusion:
@@ -37,12 +37,12 @@ export const nurtureRelationships: WorkLifeBalance[] = [
     workScenarioDescription:
       "A remote worker is home with their partner but constantly checking emails, hopping on calls, and multitasking. Over time, their partner begins to feel like they're living with a co-worker, not a companion.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1616627781861-4c465f2d49b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1662944489020-46ead8e0e1b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdvcmslMjBUaW1lfGVufDB8fDB8fHww",
     lifeScenario: "Creating Work-Free Zones at Home",
     lifeScenarioDescription:
       "The worker sets clear working hours and designates spaces in the home that are strictly non-work zones. They make an effort to close their laptop by dinner and engage in evening activities with their partner without interruptions.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1528763380143-65b3c1d34a6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1577897113292-3b95936e5206?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RmFtaWx5JTIwVGltZXxlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "Creating emotional availability within shared spaces enhances relational intimacy. Setting up clear boundaries reinforces respect and consideration within the household. Fully present interactions help maintain emotional closeness and mutual understanding.",
     conclusion:
@@ -61,12 +61,12 @@ export const nurtureRelationships: WorkLifeBalance[] = [
     workScenarioDescription:
       "A professional gets promoted and becomes swamped with work, gradually losing touch with their core group of friends. The once-frequent texts and meetups dwindle to nothing.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1605714507213-98dda2a7ef8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdvcmslMjBUaW1lfGVufDB8fDB8fHww",
     lifeScenario: "Scheduling Time to Reconnect with Friends",
     lifeScenarioDescription:
       "They start reaching out regularly to old friends and set up monthly hangouts. Even quick virtual check-ins or shared interests (like online games or group chats) help them reconnect without disrupting their schedule.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmFtaWx5JTIwVGltZXxlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "Friendships don’t require hours of effort—just consistency and sincerity. Regular interactions remind others that we value them, and help us maintain our social identity. Investing time in friendships balances the isolation that can come with professional intensity.",
     conclusion:

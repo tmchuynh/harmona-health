@@ -39,7 +39,8 @@ export const theRoleOfToneInCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1494790108377-b4d1c83b4c51",
+    image:
+      "https://media.istockphoto.com/id/2094337676/photo/diverse-team-working-together-in-modern-co-working-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=FbH7i1I3oCXoRfZKFvGj3jMXnsljD8mPmDmvY4IxQuA=",
   },
   {
     title: "Contextual Appropriateness",
@@ -76,7 +77,8 @@ export const theRoleOfToneInCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1525186402429-b4ff38bed9f5",
+    image:
+      "https://plus.unsplash.com/premium_photo-1714229505704-3f20cc577bda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
   {
     title: "Interpreting Tone Across Mediums",
@@ -113,7 +115,8 @@ export const theRoleOfToneInCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33",
+    image:
+      "https://images.unsplash.com/photo-1525770041010-2a1233dd8152?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
   {
     title: "Impact of Tone on Relationships",
@@ -150,6 +153,7 @@ export const theRoleOfToneInCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1549921296-3a6b5a71e3b2",
+    image:
+      "https://plus.unsplash.com/premium_photo-1670071482378-15bcd6e701a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvbW11bmljYXRpb258ZW58MHwxfDB8fHww",
   },
 ];

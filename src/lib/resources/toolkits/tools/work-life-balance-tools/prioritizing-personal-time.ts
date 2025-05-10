@@ -12,12 +12,12 @@ export const prioritizingPersonalTime: WorkLifeBalance[] = [
     workScenarioDescription:
       "An employee fills every weekday with back-to-back meetings and evening tasks. They feel drained, lose enthusiasm, and find it harder to focus.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1661633062503-b2e41f05a554?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdvcmslMjB0aW1lfGVufDB8fDB8fHww",
     lifeScenario: "Blocking Out Personal Time Like Meetings",
     lifeScenarioDescription:
       "The employee begins reserving short time blocks on their calendar for lunch breaks, walks, and moments of reflection. They treat these blocks as non-negotiable and find themselves re-energized.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1602693874622-d51ebf843a36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29uYWwlMjB0aW1lfGVufDB8fDB8fHww",
     reasoning:
       "Burnout often stems from neglecting our own needs in the name of output. Prioritizing personal time promotes longevity in performance and helps you return to tasks with renewed focus and creativity.",
     conclusion:
@@ -36,12 +36,12 @@ export const prioritizingPersonalTime: WorkLifeBalance[] = [
     workScenarioDescription:
       "A remote worker wakes up and instantly checks Slack, responding to messages while still in bed. They start their day feeling reactive and overwhelmed.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1603575448374-4d3a38353b24?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://media.istockphoto.com/id/1257568648/photo/to-stay-on-track-youve-got-to-manage-your-time.webp?a=1&b=1&s=612x612&w=0&k=20&c=KnJL4rR8sSvpeRNtOwiG3NHeWAH0phsCdsKn9WPVJTc=",
     lifeScenario: "Creating a Personal Morning Routine",
     lifeScenarioDescription:
       "They replace their habit with a 30-minute morning routine that includes tea, journaling, and light movement. This gives them a sense of control and calm before work begins.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1681881632224-c286e6dc8309?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29uYWwlMjB0aW1lfGVufDB8fDB8fHww",
     reasoning:
       "Being proactive instead of reactive sets the tone for productivity and peace. Mindful mornings foster resilience and reduce stress. It helps build a personal boundary around your energy and focus.",
     conclusion:
@@ -60,12 +60,12 @@ export const prioritizingPersonalTime: WorkLifeBalance[] = [
     workScenarioDescription:
       "A manager uses weekends to catch up on emails, prep documents, and get a 'head start' on Monday. They begin to feel disconnected from their family and increasingly irritable.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://media.istockphoto.com/id/475413503/photo/keeping-an-eye-on-the-time.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ru0aZ3Q1VvLvsGU5wx6h2AUuKE8yCWAoLgh79pdn8L0=",
     lifeScenario: "Establishing Non-Negotiable Off Days",
     lifeScenarioDescription:
       "They set a rule to avoid work-related activities on Saturdays and limit Sunday work to one hour if necessary. They spend that time with their kids, outdoors, or reading, and notice a significant improvement in their mood and focus.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1560508170-29c5f16ec278?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1722859268802-54c0b3ecc3d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBlcnNvbmFsJTIwdGltZXxlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "When we don't give ourselves time to recharge, we rob our future selves of clarity and energy. Protecting weekends enhances both work performance and personal well-being. It's a boundary that communicates respect for your whole self.",
     conclusion:

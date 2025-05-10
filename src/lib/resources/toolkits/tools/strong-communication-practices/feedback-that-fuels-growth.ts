@@ -39,7 +39,8 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1542361146-4b65d2c15691",
+    image:
+      "https://images.unsplash.com/photo-1612957784244-3c25d90913eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmVlZGJhY2t8ZW58MHwxfDB8fHww",
   },
   {
     title: "Creating a Feedback Culture",
@@ -99,7 +100,8 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1682310522369-80e6cd96849a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Feedback Techniques",
@@ -179,7 +181,8 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661769197597-f7b01b0f81a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Feedback Follow-Up",
@@ -249,7 +252,8 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661765161780-7b7a57d6845c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Feedback in Different Contexts",
@@ -319,7 +323,8 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1521898284481-a5ec348cb555?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Feedback in Remote Work",
@@ -439,6 +444,7 @@ export const feedbackThatFuelsGrowth: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661384194958-20679b63484b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2l2aW5nJTIwZmVlZGJhY2t8ZW58MHwxfDB8fHww",
   },
 ];

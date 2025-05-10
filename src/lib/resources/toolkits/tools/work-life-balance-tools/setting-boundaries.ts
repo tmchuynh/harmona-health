@@ -12,12 +12,12 @@ export const settingBoundaries: WorkLifeBalance[] = [
     workScenarioDescription:
       "An employee regularly responds to emails and takes work-related calls in the evening, often interrupting family time. They start feeling overwhelmed and disconnected from their personal life.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1507480270479-e6e890fd053d?ixid=MnwzNjUwMHwwfDF8c2VhY2h8MXx8Y29tcGxldGVseSUyMG1lbnRhbCUyMGRpc3RhbmNlfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1661775683407-73ed5a52f862?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG92ZXJ0aW1lfGVufDB8fDB8fHww",
     lifeScenario: "Turning Off Work Notifications After Hours",
     lifeScenarioDescription:
       "They decide to set a boundary by turning off work notifications after 6 PM. This allows them to fully engage in personal activities without the constant pull of work.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1573497491202-2c2a054fe303?ixid=MnwzNjUwMHwwfDF8c2VhY2h8Mnx8Ym91bmRhcnllc3xlbnwwfDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1604881991720-f91add269bed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRoZXJhcHl8ZW58MHx8MHx8fDA%3D",
     reasoning:
       "Creating a boundary between work and personal time enhances mental clarity and fosters deeper connections with loved ones. It allows for true relaxation and reduces work-related stress outside business hours.",
     conclusion:
@@ -36,12 +36,12 @@ export const settingBoundaries: WorkLifeBalance[] = [
     workScenarioDescription:
       "A professional takes on multiple projects at once to help colleagues, even when their plate is already full. They feel overwhelmed and unable to give their best to any of the projects.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1531627387277-5ca46f0a6e63?ixid=MnwzNjUwMHwwfDF8c2VhY2h8MXx8b3ZlcmNvbW1pdHRlZCUyMGxpbmV8fGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1494322296366-b46227baa318?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3ZlcnRpbWV8ZW58MHx8MHx8fDA%3D",
     lifeScenario: "Learning to Say No to Non-Essential Requests",
     lifeScenarioDescription:
       "They begin to set clear boundaries by saying no to requests that don’t align with their top priorities. This allows them to focus on what truly matters without feeling overwhelmed.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1581091011301-4f75ed52f231?ixid=MnwzNjUwMHwwfDF8c2VhY2h8MnwxfG9yZ2FuaXphdGlvbnN8ZW58MHx8fHwwfDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRoZXJhcHl8ZW58MHx8MHx8fDA%3D",
     reasoning:
       "Saying 'no' creates space for you to focus on what truly matters. When you say no to the wrong commitments, you make room for the right ones that support your growth and happiness.",
     conclusion:
@@ -60,12 +60,12 @@ export const settingBoundaries: WorkLifeBalance[] = [
     workScenarioDescription:
       "A professional finds themselves checking work messages late at night, feeling obligated to respond immediately. This habit disrupts their personal time and leads to disrupted sleep patterns.",
     workScenarioImage:
-      "https://images.unsplash.com/photo-1612495291805-8b4c149e6fdb?ixid=MnwzNjUwMHwwfDF8c2VhY2h8M3x8Y29tcGxldGVzdGFydCUyMGRpc3RhbmNlfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://plus.unsplash.com/premium_photo-1682432850315-8418c07d605c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b3ZlcnRpbWV8ZW58MHx8MHx8fDA%3D",
     lifeScenario: "Setting a Digital Curfew to Protect Personal Time",
     lifeScenarioDescription:
       "They establish a digital curfew, turning off work-related notifications after 7 PM. This allows them to unwind, sleep better, and engage in personal activities without distractions.",
     lifeScenarioImage:
-      "https://images.unsplash.com/photo-1520801875069-f5a0a4b88e2d?ixid=MnwzNjUwMHwwfDF8c2VhY2h8NHx8Y29tcGxldGVzdGFydCUyMGRpc3RhbmNlfGVufDB8fHx8fDE2NTk0MjczMjI&ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1739967732050-1e794f8af6a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlnaXRhbCUyMGN1cmZld3xlbnwwfHwwfHx8MA%3D%3D",
     reasoning:
       "Setting boundaries around technology use helps you disengage from work and personal distractions. It fosters time for self-care and deepens relationships with those around you.",
     conclusion:

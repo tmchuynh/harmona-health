@@ -39,7 +39,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1550496607-32b17ab7fae1",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661721535351-55d6dfefc03a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdpdmluZyUyMGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Empathetic Listening",
@@ -79,7 +80,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661757016832-25603706f2a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGdpdmluZyUyMGZlZWRiYWNrfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Feedback and Reflection",
@@ -119,7 +121,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1680807868977-38d4d1c27810?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlzdGVuaW5nfGVufDB8MXwwfHx8MA%3D%3D",
   },
   {
     title: "Mindful Listening",
@@ -159,7 +162,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://images.unsplash.com/photo-1654588592496-fd32d5d7abc3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Cultural Sensitivity in Listening",
@@ -199,7 +203,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1668197492328-76697c2610c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Listening for Understanding",
@@ -239,7 +244,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1680807868965-b29a5c71ca58?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Listening in Conflict Resolution",
@@ -279,7 +285,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1668197657641-6242273bf372?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Listening in Leadership",
@@ -319,7 +326,8 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1723867233534-3f9fc528c827?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Listening in Customer Service",
@@ -359,6 +367,7 @@ export const listeningToUnderstand: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image:
+      "https://plus.unsplash.com/premium_photo-1683120885948-f93b23e58f4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGxpc3RlbmluZ3xlbnwwfDF8MHx8fDA%3D",
   },
 ];

@@ -67,7 +67,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1524007372653-8906f7ef627f",
+    image:
+      "https://images.unsplash.com/photo-1540162875225-3f6b56d69fe8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2xhcml0eXxlbnwwfDF8MHx8fDA%3D",
   },
   {
     title: "Consistency",
@@ -177,7 +178,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1517430816045-df4b7de61d8f",
+    image:
+      "https://images.unsplash.com/photo-1718724403139-ca810fd1fe94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29uc2lzdGVuY3l8ZW58MHwxfDB8fHww",
   },
 
   {
@@ -288,7 +290,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
+    image:
+      "https://plus.unsplash.com/premium_photo-1667891209095-8aae3a456528?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fEVtcGF0aHl8ZW58MHwxfDB8fHww",
   },
 
   {
@@ -399,7 +402,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1523797232066-6c1c9db6ec77",
+    image:
+      "https://media.istockphoto.com/id/1573842618/photo/listening-meeting-and-business-women-with-advice-support-or-discussion-at-financial-advisor.webp?a=1&b=1&s=612x612&w=0&k=20&c=3DXPtvHesVZeUlq8ebJ1hSvllkz-cNb8CZS0dDWJCvM=",
   },
 
   {
@@ -510,7 +514,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1501594907352-b679f36b1055",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661766751872-30bf37901066?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UmVzcGVjdHxlbnwwfDF8MHx8fDA%3D",
   },
 
   {
@@ -621,7 +626,8 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1539292089234-dc0189c1e500",
+    image:
+      "https://media.istockphoto.com/id/2191721087/photo/friends-sharing-laughter.webp?a=1&b=1&s=612x612&w=0&k=20&c=kXLoVNPpZp37e0ErMghJ7hAmlbcxgdAb5QJpP6d7kyI=",
   },
 
   {
@@ -732,6 +738,7 @@ export const the7PillarsOfPowerfulCommunication: CommunicationTools[] = [
         },
       ],
     },
-    image: "https://images.unsplash.com/photo-1580432492635-5be15f2e8dff",
+    image:
+      "https://plus.unsplash.com/premium_photo-1716984577767-09a19d03e016?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QWRhcHRhYmlsaXR5fGVufDB8MXwwfHx8MA%3D%3D",
   },
 ];
