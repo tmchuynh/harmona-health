@@ -11,14 +11,17 @@ import {
 
 export default function JournalPromptCard({
   randomPrompt,
+  oldPrompts,
 }: {
   randomPrompt: JournalPrompts;
+  oldPrompts: JournalPrompts[];
 }) {
   return (
     <Card
       key={randomPrompt.prompt}
       className="relative flex flex-col justify-center items-center gap-6 mx-auto p-4 md:w-2/3 lg:w-1/2 min-h-[15rem]"
     >
+      <p className="top-3 left-5 absolute">#{oldPrompts.length}</p>
       <randomPrompt.Icon className="size-8" />
 
       <p>{randomPrompt.prompt}</p>
