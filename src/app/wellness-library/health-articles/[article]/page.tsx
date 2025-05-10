@@ -140,35 +140,36 @@ export default function Page() {
                                   {content}
                                 </p>
                               ))}
-                             {paragraph.list && (
-  <ul className="list-disc list-inside">
-    {paragraph.list.map((item, iIndex) => (
-      <li key={iIndex} className="flex items-start gap-3">
-        <FaLeaf className="w-15 h-15 text-secondary" />
-        <p>
-          {item.title && (
-            item.src ? (
-              <strong
-                onClick={() => {
-                  if (item.src) {
-                    router.push(item.src); // Now it's type-safe
-                  }
-                }}
-                className="cursor-pointer"
-              >
-                {item.title}:{" "}
-              </strong>
-            ) : (
-              <strong>{item.title}: </strong>
-            )
-          )}
-          {item.description}
-        </p>
-      </li>
-    ))}
-  </ul>
-)}
-</div>
+                              {paragraph.list && (
+                                <ul className="list-[upper-roman] list-inside">
+                                  {paragraph.list.map((item, iIndex) => (
+                                    <li
+                                      key={iIndex}
+                                      className="flex items-start gap-3"
+                                    >
+                                      <p>
+                                        {item.title &&
+                                          (item.src ? (
+                                            <strong
+                                              onClick={() => {
+                                                if (item.src) {
+                                                  router.push(item.src); // Now it's type-safe
+                                                }
+                                              }}
+                                              className="underline underline-offset-4 hover:no-underline cursor-pointer"
+                                            >
+                                              {item.title}:{" "}
+                                            </strong>
+                                          ) : (
+                                            <strong>{item.title}: </strong>
+                                          ))}
+                                        {item.description}
+                                      </p>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </div>
 
                             {paragraph.image && (
                               <div
