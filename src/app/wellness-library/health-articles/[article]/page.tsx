@@ -5,11 +5,13 @@ import { articles } from "@/lib/resources/articles/articles";
 import { cn } from "@/lib/utils";
 import { capitalize, formatUrlToID } from "@/lib/utils/format";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { FaLeaf } from "react-icons/fa";
 
 export default function Page() {
   const segments = usePathname().split("/");
+  const router = useRouter();
   const article = segments[segments.length - 1];
 
   console.log(capitalize(article));
@@ -91,9 +93,9 @@ export default function Page() {
                           <Image
                             src={section.image}
                             alt={section.title}
-                            className="my-4 rounded-2xl w-full h-auto object-cover object-center lg:aspect-9/10"
-                            width={1000}
-                            height={1000}
+                            className="mx-auto my-4 rounded-2xl w-4/5 h-auto object-cover object-center lg:aspect-11/12"
+                            width={3600}
+                            height={3600}
                           />
                         </div>
                       )}
@@ -138,7 +140,35 @@ export default function Page() {
                                   {content}
                                 </p>
                               ))}
-                            </div>
+                             {paragraph.list && (
+  <ul className="list-disc list-inside">
+    {paragraph.list.map((item, iIndex) => (
+      <li key={iIndex} className="flex items-start gap-3">
+        <FaLeaf className="w-15 h-15 text-secondary" />
+        <p>
+          {item.title && (
+            item.src ? (
+              <strong
+                onClick={() => {
+                  if (item.src) {
+                    router.push(item.src); // Now it's type-safe
+                  }
+                }}
+                className="cursor-pointer"
+              >
+                {item.title}:{" "}
+              </strong>
+            ) : (
+              <strong>{item.title}: </strong>
+            )
+          )}
+          {item.description}
+        </p>
+      </li>
+    ))}
+  </ul>
+)}
+</div>
 
                             {paragraph.image && (
                               <div
