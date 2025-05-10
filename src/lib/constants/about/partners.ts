@@ -46,7 +46,7 @@ export const partnershipCompanies: Company[] = [
     name: "Mindful Living Network",
     description:
       "A network of wellness practitioners providing mindfulness training, therapy, and emotional support.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/MindfulLiving.png",
     partnershipDetails:
       "Strategic partner for providing mindfulness programs and emotional wellness support to clients.",
   },
@@ -54,7 +54,7 @@ export const partnershipCompanies: Company[] = [
     name: "Peak Performance Fitness",
     description:
       "A fitness center known for their high-end gyms, personal trainers, and wellness programs.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    logo: "/images/Peak.png",
     partnershipDetails:
       "Partnership for co-branded fitness training programs and personalized coaching.",
   },
