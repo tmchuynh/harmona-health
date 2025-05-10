@@ -17,8 +17,6 @@ export default function Page() {
   const [randomPrompt, setRandomPrompt] = useState<JournalPrompts | null>(null);
   const [oldPrompts, setOldPrompts] = useState<JournalPrompts[]>([]);
 
-  const [images, setImages] = useState([]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -44,17 +42,6 @@ export default function Page() {
         console.error("Failed to load affirmation cards:", error);
       } finally {
         setLoading(false);
-      }
-
-      try {
-        const data = await getToolResource(
-          toolKit,
-          tool,
-          toolKitID + formatUrlToID(tool)
-        );
-        setImages(data);
-      } catch (error) {
-        console.error("Failed to load images:", error);
       }
     };
 
@@ -104,6 +91,8 @@ export default function Page() {
   if (loading) {
     return <div>Loading...</div>;
   }
+
+  console.log("oldPrompts", oldPrompts);
 
   return (
     <div className="mx-auto">

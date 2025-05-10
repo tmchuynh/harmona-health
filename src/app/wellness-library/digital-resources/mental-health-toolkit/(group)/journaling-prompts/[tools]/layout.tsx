@@ -8,7 +8,7 @@ import {
   sliceOffLastWord,
 } from "@/lib/utils/format";
 import { usePathname } from "next/navigation";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   const tool = usePathname().split("/").slice(-1)[0];
@@ -19,17 +19,9 @@ export default function Layout({ children }: { children: ReactNode }) {
 
   const correspondingTools = toolsMap[toolKitID as keyof typeof toolsMap];
 
-  console.log("correspondingTools", correspondingTools);
-
   const toolInformation = correspondingTools?.find(
     (toolInfo) => toolInfo.title === toolName
   );
-
-  console.log("tool", tool);
-  console.log("toolKit", toolKit);
-  console.log("toolKitID", toolKitID);
-  console.log("toolName", toolName);
-  console.log("toolInformation from layout", toolInformation);
 
   return (
     <ToolProvider value={{ tool, toolKit, toolKitID, toolInformation }}>
