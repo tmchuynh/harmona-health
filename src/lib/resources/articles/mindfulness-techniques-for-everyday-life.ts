@@ -2,7 +2,7 @@ import { ArticleInformation } from "@/lib/interfaces&types/resources";
 
 export const mindfulnessTechniquesForEverydayLife: ArticleInformation = {
   image:
-    "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
+    "https://images.unsplash.com/photo-1591226195789-aeaa448e51c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWluZGZ1bG5lc3MlMjBUZWNobmlxdWVzfGVufDB8fDB8fHww",
   preface: [
     "Mindfulness is a powerful practice that can help us navigate the challenges of everyday life with greater ease and clarity. By cultivating present-moment awareness, we can reduce stress, enhance our well-being, and improve our overall quality of life. It is a simple yet profound practice that can be integrated into our daily routines, allowing us to find moments of peace and connection amidst the busyness of life. It is also a skill that can be developed over time, leading to a deeper understanding of ourselves and the world around us. It will help us to cultivate a sense of calm and presence, even in the midst of chaos.",
 

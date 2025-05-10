@@ -2,7 +2,7 @@ import { ArticleInformation } from "@/lib/interfaces&types/resources";
 
 export const balancedNutrition101: ArticleInformation = {
   image:
-    "https://images.unsplash.com/photo-1499914485622-a88fac536970?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHdvcmt8ZW58MHwwfDB8fHww",
+    "https://img.freepik.com/free-photo/immunity-boosting-food-healthy-lifestyle_23-2149211526.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   preface: [
     "Balanced nutrition is the cornerstone of a healthy lifestyle. It involves consuming a variety of foods in the right proportions to provide the body with essential nutrients. This article explores the key components of balanced nutrition, its benefits, and practical tips for achieving it.Understanding the importance of balanced nutrition is crucial for maintaining overall health and well-being. It helps in preventing chronic diseases, managing weight, and promoting optimal physical and mental performance. By incorporating a variety of food groups into your diet, you can ensure that your body receives all the necessary nutrients it needs to function effectively. Whether you're looking to improve your overall health, manage a specific condition, or simply want to feel better in your own skin, understanding the principles of balanced nutrition is the first step towards achieving your goals.",
     "Balanced nutrition is not just about eating the right foods; it's also about understanding how different nutrients work together to support your body's needs. For example, carbohydrates provide energy for physical activity, while proteins are essential for muscle repair and growth. Fats play a crucial role in hormone production and nutrient absorption. Vitamins and minerals support various bodily functions, and water is vital for hydration and overall health. Incorporating a variety of foods from each of these categories into your diet can help ensure that you are getting all the nutrients your body needs to function optimally. This article will explore the key components of balanced nutrition, its benefits, and practical tips for achieving it.",
@@ -15,7 +15,7 @@ export const balancedNutrition101: ArticleInformation = {
         "Balanced nutrition refers to the practice of consuming a variety of foods in the right proportions to provide the body with essential nutrients. It involves understanding the different food groups and their roles in maintaining health. The key components of balanced nutrition include carbohydrates, proteins, fats, vitamins, minerals, fiber, and water. Each of these nutrients plays a vital role in supporting bodily functions and overall well-being. Carbohydrates are the body's primary source of energy, fueling both daily activities and cellular functions. Complex carbohydrates found in whole grains, legumes, and vegetables provide sustained energy and essential fiber, while simple carbohydrates in fruits offer quick energy along with vital nutrients. Proteins are essential for building and repairing tissues, supporting immune function, and producing enzymes and hormones. Sources include animal products like meat, fish, and eggs, as well as plant-based options such as beans, lentils, nuts, and seeds. Fats, despite their reputation, are crucial for hormone production, cellular health, nutrient absorption, and brain function. Healthy fats from sources like avocados, olive oil, nuts, and fatty fish support heart health, while saturated and trans fats should be consumed in moderation. Vitamins and minerals, though needed in smaller quantities, are essential for numerous biochemical processes including energy production, immune function, and bone health. These micronutrients are abundant in fruits, vegetables, whole grains, and lean proteins. Dietary fiber, found in plant foods, promotes digestive health, helps regulate blood sugar, and contributes to heart health. Water, often overlooked, is perhaps the most essential nutrient, facilitating nearly all bodily processes from temperature regulation to nutrient transport and waste elimination. Proper hydration is fundamental to health and optimal bodily function. By incorporating a variety of foods from each of these categories into your diet, you can ensure that you are getting all the nutrients your body needs to function optimally. The concept of balanced nutrition emphasizes not just individual nutrients but also how they work together synergistically to support overall health. This holistic approach to eating focuses on long-term dietary patterns rather than short-term restrictions, creating a sustainable foundation for lifelong well-being.",
       ],
       image:
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+        "https://img.freepik.com/free-photo/immunity-boosting-food-healthy-lifestyle_23-2149211537.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
       paragraphs: [
         {
           topic: "The Importance of Balanced Nutrition",
@@ -24,7 +24,7 @@ export const balancedNutrition101: ArticleInformation = {
             "Whether you're looking to improve your overall health, manage a specific condition, or simply want to feel better in your own skin, understanding the principles of balanced nutrition is the first step towards achieving your goals. By making conscious choices about the foods you eat and focusing on whole, nutrient-dense options, you can achieve balanced nutrition and support your overall health. Balanced nutrition is not just about eating the right foods; it's also about understanding how different nutrients work together to support your body's needs. For example, carbohydrates provide energy for physical activity, while proteins are essential for muscle repair and growth. Fats play a crucial role in hormone production and nutrient absorption. Vitamins and minerals support various bodily functions, and water is vital for hydration and overall health.",
           ],
           image:
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+            "https://img.freepik.com/premium-photo/healthy-lifestyle-food-nutrition-concept-white-wooden-table_53476-3797.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
         },
         {
           topic: "Key Components of Balanced Nutrition",
@@ -47,7 +47,7 @@ export const balancedNutrition101: ArticleInformation = {
             "Plan your meals and snacks ahead of time to make healthier choices easier. Meal prepping can help you stay on track with your nutrition goals and prevent last-minute unhealthy food choices. Create a weekly meal plan that includes a variety of foods from all food groups, and prepare meals in advance to save time during the week. Consider batch cooking and freezing portions for busy days, and keep healthy snacks on hand to avoid reaching for processed options when hunger strikes.",
           ],
           image:
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+            "https://img.freepik.com/free-photo/ingredients-healthy-dessert-chia-puddings-kitchen-wooden-table_343596-782.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
         },
         {
           topic: "Choosing the Right Foods",
@@ -68,7 +68,7 @@ export const balancedNutrition101: ArticleInformation = {
         "Balanced nutrition is a powerful form of preventive medicine and daily self-care. It supports every aspect of health—from physical and mental performance to immune defense and chronic disease prevention. In a modern world where convenience often trumps nutritional value, making deliberate and informed food choices is more important than ever. By committing to a balanced diet rich in whole, nutrient-dense foods, individuals can significantly improve their well-being, enhance longevity, and lead more vibrant, resilient lives.",
       ],
       image:
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+        "https://img.freepik.com/free-photo/top-view-food-groups-arrangement_23-2149235795.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
       paragraphs: [
         {
           topic: "Improved Physical Performance",
@@ -86,7 +86,7 @@ export const balancedNutrition101: ArticleInformation = {
         },
         {
           image:
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+            "https://img.freepik.com/free-photo/chicken-chop-french-fries-wooden-board_140725-3224.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
           topic: "Enhanced Mental Well-Being",
           supporting: [
             "Nutrition is also intimately linked to cognitive function and emotional well-being. The brain requires a constant supply of energy and nutrients to operate effectively. Vitamins such as B-complex, minerals like magnesium, and omega-3 fatty acids play essential roles in neurotransmitter synthesis, mood regulation, and memory. A balanced diet that stabilizes blood sugar through complex carbohydrates and fiber prevents mood swings and mental fatigue, enhancing focus and productivity. Additionally, emerging evidence suggests that diet plays a critical role in mental health, influencing the risk and severity of conditions such as depression and anxiety. A nutrient-dense eating pattern supports emotional resilience and cognitive longevity.",
@@ -136,7 +136,7 @@ export const balancedNutrition101: ArticleInformation = {
         },
         {
           image:
-            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhbGFuY2VkJTIwbmF0dXJpdGlvbnxlbnwwfDB8fHwxNjg5NzQxNTI5&auto=format",
+            "https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
           topic: "Enhanced Mood and Mental Clarity",
           supporting: [
             "Certain nutrients, such as omega-3 fatty acids, B vitamins, and antioxidants, play a role in brain health and mood regulation. A balanced diet can help improve cognitive function, memory, and overall mental clarity. Foods rich in omega-3 fatty acids, such as fatty fish, walnuts, and flaxseeds, have been linked to improved mood and cognitive function. B vitamins, found in whole grains, legumes, and leafy greens, are essential for brain health and can help reduce the risk of depression and anxiety. Antioxidants from fruits and vegetables help protect brain cells from oxidative stress and inflammation. A balanced diet that includes a variety of nutrient-dense foods can help support brain health and overall well-being. Eating a variety of foods can also help prevent nutrient deficiencies that may contribute to cognitive decline. For example, low levels of vitamin D have been linked to increased risk of cognitive impairment, while inadequate intake of antioxidants has been associated with increased oxidative stress and inflammation. By prioritizing balanced nutrition, you can support your brain health and overall well-being.",
