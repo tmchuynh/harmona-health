@@ -24,7 +24,9 @@ export default function Layout({ children }: { children: ReactNode }) {
   );
 
   return (
-    <ToolProvider value={{ tool, toolKit, toolKitID, toolInformation }}>
+    <ToolProvider
+      value={{ tool, toolKit, toolKitID, toolInformation, correspondingTools }}
+    >
       <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
         <h1>
           {sliceOffLastWord(capitalize(toolKit))}: {capitalize(tool)}
