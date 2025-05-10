@@ -51,6 +51,7 @@ export interface Article {
   subtitle: string;
   description: string;
   image: string;
+  darkImage: string;
   introduction: string;
 }
 
