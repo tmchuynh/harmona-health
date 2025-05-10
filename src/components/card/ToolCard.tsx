@@ -2,7 +2,7 @@ import { Tool } from "@/lib/interfaces&types/resources";
 import { formatToURL, toKebabCase } from "@/lib/utils/format";
 import Link from "next/link";
 import { FaLeaf } from "react-icons/fa";
-import MockButton from "../button/MockButton";
+import BackdropButton from "../button/BackdropButton";
 
 export default function ToolCard({ tool }: { tool: Tool }) {
   return (
@@ -25,14 +25,14 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               <p className="mt-2">{tool.description}</p>
             </div>
             <div className="mt-8">
-              <MockButton
+              <BackdropButton
                 icon={FaLeaf}
                 hoverIcon={FaLeaf}
                 variant="tertiary"
-                className="justify-between w-full"
+                className="w-full"
               >
                 View
-              </MockButton>
+              </BackdropButton>
             </div>
           </div>
         </div>
