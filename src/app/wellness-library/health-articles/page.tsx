@@ -1,3 +1,5 @@
+"use client";
+
 import ArticleCard from "@/components/card/ArticleCard";
 import OverlappingImageTiles from "@/components/images/OverlappingImageTiles";
 import { articles } from "@/lib/resources/articles/articles";

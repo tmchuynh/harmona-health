@@ -24,7 +24,6 @@ export default function Page() {
   console.log("articleInformation", articleInformation);
 
   const [articleData, setArticleData] = useState<ArticleInformation>();
-
   useEffect(() => {
     const fetchData = async () => {
       try {
