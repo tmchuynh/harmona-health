@@ -1,6 +1,6 @@
 import { ArticleInformation } from "@/lib/interfaces&types/resources";
 
-export const emotionRegulationTechniques: ArticleInformation = {
+export const emotionalRegulationTechniques: ArticleInformation = {
   image:
     "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
   preface: [
@@ -136,4 +136,3 @@ export const emotionRegulationTechniques: ArticleInformation = {
     "Integrating these strategies into daily routines not only enhances emotional balance but also contributes to a more grounded and fulfilling life. Regular practice can lead to increased self-regulation, improved mood, and better interpersonal relationships. By learning to understand, process, and respond to emotions with intention, individuals gain a deeper sense of control and confidence in navigating life’s challenges. Emotion regulation is not about eliminating negative feelings but about responding to them with clarity, flexibility, and self-compassion—ultimately leading to a healthier and more emotionally enriched life.",
   ],
 };
-  
