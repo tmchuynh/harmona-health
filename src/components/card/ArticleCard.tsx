@@ -2,12 +2,18 @@
 
 import { Article } from "@/lib/interfaces&types/resources";
 import { formatToURL } from "@/lib/utils/format";
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import BackdropButton from "../button/BackdropButton";
 
 export default function ArticleCard({ article }: { article: Article }) {
   const router = useRouter();
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
   return (
     <div
       key={article.id}
@@ -16,7 +22,7 @@ export default function ArticleCard({ article }: { article: Article }) {
       <div>
         <Image
           alt=""
-          src={article.image}
+          src={theme === "dark" ? article.darkImage : article.image}
           className="rounded-2xl w-full aspect-3/2 object-cover"
           width={800}
           height={900}
