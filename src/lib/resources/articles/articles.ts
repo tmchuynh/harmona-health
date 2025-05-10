@@ -79,17 +79,6 @@ export const articles: Article[] = [
       "https://plus.unsplash.com/premium_photo-1661963855258-218cbf2dadaa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGh5c2ljYWwlMjBBY3Rpdml0eXxlbnwwfDB8MHx8fDA%3D",
   },
   {
-    id: "mindful-eating-habits",
-    title: "Mindful Eating Habits",
-    subtitle: "How to Develop a Healthy Relationship with Food",
-    description:
-      "Learn how to practice mindful eating for improved digestion, better decision-making around food, and a more positive relationship with eating. This article explores the concept of mindfulness in relation to food and provides strategies for eating more mindfully.",
-    introduction:
-      "Mindful eating is about paying attention to your body’s signals and savoring each bite. This article provides insights into how you can develop healthier, more mindful eating habits for better digestion and overall health.",
-    image:
-      "https://media.istockphoto.com/id/1496347285/photo/affectionate-couple-cutting-vegetable-in-the-kitchen.webp?a=1&b=1&s=612x612&w=0&k=20&c=kqBzSlcYYDx6v6OLv92RB1XuJKaBNLBnL0ugAfRDbe8=",
-  },
-  {
     id: "healthy-habits-for-busy-lifestyles",
     title: "Healthy Habits for Busy Lifestyles",
     subtitle: "How to Stay Healthy in a Hectic Schedule",
@@ -145,17 +134,6 @@ export const articles: Article[] = [
       "https://plus.unsplash.com/premium_photo-1661777954541-acb17c07eeb1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V29yayUyMExpZmUlMjBCYWxhbmNlfGVufDB8MHwwfHx8MA%3D%3D",
   },
   {
-    id: "healthy-snacking-ideas",
-    title: "Healthy Snacking Ideas",
-    subtitle: "How to Choose Nutritious Snacks",
-    description:
-      "Snacking can be a healthy part of your diet if you choose the right foods. This article provides ideas for nutritious snacks that are easy to prepare and delicious, helping you maintain energy levels throughout the day.",
-    introduction:
-      "Healthy snacking is an important aspect of balanced nutrition. This article offers a variety of nutritious snack ideas to keep you energized and satisfied between meals.",
-    image:
-      "https://images.unsplash.com/photo-1649067857157-440079e838e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhlYWx0aHklMjBzbmFja2luZ3xlbnwwfDB8MHx8fDA%3D",
-  },
-  {
     id: "hydration-importance",
     title: "The Importance of Hydration",
     subtitle: "How Water Affects Your Health",
@@ -165,49 +143,5 @@ export const articles: Article[] = [
       "Water is essential for life, yet many people don't drink enough. This article discusses the importance of hydration and provides practical tips for staying well-hydrated.",
     image:
       "https://plus.unsplash.com/premium_photo-1729537378649-066872523a70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHdhdGVyfGVufDB8MHwwfHx8MA%3D%3D",
-  },
-  {
-    id: "healthy-breakfast-ideas",
-    title: "Healthy Breakfast Ideas",
-    subtitle: "How to Start Your Day Right",
-    description:
-      "Breakfast is the most important meal of the day. This article provides healthy breakfast ideas that are quick, easy, and nutritious, helping you start your day on the right foot.",
-    introduction:
-      "A healthy breakfast sets the tone for a productive day. This article offers a variety of nutritious breakfast ideas to fuel your morning and keep you energized.",
-    image:
-      "https://images.unsplash.com/photo-1662028529244-91afc56b47a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QnJlYWtmYXN0JTIwSWRlYXN8ZW58MHwwfDB8fHww",
-  },
-  {
-    id: "healthy-lunch-ideas",
-    title: "Healthy Lunch Ideas",
-    subtitle: "How to Pack Nutritious Lunches",
-    description:
-      "Packing a healthy lunch is essential for maintaining energy levels throughout the day. This article provides ideas for nutritious lunches that are easy to prepare and delicious, helping you stay on track with your health goals.",
-    introduction:
-      "A healthy lunch can boost your energy and productivity. This article offers a variety of nutritious lunch ideas to keep you satisfied and focused during the day.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1700583712176-0652e672ba18?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8THVuY2glMjBJZGVhcyUyMGhpZ2glMjBwcm90ZWlufGVufDB8MHwwfHx8MA%3D%3D",
-  },
-  {
-    id: "healthy-dinner-ideas",
-    title: "Healthy Dinner Ideas",
-    subtitle: "How to Prepare Nutritious Dinners",
-    description:
-      "Dinner is an important meal for maintaining a balanced diet. This article provides ideas for healthy dinners that are easy to prepare and delicious, helping you end your day on a nutritious note.",
-    introduction:
-      "A healthy dinner is essential for a balanced diet. This article offers a variety of nutritious dinner ideas to help you maintain your health and well-being.",
-    image:
-      "https://images.unsplash.com/photo-1627857638952-642f8cbba8da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlubmVyJTIwSWRlYXMlMjBoaWdoJTIwcHJvdGVpbnxlbnwwfDB8MHx8fDA%3D",
-  },
-  {
-    id: "healthy-dessert-ideas",
-    title: "Healthy Dessert Ideas",
-    subtitle: "How to Satisfy Your Sweet Tooth Healthily",
-    description:
-      "Desserts can be part of a healthy diet if you choose the right ingredients. This article provides ideas for healthy desserts that are delicious and nutritious, allowing you to indulge your sweet tooth without compromising your health.",
-    introduction:
-      "Healthy desserts can satisfy your cravings without derailing your diet. This article offers a variety of nutritious dessert ideas that are both delicious and good for you.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1663840225545-d63157555e24?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aGVhbHRoeSUyMGRlc3NlcnR8ZW58MHwwfDB8fHww",
   },
 ];
