@@ -25,7 +25,7 @@ export default function BackdropButton({
     | "icon"
     | "disabled";
   size?: "default" | "sm" | "lg";
-  onClick: string;
+  onClick: string | (() => void);
   className?: string;
   children: React.ReactNode;
 }) {
@@ -33,7 +33,13 @@ export default function BackdropButton({
   return (
     <Button
       variant={variant}
-      onClick={() => onClick && router.push(onClick)}
+      onClick={() => {
+        if (typeof onClick === "string") {
+          router.push(onClick);
+        } else if (onClick) {
+          onClick();
+        }
+      }}
       size={size}
       className={cn(
         "backdrop-blur-lg px-4 py-2 rounded-lg transition duration-200 cursor-pointer",
