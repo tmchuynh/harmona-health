@@ -1,8 +1,8 @@
 import { ArticleInformation } from "@/lib/interfaces&types/resources";
 
-export const emotionalRegulationTechniques: ArticleInformation = {
+export const emotionRegulationTechniques: ArticleInformation = {
   image:
-    "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
+    "https://img.freepik.com/free-photo/top-view-arrangement-with-different-feelings_23-2148860308.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
   preface: [
     "Emotion regulation is a crucial aspect of mental health and well-being. It involves the ability to manage and respond to emotional experiences in a healthy and adaptive manner. This article explores various techniques for enhancing emotion regulation skills, providing practical strategies for individuals seeking to improve their emotional well-being. In today's fast-paced world, we face an unprecedented number of emotional triggers—from work pressures and relationship challenges to the constant stream of information through digital media. Research from the American Psychological Association indicates that 75% of adults report experiencing moderate to high levels of stress, with many struggling to effectively manage their emotional responses. When emotions become overwhelming, they can significantly impact our decision-making, relationships, physical health, and overall quality of life.",
 
@@ -33,7 +33,7 @@ export const emotionalRegulationTechniques: ArticleInformation = {
         },
         {
           image:
-            "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
+            "https://img.freepik.com/free-photo/hand-mudra-gesture-close-up-people-easy-seat-pose_1163-4934.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
           topic: "Mindfulness Meditation",
           supporting: [
             "Mindfulness meditation represents a fundamental approach to emotion regulation that has roots in ancient contemplative practices but has been validated by modern neuroscience. At its core, mindfulness involves cultivating moment-to-moment awareness of thoughts, feelings, bodily sensations, and surroundings without judgment. Rather than attempting to control or eliminate emotions, mindfulness meditation teaches individuals to observe their emotional experiences with curiosity and acceptance. This psychological distance—what researchers call 'decentering'—allows one to experience emotions as temporary mental events rather than overwhelming truths that demand immediate reaction. Functional MRI studies published in Biological Psychiatry have demonstrated that regular mindfulness practice increases connectivity between the prefrontal cortex and amygdala, enhancing the brain's ability to regulate emotional responses.",
@@ -61,7 +61,7 @@ export const emotionalRegulationTechniques: ArticleInformation = {
       paragraphs: [
         {
           image:
-            "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
+            "https://img.freepik.com/premium-photo/pen-paper-art-reflective-journaling_984027-274880.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
           topic: "Journaling",
           supporting: [
             "Journaling is one of the most effective tools for emotional regulation because it serves as an outlet to express feelings and an opportunity for reflection. Writing allows individuals to process complex emotions by externalizing them and creating a physical representation of their inner experiences. Whether through free writing, guided journaling, or structured prompts, journaling enables you to understand the ‘why’ behind emotions, which in turn empowers you to control emotional responses instead of being controlled by them. In times of stress or emotional overwhelm, journaling offers a chance to pause and unpack the complexity of your feelings in a structured and organized way, reducing emotional chaos and giving clarity in difficult times.",
@@ -83,7 +83,7 @@ export const emotionalRegulationTechniques: ArticleInformation = {
         },
         {
           image:
-            "https://media.istockphoto.com/id/1437830105/photo/cropped-shot-of-a-female-nurse-hold-her-senior-patients-hand-giving-support-doctor-helping.webp?a=1&b=1&s=612x612&w=0&k=20&c=a4UjQyHhfnEw9TaSmbafqDeHeNwmIpTObleQ89zQdKw=",
+            "https://img.freepik.com/free-photo/friends-having-fun-their-reunion_23-2149215801.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
           topic: "Social Support",
           supporting: [
             "Human beings are social creatures, and our emotional health is deeply interconnected with the quality of our relationships. Strong social support plays a vital role in emotional regulation by providing both practical and emotional resources when we face stressors. Having someone to talk to, whether a friend, family member, or therapist, allows us to express our emotions openly, which in turn helps to release emotional pressure and gain perspective. Social support serves as a buffer against the negative effects of stress by offering comfort, validation, and advice, and by simply knowing that someone cares. This can reduce feelings of isolation, which can exacerbate emotional distress and mental health conditions such as depression and anxiety.",

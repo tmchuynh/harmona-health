@@ -42,7 +42,7 @@ export const articles: Article[] = [
   },
   {
     id: "mindfulness-and-meditation",
-    title: "Mindfulness And Meditation",
+    title: "The Transformative Power Of Mindfulness And Meditation",
     subtitle: "How to Cultivate Mindfulness in Your Life",
     description:
       "Mindfulness and meditation are powerful practices for enhancing mental clarity and emotional well-being. This article explores the benefits of mindfulness, how to get started with meditation, and tips for incorporating mindfulness into your daily routine.",
@@ -133,7 +133,7 @@ export const articles: Article[] = [
   },
   {
     id: "emotion-regulation-techniques",
-    title: "Emotional Regulation Techniques",
+    title: "Emotion Regulation Techniques",
     subtitle: "How to Manage Your Emotions in Challenging Situations",
     description:
       "Learning to regulate emotions is a key aspect of mental well-being. This article explores various emotion regulation techniques, including mindfulness, cognitive restructuring, and self-soothing, to help you manage emotions more effectively.",
