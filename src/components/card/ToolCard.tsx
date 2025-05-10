@@ -1,7 +1,6 @@
 import { Tool } from "@/lib/interfaces&types/resources";
 import { formatToURL, toKebabCase } from "@/lib/utils/format";
 import Link from "next/link";
-import { FaLeaf } from "react-icons/fa";
 import BackdropButton from "../button/BackdropButton";
 
 export default function ToolCard({ tool }: { tool: Tool }) {
@@ -26,8 +25,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             </div>
             <div className="mt-8">
               <BackdropButton
-                icon={FaLeaf}
-                hoverIcon={FaLeaf}
+                onClick={`/wellness-library/digital-resources/mental-health-toolkit/${toKebabCase(
+                  tool.categoryId
+                )}/${formatToURL(tool.title)}`}
                 variant="tertiary"
                 className="w-full"
               >
