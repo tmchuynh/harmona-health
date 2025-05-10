@@ -1,6 +1,7 @@
 "use client";
 
 import CardFlip from "@/components/card/CardFlip";
+import { CardStack } from "@/components/ui/card-stack";
 import {
   Accordion,
   AccordionContent,
@@ -10,7 +11,7 @@ import {
 import { useToolContext } from "@/context/toolContext";
 import { icons } from "@/lib/constants/constants";
 import { AffirmationCards } from "@/lib/interfaces&types/resources";
-import { getRandomIndex, getToolResource } from "@/lib/utils";
+import { cn, getRandomIndex, getToolResource } from "@/lib/utils";
 import { formatUrlToID } from "@/lib/utils/format";
 import { useEffect, useState } from "react";
 
@@ -51,6 +52,10 @@ export default function Page() {
         <p key={index}>{intro}</p>
       ))}
 
+      <div className="flex justify-center items-center w-full h-[40rem]">
+        <CardStack items={CARDS} />
+      </div>
+
       <Accordion type="single" collapsible className="w-full">
         {cardData.map((set, index) => {
           const iconIndex = getRandomIndex(icons);
@@ -85,3 +90,63 @@ export default function Page() {
     </div>
   );
 }
+
+export const Highlight = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
+  return (
+    <span
+      className={cn(
+        "font-bold bg-emerald-100 text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500 px-1 py-0.5",
+        className
+      )}
+    >
+      {children}
+    </span>
+  );
+};
+
+const CARDS = [
+  {
+    id: 0,
+    name: "Manu Arora",
+    designation: "Senior Software Engineer",
+    content: (
+      <p>
+        These cards are amazing, <Highlight>I want to use them</Highlight> in my
+        project. Framer motion is a godsend ngl tbh fam 🙏
+      </p>
+    ),
+  },
+  {
+    id: 1,
+    name: "Elon Musk",
+    designation: "Senior Shitposter",
+    content: (
+      <p>
+        I dont like this Twitter thing,{" "}
+        <Highlight>deleting it right away</Highlight> because yolo. Instead, I
+        would like to call it <Highlight>X.com</Highlight> so that it can easily
+        be confused with adult sites.
+      </p>
+    ),
+  },
+  {
+    id: 2,
+    name: "Tyler Durden",
+    designation: "Manager Project Mayhem",
+    content: (
+      <p>
+        The first rule of
+        <Highlight>Fight Club</Highlight> is that you do not talk about fight
+        club. The second rule of
+        <Highlight>Fight club</Highlight> is that you DO NOT TALK about fight
+        club.
+      </p>
+    ),
+  },
+];
