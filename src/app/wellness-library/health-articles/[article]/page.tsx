@@ -52,7 +52,11 @@ export default function Page() {
       {articleInformation && (
         <div className="mx-auto pt-3 md:pt-5 lg:pt-9 w-10/12 md:w-11/12">
           <div className="items-center gap-9 lg:gap-5 grid md:grid-cols-3 lg:grid-cols-6 mb-5">
-            <div className="md:col-span-2 lg:col-span-4">
+            <div
+              className={cn("md:col-span-2 lg:col-span-4", {
+                "md:col-span-3 lg:col-span-6": !articleData?.image,
+              })}
+            >
               <h1>{articleInformation.title}</h1>
               <h5>{articleInformation.subtitle}</h5>
 
@@ -74,11 +78,11 @@ export default function Page() {
           </div>
 
           {articleData && (
-            <section>
+            <section className="flex flex-col gap-4 lg:gap-6">
               <div className="flex flex-col gap-4 lg:gap-6">
                 {articleData.sections.map((section, aIndex) => (
                   <div key={aIndex}>
-                    <div className="gap-6 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8 my-3">
+                    <div className="items-center gap-6 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8 my-3">
                       {section.image && (
                         <div
                           className={cn("col-span-3 lg:col-span-3", {
@@ -96,7 +100,7 @@ export default function Page() {
                       )}
                       <div
                         className={cn("col-span-3 lg:col-span-5", {
-                          "col-span-6 lg:col-span-5": !section.image,
+                          "md:col-span-6 lg:col-span-8": !section.image,
                         })}
                       >
                         {section.subtitle && <h5>{section.subtitle}</h5>}
@@ -115,7 +119,7 @@ export default function Page() {
                         <div key={pIndex}>
                           <div
                             className={cn(
-                              "gap-6 lg:gap-8 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8"
+                              "gap-6 lg:gap-8 grid grid-cols-1 items-center md:grid-cols-6 lg:grid-cols-8"
                             )}
                           >
                             <div
