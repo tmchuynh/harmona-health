@@ -75,7 +75,7 @@ export const toolkit: Toolkit[] = [
   },
   {
     id: "workLifeBalanceTools",
-    title: "Work-Life Balance Tools",
+    title: "Work Life Balance Tools",
     description: [
       "Work-life balance tools are designed to help individuals create a healthy equilibrium between their professional and personal lives. These resources may include time management strategies, boundary-setting techniques, and self-care practices specifically tailored for work-life balance. By using these tools, individuals can learn to prioritize their well-being, manage stress, and improve their overall quality of life. The goal is to empower individuals to take control of their work-life balance and enhance their mental health.",
       "Achieving work-life balance is essential for mental health, as it helps individuals avoid burnout and maintain a sense of fulfillment in both their personal and professional lives. The Work-Life Balance Tools provide practical strategies for managing time and setting boundaries that support overall well-being. By incorporating these tools into daily routines, individuals can create a personalized approach to work-life balance that enhances their mental health and well-being. The focus is on fostering a sense of harmony and empowerment in the face of competing demands.",
