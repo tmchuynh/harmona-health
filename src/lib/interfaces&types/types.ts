@@ -67,6 +67,7 @@ export type Exercise = {
 export type ListDetail = {
   title?: string;
   description: string;
+  src?: string;
 };
 
 export type Step = {
@@ -79,6 +80,7 @@ export type Paragraph = {
   image?: string;
   topic: string;
   supporting: string[];
+  list?: ListDetail[];
   concluding?: string;
 };
 
