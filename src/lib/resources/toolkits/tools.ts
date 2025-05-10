@@ -1138,7 +1138,7 @@ const journalingPrompts: Tool[] = [
     description:
       "Prompts to guide you in setting clear, actionable goals and tracking your progress.",
     introduction: [
-      "Goal-Setting and Vision Board Reflection Prompts are designed to guide you in setting clear, actionable goals and tracking your progress. Each prompt encourages you to reflect on your aspirations, create a vision board, and develop a plan to achieve your dreams. By engaging with these prompts, you can enhance your focus and motivation, empowering you to turn your visions into reality.",
+      "Goal-Setting and Vision Board Reflection Prompts are designed to guide you in setting clear, actionable goals and tracking your progress. Each prompt encourages you to reflect on your aspirations, create a vision board, and develop a plan to achieve your dreams. By engaging with these prompts, you can enhance your focus and motivation, empowering you to turn your visions into reality. This will help you set clear, actionable goals and track your progress. By engaging with these prompts, you can enhance your focus and motivation, empowering you to turn your visions into reality.",
       "Goal-Setting and Vision Board Reflection Prompts are powerful tools designed to guide you in setting clear, actionable goals and tracking your progress. Each carefully crafted prompt encourages you to reflect on your aspirations, create a vision board, and develop a plan to achieve your dreams. By engaging with these prompts, you can enhance your focus and motivation, empowering you to turn your visions into reality.",
     ],
   },
@@ -1162,9 +1162,8 @@ const journalingPrompts: Tool[] = [
     description:
       "Prompts to help you stay present and increase mindfulness in your daily life.",
     introduction: [
-      "Mindfulness Prompts are designed to help you cultivate a greater sense of presence and awareness in your daily life. Each prompt encourages you to reflect on your thoughts, feelings, and experiences in the moment, fostering a deeper connection to yourself and the world around you. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life.",
-      "These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your thoughts and feelings, you can gain insights into your emotional landscape and develop a greater understanding of your experiences. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace the present moment.",
-      "Mindfulness Prompts are a powerful tool for cultivating awareness and presence in your daily life. Each prompt encourages you to reflect on your thoughts, feelings, and experiences in the moment, fostering a deeper connection to yourself and the world around you. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life.",
+      "Mindfulness Prompts are designed to help you cultivate a greater sense of presence and awareness in your daily life. Each prompt encourages you to reflect on your thoughts, feelings, and experiences in the moment, fostering a deeper connection to yourself and the world around you. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life. They will help you stay present and increase mindfulness in your daily life. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life.",
+      "These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your thoughts and feelings, you can gain insights into your emotional landscape and develop a greater understanding of your experiences. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace the present moment. Mindfulness Prompts are a powerful tool for cultivating awareness and presence in your daily life. Each prompt encourages you to reflect on your thoughts, feelings, and experiences in the moment, fostering a deeper connection to yourself and the world around you. By engaging with these prompts, you can enhance your mindfulness practice and develop a more grounded approach to life.",
     ],
   },
   {
@@ -1175,7 +1174,7 @@ const journalingPrompts: Tool[] = [
     description:
       "Prompts designed to help you process emotions and heal from difficult experiences.",
     introduction: [
-      "Emotional Healing Prompts are designed to help you process and heal from difficult experiences. Each prompt encourages you to reflect on your emotions, thoughts, and feelings, allowing you to gain insights into your inner world. By engaging with these prompts, you can cultivate emotional resilience and foster a deeper understanding of yourself.",
+      "Emotional Healing Prompts are designed to help you process and heal from difficult experiences. Each prompt encourages you to reflect on your emotions, thoughts, and feelings, allowing you to gain insights into your inner world. By engaging with these prompts, you can cultivate emotional resilience and foster a deeper understanding of yourself. They will help you process your emotions and experiences, allowing you to gain insights into your inner world. By engaging with these prompts, you can cultivate emotional resilience and foster a deeper understanding of yourself.",
       "These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your experiences, you can gain insights into your emotional landscape and develop a greater understanding of your feelings. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace the healing process.",
     ],
   },
@@ -1187,20 +1186,20 @@ const journalingPrompts: Tool[] = [
     description:
       "Prompts to ignite your creative energy and explore new ideas and artistic endeavors.",
     introduction: [
-      "Creativity Journaling Prompts are designed to inspire and ignite your creative energy. Each prompt encourages you to explore new ideas, artistic endeavors, and imaginative concepts. By engaging with these prompts, you can tap into your inner creativity and discover new ways of expressing yourself. These prompts serve as a catalyst for creative exploration and self-expression. By taking the time to write about your thoughts and ideas, you can unlock new perspectives and insights that can enhance your creative process. This practice helps you cultivate a deeper connection with your imagination and encourages you to embrace your unique artistic voice.",
+      "Creativity Journaling Prompts are designed to inspire and ignite your creative energy. Each prompt encourages you to explore new ideas, artistic endeavors, and imaginative concepts. By engaging with these prompts, you can tap into your inner creativity and discover new ways of expressing yourself. These prompts serve as a catalyst for creative exploration and self-expression. By taking the time to write about your thoughts and ideas, you can unlock new perspectives and insights that can enhance your creative process. This practice helps you cultivate a deeper connection with your imagination and encourages you to embrace your unique artistic voice. They will help you explore new ideas, artistic endeavors, and imaginative concepts. By engaging with these prompts, you can tap into your inner creativity and discover new ways of expressing yourself. These prompts serve as a catalyst for creative exploration and self-expression. By taking the time to write about your thoughts and ideas, you can unlock new perspectives and insights that can enhance your creative process. This practice helps you cultivate a deeper connection with your imagination and encourages you to embrace your unique artistic voice.",
       "Creativity Journaling Prompts are a powerful tool for igniting your imagination and exploring new ideas. Each prompt encourages you to tap into your creative energy and discover new ways of expressing yourself. By engaging with these prompts, you can unlock your inner artist and cultivate a deeper connection with your creativity.",
     ],
   },
   {
     id: "self-discovery-tool-7",
     categoryId: "journalingPrompts",
-    title: "Self-Compassion Prompts",
+    title: "Self Compassion Prompts",
     subtitle: "Nurturing Kindness and Acceptance",
     description:
       "Prompts that encourage self-love, acceptance, and kindness towards yourself.",
     introduction: [
-      "Self-Compassion Prompts are designed to help you cultivate a kinder and more forgiving relationship with yourself. Each prompt encourages you to reflect on your thoughts, feelings, and experiences with compassion and understanding. By engaging with these prompts, you can develop a deeper sense of self-acceptance and emotional resilience.",
-      "These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your experiences, you can gain insights into your emotional landscape and develop a greater understanding of your feelings. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace self-love and acceptance.",
+      "Self-Compassion Prompts are designed to help you cultivate a kinder and more forgiving relationship with yourself. Each prompt encourages you to reflect on your thoughts, feelings, and experiences with compassion and understanding. By engaging with these prompts, you can develop a deeper sense of self-acceptance and emotional resilience. These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your experiences, you can gain insights into your emotional landscape and develop a greater understanding of your feelings. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace self-love and acceptance. ",
+      "Self-Compassion Prompts are a powerful tool for nurturing kindness and acceptance towards yourself. Each prompt encourages you to reflect on your thoughts, feelings, and experiences with compassion and understanding. By engaging with these prompts, you can develop a deeper sense of self-acceptance and emotional resilience. These prompts serve as a tool for self-reflection and personal growth. By taking the time to write about your experiences, you can gain insights into your emotional landscape and develop a greater understanding of your feelings. This practice helps you cultivate a deeper connection with yourself and encourages you to embrace self-love and acceptance.",
     ],
   },
   {
@@ -1239,7 +1238,6 @@ const journalingPrompts: Tool[] = [
     introduction: [
       "Morning Mindset Prompts are designed to help you cultivate a positive and focused mindset as you start your day. Each prompt encourages you to reflect on your goals, intentions, and aspirations, setting a positive tone for the day ahead. By engaging with these prompts, you can enhance your emotional resilience and personal empowerment.",
       "These prompts serve as a daily ritual that encourages self-reflection and mindfulness. By taking a few moments each morning to engage with these prompts, you can create a sense of clarity and purpose that guides your actions throughout the day. This practice helps shift your mindset from passive reaction to active creation, allowing you to approach challenges with confidence and determination.",
-
     ],
   },
   {

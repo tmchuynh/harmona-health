@@ -1,12 +1,13 @@
 "use client";
 
-import React, { createContext, useContext, ReactNode } from "react";
+import { createContext, ReactNode, useContext } from "react";
 
 export interface ToolContextType {
   tool: string;
   toolKit: string;
   toolKitID: string;
   toolInformation: any;
+  correspondingTools?: any[];
 }
 
 const ToolContext = createContext<ToolContextType | undefined>(undefined);

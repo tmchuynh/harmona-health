@@ -7,11 +7,14 @@ import { Button } from "@/components/ui/button";
 import { useToolContext } from "@/context/toolContext";
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { getRandomIndex, getToolResource } from "@/lib/utils";
-import { formatUrlToID } from "@/lib/utils/format";
+import { formatToURL, formatUrlToID, toKebabCase } from "@/lib/utils/format";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Page() {
-  const { tool, toolKit, toolKitID, toolInformation } = useToolContext();
+  const { tool, toolKit, toolKitID, toolInformation, correspondingTools } =
+    useToolContext();
+  const router = useRouter();
   const [journal, setJournal] = useState<JournalPrompts[]>([]);
   const [loading, setLoading] = useState(true);
   const [randomPrompt, setRandomPrompt] = useState<JournalPrompts | null>(null);
@@ -47,6 +50,12 @@ export default function Page() {
 
     fetchData();
   }, [toolKit, toolKitID]);
+
+  console.log("toolInformation", toolInformation);
+  console.log("toolKit", toolKit);
+  console.log("tool", tool);
+  console.log("correspondingTools", correspondingTools);
+  console.log("journal", journal);
 
   const getNextPrompt = () => {
     if (journal.length > 0) {
@@ -104,49 +113,87 @@ export default function Page() {
         ))}
 
       {randomPrompt && (
-        <>
-          <section className="mx-auto py-7 w-full">
-            <JournalPromptCard randomPrompt={randomPrompt} />
+        <section>
+          {journal.length > 0 && (
+            <div>
+              <section className="mx-auto py-7 w-full">
+                <JournalPromptCard
+                  randomPrompt={randomPrompt}
+                  oldPrompts={oldPrompts}
+                />
 
-            <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
-              <Button
-                variant={journal.length === 0 ? "accent" : "destructive"}
-                onClick={handleStartOver}
-              >
-                Start Over
-              </Button>
+                <div className="flex md:flex-row flex-col justify-center gap-4 mt-6">
+                  <Button
+                    variant={journal.length === 0 ? "accent" : "destructive"}
+                    onClick={handleStartOver}
+                  >
+                    Start Over
+                  </Button>
 
-              <Button
-                onClick={getNextPrompt}
-                disabled={journal.length === 0}
-                className={`px-4 py-2 rounded-md ${
-                  journal.length === 0 && "cursor-not-allowed"
-                }`}
-              >
-                {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
-              </Button>
+                  <Button
+                    onClick={getNextPrompt}
+                    disabled={journal.length === 0}
+                    className={`px-4 py-2 rounded-md ${
+                      journal.length === 0 && "cursor-not-allowed"
+                    }`}
+                  >
+                    {journal.length === 0 ? "No More Prompts" : "Next Prompt"}
+                  </Button>
+                </div>
+              </section>
+              {randomPrompt.gallery &&
+                (randomPrompt.gallery.data.length === 6 ? (
+                  <MixedGallery data={randomPrompt.gallery.data} />
+                ) : randomPrompt.gallery.data.length === 4 ? (
+                  <div className="flex w-full">
+                    <QuadGallery data={randomPrompt.gallery.data} />
+                  </div>
+                ) : (
+                  <div className="flex w-full">
+                    <MasonryGridGallery data={randomPrompt.gallery.data} />
+                  </div>
+                ))}
             </div>
+          )}
 
-            {journal.length === 0 && (
-              <p className="mt-4 text-center">
-                You've viewed all available journal prompts!
-              </p>
-            )}
-          </section>
+          {journal.length === 0 && (
+            <section className="my-8">
+              <Button variant={"secondary"} onClick={handleStartOver}>
+                View The Prompts Again
+              </Button>
 
-          {randomPrompt.gallery &&
-            (randomPrompt.gallery.data.length === 6 ? (
-              <MixedGallery data={randomPrompt.gallery.data} />
-            ) : randomPrompt.gallery.data.length === 4 ? (
-              <div className="flex w-full">
-                <QuadGallery data={randomPrompt.gallery.data} />
+              <div>
+                {correspondingTools && correspondingTools.length > 0 && (
+                  <div className="mt-6">
+                    <h3>
+                      Here are some other writing categories you can explore:
+                    </h3>
+
+                    <ul className="gap-x-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-[upper-roman] list-outside">
+                      {correspondingTools.map((tool, index) => (
+                        <li key={index} className="mb-4">
+                          <h4
+                            className="underline-offset-2 hover:underline no-underline"
+                            onClick={() =>
+                              router.push(
+                                `/wellness-library/digital-resources/mental-health-toolkit/${toKebabCase(
+                                  tool.categoryId
+                                )}/${formatToURL(tool.title)}`
+                              )
+                            }
+                          >
+                            {tool.title}
+                          </h4>
+                          <p>{tool.description}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
-            ) : (
-              <div className="flex w-full">
-                <MasonryGridGallery data={randomPrompt.gallery.data} />
-              </div>
-            ))}
-        </>
+            </section>
+          )}
+        </section>
       )}
     </div>
   );
