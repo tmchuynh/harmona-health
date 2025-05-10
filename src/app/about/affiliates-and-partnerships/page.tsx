@@ -72,7 +72,7 @@ export default function Page() {
                 <Image
                   src={company.logo}
                   alt={company.name}
-                  className="py-3 rounded-2xl object-cover object-center"
+                  className="bg-muted my-3 rounded-2xl object-cover object-center"
                   width={200}
                   height={200}
                 />
@@ -98,7 +98,7 @@ export default function Page() {
                 <Image
                   src={company.logo}
                   alt={company.name}
-                  className="py-3 rounded-2xl object-cover object-center"
+                  className="bg-muted my-3 rounded-2xl object-cover object-center"
                   width={200}
                   height={200}
                 />
