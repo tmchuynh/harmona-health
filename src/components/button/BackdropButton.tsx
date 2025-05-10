@@ -36,7 +36,7 @@ export default function BackdropButton({
       onClick={() => onClick && router.push(onClick)}
       size={size}
       className={cn(
-        "backdrop-blur-lg px-4 py-2 rounded-lg transition duration-200",
+        "backdrop-blur-lg px-4 py-2 rounded-lg transition duration-200 cursor-pointer",
         {
           "shadow-none hover:underline underline-offset-2 px-0 backdrop-blur-none":
             variant === "link",
