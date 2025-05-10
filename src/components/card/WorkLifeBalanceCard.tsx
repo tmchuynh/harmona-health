@@ -1,21 +1,22 @@
 import { WorkLifeBalance } from "@/lib/interfaces&types/resources";
 import Image from "next/image";
-import React from "react";
 
 const WorkLifeBalanceCard = ({ data }: { data: WorkLifeBalance }) => {
   return (
     <div className="flex flex-col justify-between bg-card shadow-md mx-auto p-9 rounded-lg">
-      <div>
-        <h1 className="mb-4 font-bold text-2xl">{data.title}</h1>
+      <div className="flex flex-col justify-between h-full">
+        <div>
+          <h1 className="mb-4 font-bold text-2xl">{data.title}</h1>
 
-        {/* Introduction Section */}
-        <div className="">
-          {data.introduction.map((para, index) => (
-            <p key={index}>{para}</p>
-          ))}
+          {/* Introduction Section */}
+          <div className="">
+            {data.introduction.map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
+          </div>
         </div>
 
-        <section className="gap-4 grid grid-cols-1 lg:grid-cols-2 my-8">
+        <section className="gap-4 grid grid-cols-1 lg:grid-cols-2 my-8 h-full">
           {/* Work Scenario Section */}
           <div className="flex flex-col justify-between">
             <div className="pb-6">
@@ -25,7 +26,7 @@ const WorkLifeBalanceCard = ({ data }: { data: WorkLifeBalance }) => {
             <Image
               src={data.workScenarioImage}
               alt="Work Scenario"
-              className="shadow-md rounded-lg h-full object-cover object-center"
+              className="mx-auto rounded-lg w-11/12 h-full object-cover object-center"
               width={500}
               height={300}
             />
@@ -40,7 +41,7 @@ const WorkLifeBalanceCard = ({ data }: { data: WorkLifeBalance }) => {
             <Image
               src={data.lifeScenarioImage}
               alt="Life Scenario"
-              className="shadow-md rounded-lg h-full object-cover object-center"
+              className="mx-auto rounded-lg w-11/12 h-full object-cover object-center"
               width={500}
               height={300}
             />
@@ -48,7 +49,7 @@ const WorkLifeBalanceCard = ({ data }: { data: WorkLifeBalance }) => {
         </section>
       </div>
 
-      <section>
+      <section className="flex flex-col justify-between h-auto">
         {/* Reasoning Section */}
         <div className="mb-6">
           <h3>Reasoning:</h3>
