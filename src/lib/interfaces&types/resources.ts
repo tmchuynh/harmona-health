@@ -42,6 +42,7 @@ export interface Toolkit {
   introduction?: string;
   description: string[];
   warningText?: string;
+  href?: string;
   image?: string;
 }
 
