@@ -57,7 +57,9 @@ export default function Page() {
               <h5>{articleInformation.subtitle}</h5>
 
               {articleData?.preface.map((p, pIndex) => (
-                <p key={pIndex}>{p}</p>
+                <p key={pIndex} className="indent-5">
+                  {p}
+                </p>
               ))}
             </div>
             {articleData?.image && (
@@ -97,8 +99,8 @@ export default function Page() {
                           "col-span-6 lg:col-span-5": !section.image,
                         })}
                       >
+                        {section.subtitle && <h5>{section.subtitle}</h5>}
                         <h2>{section.title}</h2>
-                        {section.subtitle && <h3>{section.subtitle}</h3>}
                         {section.preface &&
                           section.preface.map((content, sIndex) => (
                             <p key={sIndex} className="indent-5">
@@ -166,6 +168,7 @@ export default function Page() {
               </div>
 
               <div>
+                <h2>Conclusion</h2>
                 {articleData.conclusion.map((conclusion, cIndex) => (
                   <p key={cIndex} className="indent-5">
                     {conclusion}
