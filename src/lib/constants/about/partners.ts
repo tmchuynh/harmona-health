@@ -4,74 +4,96 @@ export const affiliateCompanies: Company[] = [
   {
     name: "Healthy Living Co.",
     description:
-      "A lifestyle brand offering products for mindful living, from wellness gadgets to healthy food options.",
+      "A lifestyle brand offering curated wellness products—from ergonomic gadgets to nutritious foods—promoting a balanced, health-conscious life.",
     logo: "/images/Healthy.png",
   },
   {
-    name: "Wellness Innovations",
+    name: "NewMindfulLife",
     description:
-      "A tech company developing apps to enhance mental well-being, from meditation to sleep tracking.",
-    logo: "/images/Wellness.png",
+      "A mindfulness and therapy platform offering guided meditations, therapeutic tools, and mental wellness programs designed to support emotional balance and personal growth.",
+    logo: "/images/NewMindfulLife.png",
   },
   {
     name: "Vibrant Life Nutrition",
     description:
-      "Nutritional supplement brand focused on providing high-quality vitamins and minerals for optimal health.",
+      "A premium supplement brand offering science-backed vitamins, minerals, and herbal blends to support vitality and long-term health.",
     logo: "/images/Vibrant.png",
   },
   {
-    name: "FitTech Solutions",
+    name: "Rheia Inc.",
     description:
-      "Innovative fitness equipment and technology to enhance physical training and improve performance.",
-    logo: "/images/FitTech.png",
+      "A fitness technology company designing smart training equipment and performance-enhancing tools for athletes and active lifestyles.",
+    logo: "/images/Rheia.png",
   },
   {
     name: "PureWell Products",
     description:
-      "A sustainable wellness brand focused on organic health products, from skincare to essential oils.",
+      "An eco-conscious brand producing organic skincare, essential oils, and wellness goods with a commitment to purity and sustainability.",
     logo: "/images/PureWell.png",
+  },
+  {
+    name: "FoodWise",
+    description:
+      "A health-forward food brand delivering nutrient-dense, responsibly sourced snacks and meal solutions for mindful eaters.",
+    logo: "/images/FoodWise.png",
   },
 ];
 
 export const partnershipCompanies: Company[] = [
   {
-    name: "WelCo Enterprises",
+    name: "Rich Life",
     description:
-      "A global wellness brand focused on corporate wellness solutions, offering workshops and seminars.",
-    logo: "/images/WelCo.png",
+      "A global wellness brand delivering tailored corporate wellness solutions, including onsite seminars, executive health programs, and productivity coaching.",
+    logo: "/images/RichLife.png",
     partnershipDetails:
-      "Exclusive partner for corporate wellness programs, collaborating on large-scale wellness initiatives.",
+      "Exclusive partner for corporate wellness programs, co-developing large-scale health and productivity initiatives for enterprise clients.",
   },
   {
-    name: "Mindful Living Network",
+    name: "Mindful Living",
     description:
-      "A network of wellness practitioners providing mindfulness training, therapy, and emotional support.",
+      "A collective of certified mindfulness coaches and therapists offering guided practices, emotional support, and trauma-informed therapy services.",
     logo: "/images/MindfulLiving.png",
     partnershipDetails:
-      "Strategic partner for providing mindfulness programs and emotional wellness support to clients.",
+      "Strategic partner for delivering mindfulness-based therapy and emotional wellness programs to individuals and organizations.",
   },
   {
     name: "Peak Performance Fitness",
     description:
-      "A fitness center known for their high-end gyms, personal trainers, and wellness programs.",
+      "An elite fitness brand specializing in high-performance training, private coaching, and integrated wellness plans for optimal physical performance.",
     logo: "/images/Peak.png",
     partnershipDetails:
-      "Partnership for co-branded fitness training programs and personalized coaching.",
+      "Partnered to deliver co-branded fitness regimens, workshops, and one-on-one coaching programs.",
   },
   {
     name: "GreenLife Health",
     description:
-      "A sustainable brand offering eco-friendly wellness products ranging from fitness gear to home wellness.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+      "A sustainability-focused wellness company offering eco-friendly fitness equipment, non-toxic home wellness products, and green living education.",
+    logo: "/images/GreenLifeHealth.png",
     partnershipDetails:
-      "Collaborating on sustainability initiatives and offering eco-friendly wellness products to customers.",
+      "Collaboration on sustainable wellness campaigns and distribution of eco-conscious health products.",
   },
   {
     name: "Holistic Health Solutions",
     description:
-      "A holistic health company providing services like acupuncture, chiropractic care, and energy healing.",
-    logo: "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+      "A full-spectrum integrative health provider specializing in acupuncture, chiropractic care, naturopathy, and energy-based healing modalities.",
+    logo: "/images/HolisticHealth.png",
     partnershipDetails:
-      "Long-term partnership for co-promoting holistic health services and workshops.",
+      "Ongoing partner for cross-promoting holistic health offerings, educational events, and wellness retreats.",
+  },
+  {
+    name: "The One Inc.",
+    description:
+      "A wellness tech firm developing personalized health diagnostics and AI-driven holistic care plans for individuals seeking integrated well-being.",
+    logo: "/images/TheOne.png",
+    partnershipDetails:
+      "Collaborating on personalized wellness assessments and digital care pathways integrating holistic methodologies.",
+  },
+  {
+    name: "Green Nutrition Co.",
+    description:
+      "A plant-based nutrition brand offering organic supplements, whole-food vitamins, and education on sustainable eating habits.",
+    logo: "/images/GreenNutrition.png",
+    partnershipDetails:
+      "Partnering to deliver co-branded plant-based nutrition programs, product bundles, and wellness content.",
   },
 ];
