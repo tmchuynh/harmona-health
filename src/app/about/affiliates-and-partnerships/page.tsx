@@ -72,7 +72,7 @@ export default function Page() {
                 <Image
                   src={company.logo}
                   alt={company.name}
-                  className="bg-muted my-3 rounded-2xl object-cover object-center"
+                  className="bg-background my-3 rounded-2xl w-auto h-40 object-cover object-center aspect-square"
                   width={200}
                   height={200}
                 />
@@ -94,11 +94,11 @@ export default function Page() {
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-2">
           {partnershipCompanies.map((company, index) => (
             <div key={index} className="group flex flex-col h-full">
-              <div className="flex">
+              <div className="flex items-center">
                 <Image
                   src={company.logo}
                   alt={company.name}
-                  className="bg-muted my-3 rounded-2xl object-cover object-center"
+                  className="bg-background my-3 rounded-2xl w-auto h-40 aspect-square object-cover object-center"
                   width={200}
                   height={200}
                 />
