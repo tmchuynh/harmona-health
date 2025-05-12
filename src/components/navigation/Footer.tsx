@@ -10,13 +10,13 @@ import { PiAnchorSimpleBold, PiFlowerLotus } from "react-icons/pi";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary dark:bg-primary/50 mt-22 pb-12 md:pb-20 text-foreground">
+    <footer className="bg-secondary dark:bg-sidebar-primary mt-22 pb-12 md:pb-20 text-secondary-foreground">
       <div className="mx-auto px-6 lg:px-8 pt-12 pb-8 max-w-7xl">
         <div className="xl:gap-8 xl:grid xl:grid-cols-3">
           <div className="gap-8 grid grid-cols-2 xl:col-span-2 md:mb-18 lg:mb-0">
             <div className="md:items-end md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3>Programs</h3>
+                <h3 className="text-muted">Programs</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {mainPages.slice(0, 2).map((item) => (
                     <li
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
             <div className="md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3>About HH</h3>
+                <h3 className="text-muted">About HH</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {aboutPages.map((item) => (
                     <li
@@ -81,7 +81,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3>Join Us</h3>
+                <h3 className="text-muted">Join Us</h3>
                 <ul role="list" className="space-y-4 mt-6">
                   {mainPages
                     .slice(mainPages.length - 1, mainPages.length)
@@ -132,7 +132,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-10 xl:mt-0">
-            <h3>Subscribe to our newsletter</h3>
+            <h3 className="text-muted">Subscribe to our newsletter</h3>
             <p className="mt-2">
               The latest news, articles, and resources, sent to your inbox
               weekly.
