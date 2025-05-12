@@ -1,52 +1,41 @@
-const navigation = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Automation", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
-  ],
-  support: [
-    { name: "Submit ticket", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-  ],
-  legal: [
-    { name: "Terms of service", href: "#" },
-    { name: "Privacy policy", href: "#" },
-    { name: "License", href: "#" },
-  ],
-};
+import {
+  aboutPages,
+  mainPages,
+  secondaryPages,
+  singlePage,
+} from "@/lib/constants/navigation/menu";
 
 export default function Footer() {
   return (
-    <footer className="">
-      <div className="mx-auto px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-32 pb-8 max-w-7xl">
+    <footer className="mt-22 mb-12 md:mb-20 border-t">
+      <div className="mx-auto px-6 lg:px-8 pt-12 pb-8 max-w-7xl">
         <div className="xl:gap-8 xl:grid xl:grid-cols-3">
-          <div className="gap-8 grid grid-cols-2 xl:col-span-2">
-            <div className="md:gap-8 md:grid md:grid-cols-2">
+          <div className="gap-8 grid grid-cols-2 xl:col-span-2 md:mb-18 lg:mb-0">
+            <div className="md:items-end md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3 className="font-semibold text-sm/6">Solutions</h3>
+                <h5>Programs</h5>
                 <ul role="list" className="space-y-4 mt-6">
-                  {navigation.solutions.map((item) => (
+                  {mainPages.slice(0, 2).map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
                       </a>
                     </li>
                   ))}
+                  {secondaryPages
+                    .slice(3, secondaryPages.length)
+                    .map((item) => (
+                      <li key={item.name}>
+                        <a href={item.href} className="text-sm/6 hover:">
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold text-sm/6">Support</h3>
-                <ul role="list" className="space-y-4 mt-6">
-                  {navigation.support.map((item) => (
+              <div className="">
+                <ul role="list" className="space-y-4 mt-4">
+                  {secondaryPages.slice(0, 3).map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
@@ -58,9 +47,9 @@ export default function Footer() {
             </div>
             <div className="md:gap-8 md:grid md:grid-cols-2">
               <div>
-                <h3 className="font-semibold text-sm/6">Company</h3>
+                <h5>About Harmona Health</h5>
                 <ul role="list" className="space-y-4 mt-6">
-                  {navigation.company.map((item) => (
+                  {aboutPages.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
@@ -70,9 +59,25 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold text-sm/6">Legal</h3>
+                <h5>Join Us</h5>
                 <ul role="list" className="space-y-4 mt-6">
-                  {navigation.legal.map((item) => (
+                  {mainPages
+                    .slice(mainPages.length - 1, mainPages.length)
+                    .map((item) => (
+                      <li key={item.name}>
+                        <a href={item.href} className="text-sm/6 hover:">
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                  {mainPages.slice(2, mainPages.length - 1).map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm/6 hover:">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                  {singlePage.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 hover:">
                         {item.name}
@@ -84,9 +89,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-10 xl:mt-0">
-            <h3 className="font-semibold text-sm/6">
-              Subscribe to our newsletter
-            </h3>
+            <h5>Subscribe to our newsletter</h5>
             <p className="mt-2 text-sm/6">
               The latest news, articles, and resources, sent to your inbox
               weekly.
@@ -99,7 +102,7 @@ export default function Footer() {
                 id="email-address"
                 name="email-address"
                 type="email"
-                required
+                disabled
                 placeholder="Enter your email"
                 autoComplete="email"
                 className="px-3 py-1.5 rounded-md w-full sm:w-64 xl:w-full min-w-0 text-base sm:text-sm/6 placeholder: outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
