@@ -28,10 +28,10 @@ export default function FlyoutMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-background">
+    <header>
       <nav
         aria-label="Global"
-        className="top-0 z-20 fixed flex justify-between items-center bg-background shadow-sm mx-auto lg:px-8 p-6 border-b w-full font-[Poppins]"
+        className="top-0 z-20 fixed flex justify-between items-center bg-secondary dark:bg-sidebar-primary shadow-sm mx-auto lg:px-8 p-6 w-full font-[Poppins] text-secondary-foreground"
       >
         <div className="flex lg:hidden">
           <button
@@ -58,7 +58,7 @@ export default function FlyoutMenu() {
 
             <PopoverPanel
               transition
-              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
+              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md text-foreground transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
             >
               <div className="p-4">
                 {aboutPages.map((item: NavigationMenu) => (
@@ -94,7 +94,7 @@ export default function FlyoutMenu() {
 
             <PopoverPanel
               transition
-              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
+              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md text-foreground transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
             >
               <div className="p-4">
                 {mainPages.map((item: NavigationMenu) => (
@@ -131,7 +131,7 @@ export default function FlyoutMenu() {
 
             <PopoverPanel
               transition
-              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
+              className="top-full -left-8 z-10 absolute bg-background data-closed:opacity-0 shadow-lg mt-3 dark:border rounded-3xl ring-1 ring-gray-900/5 w-screen max-w-md text-foreground transition data-closed:translate-y-1 data-enter:duration-200 data-leave:duration-150 overflow-hidden data-enter:ease-out data-leave:ease-in"
             >
               <div className="p-4">
                 {secondaryPages.map((item: NavigationMenu) => (
