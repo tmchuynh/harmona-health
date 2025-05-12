@@ -1,10 +1,10 @@
 "use client";
 
+import { CartProvider } from "@/context/cartContext";
+import { CurrencyProvider } from "@/context/currencyContext";
 import { ThemeProvider } from "next-themes";
 import { JSX, ReactNode } from "react";
 import { NotFoundProvider } from "../context/NotFoundContext";
-import { CurrencyProvider } from "@/context/currencyContext";
-import { CartProvider } from "@/context/cartContext";
 
 /**
  * Providers component that wraps its children with a ThemeProvider.
@@ -16,7 +16,7 @@ import { CartProvider } from "@/context/cartContext";
  */
 export function Providers({ children }: { children: ReactNode }): JSX.Element {
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true}>
       <CurrencyProvider>
         <CartProvider>
           <NotFoundProvider>{children}</NotFoundProvider>
