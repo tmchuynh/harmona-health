@@ -158,7 +158,7 @@ export default function Page() {
                 {information.keypoints.map((keypoint, index) => (
                   <li
                     key={`${keypoint}-${index}`}
-                    className="flex items-center"
+                    className="flex items-start gap-x-3"
                   >
                     <IconDisplay Icon={icon} />
                     {keypoint}
