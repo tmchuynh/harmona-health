@@ -42,6 +42,5 @@ export interface ServiceTierInformation {
   sessions: number;
   sessionsPerWeek: number;
   totalSessions: number;
-  totalPrice: number;
   blackOutDays?: string[];
 }

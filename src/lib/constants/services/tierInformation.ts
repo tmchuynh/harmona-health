@@ -1,17 +1,15 @@
 import { ServiceTierInformation } from "@/lib/interfaces&types/services";
-
 export const serviceTierInformation: ServiceTierInformation[] = [
   {
     serviceId: "personalized-wellness",
     tier: "basic",
     introduction:
       "Kickstart your wellness journey with foundational insights and tailored weekly plans.",
-    price: 299,
+    price: 35,
     durationOfSession: 60,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 299,
     blackOutDays: ["Monday", "Tuesday", "Saturday", "Sunday", "Friday"],
   },
   {
@@ -19,12 +17,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Dive deeper with bi-weekly coaching to ensure sustainable change and accountability.",
-    price: 499,
-    durationOfSession: 60,
+    price: 40,
+    durationOfSession: 75,
     sessions: 8,
     sessionsPerWeek: 2,
     totalSessions: 16,
-    totalPrice: 499,
     blackOutDays: ["Monday", "Wednesday", "Sunday", "Friday"],
   },
   {
@@ -32,27 +29,24 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Full-scale transformation with your own coach and trainer to guide every aspect of your journey.",
-    price: 899,
-    durationOfSession: 75,
+    price: 60,
+    durationOfSession: 120,
     sessions: 12,
     sessionsPerWeek: 2,
     totalSessions: 24,
-    totalPrice: 899,
     blackOutDays: ["Monday", "Sunday", "Friday"],
   },
-
   // Hormonal Balance
   {
     serviceId: "hormonal-balance",
     tier: "basic",
     introduction:
       "Understand your hormonal health with a symptom questionnaire and general recommendations.",
-    price: 199,
-    durationOfSession: 45,
+    price: 25,
+    durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 199,
     blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
@@ -60,12 +54,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Get a hormone-specific lifestyle plan and functional food guide for better results.",
-    price: 399,
-    durationOfSession: 60,
+    price: 50,
+    durationOfSession: 90,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 399,
     blackOutDays: ["Monday", "Tuesday", "Friday"],
   },
   {
@@ -73,27 +66,24 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Comprehensive support with lab test analysis, supplement protocol, and integrative coaching.",
-    price: 699,
-    durationOfSession: 75,
+    price: 100,
+    durationOfSession: 150,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 699,
     blackOutDays: ["Saturday", "Sunday"],
   },
-
   // Sleep Coaching
   {
     serviceId: "sleep-coaching",
     tier: "basic",
     introduction:
       "Improve your sleep hygiene with a personalized assessment and core habit recommendations.",
-    price: 149,
-    durationOfSession: 45,
+    price: 25,
+    durationOfSession: 30,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 149,
     blackOutDays: ["Monday", "Wednesday", "Friday"],
   },
   {
@@ -101,12 +91,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Includes sleep tracking and bi-weekly coaching to optimize your nightly routine.",
-    price: 299,
+    price: 30,
     durationOfSession: 60,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 299,
     blackOutDays: ["Monday", "Friday"],
   },
   {
@@ -114,26 +103,23 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Comprehensive sleep optimization with device integration and weekly sessions.",
-    price: 499,
-    durationOfSession: 75,
+    price: 150,
+    durationOfSession: 60,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 499,
   },
-
   // Detox Reset
   {
     serviceId: "detox-reset",
     tier: "basic",
     introduction:
       "Start your detox journey with a cleanse guide and meal recommendations.",
-    price: 99,
-    durationOfSession: 30,
+    price: 45,
+    durationOfSession: 90,
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 99,
     blackOutDays: ["Tuesday", "Thursday", "Sunday", "Friday"],
   },
   {
@@ -141,12 +127,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Includes 1-on-1 detox coaching to guide you through the process.",
-    price: 199,
-    durationOfSession: 45,
+    price: 100,
+    durationOfSession: 90,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 199,
     blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
@@ -154,25 +139,22 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Comprehensive detox program with meal delivery, daily check-ins, and coaching.",
-    price: 399,
+    price: 300,
     durationOfSession: 60,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 399,
   },
-
   // Meal Planning
   {
     serviceId: "meal-planning",
     tier: "basic",
     introduction: "Receive a one-time 7-day meal plan tailored to your needs.",
-    price: 49,
-    durationOfSession: 30,
+    price: 700,
+    durationOfSession: 60,
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 49,
     blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
@@ -180,12 +162,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Monthly meal planning with check-ins to ensure consistency and progress.",
-    price: 149,
-    durationOfSession: 45,
+    price: 400,
+    durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 149,
     blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
@@ -193,26 +174,23 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Live support, custom recipes, and shopping lists for a seamless experience.",
-    price: 299,
+    price: 600,
     durationOfSession: 60,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 299,
   },
-
   // Digestive Health
   {
     serviceId: "digestive-health",
     tier: "basic",
     introduction:
       "Get started with a digestive guide and food sensitivity overview.",
-    price: 199,
+    price: 30,
     durationOfSession: 45,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 199,
     blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
@@ -220,12 +198,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Weekly food journal reviews and coaching to improve digestive health.",
-    price: 399,
+    price: 90,
     durationOfSession: 60,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 399,
     blackOutDays: ["Tuesday"],
   },
   {
@@ -233,26 +210,23 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Comprehensive support with lab testing, GI protocol, and personalized supplements.",
-    price: 699,
-    durationOfSession: 75,
+    price: 120,
+    durationOfSession: 90,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 699,
   },
-
   // Supplement Guidance
   {
     serviceId: "supplement-guidance",
     tier: "basic",
     introduction:
       "Receive an initial consultation and personalized supplement plan.",
-    price: 99,
-    durationOfSession: 30,
+    price: 100,
+    durationOfSession: 90,
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 99,
     blackOutDays: ["Tuesday", "Wednesday", "Thursday"],
   },
   {
@@ -260,12 +234,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Includes follow-up sessions and retesting for optimal results.",
-    price: 199,
-    durationOfSession: 45,
+    price: 200,
+    durationOfSession: 120,
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 199,
     blackOutDays: ["Tuesday", "Wednesday"],
   },
   {
@@ -273,99 +246,88 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Comprehensive supplement regimen with discounts and ongoing support.",
-    price: 399,
-    durationOfSession: 60,
+    price: 225,
+    durationOfSession: 120,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 399,
   },
-
   // Online Fitness Coaching
   {
     serviceId: "online-fitness-coaching",
     tier: "basic",
     introduction: "Access workout templates and a monthly check-in session.",
-    price: 149,
-    durationOfSession: 45,
+    price: 100,
+    durationOfSession: 60,
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 149,
     blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     serviceId: "online-fitness-coaching",
     tier: "growth",
     introduction: "Includes weekly video sessions and progression tracking.",
-    price: 299,
+    price: 150,
     durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 299,
     blackOutDays: ["Thursday", "Friday"],
   },
   {
     serviceId: "online-fitness-coaching",
     tier: "scale",
     introduction: "Daily accountability, custom workouts, and nutrition sync.",
-    price: 599,
-    durationOfSession: 75,
+    price: 300,
+    durationOfSession: 90,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 599,
   },
-
   // Mobility Recovery
   {
     serviceId: "mobility-recovery",
     tier: "basic",
     introduction: "Learn self-guided stretching and foam rolling protocols.",
-    price: 99,
-    durationOfSession: 30,
+    price: 30,
+    durationOfSession: 60,
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 99,
     blackOutDays: ["Saturday", "Sunday", "Friday"],
   },
   {
     serviceId: "mobility-recovery",
     tier: "growth",
     introduction: "Includes video assessments and monthly mobility classes.",
-    price: 199,
-    durationOfSession: 45,
+    price: 60,
+    durationOfSession: 90,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 199,
     blackOutDays: ["Saturday", "Sunday"],
   },
   {
     serviceId: "mobility-recovery",
     tier: "scale",
     introduction: "Custom recovery plan with 1-on-1 mobility coaching.",
-    price: 399,
-    durationOfSession: 60,
+    price: 200,
+    durationOfSession: 120,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 399,
   },
-
   // Metabolic Optimization
   {
     serviceId: "metabolic-optimization",
     tier: "basic",
     introduction: "Receive macro guidance and baseline metabolic habits.",
-    price: 199,
+    price: 50,
     durationOfSession: 45,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 199,
     blackOutDays: ["Wednesday", "Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
@@ -373,12 +335,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Includes wearable device sync and custom tracking dashboard.",
-    price: 399,
+    price: 200,
     durationOfSession: 60,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 399,
     blackOutDays: ["Wednesday", "Thursday", "Friday"],
   },
   {
@@ -387,13 +348,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     introduction:
       "Advanced coaching with continuous glucose monitoring and bloodwork review.",
     price: 699,
-    durationOfSession: 75,
+    durationOfSession: 90,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 699,
   },
-
   // Group Classes
   {
     serviceId: "group-classes",
@@ -404,7 +363,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 49,
     blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
@@ -416,7 +374,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
     blackOutDays: ["Thursday", "Saturday", "Friday"],
   },
   {
@@ -428,9 +385,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 2,
     totalSessions: 8,
-    totalPrice: 199,
   },
-
   // Guided Meditation
   {
     serviceId: "guided-meditation",
@@ -442,7 +397,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 49,
   },
   {
     serviceId: "guided-meditation",
@@ -454,7 +408,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
   },
   {
     serviceId: "guided-meditation",
@@ -466,9 +419,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 2,
     totalSessions: 8,
-    totalPrice: 199,
   },
-
   // Neuroplasticity Coaching
   {
     serviceId: "neuroplasticity",
@@ -479,7 +430,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
   },
   {
     serviceId: "neuroplasticity",
@@ -490,7 +440,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 199,
   },
   {
     serviceId: "neuroplasticity",
@@ -501,9 +450,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 399,
   },
-
   // Therapy Sessions
   {
     serviceId: "therapy-sessions",
@@ -514,7 +461,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 149,
     blackOutDays: ["Tuesday", "Thursday", "Friday"],
   },
   {
@@ -526,7 +472,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 299,
     blackOutDays: ["Tuesday", "Thursday"],
   },
   {
@@ -539,9 +484,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 599,
   },
-
   // High-Functioning Anxiety Support
   {
     serviceId: "high-functioning-anxiety",
@@ -552,7 +495,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
   },
   {
     serviceId: "high-functioning-anxiety",
@@ -563,7 +505,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 199,
   },
   {
     serviceId: "high-functioning-anxiety",
@@ -574,9 +515,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 399,
   },
-
   // ADHD Lifestyle Alignment
   {
     serviceId: "adhd-lifestyle",
@@ -587,7 +526,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
     blackOutDays: ["Wednesday", "Thursday"],
   },
   {
@@ -599,7 +537,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 199,
     blackOutDays: ["Wednesday"],
   },
   {
@@ -611,9 +548,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 399,
   },
-
   // Trauma-Informed Regulation
   {
     serviceId: "trauma-informed-regulation",
@@ -625,7 +560,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
     blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
@@ -637,7 +571,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 199,
     blackOutDays: ["Thursday", "Sunday", "Friday"],
   },
   {
@@ -649,44 +582,39 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 399,
   },
-
   // Emotional Intelligence Expansion
   {
     serviceId: "emotional-intelligence",
     tier: "basic",
     introduction: "EQ assessments and daily mood tracking.",
-    price: 99,
+    price: 45,
     durationOfSession: 30,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 99,
     blackOutDays: ["Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
     serviceId: "emotional-intelligence",
     tier: "growth",
     introduction: "Bi-weekly EQ coaching and relationship skills development.",
-    price: 199,
+    price: 100,
     durationOfSession: 45,
     sessions: 6,
     sessionsPerWeek: 1,
     totalSessions: 6,
-    totalPrice: 199,
     blackOutDays: ["Sunday", "Friday"],
   },
   {
     serviceId: "emotional-intelligence",
     tier: "scale",
     introduction: "Deep-dive emotional rewiring and immersive coaching.",
-    price: 399,
+    price: 259,
     durationOfSession: 60,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 399,
   },
   // Team Workshops
   {
@@ -694,48 +622,43 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "basic",
     introduction:
       "Participate in a single virtual workshop on stress management or productivity.",
-    price: 299,
+    price: 159,
     durationOfSession: 60,
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 299,
   },
   {
     serviceId: "team-workshops",
     tier: "growth",
     introduction:
       "Access a monthly series of workshops with a wellness toolkit.",
-    price: 899,
+    price: 229,
     durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 899,
   },
   {
     serviceId: "team-workshops",
     tier: "scale",
     introduction: "Custom curriculum and 1-on-1 coaching for team members.",
-    price: 1999,
+    price: 499,
     durationOfSession: 90,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 1999,
   },
-
   // Burnout Prevention
   {
     serviceId: "burnout-prevention",
     tier: "basic",
     introduction: "Company-wide burnout assessment and resources.",
-    price: 499,
+    price: 799,
     durationOfSession: 60,
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 499,
   },
   {
     serviceId: "burnout-prevention",
@@ -746,7 +669,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 1499,
   },
   {
     serviceId: "burnout-prevention",
@@ -757,9 +679,7 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 2999,
   },
-
   // Executive Coaching
   {
     serviceId: "executive-coaching",
@@ -770,7 +690,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 1,
     sessionsPerWeek: 1,
     totalSessions: 1,
-    totalPrice: 999,
     blackOutDays: ["Monday", "Thursday", "Saturday", "Sunday", "Friday"],
   },
   {
@@ -782,7 +701,6 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 2999,
     blackOutDays: ["Monday", "Thursday", "Saturday"],
   },
   {
@@ -794,57 +712,50 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 5999,
   },
-
   // Tech Balance
   {
     serviceId: "tech-balance",
     tier: "basic",
     introduction: "Digital detox templates and notification control guide.",
-    price: 199,
+    price: 99,
     durationOfSession: 45,
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 199,
     blackOutDays: ["Monday", "Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     serviceId: "tech-balance",
     tier: "growth",
     introduction: "Device usage audit and ergonomic workstation checklist.",
-    price: 399,
+    price: 299,
     durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 399,
     blackOutDays: ["Tuesday", "Thursday", "Saturday", "Friday"],
   },
   {
     serviceId: "tech-balance",
     tier: "scale",
     introduction: "Custom digital wellness coaching and weekly tracking.",
-    price: 799,
+    price: 599,
     durationOfSession: 60,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 799,
   },
-
   // Travel Recovery
   {
     serviceId: "travel-recovery",
     tier: "basic",
     introduction: "Pre-flight and post-flight guides with hydration protocol.",
-    price: 299,
+    price: 199,
     durationOfSession: 45,
     sessions: 2,
     sessionsPerWeek: 1,
     totalSessions: 2,
-    totalPrice: 299,
     blackOutDays: ["Tuesday", "Wednesday", "Sunday", "Friday"],
   },
   {
@@ -852,12 +763,11 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "growth",
     introduction:
       "Personalized travel recovery supplements and stretch sequences.",
-    price: 599,
+    price: 399,
     durationOfSession: 60,
     sessions: 4,
     sessionsPerWeek: 1,
     totalSessions: 4,
-    totalPrice: 599,
     blackOutDays: ["Tuesday", "Thursday", "Saturday"],
   },
   {
@@ -865,11 +775,10 @@ export const serviceTierInformation: ServiceTierInformation[] = [
     tier: "scale",
     introduction:
       "Global timezone syncing strategy and bio-adaptive plan with coaching.",
-    price: 999,
+    price: 499,
     durationOfSession: 90,
     sessions: 8,
     sessionsPerWeek: 1,
     totalSessions: 8,
-    totalPrice: 999,
   },
 ];
