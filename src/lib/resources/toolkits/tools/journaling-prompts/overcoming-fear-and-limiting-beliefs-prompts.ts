@@ -167,5 +167,60 @@ export const overcomingFearAndLimitingBeliefsPrompts: JournalPrompts[] = [
     ],
     Icon: IoChatbubble,
   },
+  {
+    prompt:
+      "What is one fear I’ve been avoiding, and what would it look like to face it head-on?",
+    ideas: [
+      "Reflect on a fear that has been holding you back from pursuing something important.",
+      "What is the worst-case scenario if you face this fear, and how likely is it to happen?",
+      "What steps can you take today, however small, to challenge this fear?",
+      "How would confronting this fear empower you and help you grow?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What limiting belief about myself have I been holding onto, and how can I reframe it?",
+    ideas: [
+      "Identify a belief that has been restricting your potential (e.g., ‘I’m not good enough,’ ‘I’ll never succeed,’ etc.).",
+      "How has this belief affected your choices and behavior?",
+      "What is a more empowering belief you can adopt that will help you move forward?",
+      "What evidence can you gather to challenge the limiting belief and reinforce the new, positive belief?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "When did I first develop this fear or limiting belief, and how has it shaped my life?",
+    ideas: [
+      "Reflect on the origin of this fear or belief — when did it start and what triggered it?",
+      "How has this belief or fear influenced your decisions and actions in your personal and professional life?",
+      "How has this belief impacted your self-esteem and confidence?",
+      "What would your life look like if you no longer held onto this belief or fear?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What is the worst thing that could happen if I let go of this limiting belief or fear?",
+    ideas: [
+      "Reflect on the consequences of continuing to hold onto this limiting belief or fear.",
+      "What might happen if you chose to release this belief? Would it bring positive change?",
+      "How does holding onto the fear or belief serve you, and what would happen if you allowed it to fade away?",
+      "Is there a deeper fear you are protecting yourself from by holding onto this limiting belief?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I shift my perspective to view fear as an opportunity for growth?",
+    ideas: [
+      "Write about how fear can be reframed as a signal for growth, rather than a roadblock.",
+      "What new opportunities might arise from facing fear head-on?",
+      "How can embracing fear lead to greater self-awareness and personal development?",
+      "What is one small action you can take today to begin seeing fear as a stepping stone toward growth?",
+    ],
+    Icon: IoChatbubble,
+  },
 ];
 export const journalingPromptsovercomingFearAndLimitingBeliefsPrompts = [];

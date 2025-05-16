@@ -40,6 +40,16 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
   },
   {
     prompt:
+      "What are some positive coping strategies I can use to manage stress effectively?",
+    ideas: [
+      "Reflect on healthy coping mechanisms that work for you, such as exercise, meditation, or creative outlets.",
+      "How can you identify which coping strategies resonate with you and incorporate them into your routine?",
+      "What role do positive coping strategies play in reducing stress and promoting well-being?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
       "When I feel overwhelmed, how can I break down tasks to make them feel more manageable?",
     ideas: [
       "Identify moments when you feel most overwhelmed and notice what tasks or responsibilities contribute to that feeling.",
@@ -64,6 +74,16 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "Think about your physical surroundings and how they impact your stress levels.",
       "What changes can you make to declutter or organize your space to foster calmness?",
       "How can you incorporate calming elements (e.g., plants, soothing colors, natural light) into your environment?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What self-care activities bring me the most relief from stress, and how can I prioritize them?",
+    ideas: [
+      "Reflect on the activities or practices that help you relax and unwind, such as taking a walk, meditating, or journaling.",
+      "How can you incorporate more of these stress-relieving activities into your weekly routine?",
+      "What role does self-care play in maintaining a balanced and stress-free life?",
     ],
     Icon: IoChatbubble,
   },
@@ -103,6 +123,16 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "Think about any relationships or work situations where you feel your boundaries are being pushed.",
       "What steps can you take to assertively communicate your needs and limits with others?",
       "How can setting these boundaries help you create more space for rest and reduce stress in your life?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What are my go-to stress-relief activities, and how can I make time for them?",
+    ideas: [
+      "Identify the activities that help you unwind and recharge, such as reading, exercising, or spending time with loved ones.",
+      "How can you prioritize these activities in your schedule to ensure you have time for self-care?",
+      "What small changes can you make to incorporate more of these stress-relief activities into your daily routine?",
     ],
     Icon: IoChatbubble,
   },
@@ -180,6 +210,56 @@ export const dealingWithStressPrompts: JournalPrompts[] = [
       "Reflect on how you've dealt with stress in the past and what worked well for you.",
       "What coping mechanisms, strategies, or tools have you learned over time that you can continue to use?",
       "How can you use these past lessons to handle future stressors with more confidence and calmness?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I cultivate a positive mindset to counteract stress and negativity?",
+    ideas: [
+      "Think about how your mindset influences your perception of stress and challenges.",
+      "What practices can you adopt to foster a more positive outlook, such as gratitude journaling or affirmations?",
+      "How can you shift your focus from stressors to opportunities for growth and learning?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What are my personal values, and how can aligning with them help reduce stress?",
+    ideas: [
+      "Reflect on your core values and how they guide your decisions and actions.",
+      "How can you prioritize activities and commitments that align with your values to create a more fulfilling life?",
+      "What steps can you take to ensure that your daily choices reflect your values, reducing stress and increasing satisfaction?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice self-compassion when I’m feeling stressed or overwhelmed?",
+    ideas: [
+      "Consider how you treat yourself during stressful times. Are you kind and understanding, or critical and harsh?",
+      "What does it mean to practice self-compassion, and how can you remind yourself to be gentle with yourself?",
+      "How can you cultivate a mindset of self-acceptance and understanding when facing stress?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What are some healthy coping mechanisms I can use to manage stress in my life?",
+    ideas: [
+      "Explore various coping strategies, such as exercise, meditation, or creative outlets.",
+      "How can you identify which coping mechanisms work best for you and incorporate them into your routine?",
+      "What role do healthy coping strategies play in reducing stress and promoting well-being?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice gratitude to shift my focus away from stress and negativity?",
+    ideas: [
+      "Reflect on the things you are grateful for in your life, even during stressful times.",
+      "How can you incorporate gratitude practices, such as journaling or sharing with others, into your daily routine?",
+      "What impact does practicing gratitude have on your overall well-being and stress levels?",
     ],
     Icon: IoChatbubble,
   },

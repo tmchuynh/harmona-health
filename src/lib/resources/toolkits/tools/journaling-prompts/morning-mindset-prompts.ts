@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const morningMindsetPrompts: JournalPrompts[] = [
@@ -12,6 +13,15 @@ export const morningMindsetPrompts: JournalPrompts[] = [
     Icon: IoChatbubble,
   },
   {
+    prompt: "What is one thing I can do today to nurture my well-being?",
+    ideas: [
+      "How can I prioritize self-care in my routine today, whether it's through exercise, meditation, or simply taking a break?",
+      "What small act of kindness can I show myself today to promote self-love and compassion?",
+      "How can I create space for joy and relaxation in my day?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "What is my intention for today?",
     ideas: [
       "What is one thing I want to achieve today that aligns with my long-term goals?",
@@ -19,6 +29,17 @@ export const morningMindsetPrompts: JournalPrompts[] = [
       "What personal values do I want to emphasize today, such as kindness, patience, or perseverance?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely content.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of contentment—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of contentment?",
+      "How can you recreate this sense of contentment in your daily life?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
