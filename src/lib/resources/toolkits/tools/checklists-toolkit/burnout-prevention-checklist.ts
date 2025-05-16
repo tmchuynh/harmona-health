@@ -59,4 +59,13 @@ export const burnoutPreventionChecklist: string[] = [
   "Use relaxation techniques, such as progressive muscle relaxation or aromatherapy, to unwind after a busy day.",
   "Establish a work rhythm that aligns with your personal preferences and helps you maintain focus and productivity.",
   "Stay flexible with your plans—sometimes it's necessary to pivot or adjust your goals to reduce stress.",
+  "Practice gratitude by acknowledging the positive aspects of your life and the support you receive from others.",
+  "Engage in regular check-ins with yourself to assess your mental and emotional well-being.",
+  "Create a vision board or list of goals to remind yourself of what you want to achieve and stay motivated.",
+  "Limit your exposure to negative people or environments that drain your energy and contribute to burnout.",
+  "Seek out positive affirmations or motivational quotes to inspire and uplift you throughout the day.",
+  "Consider working with a coach or mentor to help you navigate challenges and stay focused on your goals.",
+  "Practice active listening in conversations to foster deeper connections and understanding with others.",
+  "Engage in regular self-reflection to identify areas of your life that may need adjustment or improvement.",
+  "Create a list of coping strategies that work for you and keep them handy for when you need them.",
 ];

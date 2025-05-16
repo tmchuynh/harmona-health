@@ -78,4 +78,12 @@ export const dailySelfCareChecklist: string[] = [
   "Focus on one task at a time rather than multitasking to reduce stress and increase efficiency.",
   "End your day with a mindful breathing exercise to calm your body and prepare for sleep.",
   "Reflect on your accomplishments at the end of the week and give yourself credit for your efforts.",
+  "Create a vision board or list of goals to visualize your aspirations and stay motivated.",
+  "Practice self-acceptance and embrace your unique qualities and strengths.",
+  "Engage in a digital detox for a day or weekend to recharge and reconnect with yourself.",
+  "Limit your exposure to negative news or social media that may contribute to stress.",
+  "Create a list of your favorite self-care activities and make time for them regularly.",
+  "Reflect on your emotional triggers and develop strategies to cope with them.",
+  "Practice self-advocacy by expressing your needs and boundaries to others.",
+  "Engage in a random act of kindness for a stranger to spread positivity and joy.",
 ];
