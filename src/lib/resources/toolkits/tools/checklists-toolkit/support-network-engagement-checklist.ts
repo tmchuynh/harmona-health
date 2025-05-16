@@ -45,4 +45,7 @@ export const supportNetworkEngagementChecklist: string[] = [
   "Be proactive about checking in on those who may need extra support during difficult times or life transitions.",
   "Maintain a balance between personal and professional support, ensuring that your network supports all areas of your life.",
   "Practice patience when developing new relationships, recognizing that trust and connection take time to build.",
+  "Engage in activities that promote teamwork and collaboration, enhancing your social skills.",
+  "Practice self-care to ensure you are emotionally available for others.",
+  "Be mindful of your body language and non-verbal cues when interacting with others.",
 ];

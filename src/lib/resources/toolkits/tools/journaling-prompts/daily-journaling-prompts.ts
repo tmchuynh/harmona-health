@@ -1,8 +1,7 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { BsMailboxFlag } from "react-icons/bs";
-import { FaBrain, FaHeart, FaSun } from "react-icons/fa";
+import { FaBrain, FaHeart, FaPenAlt, FaSun } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
-
 
 export const dailyJournalingPrompts: JournalPrompts[] = [
   {
@@ -32,6 +31,17 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     },
   },
   {
+    prompt: "Write about a time you felt completely inspired.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of inspiration—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of inspiration?",
+      "How can you recreate this sense of inspiration in your daily life?",
+    ],
+    Icon: FaPenAlt,
+  },
+  {
     prompt:
       "Write whatever comes to mind, even if it feels unrelated or disjointed. Allow your subconscious to guide the process.",
     ideas: [
@@ -50,6 +60,50 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
         "https://img.freepik.com/free-photo/unrecognisable-man-writing-notebook_23-2148422490.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
       ],
     },
+  },
+  {
+    prompt: "What does it mean to be emotionally authentic?",
+    ideas: [
+      "Describe a time you felt emotionally authentic.",
+      "What fears or beliefs come up when you think about authenticity?",
+      "How do you define emotional authenticity in your own words?",
+      "What are the benefits of being emotionally authentic?",
+      "What challenges or obstacles have you faced in being authentic?",
+      "How can you cultivate more authenticity in your daily life?",
+      "What role does self-acceptance play in emotional authenticity?",
+      "How can you support others in being more emotionally authentic?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I create a daily routine that supports my mental health and reduces stress?",
+    ideas: [
+      "Consider the elements of your daily routine that contribute to or alleviate stress.",
+      "What changes can you make to your routine to prioritize self-care, relaxation, and mindfulness?",
+      "How can you establish a consistent routine that promotes balance and well-being?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my top three priorities for the next week?",
+    ideas: [
+      "Identify the most important tasks or goals you want to focus on in the coming month.",
+      "How will these priorities align with your long-term vision and values?",
+      "What steps can you take to ensure you stay focused on these priorities?",
+      "How will you measure your progress and success in achieving these priorities?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What is one thing I am grateful for today?",
+    ideas: [
+      "Reflect on a specific person, experience, or aspect of your life that brings you joy.",
+      "How does this gratitude impact your overall well-being?",
+      "What can you do to express or share this gratitude with others?",
+      "How can you cultivate a habit of gratitude in your daily life?",
+    ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "Write about a time you felt truly connected to someone.",
@@ -146,6 +200,16 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     },
   },
   {
+    prompt: "What is one thing I can do today to step outside my comfort zone?",
+    ideas: [
+      "Identify a small challenge or risk you can take today.",
+      "How will this action help you grow or learn something new?",
+      "What fears or doubts might arise, and how can you address them?",
+      "Reflect on past experiences where stepping outside your comfort zone led to positive outcomes.",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "How do I want to be remembered?",
     ideas: [
       "Describe the legacy you’d like to leave behind.",
@@ -164,6 +228,16 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
         "https://img.freepik.com/free-photo/young-family-with-their-sons-home-having-fun_1303-20999.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&semt=ais_hybrid&w=740",
       ],
     },
+  },
+  {
+    prompt: "What is one thing I can do today to nurture my mental health?",
+    ideas: [
+      "Identify a self-care activity that brings you joy and relaxation.",
+      "How can you incorporate mindfulness or meditation into your day?",
+      "What boundaries can you set to protect your mental well-being?",
+      "Reflect on past experiences where prioritizing mental health led to positive outcomes.",
+    ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How am I feeling today, emotionally and physically?",
@@ -233,6 +307,24 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     },
   },
   {
+    prompt: "What is one thing I can do today to practice gratitude?",
+    ideas: [
+      "List three things I’m grateful for and why they matter to me.",
+      "How can I express my gratitude to someone in my life today?",
+      "What small moments of joy can I appreciate throughout the day?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What is one thing I can do today to connect with others?",
+    ideas: [
+      "How can I reach out to a friend or family member to strengthen our bond?",
+      "What small acts of kindness can I perform for someone today?",
+      "How can I engage in meaningful conversations with those around me?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "What is one thing I can do today to challenge myself?",
     ideas: [
       "What is one area of my comfort zone I can step outside of today?",
@@ -290,6 +382,15 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     Icon: IoChatbubble,
   },
   {
+    prompt: "What is one thing I can do today to support my mental health?",
+    ideas: [
+      "How can I take a break from technology or social media to recharge?",
+      "What activities help me relax and clear my mind?",
+      "How can I practice mindfulness or meditation today?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "What is my personal definition of success?",
     ideas: [
       "List the things that would make you feel truly successful.",
@@ -336,6 +437,16 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
     Icon: IoChatbubble,
   },
   {
+    prompt: "What is my biggest dream?",
+    ideas: [
+      "Describe your dream in detail, including how it makes you feel.",
+      "What steps can you take today to move closer to this dream?",
+      "How would achieving this dream change your life?",
+      "What fears or doubts do you need to address to pursue this dream?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "If I could live anywhere in the world, where would it be?",
     ideas: [
       "Write about the place and why it calls to you.",
@@ -368,6 +479,16 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "Why does this memory stand out to you?",
       "How has this memory shaped who you are today?",
       "What lessons or joy can you bring from this memory into your life now?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What is my biggest fear?",
+    ideas: [
+      "Write about the fear and how it affects your life.",
+      "What steps can you take to confront or overcome this fear?",
+      "How does this fear hold you back from living fully?",
+      "What would your life look like without this fear?",
     ],
     Icon: IoChatbubble,
   },
@@ -424,6 +545,26 @@ export const dailyJournalingPrompts: JournalPrompts[] = [
       "What steps could you take, no matter how small, to face this fear?",
       "Write about a time when you overcame a smaller fear and how it felt.",
       "How would your life improve if this fear no longer held you back?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What is my favorite way to express myself?",
+    ideas: [
+      "Write about the activities or hobbies that allow you to express your true self.",
+      "How do these forms of expression make you feel?",
+      "What new ways of expressing yourself would you like to explore?",
+      "How does self-expression contribute to your overall happiness?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What is my favorite way to unwind after a long day?",
+    ideas: [
+      "Describe the activities or rituals that help you relax.",
+      "How do these practices help you recharge and reset?",
+      "What can you do to make this unwinding process even more enjoyable?",
+      "How does unwinding contribute to your overall well-being?",
     ],
     Icon: IoChatbubble,
   },

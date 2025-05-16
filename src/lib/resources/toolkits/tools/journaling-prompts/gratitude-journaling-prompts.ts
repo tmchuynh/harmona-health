@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const gratitudeJournalingPrompts: JournalPrompts[] = [
@@ -21,6 +22,27 @@ export const gratitudeJournalingPrompts: JournalPrompts[] = [
       "What daily gratitude practices can you incorporate into your routine to support your emotional well-being?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What are some positive affirmations I can use to combat stress and promote self-acceptance?",
+    ideas: [
+      "Explore affirmations that resonate with you and help counter negative thoughts or stress.",
+      "How can you incorporate these affirmations into your daily life to promote a positive mindset?",
+      "What impact do positive affirmations have on your stress levels and overall well-being?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely grateful.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of gratitude—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of gratitude?",
+      "How can you recreate this sense of gratitude in your daily life?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "Write a letter to someone who has inspired you.",
