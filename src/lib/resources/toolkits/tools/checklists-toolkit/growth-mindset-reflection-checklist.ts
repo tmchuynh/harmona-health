@@ -44,4 +44,8 @@ export const growthMindsetReflectionChecklist: string[] = [
   "Reflect on how you view challenges. Do you see them as threats, or do you see them as opportunities to expand your abilities?",
   "Think about how you celebrate progress. How can you create a habit of acknowledging your growth, no matter how small the achievement?",
   "Consider the mindset shift that can turn obstacles into opportunities. How can you apply this shift to your current challenges?",
+  "Reflect on how you can use your unique experiences to inspire others on their growth journeys.",
+  "Think about how you can create a supportive environment for yourself and others to foster growth and resilience.",
+  "Consider how you can share your growth journey with others to inspire and motivate them.",
+  "Reflect on the importance of self-reflection in your growth process. How can you incorporate regular self-reflection into your routine?",
 ];

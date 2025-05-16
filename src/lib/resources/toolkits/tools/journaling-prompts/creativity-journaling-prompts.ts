@@ -392,25 +392,6 @@ export const creativityJournalingPrompts: JournalPrompts[] = [
     ],
     Icon: FaPenAlt,
   },
-  {
-    prompt: "Write about a time you felt completely out of your comfort zone.",
-    ideas: [
-      "What was the situation, and how did you feel going into it?",
-      "What challenges did you face, and how did you cope with them?",
-      "What did you learn about yourself during this experience?",
-      "How did this experience change your perspective on comfort zones?",
-      "Would you willingly put yourself in a similar situation again? Why or why not?",
-    ],
-    Icon: FaPenAlt,
-    gallery: {
-      data: [
-        "https://plus.unsplash.com/premium_photo-1664373232551-32575df6820a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1568527701620-6ea4ba2e2880?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1535365751156-45e3b6060cc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1533263470226-27d56346f62e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
-      ],
-    },
-  },
 ];
 
 export const journalingPromptscreativityJournalingPrompts = [];

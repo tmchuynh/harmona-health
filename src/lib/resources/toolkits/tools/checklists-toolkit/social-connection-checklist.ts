@@ -52,4 +52,8 @@ export const socialConnectionChecklist: string[] = [
   "Make regular effort to strengthen your emotional support system by nurturing meaningful connections.",
   "Create safe spaces for others to express themselves, offering compassion without judgment.",
   "Stay open to growth in your relationships, willing to adapt and change as needed.",
+  "Reflect on your social connections regularly, assessing which relationships uplift you and which may need reevaluation.",
+  "Engage in activities that promote teamwork and collaboration, enhancing your social skills.",
+  "Practice self-care to ensure you are emotionally available for others.",
+  "Be mindful of your body language and non-verbal cues when interacting with others.",
 ];

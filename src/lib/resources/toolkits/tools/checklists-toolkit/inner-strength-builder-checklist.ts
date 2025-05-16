@@ -39,4 +39,11 @@ export const innerStrengthBuilderChecklist: string[] = [
   "Name one way you show up for yourself daily.",
   "Write about a difficult conversation you’ve had and how it made you stronger.",
   "Identify one self-care ritual that makes you feel grounded and strong.",
+  "Reflect on how you’ve changed your perspective on a past challenge.",
+  "List three things you can do to nurture your inner strength this week.",
+  "Think of a time you felt truly at peace. What contributed to that feeling?",
+  "Write about a time you felt empowered to make a change in your life.",
+  "Identify a skill you want to develop and outline steps to achieve it.",
+  "Reflect on how you can use your strengths to help others in your community.",
+  "List three things you can do to practice self-compassion.",
 ];

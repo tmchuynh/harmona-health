@@ -41,4 +41,9 @@ export const healthySleepHygieneChecklist: string[] = [
   "Create a relaxing evening routine that calms your mind and signals to your body that it's time to unwind for the night.",
   "Make sure to allow enough time for quality sleep each night, as insufficient rest can have long-term effects on your health and well-being.",
   "If you experience persistent sleep problems, consider speaking with a healthcare professional or sleep specialist for guidance.",
+  "Avoid using sleep medications unless prescribed by a healthcare professional, as they can lead to dependency and other issues.",
+  "Reflect on your sleep patterns and make adjustments as needed to ensure you’re getting the restorative rest you need.",
+  "Consider using a sleep mask or blackout curtains to block out light and create a dark environment for better sleep.",
+  "Engage in calming activities before bed, such as reading a book, listening to soothing music, or practicing gentle yoga.",
+  "Practice gratitude by reflecting on positive moments from your day before going to sleep.",
 ];
