@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const therapeuticWritingPrompts: JournalPrompts[] = [
@@ -17,6 +18,17 @@ export const therapeuticWritingPrompts: JournalPrompts[] = [
       "What personal strengths did you discover while navigating this challenge?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely at peace.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of peace—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of peace?",
+      "How can you recreate this sense of peace in your daily life?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt:

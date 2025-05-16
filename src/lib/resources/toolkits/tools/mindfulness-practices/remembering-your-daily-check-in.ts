@@ -508,14 +508,249 @@ export const rememberingYourDailyCheckIn: Activity[] = [
             "Acknowledge your micro-wins with a smile or a moment of gratitude.",
         },
         details: [
-          "This can be a small treat, a moment of self-praise, or simply a smile.",
-          "This reinforces the importance of emotional awareness.",
+          "This can be a small treat, a moment of self-praise, or simply a smile. ",
+          "This reinforces the importance of emotional awareness. ",
         ],
-        note: "This reinforces the importance of emotional awareness.",
+        note: "This reinforces the importance of emotional awareness. ",
       },
     ],
     frequency: "Daily (evening recommended)",
     conclusion:
-      "Micro-wins reflections reinforce the truth that growth is happening every day, even in the smallest actions.",
+      "Micro-wins reflections reinforce the truth that growth is happening every day, even in the smallest actions. They help you build a positive mindset and resilience over time.",
+  },
+  {
+    title: "Mindful Transitions",
+    introduction:
+      "Mindful transitions are intentional moments of awareness between activities. They help you shift your focus and energy, creating a sense of closure and readiness for what’s next. This practice reduces stress and enhances productivity by allowing you to reset your mind and body.",
+    useCases: [
+      "To create a clear boundary between tasks or activities",
+      "To reduce stress during busy days",
+      "To enhance focus and productivity",
+    ],
+    approximateTime: "1–2 minutes",
+    steps: [
+      {
+        step: {
+          title: "Pause and Breathe",
+          description:
+            "Take a few deep breaths to center yourself. Close your eyes if comfortable.",
+        },
+        note: "This helps you tune into your internal state.",
+      },
+      {
+        step: {
+          title: "Reflect on the Transition",
+          description:
+            "Consider what you’re transitioning from and to. What do you need to let go of?",
+        },
+        note: "This helps you understand your emotional landscape.",
+      },
+      {
+        step: {
+          title: "Set an Intention",
+          description: "Set a clear intention for the next activity or task.",
+        },
+        details: [
+          "What do you want to focus on? How do you want to feel?",
+          "This helps you align your actions with your goals.",
+        ],
+        note: "This helps you align your actions with your goals.",
+      },
+      {
+        step: {
+          title: "Take a Moment",
+          description:
+            "Take a moment to acknowledge the transition. Smile or take a deep breath.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Repeat as Needed",
+          description:
+            "Make this a regular practice between tasks or activities.",
+        },
+        note: "This helps you track your emotional trends and growth.",
+      },
+      {
+        step: {
+          title: "Reflect on the Transition",
+          description:
+            "At the end of the day, reflect on how mindful transitions impacted your day.",
+        },
+        details: [
+          "What worked well? What could be improved?",
+          "How did this practice affect your focus and productivity?",
+        ],
+        note: "This helps you understand your emotional landscape.",
+      },
+    ],
+    frequency: "As needed throughout the day",
+    conclusion:
+      "Mindful transitions create space for clarity, focus, and intentionality in your daily life. They help you navigate change with grace and resilience. ",
+  },
+  {
+    title: "Weekly Review",
+    introduction:
+      "A weekly review is a reflective practice to assess your week’s progress, challenges, and growth. It allows you to celebrate achievements, identify areas for improvement, and set intentions for the upcoming week. This habit fosters self-awareness and continuous learning.",
+    useCases: [
+      "To reflect on emotional patterns over the week",
+      "To celebrate achievements and set intentions",
+      "As part of a journaling or gratitude routine",
+    ],
+    approximateTime: "10–15 minutes",
+    steps: [
+      {
+        step: {
+          title: "Find a Quiet Space",
+          description: "Choose a comfortable, quiet space to sit or lie down.",
+        },
+        note: "This helps you tune into your internal state.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Week",
+          description:
+            "Think about your week. What went well? What challenges did you face?",
+        },
+        note: "This helps you understand your emotional landscape.",
+      },
+      {
+        step: {
+          title: "Identify Emotions",
+          description:
+            "Name any emotions you felt this week. Were they positive, negative, or neutral?",
+        },
+        details: [
+          "Acknowledge these feelings as valid. This is about awareness, not fixing anything.",
+          "Are there any patterns you notice? What triggered these emotions? How did you respond?",
+          "What would you do differently? do the same? What did you learn?",
+          "What are you proud of? What are you grateful for?",
+          "What are you holding onto? What are you letting go of?",
+          "What are you ready to release? forgive?",
+          "What are you ready to embrace? accept? acknowledge? respect?",
+          "What are you ready to celebrate? What are you ready to honor?",
+          "What are you ready to cherish? appreciate? treasure? value? love?",
+        ],
+        note: "This is about awareness, not fixing anything.",
+      },
+      {
+        step: {
+          title: "Celebrate Small Wins",
+          description:
+            "Acknowledge any small victories or moments of joy from the week.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Set Intentions for Next Week",
+          description:
+            "Based on your reflection, set one or two intentions for next week.",
+        },
+        note: "This helps you align your actions with your goals.",
+      },
+      {
+        step: {
+          title: "Record It",
+          description:
+            "Write down your weekly review in a journal or app for tracking.",
+        },
+        note: "This creates a simple record of your progress.",
+      },
+      {
+        step: {
+          title: "Repeat Weekly",
+          description:
+            "Make this a weekly ritual to build self-awareness over time.",
+        },
+        note: "This helps you track your emotional trends and growth.",
+      },
+    ],
+    frequency: "Once weekly (preferably Sunday)",
+    conclusion:
+      "Weekly reviews provide closure and clarity. They foster self-compassion and continuous learning by reviewing your week with intention.",
+  },
+  {
+    title: "Monthly Reflection",
+    introduction:
+      "A monthly reflection is a deeper dive into your emotional landscape. It allows you to assess your month’s progress, challenges, and growth. This practice fosters self-awareness and continuous learning. It helps you celebrate achievements and set intentions for the upcoming month.",
+    useCases: [
+      "To reflect on emotional patterns over the month",
+      "To celebrate achievements and set intentions",
+      "As part of a journaling or gratitude routine",
+    ],
+    approximateTime: "15–20 minutes",
+    steps: [
+      {
+        step: {
+          title: "Find a Quiet Space",
+          description: "Choose a comfortable, quiet space to sit or lie down.",
+        },
+        note: "This helps you tune into your internal state.",
+      },
+      {
+        step: {
+          title: "Reflect on Your Month",
+          description:
+            "Think about your month. What went well? What challenges did you face?",
+        },
+        note: "This helps you understand your emotional landscape.",
+      },
+      {
+        step: {
+          title: "Identify Emotions",
+          description:
+            "Name any emotions you felt this month. Were they positive, negative, or neutral?",
+        },
+        details: [
+          "Acknowledge these feelings as valid. This is about awareness, not fixing anything.",
+          "Are there any patterns you notice? What triggered these emotions? How did you respond?",
+          "What would you do differently? do the same? What did you learn?",
+          "What are you proud of? What are you grateful for?",
+          "What are you holding onto? What are you letting go of?",
+          "What are you ready to release? forgive?",
+          "What are you ready to embrace? accept? acknowledge? respect?",
+          "What are you ready to celebrate? What are you ready to honor?",
+          "What are you ready to cherish? appreciate? treasure? value? love?",
+        ],
+        note: "This is about awareness, not fixing anything.",
+      },
+      {
+        step: {
+          title: "Celebrate Small Wins",
+          description:
+            "Acknowledge any small victories or moments of joy from the month.",
+        },
+        note: "This reinforces the importance of emotional awareness.",
+      },
+      {
+        step: {
+          title: "Set Intentions for Next Month",
+          description:
+            "Based on your reflection, set one or two intentions for next month.",
+        },
+        note: "This helps you align your actions with your goals.",
+      },
+      {
+        step: {
+          title: "Record It",
+          description:
+            "Write down your monthly reflection in a journal or app for tracking.",
+        },
+        note: "This creates a simple record of your progress.",
+      },
+      {
+        step: {
+          title: "Repeat Monthly",
+          description:
+            "Make this a monthly ritual to build self-awareness over time.",
+        },
+        note: "This helps you track your emotional trends and growth.",
+      },
+    ],
+    frequency: "Once monthly (preferably at the end of the month)",
+    conclusion:
+      "Monthly reflections provide closure and clarity. They foster self-compassion and continuous learning by reviewing your month with intention.",
   },
 ];
