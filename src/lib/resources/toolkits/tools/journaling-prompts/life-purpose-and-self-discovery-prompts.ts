@@ -23,12 +23,36 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
     Icon: IoChatbubble,
   },
   {
+    prompt: "What are my core values?",
+    ideas: [
+      "List the values that are most important to you and why.",
+      "How do these values influence your decisions and actions?",
+      "What would you like to do to align your life more closely with these values?",
+      "How can you express these values in your daily life?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "What do I value most in life?",
     ideas: [
       "List your core values (e.g., honesty, freedom, creativity, connection).",
       "How do these values show up in your decisions and actions?",
       "What would your life look like if you lived in total alignment with these values?",
       "How can you strengthen these values in your daily life?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally free?",
+    ideas: [
+      "Describe a time you felt emotionally free.",
+      "What qualities or traits do you associate with emotional freedom?",
+      "How do you define emotional freedom in your own words?",
+      "What are the benefits of being emotionally free?",
+      "What challenges or obstacles have you faced in achieving emotional freedom?",
+      "How can you cultivate more emotional freedom in your daily life?",
+      "What role does self-acceptance play in emotional freedom?",
+      "How can you support others in finding their emotional freedom?",
     ],
     Icon: IoChatbubble,
   },
@@ -163,6 +187,56 @@ export const lifePurposeAndSelfDiscoveryPrompts: JournalPrompts[] = [
       "What areas of your life do you feel called to examine or understand more deeply?",
       "How can you create space for this self-discovery journey?",
       "What questions do you need to ask yourself to uncover new insights?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be true to myself?",
+    ideas: [
+      "Write about the importance of authenticity in your life.",
+      "How do you define being true to yourself, and what does it look like in practice?",
+      "What challenges do you face in staying true to yourself?",
+      "How can you cultivate more authenticity in your relationships and choices?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my dreams for the future?",
+    ideas: [
+      "Write about your hopes and aspirations for the next 5, 10, or 20 years.",
+      "What do you want to achieve personally, professionally, and spiritually?",
+      "How can you break these dreams down into actionable steps?",
+      "What fears or doubts do you need to address to pursue these dreams?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does self-acceptance mean to me?",
+    ideas: [
+      "Write about your current relationship with self-acceptance.",
+      "How do you define self-acceptance, and what does it look like in practice?",
+      "What barriers do you face in accepting yourself fully?",
+      "How can you cultivate more self-acceptance in your daily life?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to live authentically?",
+    ideas: [
+      "Write about the importance of authenticity in your life.",
+      "How do you define living authentically, and what does it look like in practice?",
+      "What challenges do you face in staying true to yourself?",
+      "How can you cultivate more authenticity in your relationships and choices?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be true to myself?",
+    ideas: [
+      "Write about the importance of authenticity in your life.",
+      "How do you define being true to yourself, and what does it look like in practice?",
+      "What challenges do you face in staying true to yourself?",
+      "How can you cultivate more authenticity in your relationships and choices?",
     ],
     Icon: IoChatbubble,
   },

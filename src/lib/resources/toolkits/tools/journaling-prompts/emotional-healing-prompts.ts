@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const emotionalHealingPrompts: JournalPrompts[] = [
@@ -20,6 +21,27 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "What emotions (shame, guilt, regret) are tied to these past actions, and how can you release them?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What does it mean to me to be emotionally vulnerable, and how can I embrace that?",
+    ideas: [
+      "Reflect on the fears or judgments that prevent you from being emotionally vulnerable with others.",
+      "What might it feel like to share your true emotions with others, even when it feels uncomfortable?",
+      "How can embracing vulnerability strengthen your relationships and facilitate emotional healing?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely free.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of freedom—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of freedom?",
+      "How can you recreate this sense of freedom in your daily life?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
@@ -48,6 +70,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "Think about situations or people that trigger anger or frustration within you.",
       "How can you reframe or shift your perspective on these situations to prevent anger from taking hold?",
       "What healthy coping strategies (e.g., physical exercise, assertive communication) can you use to release these emotions?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice self-compassion when I’m feeling overwhelmed or stressed?",
+    ideas: [
+      "Think about moments when you’ve felt overwhelmed and how you responded to yourself.",
+      "What self-compassionate practices (e.g., deep breathing, positive affirmations) can you use to soothe yourself during stressful times?",
+      "How can you remind yourself that it’s okay to feel overwhelmed and that you deserve kindness in those moments?",
     ],
     Icon: IoChatbubble,
   },
@@ -101,6 +133,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
   },
   {
     prompt:
+      "How can I transform my sadness into a catalyst for emotional growth?",
+    ideas: [
+      "Think about how sadness has led to personal insights or changes in your life.",
+      "What strengths have you discovered within yourself through the process of sadness and healing?",
+      "How can you shift your perspective to see sadness as a stepping stone to emotional growth?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
       "What can I do to heal from past heartbreak, and how can I open myself up to love again?",
     ideas: [
       "Reflect on the emotional wounds caused by past heartbreaks or lost relationships.",
@@ -116,6 +158,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "Identify any recurring negative thoughts or patterns that keep you stuck in a cycle of rumination.",
       "What tools (e.g., mindfulness, cognitive reframing, journaling) can you use to shift your thinking and create space for peace?",
       "How can you practice being present in the moment and let go of thoughts that no longer serve you?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice gratitude to shift my emotional state and cultivate positivity?",
+    ideas: [
+      "Reflect on the things you are grateful for in your life, no matter how small.",
+      "How can you incorporate gratitude practices (e.g., gratitude journaling, expressing thanks) into your daily routine?",
+      "What positive emotions arise when you focus on gratitude, and how can they help shift your emotional state?",
     ],
     Icon: IoChatbubble,
   },
@@ -170,6 +222,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
     Icon: IoChatbubble,
   },
   {
+    prompt:
+      "How can I navigate feelings of loneliness and build a stronger connection with myself?",
+    ideas: [
+      "Reflect on times when you have felt isolated or disconnected from others.",
+      "How can you use self-compassion and mindfulness to connect with yourself during lonely moments?",
+      "What practices (e.g., journaling, creative expression) can help you cultivate self-love and reduce feelings of loneliness?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
     prompt: "How does my emotional pain serve as a teacher in my life?",
     ideas: [
       "Reflect on how emotional pain has taught you valuable lessons about yourself, others, or life.",
@@ -184,6 +246,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "How can I create a balance between productivity and rest today?",
       "How can I ensure I’m nurturing both my work life and personal well-being?",
       "What boundaries can I set to maintain balance throughout the day?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice emotional boundaries and protect my energy in my relationships?",
+    ideas: [
+      "Think about emotional boundaries you've struggled to set with others, and how they impact your emotional health.",
+      "What steps can you take to establish clear emotional boundaries in relationships, work, or family?",
+      "How can protecting your energy allow you to nurture your emotional well-being and practice self-care?",
     ],
     Icon: IoChatbubble,
   },
@@ -203,6 +275,16 @@ export const emotionalHealingPrompts: JournalPrompts[] = [
       "Reflect on what emotional safety looks like in your relationships and environments.",
       "How can you cultivate emotional safety for yourself and others through open communication and trust?",
       "What steps can you take to create a safe space for vulnerability and emotional expression?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I practice self-compassion when I’m feeling overwhelmed or stressed?",
+    ideas: [
+      "Think about moments when you’ve felt overwhelmed and how you responded to yourself.",
+      "What self-compassionate practices (e.g., deep breathing, positive affirmations) can you use to soothe yourself during stressful times?",
+      "How can you remind yourself that it’s okay to feel overwhelmed and that you deserve kindness in those moments?",
     ],
     Icon: IoChatbubble,
   },

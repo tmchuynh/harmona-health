@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const expressiveWritingPrompts: JournalPrompts[] = [
@@ -78,6 +79,47 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "How does your body respond when you’re avoiding emotional pain?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely lost or confused.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What challenges did you face, and how did you cope with them?",
+      "What did you learn about yourself during this experience?",
+      "How did this experience change your perspective on confusion or uncertainty?",
+      "Would you approach a similar situation differently now? Why or why not?",
+    ],
+    Icon: FaPenAlt,
+  },
+  {
+    prompt: "Write about a time you felt completely out of your comfort zone.",
+    ideas: [
+      "What was the situation, and how did you feel going into it?",
+      "What challenges did you face, and how did you cope with them?",
+      "What did you learn about yourself during this experience?",
+      "How did this experience change your perspective on comfort zones?",
+      "Would you willingly put yourself in a similar situation again? Why or why not?",
+    ],
+    Icon: FaPenAlt,
+    gallery: {
+      data: [
+        "https://plus.unsplash.com/premium_photo-1664373232551-32575df6820a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1568527701620-6ea4ba2e2880?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1535365751156-45e3b6060cc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1533263470226-27d56346f62e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGNvbWZvcnR8ZW58MHx8MHx8fDA%3D",
+      ],
+    },
+  },
+  {
+    prompt: "Write about a time you felt truly connected to someone.",
+    ideas: [
+      "What was the situation, and how did you feel during this connection?",
+      "What made this connection special or unique?",
+      "How did this connection impact your relationship with the person?",
+      "What did you learn about yourself through this connection?",
+      "How can you cultivate more connections like this in your life?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt: "What parts of myself do I still struggle to accept?",
@@ -167,6 +209,90 @@ export const expressiveWritingPrompts: JournalPrompts[] = [
       "What relationships changed as a result of your emotional progress?",
       "What are you proud of yourself for learning or unlearning?",
       "How can you celebrate or honor this emotional growth?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally vulnerable?",
+    ideas: [
+      "Describe a time you felt emotionally vulnerable.",
+      "What fears or beliefs come up when you think about vulnerability?",
+      "How do you define emotional vulnerability in your own words?",
+      "What are the benefits of being vulnerable with others?",
+      "What are the risks or challenges of being vulnerable?",
+      "How can you create a safe space for vulnerability in your life?",
+      "What role does trust play in your ability to be vulnerable?",
+      "How can you practice vulnerability in small ways today?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally aware?",
+    ideas: [
+      "Describe a time you felt emotionally aware.",
+      "What qualities or traits do you associate with emotional awareness?",
+      "How do you define emotional awareness in your own words?",
+      "What are the benefits of being emotionally aware?",
+      "What challenges or obstacles have you faced in being aware of your emotions?",
+      "How can you cultivate more emotional awareness in your daily life?",
+      "What role does mindfulness play in emotional awareness?",
+      "How can you support others in becoming more emotionally aware?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally intelligent?",
+    ideas: [
+      "Describe a time you demonstrated emotional intelligence.",
+      "What qualities or traits do you associate with emotional intelligence?",
+      "How do you define emotional intelligence in your own words?",
+      "What are the benefits of being emotionally intelligent?",
+      "What challenges or obstacles have you faced in being emotionally intelligent?",
+      "How can you cultivate more emotional intelligence in your daily life?",
+      "What role does empathy play in emotional intelligence?",
+      "How can you support others in developing their emotional intelligence?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally balanced?",
+    ideas: [
+      "Describe a time you felt emotionally balanced.",
+      "What qualities or traits do you associate with emotional balance?",
+      "How do you define emotional balance in your own words?",
+      "What are the benefits of being emotionally balanced?",
+      "What challenges or obstacles have you faced in achieving emotional balance?",
+      "How can you cultivate more emotional balance in your daily life?",
+      "What role does self-care play in emotional balance?",
+      "How can you support others in finding their emotional balance?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally grounded?",
+    ideas: [
+      "Describe a time you felt emotionally grounded.",
+      "What qualities or traits do you associate with emotional grounding?",
+      "How do you define emotional grounding in your own words?",
+      "What are the benefits of being emotionally grounded?",
+      "What challenges or obstacles have you faced in being emotionally grounded?",
+      "How can you cultivate more emotional grounding in your daily life?",
+      "What role does mindfulness play in emotional grounding?",
+      "How can you support others in becoming more emotionally grounded?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally connected?",
+    ideas: [
+      "Describe a time you felt emotionally connected to someone.",
+      "What qualities or traits do you associate with emotional connection?",
+      "How do you define emotional connection in your own words?",
+      "What are the benefits of being emotionally connected?",
+      "What challenges or obstacles have you faced in forming emotional connections?",
+      "How can you cultivate more emotional connection in your daily life?",
+      "What role does vulnerability play in emotional connection?",
+      "How can you support others in building their emotional connections?",
     ],
     Icon: IoChatbubble,
   },

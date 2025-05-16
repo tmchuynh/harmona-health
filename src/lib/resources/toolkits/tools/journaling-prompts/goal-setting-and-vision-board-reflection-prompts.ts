@@ -1,10 +1,9 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
 import { BsBriefcaseFill } from "react-icons/bs";
+import { FaPenAlt } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
 import { IoIosBowtie } from "react-icons/io";
 import { IoChatbubble } from "react-icons/io5";
-
-
 
 export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
   {
@@ -32,6 +31,37 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
         "https://plus.unsplash.com/premium_photo-1661292112163-2710d94d6c5f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmV3JTIwY2FyfGVufDB8fDB8fHww",
       ],
     },
+  },
+  {
+    prompt: "Write about a time you felt completely fulfilled.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What contributed to this sense of fulfillment—environment, people, or mindset?",
+      "How did this experience impact your overall well-being?",
+      "What did you learn about yourself during this moment of fulfillment?",
+      "How can you recreate this sense of fulfillment in your daily life?",
+    ],
+    Icon: FaPenAlt,
+  },
+  {
+    prompt:
+      "What are my long-term goals, and how can I break them down into manageable steps to reduce stress?",
+    ideas: [
+      "Identify your long-term goals and aspirations, both personally and professionally.",
+      "How can you break these goals down into smaller, achievable steps to make them feel less overwhelming?",
+      "What strategies can you use to stay focused and motivated as you work toward your long-term goals?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I cultivate a sense of purpose to reduce stress and increase fulfillment?",
+    ideas: [
+      "Reflect on your passions, interests, and values that give your life meaning.",
+      "How can you align your daily activities with your sense of purpose to reduce stress?",
+      "What steps can you take to pursue your passions and create a more fulfilling life?",
+    ],
+    Icon: IoChatbubble,
   },
   {
     prompt: "How do I envision my ideal life 5 years from now?",
@@ -449,6 +479,66 @@ export const goalSettingAndVisionBoardReflectionPrompts: JournalPrompts[] = [
       "How do your goals contribute to the kind of legacy you want to build?",
       "What actions will you take to ensure that your legacy aligns with your values?",
       "How can you begin building this legacy today?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does my ideal work environment look like?",
+    ideas: [
+      "Describe the physical and emotional aspects of your ideal workspace.",
+      "How does this environment support your productivity, creativity, and well-being?",
+      "What changes can you make in your current workspace to create a more positive atmosphere?",
+      "How can you cultivate a sense of community and collaboration in your work environment?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my top three priorities for the next month?",
+    ideas: [
+      "Identify the most important tasks or goals you want to focus on in the coming month.",
+      "How will these priorities align with your long-term vision and values?",
+      "What steps can you take to ensure you stay focused on these priorities?",
+      "How will you measure your progress and success in achieving these priorities?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does my ideal work-life balance look like?",
+    ideas: [
+      "Describe how you envision balancing your professional and personal life.",
+      "What boundaries do you need to set to maintain this balance?",
+      "How can you prioritize self-care and well-being in your daily routine?",
+      "What small changes can you make today to create a healthier work-life balance?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my top three goals for the next month?",
+    ideas: [
+      "Identify the most important tasks or goals you want to focus on in the coming month.",
+      "How will these priorities align with your long-term vision and values?",
+      "What steps can you take to ensure you stay focused on these priorities?",
+      "How will you measure your progress and success in achieving these priorities?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my top three goals for the next year?",
+    ideas: [
+      "Identify the most important tasks or goals you want to focus on in the coming year.",
+      "How will these priorities align with your long-term vision and values?",
+      "What steps can you take to ensure you stay focused on these priorities?",
+      "How will you measure your progress and success in achieving these priorities?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "What are my top three goals for the next five years?",
+    ideas: [
+      "Identify the most important tasks or goals you want to focus on in the coming five years.",
+      "How will these priorities align with your long-term vision and values?",
+      "What steps can you take to ensure you stay focused on these priorities?",
+      "How will you measure your progress and success in achieving these priorities?",
     ],
     Icon: IoChatbubble,
   },
