@@ -60,4 +60,6 @@ export const positiveThinkingChecklist: string[] = [
   "Shift from a problem-oriented mindset to a solution-oriented one, focusing on what you can do to improve the situation.",
   "Take a step back during moments of stress, breathe deeply, and remind yourself of the positive resources available to you.",
   "Finally, acknowledge the power of choice, knowing that you can choose to focus on positivity, resilience, and growth every day.",
+  "Engage in acts of kindness, both toward yourself and others, to foster a sense of connection and positivity.",
+  "Reflect on your values and how they align with your goals, ensuring that your actions are in harmony with what matters most to you.",
 ];

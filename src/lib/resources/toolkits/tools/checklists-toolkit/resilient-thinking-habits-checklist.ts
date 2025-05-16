@@ -55,4 +55,6 @@ export const resilientThinkingHabitsChecklist: string[] = [
   "Incorporate deep breathing exercises into your daily routine to help reduce stress and improve focus.",
   "Revisit and redefine your goals as necessary, ensuring they align with your changing values and circumstances.",
   "Embrace the process of healing and growth, knowing that setbacks do not define you but strengthen you in the long run.",
+  "Practice active listening in conversations, as it fosters connection and understanding with others.",
+  "Engage in community activities or volunteer work to foster a sense of belonging and purpose.",
 ];

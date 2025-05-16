@@ -58,4 +58,8 @@ export const mindfulnessPracticeChecklist: string[] = [
   "Dedicate time for a mindfulness practice before sleep, using deep breathing or body relaxation techniques to prepare your body and mind for rest.",
   "Practice mindfulness by observing your thoughts as they arise, and gently let them pass without attaching meaning or judgment to them.",
   "Commit to trying one new mindfulness technique each week, whether it's mindful breathing, mindful walking, or body scan meditation, to expand your practice.",
+  "Practice self-kindness by treating yourself with compassion and understanding, especially during difficult moments or when facing challenges.",
+  "Reflect on your mindfulness journey regularly, noting your progress, challenges, and areas for growth in your practice.",
+  "Engage in a mindful gratitude practice by writing down three things you appreciate about yourself or your life each day.",
+  "Use mindfulness to cultivate a sense of curiosity about your thoughts and feelings, approaching them with an open and non-judgmental attitude.",
 ];

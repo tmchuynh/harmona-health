@@ -51,4 +51,7 @@ export const stressBufferChecklist: string[] = [
   "Be mindful of your body’s stress signals, like tight shoulders or shallow breathing, and take steps to address them.",
   "Say no to unnecessary commitments that drain your energy and increase your stress levels.",
   "Cultivate resilience by reminding yourself of past challenges you've overcome successfully.",
+  "Practice self-reflection to identify your stress triggers and develop strategies to cope with them.",
+  "Engage in community service or volunteer work to foster a sense of purpose and connection.",
+  "Create a list of stress-relief activities that you can turn to when feeling overwhelmed.",
 ];
