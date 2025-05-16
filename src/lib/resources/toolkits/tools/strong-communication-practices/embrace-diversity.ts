@@ -4,13 +4,13 @@ export const embraceDiversity: CommunicationTools[] = [
   {
     title: "Fostering Inclusive Language",
     description:
-      "Inclusive language creates a welcoming space for people of all backgrounds by acknowledging differences respectfully and avoiding marginalizing terms. It’s essential to be aware of the language we use and how it can impact others.",
+      "Inclusive language creates a welcoming space for people of all backgrounds by acknowledging differences respectfully and avoiding marginalizing terms. It’s essential to be aware of the language we use and how it can impact others. This will help create a more inclusive environment. ",
     items: {
       item: [
         {
           title: "Using Gender-Neutral Language",
           description:
-            "Avoid assumptions about gender by using terms that include everyone, especially in public or written communication. This helps create a more inclusive environment. It also respects individuals' identities and avoids reinforcing stereotypes. This will help create a more inclusive environment.",
+            "Avoid assumptions about gender by using terms that include everyone, especially in public or written communication. This helps create a more inclusive environment. It also respects individuals' identities and avoids reinforcing stereotypes. This will help create a more inclusive environment. ",
           examples: [
             "Saying 'they' instead of 'he' or 'she'",
             "Using 'everyone' or 'folks' instead of 'guys'",
@@ -24,7 +24,7 @@ export const embraceDiversity: CommunicationTools[] = [
         {
           title: "Respecting Identity Terms",
           description:
-            "Honor how individuals self-identify, especially in relation to race, ethnicity, gender, and ability. This shows respect and understanding of their experiences. It also helps to avoid stereotypes and assumptions.",
+            "Honor how individuals self-identify, especially in relation to race, ethnicity, gender, and ability. This shows respect and understanding of their experiences. This will help create a more inclusive environment.",
           examples: [
             "Asking for and using correct pronouns",
             "Avoiding outdated or offensive terms",
@@ -36,11 +36,41 @@ export const embraceDiversity: CommunicationTools[] = [
         {
           title: "Removing Cultural Biases",
           description:
-            "Be mindful of assumptions or metaphors rooted in a specific cultural worldview that may exclude or confuse others. This helps to create a more inclusive environment. It also helps to avoid stereotypes and assumptions.",
+            "Be mindful of assumptions or metaphors rooted in a specific cultural worldview that may exclude or confuse others. This helps to create a more inclusive environment.",
           examples: [
             "Avoiding idioms that don’t translate universally",
             "Using plain, accessible language over slang",
             "Recognizing and avoiding stereotypes",
+          ],
+        },
+        {
+          title: "Avoiding Ableist Language",
+          description:
+            "Be cautious of language that may unintentionally demean or marginalize individuals with disabilities. This helps to create a more inclusive environment.",
+          examples: [
+            "Avoiding terms like 'crazy' or 'lame' as insults",
+            "Using 'person with a disability' instead of 'disabled person'",
+            "Recognizing that not all disabilities are visible",
+          ],
+        },
+        {
+          title: "Encouraging Inclusive Dialogue",
+          description:
+            "Create an environment where everyone feels comfortable sharing their perspectives and experiences. This helps to create a more inclusive environment.",
+          examples: [
+            "Using open-ended questions to invite discussion",
+            "Encouraging diverse viewpoints in conversations",
+            "Creating safe spaces for dialogue about identity and experience",
+          ],
+        },
+        {
+          title: "Being Open to Feedback",
+          description:
+            "Be receptive to feedback about your language and communication style. This helps to create a more inclusive environment.",
+          examples: [
+            "Asking for input on how to improve communication",
+            "Being willing to adjust language based on feedback",
+            "Recognizing that language evolves over time",
           ],
         },
       ],
@@ -86,6 +116,26 @@ export const embraceDiversity: CommunicationTools[] = [
             "Offering flexible options that accommodate varied needs",
           ],
         },
+        {
+          title: "Encouraging Diverse Storytelling",
+          description:
+            "Invite individuals to share their unique experiences and perspectives to enrich group understanding. ",
+          examples: [
+            "Creating platforms for storytelling (e.g., blogs, podcasts)",
+            "Hosting events that celebrate diverse cultures and histories",
+            "Encouraging team members to share personal stories in meetings",
+          ],
+        },
+        {
+          title: "Fostering a Culture of Curiosity",
+          description:
+            "Encourage team members to ask questions and learn about each other’s backgrounds and experiences. ",
+          examples: [
+            "Creating opportunities for informal conversations",
+            "Hosting cultural exchange events or workshops",
+            "Encouraging team members to share their cultural traditions",
+          ],
+        },
       ],
     },
     image:
@@ -94,7 +144,7 @@ export const embraceDiversity: CommunicationTools[] = [
   {
     title: "Cross-Cultural Competence",
     description:
-      "Intercultural understanding improves communication and builds trust by recognizing values, norms, and communication styles across cultures. This fosters a culture of respect and collaboration. It also helps to avoid stereotypes and assumptions. This will help create a more inclusive environment.",
+      "Intercultural understanding improves communication and builds trust by recognizing values, norms, and communication styles across cultures. This fosters a culture of respect and collaboration. This will help create a more inclusive environment.",
     items: {
       item: [
         {
@@ -129,6 +179,38 @@ export const embraceDiversity: CommunicationTools[] = [
             "Using visuals to support multilingual understanding ",
             "Offering translation or interpretation support",
             "Being mindful of time zones and scheduling",
+          ],
+        },
+        {
+          title: "Building Cultural Awareness",
+          description:
+            "Educate yourself about the cultures represented in your team or organization to foster understanding and respect. ",
+          examples: [
+            "Participating in cultural competency training",
+            "Reading books or articles about different cultures",
+            "Attending cultural events or celebrations",
+            "Encouraging team members to share their cultural backgrounds",
+          ],
+        },
+        {
+          title: "Encouraging Open Dialogue",
+          description:
+            "Create a safe space for discussing cultural differences and addressing misunderstandings. ",
+          examples: [
+            "Using team-building exercises to explore cultural differences",
+            "Facilitating discussions about cultural norms and values",
+            "Encouraging team members to share their experiences and perspectives",
+          ],
+        },
+        {
+          title: "Recognizing Implicit Bias",
+          description:
+            "Acknowledge and address your own biases to improve cross-cultural interactions. ",
+          examples: [
+            "Reflecting on your assumptions and stereotypes",
+            "Seeking feedback from diverse colleagues",
+            "Engaging in self-education about bias and privilege",
+            "Participating in implicit bias training or workshops",
           ],
         },
       ],
@@ -193,6 +275,76 @@ export const embraceDiversity: CommunicationTools[] = [
             "Engaging in discussions with diverse colleagues",
           ],
         },
+        {
+          title: "Building Relationships",
+          description:
+            "Foster connections with individuals from diverse backgrounds to enhance understanding and collaboration. ",
+          examples: [
+            "Participating in cross-cultural team-building activities",
+            "Engaging in mentorship programs with diverse participants",
+            "Attending networking events focused on diversity and inclusion",
+          ],
+        },
+        {
+          title: "Practicing Empathy",
+          description:
+            "Put yourself in others' shoes to understand their experiences and perspectives. ",
+          examples: [
+            "Using empathy mapping exercises",
+            "Encouraging team members to share personal stories",
+            "Practicing perspective-taking in discussions",
+          ],
+        },
+        {
+          title: "Recognizing Privilege",
+          description:
+            "Acknowledge your own privileges and how they may impact your interactions with others. ",
+          examples: [
+            "Reflecting on your own experiences and biases",
+            "Engaging in discussions about privilege and power dynamics",
+            "Seeking feedback from diverse colleagues",
+          ],
+        },
+        {
+          title: "Encouraging Vulnerability",
+          description:
+            "Create an environment where individuals feel safe to share their vulnerabilities and experiences. ",
+          examples: [
+            "Modeling vulnerability in your own communication",
+            "Encouraging team members to share their challenges",
+            "Creating a culture of support and understanding",
+          ],
+        },
+        {
+          title: "Building Trust",
+          description:
+            "Foster trust within teams by being transparent, reliable, and respectful. ",
+          examples: [
+            "Following through on commitments",
+            "Being open and honest in communication",
+            "Encouraging feedback and collaboration",
+          ],
+        },
+        {
+          title: "Practicing Gratitude",
+          description:
+            "Express appreciation for the diverse contributions of team members. ",
+          examples: [
+            "Recognizing individual achievements in team meetings",
+            "Sending thank-you notes or messages of appreciation",
+            "Celebrating team successes together",
+          ],
+        },
+        {
+          title: "Encouraging Reflection",
+          description:
+            "Encourage individuals to reflect on their own experiences and biases to enhance understanding. ",
+          examples: [
+            "Using journaling or self-reflection exercises",
+            "Facilitating group discussions on personal experiences",
+            "Encouraging feedback on communication styles",
+          ],
+        },
       ],
     },
     image:
@@ -242,6 +394,46 @@ export const embraceDiversity: CommunicationTools[] = [
             "Partnering with local schools for mentorship programs",
             "Supporting community events that celebrate diversity",
             "Engaging in corporate social responsibility initiatives focused on inclusion",
+          ],
+        },
+        {
+          title: "Creating Inclusive Spaces",
+          description:
+            "Design physical and virtual spaces that are welcoming and accessible to all individuals.",
+          examples: [
+            "Ensuring meeting rooms are accessible to individuals with disabilities",
+            "Using inclusive imagery and language in marketing materials",
+            "Creating virtual platforms that support diverse communication styles",
+          ],
+        },
+        {
+          title: "Encouraging Employee Resource Groups (ERGs)",
+          description:
+            "Support the formation of ERGs to provide a platform for underrepresented groups to connect and advocate for their needs.",
+          examples: [
+            "Providing resources and funding for ERGs",
+            "Encouraging participation in ERG events",
+            "Recognizing the contributions of ERGs within the organization",
+          ],
+        },
+        {
+          title: "Promoting Work-Life Balance",
+          description:
+            "Encourage policies and practices that support work-life balance for all employees.",
+          examples: [
+            "Offering flexible work hours or remote work options",
+            "Providing resources for mental health and well-being",
+            "Encouraging time off for self-care and family needs",
+          ],
+        },
+        {
+          title: "Fostering a Culture of Respect",
+          description:
+            "Create an environment where all individuals are treated with respect and dignity.",
+          examples: [
+            "Establishing clear expectations for respectful behavior",
+            "Addressing disrespectful behavior promptly and effectively",
+            "Encouraging open dialogue about respect and inclusion",
           ],
         },
       ],
@@ -295,6 +487,36 @@ export const embraceDiversity: CommunicationTools[] = [
             "Highlighting contributions from all age groups in meetings and presentations.",
           ],
         },
+        {
+          title: "Creating Inclusive Workspaces",
+          description:
+            "Design physical and virtual environments that cater to the needs of all generations.",
+          examples: [
+            "Offering flexible workspaces that accommodate different working styles.",
+            "Providing technology training for older generations to enhance digital literacy.",
+            "Creating quiet spaces for focused work and collaborative areas for team projects.",
+          ],
+        },
+        {
+          title: "Encouraging Open Dialogue",
+          description:
+            "Foster a culture where employees feel comfortable discussing generational differences and sharing their perspectives.",
+          examples: [
+            "Hosting intergenerational workshops or discussions.",
+            "Encouraging team-building activities that promote understanding.",
+            "Creating anonymous feedback channels to address generational concerns.",
+          ],
+        },
+        {
+          title: "Recognizing and Celebrating Diversity",
+          description:
+            "Acknowledge and celebrate the unique contributions of each generation to create a sense of belonging.",
+          examples: [
+            "Highlighting generational achievements in company newsletters.",
+            "Celebrating milestones that reflect the diversity of the workforce.",
+            "Encouraging storytelling sessions where employees share their experiences.",
+          ],
+        },
       ],
     },
     image:
@@ -326,6 +548,66 @@ export const embraceDiversity: CommunicationTools[] = [
             "Encouraging learning rather than shaming",
           ],
         },
+        {
+          title: "Creating Safe Spaces for Discussion",
+          description:
+            "Encourage open dialogue about microaggressions to foster understanding and healing.",
+          examples: [
+            "Facilitating workshops on microaggressions",
+            "Creating anonymous reporting channels for concerns",
+            "Encouraging team members to share their experiences",
+          ],
+        },
+        {
+          title: "Promoting Allyship",
+          description:
+            "Support individuals who experience microaggressions by standing up for them and amplifying their voices.",
+          examples: [
+            "Using your privilege to advocate for others",
+            "Listening actively and validating experiences",
+            "Offering support in addressing microaggressions",
+          ],
+        },
+        {
+          title: "Educating Yourself and Others",
+          description:
+            "Commit to learning about microaggressions and their impact on marginalized communities.",
+          examples: [
+            "Reading books or articles on the topic",
+            "Participating in training sessions or workshops",
+            "Encouraging discussions about microaggressions in team settings",
+          ],
+        },
+        {
+          title: "Encouraging Self-Reflection",
+          description:
+            "Encourage individuals to reflect on their own biases and how they may contribute to microaggressions.",
+          examples: [
+            "Using self-assessment tools to identify biases",
+            "Facilitating discussions on personal experiences with microaggressions",
+            "Encouraging feedback from diverse colleagues",
+          ],
+        },
+        {
+          title: "Creating Inclusive Policies",
+          description:
+            "Implement policies that address microaggressions and promote a culture of respect and inclusion.",
+          examples: [
+            "Establishing clear guidelines for respectful communication",
+            "Providing resources for reporting microaggressions",
+            "Encouraging accountability for harmful behavior",
+          ],
+        },
+        {
+          title: "Recognizing Intersectionality",
+          description:
+            "Understand that individuals may experience multiple forms of microaggressions based on their intersecting identities.",
+          examples: [
+            "Acknowledging the unique experiences of individuals with multiple marginalized identities",
+            "Encouraging discussions about intersectionality in team settings",
+            "Promoting awareness of how different identities intersect in the workplace",
+          ],
+        },
       ],
     },
     image:
@@ -355,6 +637,46 @@ export const embraceDiversity: CommunicationTools[] = [
             "Focusing on clarity over 'correctness'",
             "Providing gentle guidance only when asked",
             "Being mindful of power dynamics in language",
+          ],
+        },
+        {
+          title: "Encouraging Code-Switching",
+          description:
+            "Recognize that individuals may adapt their language based on context and audience.",
+          examples: [
+            "Understanding that code-switching is a survival strategy for many",
+            "Creating spaces where individuals can express themselves authentically",
+            "Encouraging discussions about language and identity",
+          ],
+        },
+        {
+          title: "Supporting Multilingual Communication",
+          description:
+            "Provide resources and support for individuals who speak multiple languages.",
+          examples: [
+            "Offering translation services for important documents",
+            "Encouraging multilingual participation in meetings",
+            "Providing language learning resources for employees",
+          ],
+        },
+        {
+          title: "Creating Inclusive Language Policies",
+          description:
+            "Develop policies that promote linguistic diversity and inclusion in the workplace.",
+          examples: [
+            "Encouraging the use of preferred names and pronouns",
+            "Providing resources for language learning and development",
+            "Creating guidelines for respectful language use in communication",
+          ],
+        },
+        {
+          title: "Recognizing Language as Identity",
+          description:
+            "Understand that language is a key part of individual and cultural identity.",
+          examples: [
+            "Encouraging individuals to share their language backgrounds",
+            "Celebrating linguistic diversity in team settings",
+            "Promoting awareness of how language shapes identity and culture",
           ],
         },
       ],
@@ -459,6 +781,26 @@ export const embraceDiversity: CommunicationTools[] = [
             "Being explicit about deadlines and expectations",
           ],
         },
+        {
+          title: "Providing Visual Supports",
+          description:
+            "Use visual aids to enhance understanding and retention of information.",
+          examples: [
+            "Using charts, diagrams, or infographics",
+            "Providing written summaries of discussions",
+            "Incorporating color-coding for organization",
+          ],
+        },
+        {
+          title: "Encouraging Mindfulness and Self-Care",
+          description:
+            "Promote practices that support mental well-being and reduce stress.",
+          examples: [
+            "Encouraging breaks during long meetings",
+            "Offering resources for mindfulness practices",
+            "Creating a culture that values self-care and well-being",
+          ],
+        },
       ],
     },
     image:
@@ -510,6 +852,26 @@ export const embraceDiversity: CommunicationTools[] = [
             "Incorporating videos or infographics",
           ],
         },
+        {
+          title: "Being Patient and Understanding",
+          description:
+            "Recognize that language barriers can lead to misunderstandings and take time to resolve.",
+          examples: [
+            "Allowing extra time for responses",
+            "Avoiding interruptions during conversations",
+            "Practicing empathy and understanding in communication",
+          ],
+        },
+        {
+          title: "Encouraging Cultural Exchange",
+          description:
+            "Foster an environment where individuals can share their cultural backgrounds and experiences.",
+          examples: [
+            "Hosting cultural exchange events or workshops",
+            "Encouraging storytelling sessions about cultural experiences",
+            "Creating opportunities for cross-cultural collaboration",
+          ],
+        },
       ],
     },
     image:
@@ -549,6 +911,15 @@ export const embraceDiversity: CommunicationTools[] = [
             "Using 'I noticed' instead of 'You did wrong'",
             "Focusing on behaviors, not personal attributes",
             "Offering specific examples and suggestions for improvement",
+          ],
+        },
+        {
+          title: "Encouraging Self-Reflection",
+          description:
+            "Invite individuals to reflect on their own performance and areas for growth.",
+          examples: [
+            "Asking, 'What do you think went well?'",
+            "Encouraging self-assessment before formal reviews",
           ],
         },
       ],
@@ -704,6 +1075,26 @@ export const embraceDiversity: CommunicationTools[] = [
             "Encouraging respectful discussions about beliefs",
           ],
         },
+        {
+          title: "Encouraging Open Dialogue",
+          description:
+            "Foster an environment where individuals feel comfortable discussing their beliefs and practices.",
+          examples: [
+            "Creating forums for sharing experiences",
+            "Encouraging storytelling about cultural backgrounds",
+            "Promoting respectful discussions about spirituality",
+          ],
+        },
+        {
+          title: "Recognizing Intersectionality",
+          description:
+            "Understand that individuals may have multiple identities that intersect with their religious beliefs.",
+          examples: [
+            "Acknowledging the unique experiences of individuals with multiple identities",
+            "Encouraging discussions about intersectionality in team settings",
+            "Promoting awareness of how different identities intersect in the workplace",
+          ],
+        },
       ],
     },
     image:
@@ -763,6 +1154,26 @@ export const embraceDiversity: CommunicationTools[] = [
             "Conducting focus groups with diverse participants",
             "Using surveys to gather feedback on content",
             "Engaging in dialogue with community members",
+          ],
+        },
+        {
+          title: "Promoting Cultural Sensitivity",
+          description:
+            "Be aware of cultural differences and avoid appropriating or misrepresenting cultures.",
+          examples: [
+            "Researching cultural practices before representation",
+            "Avoiding stereotypes in storytelling",
+            "Engaging with cultural consultants when needed",
+          ],
+        },
+        {
+          title: "Celebrating Diversity in Messaging",
+          description:
+            "Highlight the richness of diverse experiences and perspectives in storytelling.",
+          examples: [
+            "Sharing stories that celebrate cultural heritage",
+            "Highlighting achievements from diverse communities",
+            "Encouraging storytelling that reflects a range of identities",
           ],
         },
       ],
