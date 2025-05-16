@@ -290,5 +290,54 @@ export const eveningReflectionAffirmations: AffirmationCards[][] = [
       frontImage:
         "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
     },
+    {
+      title: "Embracing Tomorrow",
+      description:
+        "I embrace the possibilities of tomorrow, knowing that each day is a new beginning.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Self-Compassion",
+      description:
+        "I offer myself compassion for any challenges faced today, knowing I am always learning.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Gratitude for the Journey",
+      description:
+        "I am grateful for my journey and all the experiences that have shaped me.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Mindful Reflection",
+      description:
+        "I reflect on my day mindfully, appreciating all that I’ve experienced and learned.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Releasing Tension",
+      description:
+        "I release all tension from my body and mind, allowing myself to relax completely.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Gratitude for the Day",
+      description:
+        "I am grateful for the lessons, challenges, and successes of today.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Embracing the Night",
+      description:
+        "I embrace the night with open arms, allowing myself to rest and rejuvenate.",
+      frontImage:
+        "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
   ],
 ];

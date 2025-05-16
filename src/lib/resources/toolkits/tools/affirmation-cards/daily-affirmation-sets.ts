@@ -645,6 +645,27 @@ export const dailyAffirmationSets: AffirmationCards[][] = [
       frontImage:
         "https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxuYXR1cmV8ZW58MHwxfDB8fHww",
     },
+    {
+      title: "Joyful Living",
+      description:
+        "I choose to live joyfully. I find happiness in the little things and celebrate life every day.",
+      frontImage:
+        "https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Emotional Freedom",
+      description:
+        "I release all negative emotions and embrace emotional freedom. I choose to feel good.",
+      frontImage:
+        "https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Self-Compassion",
+      description:
+        "I treat myself with the same compassion I would offer a friend. I am gentle and understanding with myself.",
+      frontImage:
+        "https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
   ],
   [
     {
@@ -714,6 +735,27 @@ export const dailyAffirmationSets: AffirmationCards[][] = [
       title: "Personal Empowerment",
       description:
         "I empower myself by taking responsibility for my life. I am the creator of my own story.",
+      frontImage:
+        "https://images.unsplash.com/photo-1495559493698-ae68846c94e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Living Authentically",
+      description:
+        "I live authentically and express my true self. I embrace my uniqueness and celebrate it.",
+      frontImage:
+        "https://images.unsplash.com/photo-1495559493698-ae68846c94e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Joyful Connections",
+      description:
+        "I cultivate joyful connections with others. I attract positive and uplifting relationships.",
+      frontImage:
+        "https://images.unsplash.com/photo-1495559493698-ae68846c94e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxuYXR1cmV8ZW58MHwxfDB8fHww",
+    },
+    {
+      title: "Emotional Intelligence",
+      description:
+        "I am aware of my emotions and manage them effectively. I respond to situations with clarity and calm.",
       frontImage:
         "https://images.unsplash.com/photo-1495559493698-ae68846c94e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg3fHxuYXR1cmV8ZW58MHwxfDB8fHww",
     },

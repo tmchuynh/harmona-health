@@ -463,4 +463,145 @@ export const cognitiveRestructuring: Activity[] = [
     approximateTime: "5–10 minutes",
     frequency: "As needed or during moments of distress",
   },
+  {
+    title: "Positive Affirmations",
+    introduction:
+      "Positive affirmations are short, powerful statements that can help you challenge and overcome negative thoughts. By repeating these affirmations, you can rewire your brain to focus on positive beliefs and self-acceptance.",
+    description:
+      "This technique involves creating and repeating positive statements that reflect your values, strengths, and aspirations. It helps counteract negative self-talk and promotes a more optimistic mindset.",
+    steps: [
+      {
+        step: {
+          title: "Identify Negative Thoughts",
+          description:
+            "Reflect on the negative thoughts or beliefs you want to challenge.",
+        },
+        note: "These could be related to self-worth, abilities, or future prospects.",
+      },
+      {
+        step: {
+          title: "Create Positive Affirmations",
+          description:
+            "Transform these negative thoughts into positive affirmations. Make them specific, present tense, and personal.",
+        },
+        note: "For example, change 'I am not good enough' to 'I am capable and worthy.'",
+      },
+      {
+        step: {
+          title: "Repeat the Affirmations",
+          description:
+            "Repeat the affirmations daily, ideally in front of a mirror or during meditation.",
+        },
+        note: "Say them with conviction and belief to reinforce their impact.",
+      },
+      {
+        step: {
+          title: "Visualize Success",
+          description:
+            "As you repeat the affirmations, visualize yourself embodying these positive beliefs.",
+        },
+        note: "This visualization enhances the effectiveness of the affirmations.",
+      },
+    ],
+    conclusion:
+      "Positive affirmations help shift your mindset from negativity to positivity. They promote self-acceptance and resilience by reinforcing empowering beliefs about yourself.",
+    afterThoughts:
+      "Incorporate positive affirmations into your daily routine for lasting change in your thought patterns and emotional well-being.",
+    approximateTime: "5–10 minutes",
+    frequency: "Daily or as needed",
+  },
+  {
+    title: "Gratitude Journaling",
+    introduction:
+      "Gratitude journaling is a cognitive restructuring technique that involves regularly writing down things you are grateful for. This practice helps shift your focus from negative thoughts to positive aspects of your life, promoting emotional well-being.",
+    description:
+      "By acknowledging and appreciating the good things in your life, you can counteract negative thinking patterns and cultivate a more optimistic mindset.",
+    steps: [
+      {
+        step: {
+          title: "Set Aside Time",
+          description:
+            "Choose a specific time each day or week to write in your gratitude journal.",
+        },
+        note: "Consistency is key to making this practice effective.",
+      },
+      {
+        step: {
+          title: "Write Down Three Things",
+          description:
+            "List three things you are grateful for. They can be big or small, specific or general.",
+        },
+        note: "Focus on the positive aspects of your life, no matter how minor they may seem.",
+      },
+      {
+        step: {
+          title: "Reflect on Each Item",
+          description:
+            "Take a moment to reflect on why you are grateful for each item on your list.",
+        },
+        note: "Consider how these things positively impact your life.",
+      },
+      {
+        step: {
+          title: "Express Gratitude",
+          description:
+            "If possible, express gratitude to someone who contributed to the positive experiences you've listed.",
+        },
+        note: "This can enhance feelings of connection and positivity.",
+      },
+    ],
+    conclusion:
+      "Gratitude journaling helps reframe negative thoughts by focusing on the positive aspects of life. It promotes emotional resilience and enhances overall well-being.",
+    afterThoughts:
+      "Incorporate gratitude journaling into your daily routine to foster a more positive mindset and improve emotional health.",
+    approximateTime: "5–10 minutes",
+    frequency: "Daily or weekly",
+  },
+  {
+    title: "Visualization Techniques",
+    introduction:
+      "Visualization techniques involve creating mental images of positive outcomes or experiences. This cognitive restructuring tool helps you reframe negative thoughts by focusing on desired goals and aspirations.",
+    description:
+      "By visualizing success, happiness, or positive experiences, you can shift your mindset from negativity to optimism. This technique enhances motivation and emotional well-being.",
+    steps: [
+      {
+        step: {
+          title: "Find a Quiet Space",
+          description:
+            "Choose a quiet space where you can relax and focus without distractions.",
+        },
+        note: "Take a few deep breaths to center yourself.",
+      },
+      {
+        step: {
+          title: "Set an Intention",
+          description:
+            "Decide what you want to visualize. It could be a goal, a positive experience, or a desired outcome.",
+        },
+        note: "Be specific about what you want to achieve or experience.",
+      },
+      {
+        step: {
+          title: "Create a Vivid Mental Image",
+          description:
+            "Close your eyes and create a detailed mental image of the desired outcome. Use all your senses to make it as vivid as possible.",
+        },
+        note: "Imagine how it feels, looks, sounds, and even smells.",
+      },
+      {
+        step: {
+          title: "Engage with the Visualization",
+          description:
+            "Immerse yourself in the visualization. Feel the emotions associated with achieving this outcome.",
+        },
+        note: "Allow yourself to experience the joy and satisfaction of success.",
+      },
+    ],
+    conclusion:
+      "Visualization techniques help reframe negative thoughts by focusing on positive outcomes. They enhance motivation and emotional resilience by promoting a growth mindset.",
+    afterThoughts:
+      "Incorporate visualization into your daily routine to reinforce positive thinking and goal achievement.",
+    approximateTime: "10–15 minutes",
+    frequency: "As needed or during goal-setting sessions",
+  },
 ];
