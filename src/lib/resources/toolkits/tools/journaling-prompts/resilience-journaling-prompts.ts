@@ -1,4 +1,5 @@
 import { JournalPrompts } from "@/lib/interfaces&types/resources";
+import { FaPenAlt } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 
 export const resilienceJournalingPrompts: JournalPrompts[] = [
@@ -22,6 +23,31 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What mindset or beliefs help you stay resilient in the face of adversity?",
     ],
     Icon: IoChatbubble,
+  },
+  {
+    prompt: "What does it mean to be emotionally resilient?",
+    ideas: [
+      "Describe a time you demonstrated emotional resilience.",
+      "What qualities or traits do you associate with resilience?",
+      "How do you define emotional resilience in your own words?",
+      "What are the benefits of being emotionally resilient?",
+      "What challenges or obstacles have you overcome in your life?",
+      "How can you cultivate more resilience in your daily life?",
+      "What role does self-compassion play in emotional resilience?",
+      "How can you support others in building their emotional resilience?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt: "Write about a time you felt completely overwhelmed.",
+    ideas: [
+      "What was the situation, and how did you feel during this time?",
+      "What challenges did you face, and how did you cope with them?",
+      "What did you learn about yourself during this experience?",
+      "How did this experience change your perspective on overwhelm or stress?",
+      "Would you approach a similar situation differently now? Why or why not?",
+    ],
+    Icon: FaPenAlt,
   },
   {
     prompt:
@@ -202,6 +228,28 @@ export const resilienceJournalingPrompts: JournalPrompts[] = [
       "What are some funny moments or experiences that have brought you joy during tough times?",
       "How can you incorporate more humor into your daily life to lighten the mood and build resilience?",
       "What role does laughter play in your relationships, and how can it strengthen your connections with others?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "What does it mean to be resilient in the face of adversity, and how can I embody that?",
+    ideas: [
+      "Reflect on the qualities and traits that define resilience for you.",
+      "How can you cultivate these qualities in your daily life?",
+      "What role does self-awareness play in your ability to be resilient?",
+      "How can you inspire others to embrace resilience and face adversity with courage?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
+      "How can I set healthy boundaries to protect my emotional well-being and build resilience?",
+    ideas: [
+      "Reflect on the importance of setting boundaries in your life.",
+      "How can establishing healthy boundaries support your emotional resilience?",
+      "What steps can you take to communicate your boundaries effectively to others?",
+      "How can you prioritize your well-being while maintaining strong relationships?",
     ],
     Icon: IoChatbubble,
   },

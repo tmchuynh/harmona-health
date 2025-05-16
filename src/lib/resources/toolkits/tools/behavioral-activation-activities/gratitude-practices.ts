@@ -302,4 +302,45 @@ export const gratitudePractices: Activity[] = [
     approximateTime: "30-60 minutes",
     difficulty: "Beginner",
   },
+  {
+    title: "Gratitude Affirmations",
+    introduction:
+      "Gratitude affirmations are positive statements that express appreciation for the things you have in your life. They can help shift your mindset and cultivate a sense of gratitude.",
+    description:
+      "This practice encourages you to focus on the positive aspects of your life and reinforce feelings of gratitude. You can do this daily, weekly, or whenever you need a boost of positivity.",
+    steps: [
+      {
+        step: {
+          title: "Choose Your Affirmations",
+          description:
+            "Select a few gratitude affirmations that resonate with you. These can be simple statements like 'I am grateful for my health' or 'I appreciate the love in my life'.",
+        },
+      },
+      {
+        step: {
+          title: "Repeat Your Affirmations",
+          description:
+            "Find a quiet space where you won't be disturbed. Sit or lie down comfortably, closing your eyes if it feels comfortable. Repeat your affirmations out loud or silently to yourself.",
+        },
+      },
+      {
+        step: {
+          title: "Visualize Your Gratitudes",
+          description:
+            "As you repeat your affirmations, visualize the things you're grateful for. Imagine how they make you feel and the positive impact they have on your life.",
+        },
+      },
+      {
+        step: {
+          title: "Feel the Emotions",
+          description:
+            "Allow yourself to feel the emotions associated with your gratitude. This could be joy, contentment, or peace. Let these feelings wash over you as you repeat your affirmations.",
+        },
+      },
+    ],
+    conclusion:
+      "Gratitude affirmations are a powerful way to cultivate a sense of appreciation and improve your overall well-being. By regularly practicing gratitude affirmations, you can shift your focus from what you lack to what you have, fostering a greater sense of contentment and joy.",
+    approximateTime: "15-30 minutes",
+    difficulty: "Beginner",
+  },
 ];
