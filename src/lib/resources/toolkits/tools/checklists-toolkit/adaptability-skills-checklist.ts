@@ -72,4 +72,11 @@ export const adaptabilitySkillsChecklist: string[] = [
   "Reward yourself for adapting rather than controlling.",
   "Practice detaching from the outcome, and commit to the process.",
   "Let a challenge teach you something you didn’t expect.",
+  "Reflect on how your adaptability has positively impacted your life.",
+  "Identify a person who embodies adaptability and learn from their journey.",
+  "Practice gratitude for the changes that have shaped you.",
+  "Embrace the unknown as an opportunity for growth and discovery.",
+  "Recognize that adaptability is a skill that can be developed over time.",
+  "Celebrate your small wins in adapting to change.",
+  "Reflect on how your adaptability has positively impacted your life.",
 ];

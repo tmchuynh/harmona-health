@@ -41,4 +41,8 @@ export const groundingTechniquesChecklist: string[] = [
   "Use your imagination to count objects in your environment, like the number of chairs or windows in the room, to help bring you back to reality.",
   "Practice self-compassion, acknowledging that it’s okay to feel overwhelmed and offering yourself patience and understanding.",
   "Engage in a deep breathing exercise with a focus on lengthening your exhales, helping to calm your nervous system and reduce anxiety.",
+  "Use a grounding app or guided meditation to help you focus on the present moment and reduce anxiety.",
+  "Create a grounding playlist of songs that help you feel calm and centered, and listen to it when you need to ground yourself.",
+  "Practice the '5-4-3-2-1' technique with a twist: name 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste.",
+  "Engage in a simple task, like folding laundry or organizing a drawer, to bring your focus back to the present moment and create a sense of accomplishment.",
 ];
