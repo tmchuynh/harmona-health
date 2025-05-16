@@ -659,4 +659,88 @@ export const calmingARacingMind: Activity[] = [
     conclusion:
       "Chanting or mantra repetition is a powerful way to anchor the mind and reduce stress. By focusing on sound and breath, this technique helps bring you into the present moment, creating clarity and calm.",
   },
+  {
+    title: "Mindful Walking",
+    introduction:
+      "Mindful walking is a simple yet effective practice that combines movement with mindfulness. By focusing on the sensations of walking, you can redirect your attention away from racing thoughts and into the present moment. This practice encourages awareness of your body, breath, and surroundings, creating a sense of calm and clarity. Mindful walking can be done anywhere, making it an accessible tool for reducing mental clutter.",
+    useCases: [
+      "When you need to clear your mind and refocus your thoughts",
+      "To incorporate movement into your mindfulness practice",
+      "When you want to connect with your body and surroundings",
+    ],
+    approximateTime: "10–20 minutes",
+    steps: [
+      {
+        step: {
+          title: "Find a quiet space to walk.",
+          description:
+            "Choose a location where you can walk comfortably without distractions (e.g., a park, garden, or quiet street).",
+        },
+        details: [
+          "Ensure you are in a safe environment for walking.",
+          "If possible, walk barefoot on grass or sand for a more grounding experience.",
+        ],
+        note: "If you can't access a natural setting, you can do this practice indoors.",
+      },
+      {
+        step: {
+          title: "Begin walking slowly and mindfully.",
+          description:
+            "Start walking at a slow, comfortable pace, paying attention to each step.",
+        },
+        details: [
+          "Notice the sensations in your feet as they make contact with the ground.",
+          "Feel the movement of your legs and the rhythm of your breath.",
+          "Allow your arms to swing naturally at your sides.",
+          "If you prefer, you can place your hands on your abdomen or heart to enhance the connection with your body.",
+        ],
+        note: "You can also choose to walk in a circle or along a path, depending on your preference.",
+      },
+      {
+        step: {
+          title: "Engage your senses.",
+          description:
+            "As you walk, pay attention to your surroundings and the sensations in your body.",
+        },
+        details: [
+          "Notice the colors, shapes, and sounds around you.",
+          "Feel the air on your skin and the ground beneath your feet.",
+          "Listen to the sounds of nature or the environment around you.",
+          "If you encounter any obstacles, notice how your body responds to navigate them.",
+          "If you feel comfortable, you can also close your eyes for a moment to enhance your other senses.",
+        ],
+        note: "If you prefer, you can also walk with a partner or in a group for added support.",
+      },
+      {
+        step: {
+          title: "Conclude the practice.",
+          description: "When you feel ready, slow down and come to a stop.",
+        },
+        details: [
+          "Take a moment to notice how you feel after the mindful walk.",
+          "Reflect on any shifts in your mental state or emotions.",
+          "Allow yourself to stand still for a moment, feeling the ground beneath you.",
+          "Take a few deep breaths to center yourself.",
+          "If you feel comfortable, you can also close your eyes for a moment to enhance your awareness.",
+        ],
+        note: "You can also take a moment to express gratitude for the experience.",
+      },
+      {
+        step: {
+          title: "Reflect on the experience.",
+          description:
+            "Consider how mindful walking affected your mental state and overall well-being.",
+        },
+        details: [
+          "Did you feel more relaxed or centered?",
+          "How did the practice of mindful walking impact your thoughts?",
+          "How can you incorporate this practice into your routine?",
+        ],
+        note: "You can also journal about your experience to reinforce the benefits.",
+      },
+    ],
+    frequency: "As needed, or regularly to deepen your mindfulness practice",
+    conclusion:
+      "Mindful walking is a powerful way to calm the mind and reconnect with your body. By focusing on the sensations of movement and your surroundings, you can create a sense of clarity and peace, making it an effective tool for reducing mental clutter.",
+  },
 ];

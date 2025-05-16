@@ -25,6 +25,16 @@ export const selfCompassionPrompts: JournalPrompts[] = [
   },
   {
     prompt:
+      "How can I practice self-care to recharge and reduce stress in my life?",
+    ideas: [
+      "Reflect on the self-care activities that help you relax and recharge.",
+      "What steps can you take to prioritize self-care in your daily routine?",
+      "How can practicing self-care contribute to your overall well-being and stress management?",
+    ],
+    Icon: IoChatbubble,
+  },
+  {
+    prompt:
       "When was the last time I was gentle with myself? What did that feel like?",
     ideas: [
       "Write about a time when you allowed yourself to be vulnerable and treated yourself with kindness.",
